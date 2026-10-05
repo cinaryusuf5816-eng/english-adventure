@@ -1,0 +1,1307 @@
+{
+  "generatedBy": "scripts/asset-manifest.mjs",
+  "count": 41,
+  "notes": [
+    "Style for all scenes: modern, bright children's picture-book illustration, 2D digital painting, rounded shapes, consistent characters (Mia, Sam, Pepper the cat, Ms. Rosa).",
+    "Character consistency: every scene used the character sheet (characters.jpg) as a reference image.",
+    "Images contain no English words or labels; all teaching text is HTML.",
+    "Images 1–16 were made with the first Canva connection. After a credit cool-down the user connected another Canva account (the user said: school account); images 17–23 were made there, with the character sheet uploaded as reference.",
+    "Every image was reviewed by eye (full size and contact sheet): target action visible, correct hand/object, no extra text, no broken anatomy found."
+  ],
+  "images": [
+    {
+      "key": "cover",
+      "files": [
+        {
+          "file": "site/assets/images/site/cover-lg.webp",
+          "bytes": 67008
+        },
+        {
+          "file": "site/assets/images/site/cover-sm.webp",
+          "bytes": 28298
+        }
+      ],
+      "original": "raw-images/site/cover.jpg",
+      "topic": "Main cover — Mystery Club room",
+      "altText": "Mia and Sam look at clues on a sunny desk. Pepper the cat sits with them.",
+      "usedOn": [
+        "Home (hero)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKWNAFVE",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Bright cosy mystery-club discovery room: bookshelf, desk lamp, magnifying glass, envelopes, golden keys; Mia with magnifying glass, Sam opening an envelope, Pepper on the desk. Warm, not scary. No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "characters",
+      "files": [
+        {
+          "file": "site/assets/images/site/characters-lg.webp",
+          "bytes": 37906
+        },
+        {
+          "file": "site/assets/images/site/characters-sm.webp",
+          "bytes": 16124
+        }
+      ],
+      "original": "raw-images/site/characters.jpg",
+      "topic": "Character sheet (Mia, Sam, Pepper)",
+      "altText": "Mia, Sam and Pepper the cat wave hello.",
+      "usedOn": [
+        "Home (Meet the club); reference for all other images"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKbpr47c (connection 1) / MAHXKvWI24E (uploaded copy, connection 2)",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Character reference sheet: Mia (warm brown skin, curly puffy ponytail, teal clip, mustard cardigan), Sam (freckles, auburn hair, teal hoodie, satchel), Pepper (grey tabby cat, teal collar). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "cover",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/week-01-cover-lg.webp",
+          "bytes": 62006
+        },
+        {
+          "file": "site/assets/images/week-01/week-01-cover-sm.webp",
+          "bytes": 26362
+        }
+      ],
+      "original": "raw-images/week-01/week-01-cover.jpg",
+      "topic": "Week 1 cover — daily routine clue board",
+      "altText": "Mia and Sam look at a board with small pictures of daily things.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Week page cover"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKa23Os0",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia and Sam at a cork board with picture cards of daily routines (alarm clock, breakfast bowl, toothbrush, school bag, football, book) linked with red string. No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "play-football",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/play-football-lg.webp",
+          "bytes": 82982
+        },
+        {
+          "file": "site/assets/images/week-01/play-football-sm.webp",
+          "bytes": 34930
+        }
+      ],
+      "original": "raw-images/week-01/play-football.jpg",
+      "topic": "play football (he)",
+      "altText": "Sam kicks a football in a green park.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Do you …?",
+        "Learn: Does he …?",
+        "Learn: Every day",
+        "Learn: He / she / it + doesn't",
+        "Learn: He / she / it + plays",
+        "Learn: I / you / we / they + play",
+        "Learn: I, you, he, she, it, we, they",
+        "Learn: What? Where? What time?",
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: dialogue",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKVE8wDU",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam kicks a football in a sunny park; ball clearly in front of his foot. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "read-a-book",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/read-a-book-lg.webp",
+          "bytes": 68118
+        },
+        {
+          "file": "site/assets/images/week-01/read-a-book-sm.webp",
+          "bytes": 26884
+        }
+      ],
+      "original": "raw-images/week-01/read-a-book.jpg",
+      "topic": "read a book (she)",
+      "altText": "Mia sits in an armchair and reads a book.",
+      "usedOn": [
+        "Learn: Do you …?",
+        "Learn: Does he …?",
+        "Learn: Every day",
+        "Learn: He / she / it + doesn't",
+        "Learn: He / she / it + plays",
+        "Learn: I / you / we / they + play",
+        "Learn: I, you, he, she, it, we, they",
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKdrDX-Q",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia reads an open picture book in an armchair; book clearly visible. Only Mia.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "watch-tv",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/watch-tv-lg.webp",
+          "bytes": 85658
+        },
+        {
+          "file": "site/assets/images/week-01/watch-tv-sm.webp",
+          "bytes": 36268
+        }
+      ],
+      "original": "raw-images/week-01/watch-tv.jpg",
+      "topic": "watch TV (he)",
+      "altText": "Sam sits on a sofa and watches TV.",
+      "usedOn": [
+        "Learn: Does he …?",
+        "Learn: He / she / it + doesn't",
+        "Learn: He / she / it + plays",
+        "Learn: I, you, he, she, it, we, they",
+        "Learn: plays, watches, goes, studies, has",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKda4QDY",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam on a sofa watching a TV that shows a cartoon fish, remote in hand. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "eat-apples",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/eat-apples-lg.webp",
+          "bytes": 69482
+        },
+        {
+          "file": "site/assets/images/week-01/eat-apples-sm.webp",
+          "bytes": 28842
+        }
+      ],
+      "original": "raw-images/week-01/eat-apples.jpg",
+      "topic": "eat apples (she)",
+      "altText": "Mia eats a red apple. A bowl of apples is on the table.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Do you …?",
+        "Learn: He / she / it + plays",
+        "Learn: I / you / we / they + don't",
+        "Learn: What? Where? What time?",
+        "Play: Picture Reveal",
+        "Practise: change",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKUMZduQ",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia bites a red apple; bowl of apples on the table. Only Mia.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "drink-water",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/drink-water-lg.webp",
+          "bytes": 69010
+        },
+        {
+          "file": "site/assets/images/week-01/drink-water-sm.webp",
+          "bytes": 28992
+        }
+      ],
+      "original": "raw-images/week-01/drink-water.jpg",
+      "topic": "drink water (he)",
+      "altText": "Sam drinks a glass of water in the kitchen.",
+      "usedOn": [
+        "Learn: Does he …?",
+        "Learn: Every day",
+        "Learn: He / she / it + plays",
+        "Learn: I / you / we / they + play",
+        "Learn: What? Where? What time?",
+        "Play: Picture Reveal",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: mcq",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKR6k23o",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam drinks water from a clear glass; jug on the table. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "go-to-school",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/go-to-school-lg.webp",
+          "bytes": 104078
+        },
+        {
+          "file": "site/assets/images/week-01/go-to-school-sm.webp",
+          "bytes": 44176
+        }
+      ],
+      "original": "raw-images/week-01/go-to-school.jpg",
+      "topic": "go to school (we / they)",
+      "altText": "Mia and Sam walk to school with their school bags.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Do you …?",
+        "Learn: Every day",
+        "Learn: I / you / we / they + don't",
+        "Learn: I / you / we / they + play",
+        "Learn: I, you, he, she, it, we, they",
+        "Learn: What? Where? What time?",
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Learn: plays, watches, goes, studies, has",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: dialogue",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKfnGEXI",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia and Sam walk to a school building with backpacks. No signs or text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "get-up",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/get-up-lg.webp",
+          "bytes": 61940
+        },
+        {
+          "file": "site/assets/images/week-01/get-up-sm.webp",
+          "bytes": 26268
+        }
+      ],
+      "original": "raw-images/week-01/get-up.jpg",
+      "topic": "get up (he)",
+      "altText": "Sam sits up in bed and stretches. An alarm clock is next to the bed.",
+      "usedOn": [
+        "Learn: Every day",
+        "Learn: I / you / we / they + don't",
+        "Learn: What? Where? What time?",
+        "Play: Picture Reveal",
+        "Practise: change",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKXOd0qU",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam sits up in bed and stretches, morning sun, alarm clock on the bedside table. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok — the clock face is decorative; times are shown in HTML"
+    },
+    {
+      "key": "have-breakfast",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/have-breakfast-lg.webp",
+          "bytes": 74630
+        },
+        {
+          "file": "site/assets/images/week-01/have-breakfast-sm.webp",
+          "bytes": 30810
+        }
+      ],
+      "original": "raw-images/week-01/have-breakfast.jpg",
+      "topic": "have breakfast (she)",
+      "altText": "Mia has breakfast: cereal, toast and orange juice.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Do you …?",
+        "Learn: Does he …?",
+        "Learn: Every day",
+        "Learn: He / she / it + doesn't",
+        "Learn: What? Where? What time?",
+        "Learn: plays, watches, goes, studies, has",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: dialogue",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Practise: reading",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKSdVGUM",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia at a kitchen table: cereal, toast, orange juice, spoon in hand. Only Mia.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "do-homework",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/do-homework-lg.webp",
+          "bytes": 71732
+        },
+        {
+          "file": "site/assets/images/week-01/do-homework-sm.webp",
+          "bytes": 29076
+        }
+      ],
+      "original": "raw-images/week-01/do-homework.jpg",
+      "topic": "do homework (he)",
+      "altText": "Sam writes in his notebook at a desk.",
+      "usedOn": [
+        "Learn: Does he …?",
+        "Learn: He / she / it + doesn't",
+        "Learn: He / she / it + plays",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Practise: reading",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKYLQJTg",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam writes in a notebook at a desk; school bag, lamp. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "brush-teeth",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/brush-teeth-lg.webp",
+          "bytes": 59154
+        },
+        {
+          "file": "site/assets/images/week-01/brush-teeth-sm.webp",
+          "bytes": 25218
+        }
+      ],
+      "original": "raw-images/week-01/brush-teeth.jpg",
+      "topic": "brush my/her teeth (she)",
+      "altText": "Mia brushes her teeth at the bathroom sink.",
+      "usedOn": [
+        "Learn: Do you …?",
+        "Learn: Every day",
+        "Learn: He / she / it + plays",
+        "Learn: plays, watches, goes, studies, has",
+        "Play: Picture Reveal",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKW9Kivc",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia brushes her teeth at a bathroom sink, toothbrush with foam, mirror. Only Mia.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "study-english",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/study-english-lg.webp",
+          "bytes": 75608
+        },
+        {
+          "file": "site/assets/images/week-01/study-english-sm.webp",
+          "bytes": 32688
+        }
+      ],
+      "original": "raw-images/week-01/study-english.jpg",
+      "topic": "study English (she)",
+      "altText": "Mia looks at a picture dictionary and wears headphones.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Do you …?",
+        "Learn: Does he …?",
+        "Learn: He / she / it + doesn't",
+        "Learn: I / you / we / they + play",
+        "Learn: What? Where? What time?",
+        "Learn: plays, watches, goes, studies, has",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: dialogue",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKQ-PkN0",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia with headphones points at a picture dictionary (apple, cat, sun pictures). No letters.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "like-cats",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/like-cats-lg.webp",
+          "bytes": 92384
+        },
+        {
+          "file": "site/assets/images/week-01/like-cats-sm.webp",
+          "bytes": 37496
+        }
+      ],
+      "original": "raw-images/week-01/like-cats.jpg",
+      "topic": "like cats (he)",
+      "altText": "Sam sits on a rug and hugs Pepper. Two more cats sit with him.",
+      "usedOn": [
+        "Learn: Do you …?",
+        "Learn: He / she / it + plays",
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak",
+        "Words"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKWdbQgg",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam on a rug hugs Pepper; two more cats with him; happy face.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "they-play-football",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/they-play-football-lg.webp",
+          "bytes": 107024
+        },
+        {
+          "file": "site/assets/images/week-01/they-play-football-sm.webp",
+          "bytes": 45040
+        }
+      ],
+      "original": "raw-images/week-01/they-play-football.jpg",
+      "topic": "they play football (group of four)",
+      "altText": "Four children run after a football on a school field.",
+      "usedOn": [
+        "Learn: Do you …?",
+        "Learn: I / you / we / they + play",
+        "Learn: I, you, he, she, it, we, they",
+        "Learn: What? Where? What time?",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKRtl3A4",
+      "canvaAccountConnection": "connection 1",
+      "generatedOn": "2026-10-05",
+      "prompt": "Four children (Mia, Sam, two diverse friends) run after one football on a school field.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "we-read",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/we-read-lg.webp",
+          "bytes": 80074
+        },
+        {
+          "file": "site/assets/images/week-01/we-read-sm.webp",
+          "bytes": 32096
+        }
+      ],
+      "original": "raw-images/week-01/we-read.jpg",
+      "topic": "we read / two people",
+      "altText": "Mia and Sam sit on a big cushion and read books. Pepper sleeps between them.",
+      "usedOn": [
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Practise: jumbled",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKlYScnk",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia and Sam read their own books on a big cushion; Pepper sleeps between them.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "pepper-drinks-water",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/pepper-drinks-water-lg.webp",
+          "bytes": 71070
+        },
+        {
+          "file": "site/assets/images/week-01/pepper-drinks-water-sm.webp",
+          "bytes": 29066
+        }
+      ],
+      "original": "raw-images/week-01/pepper-drinks-water.jpg",
+      "topic": "it drinks water (cat)",
+      "altText": "Pepper the cat drinks water from a blue bowl.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: Does he …?",
+        "Learn: He / she / it + plays",
+        "Learn: I, you, he, she, it, we, they",
+        "Play: Picture Reveal",
+        "Play: Question Door",
+        "Practise: change",
+        "Practise: clue cards (decide / dialogue)",
+        "Practise: fill",
+        "Practise: fix",
+        "Practise: jumbled",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKuUvwnM",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Pepper the cat drinks water from a blue bowl. No people.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "pepper-plays",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/pepper-plays-lg.webp",
+          "bytes": 97518
+        },
+        {
+          "file": "site/assets/images/week-01/pepper-plays-sm.webp",
+          "bytes": 39116
+        }
+      ],
+      "original": "raw-images/week-01/pepper-plays.jpg",
+      "topic": "it plays (cat)",
+      "altText": "Pepper the cat plays with a red ball of yarn.",
+      "usedOn": [
+        "Learn: He / she / it + doesn't",
+        "Learn: Yes, I do. / No, she doesn't.",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Practise: reading"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKrwigHE",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Pepper the cat plays with a red ball of yarn on a rug. No people.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "teacher-class",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/teacher-class-lg.webp",
+          "bytes": 74924
+        },
+        {
+          "file": "site/assets/images/week-01/teacher-class-sm.webp",
+          "bytes": 31830
+        }
+      ],
+      "original": "raw-images/week-01/teacher-class.jpg",
+      "topic": "helper character Ms. Rosa asks the class (Do you …?)",
+      "altText": "Ms. Rosa, the teacher, asks a question. Mia and Sam put their hands up.",
+      "usedOn": [
+        "Learn: Do you …?",
+        "Learn: Yes, I do. / No, she doesn't."
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKhFeW2w",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Teacher Ms. Rosa asks a question; Mia and Sam raise their hands; blank board.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "mia-plays-football",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/mia-plays-football-lg.webp",
+          "bytes": 79264
+        },
+        {
+          "file": "site/assets/images/week-01/mia-plays-football-sm.webp",
+          "bytes": 32886
+        }
+      ],
+      "original": "raw-images/week-01/mia-plays-football.jpg",
+      "topic": "she plays football (avoids gender stereotypes)",
+      "altText": "Mia kicks a football on a green field.",
+      "usedOn": [
+        "Practise: fix",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKl5hTto",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia kicks a football on a green field, confident. Only Mia.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "they-watch-tv",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/they-watch-tv-lg.webp",
+          "bytes": 76144
+        },
+        {
+          "file": "site/assets/images/week-01/they-watch-tv-sm.webp",
+          "bytes": 31014
+        }
+      ],
+      "original": "raw-images/week-01/they-watch-tv.jpg",
+      "topic": "they / we watch TV",
+      "altText": "Mia and Sam sit on a sofa and watch TV. Pepper sits with them.",
+      "usedOn": [
+        "Learn: +  −  ?",
+        "Learn: I / you / we / they + don't",
+        "Learn: I / you / we / they + play",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKgfGxqw",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Mia and Sam on a sofa watching TV (cartoon whale), Pepper on the sofa arm, evening.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "sam-reads",
+      "files": [
+        {
+          "file": "site/assets/images/week-01/sam-reads-lg.webp",
+          "bytes": 97768
+        },
+        {
+          "file": "site/assets/images/week-01/sam-reads-sm.webp",
+          "bytes": 39934
+        }
+      ],
+      "original": "raw-images/week-01/sam-reads.jpg",
+      "topic": "he reads (contrast with she reads)",
+      "altText": "Sam lies on a rug and reads a book.",
+      "usedOn": [
+        "Learn: +  −  ?"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKlXmYvg",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Sam lies on a rug and reads an open picture book. Only Sam.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "live-in-a-city",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/live-in-a-city-lg.webp",
+          "bytes": 105102
+        },
+        {
+          "file": "site/assets/images/book-unit1/live-in-a-city-sm.webp",
+          "bytes": 46062
+        }
+      ],
+      "original": "raw-images/book-unit1/live-in-a-city.jpg",
+      "topic": "Book word: live (Sam lives in a city)",
+      "altText": "Sam waves from the balcony of his home in a city.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKwjT9kk",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: live (Sam lives in a city). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "dance",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/dance-lg.webp",
+          "bytes": 65460
+        },
+        {
+          "file": "site/assets/images/book-unit1/dance-sm.webp",
+          "bytes": 28354
+        }
+      ],
+      "original": "raw-images/book-unit1/dance.jpg",
+      "topic": "Book word: dance (Mia and Ana)",
+      "altText": "Mia and Ana dance in the school hall.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK3cm-fs",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: dance (Mia and Ana). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "ride-a-bike",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/ride-a-bike-lg.webp",
+          "bytes": 106030
+        },
+        {
+          "file": "site/assets/images/book-unit1/ride-a-bike-sm.webp",
+          "bytes": 44936
+        }
+      ],
+      "original": "raw-images/book-unit1/ride-a-bike.jpg",
+      "topic": "Book word: ride a bike (Ana)",
+      "altText": "Ana rides a bike on a path to school.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: jumbled",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK8FURx4",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: ride a bike (Ana). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "walk-to-school",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/walk-to-school-lg.webp",
+          "bytes": 101262
+        },
+        {
+          "file": "site/assets/images/book-unit1/walk-to-school-sm.webp",
+          "bytes": 42306
+        }
+      ],
+      "original": "raw-images/book-unit1/walk-to-school.jpg",
+      "topic": "Book word: walk to school (Leo)",
+      "altText": "Leo walks to school with his school bag.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK3YG0i0",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: walk to school (Leo). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "eat-pizza",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/eat-pizza-lg.webp",
+          "bytes": 69166
+        },
+        {
+          "file": "site/assets/images/book-unit1/eat-pizza-sm.webp",
+          "bytes": 28346
+        }
+      ],
+      "original": "raw-images/book-unit1/eat-pizza.jpg",
+      "topic": "Book word: eat pizza (Leo)",
+      "altText": "Leo eats a slice of pizza.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK6zuxE8",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: eat pizza (Leo). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "smile",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/smile-lg.webp",
+          "bytes": 86820
+        },
+        {
+          "file": "site/assets/images/book-unit1/smile-sm.webp",
+          "bytes": 34752
+        }
+      ],
+      "original": "raw-images/book-unit1/smile.jpg",
+      "topic": "Book word: smile (Sam)",
+      "altText": "Sam smiles and waves.",
+      "usedOn": [
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK9xDnXQ",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: smile (Sam). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "visit-grandma",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/visit-grandma-lg.webp",
+          "bytes": 99674
+        },
+        {
+          "file": "site/assets/images/book-unit1/visit-grandma-sm.webp",
+          "bytes": 41050
+        }
+      ],
+      "original": "raw-images/book-unit1/visit-grandma.jpg",
+      "topic": "Book word: visit Grandma (Mia)",
+      "altText": "Mia hugs her grandma at the door.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Play: Picture Reveal",
+        "Practise: fill",
+        "Practise: mcq",
+        "Speak"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK47qR6c",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: visit Grandma (Mia). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "play-chess",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/play-chess-lg.webp",
+          "bytes": 86794
+        },
+        {
+          "file": "site/assets/images/book-unit1/play-chess-sm.webp",
+          "bytes": 36576
+        }
+      ],
+      "original": "raw-images/book-unit1/play-chess.jpg",
+      "topic": "Book word: play chess (Sam and Leo)",
+      "altText": "Sam and Leo play chess at a table.",
+      "usedOn": [
+        "Play: Picture Reveal",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK2x9sLc",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: play chess (Sam and Leo). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "speak-english",
+      "files": [
+        {
+          "file": "site/assets/images/book-unit1/speak-english-lg.webp",
+          "bytes": 80998
+        },
+        {
+          "file": "site/assets/images/book-unit1/speak-english-sm.webp",
+          "bytes": 33888
+        }
+      ],
+      "original": "raw-images/book-unit1/speak-english.jpg",
+      "topic": "Book word: speak English (Mia and Ana)",
+      "altText": "Mia and Ana talk in an English class.",
+      "usedOn": [
+        "Learn: Book words: live, ride, dance …",
+        "Practise: fill",
+        "Practise: jumbled",
+        "Practise: mcq"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKyCOeaY",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Same storybook style; one clear action: speak English (Mia and Ana). No text.",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "hero",
+      "files": [
+        {
+          "file": "site/assets/images/ui/hero-lg.webp",
+          "bytes": 64916
+        },
+        {
+          "file": "site/assets/images/ui/hero-sm.webp",
+          "bytes": 24440
+        }
+      ],
+      "original": "raw-images/ui/hero.jpg",
+      "topic": "Home header: night forest, explorers Sam and Mia",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK4j2-TY",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Home header: night forest, explorers Sam and Mia",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "owl",
+      "files": [
+        {
+          "file": "site/assets/images/ui/owl-lg.webp",
+          "bytes": 71870
+        },
+        {
+          "file": "site/assets/images/ui/owl-sm.webp",
+          "bytes": 40768
+        }
+      ],
+      "original": "raw-images/ui/owl.jpg",
+      "topic": "Owl mascot Hoot",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKx-aq20",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Owl mascot Hoot",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "landscape",
+      "files": [
+        {
+          "file": "site/assets/images/ui/landscape-lg.webp",
+          "bytes": 40642
+        },
+        {
+          "file": "site/assets/images/ui/landscape-sm.webp",
+          "bytes": 15382
+        }
+      ],
+      "original": "raw-images/ui/landscape.jpg",
+      "topic": "Home banner landscape",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK9b2J0I",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Home banner landscape",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "icon-learn",
+      "files": [
+        {
+          "file": "site/assets/images/ui/icon-learn-lg.webp",
+          "bytes": 19132
+        },
+        {
+          "file": "site/assets/images/ui/icon-learn-sm.webp",
+          "bytes": 16396
+        }
+      ],
+      "original": "raw-images/ui/icon-learn.jpg",
+      "topic": "Path icon: books",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK-9Gj8U",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Path icon: books",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "icon-examples",
+      "files": [
+        {
+          "file": "site/assets/images/ui/icon-examples-lg.webp",
+          "bytes": 16282
+        },
+        {
+          "file": "site/assets/images/ui/icon-examples-sm.webp",
+          "bytes": 14044
+        }
+      ],
+      "original": "raw-images/ui/icon-examples.jpg",
+      "topic": "Path icon: notebook",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK-9tBQY",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Path icon: notebook",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "icon-practice",
+      "files": [
+        {
+          "file": "site/assets/images/ui/icon-practice-lg.webp",
+          "bytes": 15072
+        },
+        {
+          "file": "site/assets/images/ui/icon-practice-sm.webp",
+          "bytes": 12842
+        }
+      ],
+      "original": "raw-images/ui/icon-practice.jpg",
+      "topic": "Path icon: game controller",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK1bRNfw",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Path icon: game controller",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "icon-games",
+      "files": [
+        {
+          "file": "site/assets/images/ui/icon-games-lg.webp",
+          "bytes": 18908
+        },
+        {
+          "file": "site/assets/images/ui/icon-games-sm.webp",
+          "bytes": 16470
+        }
+      ],
+      "original": "raw-images/ui/icon-games.jpg",
+      "topic": "Path icon: treasure chest",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXKxtrGtg",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Path icon: treasure chest",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "icon-challenge",
+      "files": [
+        {
+          "file": "site/assets/images/ui/icon-challenge-lg.webp",
+          "bytes": 14074
+        },
+        {
+          "file": "site/assets/images/ui/icon-challenge-sm.webp",
+          "bytes": 12160
+        }
+      ],
+      "original": "raw-images/ui/icon-challenge.jpg",
+      "topic": "Path icon: trophy",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK8fnIb0",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Path icon: trophy",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    },
+    {
+      "key": "avatar",
+      "files": [
+        {
+          "file": "site/assets/images/ui/avatar-lg.webp",
+          "bytes": 24242
+        },
+        {
+          "file": "site/assets/images/ui/avatar-sm.webp",
+          "bytes": 20526
+        }
+      ],
+      "original": "raw-images/ui/avatar.jpg",
+      "topic": "Explorer avatar (top bar)",
+      "altText": "",
+      "usedOn": [
+        "Home / shell (English Adventure template)"
+      ],
+      "source": "Generated with Canva AI image generation (Canva connector → generate-image), exported from Canva as JPG (1920×1080 or 1600×1200 export of ~1680 px originals), then converted to WebP with scripts/optimize-images.mjs (1400 px large + 720 px small).",
+      "canvaMediaId": "MAHXK5wMejo",
+      "canvaAccountConnection": "connection 2",
+      "generatedOn": "2026-10-05",
+      "prompt": "Explorer avatar (top bar)",
+      "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
+      "verification": "ok"
+    }
+  ]
+}

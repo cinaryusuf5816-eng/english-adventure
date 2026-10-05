@@ -1,0 +1,11 @@
+node_modules/
+dist/
+release/
+tests/.tmp/
+tests/e2e/screenshots/
+*.log
+.env
+.DS_Store
+Thumbs.db
+.claude/
+docs/

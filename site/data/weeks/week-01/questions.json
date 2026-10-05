@@ -1,0 +1,4474 @@
+{
+  "weekId": "week-01",
+  "contentVersion": "1.0.0",
+  "banks": [
+    {
+      "id": "mcq",
+      "letter": "A",
+      "title": "Choose",
+      "instruction": "Choose.",
+      "description": "Choose the right word or sentence.",
+      "expected": 60
+    },
+    {
+      "id": "jumbled",
+      "letter": "B",
+      "title": "Make a sentence",
+      "instruction": "Make a sentence.",
+      "description": "Put the words in order.",
+      "expected": 36
+    },
+    {
+      "id": "fill",
+      "letter": "C",
+      "title": "Fill in",
+      "instruction": "Fill in the gap.",
+      "description": "Write or choose the missing word.",
+      "expected": 30
+    },
+    {
+      "id": "change",
+      "letter": "D",
+      "title": "Change it",
+      "instruction": "Change the sentence.",
+      "description": "Make it negative or make a question.",
+      "expected": 18
+    },
+    {
+      "id": "fix",
+      "letter": "E",
+      "title": "Fix the mistake",
+      "instruction": "Find the mistake. Fix it.",
+      "description": "One word is wrong. Find it and fix it.",
+      "expected": 18
+    },
+    {
+      "id": "decide",
+      "letter": "F",
+      "title": "Look and decide",
+      "instruction": "Look. Read. True or false?",
+      "description": "Look at the clue. Is it true or false?",
+      "expected": 18
+    },
+    {
+      "id": "dialogue",
+      "letter": "G",
+      "title": "Dialogues",
+      "instruction": "Complete the dialogue.",
+      "description": "Read the short talk. Choose the answer.",
+      "expected": 12
+    },
+    {
+      "id": "reading",
+      "letter": "H",
+      "title": "Mini reading",
+      "instruction": "Read. Answer.",
+      "description": "Read a short text. Answer 4 questions.",
+      "expected": 12
+    },
+    {
+      "id": "book",
+      "letter": "I",
+      "title": "Book words",
+      "instruction": "Look and choose.",
+      "description": "The action words from the book: live, ride, dance …",
+      "expected": 30
+    }
+  ],
+  "cards": {
+    "sam": {
+      "title": "Sam",
+      "image": "play-football",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "plays football"
+        },
+        {
+          "mark": "yes",
+          "text": "likes cats"
+        },
+        {
+          "mark": "no",
+          "text": "watches TV in the morning"
+        },
+        {
+          "mark": "time",
+          "text": "gets up",
+          "time": "7:00"
+        }
+      ]
+    },
+    "mia": {
+      "title": "Mia",
+      "image": "study-english",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "studies English"
+        },
+        {
+          "mark": "yes",
+          "text": "reads every evening"
+        },
+        {
+          "mark": "no",
+          "text": "watches TV in the morning"
+        },
+        {
+          "mark": "time",
+          "text": "has breakfast",
+          "time": "7:30"
+        }
+      ]
+    },
+    "pepper": {
+      "title": "Pepper (a cat)",
+      "image": "pepper-drinks-water",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "drinks water"
+        },
+        {
+          "mark": "yes",
+          "text": "plays with a ball"
+        },
+        {
+          "mark": "no",
+          "text": "goes to school"
+        }
+      ]
+    },
+    "ana": {
+      "title": "Ana",
+      "image": "they-play-football",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "plays football"
+        },
+        {
+          "mark": "no",
+          "text": "likes cats"
+        }
+      ]
+    },
+    "sam-football-week": {
+      "title": "Sam: play football",
+      "image": "play-football",
+      "calendar": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "mia-teeth-week": {
+      "title": "Mia: brush her teeth",
+      "image": "brush-teeth",
+      "calendar": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "mia-evening": {
+      "title": "About Mia",
+      "image": "read-a-book",
+      "text": "Mia reads every evening. She doesn't watch TV."
+    },
+    "football-friends": {
+      "title": "Friends",
+      "image": "they-play-football",
+      "text": "Leo and Ana play football with Mia and Sam."
+    },
+    "sam-five": {
+      "title": "Sam at five",
+      "image": "do-homework",
+      "text": "Sam does his homework at five. He doesn't watch TV at five."
+    }
+  },
+  "passages": {
+    "rd-p1": {
+      "title": "Mia's Morning",
+      "image": "have-breakfast",
+      "text": "Mia gets up at seven. She brushes her teeth. Then she has breakfast. She eats toast and she drinks orange juice. She doesn't drink milk. Mia goes to school at eight. She likes school."
+    },
+    "rd-p2": {
+      "title": "Sam's Afternoon",
+      "image": "do-homework",
+      "text": "Sam goes home at three. He does his homework at four. He doesn't watch TV in the afternoon. At five, he plays football in the park with Leo. Leo likes football too. They play every day."
+    },
+    "rd-p3": {
+      "title": "Pepper the Cat",
+      "image": "pepper-plays",
+      "text": "Pepper is Sam's cat. Pepper gets up at six. It drinks water and it eats fish. It doesn't go to school! It doesn't read books. It plays with a red ball. Sam likes cats."
+    }
+  },
+  "questions": [
+    {
+      "id": "w1-mc-001",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ football.",
+      "image": "play-football",
+      "options": [
+        "play",
+        "plays"
+      ],
+      "answer": "b",
+      "hint": "Sam = he. Use plays.",
+      "explain": "Sam plays football."
+    },
+    {
+      "id": "w1-mc-002",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "I ___ water every day.",
+      "image": "drink-water",
+      "options": [
+        "drink",
+        "drinks"
+      ],
+      "answer": "a",
+      "hint": "Look at I.",
+      "explain": "I drink water every day."
+    },
+    {
+      "id": "w1-mc-003",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ a book.",
+      "image": "read-a-book",
+      "options": [
+        "reads",
+        "read"
+      ],
+      "answer": "a",
+      "hint": "Mia = she.",
+      "explain": "Mia reads a book."
+    },
+    {
+      "id": "w1-mc-004",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "They ___ to school.",
+      "image": "go-to-school",
+      "options": [
+        "goes",
+        "go"
+      ],
+      "answer": "b",
+      "hint": "Look at they.",
+      "explain": "They go to school."
+    },
+    {
+      "id": "w1-mc-005",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "He ___ TV.",
+      "image": "watch-tv",
+      "options": [
+        "watchs",
+        "watches"
+      ],
+      "answer": "b",
+      "hint": "watch → watch + es.",
+      "explain": "He watches TV."
+    },
+    {
+      "id": "w1-mc-006",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "She ___ breakfast.",
+      "image": "have-breakfast",
+      "options": [
+        "has",
+        "have"
+      ],
+      "answer": "a",
+      "hint": "she + have → has.",
+      "explain": "She has breakfast."
+    },
+    {
+      "id": "w1-mc-007",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "We ___ English.",
+      "image": "study-english",
+      "options": [
+        "study",
+        "studies"
+      ],
+      "answer": "a",
+      "hint": "Look at we.",
+      "explain": "We study English."
+    },
+    {
+      "id": "w1-mc-008",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia ___ English.",
+      "image": "study-english",
+      "options": [
+        "studys",
+        "study",
+        "studies"
+      ],
+      "answer": "c",
+      "hint": "study → studies.",
+      "explain": "Mia studies English."
+    },
+    {
+      "id": "w1-mc-009",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Pepper the cat ___ water.",
+      "image": "pepper-drinks-water",
+      "options": [
+        "drinks",
+        "drink"
+      ],
+      "answer": "a",
+      "hint": "Pepper = it.",
+      "explain": "Pepper drinks water."
+    },
+    {
+      "id": "w1-mc-010",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "You ___ apples.",
+      "image": "eat-apples",
+      "options": [
+        "eats",
+        "eat"
+      ],
+      "answer": "b",
+      "hint": "Look at you.",
+      "explain": "You eat apples."
+    },
+    {
+      "id": "w1-mc-011",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ his homework.",
+      "image": "do-homework",
+      "options": [
+        "do",
+        "does"
+      ],
+      "answer": "b",
+      "hint": "Sam = he. do → does.",
+      "explain": "Sam does his homework."
+    },
+    {
+      "id": "w1-mc-012",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "___ brushes her teeth.",
+      "image": "brush-teeth",
+      "options": [
+        "I",
+        "She",
+        "They"
+      ],
+      "answer": "b",
+      "hint": "Look at brushes and her.",
+      "explain": "She brushes her teeth."
+    },
+    {
+      "id": "w1-mc-013",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Look. ___ play football.",
+      "image": "they-play-football",
+      "options": [
+        "They",
+        "He"
+      ],
+      "answer": "a",
+      "hint": "Many children → they.",
+      "explain": "They play football."
+    },
+    {
+      "id": "w1-mc-014",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ up at seven.",
+      "image": "get-up",
+      "time": "7:00",
+      "options": [
+        "get",
+        "gets"
+      ],
+      "answer": "b",
+      "hint": "Sam = he.",
+      "explain": "Sam gets up at seven."
+    },
+    {
+      "id": "w1-mc-015",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia and Sam ___ to school.",
+      "image": "go-to-school",
+      "options": [
+        "goes",
+        "go"
+      ],
+      "answer": "b",
+      "hint": "Mia and Sam = they.",
+      "explain": "Mia and Sam go to school."
+    },
+    {
+      "id": "w1-mc-016",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ cats.",
+      "image": "like-cats",
+      "options": [
+        "likes",
+        "like"
+      ],
+      "answer": "a",
+      "hint": "Sam = he.",
+      "explain": "Sam likes cats."
+    },
+    {
+      "id": "w1-mc-017",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "I brush ___ teeth.",
+      "image": "brush-teeth",
+      "options": [
+        "her",
+        "my",
+        "his"
+      ],
+      "answer": "b",
+      "hint": "I → my.",
+      "explain": "I brush my teeth."
+    },
+    {
+      "id": "w1-mc-018",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia brushes ___ teeth.",
+      "image": "brush-teeth",
+      "options": [
+        "my",
+        "his",
+        "her"
+      ],
+      "answer": "c",
+      "hint": "Mia = she → her.",
+      "explain": "Mia brushes her teeth."
+    },
+    {
+      "id": "w1-mc-019",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "I ___ watch TV in the morning.",
+      "image": "get-up",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "a",
+      "hint": "I → don't.",
+      "explain": "I don't watch TV in the morning."
+    },
+    {
+      "id": "w1-mc-020",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Sam ___ go to school on Sunday.",
+      "image": "go-to-school",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "a",
+      "hint": "Sam = he → doesn't.",
+      "explain": "Sam doesn't go to school on Sunday."
+    },
+    {
+      "id": "w1-mc-021",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "They ___ go to school on Sunday.",
+      "image": "go-to-school",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "b",
+      "hint": "they → don't.",
+      "explain": "They don't go to school on Sunday."
+    },
+    {
+      "id": "w1-mc-022",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "She doesn't ___ TV.",
+      "image": "read-a-book",
+      "options": [
+        "watch",
+        "watches"
+      ],
+      "answer": "a",
+      "hint": "After doesn't, use watch.",
+      "explain": "She doesn't watch TV."
+    },
+    {
+      "id": "w1-mc-023",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Mia doesn't ___ breakfast at school.",
+      "image": "have-breakfast",
+      "options": [
+        "has",
+        "have"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use have.",
+      "explain": "Mia doesn't have breakfast at school."
+    },
+    {
+      "id": "w1-mc-024",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "We ___ play football at home.",
+      "image": "they-play-football",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "a",
+      "hint": "we → don't.",
+      "explain": "We don't play football at home."
+    },
+    {
+      "id": "w1-mc-025",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "prompt": "Sam doesn't ___ English on Sunday.",
+      "image": "study-english",
+      "options": [
+        "studies",
+        "study",
+        "studys"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use study.",
+      "explain": "Sam doesn't study English on Sunday."
+    },
+    {
+      "id": "w1-mc-026",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "You ___ eat apples.",
+      "image": "drink-water",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "b",
+      "hint": "you → don't.",
+      "explain": "You don't eat apples."
+    },
+    {
+      "id": "w1-mc-027",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Pepper ___ watch TV.",
+      "image": "pepper-plays",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "a",
+      "hint": "Pepper = it → doesn't.",
+      "explain": "Pepper doesn't watch TV."
+    },
+    {
+      "id": "w1-mc-028",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "prompt": "He doesn't ___ his homework at school.",
+      "image": "do-homework",
+      "options": [
+        "does",
+        "do"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use do.",
+      "explain": "He doesn't do his homework at school."
+    },
+    {
+      "id": "w1-mc-029",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "I don't ___ up at six.",
+      "image": "get-up",
+      "options": [
+        "get",
+        "gets"
+      ],
+      "answer": "a",
+      "hint": "After don't, use get.",
+      "explain": "I don't get up at six."
+    },
+    {
+      "id": "w1-mc-030",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "prompt": "Mia and Sam ___ watch TV in the morning.",
+      "image": "they-watch-tv",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "b",
+      "hint": "Mia and Sam = they.",
+      "explain": "Mia and Sam don't watch TV in the morning."
+    },
+    {
+      "id": "w1-mc-031",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "She ___ play football on Monday.",
+      "image": "read-a-book",
+      "options": [
+        "doesn't",
+        "don't"
+      ],
+      "answer": "a",
+      "hint": "she → doesn't.",
+      "explain": "She doesn't play football on Monday."
+    },
+    {
+      "id": "w1-mc-032",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "image": "watch-tv",
+      "options": [
+        "He doesn't drinks water.",
+        "He doesn't drink water.",
+        "He don't drink water."
+      ],
+      "answer": "b",
+      "hint": "he → doesn't. Then use drink.",
+      "explain": "He doesn't drink water."
+    },
+    {
+      "id": "w1-mc-033",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 3,
+      "prompt": "Which sentence is correct?",
+      "image": "they-play-football",
+      "options": [
+        "They doesn't read.",
+        "They don't reads.",
+        "They don't read."
+      ],
+      "answer": "c",
+      "hint": "they → don't. Then use read.",
+      "explain": "They don't read."
+    },
+    {
+      "id": "w1-mc-034",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Mia ___ brush her teeth at school.",
+      "image": "brush-teeth",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "b",
+      "hint": "Mia = she → doesn't.",
+      "explain": "Mia doesn't brush her teeth at school."
+    },
+    {
+      "id": "w1-mc-035",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "I ___ have breakfast at school.",
+      "image": "have-breakfast",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "a",
+      "hint": "I → don't.",
+      "explain": "I don't have breakfast at school."
+    },
+    {
+      "id": "w1-mc-036",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Sam doesn't ___ to school on Sunday.",
+      "image": "go-to-school",
+      "options": [
+        "goes",
+        "go"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use go.",
+      "explain": "Sam doesn't go to school on Sunday."
+    },
+    {
+      "id": "w1-mc-037",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ you play football?",
+      "image": "play-football",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "a",
+      "hint": "you → Do.",
+      "explain": "Do you play football?"
+    },
+    {
+      "id": "w1-mc-038",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ she read every day?",
+      "image": "read-a-book",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "b",
+      "hint": "she → Does.",
+      "explain": "Does she read every day?"
+    },
+    {
+      "id": "w1-mc-039",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "Does Sam ___ TV?",
+      "image": "watch-tv",
+      "options": [
+        "watches",
+        "watch"
+      ],
+      "answer": "b",
+      "hint": "After Does, use watch.",
+      "explain": "Does Sam watch TV?"
+    },
+    {
+      "id": "w1-mc-040",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ they go to school?",
+      "image": "go-to-school",
+      "options": [
+        "Does",
+        "Do"
+      ],
+      "answer": "b",
+      "hint": "they → Do.",
+      "explain": "Do they go to school?"
+    },
+    {
+      "id": "w1-mc-041",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "Does Mia ___ breakfast?",
+      "image": "have-breakfast",
+      "options": [
+        "have",
+        "has"
+      ],
+      "answer": "a",
+      "hint": "After Does, use have.",
+      "explain": "Does Mia have breakfast?"
+    },
+    {
+      "id": "w1-mc-042",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ Pepper drink water?",
+      "image": "pepper-drinks-water",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "b",
+      "hint": "Pepper = it → Does.",
+      "explain": "Does Pepper drink water?"
+    },
+    {
+      "id": "w1-mc-043",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "Does Sam like cats? Look. Yes, he ___.",
+      "image": "like-cats",
+      "options": [
+        "does",
+        "do"
+      ],
+      "answer": "a",
+      "hint": "Does … ? → Yes, he does.",
+      "explain": "Yes, he does."
+    },
+    {
+      "id": "w1-mc-044",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "Do they play football? Look. Yes, they ___.",
+      "image": "they-play-football",
+      "options": [
+        "does",
+        "do"
+      ],
+      "answer": "b",
+      "hint": "Do … ? → Yes, they do.",
+      "explain": "Yes, they do."
+    },
+    {
+      "id": "w1-mc-045",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Mia says: “I don't watch TV in the morning.” Does Mia watch TV in the morning?",
+      "image": "read-a-book",
+      "options": [
+        "Yes, she does.",
+        "No, she doesn't."
+      ],
+      "answer": "b",
+      "hint": "Read what Mia says.",
+      "explain": "No, she doesn't."
+    },
+    {
+      "id": "w1-mc-046",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Ms. Rosa asks Sam: “Do you like cats?” Sam likes cats. Sam says:",
+      "image": "like-cats",
+      "options": [
+        "Yes, you do.",
+        "Yes, he does.",
+        "Yes, I do."
+      ],
+      "answer": "c",
+      "hint": "Sam talks about Sam → I.",
+      "explain": "Yes, I do."
+    },
+    {
+      "id": "w1-mc-047",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 3,
+      "prompt": "Which question is correct?",
+      "image": "play-football",
+      "options": [
+        "Does he plays football?",
+        "Does he play football?",
+        "Do he play football?"
+      ],
+      "answer": "b",
+      "hint": "he → Does. Then use play.",
+      "explain": "Does he play football?"
+    },
+    {
+      "id": "w1-mc-048",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is correct?",
+      "image": "study-english",
+      "options": [
+        "Do you study English?",
+        "Does you study English?"
+      ],
+      "answer": "a",
+      "hint": "you → Do.",
+      "explain": "Do you study English?"
+    },
+    {
+      "id": "w1-mc-049",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Does Sam do his homework? Look.",
+      "image": "do-homework",
+      "options": [
+        "Yes, he do.",
+        "Yes, he does."
+      ],
+      "answer": "b",
+      "hint": "he → does.",
+      "explain": "Yes, he does."
+    },
+    {
+      "id": "w1-mc-050",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Ms. Rosa asks Mia: “Do you and Sam go to school?” Mia says:",
+      "image": "go-to-school",
+      "options": [
+        "Yes, they do.",
+        "Yes, we do."
+      ],
+      "answer": "b",
+      "hint": "Mia talks about Mia and Sam → we.",
+      "explain": "Yes, we do."
+    },
+    {
+      "id": "w1-mc-051",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "Does Mia brush her teeth every morning? Yes, ___ does.",
+      "image": "brush-teeth",
+      "options": [
+        "he",
+        "she",
+        "it"
+      ],
+      "answer": "b",
+      "hint": "Mia = she.",
+      "explain": "Yes, she does."
+    },
+    {
+      "id": "w1-mc-052",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "___ Mia and Sam study English?",
+      "image": "we-read",
+      "options": [
+        "Does",
+        "Do"
+      ],
+      "answer": "b",
+      "hint": "Mia and Sam = they → Do.",
+      "explain": "Do Mia and Sam study English?"
+    },
+    {
+      "id": "w1-mc-053",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "What ___ Sam drink?",
+      "image": "drink-water",
+      "options": [
+        "does",
+        "do"
+      ],
+      "answer": "a",
+      "hint": "Sam = he → does.",
+      "explain": "What does Sam drink?"
+    },
+    {
+      "id": "w1-mc-054",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Where ___ they play football?",
+      "image": "they-play-football",
+      "options": [
+        "does",
+        "do"
+      ],
+      "answer": "b",
+      "hint": "they → do.",
+      "explain": "Where do they play football?"
+    },
+    {
+      "id": "w1-mc-055",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 3,
+      "prompt": "Sam likes cats. Which is the question?",
+      "image": "like-cats",
+      "options": [
+        "Do Sam like cats?",
+        "Does Sam like cats?",
+        "Does Sam likes cats?"
+      ],
+      "answer": "b",
+      "hint": "Start with Does. Then use like.",
+      "explain": "Does Sam like cats?"
+    },
+    {
+      "id": "w1-mc-056",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 3,
+      "prompt": "She plays football. Which is the negative?",
+      "image": "mia-plays-football",
+      "options": [
+        "She doesn't play football.",
+        "She don't play football.",
+        "She doesn't plays football."
+      ],
+      "answer": "a",
+      "hint": "she → doesn't + play.",
+      "explain": "She doesn't play football."
+    },
+    {
+      "id": "w1-mc-057",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "prompt": "They go to school. Which is the negative?",
+      "image": "go-to-school",
+      "options": [
+        "They doesn't go to school.",
+        "They don't go to school."
+      ],
+      "answer": "b",
+      "hint": "they → don't.",
+      "explain": "They don't go to school."
+    },
+    {
+      "id": "w1-mc-058",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "prompt": "What time does Sam get up?",
+      "image": "get-up",
+      "time": "7:00",
+      "options": [
+        "He get up at seven.",
+        "He gets up at seven."
+      ],
+      "answer": "b",
+      "hint": "he → gets.",
+      "explain": "He gets up at seven."
+    },
+    {
+      "id": "w1-mc-059",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "prompt": "Where does Sam play football? Look.",
+      "image": "play-football",
+      "options": [
+        "At seven.",
+        "In the park."
+      ],
+      "answer": "b",
+      "hint": "Where → a place.",
+      "explain": "In the park."
+    },
+    {
+      "id": "w1-mc-060",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "prompt": "Sam plays football, but he ___ watch TV in the morning.",
+      "image": "play-football",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "b",
+      "hint": "he → doesn't.",
+      "explain": "Sam plays football, but he doesn't watch TV in the morning."
+    },
+    {
+      "id": "w1-jb-001",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "play-football",
+      "tokens": [
+        "I",
+        "play",
+        "football"
+      ],
+      "end": ".",
+      "answers": [
+        "I play football"
+      ],
+      "hint": "Start with I.",
+      "explain": "I play football."
+    },
+    {
+      "id": "w1-jb-002",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "read-a-book",
+      "tokens": [
+        "Mia",
+        "reads",
+        "a",
+        "book"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia reads a book"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia reads a book."
+    },
+    {
+      "id": "w1-jb-003",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "have-breakfast",
+      "tokens": [
+        "She",
+        "has",
+        "breakfast"
+      ],
+      "end": ".",
+      "answers": [
+        "She has breakfast"
+      ],
+      "hint": "Start with She.",
+      "explain": "She has breakfast."
+    },
+    {
+      "id": "w1-jb-004",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "go-to-school",
+      "tokens": [
+        "We",
+        "go",
+        "to",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "We go to school"
+      ],
+      "hint": "Start with We.",
+      "explain": "We go to school."
+    },
+    {
+      "id": "w1-jb-005",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "watch-tv",
+      "tokens": [
+        "He",
+        "watches",
+        "TV"
+      ],
+      "end": ".",
+      "answers": [
+        "He watches TV"
+      ],
+      "hint": "Start with He.",
+      "explain": "He watches TV."
+    },
+    {
+      "id": "w1-jb-006",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "eat-apples",
+      "tokens": [
+        "They",
+        "eat",
+        "apples"
+      ],
+      "end": ".",
+      "answers": [
+        "They eat apples"
+      ],
+      "hint": "Start with They.",
+      "explain": "They eat apples."
+    },
+    {
+      "id": "w1-jb-007",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "study-english",
+      "tokens": [
+        "Mia",
+        "studies",
+        "English"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia studies English"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia studies English."
+    },
+    {
+      "id": "w1-jb-008",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "brush-teeth",
+      "tokens": [
+        "I",
+        "brush",
+        "my",
+        "teeth"
+      ],
+      "end": ".",
+      "answers": [
+        "I brush my teeth"
+      ],
+      "hint": "I → my.",
+      "explain": "I brush my teeth."
+    },
+    {
+      "id": "w1-jb-009",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "get-up",
+      "time": "7:00",
+      "tokens": [
+        "Sam",
+        "gets",
+        "up",
+        "at",
+        "seven"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam gets up at seven",
+        "At seven Sam gets up"
+      ],
+      "hint": "Sam gets …",
+      "explain": "Sam gets up at seven."
+    },
+    {
+      "id": "w1-jb-010",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "read-a-book",
+      "tokens": [
+        "I",
+        "read",
+        "a",
+        "book",
+        "every",
+        "day"
+      ],
+      "end": ".",
+      "answers": [
+        "I read a book every day",
+        "Every day I read a book"
+      ],
+      "hint": "Start with I or Every day.",
+      "explain": "I read a book every day."
+    },
+    {
+      "id": "w1-jb-011",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "pepper-drinks-water",
+      "tokens": [
+        "Pepper",
+        "drinks",
+        "water"
+      ],
+      "end": ".",
+      "answers": [
+        "Pepper drinks water"
+      ],
+      "hint": "Start with Pepper.",
+      "explain": "Pepper drinks water."
+    },
+    {
+      "id": "w1-jb-012",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "do-homework",
+      "tokens": [
+        "He",
+        "does",
+        "his",
+        "homework"
+      ],
+      "end": ".",
+      "answers": [
+        "He does his homework"
+      ],
+      "hint": "he → his.",
+      "explain": "He does his homework."
+    },
+    {
+      "id": "w1-jb-013",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "read-a-book",
+      "tokens": [
+        "I",
+        "don't",
+        "watch",
+        "TV"
+      ],
+      "end": ".",
+      "answers": [
+        "I don't watch TV"
+      ],
+      "hint": "I don't …",
+      "explain": "I don't watch TV."
+    },
+    {
+      "id": "w1-jb-014",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "read-a-book",
+      "tokens": [
+        "She",
+        "doesn't",
+        "play",
+        "football"
+      ],
+      "end": ".",
+      "answers": [
+        "She doesn't play football"
+      ],
+      "hint": "She doesn't …",
+      "explain": "She doesn't play football."
+    },
+    {
+      "id": "w1-jb-015",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "we-read",
+      "tokens": [
+        "We",
+        "don't",
+        "eat",
+        "apples"
+      ],
+      "end": ".",
+      "answers": [
+        "We don't eat apples"
+      ],
+      "hint": "We don't …",
+      "explain": "We don't eat apples."
+    },
+    {
+      "id": "w1-jb-016",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "pepper-plays",
+      "tokens": [
+        "Pepper",
+        "doesn't",
+        "go",
+        "to",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "Pepper doesn't go to school"
+      ],
+      "hint": "Pepper doesn't …",
+      "explain": "Pepper doesn't go to school."
+    },
+    {
+      "id": "w1-jb-017",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 3,
+      "image": "they-watch-tv",
+      "tokens": [
+        "They",
+        "don't",
+        "watch",
+        "TV",
+        "in",
+        "the",
+        "morning"
+      ],
+      "end": ".",
+      "answers": [
+        "They don't watch TV in the morning",
+        "In the morning they don't watch TV"
+      ],
+      "hint": "They don't …",
+      "explain": "They don't watch TV in the morning."
+    },
+    {
+      "id": "w1-jb-018",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "go-to-school",
+      "tokens": [
+        "He",
+        "doesn't",
+        "have",
+        "breakfast",
+        "at",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "He doesn't have breakfast at school",
+        "At school he doesn't have breakfast"
+      ],
+      "hint": "After doesn't, use have.",
+      "explain": "He doesn't have breakfast at school."
+    },
+    {
+      "id": "w1-jb-019",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "brush-teeth",
+      "tokens": [
+        "Mia",
+        "doesn't",
+        "get",
+        "up",
+        "at",
+        "six"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia doesn't get up at six",
+        "At six Mia doesn't get up"
+      ],
+      "hint": "Mia doesn't …",
+      "explain": "Mia doesn't get up at six."
+    },
+    {
+      "id": "w1-jb-020",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "study-english",
+      "tokens": [
+        "You",
+        "don't",
+        "study",
+        "English",
+        "on",
+        "Sunday"
+      ],
+      "end": ".",
+      "answers": [
+        "You don't study English on Sunday",
+        "On Sunday you don't study English"
+      ],
+      "hint": "You don't …",
+      "explain": "You don't study English on Sunday."
+    },
+    {
+      "id": "w1-jb-021",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "brush-teeth",
+      "tokens": [
+        "I",
+        "don't",
+        "brush",
+        "my",
+        "teeth",
+        "at",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "I don't brush my teeth at school",
+        "At school I don't brush my teeth"
+      ],
+      "hint": "I don't … my …",
+      "explain": "I don't brush my teeth at school."
+    },
+    {
+      "id": "w1-jb-022",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 3,
+      "image": "do-homework",
+      "tokens": [
+        "Sam",
+        "doesn't",
+        "do",
+        "his",
+        "homework",
+        "at",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam doesn't do his homework at school",
+        "At school Sam doesn't do his homework"
+      ],
+      "hint": "doesn't + do: two words!",
+      "explain": "Sam doesn't do his homework at school."
+    },
+    {
+      "id": "w1-jb-023",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "pepper-plays",
+      "tokens": [
+        "It",
+        "doesn't",
+        "read",
+        "books"
+      ],
+      "end": ".",
+      "answers": [
+        "It doesn't read books"
+      ],
+      "hint": "It doesn't …",
+      "explain": "It doesn't read books."
+    },
+    {
+      "id": "w1-jb-024",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "go-to-school",
+      "tokens": [
+        "We",
+        "don't",
+        "go",
+        "to",
+        "school",
+        "on",
+        "Sunday"
+      ],
+      "end": ".",
+      "answers": [
+        "We don't go to school on Sunday",
+        "On Sunday we don't go to school"
+      ],
+      "hint": "We don't …",
+      "explain": "We don't go to school on Sunday."
+    },
+    {
+      "id": "w1-jb-025",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "play-football",
+      "tokens": [
+        "Do",
+        "you",
+        "play",
+        "football"
+      ],
+      "end": "?",
+      "answers": [
+        "Do you play football"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do you play football?"
+    },
+    {
+      "id": "w1-jb-026",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "read-a-book",
+      "tokens": [
+        "Does",
+        "she",
+        "read",
+        "books"
+      ],
+      "end": "?",
+      "answers": [
+        "Does she read books"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does she read books?"
+    },
+    {
+      "id": "w1-jb-027",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "go-to-school",
+      "tokens": [
+        "Do",
+        "they",
+        "go",
+        "to",
+        "school"
+      ],
+      "end": "?",
+      "answers": [
+        "Do they go to school"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do they go to school?"
+    },
+    {
+      "id": "w1-jb-028",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "watch-tv",
+      "tokens": [
+        "Does",
+        "Sam",
+        "watch",
+        "TV"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Sam watch TV"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Sam watch TV?"
+    },
+    {
+      "id": "w1-jb-029",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "have-breakfast",
+      "tokens": [
+        "Does",
+        "Mia",
+        "have",
+        "breakfast"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Mia have breakfast"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Mia have breakfast?"
+    },
+    {
+      "id": "w1-jb-030",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 3,
+      "image": "do-homework",
+      "tokens": [
+        "Do",
+        "you",
+        "do",
+        "your",
+        "homework"
+      ],
+      "end": "?",
+      "answers": [
+        "Do you do your homework"
+      ],
+      "hint": "Two do words: Do (question) + do (homework).",
+      "explain": "Do you do your homework?"
+    },
+    {
+      "id": "w1-jb-031",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "pepper-drinks-water",
+      "tokens": [
+        "Does",
+        "Pepper",
+        "drink",
+        "water"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Pepper drink water"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Pepper drink water?"
+    },
+    {
+      "id": "w1-jb-032",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "like-cats",
+      "tokens": [
+        "Do",
+        "you",
+        "like",
+        "cats"
+      ],
+      "end": "?",
+      "answers": [
+        "Do you like cats"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do you like cats?"
+    },
+    {
+      "id": "w1-jb-033",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "eat-apples",
+      "tokens": [
+        "What",
+        "do",
+        "you",
+        "eat"
+      ],
+      "end": "?",
+      "answers": [
+        "What do you eat"
+      ],
+      "hint": "Start with What.",
+      "explain": "What do you eat?"
+    },
+    {
+      "id": "w1-jb-034",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "they-play-football",
+      "tokens": [
+        "Where",
+        "do",
+        "they",
+        "play",
+        "football"
+      ],
+      "end": "?",
+      "answers": [
+        "Where do they play football"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where do they play football?"
+    },
+    {
+      "id": "w1-jb-035",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 3,
+      "image": "get-up",
+      "tokens": [
+        "What",
+        "time",
+        "does",
+        "Sam",
+        "get",
+        "up"
+      ],
+      "end": "?",
+      "answers": [
+        "What time does Sam get up"
+      ],
+      "hint": "Start with What time.",
+      "explain": "What time does Sam get up?"
+    },
+    {
+      "id": "w1-jb-036",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "study-english",
+      "tokens": [
+        "What",
+        "does",
+        "Mia",
+        "study"
+      ],
+      "end": "?",
+      "answers": [
+        "What does Mia study"
+      ],
+      "hint": "Start with What.",
+      "explain": "What does Mia study?"
+    },
+    {
+      "id": "w1-fb-001",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "play-football",
+      "text": "Sam ___ football.",
+      "base": "play",
+      "answers": [
+        "plays"
+      ],
+      "pool": [
+        "play",
+        "plays"
+      ],
+      "hint": "Sam = he.",
+      "explain": "Sam plays football."
+    },
+    {
+      "id": "w1-fb-002",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "drink-water",
+      "text": "I ___ water every day.",
+      "base": "drink",
+      "answers": [
+        "drink"
+      ],
+      "pool": [
+        "drink",
+        "drinks"
+      ],
+      "hint": "Look at I.",
+      "explain": "I drink water every day."
+    },
+    {
+      "id": "w1-fb-003",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "have-breakfast",
+      "text": "Mia ___ breakfast at seven thirty.",
+      "base": "have",
+      "time": "7:30",
+      "answers": [
+        "has"
+      ],
+      "pool": [
+        "have",
+        "has"
+      ],
+      "hint": "she + have → has.",
+      "explain": "Mia has breakfast at seven thirty."
+    },
+    {
+      "id": "w1-fb-004",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "watch-tv",
+      "text": "He ___ TV in the evening.",
+      "base": "watch",
+      "answers": [
+        "watches"
+      ],
+      "pool": [
+        "watchs",
+        "watches",
+        "watch"
+      ],
+      "hint": "watch + es.",
+      "explain": "He watches TV in the evening."
+    },
+    {
+      "id": "w1-fb-005",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "go-to-school",
+      "text": "They ___ to school.",
+      "base": "go",
+      "answers": [
+        "go"
+      ],
+      "pool": [
+        "go",
+        "goes"
+      ],
+      "hint": "Look at they.",
+      "explain": "They go to school."
+    },
+    {
+      "id": "w1-fb-006",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "brush-teeth",
+      "text": "She ___ her teeth.",
+      "base": "brush",
+      "answers": [
+        "brushes"
+      ],
+      "pool": [
+        "brush",
+        "brushs",
+        "brushes"
+      ],
+      "hint": "brush + es.",
+      "explain": "She brushes her teeth."
+    },
+    {
+      "id": "w1-fb-007",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "study-english",
+      "text": "Mia ___ English.",
+      "base": "study",
+      "answers": [
+        "studies"
+      ],
+      "pool": [
+        "studys",
+        "studies",
+        "study"
+      ],
+      "hint": "study → studies.",
+      "explain": "Mia studies English."
+    },
+    {
+      "id": "w1-fb-008",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "eat-apples",
+      "text": "We ___ apples.",
+      "base": "eat",
+      "answers": [
+        "eat"
+      ],
+      "pool": [
+        "eat",
+        "eats"
+      ],
+      "hint": "Look at we.",
+      "explain": "We eat apples."
+    },
+    {
+      "id": "w1-fb-009",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "do-homework",
+      "text": "Sam ___ his homework.",
+      "base": "do",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "he + do → does.",
+      "explain": "Sam does his homework."
+    },
+    {
+      "id": "w1-fb-010",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "pepper-drinks-water",
+      "text": "Pepper ___ water.",
+      "base": "drink",
+      "answers": [
+        "drinks"
+      ],
+      "pool": [
+        "drink",
+        "drinks"
+      ],
+      "hint": "Pepper = it.",
+      "explain": "Pepper drinks water."
+    },
+    {
+      "id": "w1-fb-011",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "get-up",
+      "text": "I ___ watch TV in the morning.",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "I → don't.",
+      "explain": "I don't watch TV in the morning."
+    },
+    {
+      "id": "w1-fb-012",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "go-to-school",
+      "text": "Sam ___ go to school on Sunday.",
+      "answers": [
+        "doesn't",
+        "does not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "Sam = he → doesn't.",
+      "explain": "Sam doesn't go to school on Sunday."
+    },
+    {
+      "id": "w1-fb-013",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "they-play-football",
+      "text": "We ___ play football at home.",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "we → don't.",
+      "explain": "We don't play football at home."
+    },
+    {
+      "id": "w1-fb-014",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "read-a-book",
+      "text": "She doesn't ___ TV.",
+      "base": "watch",
+      "answers": [
+        "watch"
+      ],
+      "pool": [
+        "watch",
+        "watches"
+      ],
+      "hint": "After doesn't, use watch.",
+      "explain": "She doesn't watch TV."
+    },
+    {
+      "id": "w1-fb-015",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 2,
+      "image": "have-breakfast",
+      "text": "He doesn't ___ breakfast at school.",
+      "base": "have",
+      "answers": [
+        "have"
+      ],
+      "pool": [
+        "has",
+        "have"
+      ],
+      "hint": "After doesn't, use have.",
+      "explain": "He doesn't have breakfast at school."
+    },
+    {
+      "id": "w1-fb-016",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "they-play-football",
+      "text": "They ___ eat apples.",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "they → don't.",
+      "explain": "They don't eat apples."
+    },
+    {
+      "id": "w1-fb-017",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 2,
+      "image": "brush-teeth",
+      "text": "Mia doesn't ___ up at six.",
+      "base": "get",
+      "answers": [
+        "get"
+      ],
+      "pool": [
+        "gets",
+        "get"
+      ],
+      "hint": "After doesn't, use get.",
+      "explain": "Mia doesn't get up at six."
+    },
+    {
+      "id": "w1-fb-018",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "pepper-plays",
+      "text": "Pepper ___ read books.",
+      "answers": [
+        "doesn't",
+        "does not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "Pepper = it → doesn't.",
+      "explain": "Pepper doesn't read books."
+    },
+    {
+      "id": "w1-fb-019",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "study-english",
+      "text": "You ___ study English on Sunday.",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "you → don't.",
+      "explain": "You don't study English on Sunday."
+    },
+    {
+      "id": "w1-fb-020",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 2,
+      "image": "do-homework",
+      "text": "Sam doesn't ___ his homework at school.",
+      "base": "do",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "does",
+        "do"
+      ],
+      "hint": "After doesn't, use do.",
+      "explain": "Sam doesn't do his homework at school."
+    },
+    {
+      "id": "w1-fb-021",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "play-football",
+      "text": "___ you play football?",
+      "answers": [
+        "Do"
+      ],
+      "pool": [
+        "Do",
+        "Does"
+      ],
+      "hint": "you → Do.",
+      "explain": "Do you play football?"
+    },
+    {
+      "id": "w1-fb-022",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "read-a-book",
+      "text": "___ she read every day?",
+      "answers": [
+        "Does"
+      ],
+      "pool": [
+        "Do",
+        "Does"
+      ],
+      "hint": "she → Does.",
+      "explain": "Does she read every day?"
+    },
+    {
+      "id": "w1-fb-023",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "watch-tv",
+      "text": "Does Sam ___ TV?",
+      "base": "watch",
+      "answers": [
+        "watch"
+      ],
+      "pool": [
+        "watch",
+        "watches"
+      ],
+      "hint": "After Does, use watch.",
+      "explain": "Does Sam watch TV?"
+    },
+    {
+      "id": "w1-fb-024",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "go-to-school",
+      "text": "Do they go to school? Yes, they ___.",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "Do … ? → Yes, they do.",
+      "explain": "Yes, they do."
+    },
+    {
+      "id": "w1-fb-025",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "have-breakfast",
+      "text": "Does Mia have breakfast? Yes, she ___.",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "Does … ? → Yes, she does.",
+      "explain": "Yes, she does."
+    },
+    {
+      "id": "w1-fb-026",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "pepper-plays",
+      "text": "Does Pepper go to school? No, it ___.",
+      "answers": [
+        "doesn't",
+        "does not"
+      ],
+      "pool": [
+        "don't",
+        "doesn't"
+      ],
+      "hint": "it → doesn't.",
+      "explain": "No, it doesn't."
+    },
+    {
+      "id": "w1-fb-027",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "study-english",
+      "text": "___ Mia study English?",
+      "answers": [
+        "Does"
+      ],
+      "pool": [
+        "Do",
+        "Does"
+      ],
+      "hint": "Mia = she → Does.",
+      "explain": "Does Mia study English?"
+    },
+    {
+      "id": "w1-fb-028",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "like-cats",
+      "text": "Ms. Rosa: Do you like cats, Sam? Sam: Yes, I ___.",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "Sam talks: Yes, I do.",
+      "explain": "Yes, I do."
+    },
+    {
+      "id": "w1-fb-029",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "get-up",
+      "time": "7:00",
+      "text": "What time ___ Sam get up?",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "Sam = he → does.",
+      "explain": "What time does Sam get up?"
+    },
+    {
+      "id": "w1-fb-030",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "they-play-football",
+      "text": "Where ___ they play football?",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "do",
+        "does"
+      ],
+      "hint": "they → do.",
+      "explain": "Where do they play football?"
+    },
+    {
+      "id": "w1-cs-001",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 1,
+      "image": "play-football",
+      "from": "He plays football.",
+      "answers": [
+        "He doesn't play football."
+      ],
+      "hint": "He doesn't + play.",
+      "explain": "He doesn't play football."
+    },
+    {
+      "id": "w1-cs-002",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 1,
+      "image": "watch-tv",
+      "from": "I watch TV.",
+      "answers": [
+        "I don't watch TV."
+      ],
+      "hint": "I don't + watch.",
+      "explain": "I don't watch TV."
+    },
+    {
+      "id": "w1-cs-003",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 2,
+      "image": "have-breakfast",
+      "from": "Mia has breakfast.",
+      "answers": [
+        "Mia doesn't have breakfast."
+      ],
+      "hint": "has → doesn't have.",
+      "explain": "Mia doesn't have breakfast."
+    },
+    {
+      "id": "w1-cs-004",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 1,
+      "image": "go-to-school",
+      "from": "They go to school.",
+      "answers": [
+        "They don't go to school."
+      ],
+      "hint": "They don't + go.",
+      "explain": "They don't go to school."
+    },
+    {
+      "id": "w1-cs-005",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 2,
+      "image": "study-english",
+      "from": "Sam studies English.",
+      "answers": [
+        "Sam doesn't study English."
+      ],
+      "hint": "studies → doesn't study.",
+      "explain": "Sam doesn't study English."
+    },
+    {
+      "id": "w1-cs-006",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 1,
+      "image": "eat-apples",
+      "from": "We eat apples.",
+      "answers": [
+        "We don't eat apples."
+      ],
+      "hint": "We don't + eat.",
+      "explain": "We don't eat apples."
+    },
+    {
+      "id": "w1-cs-007",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 2,
+      "image": "brush-teeth",
+      "from": "She brushes her teeth.",
+      "answers": [
+        "She doesn't brush her teeth."
+      ],
+      "hint": "brushes → doesn't brush.",
+      "explain": "She doesn't brush her teeth."
+    },
+    {
+      "id": "w1-cs-008",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 1,
+      "image": "pepper-drinks-water",
+      "from": "Pepper drinks water.",
+      "answers": [
+        "Pepper doesn't drink water."
+      ],
+      "hint": "Pepper doesn't + drink.",
+      "explain": "Pepper doesn't drink water."
+    },
+    {
+      "id": "w1-cs-009",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "level": 3,
+      "image": "do-homework",
+      "from": "He does his homework.",
+      "answers": [
+        "He doesn't do his homework."
+      ],
+      "hint": "does → doesn't do.",
+      "explain": "He doesn't do his homework."
+    },
+    {
+      "id": "w1-cs-010",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 1,
+      "image": "play-football",
+      "from": "You play football.",
+      "answers": [
+        "Do you play football?"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do you play football?"
+    },
+    {
+      "id": "w1-cs-011",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 1,
+      "image": "read-a-book",
+      "from": "She reads a book.",
+      "answers": [
+        "Does she read a book?"
+      ],
+      "hint": "Start with Does. reads → read.",
+      "explain": "Does she read a book?"
+    },
+    {
+      "id": "w1-cs-012",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 2,
+      "image": "watch-tv",
+      "from": "Sam watches TV.",
+      "answers": [
+        "Does Sam watch TV?"
+      ],
+      "hint": "Start with Does. watches → watch.",
+      "explain": "Does Sam watch TV?"
+    },
+    {
+      "id": "w1-cs-013",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 1,
+      "image": "go-to-school",
+      "from": "They go to school.",
+      "answers": [
+        "Do they go to school?"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do they go to school?"
+    },
+    {
+      "id": "w1-cs-014",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 2,
+      "image": "have-breakfast",
+      "from": "Mia has breakfast.",
+      "answers": [
+        "Does Mia have breakfast?"
+      ],
+      "hint": "Start with Does. has → have.",
+      "explain": "Does Mia have breakfast?"
+    },
+    {
+      "id": "w1-cs-015",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 1,
+      "image": "like-cats",
+      "from": "He likes cats.",
+      "answers": [
+        "Does he like cats?"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does he like cats?"
+    },
+    {
+      "id": "w1-cs-016",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 2,
+      "image": "study-english",
+      "from": "Mia studies English.",
+      "answers": [
+        "Does Mia study English?"
+      ],
+      "hint": "studies → study.",
+      "explain": "Does Mia study English?"
+    },
+    {
+      "id": "w1-cs-017",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 1,
+      "image": "eat-apples",
+      "from": "They eat apples.",
+      "answers": [
+        "Do they eat apples?"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do they eat apples?"
+    },
+    {
+      "id": "w1-cs-018",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "level": 3,
+      "image": "get-up",
+      "time": "7:00",
+      "from": "Sam gets up at seven.",
+      "answers": [
+        "Does Sam get up at seven?"
+      ],
+      "hint": "gets → get.",
+      "explain": "Does Sam get up at seven?"
+    },
+    {
+      "id": "w1-fx-001",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "mia-plays-football",
+      "words": [
+        "She",
+        "play",
+        "football."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "plays",
+        "playes"
+      ],
+      "fix": "a",
+      "hint": "Look at She.",
+      "explain": "She plays football."
+    },
+    {
+      "id": "w1-fx-002",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "watch-tv",
+      "words": [
+        "He",
+        "watchs",
+        "TV."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "watch",
+        "watches"
+      ],
+      "fix": "b",
+      "hint": "watch + es.",
+      "explain": "He watches TV."
+    },
+    {
+      "id": "w1-fx-003",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 2,
+      "image": "study-english",
+      "words": [
+        "Mia",
+        "studys",
+        "English."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "studies",
+        "study"
+      ],
+      "fix": "a",
+      "hint": "study → studies.",
+      "explain": "Mia studies English."
+    },
+    {
+      "id": "w1-fx-004",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "play-football",
+      "words": [
+        "I",
+        "plays",
+        "football."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "playes",
+        "play"
+      ],
+      "fix": "b",
+      "hint": "Look at I.",
+      "explain": "I play football."
+    },
+    {
+      "id": "w1-fx-005",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 2,
+      "image": "have-breakfast",
+      "words": [
+        "Sam",
+        "have",
+        "breakfast."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "has",
+        "haves"
+      ],
+      "fix": "a",
+      "hint": "Sam = he → has.",
+      "explain": "Sam has breakfast."
+    },
+    {
+      "id": "w1-fx-006",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "go-to-school",
+      "words": [
+        "They",
+        "goes",
+        "to",
+        "school."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "go",
+        "gos"
+      ],
+      "fix": "a",
+      "hint": "Look at They.",
+      "explain": "They go to school."
+    },
+    {
+      "id": "w1-fx-007",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "drink-water",
+      "words": [
+        "He",
+        "don't",
+        "eat",
+        "apples."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "doesn't",
+        "not"
+      ],
+      "fix": "a",
+      "hint": "He → doesn't.",
+      "explain": "He doesn't eat apples."
+    },
+    {
+      "id": "w1-fx-008",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "read-a-book",
+      "words": [
+        "She",
+        "doesn't",
+        "plays",
+        "football."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "playes",
+        "play"
+      ],
+      "fix": "b",
+      "hint": "After doesn't, use play.",
+      "explain": "She doesn't play football."
+    },
+    {
+      "id": "w1-fx-009",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "get-up",
+      "words": [
+        "I",
+        "doesn't",
+        "watch",
+        "TV."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "don't",
+        "not"
+      ],
+      "fix": "a",
+      "hint": "I → don't.",
+      "explain": "I don't watch TV."
+    },
+    {
+      "id": "w1-fx-010",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 2,
+      "image": "have-breakfast",
+      "words": [
+        "Mia",
+        "doesn't",
+        "has",
+        "breakfast",
+        "at",
+        "school."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "have",
+        "haves"
+      ],
+      "fix": "a",
+      "hint": "After doesn't, use have.",
+      "explain": "Mia doesn't have breakfast at school."
+    },
+    {
+      "id": "w1-fx-011",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "go-to-school",
+      "words": [
+        "They",
+        "doesn't",
+        "go",
+        "to",
+        "school",
+        "on",
+        "Sunday."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "not",
+        "don't"
+      ],
+      "fix": "b",
+      "hint": "They → don't.",
+      "explain": "They don't go to school on Sunday."
+    },
+    {
+      "id": "w1-fx-012",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 2,
+      "image": "study-english",
+      "words": [
+        "Sam",
+        "doesn't",
+        "studies",
+        "English",
+        "on",
+        "Sunday."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "study",
+        "studys"
+      ],
+      "fix": "a",
+      "hint": "After doesn't, use study.",
+      "explain": "Sam doesn't study English on Sunday."
+    },
+    {
+      "id": "w1-fx-013",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "read-a-book",
+      "words": [
+        "Do",
+        "she",
+        "read",
+        "every",
+        "day?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Does",
+        "Is"
+      ],
+      "fix": "a",
+      "hint": "she → Does.",
+      "explain": "Does she read every day?"
+    },
+    {
+      "id": "w1-fx-014",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "play-football",
+      "words": [
+        "Does",
+        "he",
+        "plays",
+        "football?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "playes",
+        "play"
+      ],
+      "fix": "b",
+      "hint": "After Does, use play.",
+      "explain": "Does he play football?"
+    },
+    {
+      "id": "w1-fx-015",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "go-to-school",
+      "words": [
+        "Does",
+        "they",
+        "go",
+        "to",
+        "school?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Are",
+        "Do"
+      ],
+      "fix": "b",
+      "hint": "they → Do.",
+      "explain": "Do they go to school?"
+    },
+    {
+      "id": "w1-fx-016",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 2,
+      "image": "have-breakfast",
+      "words": [
+        "Does",
+        "Mia",
+        "has",
+        "breakfast?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "have",
+        "haves"
+      ],
+      "fix": "a",
+      "hint": "After Does, use have.",
+      "explain": "Does Mia have breakfast?"
+    },
+    {
+      "id": "w1-fx-017",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "watch-tv",
+      "words": [
+        "Do",
+        "Sam",
+        "watch",
+        "TV?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Is",
+        "Does"
+      ],
+      "fix": "b",
+      "hint": "Sam = he → Does.",
+      "explain": "Does Sam watch TV?"
+    },
+    {
+      "id": "w1-fx-018",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 2,
+      "image": "pepper-drinks-water",
+      "words": [
+        "Does",
+        "Pepper",
+        "drinks",
+        "water?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "drink",
+        "drinkes"
+      ],
+      "fix": "a",
+      "hint": "After Does, use drink.",
+      "explain": "Does Pepper drink water?"
+    },
+    {
+      "id": "w1-ld-001",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "mia-evening",
+      "statement": "Mia reads every evening.",
+      "answer": true,
+      "hint": "Read the first sentence.",
+      "explain": "True. Mia reads every evening."
+    },
+    {
+      "id": "w1-ld-002",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "mia-evening",
+      "statement": "Mia watches TV every evening.",
+      "answer": false,
+      "hint": "Read: She doesn't watch TV.",
+      "explain": "False. She doesn't watch TV."
+    },
+    {
+      "id": "w1-ld-003",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "sam",
+      "statement": "Sam likes cats.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Sam likes cats."
+    },
+    {
+      "id": "w1-ld-004",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "sam",
+      "statement": "Sam gets up at eight.",
+      "answer": false,
+      "hint": "Look at the clock.",
+      "explain": "False. Sam gets up at seven."
+    },
+    {
+      "id": "w1-ld-005",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "sam",
+      "statement": "Sam doesn't watch TV in the morning.",
+      "answer": true,
+      "hint": "Look at the ✗.",
+      "explain": "True. Sam doesn't watch TV in the morning."
+    },
+    {
+      "id": "w1-ld-006",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "sam-football-week",
+      "statement": "Sam plays football on Monday.",
+      "answer": true,
+      "hint": "Look at Monday.",
+      "explain": "True. Monday has a ✓."
+    },
+    {
+      "id": "w1-ld-007",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "sam-football-week",
+      "statement": "Sam plays football on Tuesday.",
+      "answer": false,
+      "hint": "Look at Tuesday.",
+      "explain": "False. Tuesday has a ✗."
+    },
+    {
+      "id": "w1-ld-008",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "sam-football-week",
+      "statement": "Sam doesn't play football on Saturday.",
+      "answer": false,
+      "hint": "Look at Saturday.",
+      "explain": "False. Saturday has a ✓. He plays football on Saturday."
+    },
+    {
+      "id": "w1-ld-009",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "mia",
+      "statement": "Mia studies English.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Mia studies English."
+    },
+    {
+      "id": "w1-ld-010",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "mia",
+      "statement": "Mia has breakfast at seven thirty.",
+      "answer": true,
+      "hint": "Look at the clock.",
+      "explain": "True. 7:30 = seven thirty."
+    },
+    {
+      "id": "w1-ld-011",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "mia",
+      "statement": "Mia doesn't study English.",
+      "answer": false,
+      "hint": "Look at the ✓.",
+      "explain": "False. Mia studies English."
+    },
+    {
+      "id": "w1-ld-012",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "pepper",
+      "statement": "Pepper drinks water.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Pepper drinks water."
+    },
+    {
+      "id": "w1-ld-013",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "pepper",
+      "statement": "Pepper goes to school.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. Pepper doesn't go to school."
+    },
+    {
+      "id": "w1-ld-014",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "pepper",
+      "statement": "Pepper doesn't go to school.",
+      "answer": true,
+      "hint": "Look at the ✗.",
+      "explain": "True. Pepper doesn't go to school."
+    },
+    {
+      "id": "w1-ld-015",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "mia-teeth-week",
+      "statement": "Mia doesn't brush her teeth on Sunday.",
+      "answer": false,
+      "hint": "Look at Sunday.",
+      "explain": "False. Sunday has a ✓."
+    },
+    {
+      "id": "w1-ld-016",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "football-friends",
+      "statement": "Leo and Ana don't play football.",
+      "answer": false,
+      "hint": "Read the sentence.",
+      "explain": "False. Leo and Ana play football."
+    },
+    {
+      "id": "w1-ld-017",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "sam-five",
+      "statement": "Sam watches TV at five.",
+      "answer": false,
+      "hint": "Read: He doesn't watch TV at five.",
+      "explain": "False. He doesn't watch TV at five."
+    },
+    {
+      "id": "w1-ld-018",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "sam-five",
+      "statement": "Sam does his homework at five.",
+      "answer": true,
+      "hint": "Read the first sentence.",
+      "explain": "True. Sam does his homework at five."
+    },
+    {
+      "id": "w1-cd-001",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "card": "sam",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Do you like cats, Sam?"
+        },
+        {
+          "who": "Sam",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "Yes, I do.",
+        "Yes, you do.",
+        "No, I don't."
+      ],
+      "answer": "a",
+      "hint": "Look at Sam's card. Sam talks → I.",
+      "explain": "Yes, I do."
+    },
+    {
+      "id": "w1-cd-002",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 1,
+      "card": "mia",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Do you watch TV in the morning, Mia?"
+        },
+        {
+          "who": "Mia",
+          "text": "No, ___."
+        }
+      ],
+      "options": [
+        "she doesn't",
+        "I don't",
+        "you don't"
+      ],
+      "answer": "b",
+      "hint": "Mia talks about Mia → I.",
+      "explain": "No, I don't."
+    },
+    {
+      "id": "w1-cd-003",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "card": "sam",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Does Sam play football?"
+        },
+        {
+          "who": "Mia",
+          "text": "Yes, ___."
+        }
+      ],
+      "options": [
+        "he do",
+        "she does",
+        "he does"
+      ],
+      "answer": "c",
+      "hint": "Sam = he. Does → does.",
+      "explain": "Yes, he does."
+    },
+    {
+      "id": "w1-cd-004",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "go-to-school",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "Do Mia and Sam go to school?"
+        },
+        {
+          "who": "Ana",
+          "text": "Yes, ___."
+        }
+      ],
+      "options": [
+        "they do",
+        "they does",
+        "we do"
+      ],
+      "answer": "a",
+      "hint": "Mia and Sam = they.",
+      "explain": "Yes, they do."
+    },
+    {
+      "id": "w1-cd-005",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 2,
+      "image": "go-to-school",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Mia, do you and Sam go to school?"
+        },
+        {
+          "who": "Mia",
+          "text": "Yes, ___."
+        }
+      ],
+      "options": [
+        "they do",
+        "we do"
+      ],
+      "answer": "b",
+      "hint": "Mia talks about Mia and Sam → we.",
+      "explain": "Yes, we do."
+    },
+    {
+      "id": "w1-cd-006",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "have-breakfast",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Mia, what do you eat in the morning?"
+        },
+        {
+          "who": "Mia",
+          "text": "I ___ toast."
+        }
+      ],
+      "options": [
+        "eat",
+        "eats"
+      ],
+      "answer": "a",
+      "hint": "I → eat.",
+      "explain": "I eat toast."
+    },
+    {
+      "id": "w1-cd-007",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "card": "sam",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "What time ___ you get up, Sam?"
+        },
+        {
+          "who": "Sam",
+          "text": "I get up at seven."
+        }
+      ],
+      "options": [
+        "do",
+        "does"
+      ],
+      "answer": "a",
+      "hint": "you → do.",
+      "explain": "What time do you get up?"
+    },
+    {
+      "id": "w1-cd-008",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "play-football",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "Where does Sam play football?"
+        },
+        {
+          "who": "Leo",
+          "text": "He plays ___."
+        }
+      ],
+      "options": [
+        "at seven",
+        "in the park"
+      ],
+      "answer": "b",
+      "hint": "Where → a place. Look at the picture.",
+      "explain": "He plays in the park."
+    },
+    {
+      "id": "w1-cd-009",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 1,
+      "card": "pepper",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Does Pepper go to school?"
+        },
+        {
+          "who": "Sam",
+          "text": "___ It's a cat!"
+        }
+      ],
+      "options": [
+        "No, it doesn't.",
+        "Yes, it does.",
+        "No, he doesn't."
+      ],
+      "answer": "a",
+      "hint": "Pepper = it. Look at the ✗.",
+      "explain": "No, it doesn't."
+    },
+    {
+      "id": "w1-cd-010",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "study-english",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "___ you study English, Sam?"
+        },
+        {
+          "who": "Sam",
+          "text": "Yes, I do. I study every day."
+        }
+      ],
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "a",
+      "hint": "you → Do.",
+      "explain": "Do you study English?"
+    },
+    {
+      "id": "w1-cd-011",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 2,
+      "image": "have-breakfast",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Does Mia have breakfast at school?"
+        },
+        {
+          "who": "Ms. Rosa",
+          "text": "No, she ___. She has breakfast at home."
+        }
+      ],
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "b",
+      "hint": "she → doesn't.",
+      "explain": "No, she doesn't."
+    },
+    {
+      "id": "w1-cd-012",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 2,
+      "card": "ana",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "Ana, do you like cats?"
+        },
+        {
+          "who": "Ana",
+          "text": "No, ___. I like football!"
+        }
+      ],
+      "options": [
+        "I don't",
+        "I doesn't",
+        "you don't"
+      ],
+      "answer": "a",
+      "hint": "Look at Ana's card. Ana talks → I.",
+      "explain": "No, I don't."
+    },
+    {
+      "id": "w1-rd-001",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What time does Mia get up?",
+      "options": [
+        "At seven.",
+        "At eight."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Mia gets up at seven."
+    },
+    {
+      "id": "w1-rd-002",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Mia drinks milk.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Find milk in the text.",
+      "explain": "False. She doesn't drink milk."
+    },
+    {
+      "id": "w1-rd-003",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What does Mia eat?",
+      "options": [
+        "Apples.",
+        "Toast."
+      ],
+      "answer": "b",
+      "hint": "Find eats in the text.",
+      "explain": "She eats toast."
+    },
+    {
+      "id": "w1-rd-004",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "level": 2,
+      "prompt": "Does Mia go to school at eight?",
+      "options": [
+        "Yes, she does.",
+        "No, she doesn't."
+      ],
+      "answer": "a",
+      "hint": "Find school in the text.",
+      "explain": "Yes, she does. Mia goes to school at eight."
+    },
+    {
+      "id": "w1-rd-005",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What time does Sam do his homework?",
+      "options": [
+        "At four.",
+        "At five."
+      ],
+      "answer": "a",
+      "hint": "Find homework in the text.",
+      "explain": "He does his homework at four."
+    },
+    {
+      "id": "w1-rd-006",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Sam watches TV in the afternoon.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Find TV in the text.",
+      "explain": "False. He doesn't watch TV in the afternoon."
+    },
+    {
+      "id": "w1-rd-007",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "prompt": "Where do Sam and Leo play football?",
+      "options": [
+        "At school.",
+        "In the park."
+      ],
+      "answer": "b",
+      "hint": "Find football in the text.",
+      "explain": "They play in the park."
+    },
+    {
+      "id": "w1-rd-008",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "level": 2,
+      "prompt": "Do Sam and Leo play football every day?",
+      "options": [
+        "Yes, they do.",
+        "No, they don't."
+      ],
+      "answer": "a",
+      "hint": "Read the last sentence.",
+      "explain": "Yes, they do. They play every day."
+    },
+    {
+      "id": "w1-rd-009",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What does Pepper drink?",
+      "options": [
+        "Water.",
+        "Milk."
+      ],
+      "answer": "a",
+      "hint": "Find drinks in the text.",
+      "explain": "It drinks water."
+    },
+    {
+      "id": "w1-rd-010",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Pepper goes to school.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Find school in the text.",
+      "explain": "False. It doesn't go to school."
+    },
+    {
+      "id": "w1-rd-011",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "level": 1,
+      "prompt": "Does Pepper read books?",
+      "options": [
+        "Yes, it does.",
+        "No, it doesn't."
+      ],
+      "answer": "b",
+      "hint": "Find books in the text.",
+      "explain": "No, it doesn't."
+    },
+    {
+      "id": "w1-rd-012",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What time does Pepper get up?",
+      "options": [
+        "At seven.",
+        "At six."
+      ],
+      "answer": "b",
+      "hint": "Find gets up in the text.",
+      "explain": "Pepper gets up at six."
+    },
+    {
+      "id": "w1-bk-001",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "ride-a-bike",
+      "prompt": "Look. What does Ana do?",
+      "options": [
+        "ride a bike",
+        "walk to school",
+        "dance"
+      ],
+      "answer": "a",
+      "hint": "Look at the bike.",
+      "explain": "Ana rides a bike."
+    },
+    {
+      "id": "w1-bk-002",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "walk-to-school",
+      "prompt": "Look. What does Leo do?",
+      "options": [
+        "eat pizza",
+        "walk to school",
+        "smile"
+      ],
+      "answer": "b",
+      "hint": "Look at his feet and the school.",
+      "explain": "Leo walks to school."
+    },
+    {
+      "id": "w1-bk-003",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "dance",
+      "prompt": "Look. What do Mia and Ana do?",
+      "options": [
+        "dance",
+        "study English",
+        "visit Grandma"
+      ],
+      "answer": "a",
+      "hint": "Look at the music.",
+      "explain": "Mia and Ana dance."
+    },
+    {
+      "id": "w1-bk-004",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "eat-pizza",
+      "prompt": "Look. What does Leo do?",
+      "options": [
+        "play chess",
+        "speak English",
+        "eat pizza"
+      ],
+      "answer": "c",
+      "hint": "Look at his hand.",
+      "explain": "Leo eats pizza."
+    },
+    {
+      "id": "w1-bk-005",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "smile",
+      "prompt": "Look. What does Sam do?",
+      "options": [
+        "smile",
+        "ride a bike",
+        "live in a city"
+      ],
+      "answer": "a",
+      "hint": "Look at his face.",
+      "explain": "Sam smiles."
+    },
+    {
+      "id": "w1-bk-006",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "visit-grandma",
+      "prompt": "Look. What does Mia do?",
+      "options": [
+        "dance",
+        "visit Grandma",
+        "walk to school"
+      ],
+      "answer": "b",
+      "hint": "Who is at the door?",
+      "explain": "Mia visits her grandma."
+    },
+    {
+      "id": "w1-bk-007",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "play-chess",
+      "prompt": "Look. What do Sam and Leo do?",
+      "options": [
+        "play chess",
+        "eat pizza",
+        "speak English"
+      ],
+      "answer": "a",
+      "hint": "Look at the table.",
+      "explain": "Sam and Leo play chess."
+    },
+    {
+      "id": "w1-bk-008",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "speak-english",
+      "prompt": "Look. What do Mia and Ana do?",
+      "options": [
+        "ride a bike",
+        "smile",
+        "speak English"
+      ],
+      "answer": "c",
+      "hint": "They talk in an English class.",
+      "explain": "Mia and Ana speak English."
+    },
+    {
+      "id": "w1-bk-009",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "live-in-a-city",
+      "prompt": "Look. Sam ___ in a city.",
+      "options": [
+        "lives",
+        "eats",
+        "rides"
+      ],
+      "answer": "a",
+      "hint": "This is his home.",
+      "explain": "Sam lives in a city."
+    },
+    {
+      "id": "w1-bk-010",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "study-english",
+      "prompt": "Look. What does Mia do?",
+      "options": [
+        "study English",
+        "play chess",
+        "visit Grandma"
+      ],
+      "answer": "a",
+      "hint": "Look at the book.",
+      "explain": "Mia studies English."
+    },
+    {
+      "id": "w1-bk-011",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "ride-a-bike",
+      "prompt": "Ana ___ a bike to school.",
+      "options": [
+        "ride",
+        "rides"
+      ],
+      "answer": "b",
+      "hint": "Ana = she.",
+      "explain": "Ana rides a bike to school."
+    },
+    {
+      "id": "w1-bk-012",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "dance",
+      "prompt": "Mia ___ with Ana.",
+      "options": [
+        "dances",
+        "dance"
+      ],
+      "answer": "a",
+      "hint": "Mia = she. dance + s.",
+      "explain": "Mia dances with Ana."
+    },
+    {
+      "id": "w1-bk-013",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "speak-english",
+      "prompt": "We ___ English.",
+      "options": [
+        "speak",
+        "speaks"
+      ],
+      "answer": "a",
+      "hint": "Look at we.",
+      "explain": "We speak English."
+    },
+    {
+      "id": "w1-bk-014",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "image": "eat-pizza",
+      "prompt": "Leo doesn't ___ pizza for breakfast.",
+      "options": [
+        "eats",
+        "eat"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use eat.",
+      "explain": "Leo doesn't eat pizza for breakfast."
+    },
+    {
+      "id": "w1-bk-015",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "image": "play-chess",
+      "prompt": "Sam and Leo ___ play chess at school.",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "a",
+      "hint": "Sam and Leo = they.",
+      "explain": "Sam and Leo don't play chess at school."
+    },
+    {
+      "id": "w1-bk-016",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "visit-grandma",
+      "prompt": "___ Mia visit her grandma?",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "b",
+      "hint": "Mia = she → Does.",
+      "explain": "Does Mia visit her grandma?"
+    },
+    {
+      "id": "w1-bk-017",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "walk-to-school",
+      "prompt": "Does Leo ___ to school?",
+      "options": [
+        "walk",
+        "walks"
+      ],
+      "answer": "a",
+      "hint": "After Does, use walk.",
+      "explain": "Does Leo walk to school?"
+    },
+    {
+      "id": "w1-bk-018",
+      "v": 1,
+      "bank": "book",
+      "type": "mcq",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "live-in-a-city",
+      "prompt": "Where ___ Sam live?",
+      "options": [
+        "do",
+        "does"
+      ],
+      "answer": "b",
+      "hint": "Sam = he → does.",
+      "explain": "Where does Sam live?"
+    },
+    {
+      "id": "w1-bk-019",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "walk-to-school",
+      "tokens": [
+        "Leo",
+        "walks",
+        "to",
+        "school"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo walks to school"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo walks to school."
+    },
+    {
+      "id": "w1-bk-020",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "ride-a-bike",
+      "tokens": [
+        "Ana",
+        "rides",
+        "a",
+        "bike"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana rides a bike"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana rides a bike."
+    },
+    {
+      "id": "w1-bk-021",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "smile",
+      "tokens": [
+        "Sam",
+        "doesn't",
+        "ride",
+        "a",
+        "bike"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam doesn't ride a bike"
+      ],
+      "hint": "Sam doesn't …",
+      "explain": "Sam doesn't ride a bike."
+    },
+    {
+      "id": "w1-bk-022",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "dance",
+      "tokens": [
+        "Does",
+        "Mia",
+        "dance"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Mia dance"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Mia dance?"
+    },
+    {
+      "id": "w1-bk-023",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "live-in-a-city",
+      "tokens": [
+        "Where",
+        "do",
+        "you",
+        "live"
+      ],
+      "end": "?",
+      "answers": [
+        "Where do you live"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where do you live?"
+    },
+    {
+      "id": "w1-bk-024",
+      "v": 1,
+      "bank": "book",
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "speak-english",
+      "tokens": [
+        "We",
+        "speak",
+        "English",
+        "every",
+        "day"
+      ],
+      "end": ".",
+      "answers": [
+        "We speak English every day",
+        "Every day we speak English"
+      ],
+      "hint": "Start with We.",
+      "explain": "We speak English every day."
+    },
+    {
+      "id": "w1-bk-025",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "smile",
+      "text": "Sam ___ at his friends.",
+      "base": "smile",
+      "answers": [
+        "smiles"
+      ],
+      "pool": [
+        "smile",
+        "smiles"
+      ],
+      "hint": "Sam = he.",
+      "explain": "Sam smiles at his friends."
+    },
+    {
+      "id": "w1-bk-026",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "visit-grandma",
+      "text": "Mia ___ her grandma on Sunday.",
+      "base": "visit",
+      "answers": [
+        "visits"
+      ],
+      "pool": [
+        "visit",
+        "visits"
+      ],
+      "hint": "Mia = she.",
+      "explain": "Mia visits her grandma on Sunday."
+    },
+    {
+      "id": "w1-bk-027",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "dance",
+      "text": "Ana and Mia ___ at school.",
+      "base": "dance",
+      "answers": [
+        "dance"
+      ],
+      "pool": [
+        "dance",
+        "dances"
+      ],
+      "hint": "Ana and Mia = they.",
+      "explain": "Ana and Mia dance at school."
+    },
+    {
+      "id": "w1-bk-028",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "walk-to-school",
+      "text": "Leo doesn't ___ a bike.",
+      "base": "ride",
+      "answers": [
+        "ride"
+      ],
+      "pool": [
+        "ride",
+        "rides"
+      ],
+      "hint": "After doesn't, use ride.",
+      "explain": "Leo doesn't ride a bike."
+    },
+    {
+      "id": "w1-bk-029",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "live-in-a-city",
+      "text": "Do you ___ in a city?",
+      "base": "live",
+      "answers": [
+        "live"
+      ],
+      "pool": [
+        "live",
+        "lives"
+      ],
+      "hint": "After Do, use live.",
+      "explain": "Do you live in a city?"
+    },
+    {
+      "id": "w1-bk-030",
+      "v": 1,
+      "bank": "book",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "speak-english",
+      "text": "Mia ___ English with Ana.",
+      "base": "speak",
+      "answers": [
+        "speaks"
+      ],
+      "pool": [
+        "speak",
+        "speaks"
+      ],
+      "hint": "Mia = she.",
+      "explain": "Mia speaks English with Ana."
+    }
+  ]
+}

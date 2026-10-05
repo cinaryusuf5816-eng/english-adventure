@@ -1,0 +1,904 @@
+{
+  "date": "2026-10-05T19:52:17.035Z",
+  "env": "Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
+  "pass": 128,
+  "fail": 0,
+  "results": [
+    {
+      "area": "Navigation",
+      "name": "Home → Week 1 → Words → Learn → Practise → Home",
+      "expected": "each screen opens with its heading",
+      "actual": "Present Simple | Present Simple | Words | Learn | Practise | Present Simple",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "Direct link to a Learn step + reload keeps the step",
+      "expected": "Step 4 of 12 after reload",
+      "actual": "Step 4 of 12",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "Back and forward buttons",
+      "expected": "back returns to step 4, forward to step 5",
+      "actual": "Step 4 of 12 / Step 5 of 12",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "Arrow keys move exactly one step (no stacked listeners after many screens)",
+      "expected": "ArrowRight from step 1 → step 2",
+      "actual": "#/week/week-01/learn/habits/2",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "All 12 Learn lessons open with ≥ 9 steps each",
+      "expected": "12 lessons, each “Step 1 of N” with N ≥ 9",
+      "actual": "Step 1 of 10, Step 1 of 10, Step 1 of 10, Step 1 of 12, Step 1 of 10, Step 1 of 10, Step 1 of 12, Step 1 of 11, Step 1 of 12, Step 1 of 10, Step 1 of 10, Step 1 of 11, Step 1 of 11",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "Learn: Reveal shows the change; answer is hidden again on the next step",
+      "expected": "hidden → shown → next step hidden",
+      "actual": "true/true/true",
+      "status": "pass"
+    },
+    {
+      "area": "Navigation",
+      "name": "Teacher notes open in a dialog, Escape closes it and focus returns",
+      "expected": "dialog open → closed, focus on button",
+      "actual": "true/true/Teacher notes",
+      "status": "pass"
+    },
+    {
+      "area": "Words",
+      "name": "Word card: picture first, Show the word, Hide again; All cards view",
+      "expected": "phrase hidden → visible → hidden; 12 tiles",
+      "actual": "true watch TV true tiles=12 open=12",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Unknown week",
+      "expected": "friendly message + Home link",
+      "actual": "This week does not exist.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Unpublished week (Coming soon) cannot open",
+      "expected": "message “coming soon”",
+      "actual": "This week is coming soon.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Broken hash with HTML in it",
+      "expected": "not-right message, nothing injected",
+      "actual": "This link is not right.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Unknown page",
+      "expected": "Page not found",
+      "actual": "Page not found.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Missing week file (HTTP 404)",
+      "expected": "“file was not found” message, app still usable",
+      "actual": "The file was not found.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Broken JSON in the question file",
+      "expected": "“file is broken” message",
+      "actual": "The file is broken.",
+      "status": "pass"
+    },
+    {
+      "area": "Errors",
+      "name": "Missing picture shows a clear “Picture not available” box",
+      "expected": "no broken image icon; text shown",
+      "actual": "Picture not available",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "fill",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "change",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Tap the wrong word first.",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "fix",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "decide",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "dialogue",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Empty answer: Check gives a message and no attempt",
+      "expected": "message; attempts 0",
+      "actual": "Choose or write an answer first.",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Wrong answer: specific hint, can try again; then correct",
+      "expected": "status correct-retry, firstCorrect false",
+      "actual": "correct-retry attempts=2 hint=true",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Hint button opens the hint and is recorded",
+      "expected": "hint visible; hintUsed true",
+      "actual": "true",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Double click on Check with the right answer adds only one point",
+      "expected": "attempts 1, status correct-first",
+      "actual": "correct-first attempts=1",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Show answer: answer appears, no point, buttons locked",
+      "expected": "status shown; Check disabled",
+      "actual": "shown true",
+      "status": "pass"
+    },
+    {
+      "area": "reading",
+      "name": "Going back to a finished question keeps its result (no second point)",
+      "expected": "question 1 still correct-retry and locked",
+      "actual": "First try: 1 · Done: 3 of 3",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Options are shuffled for display but checked by option id",
+      "expected": "shown order differs for some questions; right id is right",
+      "actual": "12/12 shuffled",
+      "status": "pass"
+    },
+    {
+      "area": "mcq",
+      "name": "Re-drawing the same question keeps the same option order",
+      "expected": "same order after reload",
+      "actual": "c,b,a / c,b,a",
+      "status": "pass"
+    },
+    {
+      "area": "Practise",
+      "name": "First/last limits and skipping",
+      "expected": "Previous disabled on Q1; last shows Finish; skipped stays unanswered",
+      "actual": "prevDisabled=true",
+      "status": "pass"
+    },
+    {
+      "area": "Practise",
+      "name": "Finish with unanswered questions asks first; results count them as not answered",
+      "expected": "confirm dialog; results: 3 not answered",
+      "actual": "asked=true notAnswered=3",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Two cards with the same word (“Do … do”) work as two separate cards",
+      "expected": "both placed; answer correct",
+      "actual": "placed=5 correct-first",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Keyboard only: Tab to a card, Enter places it; Undo and tapping a placed card remove it",
+      "expected": "line count 2 → 1 → 0",
+      "actual": "2 → 1 → 0",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Clear empties the sentence; records stay",
+      "expected": "line empty after Clear",
+      "actual": "cleared",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "Both correct orders are accepted (“Every day I read a book.”)",
+      "expected": "correct-first",
+      "actual": "correct-first",
+      "status": "pass"
+    },
+    {
+      "area": "jumbled",
+      "name": "A really wrong order is not accepted",
+      "expected": "status trying",
+      "actual": "trying",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "Curly apostrophe, extra spaces and capitals are accepted",
+      "expected": "“  he DOESN’T   play football ” → correct",
+      "actual": "correct-first",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "“does not” is accepted for doesn't",
+      "expected": "correct",
+      "actual": "correct-first",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "don't vs doesn't is still graded",
+      "expected": "“He don't play football.” → not correct",
+      "actual": "trying",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "“dont” without apostrophe is not accepted but the learner is told",
+      "expected": "trying + note about don't",
+      "actual": "trying | Not yet. Almost! Write don't with ' . Try again, or tap Show answer.",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "Fill: “do not” accepted for don't; Enter key checks",
+      "expected": "correct-first",
+      "actual": "correct-first",
+      "status": "pass"
+    },
+    {
+      "area": "Typed answers",
+      "name": "Question with small i shows a gentle tip",
+      "expected": "correct + tip",
+      "actual": "Correct! I don't watch TV. Tip: write I with a big letter.",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "Settings from the link: 5 negative questions",
+      "expected": "5 questions, all negative",
+      "actual": "5 true",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "Resume after leaving",
+      "expected": "Resume button shows question 2 and opens it",
+      "actual": "Resume (question 2 of 5) → Question 2 of 5",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "Retry mistakes makes a new round; first round results unchanged",
+      "expected": "round 2 with 4 questions; parent kept first-try 1",
+      "actual": "first=1 round=2 n=4",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "Restart activity asks first and starts a new set",
+      "expected": "confirm → setup screen → new session id",
+      "actual": "smuvo0k9pc1jm → smuvo0kcs6bwe",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "Cancel in a confirm dialog changes nothing",
+      "expected": "same session after Cancel",
+      "actual": "unchanged",
+      "status": "pass"
+    },
+    {
+      "area": "Sessions",
+      "name": "New lesson (new class) removes only this week + mode, after a yes",
+      "expected": "mcq session gone; other app keys kept",
+      "actual": "session=null other=keep me",
+      "status": "pass"
+    },
+    {
+      "area": "Modes",
+      "name": "Classroom and Practice keep separate answers",
+      "expected": "answer shown in Practice is not shown in Classroom",
+      "actual": "classroom=true cardInClassroom=0 shownBack=1",
+      "status": "pass"
+    },
+    {
+      "area": "Storage",
+      "name": "localStorage blocked: lessons still work, note is shown",
+      "expected": "note visible; practice question can be answered",
+      "actual": "Saving is off on this device. You can still use every lesson.",
+      "status": "pass"
+    },
+    {
+      "area": "Storage",
+      "name": "Storage full: app keeps working and says so",
+      "expected": "“device is full” note; question still checks",
+      "actual": "This device is full. New progress is not saved, but the lesson works.",
+      "status": "pass"
+    },
+    {
+      "area": "Storage",
+      "name": "Broken saved data is removed, page still opens",
+      "expected": "setup screen opens; note about broken data",
+      "actual": "Some saved progress was broken and was removed. The lesson works.",
+      "status": "pass"
+    },
+    {
+      "area": "Storage",
+      "name": "Saved session pointing to removed questions does not crash",
+      "expected": "unknown ids dropped; known question shown",
+      "actual": "Question 1 of 1",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "A template week can be added without code changes; Week 1 progress stays",
+      "expected": "Week 2 opens; Week 1 saved session still there",
+      "actual": "cards=2 title=TEST WEEK (not real content) banks=8 resume=1",
+      "status": "pass"
+    },
+    {
+      "area": "Pictures",
+      "name": "Every picture used by Week 1 loads (all 21 week images + covers)",
+      "expected": "naturalWidth > 0 for each",
+      "actual": "64 files loaded",
+      "status": "pass"
+    },
+    {
+      "area": "Pictures",
+      "name": "Images have alt text that does not give answers",
+      "expected": "all <img> on word grid have alt; none mention “answer”",
+      "actual": "12 images",
+      "status": "pass"
+    },
+    {
+      "area": "Tools",
+      "name": "Full screen button does not break the page (allowed or refused)",
+      "expected": "page still works after click",
+      "actual": "clicked",
+      "status": "pass"
+    },
+    {
+      "area": "Tools",
+      "name": "Copy link without clipboard permission shows the link to select",
+      "expected": "dialog with the current URL",
+      "actual": "http://127.0.0.1:8211/test-repo/#/",
+      "status": "pass"
+    },
+    {
+      "area": "Tools",
+      "name": "Listen buttons are hidden when there is no English voice, or work when there is",
+      "expected": "no visible broken speaker button",
+      "actual": "voices=false visibleButtons=0",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1920×1080: no sideways scrolling on 17 screens + every question type",
+      "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1920×1080: small buttons are at least 44×44 px",
+      "expected": "no button smaller than 44 px",
+      "actual": "0 small",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1366×768: no sideways scrolling on 17 screens + every question type",
+      "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1366×768: small buttons are at least 44×44 px",
+      "expected": "no button smaller than 44 px",
+      "actual": "0 small",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1024×768: no sideways scrolling on 17 screens + every question type",
+      "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "1024×768: small buttons are at least 44×44 px",
+      "expected": "no button smaller than 44 px",
+      "actual": "0 small",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "768×1024: no sideways scrolling on 17 screens + every question type",
+      "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "768×1024: small buttons are at least 44×44 px",
+      "expected": "no button smaller than 44 px",
+      "actual": "0 small",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "390×844: no sideways scrolling on 17 screens + every question type",
+      "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Screens",
+      "name": "390×844: small buttons are at least 44×44 px",
+      "expected": "no button smaller than 44 px",
+      "actual": "0 small",
+      "status": "pass"
+    },
+    {
+      "area": "Modes",
+      "name": "Classroom mode: example sentences 32–44 px on a 1920×1080 board",
+      "expected": "font-size between 32 and 44",
+      "actual": "44px",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Reduced motion: Question Door opens with the right question; wrong gives a hint",
+      "expected": "hint on wrong; door open + answer on right",
+      "actual": "The door opens! Does Sam play football? — Yes, he does.",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Sentence Switch builds correct + / − / ? with he and has",
+      "expected": "She has breakfast. / She doesn't have breakfast. / Does she have breakfast?",
+      "actual": "She has breakfast. | She doesn't have breakfast. | Does she have breakfast? | Yes, she does. No, she doesn't.",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Memory Match: a right pair stays open, a wrong pair closes again",
+      "expected": "pair matched; wrong pair closed; 12 cards",
+      "actual": "cards=12 done=2 open=0 Pairs: 1 of 6 · Turns: 2",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Yes or No?: wrong gives the hint, right short answer is scored once",
+      "expected": "hint; First try 0 · Done 1 after a wrong first try",
+      "actual": "First try: 0 · Done: 1 of 16",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Spin and Say: spin gives a sentence that matches the slots (verified forms)",
+      "expected": "answer hidden → shown, ends with . or ?",
+      "actual": "He / − negative → He doesn't walk to school.",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Picture Reveal: open pieces, reveal word and sentence separately, next picture",
+      "expected": "tiles open; word then sentence; picture 2",
+      "actual": "1 true false He plays football. Picture 2 of 21",
+      "status": "pass"
+    },
+    {
+      "area": "Speak",
+      "name": "Speaking card: help and example are optional; Done / Try again need no microphone",
+      "expected": "help hidden → shown; marks work",
+      "actual": "For example: Yes, I do. I play football every day. | Well spoken!",
+      "status": "pass"
+    },
+    {
+      "area": "Learn",
+      "name": "“Now you try” step: wrong → Try again, right → explanation",
+      "expected": "try-again then Yes!",
+      "actual": "Try again. | Yes! Sam plays football on Saturday.",
+      "status": "pass"
+    },
+    {
+      "area": "Examples",
+      "name": "Change Machine: + → − step by step; the ending moves to does",
+      "expected": "4 rows, last “Sam doesn't play football.”, rule frame shown",
+      "actual": "4 rows · Sam doesn't play football. · frame=true",
+      "status": "pass"
+    },
+    {
+      "area": "Examples",
+      "name": "Change Machine: has → have in a Does question",
+      "expected": "“Does she have breakfast?”",
+      "actual": "Does she have breakfast?",
+      "status": "pass"
+    },
+    {
+      "area": "Examples",
+      "name": "Change Machine inside a Learn step",
+      "expected": "Learn 7 step 2 ends with doesn't",
+      "actual": "He doesn't play football.",
+      "status": "pass"
+    },
+    {
+      "area": "Words",
+      "name": "Book words set: 10 cards; first card “live in a city”",
+      "expected": "Card 1 of 10",
+      "actual": "Card 1 of 10 · live in a city",
+      "status": "pass"
+    },
+    {
+      "area": "Practise",
+      "name": "Book words bank (I): 30 questions; a picture question is checked",
+      "expected": "30 questions; correct-first",
+      "actual": "30 questions",
+      "status": "pass"
+    },
+    {
+      "area": "Challenge",
+      "name": "Challenge: 15 mixed core questions; results show stars; My Progress ticks Challenge",
+      "expected": "15 · stars · 1/1",
+      "actual": "15 · 0 of 3 stars · ✓ Challenge 1/1",
+      "status": "pass"
+    },
+    {
+      "area": "Progress",
+      "name": "My Progress and Today's Mission update from real activity",
+      "expected": "Learn 3/13; first mission done",
+      "actual": "Learn 3/13 · is-done",
+      "status": "pass"
+    },
+    {
+      "area": "Shell",
+      "name": "Week picker: Coming soon weeks cannot be chosen; owl tip changes on click",
+      "expected": "week-02 disabled; tip changes",
+      "actual": "true · “He, she, it: add s! He plays.” → “After doesn't, use play — no s!”",
+      "status": "pass"
+    },
+    {
+      "area": "Shell",
+      "name": "Phone: menu button opens the sidebar; a link closes it and navigates",
+      "expected": "menu opens; Examples opens",
+      "actual": "true/true",
+      "status": "pass"
+    },
+    {
+      "area": "Paths",
+      "name": "Same package works at the domain root (/) as well as /test-repo/",
+      "expected": "home + week + practice question load at /",
+      "actual": "ok",
+      "status": "pass"
+    },
+    {
+      "area": "Console",
+      "name": "No console errors or warnings from the app during all tests",
+      "expected": "0",
+      "actual": "0",
+      "status": "pass"
+    },
+    {
+      "area": "Network",
+      "name": "No failed or 4xx/5xx requests (except tests that force a 404)",
+      "expected": "0",
+      "actual": "0",
+      "status": "pass"
+    },
+    {
+      "area": "Network",
+      "name": "Requests cancelled by quick screen changes (not errors)",
+      "expected": "info",
+      "actual": "1",
+      "status": "pass"
+    },
+    {
+      "area": "Network",
+      "name": "Google Fonts reachable (optional; the site falls back to system fonts)",
+      "expected": "reachable",
+      "actual": "reachable",
+      "status": "pass"
+    }
+  ]
+}

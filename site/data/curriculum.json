@@ -1,0 +1,23 @@
+{
+  "weeks": [
+    {
+      "id": "week-01",
+      "number": 1,
+      "title": "Present Simple",
+      "subtitle": "Every day: I play, he plays, I don't, does she…?",
+      "published": true,
+      "file": "data/weeks/week-01/week.json",
+      "cover": "assets/images/week-01/week-01-cover",
+      "coverAlt": "Mia and Sam look at a board with pictures of daily things.",
+      "unit": "Unit 1"
+    },
+    {
+      "id": "week-02",
+      "number": 2,
+      "title": "Coming soon",
+      "subtitle": "New clues are on the way.",
+      "published": false,
+      "unit": "Unit 1"
+    }
+  ]
+}
