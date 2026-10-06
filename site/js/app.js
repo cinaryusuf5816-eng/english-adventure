@@ -16,6 +16,9 @@ import { renderSpeak } from './views/speak.js';
 import { renderProgress } from './views/progress-view.js';
 import { renderTeacher } from './views/teacher.js';
 import { renderMessage } from './views/message.js';
+import { renderCertificate } from './views/certificate.js';
+import { renderWorksheet } from './views/worksheet.js';
+import { celebrateNewBadges } from './badges.js';
 
 const VIEWS = {
   home: renderHome,
@@ -31,7 +34,9 @@ const VIEWS = {
   challenge: renderChallenge,
   play: renderPlay,
   speak: renderSpeak,
-  progress: renderProgress
+  progress: renderProgress,
+  certificate: renderCertificate,
+  worksheet: renderWorksheet
 };
 
 // Sidebar items (week sections use the current week)
@@ -50,7 +55,7 @@ const NAV = [
 const ROUTE_SECTION = {
   home: 'home', week: 'home', words: 'words', learn: 'learn', examples: 'examples',
   'practise-menu': 'practise', 'practise-setup': 'practise', challenge: 'challenge',
-  play: 'play', speak: 'speak', progress: 'progress', teacher: 'teacher', weeks: 'weeks'
+  play: 'play', speak: 'speak', progress: 'progress', teacher: 'teacher', weeks: 'weeks', certificate: 'progress', worksheet: 'teacher'
 };
 
 const state = { site: null, curriculum: null, mode: 'practice', weekId: null, cleanups: [], renderToken: 0 };
@@ -106,8 +111,8 @@ async function render() {
   container.setAttribute('aria-busy', 'true');
 
   let view;
+  let week = null;
   try {
-    let week = null;
     if (route.weekId) {
       week = await loadWeek(state.curriculum, route.weekId);
       if (token !== state.renderToken) return;
@@ -141,6 +146,7 @@ async function render() {
   }
   window.scrollTo(0, 0);
   drawSidebar(route);
+  if (week && week.entry.published) celebrateNewBadges(week);
 }
 
 // ---------- sidebar ----------

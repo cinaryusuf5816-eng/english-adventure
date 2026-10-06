@@ -114,11 +114,16 @@ async function injectSession(page, bank, ids, { mode = 'practice', support = 'he
 async function open(page, base, hash) {
   await page.goto(base + hash, { waitUntil: 'networkidle' });
   await page.waitForSelector('#main .screen', { timeout: 8000 });
+  await dismissCelebration(page);
+}
+async function dismissCelebration(page) {
+  if (await page.locator('.celebrate').count()) await page.click('.celebrate button:has-text("Great!")');
 }
 async function openPlay(page, base, bank) {
   await page.goto(`${base}#/week/week-01/practise/${bank}/play`, { waitUntil: 'networkidle' });
   await page.reload({ waitUntil: 'networkidle' });
   await page.waitForSelector('.question-card', { timeout: 8000 });
+  await dismissCelebration(page);
 }
 const words = (s) => s.replace(/[.?!]$/, '').split(' ');
 
@@ -750,7 +755,7 @@ const TYPES = ['mcq', 'jumbled', 'fill', 'change', 'fix', 'decide', 'dialogue', 
 // 17–18. Screen sizes, keyboard, reduced motion, games
 // =====================================================================
 const SIZES = [[1920, 1080], [1366, 768], [1024, 768], [768, 1024], [390, 844]];
-const SIZE_ROUTES = ['#/', '#/week/week-01/examples', '#/week/week-01/examples/ex-04/question', '#/week/week-01/challenge', '#/week/week-01/progress', '#/week/week-01/words?set=book', '#/week/week-01', '#/week/week-01/words/2', '#/week/week-01/learn/compare/2', '#/week/week-01/practise', '#/week/week-01/play', '#/week/week-01/play/sentence-switch', '#/week/week-01/play/question-door', '#/week/week-01/play/memory', '#/week/week-01/play/yes-or-no', '#/week/week-01/play/spin-and-say', '#/week/week-01/speak/3'];
+const SIZE_ROUTES = ['#/', '#/week/week-01/examples', '#/week/week-01/examples/ex-04/question', '#/week/week-01/challenge', '#/week/week-01/progress', '#/week/week-01/words?set=book', '#/week/week-01', '#/week/week-01/words/2', '#/week/week-01/learn/compare/2', '#/week/week-01/practise', '#/week/week-01/play', '#/week/week-01/play/sentence-switch', '#/week/week-01/play/question-door', '#/week/week-01/play/memory', '#/week/week-01/play/yes-or-no', '#/week/week-01/play/spin-and-say', '#/week/week-01/play/listen', '#/week/week-01/worksheet', '#/week/week-01/certificate', '#/week/week-01/speak/3'];
 for (const [w, hgt] of SIZES) {
   const page = await newPage({ viewport: { width: w, height: hgt } }, `size-${w}`);
   await check('Screens', `${w}×${hgt}: no sideways scrolling on ${SIZE_ROUTES.length} screens + every question type`, 'scrollWidth ≤ width everywhere; Check button inside the screen width', async () => {
@@ -849,7 +854,7 @@ for (const [w, hgt] of SIZES) {
     await page.click(`.yesno-wrap [data-option="${it.answer}"]`);
     await page.click(`.yesno-wrap [data-option="${it.answer}"]`, { force: true, timeout: 1500 }).catch(() => {});
     const score = await page.locator('.score').innerText();
-    return { ok: hint.includes(it.hint) && /First try: 0 · Done: 1 of 16/.test(score), detail: score };
+    return { ok: hint.includes(it.hint) && /First try: 0 · Done: 1 of 20/.test(score), detail: score };
   });
   await check('Games', 'Spin and Say: spin gives a sentence that matches the slots (verified forms)', 'answer hidden → shown, ends with . or ?', async () => {
     await open(page, SUB, '#/week/week-01/play/spin-and-say');
@@ -887,7 +892,7 @@ for (const [w, hgt] of SIZES) {
     await page.click('.teacher-marks button:has-text("Done")');
     const mark = await page.locator('.speak-mark').innerText();
     const cards = WEEK.speaking.length;
-    return { ok: hidden && /Yes, I do/.test(sample) && /Well spoken/.test(mark) && cards === 16, detail: `${sample} | ${mark}` };
+    return { ok: hidden && /Yes, I do/.test(sample) && /Well spoken/.test(mark) && cards === 18, detail: `${sample} | ${mark}` };
   });
   await check('Learn', '“Now you try” step: wrong → Try again, right → explanation', 'try-again then Yes!', async () => {
     await open(page, SUB, '#/week/week-01/learn/habits/10');
@@ -991,6 +996,69 @@ for (const [w, hgt] of SIZES) {
     await page.waitForSelector('.example-grid');
     const c = await page.evaluate(() => !document.body.classList.contains('menu-open'));
     return { ok: o && c, detail: `${o}/${c}` };
+  });
+  await page.context().close();
+}
+
+// =====================================================================
+// v2.1: badges + celebration, certificate, worksheet, Listen and Choose
+// =====================================================================
+{
+  const page = await newPage({}, 'extras');
+  await check('Badges', 'Finishing a section shows one celebration with the badge; it does not repeat', 'Word Finder celebration once', async () => {
+    await page.goto(`${SUB}#/`, { waitUntil: 'networkidle' });
+    await page.evaluate(() => { localStorage.clear(); localStorage.setItem('eemc:v1:week-01:progress', JSON.stringify({ words: ['everyday', 'book', 'a1-verbs'] })); });
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForSelector('.celebrate');
+    const title = await page.locator('.celebrate h2').innerText();
+    await page.click('.celebrate button:has-text("Great!")');
+    const gone = (await page.locator('.celebrate').count()) === 0;
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForSelector('.dash-hero');
+    await page.waitForTimeout(300);
+    const again = await page.locator('.celebrate').count();
+    const earned = await page.locator('.mp-badges .badge.is-earned').count();
+    return { ok: title === 'Word Finder' && gone && again === 0 && earned === 1, detail: `${title} · again=${again} · earned=${earned}` };
+  });
+  await check('Certificate', 'Certificate shows the typed name and badges; the name is not saved', 'name on certificate; not in storage', async () => {
+    await open(page, SUB, '#/week/week-01/certificate');
+    await page.fill('.cert-name-input', 'Test Explorer');
+    const shown = await page.locator('.cert-name').innerText();
+    const stored = await page.evaluate(() => Object.keys(localStorage).some((k) => (localStorage.getItem(k) || '').includes('Test Explorer')));
+    const badges = await page.locator('.cert-badges .badge').count();
+    await page.screenshot({ path: join(SHOTS, 'certificate-1366.png'), fullPage: true });
+    return { ok: shown === 'Test Explorer' && !stored && badges === 7, detail: `${shown} · stored=${stored} · badges=${badges}` };
+  });
+  await check('Worksheet', 'Worksheet: chosen activities → numbered questions + matching answer key', '20 questions and 20 answers by default', async () => {
+    await open(page, SUB, '#/week/week-01/worksheet');
+    const items = await page.locator('.ws-sheet .ws-item').count();
+    const answers = await page.locator('.ws-key-list li').count();
+    await page.screenshot({ path: join(SHOTS, 'worksheet-1366.png'), fullPage: true });
+    await page.locator('.ws-controls .chip', { hasText: 'H Mini reading' }).click();
+    const items2 = await page.locator('.ws-sheet .ws-item').count();
+    const answers2 = await page.locator('.ws-key-list li').count();
+    const passages = await page.locator('.ws-passage').count();
+    return { ok: items === 20 && answers === 20 && items2 === answers2 && items2 > 20 && passages >= 1, detail: `${items}/${answers} → ${items2}/${answers2}, passages=${passages}` };
+  });
+  await check('Worksheet', 'Print view hides the menu and the settings', 'sidebar + settings hidden in print media', async () => {
+    await page.emulateMedia({ media: 'print' });
+    const side = await page.locator('#sidebar').isVisible();
+    const form = await page.locator('.ws-controls').isVisible();
+    const sheet = await page.locator('.ws-sheet').isVisible();
+    await page.emulateMedia({ media: 'screen' });
+    return { ok: !side && !form && sheet, detail: `side=${side} form=${form} sheet=${sheet}` };
+  });
+  await check('Games', 'Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored', 'teacher text; First try 0 · Done 1', async () => {
+    await open(page, SUB, '#/week/week-01/play/listen');
+    await page.click('button:has-text("Show the sentence")');
+    const text = await page.locator('.listen-text').innerText();
+    const target = WEEK.words.find((w) => w.example === text);
+    const wrongBtn = page.locator(`.listen-card:not([data-word="${target.id}"])`).first();
+    await wrongBtn.click();
+    const fb = await page.locator('.listen-wrap .feedback').innerText();
+    await page.click(`.listen-card[data-word="${target.id}"]`);
+    const score = await page.locator('.score').innerText();
+    return { ok: !!target && /Try again/.test(fb) && /First try: 0 · Done: 1 of 10/.test(score), detail: `${text} · ${score}` };
   });
   await page.context().close();
 }

@@ -72,7 +72,9 @@ export function renderPractiseMenu(ctx) {
       h('p', { class: 'lead' }, 'Choose an activity. Then choose 5, 10 or 15 questions.'),
       h('p', { class: 'muted small' }, `${total} questions in Week ${ctx.week.entry.number}. Progress is saved only in this browser${isAvailable() ? '' : ' (saving is off now)'}.`)),
     h('div', { class: 'bank-grid' }, cards),
-    h('div', { class: 'actions end' }, newLesson));
+    h('div', { class: 'actions end' },
+      h('a', { class: 'btn btn-ghost', href: buildHash(['week', week.id, 'worksheet']) }, icon('note'), h('span', { class: 'btn-label' }, 'Printable worksheet')),
+      newLesson));
 }
 
 // ---------------- setup ----------------

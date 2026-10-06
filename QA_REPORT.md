@@ -1,5 +1,7 @@
 # QA raporu — Everyday English: Mystery Club v1.1.0 (defter tasarımı + 6 oyun)
 
+> **v2.2 güncellemesi (2026-10-06):** A1 action verbs (16 kelime + 24 soru, toplam 258 soru), madalya görselli rozetler, çerçeveli sertifika, renkli worksheet. Son çalıştırma: içerik doğrulama geçti · birim 40/40 · uçtan uca **133/133**.
+
 Tarih: 2026-10-05 · Ortam: Windows 11 Pro, Node v24.19.0, Microsoft Edge 154 (headless, `playwright-core`), yerel statik sunucu `scripts/serve.mjs`.
 
 > Bu testler **benim bilgisayar ortamımdaki statik sunucuda** yapıldı. Bu, GitHub Pages üzerinde gerçek yayın testi **değildir** (depo oluşturma / yayımlama yapılmadı). Yayından sonra `GITHUB_YAYINLAMA_TR.md` §5'teki kısa kontrolü yapın.

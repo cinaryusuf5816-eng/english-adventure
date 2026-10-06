@@ -31,7 +31,7 @@ export function sectionTotals(data) {
     learn: w.learn.length,
     examples: Math.min(6, (w.examples || []).length),
     practise: data.banks.length,
-    play: 6,
+    play: 7,
     challenge: 1,
     speak: Math.min(6, w.speaking.length)
   };

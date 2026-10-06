@@ -4,7 +4,7 @@ import { buildHash, go } from '../router.js';
 import { screen, weekBar, listenButton, progressText } from './common.js';
 import { buildSentence } from '../core/grammar.js';
 import { makeRng, newSeed, shuffledNotSame, hashString } from '../core/rng.js';
-import { memoryMatch, yesNo, spinSay } from './games-more.js';
+import { memoryMatch, yesNo, spinSay, listenChoose } from './games-more.js';
 import { markDone } from '../progress.js';
 
 const GAMES = [
@@ -13,7 +13,8 @@ const GAMES = [
   { id: 'question-door', title: 'Question Door', text: 'Make the right Do / Does question. The door opens.', icon: 'door' },
   { id: 'memory', title: 'Memory Match', text: 'Find the picture and its words.', icon: 'words' },
   { id: 'yes-or-no', title: 'Yes or No?', text: 'Read the clue. Choose the short answer.', icon: 'check' },
-  { id: 'spin-and-say', title: 'Spin and Say', text: 'Spin who and what. Say +, − or ?.', icon: 'speak' }
+  { id: 'spin-and-say', title: 'Spin and Say', text: 'Spin who and what. Say +, − or ?.', icon: 'speak' },
+  { id: 'listen', title: 'Listen and Choose', text: 'Listen to the sentence. Choose the right picture.', icon: 'sound' }
 ];
 
 export function renderPlay(ctx) {
@@ -26,6 +27,7 @@ export function renderPlay(ctx) {
   if (game === 'memory') return memoryMatch(ctx, gameHead);
   if (game === 'yes-or-no') return yesNo(ctx, gameHead);
   if (game === 'spin-and-say') return spinSay(ctx, gameHead);
+  if (game === 'listen') return listenChoose(ctx, gameHead);
   return screen('Play', weekBar(ctx, 'play'),
     h('header', { class: 'section-head' }, h('h1', {}, 'Play'), h('p', { class: 'lead' }, 'Choose a game.'),
       game ? h('p', { class: 'muted' }, 'We could not find that game.') : null),

@@ -59,6 +59,8 @@ export function matchRoute({ segments, query, bad }) {
     if (c === 'examples') return { name: 'examples', weekId, example: d, mode: e };
     if (c === 'challenge') return { name: e === 'play' || d === 'play' ? 'practise-play' : 'challenge', weekId, bank: 'challenge', query };
     if (c === 'progress') return { name: 'progress', weekId };
+    if (c === 'certificate') return { name: 'certificate', weekId };
+    if (c === 'worksheet') return { name: 'worksheet', weekId, query };
     if (c === 'learn') return { name: 'learn', weekId, topic: d, step: e };
     if (c === 'practise') {
       if (!d) return { name: 'practise-menu', weekId, query };

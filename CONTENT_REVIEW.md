@@ -50,5 +50,6 @@ Her maddenin metni, seçenekleri, cevabı, ipucu ve açıklaması tek tek okundu
 
 ## v2.0 eklemeleri
 - Kitap kelimeleri (Language Log, Unit 1, s.18): live, speak, study, dance, play, walk, ride, eat, smile, visit. 10 kelime kartı, Learn 13 (8 örnek + 2 uygulama), **I · Book words: 30 soru** (10 resim-kelime, 8 cümle biçimi, 6 cümle kurma, 6 boşluk doldurma), 4 konuşma kartı. Toplam puanlanabilir: 204 temel + 30 = **234**.
+- **v2.2 — A1 action verbs:** run, jump, swim, sing, draw, sleep, write, cook, clean, wash, climb, fly, catch, open, listen, feed. 16 resimli kelime kartı (3. kelime seti), **J · Action verbs: 24 soru** (8 resim-kelime, 8 olumlu, 4 olumsuz, 4 soru), Listen and Choose / Picture Reveal / Sentence Switch / Yes or No (20) ve 2 yeni konuşma kartı (toplam 18). Toplam puanlanabilir: 204 temel + 30 + 24 = **258**. Rozetler artık madalya görselleri; sertifika süslü çerçeveli; worksheet renkli başlıklı.
 - dance → dances, ride → rides, smile → smiles (sadece -s); live → lives. Change Machine bu biçimleri doğrulanmış `s` alanından alır.
 - Examples: 16 Change Machine örneği (he/she/it/isimler ve I/you/we/they).

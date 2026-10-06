@@ -29,5 +29,7 @@ export function renderTeacher() {
       h('p', {}, 'Progress is saved only in this browser on this device. The site does not collect names, emails or any personal data. In a private window, or when saving is blocked, the site still works but does not keep progress.'),
       h('h2', {}, 'Sound'),
       h('p', {}, 'The “Listen” button appears only when the device has an English voice. It never plays by itself.'),
-      h('div', { class: 'actions' }, link('Home', '#/', { kind: 'primary', icon: 'home' }))));
+      h('h2', {}, 'Worksheets'),
+      h('p', {}, 'Practice → “Printable worksheet” makes a paper worksheet and an answer key from the question banks.'),
+      h('div', { class: 'actions' }, link('Home', '#/', { kind: 'primary', icon: 'home' }), link('Printable worksheet', '#/week/week-01/worksheet', { icon: 'note' }))));
 }

@@ -73,6 +73,14 @@
       "instruction": "Look and choose.",
       "description": "The action words from the book: live, ride, dance …",
       "expected": 30
+    },
+    {
+      "id": "verbs",
+      "letter": "J",
+      "title": "A1 action verbs",
+      "instruction": "Look and choose.",
+      "description": "run, jump, swim, sing, draw … with he / she / it.",
+      "expected": 24
     }
   ],
   "cards": {
@@ -4469,6 +4477,452 @@
       ],
       "hint": "Mia = she.",
       "explain": "Mia speaks English with Ana."
+    },
+    {
+      "id": "w1-vb-001",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-run",
+      "prompt": "Look. What does Leo do?",
+      "options": [
+        "run",
+        "swim",
+        "sleep"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Leo runs."
+    },
+    {
+      "id": "w1-vb-002",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-swim",
+      "prompt": "Look. What does Sam do?",
+      "options": [
+        "climb",
+        "swim",
+        "cook"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Sam swims."
+    },
+    {
+      "id": "w1-vb-003",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-draw",
+      "prompt": "Look. What does Ana do?",
+      "options": [
+        "sing",
+        "write a letter",
+        "draw a picture"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Ana draws a picture."
+    },
+    {
+      "id": "w1-vb-004",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-sleep",
+      "prompt": "Look. What does Pepper do?",
+      "options": [
+        "sleep",
+        "jump",
+        "eat"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Pepper sleeps."
+    },
+    {
+      "id": "w1-vb-005",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-climb",
+      "prompt": "Look. What does Ana do?",
+      "options": [
+        "fly a kite",
+        "climb a tree",
+        "run"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Ana climbs a tree."
+    },
+    {
+      "id": "w1-vb-006",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-wash",
+      "prompt": "Look. What does Leo do?",
+      "options": [
+        "wash his hands",
+        "cook pancakes",
+        "catch a ball"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Leo washes his hands."
+    },
+    {
+      "id": "w1-vb-007",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-fly",
+      "prompt": "Look. What does Sam do?",
+      "options": [
+        "swim",
+        "fly a kite",
+        "feed the cat"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Sam flies a kite."
+    },
+    {
+      "id": "w1-vb-008",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-listen",
+      "prompt": "Look. What does Ana do?",
+      "options": [
+        "sing a song",
+        "jump",
+        "listen to music"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Ana listens to music."
+    },
+    {
+      "id": "w1-vb-009",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-fly",
+      "prompt": "Sam ___ a kite.",
+      "options": [
+        "flys",
+        "flies",
+        "fly"
+      ],
+      "answer": "b",
+      "hint": "fly → flies (y → ies).",
+      "explain": "Sam flies a kite."
+    },
+    {
+      "id": "w1-vb-010",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-catch",
+      "prompt": "Leo ___ the ball.",
+      "options": [
+        "catches",
+        "catchs"
+      ],
+      "answer": "a",
+      "hint": "catch + es.",
+      "explain": "Leo catches the ball."
+    },
+    {
+      "id": "w1-vb-011",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-wash",
+      "prompt": "He ___ his hands.",
+      "options": [
+        "wash",
+        "washes"
+      ],
+      "answer": "b",
+      "hint": "he → washes.",
+      "explain": "He washes his hands."
+    },
+    {
+      "id": "w1-vb-012",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-sing",
+      "prompt": "We ___ songs at school.",
+      "options": [
+        "sing",
+        "sings"
+      ],
+      "answer": "a",
+      "hint": "Look at we.",
+      "explain": "We sing songs at school."
+    },
+    {
+      "id": "w1-vb-013",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "image": "v-cook",
+      "prompt": "Sam doesn't ___ pizza.",
+      "options": [
+        "cooks",
+        "cook"
+      ],
+      "answer": "b",
+      "hint": "After doesn't, use cook.",
+      "explain": "Sam doesn't cook pizza."
+    },
+    {
+      "id": "w1-vb-014",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "image": "v-sleep",
+      "prompt": "Pepper ___ sleep at school.",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": "b",
+      "hint": "Pepper = it.",
+      "explain": "Pepper doesn't sleep at school."
+    },
+    {
+      "id": "w1-vb-015",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "v-climb",
+      "prompt": "___ Ana climb trees?",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answer": "b",
+      "hint": "Ana = she → Does.",
+      "explain": "Does Ana climb trees?"
+    },
+    {
+      "id": "w1-vb-016",
+      "v": 1,
+      "bank": "verbs",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "v-swim",
+      "prompt": "Do you ___ in the pool?",
+      "options": [
+        "swim",
+        "swims"
+      ],
+      "answer": "a",
+      "hint": "After Do, use swim.",
+      "explain": "Do you swim in the pool?"
+    },
+    {
+      "id": "w1-vb-017",
+      "v": 1,
+      "bank": "verbs",
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-feed",
+      "tokens": [
+        "Sam",
+        "feeds",
+        "the",
+        "cat"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam feeds the cat"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam feeds the cat."
+    },
+    {
+      "id": "w1-vb-018",
+      "v": 1,
+      "bank": "verbs",
+      "type": "jumbled",
+      "target": "negative",
+      "level": 2,
+      "image": "v-jump",
+      "tokens": [
+        "Ana",
+        "doesn't",
+        "jump",
+        "in",
+        "class"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana doesn't jump in class",
+        "In class Ana doesn't jump"
+      ],
+      "hint": "Ana doesn't …",
+      "explain": "Ana doesn't jump in class."
+    },
+    {
+      "id": "w1-vb-019",
+      "v": 1,
+      "bank": "verbs",
+      "type": "jumbled",
+      "target": "question",
+      "level": 1,
+      "image": "v-write",
+      "tokens": [
+        "Does",
+        "Leo",
+        "write",
+        "letters"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Leo write letters"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Leo write letters?"
+    },
+    {
+      "id": "w1-vb-020",
+      "v": 1,
+      "bank": "verbs",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-open",
+      "text": "Mia ___ the window.",
+      "base": "open",
+      "answers": [
+        "opens"
+      ],
+      "pool": [
+        "open",
+        "opens"
+      ],
+      "hint": "Mia = she.",
+      "explain": "Mia opens the window."
+    },
+    {
+      "id": "w1-vb-021",
+      "v": 1,
+      "bank": "verbs",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "v-clean",
+      "text": "She ___ her room on Sunday.",
+      "base": "clean",
+      "answers": [
+        "cleans"
+      ],
+      "pool": [
+        "clean",
+        "cleans"
+      ],
+      "hint": "she → cleans.",
+      "explain": "She cleans her room on Sunday."
+    },
+    {
+      "id": "w1-vb-022",
+      "v": 1,
+      "bank": "verbs",
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-run",
+      "text": "They ___ in the park.",
+      "base": "run",
+      "answers": [
+        "run"
+      ],
+      "pool": [
+        "run",
+        "runs"
+      ],
+      "hint": "Look at they.",
+      "explain": "They run in the park."
+    },
+    {
+      "id": "w1-vb-023",
+      "v": 1,
+      "bank": "verbs",
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "v-draw",
+      "text": "I don't ___ on the wall.",
+      "base": "draw",
+      "answers": [
+        "draw"
+      ],
+      "pool": [
+        "draw",
+        "draws"
+      ],
+      "hint": "After don't, use draw.",
+      "explain": "I don't draw on the wall."
+    },
+    {
+      "id": "w1-vb-024",
+      "v": 1,
+      "bank": "verbs",
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "v-listen",
+      "text": "Does Ana ___ to music?",
+      "base": "listen",
+      "answers": [
+        "listen"
+      ],
+      "pool": [
+        "listen",
+        "listens"
+      ],
+      "hint": "After Does, use listen.",
+      "explain": "Does Ana listen to music?"
     }
   ]
 }

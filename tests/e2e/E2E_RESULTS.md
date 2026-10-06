@@ -1,10 +1,10 @@
 # E2E results (generated)
 
-Date: 2026-10-05T19:52:17.036Z
+Date: 2026-10-06T19:03:53.266Z
 
 Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs
 
-**128 passed, 0 failed, 0 skipped**
+**133 passed, 0 failed, 0 skipped**
 
 | Area | Test | Expected | Actual | Result |
 |---|---|---|---|---|
@@ -89,7 +89,7 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Sessions | Settings from the link: 5 negative questions | 5 questions, all negative | 5 true | PASS |
 | Sessions | Resume after leaving | Resume button shows question 2 and opens it | Resume (question 2 of 5) → Question 2 of 5 | PASS |
 | Sessions | Retry mistakes makes a new round; first round results unchanged | round 2 with 4 questions; parent kept first-try 1 | first=1 round=2 n=4 | PASS |
-| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smuvo0k9pc1jm → smuvo0kcs6bwe | PASS |
+| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smux1q2r9ihhp → smux1q2ubbx37 | PASS |
 | Sessions | Cancel in a confirm dialog changes nothing | same session after Cancel | unchanged | PASS |
 | Sessions | New lesson (new class) removes only this week + mode, after a yes | mcq session gone; other app keys kept | session=null other=keep me | PASS |
 | Modes | Classroom and Practice keep separate answers | answer shown in Practice is not shown in Classroom | classroom=true cardInClassroom=0 shownBack=1 | PASS |
@@ -98,28 +98,28 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Storage | Broken saved data is removed, page still opens | setup screen opens; note about broken data | Some saved progress was broken and was removed. The lesson works. | PASS |
 | Storage | Saved session pointing to removed questions does not crash | unknown ids dropped; known question shown | Question 1 of 1 | PASS |
 | Week 2 | A template week can be added without code changes; Week 1 progress stays | Week 2 opens; Week 1 saved session still there | cards=2 title=TEST WEEK (not real content) banks=8 resume=1 | PASS |
-| Pictures | Every picture used by Week 1 loads (all 21 week images + covers) | naturalWidth > 0 for each | 64 files loaded | PASS |
+| Pictures | Every picture used by Week 1 loads (all 21 week images + covers) | naturalWidth > 0 for each | 96 files loaded | PASS |
 | Pictures | Images have alt text that does not give answers | all <img> on word grid have alt; none mention “answer” | 12 images | PASS |
 | Tools | Full screen button does not break the page (allowed or refused) | page still works after click | clicked | PASS |
 | Tools | Copy link without clipboard permission shows the link to select | dialog with the current URL | http://127.0.0.1:8211/test-repo/#/ | PASS |
 | Tools | Listen buttons are hidden when there is no English voice, or work when there is | no visible broken speaker button | voices=false visibleButtons=0 | PASS |
-| Screens | 1920×1080: no sideways scrolling on 17 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
+| Screens | 1920×1080: no sideways scrolling on 20 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
 | Screens | 1920×1080: small buttons are at least 44×44 px | no button smaller than 44 px | 0 small | PASS |
-| Screens | 1366×768: no sideways scrolling on 17 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
+| Screens | 1366×768: no sideways scrolling on 20 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
 | Screens | 1366×768: small buttons are at least 44×44 px | no button smaller than 44 px | 0 small | PASS |
-| Screens | 1024×768: no sideways scrolling on 17 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
+| Screens | 1024×768: no sideways scrolling on 20 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
 | Screens | 1024×768: small buttons are at least 44×44 px | no button smaller than 44 px | 0 small | PASS |
-| Screens | 768×1024: no sideways scrolling on 17 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
+| Screens | 768×1024: no sideways scrolling on 20 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
 | Screens | 768×1024: small buttons are at least 44×44 px | no button smaller than 44 px | 0 small | PASS |
-| Screens | 390×844: no sideways scrolling on 17 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
+| Screens | 390×844: no sideways scrolling on 20 screens + every question type | scrollWidth ≤ width everywhere; Check button inside the screen width | ok | PASS |
 | Screens | 390×844: small buttons are at least 44×44 px | no button smaller than 44 px | 0 small | PASS |
 | Modes | Classroom mode: example sentences 32–44 px on a 1920×1080 board | font-size between 32 and 44 | 44px | PASS |
 | Games | Reduced motion: Question Door opens with the right question; wrong gives a hint | hint on wrong; door open + answer on right | The door opens! Does Sam play football? — Yes, he does. | PASS |
 | Games | Sentence Switch builds correct + / − / ? with he and has | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? / Yes, she does. No, she doesn't. | PASS |
 | Games | Memory Match: a right pair stays open, a wrong pair closes again | pair matched; wrong pair closed; 12 cards | cards=12 done=2 open=0 Pairs: 1 of 6 · Turns: 2 | PASS |
-| Games | Yes or No?: wrong gives the hint, right short answer is scored once | hint; First try 0 · Done 1 after a wrong first try | First try: 0 · Done: 1 of 16 | PASS |
-| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | He / − negative → He doesn't walk to school. | PASS |
-| Games | Picture Reveal: open pieces, reveal word and sentence separately, next picture | tiles open; word then sentence; picture 2 | 1 true false He plays football. Picture 2 of 21 | PASS |
+| Games | Yes or No?: wrong gives the hint, right short answer is scored once | hint; First try 0 · Done 1 after a wrong first try | First try: 0 · Done: 1 of 20 | PASS |
+| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | I / ? question → Do I smile at friends? | PASS |
+| Games | Picture Reveal: open pieces, reveal word and sentence separately, next picture | tiles open; word then sentence; picture 2 | 1 true false He plays football. Picture 2 of 37 | PASS |
 | Speak | Speaking card: help and example are optional; Done / Try again need no microphone | help hidden → shown; marks work | For example: Yes, I do. I play football every day. / Well spoken! | PASS |
 | Learn | “Now you try” step: wrong → Try again, right → explanation | try-again then Yes! | Try again. / Yes! Sam plays football on Saturday. | PASS |
 | Examples | Change Machine: + → − step by step; the ending moves to does | 4 rows, last “Sam doesn't play football.”, rule frame shown | 4 rows · Sam doesn't play football. · frame=true | PASS |
@@ -129,10 +129,15 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Practise | Book words bank (I): 30 questions; a picture question is checked | 30 questions; correct-first | 30 questions | PASS |
 | Challenge | Challenge: 15 mixed core questions; results show stars; My Progress ticks Challenge | 15 · stars · 1/1 | 15 · 0 of 3 stars · ✓ Challenge 1/1 | PASS |
 | Progress | My Progress and Today's Mission update from real activity | Learn 3/13; first mission done | Learn 3/13 · is-done | PASS |
-| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-02 disabled; tip changes | true · “He, she, it: add s! He plays.” → “After doesn't, use play — no s!” | PASS |
+| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-02 disabled; tip changes | true · “Read it. Say it. Do it!” → “Mistakes help you learn!” | PASS |
 | Shell | Phone: menu button opens the sidebar; a link closes it and navigates | menu opens; Examples opens | true/true | PASS |
+| Badges | Finishing a section shows one celebration with the badge; it does not repeat | Word Finder celebration once | Word Finder · again=0 · earned=1 | PASS |
+| Certificate | Certificate shows the typed name and badges; the name is not saved | name on certificate; not in storage | Test Explorer · stored=false · badges=7 | PASS |
+| Worksheet | Worksheet: chosen activities → numbered questions + matching answer key | 20 questions and 20 answers by default | 20/20 → 28/28, passages=2 | PASS |
+| Worksheet | Print view hides the menu and the settings | sidebar + settings hidden in print media | side=false form=false sheet=true | PASS |
+| Games | Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored | teacher text; First try 0 · Done 1 | Mia and Sam go to school. · First try: 0 · Done: 1 of 10 | PASS |
 | Paths | Same package works at the domain root (/) as well as /test-repo/ | home + week + practice question load at / | ok | PASS |
 | Console | No console errors or warnings from the app during all tests | 0 | 0 | PASS |
 | Network | No failed or 4xx/5xx requests (except tests that force a 404) | 0 | 0 | PASS |
-| Network | Requests cancelled by quick screen changes (not errors) | info | 1 | PASS |
+| Network | Requests cancelled by quick screen changes (not errors) | info | 0 | PASS |
 | Network | Google Fonts reachable (optional; the site falls back to system fonts) | reachable | reachable | PASS |

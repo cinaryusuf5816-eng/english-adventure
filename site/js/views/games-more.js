@@ -5,6 +5,7 @@ import { screen, weekBar, listenButton, progressText } from './common.js';
 import { buildSentence } from '../core/grammar.js';
 import { makeRng, newSeed, shuffled, shuffledNotSame, hashString } from '../core/rng.js';
 import { wordSets } from './words.js';
+import { speak, onSpeechReady } from '../speech.js';
 
 const reducedMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -244,4 +245,107 @@ export function spinSay(ctx, gameHead) {
         h('div', { class: 'slot' }, h('span', { class: 'slot-label' }, 'Make it'), wForm)),
       h('div', { class: 'actions' }, spinBtn, reveal, listenButton(ctx, () => answer.textContent)),
       answer));
+}
+
+// ---------------- Listen and Choose ----------------
+// The sentence is spoken (device voice). Without a voice, the teacher reads it aloud.
+export function listenChoose(ctx, gameHead) {
+  const sets = wordSets(ctx.week.week);
+  const rng = makeRng(newSeed());
+  const ROUNDS = 10;
+  let set = sets[0];
+  let rounds = [];
+  let i = 0;
+  const results = new Map();
+  const stage = h('div', { class: 'listen-wrap notebook-page' });
+  const nav = h('div');
+  const score = h('p', { class: 'score' });
+  const drawScore = () => {
+    const first = [...results.values()].filter((v) => v === 'first').length;
+    score.replaceChildren(icon('star', { size: 18 }), h('span', {}, `First try: ${first} · Done: ${results.size} of ${rounds.length}`));
+  };
+  const makeRounds = () => {
+    const words = set.words;
+    rounds = shuffled(words, rng).slice(0, Math.min(ROUNDS, words.length)).map((target) => {
+      const others = shuffled(words.filter((w) => w.id !== target.id && w.image !== target.image), rng).slice(0, 3);
+      return { target, options: shuffled([target, ...others], rng) };
+    });
+    i = 0;
+    results.clear();
+  };
+
+  function draw() {
+    const r = rounds[i];
+    const sentence = r.target.example;
+    const fb = h('p', { class: 'feedback', role: 'status' });
+    const said = h('p', { class: 'listen-text', hidden: true }, sentence);
+    let tries = 0;
+    const hear = button('Listen', { icon: 'sound', kind: 'gold' });
+    hear.classList.add('btn-listen-big');
+    const read = button('Show the sentence (teacher reads)', { icon: 'eye', kind: 'ghost', attrs: { 'aria-expanded': 'false' } });
+    read.addEventListener('click', () => {
+      said.hidden = !said.hidden;
+      read.setAttribute('aria-expanded', String(!said.hidden));
+      read.querySelector('.btn-label').textContent = said.hidden ? 'Show the sentence (teacher reads)' : 'Hide the sentence';
+    });
+    hear.addEventListener('click', () => { if (!speak(sentence)) { said.hidden = false; read.setAttribute('aria-expanded', 'true'); } });
+    const offVoice = onSpeechReady((ok) => { hear.hidden = !ok; read.querySelector('.btn-label').textContent = ok ? 'Show the sentence' : 'Show the sentence (teacher reads)'; });
+    ctx.onCleanup(offVoice);
+    const grid = h('div', { class: 'listen-grid', role: 'group', 'aria-label': 'Pictures' }, r.options.map((w) => {
+      const img = ctx.week.image(w.image);
+      const b = h('button', { type: 'button', class: 'listen-card', 'data-word': w.id, 'aria-label': img ? img.alt : w.phrase },
+        picture(img, { sizes: '(max-width: 760px) 44vw, 20vw' }));
+      if (results.has(r.target.id)) {
+        b.disabled = true;
+        if (w.id === r.target.id) b.classList.add('is-right');
+      }
+      b.addEventListener('click', () => {
+        if (results.has(r.target.id)) return;
+        tries += 1;
+        if (w.id === r.target.id) {
+          results.set(r.target.id, tries === 1 ? 'first' : 'later');
+          b.classList.add('is-right');
+          grid.querySelectorAll('button').forEach((x) => { x.disabled = true; });
+          said.hidden = false;
+          fb.className = 'feedback is-right';
+          fb.replaceChildren(icon('check'), h('span', {}, sentence));
+          announce(`Correct. ${sentence}`);
+          drawScore();
+        } else {
+          b.classList.add('is-wrong');
+          fb.className = 'feedback is-try';
+          fb.replaceChildren(icon('bulb'), h('span', {}, 'Try again. Listen once more.'));
+          announce('Try again.');
+        }
+      });
+      return b;
+    }));
+    if (results.has(r.target.id)) { said.hidden = false; fb.className = 'feedback is-right'; fb.replaceChildren(icon('check'), h('span', {}, sentence)); }
+    stage.replaceChildren(
+      h('div', { class: 'listen-top' }, h('p', { class: 'stage-kicker' }, 'Listen. Which picture is it?'), hear, read),
+      said, grid, fb);
+    nav.replaceChildren(h('div', { class: 'step-nav' },
+      button('Previous', { icon: 'prev', onClick: () => { i -= 1; draw(); }, attrs: { disabled: i === 0 } }),
+      progressText(i + 1, rounds.length, 'Sentence'),
+      i === rounds.length - 1
+        ? button('Play again', { icon: 'restart', kind: 'gold', onClick: () => { makeRounds(); drawScore(); draw(); } })
+        : button('Next sentence', { icon: 'next', kind: 'primary', onClick: () => { i += 1; draw(); } })));
+  }
+
+  const setChips = sets.length > 1 ? h('div', { class: 'mode-tabs set-tabs', role: 'group', 'aria-label': 'Word set' }, sets.map((s, k) => {
+    const b = h('button', { type: 'button', class: `mode-tab${k === 0 ? ' is-active' : ''}`, 'aria-pressed': String(k === 0) }, h('strong', {}, s.title));
+    b.addEventListener('click', () => {
+      b.parentElement.querySelectorAll('.mode-tab').forEach((x) => { x.classList.remove('is-active'); x.setAttribute('aria-pressed', 'false'); });
+      b.classList.add('is-active'); b.setAttribute('aria-pressed', 'true');
+      set = s; makeRounds(); drawScore(); draw();
+    });
+    return b;
+  })) : null;
+
+  makeRounds();
+  drawScore();
+  draw();
+  return screen('Listen and Choose', weekBar(ctx, 'play'),
+    gameHead(ctx, 'Listen and Choose', 'Listen to the sentence. Choose the right picture.', score),
+    setChips, stage, nav);
 }

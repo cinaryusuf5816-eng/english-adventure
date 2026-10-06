@@ -4,6 +4,7 @@ import { buildHash } from '../router.js';
 import { screen } from './common.js';
 import { weekCard } from './weeks.js';
 import { summary, missions } from '../progress.js';
+import { weekBadges, badgeEl } from '../badges.js';
 
 const PATHS = [
   { id: 'learn', title: 'Learn', text: 'Read and watch simple explanations.', tone: 'blue' },
@@ -33,7 +34,9 @@ export function progressPanel(ctx) {
       h('ul', { class: 'mp-list' }, s.rows.map((r) => h('li', { class: r.complete ? 'is-done' : '' },
         checkCircle(r.complete),
         h('a', { href: buildHash(['week', ctx.week.week.id, r.id]) }, r.label),
-        h('span', { class: 'mp-count' }, `${r.done}/${r.total}`))))));
+        h('span', { class: 'mp-count' }, `${r.done}/${r.total}`)))),
+      h('div', { class: 'mp-badges', 'aria-label': 'Badges' }, weekBadges(ctx.week).map((b) => badgeEl(b, { small: true }))),
+      h('a', { class: 'mp-cert', href: buildHash(['week', ctx.week.week.id, 'certificate']) }, icon('star', { size: 16 }), h('span', {}, 'My certificate'))));
 }
 
 export function owl(ctx) {

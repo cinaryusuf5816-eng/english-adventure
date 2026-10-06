@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05T19:52:17.035Z",
+  "date": "2026-10-06T19:03:53.265Z",
   "env": "Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
-  "pass": 128,
+  "pass": 133,
   "fail": 0,
   "results": [
     {
@@ -575,7 +575,7 @@
       "area": "Sessions",
       "name": "Restart activity asks first and starts a new set",
       "expected": "confirm → setup screen → new session id",
-      "actual": "smuvo0k9pc1jm → smuvo0kcs6bwe",
+      "actual": "smux1q2r9ihhp → smux1q2ubbx37",
       "status": "pass"
     },
     {
@@ -638,7 +638,7 @@
       "area": "Pictures",
       "name": "Every picture used by Week 1 loads (all 21 week images + covers)",
       "expected": "naturalWidth > 0 for each",
-      "actual": "64 files loaded",
+      "actual": "96 files loaded",
       "status": "pass"
     },
     {
@@ -671,7 +671,7 @@
     },
     {
       "area": "Screens",
-      "name": "1920×1080: no sideways scrolling on 17 screens + every question type",
+      "name": "1920×1080: no sideways scrolling on 20 screens + every question type",
       "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
       "actual": "ok",
       "status": "pass"
@@ -685,7 +685,7 @@
     },
     {
       "area": "Screens",
-      "name": "1366×768: no sideways scrolling on 17 screens + every question type",
+      "name": "1366×768: no sideways scrolling on 20 screens + every question type",
       "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
       "actual": "ok",
       "status": "pass"
@@ -699,7 +699,7 @@
     },
     {
       "area": "Screens",
-      "name": "1024×768: no sideways scrolling on 17 screens + every question type",
+      "name": "1024×768: no sideways scrolling on 20 screens + every question type",
       "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
       "actual": "ok",
       "status": "pass"
@@ -713,7 +713,7 @@
     },
     {
       "area": "Screens",
-      "name": "768×1024: no sideways scrolling on 17 screens + every question type",
+      "name": "768×1024: no sideways scrolling on 20 screens + every question type",
       "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
       "actual": "ok",
       "status": "pass"
@@ -727,7 +727,7 @@
     },
     {
       "area": "Screens",
-      "name": "390×844: no sideways scrolling on 17 screens + every question type",
+      "name": "390×844: no sideways scrolling on 20 screens + every question type",
       "expected": "scrollWidth ≤ width everywhere; Check button inside the screen width",
       "actual": "ok",
       "status": "pass"
@@ -771,21 +771,21 @@
       "area": "Games",
       "name": "Yes or No?: wrong gives the hint, right short answer is scored once",
       "expected": "hint; First try 0 · Done 1 after a wrong first try",
-      "actual": "First try: 0 · Done: 1 of 16",
+      "actual": "First try: 0 · Done: 1 of 20",
       "status": "pass"
     },
     {
       "area": "Games",
       "name": "Spin and Say: spin gives a sentence that matches the slots (verified forms)",
       "expected": "answer hidden → shown, ends with . or ?",
-      "actual": "He / − negative → He doesn't walk to school.",
+      "actual": "I / ? question → Do I smile at friends?",
       "status": "pass"
     },
     {
       "area": "Games",
       "name": "Picture Reveal: open pieces, reveal word and sentence separately, next picture",
       "expected": "tiles open; word then sentence; picture 2",
-      "actual": "1 true false He plays football. Picture 2 of 21",
+      "actual": "1 true false He plays football. Picture 2 of 37",
       "status": "pass"
     },
     {
@@ -855,7 +855,7 @@
       "area": "Shell",
       "name": "Week picker: Coming soon weeks cannot be chosen; owl tip changes on click",
       "expected": "week-02 disabled; tip changes",
-      "actual": "true · “He, she, it: add s! He plays.” → “After doesn't, use play — no s!”",
+      "actual": "true · “Read it. Say it. Do it!” → “Mistakes help you learn!”",
       "status": "pass"
     },
     {
@@ -863,6 +863,41 @@
       "name": "Phone: menu button opens the sidebar; a link closes it and navigates",
       "expected": "menu opens; Examples opens",
       "actual": "true/true",
+      "status": "pass"
+    },
+    {
+      "area": "Badges",
+      "name": "Finishing a section shows one celebration with the badge; it does not repeat",
+      "expected": "Word Finder celebration once",
+      "actual": "Word Finder · again=0 · earned=1",
+      "status": "pass"
+    },
+    {
+      "area": "Certificate",
+      "name": "Certificate shows the typed name and badges; the name is not saved",
+      "expected": "name on certificate; not in storage",
+      "actual": "Test Explorer · stored=false · badges=7",
+      "status": "pass"
+    },
+    {
+      "area": "Worksheet",
+      "name": "Worksheet: chosen activities → numbered questions + matching answer key",
+      "expected": "20 questions and 20 answers by default",
+      "actual": "20/20 → 28/28, passages=2",
+      "status": "pass"
+    },
+    {
+      "area": "Worksheet",
+      "name": "Print view hides the menu and the settings",
+      "expected": "sidebar + settings hidden in print media",
+      "actual": "side=false form=false sheet=true",
+      "status": "pass"
+    },
+    {
+      "area": "Games",
+      "name": "Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored",
+      "expected": "teacher text; First try 0 · Done 1",
+      "actual": "Mia and Sam go to school. · First try: 0 · Done: 1 of 10",
       "status": "pass"
     },
     {
@@ -890,7 +925,7 @@
       "area": "Network",
       "name": "Requests cancelled by quick screen changes (not errors)",
       "expected": "info",
-      "actual": "1",
+      "actual": "0",
       "status": "pass"
     },
     {

@@ -233,6 +233,102 @@
       "w": 1400,
       "h": 1050,
       "alt": "Mia and Ana talk in an English class."
+    },
+    "v-run": {
+      "src": "assets/images/a1-verbs/run",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo runs on a park path."
+    },
+    "v-jump": {
+      "src": "assets/images/a1-verbs/jump",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana jumps with a skipping rope."
+    },
+    "v-swim": {
+      "src": "assets/images/a1-verbs/swim",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam swims in a swimming pool."
+    },
+    "v-sing": {
+      "src": "assets/images/a1-verbs/sing",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia sings on a small stage."
+    },
+    "v-draw": {
+      "src": "assets/images/a1-verbs/draw",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana draws a house and a sun with crayons."
+    },
+    "v-sleep": {
+      "src": "assets/images/a1-verbs/sleep",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat sleeps on a cushion."
+    },
+    "v-write": {
+      "src": "assets/images/a1-verbs/write",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo writes a letter at his desk."
+    },
+    "v-cook": {
+      "src": "assets/images/a1-verbs/cook",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam cooks pancakes in a pan."
+    },
+    "v-clean": {
+      "src": "assets/images/a1-verbs/clean",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia puts toys in a box and cleans her room."
+    },
+    "v-wash": {
+      "src": "assets/images/a1-verbs/wash",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo washes his hands with soap."
+    },
+    "v-climb": {
+      "src": "assets/images/a1-verbs/climb",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana climbs a big tree."
+    },
+    "v-fly": {
+      "src": "assets/images/a1-verbs/fly",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam flies a kite on a hill."
+    },
+    "v-catch": {
+      "src": "assets/images/a1-verbs/catch",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo catches a red ball."
+    },
+    "v-open": {
+      "src": "assets/images/a1-verbs/open",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia opens the window."
+    },
+    "v-listen": {
+      "src": "assets/images/a1-verbs/listen",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana listens to music with headphones."
+    },
+    "v-feed": {
+      "src": "assets/images/a1-verbs/feed",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam feeds Pepper the cat."
     }
   },
   "words": [
@@ -1616,6 +1712,28 @@
       ],
       "sample": "Yes, I do. I visit my grandma on Sunday.",
       "personal": true
+    },
+    {
+      "id": "w1-sp-17",
+      "question": "Do you swim in summer?",
+      "image": "v-swim",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I swim in summer.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-18",
+      "question": "Do you help at home? Do you clean your room?",
+      "image": "v-clean",
+      "help": [
+        "I clean my room.",
+        "I wash the dishes."
+      ],
+      "sample": "Yes, I do. I clean my room on Sunday.",
+      "personal": true
     }
   ],
   "games": {
@@ -1745,6 +1863,102 @@
         "subject": "He",
         "word": "live in a city",
         "sentence": "He lives in a city."
+      },
+      {
+        "image": "v-run",
+        "subject": "He",
+        "word": "run",
+        "sentence": "He runs in the park."
+      },
+      {
+        "image": "v-jump",
+        "subject": "She",
+        "word": "jump",
+        "sentence": "She jumps."
+      },
+      {
+        "image": "v-swim",
+        "subject": "He",
+        "word": "swim",
+        "sentence": "He swims."
+      },
+      {
+        "image": "v-sing",
+        "subject": "She",
+        "word": "sing a song",
+        "sentence": "She sings a song."
+      },
+      {
+        "image": "v-draw",
+        "subject": "She",
+        "word": "draw a picture",
+        "sentence": "She draws a picture."
+      },
+      {
+        "image": "v-sleep",
+        "subject": "It",
+        "word": "sleep",
+        "sentence": "It sleeps."
+      },
+      {
+        "image": "v-write",
+        "subject": "He",
+        "word": "write a letter",
+        "sentence": "He writes a letter."
+      },
+      {
+        "image": "v-cook",
+        "subject": "He",
+        "word": "cook pancakes",
+        "sentence": "He cooks pancakes."
+      },
+      {
+        "image": "v-clean",
+        "subject": "She",
+        "word": "clean my room",
+        "sentence": "She cleans her room."
+      },
+      {
+        "image": "v-wash",
+        "subject": "He",
+        "word": "wash my hands",
+        "sentence": "He washes his hands."
+      },
+      {
+        "image": "v-climb",
+        "subject": "She",
+        "word": "climb a tree",
+        "sentence": "She climbs a tree."
+      },
+      {
+        "image": "v-fly",
+        "subject": "He",
+        "word": "fly a kite",
+        "sentence": "He flies a kite."
+      },
+      {
+        "image": "v-catch",
+        "subject": "He",
+        "word": "catch a ball",
+        "sentence": "He catches a ball."
+      },
+      {
+        "image": "v-open",
+        "subject": "She",
+        "word": "open the window",
+        "sentence": "She opens the window."
+      },
+      {
+        "image": "v-listen",
+        "subject": "She",
+        "word": "listen to music",
+        "sentence": "She listens to music."
+      },
+      {
+        "image": "v-feed",
+        "subject": "He",
+        "word": "feed the cat",
+        "sentence": "He feeds the cat."
       }
     ],
     "sentenceSwitch": {
@@ -1800,7 +2014,10 @@
           "onlyVerbs": [
             "drink-water",
             "get-up",
-            "eat-apples"
+            "eat-apples",
+            "a1-sleep",
+            "a1-jump",
+            "a1-run"
           ]
         },
         {
@@ -1958,6 +2175,102 @@
           "base": "play",
           "s": "plays",
           "rest": "chess"
+        },
+        {
+          "id": "a1-run",
+          "base": "run",
+          "s": "runs",
+          "rest": "in the park"
+        },
+        {
+          "id": "a1-jump",
+          "base": "jump",
+          "s": "jumps",
+          "rest": "with a rope"
+        },
+        {
+          "id": "a1-swim",
+          "base": "swim",
+          "s": "swims",
+          "rest": "in the pool"
+        },
+        {
+          "id": "a1-sing",
+          "base": "sing",
+          "s": "sings",
+          "rest": "a song"
+        },
+        {
+          "id": "a1-draw",
+          "base": "draw",
+          "s": "draws",
+          "rest": "a picture"
+        },
+        {
+          "id": "a1-sleep",
+          "base": "sleep",
+          "s": "sleeps",
+          "rest": "on a cushion"
+        },
+        {
+          "id": "a1-write",
+          "base": "write",
+          "s": "writes",
+          "rest": "a letter"
+        },
+        {
+          "id": "a1-cook",
+          "base": "cook",
+          "s": "cooks",
+          "rest": "pancakes"
+        },
+        {
+          "id": "a1-clean",
+          "base": "clean",
+          "s": "cleans",
+          "rest": "{poss} room"
+        },
+        {
+          "id": "a1-wash",
+          "base": "wash",
+          "s": "washes",
+          "rest": "{poss} hands"
+        },
+        {
+          "id": "a1-climb",
+          "base": "climb",
+          "s": "climbs",
+          "rest": "a tree"
+        },
+        {
+          "id": "a1-fly",
+          "base": "fly",
+          "s": "flies",
+          "rest": "a kite"
+        },
+        {
+          "id": "a1-catch",
+          "base": "catch",
+          "s": "catches",
+          "rest": "a ball"
+        },
+        {
+          "id": "a1-open",
+          "base": "open",
+          "s": "opens",
+          "rest": "the window"
+        },
+        {
+          "id": "a1-listen",
+          "base": "listen",
+          "s": "listens",
+          "rest": "to music"
+        },
+        {
+          "id": "a1-feed",
+          "base": "feed",
+          "s": "feeds",
+          "rest": "the cat"
         }
       ]
     },
@@ -2307,6 +2620,58 @@
         ],
         "answer": "b",
         "hint": "Read the clue: doesn't."
+      },
+      {
+        "id": "yn-17",
+        "image": "v-swim",
+        "clue": "Sam swims every Saturday.",
+        "question": "Does Sam swim on Saturday?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn't.",
+          "Yes, he do."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-18",
+        "image": "v-sleep",
+        "clue": "Pepper sleeps in the afternoon.",
+        "question": "Does Pepper sleep in the afternoon?",
+        "options": [
+          "Yes, she does.",
+          "Yes, it does.",
+          "No, it doesn't."
+        ],
+        "answer": "b",
+        "hint": "Pepper is a cat = it."
+      },
+      {
+        "id": "yn-19",
+        "image": "v-cook",
+        "clue": "Sam cooks pancakes. He doesn't cook pizza.",
+        "question": "Does Sam cook pizza?",
+        "options": [
+          "No, he doesn't.",
+          "Yes, he does.",
+          "No, he don't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue: doesn't."
+      },
+      {
+        "id": "yn-20",
+        "image": "v-listen",
+        "clue": "Ana listens to music every evening.",
+        "question": "Does Ana listen to music?",
+        "options": [
+          "Yes, she does.",
+          "Yes, she listens.",
+          "No, she doesn't."
+        ],
+        "answer": "a",
+        "hint": "Does … ? → Yes, she does."
       }
     ],
     "memory": {
@@ -2395,6 +2760,129 @@
           "phrase": "visit Grandma",
           "image": "visit-grandma",
           "example": "Mia visits her grandma."
+        }
+      ]
+    },
+    {
+      "id": "a1-verbs",
+      "title": "A1 action verbs",
+      "source": "Common A1 action verbs for young learners.",
+      "words": [
+        {
+          "id": "a1-run",
+          "word": "run",
+          "phrase": "run",
+          "image": "v-run",
+          "example": "Leo runs in the park."
+        },
+        {
+          "id": "a1-jump",
+          "word": "jump",
+          "phrase": "jump",
+          "image": "v-jump",
+          "example": "Ana jumps."
+        },
+        {
+          "id": "a1-swim",
+          "word": "swim",
+          "phrase": "swim",
+          "image": "v-swim",
+          "example": "Sam swims."
+        },
+        {
+          "id": "a1-sing",
+          "word": "sing",
+          "phrase": "sing a song",
+          "image": "v-sing",
+          "example": "Mia sings a song."
+        },
+        {
+          "id": "a1-draw",
+          "word": "draw",
+          "phrase": "draw a picture",
+          "image": "v-draw",
+          "example": "Ana draws a picture."
+        },
+        {
+          "id": "a1-sleep",
+          "word": "sleep",
+          "phrase": "sleep",
+          "image": "v-sleep",
+          "example": "Pepper sleeps."
+        },
+        {
+          "id": "a1-write",
+          "word": "write",
+          "phrase": "write a letter",
+          "image": "v-write",
+          "example": "Leo writes a letter."
+        },
+        {
+          "id": "a1-cook",
+          "word": "cook",
+          "phrase": "cook pancakes",
+          "image": "v-cook",
+          "example": "Sam cooks pancakes."
+        },
+        {
+          "id": "a1-clean",
+          "word": "clean",
+          "phrase": "clean my room",
+          "image": "v-clean",
+          "example": "Mia cleans her room.",
+          "note": "I clean my room. → She cleans her room."
+        },
+        {
+          "id": "a1-wash",
+          "word": "wash",
+          "phrase": "wash my hands",
+          "image": "v-wash",
+          "example": "Leo washes his hands.",
+          "note": "wash → washes"
+        },
+        {
+          "id": "a1-climb",
+          "word": "climb",
+          "phrase": "climb a tree",
+          "image": "v-climb",
+          "example": "Ana climbs a tree."
+        },
+        {
+          "id": "a1-fly",
+          "word": "fly",
+          "phrase": "fly a kite",
+          "image": "v-fly",
+          "example": "Sam flies a kite.",
+          "note": "fly → flies"
+        },
+        {
+          "id": "a1-catch",
+          "word": "catch",
+          "phrase": "catch a ball",
+          "image": "v-catch",
+          "example": "Leo catches a ball.",
+          "note": "catch → catches"
+        },
+        {
+          "id": "a1-open",
+          "word": "open",
+          "phrase": "open the window",
+          "image": "v-open",
+          "example": "Mia opens the window."
+        },
+        {
+          "id": "a1-listen",
+          "word": "listen",
+          "phrase": "listen to music",
+          "image": "v-listen",
+          "example": "Ana listens to music."
+        },
+        {
+          "id": "a1-feed",
+          "word": "feed",
+          "phrase": "feed the cat",
+          "image": "v-feed",
+          "example": "Sam feeds the cat."
         }
       ]
     }
@@ -2560,6 +3048,48 @@
       "image": "live-in-a-city",
       "subject": "you",
       "verb": "live-city"
+    },
+    {
+      "id": "ex-v-fly",
+      "image": "v-fly",
+      "subject": "sam",
+      "verb": "a1-fly",
+      "note": "fly → flies"
+    },
+    {
+      "id": "ex-v-catch",
+      "image": "v-catch",
+      "subject": "leo",
+      "verb": "a1-catch",
+      "note": "catch → catches"
+    },
+    {
+      "id": "ex-v-wash",
+      "image": "v-wash",
+      "subject": "leo",
+      "verb": "a1-wash",
+      "note": "wash → washes"
+    },
+    {
+      "id": "ex-v-clean",
+      "image": "v-clean",
+      "subject": "mia",
+      "verb": "a1-clean",
+      "note": "I clean my room. → She cleans her room."
+    },
+    {
+      "id": "ex-v-swim",
+      "image": "v-swim",
+      "subject": "they",
+      "verb": "a1-swim",
+      "note": "they: no s"
+    },
+    {
+      "id": "ex-v-sing",
+      "image": "v-sing",
+      "subject": "you",
+      "verb": "a1-sing",
+      "note": "you: no s"
     }
   ]
 }
