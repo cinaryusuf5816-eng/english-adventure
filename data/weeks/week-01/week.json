@@ -1,0 +1,3095 @@
+{
+  "id": "week-01",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "title": "Present Simple",
+  "subtitle": "Things we do every day",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "goals": [
+    "I can say what people do every day.",
+    "I can use plays, watches, has … with he, she and it.",
+    "I can say don't and doesn't.",
+    "I can ask Do …? and Does …? and answer Yes / No."
+  ],
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia",
+      "pronoun": "she",
+      "image": "read-a-book"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "pronoun": "he",
+      "image": "play-football"
+    },
+    {
+      "id": "pepper",
+      "name": "Pepper",
+      "pronoun": "it",
+      "note": "Pepper is a cat.",
+      "image": "pepper-drinks-water"
+    },
+    {
+      "id": "rosa",
+      "name": "Ms. Rosa",
+      "pronoun": "she",
+      "note": "Ms. Rosa is a teacher.",
+      "image": "teacher-class"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "pronoun": "he",
+      "image": "walk-to-school"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "pronoun": "she",
+      "image": "ride-a-bike"
+    }
+  ],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-01/week-01-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "Mia and Sam look at a board with small pictures of daily things."
+    },
+    "play-football": {
+      "src": "assets/images/week-01/play-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam kicks a football in a green park."
+    },
+    "read-a-book": {
+      "src": "assets/images/week-01/read-a-book",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia sits in an armchair and reads a book."
+    },
+    "watch-tv": {
+      "src": "assets/images/week-01/watch-tv",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam sits on a sofa and watches TV."
+    },
+    "eat-apples": {
+      "src": "assets/images/week-01/eat-apples",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia eats a red apple. A bowl of apples is on the table."
+    },
+    "drink-water": {
+      "src": "assets/images/week-01/drink-water",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam drinks a glass of water in the kitchen."
+    },
+    "go-to-school": {
+      "src": "assets/images/week-01/go-to-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam walk to school with their school bags."
+    },
+    "get-up": {
+      "src": "assets/images/week-01/get-up",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam sits up in bed and stretches. An alarm clock is next to the bed."
+    },
+    "have-breakfast": {
+      "src": "assets/images/week-01/have-breakfast",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia has breakfast: cereal, toast and orange juice."
+    },
+    "do-homework": {
+      "src": "assets/images/week-01/do-homework",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam writes in his notebook at a desk."
+    },
+    "brush-teeth": {
+      "src": "assets/images/week-01/brush-teeth",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia brushes her teeth at the bathroom sink."
+    },
+    "study-english": {
+      "src": "assets/images/week-01/study-english",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia looks at a picture dictionary and wears headphones."
+    },
+    "like-cats": {
+      "src": "assets/images/week-01/like-cats",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam sits on a rug and hugs Pepper. Two more cats sit with him."
+    },
+    "they-play-football": {
+      "src": "assets/images/week-01/they-play-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Four children run after a football on a school field."
+    },
+    "we-read": {
+      "src": "assets/images/week-01/we-read",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam sit on a big cushion and read books. Pepper sleeps between them."
+    },
+    "pepper-drinks-water": {
+      "src": "assets/images/week-01/pepper-drinks-water",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat drinks water from a blue bowl."
+    },
+    "pepper-plays": {
+      "src": "assets/images/week-01/pepper-plays",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat plays with a red ball of yarn."
+    },
+    "teacher-class": {
+      "src": "assets/images/week-01/teacher-class",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ms. Rosa, the teacher, asks a question. Mia and Sam put their hands up."
+    },
+    "mia-plays-football": {
+      "src": "assets/images/week-01/mia-plays-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia kicks a football on a green field."
+    },
+    "they-watch-tv": {
+      "src": "assets/images/week-01/they-watch-tv",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam sit on a sofa and watch TV. Pepper sits with them."
+    },
+    "sam-reads": {
+      "src": "assets/images/week-01/sam-reads",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam lies on a rug and reads a book."
+    },
+    "live-in-a-city": {
+      "src": "assets/images/book-unit1/live-in-a-city",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam waves from the balcony of his home in a city."
+    },
+    "dance": {
+      "src": "assets/images/book-unit1/dance",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana dance in the school hall."
+    },
+    "ride-a-bike": {
+      "src": "assets/images/book-unit1/ride-a-bike",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana rides a bike on a path to school."
+    },
+    "walk-to-school": {
+      "src": "assets/images/book-unit1/walk-to-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo walks to school with his school bag."
+    },
+    "eat-pizza": {
+      "src": "assets/images/book-unit1/eat-pizza",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo eats a slice of pizza."
+    },
+    "smile": {
+      "src": "assets/images/book-unit1/smile",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam smiles and waves."
+    },
+    "visit-grandma": {
+      "src": "assets/images/book-unit1/visit-grandma",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia hugs her grandma at the door."
+    },
+    "play-chess": {
+      "src": "assets/images/book-unit1/play-chess",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo play chess at a table."
+    },
+    "speak-english": {
+      "src": "assets/images/book-unit1/speak-english",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana talk in an English class."
+    },
+    "v-run": {
+      "src": "assets/images/a1-verbs/run",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo runs on a park path."
+    },
+    "v-jump": {
+      "src": "assets/images/a1-verbs/jump",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana jumps with a skipping rope."
+    },
+    "v-swim": {
+      "src": "assets/images/a1-verbs/swim",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam swims in a swimming pool."
+    },
+    "v-sing": {
+      "src": "assets/images/a1-verbs/sing",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia sings on a small stage."
+    },
+    "v-draw": {
+      "src": "assets/images/a1-verbs/draw",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana draws a house and a sun with crayons."
+    },
+    "v-sleep": {
+      "src": "assets/images/a1-verbs/sleep",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat sleeps on a cushion."
+    },
+    "v-write": {
+      "src": "assets/images/a1-verbs/write",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo writes a letter at his desk."
+    },
+    "v-cook": {
+      "src": "assets/images/a1-verbs/cook",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam cooks pancakes in a pan."
+    },
+    "v-clean": {
+      "src": "assets/images/a1-verbs/clean",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia puts toys in a box and cleans her room."
+    },
+    "v-wash": {
+      "src": "assets/images/a1-verbs/wash",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo washes his hands with soap."
+    },
+    "v-climb": {
+      "src": "assets/images/a1-verbs/climb",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana climbs a big tree."
+    },
+    "v-fly": {
+      "src": "assets/images/a1-verbs/fly",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam flies a kite on a hill."
+    },
+    "v-catch": {
+      "src": "assets/images/a1-verbs/catch",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo catches a red ball."
+    },
+    "v-open": {
+      "src": "assets/images/a1-verbs/open",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia opens the window."
+    },
+    "v-listen": {
+      "src": "assets/images/a1-verbs/listen",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana listens to music with headphones."
+    },
+    "v-feed": {
+      "src": "assets/images/a1-verbs/feed",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam feeds Pepper the cat."
+    }
+  },
+  "words": [
+    {
+      "id": "play-football",
+      "phrase": "play football",
+      "image": "play-football",
+      "example": "Sam plays football."
+    },
+    {
+      "id": "read-a-book",
+      "phrase": "read a book",
+      "image": "read-a-book",
+      "example": "Mia reads a book."
+    },
+    {
+      "id": "watch-tv",
+      "phrase": "watch TV",
+      "image": "watch-tv",
+      "example": "Sam watches TV."
+    },
+    {
+      "id": "eat-apples",
+      "phrase": "eat apples",
+      "image": "eat-apples",
+      "example": "Mia eats apples."
+    },
+    {
+      "id": "drink-water",
+      "phrase": "drink water",
+      "image": "drink-water",
+      "example": "Sam drinks water."
+    },
+    {
+      "id": "go-to-school",
+      "phrase": "go to school",
+      "image": "go-to-school",
+      "example": "Mia and Sam go to school."
+    },
+    {
+      "id": "get-up",
+      "phrase": "get up",
+      "image": "get-up",
+      "example": "Sam gets up at seven.",
+      "time": "7:00"
+    },
+    {
+      "id": "have-breakfast",
+      "phrase": "have breakfast",
+      "image": "have-breakfast",
+      "example": "Mia has breakfast."
+    },
+    {
+      "id": "do-homework",
+      "phrase": "do homework",
+      "image": "do-homework",
+      "example": "Sam does his homework."
+    },
+    {
+      "id": "brush-my-teeth",
+      "phrase": "brush my teeth",
+      "image": "brush-teeth",
+      "example": "Mia brushes her teeth."
+    },
+    {
+      "id": "study-english",
+      "phrase": "study English",
+      "image": "study-english",
+      "example": "Mia studies English."
+    },
+    {
+      "id": "like-cats",
+      "phrase": "like cats",
+      "image": "like-cats",
+      "example": "Sam likes cats."
+    }
+  ],
+  "learn": [
+    {
+      "id": "habits",
+      "title": "Every day",
+      "rule": "We use these sentences for things we do again and again.",
+      "image": "read-a-book",
+      "examples": [
+        {
+          "text": "I read **every day**.",
+          "image": "read-a-book",
+          "speaker": "Mia",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "text": "I get up at seven **every day**.",
+          "image": "get-up",
+          "speaker": "Sam",
+          "time": "7:00",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "text": "Mia has breakfast **every morning**.",
+          "image": "have-breakfast",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "text": "We go to school **every day**.",
+          "image": "go-to-school",
+          "speaker": "Mia",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "note": "Not on Saturday and Sunday."
+        },
+        {
+          "text": "Sam drinks water **every day**.",
+          "image": "drink-water",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "text": "Mia brushes her teeth **every morning**.",
+          "image": "brush-teeth",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "text": "Sam plays football **on Saturday**.",
+          "image": "play-football",
+          "calendar": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Look at the days. Sam drinks water ___.",
+          "image": "drink-water",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "options": [
+            "every day",
+            "on Monday"
+          ],
+          "answer": "a",
+          "explain": "Sam drinks water every day."
+        },
+        {
+          "mode": "try",
+          "prompt": "Look at the days. Sam plays football ___.",
+          "image": "play-football",
+          "calendar": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "options": [
+            "every day",
+            "on Saturday"
+          ],
+          "answer": "b",
+          "explain": "Sam plays football on Saturday."
+        }
+      ],
+      "teacherNote": "Meaning first: things we do again and again. The ticks in the week strip show “every day”. One picture alone does not prove “every day”, so use the calendar."
+    },
+    {
+      "id": "subjects",
+      "title": "I, you, he, she, it, we, they",
+      "rule": "One: I, you, he, she, it. Two or more: we, they.",
+      "image": "they-play-football",
+      "examples": [
+        {
+          "text": "**I** read.",
+          "image": "read-a-book",
+          "speaker": "Mia",
+          "label": "I = Mia. Mia is talking."
+        },
+        {
+          "text": "**You** play football!",
+          "image": "play-football",
+          "speaker": "Mia",
+          "label": "you = Sam. Mia is talking to Sam."
+        },
+        {
+          "text": "**He** plays football.",
+          "image": "play-football",
+          "label": "Sam → he"
+        },
+        {
+          "text": "**She** reads a book.",
+          "image": "read-a-book",
+          "label": "Mia → she"
+        },
+        {
+          "text": "**It** drinks water.",
+          "image": "pepper-drinks-water",
+          "label": "Pepper the cat → it"
+        },
+        {
+          "text": "**We** go to school.",
+          "image": "go-to-school",
+          "speaker": "Mia",
+          "label": "we = Mia + Sam. Mia is talking."
+        },
+        {
+          "text": "**They** play football.",
+          "image": "they-play-football",
+          "label": "the children → they"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam → ___",
+          "image": "watch-tv",
+          "options": [
+            "he",
+            "she",
+            "they"
+          ],
+          "answer": "a",
+          "explain": "Sam → he."
+        },
+        {
+          "mode": "try",
+          "prompt": "The children → ___",
+          "image": "they-play-football",
+          "options": [
+            "it",
+            "they"
+          ],
+          "answer": "b",
+          "explain": "Two or more children → they."
+        }
+      ],
+      "teacherNote": "For I and you, look at the speech bubble: the speaker says “I”; the person they talk to is “you”. Count on fingers: one person (he / she / it) or two or more (we / they)."
+    },
+    {
+      "id": "positive-i-you-we-they",
+      "title": "I / you / we / they + play",
+      "rule": "With I, you, we and they, use play.",
+      "image": "go-to-school",
+      "examples": [
+        {
+          "text": "I **play** football.",
+          "image": "play-football",
+          "speaker": "Sam"
+        },
+        {
+          "text": "You **read** a book.",
+          "image": "read-a-book",
+          "speaker": "Sam",
+          "label": "Sam is talking to Mia."
+        },
+        {
+          "text": "We **go** to school.",
+          "image": "go-to-school",
+          "speaker": "Mia"
+        },
+        {
+          "text": "They **play** football.",
+          "image": "they-play-football"
+        },
+        {
+          "text": "I **drink** water.",
+          "image": "drink-water",
+          "speaker": "Sam"
+        },
+        {
+          "text": "I **study** English.",
+          "image": "study-english",
+          "speaker": "Mia"
+        },
+        {
+          "text": "We **watch** TV.",
+          "image": "they-watch-tv",
+          "speaker": "Sam"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "We ___ to school.",
+          "image": "go-to-school",
+          "options": [
+            "go",
+            "goes"
+          ],
+          "answer": "a",
+          "explain": "We go to school."
+        },
+        {
+          "mode": "try",
+          "prompt": "They ___ football.",
+          "image": "they-play-football",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "answer": "a",
+          "explain": "They play football."
+        }
+      ],
+      "teacherNote": "The verb does not change with I, you, we and they. Chant it: “I play, you play, we play, they play.”"
+    },
+    {
+      "id": "positive-he-she-it",
+      "title": "He / she / it + plays",
+      "rule": "Use plays with he, she and it.",
+      "image": "play-football",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "play-football",
+            "to": "positive-s"
+          }
+        },
+        {
+          "from": "I play football.",
+          "text": "He play**s** football.",
+          "image": "play-football",
+          "label": "Sam → he"
+        },
+        {
+          "from": "I read a book.",
+          "text": "She read**s** a book.",
+          "image": "read-a-book",
+          "label": "Mia → she"
+        },
+        {
+          "text": "It drink**s** water.",
+          "image": "pepper-drinks-water",
+          "label": "Pepper → it"
+        },
+        {
+          "text": "Sam watch**es** TV.",
+          "image": "watch-tv"
+        },
+        {
+          "text": "Mia eat**s** apples.",
+          "image": "eat-apples"
+        },
+        {
+          "from": "I brush my teeth.",
+          "text": "She brush**es** **her** teeth.",
+          "image": "brush-teeth",
+          "label": "my → her"
+        },
+        {
+          "from": "I do my homework.",
+          "text": "He do**es** **his** homework.",
+          "image": "do-homework",
+          "label": "my → his"
+        },
+        {
+          "text": "Sam like**s** cats.",
+          "image": "like-cats"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam ___ water.",
+          "image": "drink-water",
+          "options": [
+            "drink",
+            "drinks"
+          ],
+          "answer": "b",
+          "explain": "Sam drinks water."
+        },
+        {
+          "mode": "try",
+          "prompt": "She ___ a book.",
+          "image": "read-a-book",
+          "options": [
+            "read",
+            "reads"
+          ],
+          "answer": "b",
+          "explain": "She reads a book."
+        }
+      ],
+      "teacherNote": "When the subject changes, the verb changes: I play → He plays. Names (Mia, Sam) work like he / she. brush my teeth → She brushes her teeth: the possessive changes too."
+    },
+    {
+      "id": "spelling",
+      "title": "plays, watches, goes, studies, has",
+      "rule": "Look at the end of the word.",
+      "image": "study-english",
+      "examples": [
+        {
+          "from": "I play.",
+          "text": "He play**s**.",
+          "label": "play → plays (+ s)"
+        },
+        {
+          "from": "I watch TV.",
+          "text": "She watch**es** TV.",
+          "image": "watch-tv",
+          "label": "watch → watches (+ es)"
+        },
+        {
+          "from": "I brush my teeth.",
+          "text": "He brush**es** his teeth.",
+          "image": "brush-teeth",
+          "label": "brush → brushes (+ es)"
+        },
+        {
+          "from": "I go to school.",
+          "text": "She go**es** to school.",
+          "image": "go-to-school",
+          "label": "go → goes, do → does"
+        },
+        {
+          "from": "I study English.",
+          "text": "Mia stud**ies** English.",
+          "image": "study-english",
+          "label": "study → studies. But: play → plays."
+        },
+        {
+          "from": "I have breakfast.",
+          "text": "She **has** breakfast.",
+          "image": "have-breakfast",
+          "label": "have → has"
+        }
+      ],
+      "groups": [
+        {
+          "label": "+ s",
+          "words": [
+            "plays",
+            "reads",
+            "eats",
+            "drinks",
+            "likes",
+            "gets up"
+          ]
+        },
+        {
+          "label": "+ es",
+          "words": [
+            "watches",
+            "brushes",
+            "goes",
+            "does"
+          ]
+        },
+        {
+          "label": "y → ies",
+          "words": [
+            "studies"
+          ]
+        },
+        {
+          "label": "special",
+          "words": [
+            "has"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "He ___ TV.",
+          "image": "watch-tv",
+          "options": [
+            "watchs",
+            "watches"
+          ],
+          "answer": "b",
+          "explain": "watch → watches."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia ___ English.",
+          "image": "study-english",
+          "options": [
+            "studys",
+            "studies"
+          ],
+          "answer": "b",
+          "explain": "study → studies."
+        }
+      ],
+      "teacherNote": "All forms come from a checked list, not from adding letters blindly. play → plays (vowel before y), study → studies (consonant before y). have → has is special."
+    },
+    {
+      "id": "dont",
+      "title": "I / you / we / they + don't",
+      "rule": "I, you, we, they + don't + play.",
+      "image": "they-watch-tv",
+      "examples": [
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "watch-tv",
+            "to": "negative"
+          }
+        },
+        {
+          "from": "I eat apples.",
+          "text": "I **don't** eat apples.",
+          "speaker": "Sam"
+        },
+        {
+          "from": "We watch TV.",
+          "text": "We **don't** watch TV in the morning.",
+          "image": "they-watch-tv",
+          "speaker": "Sam"
+        },
+        {
+          "text": "You **don't** eat apples.",
+          "image": "eat-apples"
+        },
+        {
+          "text": "They **don't** go to school on Sunday.",
+          "image": "go-to-school",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "text": "I **don't** get up at six.",
+          "image": "get-up",
+          "speaker": "Sam",
+          "time": "7:00",
+          "label": "Sam gets up at seven."
+        },
+        {
+          "text": "They do not play. = They **don't** play.",
+          "label": "do not = don't"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "We ___ watch TV in the morning.",
+          "image": "they-watch-tv",
+          "options": [
+            "don't",
+            "doesn't"
+          ],
+          "answer": "a",
+          "explain": "We don't watch TV in the morning."
+        },
+        {
+          "mode": "try",
+          "prompt": "I don't ___ apples.",
+          "image": "eat-apples",
+          "options": [
+            "eat",
+            "eats"
+          ],
+          "answer": "a",
+          "explain": "After don't, use eat."
+        }
+      ],
+      "teacherNote": "don't = do not. After don't the verb stays in its base form."
+    },
+    {
+      "id": "doesnt",
+      "title": "He / she / it + doesn't",
+      "rule": "He, she, it + doesn't + play. After doesn't, use play.",
+      "image": "watch-tv",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "play-football",
+            "to": "negative"
+          }
+        },
+        {
+          "machine": {
+            "subject": "she",
+            "verb": "have-breakfast",
+            "to": "negative"
+          }
+        },
+        {
+          "from": "She reads.",
+          "text": "She **doesn't** read.",
+          "image": "read-a-book"
+        },
+        {
+          "from": "He plays football.",
+          "text": "He **doesn't** play football.",
+          "image": "play-football",
+          "label": "plays → play"
+        },
+        {
+          "from": "Sam watches TV.",
+          "text": "Sam **doesn't** watch TV.",
+          "image": "watch-tv",
+          "label": "watches → watch"
+        },
+        {
+          "from": "She has breakfast.",
+          "text": "She **doesn't** have breakfast.",
+          "image": "have-breakfast",
+          "label": "has → have"
+        },
+        {
+          "from": "Mia studies English.",
+          "text": "Mia **doesn't** study English.",
+          "image": "study-english",
+          "label": "studies → study"
+        },
+        {
+          "text": "Pepper **doesn't** go to school.",
+          "image": "pepper-plays",
+          "label": "Pepper → it"
+        },
+        {
+          "from": "He does his homework.",
+          "text": "He **doesn't** do his homework.",
+          "image": "do-homework",
+          "label": "doesn't = helper word. do = the action."
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "He doesn't ___ TV.",
+          "image": "watch-tv",
+          "options": [
+            "watch",
+            "watches"
+          ],
+          "answer": "a",
+          "explain": "After doesn't, use watch."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia ___ like cats.",
+          "image": "read-a-book",
+          "options": [
+            "don't",
+            "doesn't"
+          ],
+          "answer": "b",
+          "explain": "Mia = she → doesn't."
+        }
+      ],
+      "teacherNote": "“Does comes, the verb goes back”: plays → play, has → have, studies → study. It is not only “take away the s”. In “He doesn't do his homework.” doesn't is the helper and do is the action."
+    },
+    {
+      "id": "do-questions",
+      "title": "Do you …?",
+      "rule": "Start with Do: Do you play football?",
+      "image": "teacher-class",
+      "examples": [
+        {
+          "machine": {
+            "subject": "you",
+            "verb": "play-football",
+            "to": "question"
+          }
+        },
+        {
+          "from": "You play football.",
+          "text": "**Do** you play football?",
+          "image": "play-football",
+          "speaker": "Ms. Rosa"
+        },
+        {
+          "text": "**Do** you read every day?",
+          "image": "read-a-book",
+          "speaker": "Ms. Rosa"
+        },
+        {
+          "text": "**Do** they go to school?",
+          "image": "go-to-school"
+        },
+        {
+          "text": "**Do** you have breakfast every morning?",
+          "image": "have-breakfast",
+          "speaker": "Ms. Rosa"
+        },
+        {
+          "text": "**Do** you brush your teeth every morning?",
+          "image": "brush-teeth",
+          "speaker": "Ms. Rosa",
+          "label": "my → your"
+        },
+        {
+          "text": "**Do** they like cats?",
+          "image": "like-cats"
+        },
+        {
+          "text": "**Do** you study English?",
+          "image": "study-english",
+          "speaker": "Sam"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ they play football?",
+          "image": "they-play-football",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "answer": "a",
+          "explain": "They → Do."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which question is correct?",
+          "image": "eat-apples",
+          "options": [
+            "Do you eat apples?",
+            "Do you eats apples?"
+          ],
+          "answer": "a",
+          "explain": "Do you eat apples?"
+        }
+      ],
+      "teacherNote": "Do questions go with I / you / we / they. With “you”, use “your”: Do you brush your teeth?"
+    },
+    {
+      "id": "does-questions",
+      "title": "Does he …?",
+      "rule": "Start with Does. Then use play.",
+      "image": "do-homework",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "play-football",
+            "to": "question"
+          }
+        },
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "study-english",
+            "to": "question"
+          }
+        },
+        {
+          "from": "He plays football.",
+          "text": "**Does** he play football?",
+          "image": "play-football",
+          "label": "plays → play"
+        },
+        {
+          "text": "**Does** she read every day?",
+          "image": "read-a-book"
+        },
+        {
+          "text": "**Does** Sam watch TV?",
+          "image": "watch-tv"
+        },
+        {
+          "from": "Mia has breakfast.",
+          "text": "**Does** Mia have breakfast?",
+          "image": "have-breakfast",
+          "label": "has → have"
+        },
+        {
+          "text": "**Does** Pepper drink water?",
+          "image": "pepper-drinks-water"
+        },
+        {
+          "from": "Mia studies English.",
+          "text": "**Does** Mia study English?",
+          "image": "study-english",
+          "label": "studies → study"
+        },
+        {
+          "text": "**Does** he do his homework?",
+          "image": "do-homework"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ she like cats?",
+          "image": "read-a-book",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "answer": "b",
+          "explain": "She → Does."
+        },
+        {
+          "mode": "try",
+          "prompt": "Does he ___ water?",
+          "image": "drink-water",
+          "options": [
+            "drink",
+            "drinks"
+          ],
+          "answer": "a",
+          "explain": "After Does, use drink."
+        }
+      ],
+      "teacherNote": "When Does comes first, the main verb is in base form: Does he play? Does she have? Does Mia study?"
+    },
+    {
+      "id": "short-answers",
+      "title": "Yes, I do. / No, she doesn't.",
+      "rule": "Does she play? Yes, she does. No, she doesn't.",
+      "image": "teacher-class",
+      "examples": [
+        {
+          "q": "Do you play football?",
+          "a": "Yes, I **do**.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Sam",
+          "image": "teacher-class",
+          "label": "you → I"
+        },
+        {
+          "q": "Do you watch TV in the morning?",
+          "a": "No, I **don't**.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Mia",
+          "image": "teacher-class"
+        },
+        {
+          "q": "Does Sam like cats?",
+          "a": "Yes, he **does**.",
+          "image": "like-cats"
+        },
+        {
+          "q": "Does Mia read books?",
+          "a": "Yes, she **does**.",
+          "image": "read-a-book"
+        },
+        {
+          "q": "Do they go to school?",
+          "a": "Yes, they **do**.",
+          "image": "go-to-school"
+        },
+        {
+          "q": "Does Pepper watch TV?",
+          "a": "No, it **doesn't**.",
+          "image": "pepper-plays"
+        },
+        {
+          "q": "Do you and Sam study English?",
+          "a": "Yes, we **do**.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Mia",
+          "image": "we-read",
+          "label": "you and Sam → we"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Does Sam like cats?",
+          "image": "like-cats",
+          "options": [
+            "Yes, he does.",
+            "Yes, he likes.",
+            "Yes, she does."
+          ],
+          "answer": "a",
+          "explain": "Yes, he does."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ms. Rosa asks Sam: “Do you play football?” Sam plays football. Sam says:",
+          "image": "play-football",
+          "options": [
+            "Yes, I do.",
+            "Yes, you do."
+          ],
+          "answer": "a",
+          "explain": "Sam talks about Sam: Yes, I do."
+        }
+      ],
+      "teacherNote": "Keep the speaker in short answers: the teacher asks “Do you …?”, the pupil says “Yes, I do.” Personal questions can have Yes or No — both are right."
+    },
+    {
+      "id": "wh-questions",
+      "title": "What? Where? What time?",
+      "rule": "What / Where / What time + do / does + …?",
+      "image": "get-up",
+      "examples": [
+        {
+          "q": "**What** do you eat?",
+          "a": "I eat apples.",
+          "aSpeaker": "Mia",
+          "image": "eat-apples"
+        },
+        {
+          "q": "**What** does Sam drink?",
+          "a": "He drinks water.",
+          "image": "drink-water"
+        },
+        {
+          "q": "**Where** does Sam play football?",
+          "a": "In the park.",
+          "image": "play-football"
+        },
+        {
+          "q": "**Where** do they go every morning?",
+          "a": "They go to school.",
+          "image": "go-to-school"
+        },
+        {
+          "q": "**What time** do you get up?",
+          "a": "I get up at seven.",
+          "aSpeaker": "Sam",
+          "image": "get-up",
+          "time": "7:00"
+        },
+        {
+          "q": "**What time** does Mia have breakfast?",
+          "a": "At seven thirty.",
+          "image": "have-breakfast",
+          "time": "7:30"
+        },
+        {
+          "q": "**What** does Mia study?",
+          "a": "She studies English.",
+          "image": "study-english"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "What time ___ Sam get up?",
+          "image": "get-up",
+          "time": "7:00",
+          "options": [
+            "do",
+            "does"
+          ],
+          "answer": "b",
+          "explain": "What time does Sam get up?"
+        },
+        {
+          "mode": "try",
+          "prompt": "Where do they play football?",
+          "image": "they-play-football",
+          "options": [
+            "At school.",
+            "At seven."
+          ],
+          "answer": "a",
+          "explain": "Where → a place: at school."
+        }
+      ],
+      "teacherNote": "Keep WH questions short and supported. Not every English question starts with Do / Does; this week looks at questions with action verbs. Times are shown as clocks on screen."
+    },
+    {
+      "id": "compare",
+      "title": "+  −  ?",
+      "rule": "One idea, three sentences.",
+      "image": "cover",
+      "examples": [
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "watch-tv",
+            "to": "all"
+          }
+        },
+        {
+          "rows": [
+            "He plays football.",
+            "He **doesn't** play football.",
+            "**Does** he play football?"
+          ],
+          "image": "play-football"
+        },
+        {
+          "rows": [
+            "They watch TV.",
+            "They **don't** watch TV.",
+            "**Do** they watch TV?"
+          ],
+          "image": "they-watch-tv"
+        },
+        {
+          "rows": [
+            "She has breakfast.",
+            "She **doesn't** have breakfast.",
+            "**Does** she have breakfast?"
+          ],
+          "image": "have-breakfast"
+        },
+        {
+          "rows": [
+            "We go to school.",
+            "We **don't** go to school.",
+            "**Do** we go to school?"
+          ],
+          "image": "go-to-school"
+        },
+        {
+          "rows": [
+            "Mia studies English.",
+            "Mia **doesn't** study English.",
+            "**Does** Mia study English?"
+          ],
+          "image": "study-english"
+        },
+        {
+          "rows": [
+            "It drinks water.",
+            "It **doesn't** drink water.",
+            "**Does** it drink water?"
+          ],
+          "image": "pepper-drinks-water"
+        },
+        {
+          "rows": [
+            "She plays.  →  **Does** she play?",
+            "She is happy.  →  **Is** she happy?"
+          ],
+          "rowLabels": [
+            "play",
+            "is"
+          ],
+          "label": "is: no do / does"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "He reads. Which is the question?",
+          "image": "sam-reads",
+          "options": [
+            "Does he read?",
+            "Does he reads?",
+            "Do he read?"
+          ],
+          "answer": "a",
+          "explain": "Does he read?"
+        },
+        {
+          "mode": "try",
+          "prompt": "They eat apples. Which is the negative?",
+          "image": "eat-apples",
+          "options": [
+            "They doesn't eat apples.",
+            "They don't eat apples."
+          ],
+          "answer": "b",
+          "explain": "They don't eat apples."
+        }
+      ],
+      "teacherNote": "Positive, negative and question side by side with the same meaning. The last example shows “She is happy.” vs “She plays.”: is-sentences do not use do / does. Keep it short — to be is not this week's topic."
+    },
+    {
+      "id": "book-actions",
+      "title": "Book words: live, ride, dance …",
+      "rule": "These are action words. With he, she and it, add s.",
+      "image": "ride-a-bike",
+      "teacherNote": "Target words from the coursebook page (live, speak, study, dance, play, walk, ride, eat, smile, visit). dance → dances and ride → rides only add s (the e is already there). Ask: Where do you live? What do you do?",
+      "examples": [
+        {
+          "from": "I live in a city.",
+          "text": "Sam live**s** in a city.",
+          "image": "live-in-a-city",
+          "label": "live → lives"
+        },
+        {
+          "from": "I ride a bike.",
+          "text": "Ana ride**s** a bike to school.",
+          "image": "ride-a-bike",
+          "label": "ride → rides"
+        },
+        {
+          "from": "I walk to school.",
+          "text": "Leo walk**s** to school.",
+          "image": "walk-to-school",
+          "label": "walk → walks"
+        },
+        {
+          "from": "We dance.",
+          "text": "Mia dance**s**.",
+          "image": "dance",
+          "label": "dance → dances"
+        },
+        {
+          "text": "We **speak** English every day.",
+          "image": "speak-english",
+          "speaker": "Mia"
+        },
+        {
+          "from": "I visit my grandma.",
+          "text": "Mia visit**s** **her** grandma.",
+          "image": "visit-grandma",
+          "label": "my → her"
+        },
+        {
+          "rows": [
+            "Leo eats pizza.",
+            "Leo **doesn't** eat pizza.",
+            "**Does** Leo eat pizza?"
+          ],
+          "image": "eat-pizza"
+        },
+        {
+          "q": "**Where** do you live?",
+          "a": "I live in a city.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Sam",
+          "image": "live-in-a-city"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Ana ___ a bike to school.",
+          "image": "ride-a-bike",
+          "options": [
+            "ride",
+            "rides"
+          ],
+          "answer": "b",
+          "explain": "Ana rides a bike to school."
+        },
+        {
+          "mode": "try",
+          "prompt": "Does Leo ___ to school?",
+          "image": "walk-to-school",
+          "options": [
+            "walk",
+            "walks"
+          ],
+          "answer": "a",
+          "explain": "Does Leo walk to school?"
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w1-sp-01",
+      "question": "Do you play football?",
+      "image": "play-football",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I play football every day.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-02",
+      "question": "What time do you get up?",
+      "image": "get-up",
+      "time": "7:00",
+      "help": [
+        "I get up at …",
+        "seven / eight"
+      ],
+      "sample": "I get up at seven.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-03",
+      "question": "Do you have breakfast every morning?",
+      "image": "have-breakfast",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I have breakfast at home.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-04",
+      "question": "What do you eat in the morning?",
+      "image": "have-breakfast",
+      "help": [
+        "I eat …",
+        "toast / apples"
+      ],
+      "sample": "I eat toast.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-05",
+      "question": "Do you like cats?",
+      "image": "like-cats",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I like cats.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-06",
+      "question": "Do you watch TV in the evening?",
+      "image": "they-watch-tv",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "No, I don't. I read a book.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-07",
+      "question": "Where do you do your homework?",
+      "image": "do-homework",
+      "help": [
+        "I do my homework at …",
+        "at home / at school"
+      ],
+      "sample": "I do my homework at home.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-08",
+      "question": "Look. Does Sam like cats?",
+      "image": "like-cats",
+      "help": [
+        "Yes, he …",
+        "No, he …"
+      ],
+      "sample": "Yes, he does.",
+      "personal": false
+    },
+    {
+      "id": "w1-sp-09",
+      "question": "Look. Does Mia read books?",
+      "image": "read-a-book",
+      "help": [
+        "Yes, she …",
+        "No, she …"
+      ],
+      "sample": "Yes, she does.",
+      "personal": false
+    },
+    {
+      "id": "w1-sp-10",
+      "question": "Do you study English every day?",
+      "image": "study-english",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-11",
+      "question": "What does your friend like?",
+      "image": "they-play-football",
+      "help": [
+        "My friend likes …",
+        "football / cats / books"
+      ],
+      "sample": "My friend likes football.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-12",
+      "question": "Look. What does Mia do in the morning?",
+      "image": "brush-teeth",
+      "help": [
+        "She gets up.",
+        "She brushes …",
+        "She has …"
+      ],
+      "sample": "She gets up. She brushes her teeth. She has breakfast.",
+      "personal": false
+    },
+    {
+      "id": "w1-sp-13",
+      "question": "Where do you live?",
+      "image": "live-in-a-city",
+      "help": [
+        "I live in …",
+        "a city / a town / a village"
+      ],
+      "sample": "I live in a city.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-14",
+      "question": "Do you walk or ride a bike to school?",
+      "image": "walk-to-school",
+      "help": [
+        "I walk to school.",
+        "I ride a bike."
+      ],
+      "sample": "I walk to school.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-15",
+      "question": "Do you dance?",
+      "image": "dance",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I dance at home.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-16",
+      "question": "Do you visit your grandma?",
+      "image": "visit-grandma",
+      "help": [
+        "Yes, I do.",
+        "No, I don't.",
+        "on Sunday"
+      ],
+      "sample": "Yes, I do. I visit my grandma on Sunday.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-17",
+      "question": "Do you swim in summer?",
+      "image": "v-swim",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do. I swim in summer.",
+      "personal": true
+    },
+    {
+      "id": "w1-sp-18",
+      "question": "Do you help at home? Do you clean your room?",
+      "image": "v-clean",
+      "help": [
+        "I clean my room.",
+        "I wash the dishes."
+      ],
+      "sample": "Yes, I do. I clean my room on Sunday.",
+      "personal": true
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "play-football",
+        "subject": "He",
+        "word": "play football",
+        "sentence": "He plays football."
+      },
+      {
+        "image": "read-a-book",
+        "subject": "She",
+        "word": "read a book",
+        "sentence": "She reads a book."
+      },
+      {
+        "image": "watch-tv",
+        "subject": "He",
+        "word": "watch TV",
+        "sentence": "He watches TV."
+      },
+      {
+        "image": "eat-apples",
+        "subject": "She",
+        "word": "eat apples",
+        "sentence": "She eats apples."
+      },
+      {
+        "image": "drink-water",
+        "subject": "He",
+        "word": "drink water",
+        "sentence": "He drinks water."
+      },
+      {
+        "image": "go-to-school",
+        "subject": "They",
+        "word": "go to school",
+        "sentence": "They go to school."
+      },
+      {
+        "image": "get-up",
+        "subject": "He",
+        "word": "get up",
+        "sentence": "He gets up."
+      },
+      {
+        "image": "have-breakfast",
+        "subject": "She",
+        "word": "have breakfast",
+        "sentence": "She has breakfast."
+      },
+      {
+        "image": "do-homework",
+        "subject": "He",
+        "word": "do homework",
+        "sentence": "He does his homework."
+      },
+      {
+        "image": "brush-teeth",
+        "subject": "She",
+        "word": "brush her teeth",
+        "sentence": "She brushes her teeth."
+      },
+      {
+        "image": "study-english",
+        "subject": "She",
+        "word": "study English",
+        "sentence": "She studies English."
+      },
+      {
+        "image": "like-cats",
+        "subject": "He",
+        "word": "like cats",
+        "sentence": "He likes cats."
+      },
+      {
+        "image": "they-play-football",
+        "subject": "They",
+        "word": "play football",
+        "sentence": "They play football."
+      },
+      {
+        "image": "pepper-drinks-water",
+        "subject": "It",
+        "word": "drink water",
+        "sentence": "It drinks water."
+      },
+      {
+        "image": "ride-a-bike",
+        "subject": "She",
+        "word": "ride a bike",
+        "sentence": "She rides a bike."
+      },
+      {
+        "image": "walk-to-school",
+        "subject": "He",
+        "word": "walk to school",
+        "sentence": "He walks to school."
+      },
+      {
+        "image": "dance",
+        "subject": "They",
+        "word": "dance",
+        "sentence": "They dance."
+      },
+      {
+        "image": "eat-pizza",
+        "subject": "He",
+        "word": "eat pizza",
+        "sentence": "He eats pizza."
+      },
+      {
+        "image": "play-chess",
+        "subject": "They",
+        "word": "play chess",
+        "sentence": "They play chess."
+      },
+      {
+        "image": "visit-grandma",
+        "subject": "She",
+        "word": "visit Grandma",
+        "sentence": "She visits her grandma."
+      },
+      {
+        "image": "live-in-a-city",
+        "subject": "He",
+        "word": "live in a city",
+        "sentence": "He lives in a city."
+      },
+      {
+        "image": "v-run",
+        "subject": "He",
+        "word": "run",
+        "sentence": "He runs in the park."
+      },
+      {
+        "image": "v-jump",
+        "subject": "She",
+        "word": "jump",
+        "sentence": "She jumps."
+      },
+      {
+        "image": "v-swim",
+        "subject": "He",
+        "word": "swim",
+        "sentence": "He swims."
+      },
+      {
+        "image": "v-sing",
+        "subject": "She",
+        "word": "sing a song",
+        "sentence": "She sings a song."
+      },
+      {
+        "image": "v-draw",
+        "subject": "She",
+        "word": "draw a picture",
+        "sentence": "She draws a picture."
+      },
+      {
+        "image": "v-sleep",
+        "subject": "It",
+        "word": "sleep",
+        "sentence": "It sleeps."
+      },
+      {
+        "image": "v-write",
+        "subject": "He",
+        "word": "write a letter",
+        "sentence": "He writes a letter."
+      },
+      {
+        "image": "v-cook",
+        "subject": "He",
+        "word": "cook pancakes",
+        "sentence": "He cooks pancakes."
+      },
+      {
+        "image": "v-clean",
+        "subject": "She",
+        "word": "clean my room",
+        "sentence": "She cleans her room."
+      },
+      {
+        "image": "v-wash",
+        "subject": "He",
+        "word": "wash my hands",
+        "sentence": "He washes his hands."
+      },
+      {
+        "image": "v-climb",
+        "subject": "She",
+        "word": "climb a tree",
+        "sentence": "She climbs a tree."
+      },
+      {
+        "image": "v-fly",
+        "subject": "He",
+        "word": "fly a kite",
+        "sentence": "He flies a kite."
+      },
+      {
+        "image": "v-catch",
+        "subject": "He",
+        "word": "catch a ball",
+        "sentence": "He catches a ball."
+      },
+      {
+        "image": "v-open",
+        "subject": "She",
+        "word": "open the window",
+        "sentence": "She opens the window."
+      },
+      {
+        "image": "v-listen",
+        "subject": "She",
+        "word": "listen to music",
+        "sentence": "She listens to music."
+      },
+      {
+        "image": "v-feed",
+        "subject": "He",
+        "word": "feed the cat",
+        "sentence": "He feeds the cat."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "I",
+          "text": "I",
+          "person": "plural",
+          "poss": "my",
+          "short": "I"
+        },
+        {
+          "id": "you",
+          "text": "You",
+          "person": "plural",
+          "poss": "your",
+          "short": "you"
+        },
+        {
+          "id": "we",
+          "text": "We",
+          "person": "plural",
+          "poss": "our",
+          "short": "we"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        },
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "she",
+          "text": "She",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "it",
+          "text": "It",
+          "person": "single",
+          "poss": "its",
+          "short": "it",
+          "onlyVerbs": [
+            "drink-water",
+            "get-up",
+            "eat-apples",
+            "a1-sleep",
+            "a1-jump",
+            "a1-run"
+          ]
+        },
+        {
+          "id": "sam",
+          "text": "Sam",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "mia",
+          "text": "Mia",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "leo",
+          "text": "Leo",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "ana",
+          "text": "Ana",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        }
+      ],
+      "verbs": [
+        {
+          "id": "play-football",
+          "base": "play",
+          "s": "plays",
+          "rest": "football"
+        },
+        {
+          "id": "read-a-book",
+          "base": "read",
+          "s": "reads",
+          "rest": "a book"
+        },
+        {
+          "id": "watch-tv",
+          "base": "watch",
+          "s": "watches",
+          "rest": "TV"
+        },
+        {
+          "id": "eat-apples",
+          "base": "eat",
+          "s": "eats",
+          "rest": "apples"
+        },
+        {
+          "id": "drink-water",
+          "base": "drink",
+          "s": "drinks",
+          "rest": "water"
+        },
+        {
+          "id": "go-to-school",
+          "base": "go",
+          "s": "goes",
+          "rest": "to school"
+        },
+        {
+          "id": "get-up",
+          "base": "get",
+          "s": "gets",
+          "rest": "up at seven"
+        },
+        {
+          "id": "have-breakfast",
+          "base": "have",
+          "s": "has",
+          "rest": "breakfast"
+        },
+        {
+          "id": "do-homework",
+          "base": "do",
+          "s": "does",
+          "rest": "{poss} homework"
+        },
+        {
+          "id": "brush-teeth",
+          "base": "brush",
+          "s": "brushes",
+          "rest": "{poss} teeth"
+        },
+        {
+          "id": "study-english",
+          "base": "study",
+          "s": "studies",
+          "rest": "English"
+        },
+        {
+          "id": "like-cats",
+          "base": "like",
+          "s": "likes",
+          "rest": "cats"
+        },
+        {
+          "id": "live-city",
+          "base": "live",
+          "s": "lives",
+          "rest": "in a city"
+        },
+        {
+          "id": "speak-english",
+          "base": "speak",
+          "s": "speaks",
+          "rest": "English"
+        },
+        {
+          "id": "dance",
+          "base": "dance",
+          "s": "dances",
+          "rest": "at school"
+        },
+        {
+          "id": "walk-school",
+          "base": "walk",
+          "s": "walks",
+          "rest": "to school"
+        },
+        {
+          "id": "ride-bike",
+          "base": "ride",
+          "s": "rides",
+          "rest": "a bike"
+        },
+        {
+          "id": "eat-pizza",
+          "base": "eat",
+          "s": "eats",
+          "rest": "pizza"
+        },
+        {
+          "id": "smile",
+          "base": "smile",
+          "s": "smiles",
+          "rest": "at friends"
+        },
+        {
+          "id": "visit-grandma",
+          "base": "visit",
+          "s": "visits",
+          "rest": "{poss} grandma"
+        },
+        {
+          "id": "play-chess",
+          "base": "play",
+          "s": "plays",
+          "rest": "chess"
+        },
+        {
+          "id": "a1-run",
+          "base": "run",
+          "s": "runs",
+          "rest": "in the park"
+        },
+        {
+          "id": "a1-jump",
+          "base": "jump",
+          "s": "jumps",
+          "rest": "with a rope"
+        },
+        {
+          "id": "a1-swim",
+          "base": "swim",
+          "s": "swims",
+          "rest": "in the pool"
+        },
+        {
+          "id": "a1-sing",
+          "base": "sing",
+          "s": "sings",
+          "rest": "a song"
+        },
+        {
+          "id": "a1-draw",
+          "base": "draw",
+          "s": "draws",
+          "rest": "a picture"
+        },
+        {
+          "id": "a1-sleep",
+          "base": "sleep",
+          "s": "sleeps",
+          "rest": "on a cushion"
+        },
+        {
+          "id": "a1-write",
+          "base": "write",
+          "s": "writes",
+          "rest": "a letter"
+        },
+        {
+          "id": "a1-cook",
+          "base": "cook",
+          "s": "cooks",
+          "rest": "pancakes"
+        },
+        {
+          "id": "a1-clean",
+          "base": "clean",
+          "s": "cleans",
+          "rest": "{poss} room"
+        },
+        {
+          "id": "a1-wash",
+          "base": "wash",
+          "s": "washes",
+          "rest": "{poss} hands"
+        },
+        {
+          "id": "a1-climb",
+          "base": "climb",
+          "s": "climbs",
+          "rest": "a tree"
+        },
+        {
+          "id": "a1-fly",
+          "base": "fly",
+          "s": "flies",
+          "rest": "a kite"
+        },
+        {
+          "id": "a1-catch",
+          "base": "catch",
+          "s": "catches",
+          "rest": "a ball"
+        },
+        {
+          "id": "a1-open",
+          "base": "open",
+          "s": "opens",
+          "rest": "the window"
+        },
+        {
+          "id": "a1-listen",
+          "base": "listen",
+          "s": "listens",
+          "rest": "to music"
+        },
+        {
+          "id": "a1-feed",
+          "base": "feed",
+          "s": "feeds",
+          "rest": "the cat"
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-01",
+        "who": "Sam",
+        "image": "play-football",
+        "clue": "Sam plays football.",
+        "options": [
+          "Do Sam play football?",
+          "Does Sam play football?",
+          "Does Sam plays football?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, he does.",
+        "hint": "Sam = he. Start with Does. Then use play."
+      },
+      {
+        "id": "door-02",
+        "who": "Mia",
+        "image": "read-a-book",
+        "clue": "Mia reads a book.",
+        "options": [
+          "Does Mia read a book?",
+          "Does Mia reads a book?",
+          "Do Mia read a book?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she does.",
+        "hint": "Mia = she. Start with Does."
+      },
+      {
+        "id": "door-03",
+        "who": "Mia and Sam",
+        "image": "go-to-school",
+        "clue": "Mia and Sam go to school.",
+        "options": [
+          "Does they go to school?",
+          "Do they go to school?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, they do.",
+        "hint": "Mia and Sam = they. Start with Do."
+      },
+      {
+        "id": "door-04",
+        "who": "Pepper",
+        "image": "pepper-drinks-water",
+        "clue": "Pepper drinks water.",
+        "options": [
+          "Does it drink water?",
+          "Does it drinks water?",
+          "Do it drink water?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, it does.",
+        "hint": "Pepper = it. After Does, use drink."
+      },
+      {
+        "id": "door-05",
+        "who": "Sam",
+        "image": "watch-tv",
+        "clue": "Sam watches TV.",
+        "options": [
+          "Does Sam watches TV?",
+          "Does Sam watch TV?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, he does.",
+        "hint": "After Does, use watch."
+      },
+      {
+        "id": "door-06",
+        "who": "Mia",
+        "image": "have-breakfast",
+        "clue": "Mia has breakfast.",
+        "options": [
+          "Does Mia has breakfast?",
+          "Does Mia have breakfast?",
+          "Do Mia have breakfast?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, she does.",
+        "hint": "has → have after Does."
+      },
+      {
+        "id": "door-07",
+        "who": "you (Ms. Rosa asks Sam)",
+        "image": "like-cats",
+        "clue": "Ms. Rosa wants to know: Sam likes cats?",
+        "options": [
+          "Do you like cats, Sam?",
+          "Does you like cats, Sam?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, I do.",
+        "hint": "you → Do."
+      },
+      {
+        "id": "door-08",
+        "who": "Mia",
+        "image": "study-english",
+        "clue": "Mia studies English.",
+        "options": [
+          "Does Mia study English?",
+          "Does Mia studies English?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she does.",
+        "hint": "studies → study after Does."
+      },
+      {
+        "id": "door-09",
+        "who": "the children",
+        "image": "they-play-football",
+        "clue": "The children play football.",
+        "options": [
+          "Do they play football?",
+          "Does they play football?",
+          "Do they plays football?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, they do.",
+        "hint": "they → Do. Then use play."
+      },
+      {
+        "id": "door-10",
+        "who": "Sam",
+        "image": "do-homework",
+        "clue": "Sam does his homework.",
+        "options": [
+          "Does Sam do his homework?",
+          "Does Sam does his homework?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, he does.",
+        "hint": "Does + do: two different jobs!"
+      }
+    ],
+    "yesNo": [
+      {
+        "id": "yn-01",
+        "image": "play-football",
+        "clue": "Sam plays football every day.",
+        "question": "Does Sam play football?",
+        "options": [
+          "Yes, he does.",
+          "Yes, he do.",
+          "No, he doesn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he. Look at the clue."
+      },
+      {
+        "id": "yn-02",
+        "image": "read-a-book",
+        "clue": "Mia reads every evening.",
+        "question": "Does Mia read every evening?",
+        "options": [
+          "Yes, he does.",
+          "Yes, she does.",
+          "No, she doesn't."
+        ],
+        "answer": "b",
+        "hint": "Mia = she."
+      },
+      {
+        "id": "yn-03",
+        "image": "they-watch-tv",
+        "clue": "Mia and Sam don't watch TV in the morning.",
+        "question": "Do Mia and Sam watch TV in the morning?",
+        "options": [
+          "Yes, they do.",
+          "No, they doesn't.",
+          "No, they don't."
+        ],
+        "answer": "c",
+        "hint": "Mia and Sam = they. Read the clue: don't."
+      },
+      {
+        "id": "yn-04",
+        "image": "pepper-drinks-water",
+        "clue": "Pepper drinks water.",
+        "question": "Does Pepper drink water?",
+        "options": [
+          "Yes, it does.",
+          "Yes, she does.",
+          "No, it doesn't."
+        ],
+        "answer": "a",
+        "hint": "Pepper is a cat = it."
+      },
+      {
+        "id": "yn-05",
+        "image": "pepper-plays",
+        "clue": "Pepper doesn't go to school.",
+        "question": "Does Pepper go to school?",
+        "options": [
+          "Yes, it does.",
+          "No, it doesn't.",
+          "No, it don't."
+        ],
+        "answer": "b",
+        "hint": "it → doesn't."
+      },
+      {
+        "id": "yn-06",
+        "image": "like-cats",
+        "clue": "Sam likes cats.",
+        "question": "Does Sam like cats?",
+        "options": [
+          "Yes, he likes.",
+          "No, he doesn't.",
+          "Yes, he does."
+        ],
+        "answer": "c",
+        "hint": "Does … ? → Yes, he does."
+      },
+      {
+        "id": "yn-07",
+        "image": "teacher-class",
+        "clue": "Mia studies English.",
+        "question": "Ms. Rosa asks Mia: “Do you study English?” Mia says:",
+        "options": [
+          "Yes, I do.",
+          "Yes, you do.",
+          "Yes, she does."
+        ],
+        "answer": "a",
+        "hint": "Mia talks about Mia → I."
+      },
+      {
+        "id": "yn-08",
+        "image": "have-breakfast",
+        "clue": "Mia doesn't have breakfast at school.",
+        "question": "Does Mia have breakfast at school?",
+        "options": [
+          "No, she don't.",
+          "No, she doesn't.",
+          "Yes, she does."
+        ],
+        "answer": "b",
+        "hint": "she → doesn't."
+      },
+      {
+        "id": "yn-09",
+        "image": "go-to-school",
+        "clue": "Mia and Sam go to school every day.",
+        "question": "Do they go to school every day?",
+        "options": [
+          "Yes, they do.",
+          "Yes, they does.",
+          "No, they don't."
+        ],
+        "answer": "a",
+        "hint": "they → do."
+      },
+      {
+        "id": "yn-10",
+        "image": "get-up",
+        "clue": "Sam gets up at seven.",
+        "time": "7:00",
+        "question": "Does Sam get up at six?",
+        "options": [
+          "Yes, he does.",
+          "No, he don't.",
+          "No, he doesn't."
+        ],
+        "answer": "c",
+        "hint": "Look at the clock."
+      },
+      {
+        "id": "yn-11",
+        "image": "we-read",
+        "clue": "Sam and Mia read books.",
+        "question": "Ms. Rosa asks Sam: “Do you and Mia read books?” Sam says:",
+        "options": [
+          "Yes, they do.",
+          "Yes, we do.",
+          "Yes, you do."
+        ],
+        "answer": "b",
+        "hint": "Sam talks about Sam and Mia → we."
+      },
+      {
+        "id": "yn-12",
+        "image": "mia-plays-football",
+        "clue": "Mia plays football on Saturday.",
+        "question": "Does Mia play football on Saturday?",
+        "options": [
+          "Yes, she does.",
+          "No, she doesn't.",
+          "Yes, she do."
+        ],
+        "answer": "a",
+        "hint": "Mia = she."
+      },
+      {
+        "id": "yn-13",
+        "image": "ride-a-bike",
+        "clue": "Ana rides a bike to school.",
+        "question": "Does Ana walk to school?",
+        "options": [
+          "No, she doesn't.",
+          "Yes, she does.",
+          "No, she don't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue: she rides a bike."
+      },
+      {
+        "id": "yn-14",
+        "image": "play-chess",
+        "clue": "Sam and Leo play chess.",
+        "question": "Do Sam and Leo play chess?",
+        "options": [
+          "Yes, they does.",
+          "Yes, they do.",
+          "No, they don't."
+        ],
+        "answer": "b",
+        "hint": "Sam and Leo = they."
+      },
+      {
+        "id": "yn-15",
+        "image": "visit-grandma",
+        "clue": "Mia visits her grandma on Sunday.",
+        "question": "Does Mia visit her grandma on Sunday?",
+        "options": [
+          "Yes, she does.",
+          "No, she doesn't.",
+          "Yes, he does."
+        ],
+        "answer": "a",
+        "hint": "Mia = she."
+      },
+      {
+        "id": "yn-16",
+        "image": "eat-pizza",
+        "clue": "Leo doesn't eat pizza for breakfast.",
+        "question": "Does Leo eat pizza for breakfast?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn't.",
+          "No, he don't."
+        ],
+        "answer": "b",
+        "hint": "Read the clue: doesn't."
+      },
+      {
+        "id": "yn-17",
+        "image": "v-swim",
+        "clue": "Sam swims every Saturday.",
+        "question": "Does Sam swim on Saturday?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn't.",
+          "Yes, he do."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-18",
+        "image": "v-sleep",
+        "clue": "Pepper sleeps in the afternoon.",
+        "question": "Does Pepper sleep in the afternoon?",
+        "options": [
+          "Yes, she does.",
+          "Yes, it does.",
+          "No, it doesn't."
+        ],
+        "answer": "b",
+        "hint": "Pepper is a cat = it."
+      },
+      {
+        "id": "yn-19",
+        "image": "v-cook",
+        "clue": "Sam cooks pancakes. He doesn't cook pizza.",
+        "question": "Does Sam cook pizza?",
+        "options": [
+          "No, he doesn't.",
+          "Yes, he does.",
+          "No, he don't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue: doesn't."
+      },
+      {
+        "id": "yn-20",
+        "image": "v-listen",
+        "clue": "Ana listens to music every evening.",
+        "question": "Does Ana listen to music?",
+        "options": [
+          "Yes, she does.",
+          "Yes, she listens.",
+          "No, she doesn't."
+        ],
+        "answer": "a",
+        "hint": "Does … ? → Yes, she does."
+      }
+    ],
+    "memory": {
+      "pairs": 6
+    }
+  },
+  "teacherGoals": [
+    "Present Simple with action verbs for habits.",
+    "I / you / we / they vs he / she / it; -s, -es, -ies and has.",
+    "don't / doesn't + base verb.",
+    "Do / Does yes-no questions and short answers; supported What / Where / What time."
+  ],
+  "teacherNote": "This module is about sentences with action verbs (play, read, have…). am / is / are are not this week's topic; Learn 12 only shows the short difference between “She is happy.” and “She plays.” This version is not linked to a textbook; it uses general beginner everyday words.",
+  "extraWordSets": [
+    {
+      "id": "book",
+      "title": "Book words: Actions",
+      "source": "Target words from the coursebook (Language Log, Unit 1, page 18).",
+      "words": [
+        {
+          "id": "live",
+          "word": "live",
+          "phrase": "live in a city",
+          "image": "live-in-a-city",
+          "example": "Sam lives in a city."
+        },
+        {
+          "id": "speak",
+          "word": "speak",
+          "phrase": "speak English",
+          "image": "speak-english",
+          "example": "Mia and Ana speak English."
+        },
+        {
+          "id": "study",
+          "word": "study",
+          "phrase": "study English",
+          "image": "study-english",
+          "example": "Mia studies English."
+        },
+        {
+          "id": "dance",
+          "word": "dance",
+          "phrase": "dance",
+          "image": "dance",
+          "example": "Mia and Ana dance."
+        },
+        {
+          "id": "play",
+          "word": "play",
+          "phrase": "play chess",
+          "image": "play-chess",
+          "example": "Sam and Leo play chess."
+        },
+        {
+          "id": "walk",
+          "word": "walk",
+          "phrase": "walk to school",
+          "image": "walk-to-school",
+          "example": "Leo walks to school."
+        },
+        {
+          "id": "ride",
+          "word": "ride",
+          "phrase": "ride a bike",
+          "image": "ride-a-bike",
+          "example": "Ana rides a bike to school."
+        },
+        {
+          "id": "eat",
+          "word": "eat",
+          "phrase": "eat pizza",
+          "image": "eat-pizza",
+          "example": "Leo eats pizza."
+        },
+        {
+          "id": "smile",
+          "word": "smile",
+          "phrase": "smile",
+          "image": "smile",
+          "example": "Sam smiles."
+        },
+        {
+          "id": "visit",
+          "word": "visit",
+          "phrase": "visit Grandma",
+          "image": "visit-grandma",
+          "example": "Mia visits her grandma."
+        }
+      ]
+    },
+    {
+      "id": "a1-verbs",
+      "title": "A1 action verbs",
+      "source": "Common A1 action verbs for young learners.",
+      "words": [
+        {
+          "id": "a1-run",
+          "word": "run",
+          "phrase": "run",
+          "image": "v-run",
+          "example": "Leo runs in the park."
+        },
+        {
+          "id": "a1-jump",
+          "word": "jump",
+          "phrase": "jump",
+          "image": "v-jump",
+          "example": "Ana jumps."
+        },
+        {
+          "id": "a1-swim",
+          "word": "swim",
+          "phrase": "swim",
+          "image": "v-swim",
+          "example": "Sam swims."
+        },
+        {
+          "id": "a1-sing",
+          "word": "sing",
+          "phrase": "sing a song",
+          "image": "v-sing",
+          "example": "Mia sings a song."
+        },
+        {
+          "id": "a1-draw",
+          "word": "draw",
+          "phrase": "draw a picture",
+          "image": "v-draw",
+          "example": "Ana draws a picture."
+        },
+        {
+          "id": "a1-sleep",
+          "word": "sleep",
+          "phrase": "sleep",
+          "image": "v-sleep",
+          "example": "Pepper sleeps."
+        },
+        {
+          "id": "a1-write",
+          "word": "write",
+          "phrase": "write a letter",
+          "image": "v-write",
+          "example": "Leo writes a letter."
+        },
+        {
+          "id": "a1-cook",
+          "word": "cook",
+          "phrase": "cook pancakes",
+          "image": "v-cook",
+          "example": "Sam cooks pancakes."
+        },
+        {
+          "id": "a1-clean",
+          "word": "clean",
+          "phrase": "clean my room",
+          "image": "v-clean",
+          "example": "Mia cleans her room.",
+          "note": "I clean my room. → She cleans her room."
+        },
+        {
+          "id": "a1-wash",
+          "word": "wash",
+          "phrase": "wash my hands",
+          "image": "v-wash",
+          "example": "Leo washes his hands.",
+          "note": "wash → washes"
+        },
+        {
+          "id": "a1-climb",
+          "word": "climb",
+          "phrase": "climb a tree",
+          "image": "v-climb",
+          "example": "Ana climbs a tree."
+        },
+        {
+          "id": "a1-fly",
+          "word": "fly",
+          "phrase": "fly a kite",
+          "image": "v-fly",
+          "example": "Sam flies a kite.",
+          "note": "fly → flies"
+        },
+        {
+          "id": "a1-catch",
+          "word": "catch",
+          "phrase": "catch a ball",
+          "image": "v-catch",
+          "example": "Leo catches a ball.",
+          "note": "catch → catches"
+        },
+        {
+          "id": "a1-open",
+          "word": "open",
+          "phrase": "open the window",
+          "image": "v-open",
+          "example": "Mia opens the window."
+        },
+        {
+          "id": "a1-listen",
+          "word": "listen",
+          "phrase": "listen to music",
+          "image": "v-listen",
+          "example": "Ana listens to music."
+        },
+        {
+          "id": "a1-feed",
+          "word": "feed",
+          "phrase": "feed the cat",
+          "image": "v-feed",
+          "example": "Sam feeds the cat."
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "tagline": "Let's learn how to talk about our daily lives!",
+    "bubbleLeft": [
+      "I learn.",
+      "I play.",
+      "I explore",
+      "every day!"
+    ],
+    "bubbleRight": [
+      "He plays.",
+      "She reads.",
+      "We have fun!"
+    ]
+  },
+  "missions": [
+    {
+      "id": "m-learn",
+      "text": "Learn the rules of Present Simple",
+      "check": {
+        "section": "learn",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-words",
+      "text": "Learn the new words",
+      "check": {
+        "section": "words",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-practice",
+      "text": "Complete at least 3 activities",
+      "check": {
+        "section": "practise",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-challenge",
+      "text": "Try the challenge",
+      "check": {
+        "section": "challenge",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-proud",
+      "text": "Be proud of yourself!",
+      "check": {
+        "all": true
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex-01",
+      "image": "play-football",
+      "subject": "sam",
+      "verb": "play-football",
+      "note": "plays → play"
+    },
+    {
+      "id": "ex-02",
+      "image": "read-a-book",
+      "subject": "mia",
+      "verb": "read-a-book"
+    },
+    {
+      "id": "ex-03",
+      "image": "watch-tv",
+      "subject": "he",
+      "verb": "watch-tv",
+      "note": "watches → watch"
+    },
+    {
+      "id": "ex-04",
+      "image": "have-breakfast",
+      "subject": "she",
+      "verb": "have-breakfast",
+      "note": "has → have"
+    },
+    {
+      "id": "ex-05",
+      "image": "study-english",
+      "subject": "mia",
+      "verb": "study-english",
+      "note": "studies → study"
+    },
+    {
+      "id": "ex-06",
+      "image": "do-homework",
+      "subject": "he",
+      "verb": "do-homework",
+      "note": "does → do"
+    },
+    {
+      "id": "ex-07",
+      "image": "brush-teeth",
+      "subject": "she",
+      "verb": "brush-teeth",
+      "note": "brushes → brush"
+    },
+    {
+      "id": "ex-08",
+      "image": "pepper-drinks-water",
+      "subject": "it",
+      "verb": "drink-water"
+    },
+    {
+      "id": "ex-09",
+      "image": "go-to-school",
+      "subject": "they",
+      "verb": "go-to-school",
+      "note": "they: no s"
+    },
+    {
+      "id": "ex-10",
+      "image": "they-play-football",
+      "subject": "we",
+      "verb": "play-football",
+      "note": "we: no s"
+    },
+    {
+      "id": "ex-11",
+      "image": "like-cats",
+      "subject": "I",
+      "verb": "like-cats"
+    },
+    {
+      "id": "ex-12",
+      "image": "ride-a-bike",
+      "subject": "ana",
+      "verb": "ride-bike",
+      "note": "rides → ride"
+    },
+    {
+      "id": "ex-13",
+      "image": "walk-to-school",
+      "subject": "leo",
+      "verb": "walk-school"
+    },
+    {
+      "id": "ex-14",
+      "image": "dance",
+      "subject": "they",
+      "verb": "dance"
+    },
+    {
+      "id": "ex-15",
+      "image": "visit-grandma",
+      "subject": "mia",
+      "verb": "visit-grandma",
+      "note": "her grandma"
+    },
+    {
+      "id": "ex-16",
+      "image": "live-in-a-city",
+      "subject": "you",
+      "verb": "live-city"
+    },
+    {
+      "id": "ex-v-fly",
+      "image": "v-fly",
+      "subject": "sam",
+      "verb": "a1-fly",
+      "note": "fly → flies"
+    },
+    {
+      "id": "ex-v-catch",
+      "image": "v-catch",
+      "subject": "leo",
+      "verb": "a1-catch",
+      "note": "catch → catches"
+    },
+    {
+      "id": "ex-v-wash",
+      "image": "v-wash",
+      "subject": "leo",
+      "verb": "a1-wash",
+      "note": "wash → washes"
+    },
+    {
+      "id": "ex-v-clean",
+      "image": "v-clean",
+      "subject": "mia",
+      "verb": "a1-clean",
+      "note": "I clean my room. → She cleans her room."
+    },
+    {
+      "id": "ex-v-swim",
+      "image": "v-swim",
+      "subject": "they",
+      "verb": "a1-swim",
+      "note": "they: no s"
+    },
+    {
+      "id": "ex-v-sing",
+      "image": "v-sing",
+      "subject": "you",
+      "verb": "a1-sing",
+      "note": "you: no s"
+    }
+  ]
+}

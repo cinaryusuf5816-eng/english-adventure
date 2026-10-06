@@ -1,0 +1,39 @@
+{
+  "weekId": "week-02",
+  "contentVersion": "1.0.0",
+  "banks": [
+    { "id": "mcq", "letter": "A", "title": "Choose", "instruction": "Choose.", "description": "Choose the right word or sentence." },
+    { "id": "jumbled", "letter": "B", "title": "Make a sentence", "instruction": "Make a sentence.", "description": "Put the words in order." },
+    { "id": "fill", "letter": "C", "title": "Fill in", "instruction": "Fill in the gap.", "description": "Write or choose the missing word." },
+    { "id": "change", "letter": "D", "title": "Change it", "instruction": "Change the sentence.", "description": "Make it negative or make a question." },
+    { "id": "fix", "letter": "E", "title": "Fix the mistake", "instruction": "Find the mistake. Fix it.", "description": "One word is wrong." },
+    { "id": "decide", "letter": "F", "title": "Look and decide", "instruction": "Look. Read. True or false?", "description": "Is it true or false?" },
+    { "id": "dialogue", "letter": "G", "title": "Dialogues", "instruction": "Complete the dialogue.", "description": "Choose the answer." },
+    { "id": "reading", "letter": "H", "title": "Mini reading", "instruction": "Read. Answer.", "description": "Read and answer." }
+  ],
+  "cards": {
+    "card-sam": { "title": "Sam", "image": "example-picture", "lines": [
+      { "mark": "yes", "text": "plays football" },
+      { "mark": "no", "text": "watches TV in the morning" },
+      { "mark": "time", "text": "gets up", "time": "7:00" }
+    ] },
+    "card-week": { "title": "Sam: play football", "calendar": [1, 0, 1, 0, 0, 1, 0] },
+    "card-text": { "title": "About Sam", "text": "Sam plays football. He doesn't watch TV." }
+  },
+  "passages": {
+    "p1": { "title": "Text title", "image": "example-picture", "text": "Write 30 to 45 simple words here. Every answer must be in the text or in the picture. Sam plays football in the park. He does not watch TV in the morning. He likes cats." }
+  },
+  "questions": [
+    { "id": "w2-mc-001", "v": 1, "type": "mcq", "target": "affirmative", "level": 1, "prompt": "Sam ___ football.", "image": "example-picture", "options": ["play", "plays"], "answer": "b", "hint": "Sam = he.", "explain": "Sam plays football." },
+    { "id": "w2-jb-001", "v": 1, "type": "jumbled", "target": "affirmative", "level": 1, "image": "example-picture", "tokens": ["Sam", "plays", "football"], "end": ".", "answers": ["Sam plays football"], "hint": "Start with Sam.", "explain": "Sam plays football." },
+    { "id": "w2-fb-001", "v": 1, "type": "fill", "target": "negative", "level": 1, "image": "example-picture", "text": "Sam ___ watch TV.", "answers": ["doesn't", "does not"], "pool": ["don't", "doesn't"], "hint": "Sam = he.", "explain": "Sam doesn't watch TV." },
+    { "id": "w2-cs-001", "v": 1, "type": "change", "target": "question", "task": "question", "level": 1, "image": "example-picture", "from": "Sam plays football.", "answers": ["Does Sam play football?"], "hint": "Start with Does.", "explain": "Does Sam play football?" },
+    { "id": "w2-fx-001", "v": 1, "type": "fix", "target": "affirmative", "level": 1, "image": "example-picture", "words": ["Sam", "play", "football."], "wrong": 1, "fixes": ["plays", "playes"], "fix": "a", "hint": "Sam = he.", "explain": "Sam plays football." },
+    { "id": "w2-ld-001", "v": 1, "type": "decide", "target": "affirmative", "level": 1, "card": "card-sam", "statement": "Sam plays football.", "answer": true, "hint": "Look at the ✓.", "explain": "True. Sam plays football." },
+    { "id": "w2-cd-001", "v": 1, "type": "dialogue", "target": "question", "level": 1, "card": "card-sam", "lines": [{ "who": "Mia", "text": "Do you play football, Sam?" }, { "who": "Sam", "text": "___" }], "options": ["Yes, I do.", "Yes, you do."], "answer": "a", "hint": "Sam talks → I.", "explain": "Yes, I do." },
+    { "id": "w2-rd-001", "v": 1, "type": "reading", "passage": "p1", "target": "question", "level": 1, "prompt": "Does Sam like cats?", "options": ["Yes, he does.", "No, he doesn't."], "answer": "a", "hint": "Read the last sentence.", "explain": "Yes, he does." },
+    { "id": "w2-rd-002", "v": 1, "type": "reading", "passage": "p1", "target": "negative", "level": 1, "prompt": "True or false? Sam watches TV in the morning.", "options": ["True", "False"], "answer": "b", "hint": "Find TV.", "explain": "False." },
+    { "id": "w2-rd-003", "v": 1, "type": "reading", "passage": "p1", "target": "question", "level": 1, "prompt": "Where does Sam play football?", "options": ["In the park.", "At school."], "answer": "a", "hint": "Find park.", "explain": "In the park." },
+    { "id": "w2-rd-004", "v": 1, "type": "reading", "passage": "p1", "target": "affirmative", "level": 1, "prompt": "What does Sam like?", "options": ["Cats.", "TV."], "answer": "a", "hint": "Find likes.", "explain": "He likes cats." }
+  ]
+}

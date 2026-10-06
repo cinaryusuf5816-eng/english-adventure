@@ -1,0 +1,43 @@
+{
+  "appId": "eemc",
+  "storageVersion": 1,
+  "title": "English Adventure",
+  "tagline": "A new language is a new adventure!",
+  "cheer": "You can do it!",
+  "greeting": "Hello, Explorer!",
+  "motto": [
+    "Small steps,",
+    "big progress!"
+  ],
+  "heroImage": "assets/images/ui/hero",
+  "heroAlt": "Sam and Mia, two young explorers, stand in a magical night forest with lanterns.",
+  "landscapeImage": "assets/images/ui/landscape",
+  "owlImage": "assets/images/ui/owl",
+  "avatarImage": "assets/images/ui/avatar",
+  "charactersImage": "assets/images/site/characters",
+  "charactersAlt": "Mia, Sam and Pepper the cat wave hello.",
+  "pathIcons": {
+    "learn": "assets/images/ui/icon-learn",
+    "examples": "assets/images/ui/icon-examples",
+    "practise": "assets/images/ui/icon-practice",
+    "play": "assets/images/ui/icon-games",
+    "challenge": "assets/images/ui/icon-challenge"
+  },
+  "owlTips": [
+    "Mistakes help you learn!",
+    "He, she, it: add s! He plays.",
+    "After doesn't, use play — no s!",
+    "Does comes first. The s goes away.",
+    "Do you…? Yes, I do!",
+    "Small steps every day!",
+    "Read it. Say it. Do it!"
+  ],
+  "footerLinks": [
+    "Explore",
+    "Learn",
+    "Practise",
+    "Grow",
+    "Be amazing!"
+  ],
+  "curriculum": "data/curriculum.json"
+}

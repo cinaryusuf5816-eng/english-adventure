@@ -1,0 +1,59 @@
+/* Design tokens — Everyday English: Mystery Club
+   Deep petrol frame, warm cream reading surfaces, teal + golden accents.
+   Text colours are chosen for ≥ 4.5:1 contrast on their backgrounds (see QA_REPORT). */
+:root {
+  /* frame */
+  --navy-950: #0a2230;
+  --navy-900: #0f3a4a;
+  --petrol-800: #134c5e;
+  --petrol-700: #1a6176;
+
+  /* surfaces */
+  --cream-50: #fffcf5;
+  --cream-100: #fdf6e7;
+  --cream-200: #f7ead0;
+  --paper-line: #e8d9b8;
+
+  /* text */
+  --ink: #1d2a33;
+  --ink-soft: #46555f;
+  --on-dark: #fff8ea;
+  --on-dark-soft: #cfe3e6;
+
+  /* accents */
+  --teal-700: #0b6b6b;
+  --teal-600: #0e7c7b;
+  --teal-100: #d7efec;
+  --gold-400: #f2b64a;
+  --gold-500: #e9a12f;
+  --gold-800: #7a4a05;
+  --gold-100: #fdecc8;
+  --coral-700: #b23c22;
+  --coral-100: #fbe0d8;
+  --green-700: #22703a;
+  --green-100: #dcf1e1;
+  --violet-700: #5a3e8f;
+  --violet-100: #ebe3f7;
+
+  /* type */
+  --font-head: "Fredoka", "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --fs-body: 1.125rem;
+  --fs-small: 0.95rem;
+  --fs-lead: 1.25rem;
+  --fs-sentence: clamp(1.5rem, 1.1rem + 1.6vw, 2.25rem);
+  --fs-h1: clamp(1.8rem, 1.3rem + 2vw, 2.8rem);
+
+  /* shape */
+  --radius-s: 10px;
+  --radius-m: 16px;
+  --radius-l: 26px;
+  --shadow-1: 0 2px 6px rgba(10, 34, 48, 0.12);
+  --shadow-2: 0 10px 30px rgba(10, 34, 48, 0.18);
+  --focus: 0 0 0 3px var(--cream-50), 0 0 0 6px var(--gold-500);
+
+  --tap: 48px;
+  --gap: 1rem;
+  --page-max: 1240px;
+  --gutter: clamp(16px, 3vw, 32px);
+}
