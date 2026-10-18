@@ -1,0 +1,34 @@
+{
+  "weeks": [
+    {
+      "id": "week-01",
+      "number": 1,
+      "title": "Present Simple",
+      "subtitle": "Every day: I play, he plays, I don't, does she…?",
+      "published": true,
+      "file": "data/weeks/week-01/week.json",
+      "cover": "assets/images/week-01/week-01-cover",
+      "coverAlt": "Mia and Sam look at a board with pictures of daily things.",
+      "unit": "Unit 1"
+    },
+    {
+      "id": "week-02",
+      "number": 2,
+      "title": "Present Continuous",
+      "subtitle": "Now: I am playing, she is playing, are they …?",
+      "published": true,
+      "file": "data/weeks/week-02/week.json",
+      "cover": "assets/images/week-02/week-02-cover",
+      "coverAlt": "A busy sports park: Mia, Sam, Leo and Ana are playing sports.",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "week-03",
+      "number": 3,
+      "title": "Coming soon",
+      "subtitle": "New clues are on the way.",
+      "published": false,
+      "unit": "Unit 2"
+    }
+  ]
+}
