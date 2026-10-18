@@ -3,20 +3,14 @@ import { h, picture, button, icon } from '../ui.js';
 import { buildHash, go } from '../router.js';
 import { screen, weekBar, progressText } from './common.js';
 import { machineView, legend } from './machine.js';
-import { buildSentence } from '../core/grammar.js';
+import { grammarOf } from '../core/tense.js';
 import { markDone } from '../progress.js';
-
-const MODES = [
-  { id: 'negative', label: '+ → −', name: 'Make it negative' },
-  { id: 'question', label: '+ → ?', name: 'Make a question' },
-  { id: 'positive-s', label: 'I → he', name: 'I play → He plays', singleOnly: true },
-  { id: 'all', label: '+ − ?', name: 'All three' }
-];
 
 export function renderExamples(ctx) {
   const { week } = ctx.week;
   const list = week.examples || [];
   const sw = week.games.sentenceSwitch;
+  const { buildSentence, modes: MODES } = grammarOf(week);
   const subjectOf = (id) => sw.subjects.find((s) => s.id === id);
   const verbOf = (id) => sw.verbs.find((v) => v.id === id);
 
@@ -25,7 +19,7 @@ export function renderExamples(ctx) {
       h('header', { class: 'section-head' },
         h('h1', {}, 'Examples'),
         h('p', { class: 'lead' }, 'Choose a picture. Watch the sentence change: + → − → ?'),
-        legend()),
+        legend(week)),
       h('div', { class: 'example-grid' }, list.map((ex) => {
         const s = buildSentence(subjectOf(ex.subject), verbOf(ex.verb), 'positive');
         return h('a', { class: 'example-card', href: buildHash(['week', week.id, 'examples', ex.id]) },

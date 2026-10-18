@@ -4,6 +4,7 @@
 // Rules (from the spec):
 // - trim, collapse spaces, ignore letter case, treat curly and straight apostrophes the same;
 // - "do not" = "don't", "does not" = "doesn't" — but don't ≠ doesn't;
+// - "is not" = "isn't", "are not" = "aren't", "I'm" = "I am", "she's" = "she is", "they're" = "they are";
 // - final . ? ! and commas are not graded;
 // - "dont" / "doesnt" (missing apostrophe) is NOT accepted silently: we tell the learner;
 // - no fuzzy matching: other spelling mistakes are wrong.
@@ -23,12 +24,20 @@ export function canonical(text) {
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/\bdo not\b/g, "don't")
-    .replace(/\bdoes not\b/g, "doesn't");
+    .replace(/\bdoes not\b/g, "doesn't")
+    // Present Continuous: short and long forms are the same answer.
+    .replace(/\bis not\b/g, "isn't")
+    .replace(/\bare not\b/g, "aren't")
+    .replace(/\bi'm\b/g, 'i am')
+    .replace(/\b(he|she|it|what|who|where)'s\b/g, '$1 is')
+    .replace(/\b(we|you|they)'re\b/g, '$1 are');
 }
 
 const MISSING_APOSTROPHE = [
   { re: /\bdont\b/, fix: "don't" },
-  { re: /\bdoesnt\b/, fix: "doesn't" }
+  { re: /\bdoesnt\b/, fix: "doesn't" },
+  { re: /\bisnt\b/, fix: "isn't" },
+  { re: /\barent\b/, fix: "aren't" }
 ];
 
 /**

@@ -14,10 +14,21 @@
     {
       "id": "week-02",
       "number": 2,
+      "title": "Present Continuous",
+      "subtitle": "Now: I am playing, she is playing, are they …?",
+      "published": true,
+      "file": "data/weeks/week-02/week.json",
+      "cover": "assets/images/week-02/week-02-cover",
+      "coverAlt": "A busy sports park: Mia, Sam, Leo and Ana are playing sports.",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "week-03",
+      "number": 3,
       "title": "Coming soon",
       "subtitle": "New clues are on the way.",
       "published": false,
-      "unit": "Unit 1"
+      "unit": "Unit 2"
     }
   ]
 }

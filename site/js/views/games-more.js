@@ -2,7 +2,7 @@
 // All content comes from the week file; no game locks any lesson.
 import { h, picture, button, icon, announce, clock } from '../ui.js';
 import { screen, weekBar, listenButton, progressText } from './common.js';
-import { buildSentence } from '../core/grammar.js';
+import { grammarOf } from '../core/tense.js';
 import { makeRng, newSeed, shuffled, shuffledNotSame, hashString } from '../core/rng.js';
 import { wordSets } from './words.js';
 import { speak, onSpeechReady } from '../speech.js';
@@ -197,7 +197,7 @@ export function spinSay(ctx, gameHead) {
     wSubject.textContent = subject.text;
     wVerb.textContent = `${verb.base} ${verb.rest.replace('{poss}', '…')}`;
     wForm.textContent = `${form.label} ${form.name}`;
-    const s = buildSentence(subject, verb, form.id);
+    const s = grammarOf(ctx.week.week).buildSentence(subject, verb, form.id);
     answer.replaceChildren(h('p', { class: 'switch-sentence' }, s.text), s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), h('span', {}, s.answers.no)) : null);
   }
   function hideAnswer() {

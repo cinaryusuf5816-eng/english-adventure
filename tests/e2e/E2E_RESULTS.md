@@ -1,14 +1,14 @@
 # E2E results (generated)
 
-Date: 2026-10-06T19:03:53.266Z
+Date: 2026-10-18T16:10:23.469Z
 
-Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs
+Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs
 
-**133 passed, 0 failed, 0 skipped**
+**138 passed, 0 failed, 0 skipped**
 
 | Area | Test | Expected | Actual | Result |
 |---|---|---|---|---|
-| Navigation | Home → Week 1 → Words → Learn → Practise → Home | each screen opens with its heading | Present Simple / Present Simple / Words / Learn / Practise / Present Simple | PASS |
+| Navigation | Home → Week 1 → Words → Learn → Practise → Home | each screen opens with its heading | Present Continuous / Present Simple / Words / Learn / Practise / Present Simple | PASS |
 | Navigation | Direct link to a Learn step + reload keeps the step | Step 4 of 12 after reload | Step 4 of 12 | PASS |
 | Navigation | Back and forward buttons | back returns to step 4, forward to step 5 | Step 4 of 12 / Step 5 of 12 | PASS |
 | Navigation | Arrow keys move exactly one step (no stacked listeners after many screens) | ArrowRight from step 1 → step 2 | #/week/week-01/learn/habits/2 | PASS |
@@ -89,7 +89,7 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Sessions | Settings from the link: 5 negative questions | 5 questions, all negative | 5 true | PASS |
 | Sessions | Resume after leaving | Resume button shows question 2 and opens it | Resume (question 2 of 5) → Question 2 of 5 | PASS |
 | Sessions | Retry mistakes makes a new round; first round results unchanged | round 2 with 4 questions; parent kept first-try 1 | first=1 round=2 n=4 | PASS |
-| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smux1q2r9ihhp → smux1q2ubbx37 | PASS |
+| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smve0t3xe2l4 → smve0t3zh3nix | PASS |
 | Sessions | Cancel in a confirm dialog changes nothing | same session after Cancel | unchanged | PASS |
 | Sessions | New lesson (new class) removes only this week + mode, after a yes | mcq session gone; other app keys kept | session=null other=keep me | PASS |
 | Modes | Classroom and Practice keep separate answers | answer shown in Practice is not shown in Classroom | classroom=true cardInClassroom=0 shownBack=1 | PASS |
@@ -118,7 +118,7 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Games | Sentence Switch builds correct + / − / ? with he and has | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? / Yes, she does. No, she doesn't. | PASS |
 | Games | Memory Match: a right pair stays open, a wrong pair closes again | pair matched; wrong pair closed; 12 cards | cards=12 done=2 open=0 Pairs: 1 of 6 · Turns: 2 | PASS |
 | Games | Yes or No?: wrong gives the hint, right short answer is scored once | hint; First try 0 · Done 1 after a wrong first try | First try: 0 · Done: 1 of 20 | PASS |
-| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | I / ? question → Do I smile at friends? | PASS |
+| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | Ana / + positive → Ana does her homework. | PASS |
 | Games | Picture Reveal: open pieces, reveal word and sentence separately, next picture | tiles open; word then sentence; picture 2 | 1 true false He plays football. Picture 2 of 37 | PASS |
 | Speak | Speaking card: help and example are optional; Done / Try again need no microphone | help hidden → shown; marks work | For example: Yes, I do. I play football every day. / Well spoken! | PASS |
 | Learn | “Now you try” step: wrong → Try again, right → explanation | try-again then Yes! | Try again. / Yes! Sam plays football on Saturday. | PASS |
@@ -129,13 +129,18 @@ Environment: Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-cor
 | Practise | Book words bank (I): 30 questions; a picture question is checked | 30 questions; correct-first | 30 questions | PASS |
 | Challenge | Challenge: 15 mixed core questions; results show stars; My Progress ticks Challenge | 15 · stars · 1/1 | 15 · 0 of 3 stars · ✓ Challenge 1/1 | PASS |
 | Progress | My Progress and Today's Mission update from real activity | Learn 3/13; first mission done | Learn 3/13 · is-done | PASS |
-| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-02 disabled; tip changes | true · “Read it. Say it. Do it!” → “Mistakes help you learn!” | PASS |
+| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-03 disabled; tip changes | true · “Small steps every day!” → “Read it. Say it. Do it!” | PASS |
 | Shell | Phone: menu button opens the sidebar; a link closes it and navigates | menu opens; Examples opens | true/true | PASS |
 | Badges | Finishing a section shows one celebration with the badge; it does not repeat | Word Finder celebration once | Word Finder · again=0 · earned=1 | PASS |
 | Certificate | Certificate shows the typed name and badges; the name is not saved | name on certificate; not in storage | Test Explorer · stored=false · badges=7 | PASS |
 | Worksheet | Worksheet: chosen activities → numbered questions + matching answer key | 20 questions and 20 answers by default | 20/20 → 28/28, passages=2 | PASS |
 | Worksheet | Print view hides the menu and the settings | sidebar + settings hidden in print media | side=false form=false sheet=true | PASS |
-| Games | Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored | teacher text; First try 0 · Done 1 | Mia and Sam go to school. · First try: 0 · Done: 1 of 10 | PASS |
+| Games | Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored | teacher text; First try 0 · Done 1 | Sam drinks water. · First try: 0 · Done: 1 of 10 | PASS |
+| Week 2 | Week 2 opens with its own title, 258 questions and 10 activities | Present Continuous · 258 · 10 | 10 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 258 questions in | PASS |
+| Week 2 | Change Machine: play → is playing, then the negative | He is swimming in the pool. · Ana isn't riding a bike. | Sam is swimming in the pool. · Ana isn't riding a bike. · The rule: He / She / It isn't verb + ing … | PASS |
+| Week 2 | Sentence Switch builds am / is / are + -ing | + − ? with short answers | Mia is riding a bike. / Mia isn't riding a bike. / Is Mia riding a bike? / Yes, she is. No, she isn't. / I am not riding a bike. | PASS |
+| Week 2 | Typed answers: "is not" and "isn't" are both right; "doesn't" is not | correct · correct · trying | correct-first · correct-first · trying | PASS |
+| Week 2 | Week 1 still uses Present Simple | He plays football. | He plays football. | PASS |
 | Paths | Same package works at the domain root (/) as well as /test-repo/ | home + week + practice question load at / | ok | PASS |
 | Console | No console errors or warnings from the app during all tests | 0 | 0 | PASS |
 | Network | No failed or 4xx/5xx requests (except tests that force a 404) | 0 | 0 | PASS |

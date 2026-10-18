@@ -273,7 +273,7 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
     return { ok: /does not exist/.test(t) && (await page.locator('a:has-text("Home")').count()) > 0, detail: t };
   });
   await check('Errors', 'Unpublished week (Coming soon) cannot open', 'message “coming soon”', async () => {
-    await open(page, SUB, '#/week/week-02');
+    await open(page, SUB, '#/week/week-03');
     const t = await page.locator('h1').innerText();
     return { ok: /coming soon/i.test(t), detail: t };
   });
@@ -977,8 +977,8 @@ for (const [w, hgt] of SIZES) {
     const mission = await page.locator('.mission li').first().getAttribute('class');
     return { ok: /3\/13/.test(learnRow) && /is-done/.test(mission || ''), detail: `${learnRow.replace(/\s+/g, ' ')} · ${mission}` };
   });
-  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-02 disabled; tip changes', async () => {
-    const dis = await page.locator('#week-select option[value="week-02"]').getAttribute('disabled');
+  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-03 disabled; tip changes', async () => {
+    const dis = await page.locator('#week-select option[value="week-03"]').getAttribute('disabled');
     const a = await page.locator('.owl-bubble').innerText();
     await page.click('.owl-bubble');
     const b = await page.locator('.owl-bubble').innerText();
@@ -1008,7 +1008,7 @@ for (const [w, hgt] of SIZES) {
   await check('Badges', 'Finishing a section shows one celebration with the badge; it does not repeat', 'Word Finder celebration once', async () => {
     await page.goto(`${SUB}#/`, { waitUntil: 'networkidle' });
     await page.evaluate(() => { localStorage.clear(); localStorage.setItem('eemc:v1:week-01:progress', JSON.stringify({ words: ['everyday', 'book', 'a1-verbs'] })); });
-    await page.reload({ waitUntil: 'networkidle' });
+    await page.goto(`${SUB}#/week/week-01`, { waitUntil: 'networkidle' });
     await page.waitForSelector('.celebrate');
     const title = await page.locator('.celebrate h2').innerText();
     await page.click('.celebrate button:has-text("Great!")');
@@ -1059,6 +1059,85 @@ for (const [w, hgt] of SIZES) {
     await page.click(`.listen-card[data-word="${target.id}"]`);
     const score = await page.locator('.score').innerText();
     return { ok: !!target && /Try again/.test(fb) && /First try: 0 · Done: 1 of 10/.test(score), detail: `${text} · ${score}` };
+  });
+  await page.context().close();
+}
+
+// =====================================================================
+// 18b. Week 2 — Present Continuous (same activities, its own grammar)
+// =====================================================================
+{
+  const page = await newPage({}, 'week2');
+  const W2 = 'week-02';
+  const key2 = (bank) => `eemc:v1:${W2}:practise:${bank}:practice`;
+  const play2 = async (bank, ids, support = 'less') => {
+    await page.goto(`${SUB}#/`, { waitUntil: 'networkidle' });
+    await page.evaluate(([k, s]) => localStorage.setItem(k, JSON.stringify(s)), [key2(bank), {
+      id: `s-w2-${Date.now()}`, weekId: W2, bank, mode: 'practice', settings: { target: 'all', n: 'all', support },
+      round: 1, parentId: null, seed: 777, createdAt: Date.now(), index: 0, questionIds: ids, states: {}, finished: false
+    }]);
+    await page.goto(`${SUB}#/week/${W2}/practise/${bank}/play`, { waitUntil: 'networkidle' });
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForSelector('.question-card', { timeout: 8000 });
+    await dismissCelebration(page);
+  };
+  const state2 = async (bank, id) => page.evaluate(([k, i]) => JSON.parse(localStorage.getItem(k)).states[i].status, [key2(bank), id]);
+
+  await check('Week 2', 'Week 2 opens with its own title, 258 questions and 10 activities', 'Present Continuous · 258 · 10', async () => {
+    await open(page, SUB, `#/week/${W2}/practise`);
+    const t = await page.locator('.section-head').innerText();
+    const cards = await page.locator('.bank-card').count();
+    await open(page, SUB, `#/week/${W2}`);
+    const hero = await page.locator('.dash-hero').innerText();
+    return { ok: /258 questions/.test(t) && cards === 10 && /Present\s+Continuous/.test(hero), detail: `${cards} cards · ${t.replace(/\s+/g, ' ').slice(0, 80)}` };
+  });
+  await check('Week 2', 'Change Machine: play → is playing, then the negative', 'He is swimming in the pool. · Ana isn\'t riding a bike.', async () => {
+    await open(page, SUB, `#/week/${W2}/examples/ex-04/positive-ing`);
+    const next = page.locator('button:has-text("Show the next change")');
+    while (await next.isEnabled()) await next.click();
+    const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
+    await open(page, SUB, `#/week/${W2}/examples/ex-05/negative`);
+    while (await next.isEnabled()) await next.click();
+    const neg = await page.locator('.m-row').last().locator('.sr-only').innerText();
+    const rule = await page.locator('.m-formula').innerText();
+    return { ok: last === 'Sam is swimming in the pool.' && neg === "Ana isn't riding a bike." && /isn't/.test(rule) && /ing/.test(rule), detail: `${last} · ${neg} · ${rule.replace(/\s+/g, ' ')}` };
+  });
+  await check('Week 2', 'Sentence Switch builds am / is / are + -ing', '+ − ? with short answers', async () => {
+    await open(page, SUB, `#/week/${W2}/play/sentence-switch`);
+    await page.selectOption('#sw-subject', 'mia');
+    await page.selectOption('#sw-verb', 'ride-bike');
+    const get = () => page.locator('.switch-sentence').innerText();
+    const pos = await get();
+    await page.click('.switch-forms button:has-text("Negative")');
+    const neg = await get();
+    await page.click('.switch-forms button:has-text("Question")');
+    const q = await get();
+    const ans = await page.locator('.switch-answers').innerText();
+    await page.selectOption('#sw-subject', 'I');
+    await page.click('.switch-forms button:has-text("Negative")');
+    const negI = await get();
+    const ok = pos === 'Mia is riding a bike.' && neg === "Mia isn't riding a bike." && q === 'Is Mia riding a bike?' && /Yes, she is\./.test(ans) && /No, she isn't\./.test(ans) && negI === 'I am not riding a bike.';
+    return { ok, detail: `${pos} | ${neg} | ${q} | ${ans.replace(/\s+/g, ' ')} | ${negI}` };
+  });
+  await check('Week 2', 'Typed answers: "is not" and "isn\'t" are both right; "doesn\'t" is not', 'correct · correct · trying', async () => {
+    await play2('change', ['w2-cs-002']);
+    await page.fill('.question-card .answer-input', 'Sam is not getting up.');
+    await page.click('.btn-check');
+    const a = await state2('change', 'w2-cs-002');
+    await play2('change', ['w2-cs-002']);
+    await page.fill('.question-card .answer-input', "sam isn’t getting up");
+    await page.click('.btn-check');
+    const b = await state2('change', 'w2-cs-002');
+    await play2('change', ['w2-cs-002']);
+    await page.fill('.question-card .answer-input', "Sam doesn't getting up.");
+    await page.click('.btn-check');
+    const c = await state2('change', 'w2-cs-002');
+    return { ok: a === 'correct-first' && b === 'correct-first' && c === 'trying', detail: `${a} · ${b} · ${c}` };
+  });
+  await check('Week 2', 'Week 1 still uses Present Simple', 'He plays football.', async () => {
+    await open(page, SUB, '#/week/week-01/play/sentence-switch');
+    const s = await page.locator('.switch-sentence').innerText();
+    return { ok: s === 'He plays football.', detail: s };
   });
   await page.context().close();
 }

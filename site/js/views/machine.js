@@ -1,7 +1,7 @@
 // Change Machine view: a sentence turns into a negative or a question, one change at a time.
 // Colour + label for every block (who / helper / verb / ending), never colour alone.
 import { h, button, icon, announce } from '../ui.js';
-import { machineSteps, stepText, formula } from '../core/machine.js';
+import { grammarOf } from '../core/tense.js';
 import { listenButton } from './common.js';
 
 const ROLE_NAMES = { subject: 'who', helper: 'helper', verb: 'verb', end: 'ending', rest: '', mark: '' };
@@ -14,18 +14,17 @@ function blockEl(x) {
     label ? h('span', { class: 'blk-l', 'aria-hidden': 'true' }, label) : null);
 }
 
-export function legend() {
+/** Colour key of the week's grammar (do / does … or am / is / are …). */
+export function legend(week) {
   return h('ul', { class: 'blk-legend', 'aria-label': 'Colours' },
-    h('li', {}, h('span', { class: 'blk blk-subject mini' }, 'who')),
-    h('li', {}, h('span', { class: 'blk blk-helper mini' }, 'do / does / don’t / doesn’t')),
-    h('li', {}, h('span', { class: 'blk blk-verb mini' }, 'verb')),
-    h('li', {}, h('span', { class: 'blk blk-end mini' }, '-s / -es')));
+    grammarOf(week).legend.map(([role, text]) => h('li', {}, h('span', { class: `blk blk-${role} mini` }, text))));
 }
 
 /**
  * @param opts {subject, verb, to, onDone, compact}
  */
 export function machineView(ctx, { subject, verb, to, onDone, compact = false }) {
+  const { machineSteps, stepText, formula } = grammarOf(ctx.week.week);
   const steps = machineSteps(subject, verb, to);
   const rows = h('ol', { class: 'm-rows' });
   const caption = h('p', { class: 'm-caption', 'aria-live': 'polite' });
@@ -77,7 +76,7 @@ export function machineView(ctx, { subject, verb, to, onDone, compact = false })
     const end = shown >= steps.length;
     next.disabled = end;
     if (end) {
-      if (to !== 'all' && to !== 'positive-s') {
+      if (to !== 'all' && to !== 'positive-s') { // positive-ing shows the + rule
         frame.replaceChildren(h('span', { class: 'm-frame-title' }, 'The rule:'), ...formula(subject, to).map((f) => h('span', { class: `blk blk-${f.role} slot` }, f.t)));
         frame.hidden = false;
       }
@@ -101,7 +100,7 @@ export function machineView(ctx, { subject, verb, to, onDone, compact = false })
   restart();
 
   return h('div', { class: `machine${compact ? ' is-compact' : ''}` },
-    compact ? null : legend(),
+    compact ? null : legend(ctx.week.week),
     rows,
     caption,
     frame,

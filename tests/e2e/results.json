@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-06T19:03:53.265Z",
-  "env": "Windows · Node v24.19.0 · 154.0.4258.53 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
-  "pass": 133,
+  "date": "2026-10-18T16:10:23.468Z",
+  "env": "Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
+  "pass": 138,
   "fail": 0,
   "results": [
     {
       "area": "Navigation",
       "name": "Home → Week 1 → Words → Learn → Practise → Home",
       "expected": "each screen opens with its heading",
-      "actual": "Present Simple | Present Simple | Words | Learn | Practise | Present Simple",
+      "actual": "Present Continuous | Present Simple | Words | Learn | Practise | Present Simple",
       "status": "pass"
     },
     {
@@ -575,7 +575,7 @@
       "area": "Sessions",
       "name": "Restart activity asks first and starts a new set",
       "expected": "confirm → setup screen → new session id",
-      "actual": "smux1q2r9ihhp → smux1q2ubbx37",
+      "actual": "smve0t3xe2l4 → smve0t3zh3nix",
       "status": "pass"
     },
     {
@@ -778,7 +778,7 @@
       "area": "Games",
       "name": "Spin and Say: spin gives a sentence that matches the slots (verified forms)",
       "expected": "answer hidden → shown, ends with . or ?",
-      "actual": "I / ? question → Do I smile at friends?",
+      "actual": "Ana / + positive → Ana does her homework.",
       "status": "pass"
     },
     {
@@ -854,8 +854,8 @@
     {
       "area": "Shell",
       "name": "Week picker: Coming soon weeks cannot be chosen; owl tip changes on click",
-      "expected": "week-02 disabled; tip changes",
-      "actual": "true · “Read it. Say it. Do it!” → “Mistakes help you learn!”",
+      "expected": "week-03 disabled; tip changes",
+      "actual": "true · “Small steps every day!” → “Read it. Say it. Do it!”",
       "status": "pass"
     },
     {
@@ -897,7 +897,42 @@
       "area": "Games",
       "name": "Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored",
       "expected": "teacher text; First try 0 · Done 1",
-      "actual": "Mia and Sam go to school. · First try: 0 · Done: 1 of 10",
+      "actual": "Sam drinks water. · First try: 0 · Done: 1 of 10",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "Week 2 opens with its own title, 258 questions and 10 activities",
+      "expected": "Present Continuous · 258 · 10",
+      "actual": "10 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 258 questions in",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "Change Machine: play → is playing, then the negative",
+      "expected": "He is swimming in the pool. · Ana isn't riding a bike.",
+      "actual": "Sam is swimming in the pool. · Ana isn't riding a bike. · The rule: He / She / It isn't verb + ing …",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "Sentence Switch builds am / is / are + -ing",
+      "expected": "+ − ? with short answers",
+      "actual": "Mia is riding a bike. | Mia isn't riding a bike. | Is Mia riding a bike? | Yes, she is. No, she isn't. | I am not riding a bike.",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "Typed answers: \"is not\" and \"isn't\" are both right; \"doesn't\" is not",
+      "expected": "correct · correct · trying",
+      "actual": "correct-first · correct-first · trying",
+      "status": "pass"
+    },
+    {
+      "area": "Week 2",
+      "name": "Week 1 still uses Present Simple",
+      "expected": "He plays football.",
+      "actual": "He plays football.",
       "status": "pass"
     },
     {

@@ -103,7 +103,7 @@ function exampleStep(ctx, ex, step) {
     const sw = ctx.week.week.games.sentenceSwitch;
     const subject = sw.subjects.find((s) => s.id === ex.machine.subject);
     const verb = sw.verbs.find((v) => v.id === ex.machine.verb);
-    const titles = { negative: 'Watch it change: + → −', question: 'Watch it change: + → ?', 'positive-s': 'Watch it change: I → he', all: 'One idea: + − ?' };
+    const titles = { negative: 'Watch it change: + → −', question: 'Watch it change: + → ?', 'positive-s': 'Watch it change: I → he', 'positive-ing': 'Watch it change: play → is playing', all: 'One idea: + − ?' };
     return h('div', { class: 'lesson-stage no-pic machine-stage' },
       h('div', { class: 'stage-side wide' },
         h('p', { class: 'stage-kicker' }, `Example ${step.n} of ${step.of} · ${titles[ex.machine.to] || 'Watch it change'}`),

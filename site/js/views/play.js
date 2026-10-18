@@ -2,7 +2,7 @@
 import { h, picture, button, icon, announce, rich } from '../ui.js';
 import { buildHash, go } from '../router.js';
 import { screen, weekBar, listenButton, progressText } from './common.js';
-import { buildSentence } from '../core/grammar.js';
+import { grammarOf } from '../core/tense.js';
 import { makeRng, newSeed, shuffledNotSame, hashString } from '../core/rng.js';
 import { memoryMatch, yesNo, spinSay, listenChoose } from './games-more.js';
 import { markDone } from '../progress.js';
@@ -107,6 +107,7 @@ function pictureReveal(ctx) {
 // ---------------- Sentence Switch ----------------
 function sentenceSwitch(ctx) {
   const data = ctx.week.week.games.sentenceSwitch;
+  const g = grammarOf(ctx.week.week);
   let subject = data.subjects.find((s) => s.id === 'he');
   let verb = data.verbs[0];
   let form = 'positive';
@@ -122,7 +123,7 @@ function sentenceSwitch(ctx) {
   function fillVerbs() {
     const list = allowedVerbs();
     if (!list.includes(verb)) verb = list[0];
-    verbSel.replaceChildren(...list.map((v) => h('option', { value: v.id }, `${v.base} ${v.rest.replace('{poss}', '…')}`)));
+    verbSel.replaceChildren(...list.map((v) => h('option', { value: v.id }, g.verbLabel(v))));
     verbSel.value = verb.id;
   }
   subjectSel.addEventListener('change', () => { subject = data.subjects.find((s) => s.id === subjectSel.value); fillVerbs(); draw(); });
@@ -140,15 +141,12 @@ function sentenceSwitch(ctx) {
   });
 
   function draw() {
-    const s = buildSentence(subject, verb, form);
+    const s = g.buildSentence(subject, verb, form);
     const line = h('p', { class: 'switch-sentence' }, s.parts.map((p, i) => [
       h('span', { class: `part part-${p.role}` }, p.text),
       i < s.parts.length - 1 ? ' ' : ''
     ]), form === 'question' ? '?' : '.');
-    const legend = h('ul', { class: 'switch-legend' },
-      h('li', { class: 'part-helper' }, 'helper: do / does / don\'t / doesn\'t'),
-      h('li', { class: 'part-verb' }, 'verb (base): play'),
-      h('li', { class: 'part-verb-s' }, 'verb + s: plays'));
+    const legend = h('ul', { class: 'switch-legend' }, g.switchLegend.map(([cls, text]) => h('li', { class: cls }, text)));
     const ans = s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), h('span', {}, s.answers.no)) : null;
     out.replaceChildren(...[line, ans, legend].filter(Boolean));
   }
