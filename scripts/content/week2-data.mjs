@@ -145,3 +145,36 @@ export const SCENES = [
   ['mia', 'sp-tennis', 'sp-racket'], ['leo-ana', 'sp-volleyball', 'sp-net'], ['mia-ana', 'sp-gym', 'sp-gym'],
   ['mia-sam', 'sp-field', 'sp-field'], ['sam-leo', 'sp-basketball', 'sp-court'], ['ana', 'sp-pool', 'sp-pool']
 ].map(([who, verb, image]) => ({ who, verb, image }));
+
+// ---------- Book page 2: Sports and Activities · Story words (A Good Sport) ----------
+VERBS.push(
+  { id: 'act-gymnastics', base: 'do', ing: 'doing', rest: 'gymnastics' },
+  { id: 'act-baseball', base: 'play', ing: 'playing', rest: 'baseball' },
+  { id: 'act-bounce', base: 'bounce', ing: 'bouncing', rest: 'a ball' },
+  { id: 'act-karate', base: 'do', ing: 'doing', rest: 'karate' },
+  { id: 'act-jump-rope', base: 'jump', ing: 'jumping', rest: 'rope' },
+  { id: 'act-skating', base: 'go', ing: 'going', rest: 'skating' },
+  { id: 'act-swimming', base: 'go', ing: 'going', rest: 'swimming' },
+  { id: 'act-tag', base: 'play', ing: 'playing', rest: 'tag' },
+  { id: 'act-race', base: 'run', ing: 'running', rest: 'a race' },
+  { id: 'st-score', base: 'score', ing: 'scoring', rest: 'a goal' },
+  { id: 'st-pass', base: 'pass', ing: 'passing', rest: 'the ball' },
+  { id: 'st-cheer', base: 'cheer', ing: 'cheering', rest: 'for the team' },
+  { id: 'st-highfive', base: 'give', ing: 'giving', rest: 'high fives' },
+  { id: 'st-win', base: 'win', ing: 'winning', rest: 'the game' }
+);
+Object.assign(IMAGES, {
+  'act-gymnastics': SP('gymnastics', 'Mia is doing gymnastics: a cartwheel on a blue mat.'),
+  'act-bounce': SP('bounce', 'Ana is bouncing a basketball in the playground.'),
+  'act-karate': SP('karate', 'Leo is doing karate in a white karate suit.'),
+  'act-skating': SP('skating', 'Sam is skating in the park with a red helmet.'),
+  'act-tag': SP('tag', 'Mia, Sam, Leo and Ana are playing tag in the playground.'),
+  'st-cheer': SP('cheer', 'Mia and Ana are cheering for their team with flags.'),
+  'st-highfive': SP('high-five', 'Sam and Leo are giving high fives after the game.')
+});
+SCENES.push(...[
+  ['mia', 'act-gymnastics', 'act-gymnastics'], ['leo', 'act-baseball', 'sp-bat'], ['ana', 'act-bounce', 'act-bounce'],
+  ['leo', 'act-karate', 'act-karate'], ['ana', 'act-jump-rope', 'v-jump'], ['sam', 'act-skating', 'act-skating'],
+  ['ana', 'act-swimming', 'sp-pool'], ['kids', 'act-tag', 'act-tag'], ['mia-sam', 'act-race', 'sp-field'],
+  ['mia-ana', 'st-cheer', 'st-cheer'], ['sam-leo', 'st-highfive', 'st-highfive'], ['sam', 'st-score', 'sp-goal'], ['kids', 'st-pass', 'they-play-football']
+].map(([who, verb, image]) => ({ who, verb, image })));

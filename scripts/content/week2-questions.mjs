@@ -335,3 +335,51 @@ export const BANKS = [
 ];
 export const QUESTIONS = out;
 export { CARDS, PASSAGES };
+
+// =================== K. Book words: sports and activities (30) · story reading ===================
+const ACT = [
+  ['mia', 'act-gymnastics', 'act-gymnastics', 'do gymnastics'], ['leo', 'act-baseball', 'sp-bat', 'play baseball'],
+  ['ana', 'act-bounce', 'act-bounce', 'bounce a ball'], ['leo', 'act-karate', 'act-karate', 'do karate'],
+  ['ana', 'act-jump-rope', 'v-jump', 'jump rope'], ['sam', 'act-skating', 'act-skating', 'go skating'],
+  ['ana', 'ride-bike', 'ride-a-bike', 'ride a bike'], ['ana', 'act-swimming', 'sp-pool', 'go swimming'],
+  ['kids', 'act-tag', 'act-tag', 'play tag'], ['mia-sam', 'act-race', 'sp-field', 'run a race']
+];
+const phraseIng = (vid) => `${verb(vid).ing} ${verb(vid).rest}`;
+ACT.forEach(([whoId, vid, image], i) => {
+  const others = ACT.filter((x) => x[1] !== vid).map((x) => phraseIng(x[1]));
+  add('ac', { bank: 'activities', type: 'mcq', target: 'vocabulary', level: 1, image, prompt: `Look. What ${be(whoId)} ${subj(whoId).text === 'The children' ? 'the children' : subj(whoId).text} doing?`, ...place(phraseIng(vid), [others[(i + 2) % 9], others[(i + 6) % 9]]), hint: 'Look at the picture.', explain: S(whoId, vid, 'positive') });
+});
+ACT.forEach(([whoId, vid, image], i) => {
+  const v = verb(vid); const b = be(whoId);
+  const helperWrong = { do: 'playing', play: 'doing', go: 'doing' }[v.base];
+  const p = i % 2 && helperWrong
+    ? place(v.ing, [helperWrong, v.base === 'go' ? 'playing' : 'going'])
+    : place(`${b} ${v.ing}`, [`${otherBe(b)} ${v.ing}`, `${b} ${v.base}`]);
+  const prompt = i % 2 && helperWrong ? `${subj(whoId).text} ${b} ___ ${rest(whoId, vid)}.` : `${subj(whoId).text} ___ ${rest(whoId, vid)}.`;
+  add('ac', { bank: 'activities', type: 'mcq', target: 'affirmative', level: 1, image, prompt, ...p, hint: helperWrong && i % 2 ? `${v.base} ${v.rest} → ${v.ing} ${v.rest}.` : `${subj(whoId).text} → ${b}.`, explain: S(whoId, vid, 'positive') });
+});
+[
+  ['act-karate', "Leo ___ doing gymnastics. He is doing karate.", ["isn't", "aren't"], "Leo = he → isn't.", "Leo isn't doing gymnastics."],
+  ['act-tag', "The children ___ playing baseball. They are playing tag.", ["aren't", "isn't"], "The children = they → aren't.", "The children aren't playing baseball."],
+  ['act-skating', "Sam isn't going swimming. He ___ skating.", ['is going', 'is doing'], 'go skating → is going skating.', 'He is going skating.'],
+  ['act-gymnastics', "Mia isn't bouncing a ball. She ___ gymnastics.", ['is doing', 'is playing'], 'do gymnastics → is doing gymnastics.', 'She is doing gymnastics.']
+].forEach(([image, prompt, [r, ...w], hint, explain]) => add('ac', { bank: 'activities', type: 'mcq', target: 'negative', level: 2, image, prompt, ...place(r, w), hint, explain }));
+[
+  ['act-bounce', '___ Ana bouncing a ball?', ['Is', 'Are', 'Does'], 'Ana = she → Is.', 'Is Ana bouncing a ball?'],
+  ['act-tag', '___ the children playing tag?', ['Are', 'Is', 'Do'], 'the children = they → Are.', 'Are the children playing tag?'],
+  ['act-gymnastics', 'Is Mia doing gymnastics?', ['Yes, she is.', 'Yes, she does.', "No, she isn't."], 'Look at the picture.', 'Yes, she is.'],
+  ['act-skating', 'Is Sam going swimming?', ["No, he isn't.", 'Yes, he is.', "No, he doesn't."], 'Look: skates, not a pool.', "No, he isn't. He is going skating."],
+  ['act-karate', 'What is Leo doing?', ['He is doing karate.', 'He is playing karate.', 'He does karate now.'], 'do karate.', 'He is doing karate.'],
+  ['sp-bat', 'What is Leo playing?', ['Baseball.', 'Tennis.', 'Tag.'], 'Look at the bat.', 'Leo is playing baseball.']
+].forEach(([image, prompt, [r, ...w], hint, explain]) => add('ac', { bank: 'activities', type: 'mcq', target: 'question', level: 1, image, prompt, ...place(r, w), hint, explain }));
+
+// A fourth reading with the story words (our own text).
+PASSAGES['rd-p4'] = { title: 'A Good Game', image: 'st-highfive', text: "It's Saturday. Sam and Leo are playing football. Grandpa is watching and cheering. Look! Sam is running across the field. He is passing the ball to Leo. Leo is kicking it. Goal! Now the boys are giving high fives." };
+rd('rd-p4', 'question', 'Who is cheering?', ['Grandpa.', 'Leo.'], 'Read the third sentence.', 'Grandpa is watching and cheering.', 'wh');
+rd('rd-p4', 'question', 'What is Sam doing?', ['He is running across the field.', 'He is cheering.'], 'Read the fourth sentence.', 'Sam is running across the field.', 'wh');
+rd('rd-p4', 'negative', 'True or false? Grandpa is playing football.', ['False', 'True'], 'Grandpa is watching.', "False. Grandpa isn't playing football. He is watching.");
+rd('rd-p4', 'question', 'Are the boys giving high fives?', ['Yes, they are.', "No, they aren't."], 'Read the last sentence.', 'Yes, they are.');
+
+BANKS.find((b) => b.id === 'reading').expected = 16;
+BANKS.find((b) => b.id === 'reading').description = 'Read a short text. Answer 4 questions.';
+BANKS.push({ id: 'activities', letter: 'K', title: 'Book words: activities', instruction: 'Look and choose.', description: 'do gymnastics, play baseball, go skating, play tag, run a race …', expected: 30 });

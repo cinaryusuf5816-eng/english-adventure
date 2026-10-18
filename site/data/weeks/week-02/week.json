@@ -423,6 +423,48 @@
       "w": 1400,
       "h": 1050,
       "alt": "Ana is swimming in a big swimming pool."
+    },
+    "act-gymnastics": {
+      "src": "assets/images/week-02/gymnastics",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is doing gymnastics: a cartwheel on a blue mat."
+    },
+    "act-bounce": {
+      "src": "assets/images/week-02/bounce",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is bouncing a basketball in the playground."
+    },
+    "act-karate": {
+      "src": "assets/images/week-02/karate",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is doing karate in a white karate suit."
+    },
+    "act-skating": {
+      "src": "assets/images/week-02/skating",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is skating in the park with a red helmet."
+    },
+    "act-tag": {
+      "src": "assets/images/week-02/tag",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia, Sam, Leo and Ana are playing tag in the playground."
+    },
+    "st-cheer": {
+      "src": "assets/images/week-02/cheer",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are cheering for their team with flags."
+    },
+    "st-highfive": {
+      "src": "assets/images/week-02/high-five",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are giving high fives after the game."
     }
   },
   "words": [
@@ -1365,6 +1407,184 @@
       "teacherNote": "Things: balls, bat, hoop, goal, racket, net. Places: gym, field, court, pool. Ask “Where …?” for places and “What is he using?” for things."
     },
     {
+      "id": "sports-activities",
+      "title": "Book words: do gymnastics, go skating …",
+      "rule": "Sports and activities from the book: do, play, go … + -ing.",
+      "image": "act-gymnastics",
+      "examples": [
+        {
+          "text": "Mia **is doing gymnastics**.",
+          "image": "act-gymnastics",
+          "label": "do gymnastics → doing gymnastics"
+        },
+        {
+          "text": "Leo **is playing baseball**.",
+          "image": "sp-bat",
+          "label": "play baseball"
+        },
+        {
+          "text": "Ana **is bouncing a ball**.",
+          "image": "act-bounce",
+          "label": "bounce → bouncing (the e goes)"
+        },
+        {
+          "text": "Leo **is doing karate**.",
+          "image": "act-karate",
+          "label": "do karate"
+        },
+        {
+          "text": "Ana **is jumping rope**.",
+          "image": "v-jump",
+          "label": "jump rope"
+        },
+        {
+          "text": "Sam **is going skating**.",
+          "image": "act-skating",
+          "label": "go skating → going skating"
+        },
+        {
+          "text": "Ana **is going swimming**.",
+          "image": "sp-pool",
+          "label": "go swimming"
+        },
+        {
+          "text": "The children **are playing tag**.",
+          "image": "act-tag",
+          "label": "play tag"
+        },
+        {
+          "text": "Mia and Sam **are running a race**.",
+          "image": "sp-field",
+          "label": "run → running (double n)"
+        },
+        {
+          "text": "Ana **is riding a bike**.",
+          "image": "ride-a-bike",
+          "label": "ride → riding"
+        }
+      ],
+      "groups": [
+        {
+          "label": "do",
+          "words": [
+            "do gymnastics",
+            "do karate"
+          ]
+        },
+        {
+          "label": "play",
+          "words": [
+            "play baseball",
+            "play tag"
+          ]
+        },
+        {
+          "label": "go",
+          "words": [
+            "go skating",
+            "go swimming"
+          ]
+        },
+        {
+          "label": "other",
+          "words": [
+            "bounce a ball",
+            "jump rope",
+            "ride a bike",
+            "run a race"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo is ___ karate.",
+          "image": "act-karate",
+          "options": [
+            "doing",
+            "playing",
+            "going"
+          ],
+          "answer": "a",
+          "explain": "do karate → Leo is doing karate."
+        },
+        {
+          "mode": "try",
+          "prompt": "Sam is ___ skating.",
+          "image": "act-skating",
+          "options": [
+            "doing",
+            "going"
+          ],
+          "answer": "b",
+          "explain": "go skating → Sam is going skating."
+        }
+      ],
+      "teacherNote": "Compass Unit 2 vocabulary “Sports and Activities”. Point out the verb partners: do gymnastics / karate, play baseball / tag, go skating / swimming."
+    },
+    {
+      "id": "story-words",
+      "title": "Story words: a good game",
+      "rule": "Action words from the reading “A Good Sport”, in our own sentences.",
+      "image": "st-highfive",
+      "examples": [
+        {
+          "text": "Look! Sam **is running across the field**.",
+          "image": "sp-field"
+        },
+        {
+          "text": "The children **are passing the ball**.",
+          "image": "they-play-football"
+        },
+        {
+          "text": "Sam **is kicking the ball** … Goal! He **is scoring a goal**!",
+          "image": "sp-goal"
+        },
+        {
+          "text": "Mia and Ana **are cheering** for the team.",
+          "image": "st-cheer"
+        },
+        {
+          "text": "Ana **is shouting**, “Great job!”",
+          "image": "st-cheer"
+        },
+        {
+          "text": "Our team **is winning** the game!",
+          "image": "st-highfive",
+          "label": "win → winning (double n)"
+        },
+        {
+          "text": "Now Sam and Leo **are giving high fives**.",
+          "image": "st-highfive"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia and Ana ___ for the team.",
+          "image": "st-cheer",
+          "options": [
+            "are cheering",
+            "is cheering"
+          ],
+          "answer": "a",
+          "explain": "Mia and Ana = they → are cheering."
+        },
+        {
+          "mode": "try",
+          "prompt": "Our team is ___ the game!",
+          "image": "st-highfive",
+          "options": [
+            "wining",
+            "winning"
+          ],
+          "answer": "b",
+          "explain": "win → winning (double n)."
+        }
+      ],
+      "teacherNote": "Read the book story first. These sentences reuse its action words (score a goal, pass, kick, cheer, shout, give high fives, win) in Present Continuous."
+    },
+    {
       "id": "every-day-or-now",
       "title": "Every day or now?",
       "rule": "Every day → plays (Week 1). Now → is playing (Week 2).",
@@ -1721,6 +1941,45 @@
         "Now he is …"
       ],
       "sample": "Sam plays football every Saturday. Now he is playing football."
+    },
+    {
+      "id": "w2-sp-19",
+      "question": "What is Mia doing?",
+      "image": "act-gymnastics",
+      "help": [
+        "She is doing …"
+      ],
+      "sample": "She is doing gymnastics."
+    },
+    {
+      "id": "w2-sp-20",
+      "question": "Is Leo playing baseball or doing karate?",
+      "image": "act-karate",
+      "help": [
+        "He is …"
+      ],
+      "sample": "He is doing karate."
+    },
+    {
+      "id": "w2-sp-21",
+      "question": "Mime a sport! Your friends ask: “Are you going skating?”",
+      "image": "act-skating",
+      "help": [
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "sample": "Are you going skating? Yes, I am!",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-22",
+      "question": "Look at the game. Who is cheering? Who is scoring a goal?",
+      "image": "st-cheer",
+      "help": [
+        "… is cheering.",
+        "… is scoring a goal."
+      ],
+      "sample": "Mia and Ana are cheering. Sam is scoring a goal."
     }
   ],
   "games": {
@@ -1820,6 +2079,42 @@
         "subject": "She",
         "word": "brushing her teeth",
         "sentence": "She is brushing her teeth."
+      },
+      {
+        "image": "act-gymnastics",
+        "subject": "She",
+        "word": "doing gymnastics",
+        "sentence": "She is doing gymnastics."
+      },
+      {
+        "image": "act-karate",
+        "subject": "He",
+        "word": "doing karate",
+        "sentence": "He is doing karate."
+      },
+      {
+        "image": "act-skating",
+        "subject": "He",
+        "word": "going skating",
+        "sentence": "He is going skating."
+      },
+      {
+        "image": "act-bounce",
+        "subject": "She",
+        "word": "bouncing a ball",
+        "sentence": "She is bouncing a ball."
+      },
+      {
+        "image": "act-tag",
+        "subject": "They",
+        "word": "playing tag",
+        "sentence": "They are playing tag."
+      },
+      {
+        "image": "st-cheer",
+        "subject": "They",
+        "word": "cheering",
+        "sentence": "They are cheering for the team."
       }
     ],
     "sentenceSwitch": {
@@ -2187,6 +2482,90 @@
           "base": "swim",
           "ing": "swimming",
           "rest": "in the pool"
+        },
+        {
+          "id": "act-gymnastics",
+          "base": "do",
+          "ing": "doing",
+          "rest": "gymnastics"
+        },
+        {
+          "id": "act-baseball",
+          "base": "play",
+          "ing": "playing",
+          "rest": "baseball"
+        },
+        {
+          "id": "act-bounce",
+          "base": "bounce",
+          "ing": "bouncing",
+          "rest": "a ball"
+        },
+        {
+          "id": "act-karate",
+          "base": "do",
+          "ing": "doing",
+          "rest": "karate"
+        },
+        {
+          "id": "act-jump-rope",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "rope"
+        },
+        {
+          "id": "act-skating",
+          "base": "go",
+          "ing": "going",
+          "rest": "skating"
+        },
+        {
+          "id": "act-swimming",
+          "base": "go",
+          "ing": "going",
+          "rest": "swimming"
+        },
+        {
+          "id": "act-tag",
+          "base": "play",
+          "ing": "playing",
+          "rest": "tag"
+        },
+        {
+          "id": "act-race",
+          "base": "run",
+          "ing": "running",
+          "rest": "a race"
+        },
+        {
+          "id": "st-score",
+          "base": "score",
+          "ing": "scoring",
+          "rest": "a goal"
+        },
+        {
+          "id": "st-pass",
+          "base": "pass",
+          "ing": "passing",
+          "rest": "the ball"
+        },
+        {
+          "id": "st-cheer",
+          "base": "cheer",
+          "ing": "cheering",
+          "rest": "for the team"
+        },
+        {
+          "id": "st-highfive",
+          "base": "give",
+          "ing": "giving",
+          "rest": "high fives"
+        },
+        {
+          "id": "st-win",
+          "base": "win",
+          "ing": "winning",
+          "rest": "the game"
         }
       ]
     },
@@ -2327,6 +2706,33 @@
         "answer": "a",
         "reveal": "He is kicking the ball into the goal.",
         "hint": "Sam = he → What is … doing?"
+      },
+      {
+        "id": "door-11",
+        "who": "Mia",
+        "image": "act-gymnastics",
+        "clue": "Mia is doing gymnastics.",
+        "options": [
+          "Is Mia doing gymnastics?",
+          "Does Mia doing gymnastics?",
+          "Is Mia do gymnastics?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she is.",
+        "hint": "Mia = she → Is … doing?"
+      },
+      {
+        "id": "door-12",
+        "who": "the children",
+        "image": "act-tag",
+        "clue": "The children are playing tag.",
+        "options": [
+          "Is the children playing tag?",
+          "Are the children playing tag?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, they are.",
+        "hint": "the children = they → Are."
       }
     ],
     "yesNo": [
@@ -2589,6 +2995,58 @@
         ],
         "answer": "b",
         "hint": "She is listening to music."
+      },
+      {
+        "id": "yn-21",
+        "image": "act-karate",
+        "clue": "Leo is doing karate.",
+        "question": "Is Leo doing gymnastics?",
+        "options": [
+          "No, he isn't.",
+          "Yes, he is.",
+          "No, he doesn't."
+        ],
+        "answer": "a",
+        "hint": "Look: a white karate suit."
+      },
+      {
+        "id": "yn-22",
+        "image": "act-skating",
+        "clue": "Sam is going skating in the park.",
+        "question": "Is Sam going skating?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he does.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-23",
+        "image": "act-tag",
+        "clue": "The children are playing tag.",
+        "question": "Are they playing baseball?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't.",
+          "No, they don't."
+        ],
+        "answer": "b",
+        "hint": "They are playing tag."
+      },
+      {
+        "id": "yn-24",
+        "image": "st-highfive",
+        "clue": "Sam and Leo are giving high fives.",
+        "question": "Are Sam and Leo giving high fives?",
+        "options": [
+          "Yes, they are.",
+          "Yes, they is.",
+          "No, they aren't."
+        ],
+        "answer": "a",
+        "hint": "Two people → they are."
       }
     ],
     "memory": {
@@ -2669,6 +3127,144 @@
           "phrase": "a pool",
           "image": "sp-pool",
           "example": "Ana is swimming in the pool."
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "title": "Book words: Sports and activities",
+      "words": [
+        {
+          "id": "do-gymnastics",
+          "word": "do gymnastics",
+          "phrase": "do gymnastics",
+          "image": "act-gymnastics",
+          "example": "Mia is doing gymnastics."
+        },
+        {
+          "id": "play-baseball",
+          "word": "play baseball",
+          "phrase": "play baseball",
+          "image": "sp-bat",
+          "example": "Leo is playing baseball."
+        },
+        {
+          "id": "bounce-a-ball",
+          "word": "bounce a ball",
+          "phrase": "bounce a ball",
+          "image": "act-bounce",
+          "example": "Ana is bouncing a ball."
+        },
+        {
+          "id": "do-karate",
+          "word": "do karate",
+          "phrase": "do karate",
+          "image": "act-karate",
+          "example": "Leo is doing karate."
+        },
+        {
+          "id": "jump-rope",
+          "word": "jump rope",
+          "phrase": "jump rope",
+          "image": "v-jump",
+          "example": "Ana is jumping rope."
+        },
+        {
+          "id": "go-skating",
+          "word": "go skating",
+          "phrase": "go skating",
+          "image": "act-skating",
+          "example": "Sam is going skating."
+        },
+        {
+          "id": "ride-a-bike",
+          "word": "ride a bike",
+          "phrase": "ride a bike",
+          "image": "ride-a-bike",
+          "example": "Ana is riding a bike."
+        },
+        {
+          "id": "go-swimming",
+          "word": "go swimming",
+          "phrase": "go swimming",
+          "image": "sp-pool",
+          "example": "Ana is going swimming."
+        },
+        {
+          "id": "play-tag",
+          "word": "play tag",
+          "phrase": "play tag",
+          "image": "act-tag",
+          "example": "The children are playing tag."
+        },
+        {
+          "id": "run-a-race",
+          "word": "run a race",
+          "phrase": "run a race",
+          "image": "sp-field",
+          "example": "Mia and Sam are running a race."
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "title": "Story words: A good game",
+      "words": [
+        {
+          "id": "score-a-goal",
+          "word": "score a goal",
+          "phrase": "score a goal",
+          "image": "sp-goal",
+          "example": "Sam is scoring a goal!"
+        },
+        {
+          "id": "kick-the-ball",
+          "word": "kick the ball",
+          "phrase": "kick the ball",
+          "image": "play-football",
+          "example": "Sam is kicking the ball."
+        },
+        {
+          "id": "pass-the-ball",
+          "word": "pass the ball",
+          "phrase": "pass the ball",
+          "image": "they-play-football",
+          "example": "The children are passing the ball."
+        },
+        {
+          "id": "run-across-the-field",
+          "word": "run across the field",
+          "phrase": "run across the field",
+          "image": "sp-field",
+          "example": "Mia and Sam are running across the field."
+        },
+        {
+          "id": "cheer",
+          "word": "cheer",
+          "phrase": "cheer",
+          "image": "st-cheer",
+          "example": "Mia and Ana are cheering for the team."
+        },
+        {
+          "id": "shout",
+          "word": "shout “Great job!”",
+          "phrase": "shout “Great job!”",
+          "image": "st-cheer",
+          "example": "Ana is shouting, “Great job!”"
+        },
+        {
+          "id": "give-high-fives",
+          "word": "give high fives",
+          "phrase": "give high fives",
+          "image": "st-highfive",
+          "example": "Sam and Leo are giving high fives."
+        },
+        {
+          "id": "win-the-game",
+          "word": "win the game",
+          "phrase": "win the game",
+          "image": "st-highfive",
+          "example": "Our team is winning the game!"
         }
       ]
     },
@@ -2945,6 +3541,90 @@
       "subject": "sam",
       "verb": "get-up",
       "note": "get → getting"
+    },
+    {
+      "id": "ex-23",
+      "image": "act-gymnastics",
+      "subject": "mia",
+      "verb": "act-gymnastics",
+      "note": "do gymnastics"
+    },
+    {
+      "id": "ex-24",
+      "image": "sp-bat",
+      "subject": "leo",
+      "verb": "act-baseball",
+      "note": "play baseball"
+    },
+    {
+      "id": "ex-25",
+      "image": "act-bounce",
+      "subject": "ana",
+      "verb": "act-bounce",
+      "note": "bounce → bouncing"
+    },
+    {
+      "id": "ex-26",
+      "image": "act-karate",
+      "subject": "he",
+      "verb": "act-karate",
+      "note": "do karate"
+    },
+    {
+      "id": "ex-27",
+      "image": "v-jump",
+      "subject": "she",
+      "verb": "act-jump-rope",
+      "note": "jump rope"
+    },
+    {
+      "id": "ex-28",
+      "image": "act-skating",
+      "subject": "sam",
+      "verb": "act-skating",
+      "note": "go skating"
+    },
+    {
+      "id": "ex-29",
+      "image": "sp-pool",
+      "subject": "ana",
+      "verb": "act-swimming",
+      "note": "go swimming"
+    },
+    {
+      "id": "ex-30",
+      "image": "act-tag",
+      "subject": "they",
+      "verb": "act-tag",
+      "note": "play tag"
+    },
+    {
+      "id": "ex-31",
+      "image": "sp-field",
+      "subject": "they",
+      "verb": "act-race",
+      "note": "run a race"
+    },
+    {
+      "id": "ex-32",
+      "image": "sp-goal",
+      "subject": "sam",
+      "verb": "st-score",
+      "note": "score a goal"
+    },
+    {
+      "id": "ex-33",
+      "image": "st-cheer",
+      "subject": "they",
+      "verb": "st-cheer",
+      "note": "cheer"
+    },
+    {
+      "id": "ex-34",
+      "image": "st-highfive",
+      "subject": "we",
+      "verb": "st-highfive",
+      "note": "give high fives"
     }
   ]
 }

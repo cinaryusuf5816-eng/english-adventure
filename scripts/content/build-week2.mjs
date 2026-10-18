@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { SUBJECTS, VERBS, IMAGES } from './week2-data.mjs';
 import { META, WORDS, EXTRA_WORD_SETS, LEARN, SPEAKING, EXAMPLES, PICTURE_REVEAL, QUESTION_DOOR, YES_NO } from './week2-week.mjs';
+import './week2-extra.mjs';
 import { BANKS, QUESTIONS, CARDS, PASSAGES } from './week2-questions.mjs';
 
 const REPO = fileURLToPath(new URL('../..', import.meta.url)).replace(/[\/]$/, '');

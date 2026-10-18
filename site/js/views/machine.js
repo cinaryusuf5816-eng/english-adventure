@@ -21,11 +21,15 @@ export function legend(week) {
 }
 
 /**
- * @param opts {subject, verb, to, onDone, compact}
+ * @param opts {subject, verb, to, onDone, compact, direct}
+ *   direct: show only the first and the last sentence (+ → − in one step), no small steps.
  */
-export function machineView(ctx, { subject, verb, to, onDone, compact = false }) {
+export function machineView(ctx, { subject, verb, to, onDone, compact = false, direct = false }) {
   const { machineSteps, stepText, formula } = grammarOf(ctx.week.week);
-  const steps = machineSteps(subject, verb, to);
+  const all = machineSteps(subject, verb, to);
+  const steps = direct && to !== 'all' && all.length > 2
+    ? [all[0], { ...all[all.length - 1], caption: `${stepText(all[0])} → ${stepText(all[all.length - 1])}`, fly: undefined }]
+    : all;
   const rows = h('ol', { class: 'm-rows' });
   const caption = h('p', { class: 'm-caption', 'aria-live': 'polite' });
   const frame = h('div', { class: 'm-formula', hidden: true });

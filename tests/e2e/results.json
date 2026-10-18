@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18T16:10:23.468Z",
+  "date": "2026-10-18T16:25:28.268Z",
   "env": "Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
   "pass": 138,
   "fail": 0,
@@ -575,7 +575,7 @@
       "area": "Sessions",
       "name": "Restart activity asks first and starts a new set",
       "expected": "confirm → setup screen → new session id",
-      "actual": "smve0t3xe2l4 → smve0t3zh3nix",
+      "actual": "smve1chsqi36b → smve1chux4ntw",
       "status": "pass"
     },
     {
@@ -778,7 +778,7 @@
       "area": "Games",
       "name": "Spin and Say: spin gives a sentence that matches the slots (verified forms)",
       "expected": "answer hidden → shown, ends with . or ?",
-      "actual": "Ana / + positive → Ana does her homework.",
+      "actual": "Leo / − negative → Leo doesn't cook pancakes.",
       "status": "pass"
     },
     {
@@ -804,9 +804,9 @@
     },
     {
       "area": "Examples",
-      "name": "Change Machine: + → − step by step; the ending moves to does",
-      "expected": "4 rows, last “Sam doesn't play football.”, rule frame shown",
-      "actual": "4 rows · Sam doesn't play football. · frame=true",
+      "name": "Week 1 Examples: + → − in ONE step (no small steps)",
+      "expected": "2 rows, last “Sam doesn't play football.”, rule frame shown",
+      "actual": "2 rows · Sam doesn't play football. · frame=true",
       "status": "pass"
     },
     {
@@ -855,7 +855,7 @@
       "area": "Shell",
       "name": "Week picker: Coming soon weeks cannot be chosen; owl tip changes on click",
       "expected": "week-03 disabled; tip changes",
-      "actual": "true · “Small steps every day!” → “Read it. Say it. Do it!”",
+      "actual": "true · “Read it. Say it. Do it!” → “Mistakes help you learn!”",
       "status": "pass"
     },
     {
@@ -897,14 +897,14 @@
       "area": "Games",
       "name": "Listen and Choose: without a voice the teacher can show the sentence; wrong → try again; right → scored",
       "expected": "teacher text; First try 0 · Done 1",
-      "actual": "Sam drinks water. · First try: 0 · Done: 1 of 10",
+      "actual": "Mia eats apples. · First try: 0 · Done: 1 of 10",
       "status": "pass"
     },
     {
       "area": "Week 2",
-      "name": "Week 2 opens with its own title, 258 questions and 10 activities",
-      "expected": "Present Continuous · 258 · 10",
-      "actual": "10 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 258 questions in",
+      "name": "Week 2 opens with its own title, 292 questions and 11 activities",
+      "expected": "Present Continuous · 292 · 11",
+      "actual": "11 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 292 questions in",
       "status": "pass"
     },
     {

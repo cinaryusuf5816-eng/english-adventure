@@ -64,7 +64,7 @@
       "title": "Mini reading",
       "instruction": "Read. Answer.",
       "description": "Read a short text. Answer 4 questions.",
-      "expected": 12
+      "expected": 16
     },
     {
       "id": "book",
@@ -81,6 +81,14 @@
       "instruction": "Look and choose.",
       "description": "running, jumping, swimming … with am / is / are.",
       "expected": 24
+    },
+    {
+      "id": "activities",
+      "letter": "K",
+      "title": "Book words: activities",
+      "instruction": "Look and choose.",
+      "description": "do gymnastics, play baseball, go skating, play tag, run a race …",
+      "expected": 30
     }
   ],
   "cards": {
@@ -228,6 +236,11 @@
       "title": "Pepper at Home",
       "image": "v-sleep",
       "text": "It's evening. Sam is doing his homework. Mia is listening to music. Mum is cooking pancakes in the kitchen. And Pepper? Pepper isn't playing now. It is sleeping on a cushion."
+    },
+    "rd-p4": {
+      "title": "A Good Game",
+      "image": "st-highfive",
+      "text": "It's Saturday. Sam and Leo are playing football. Grandpa is watching and cheering. Look! Sam is running across the field. He is passing the ball to Leo. Leo is kicking it. Goal! Now the boys are giving high fives."
     }
   },
   "questions": [
@@ -424,16 +437,16 @@
       "type": "mcq",
       "target": "affirmative",
       "level": 2,
-      "prompt": "Look! They ___ TV now.",
-      "image": "they-watch-tv",
+      "prompt": "Look! They ___ tag now.",
+      "image": "act-tag",
       "options": [
-        "are watch",
-        "watching",
-        "are watching"
+        "are play",
+        "playing",
+        "are playing"
       ],
       "answer": "c",
-      "hint": "Two parts: are + watching.",
-      "explain": "Look! They are watching TV now."
+      "hint": "Two parts: are + playing.",
+      "explain": "Look! They are playing tag now."
     },
     {
       "id": "w2-mc-013",
@@ -458,16 +471,16 @@
       "type": "mcq",
       "target": "affirmative",
       "level": 1,
-      "prompt": "Mia and Sam are ___ books.",
-      "image": "we-read",
+      "prompt": "Mia and Ana are ___ for the team.",
+      "image": "st-cheer",
       "options": [
-        "read",
-        "reading",
-        "reads"
+        "cheer",
+        "cheering",
+        "cheers"
       ],
       "answer": "b",
       "hint": "are + verb-ing.",
-      "explain": "Mia and Sam are reading books."
+      "explain": "Mia and Ana are cheering for the team."
     },
     {
       "id": "w2-mc-015",
@@ -492,8 +505,8 @@
       "type": "mcq",
       "target": "affirmative",
       "level": 1,
-      "prompt": "We ___ dancing in the hall.",
-      "image": "dance",
+      "prompt": "We ___ passing the ball.",
+      "image": "they-play-football",
       "options": [
         "are",
         "am",
@@ -501,7 +514,7 @@
       ],
       "answer": "a",
       "hint": "We → are.",
-      "explain": "We are dancing in the hall."
+      "explain": "We are passing the ball."
     },
     {
       "id": "w2-mc-017",
@@ -526,16 +539,16 @@
       "type": "mcq",
       "target": "affirmative",
       "level": 2,
-      "prompt": "Look! You ___ the balls in the basket now.",
-      "image": "sp-balls",
+      "prompt": "Look! You ___ football now.",
+      "image": "they-play-football",
       "options": [
-        "are put",
-        "putting",
-        "are putting"
+        "are play",
+        "playing",
+        "are playing"
       ],
       "answer": "c",
-      "hint": "Two parts: are + putting.",
-      "explain": "Look! You are putting the balls in the basket now."
+      "hint": "Two parts: are + playing.",
+      "explain": "Look! You are playing football now."
     },
     {
       "id": "w2-mc-019",
@@ -643,16 +656,16 @@
       "type": "mcq",
       "target": "negative",
       "level": 1,
-      "prompt": "Mia and Sam ___ eating pizza.",
-      "image": "they-watch-tv",
+      "prompt": "The children ___ eating pizza.",
+      "image": "act-tag",
       "options": [
         "aren't",
         "isn't",
         "don't"
       ],
       "answer": "a",
-      "hint": "Mia and Sam → aren't. Look at the picture: Mia and Sam are watching TV.",
-      "explain": "Mia and Sam aren't eating pizza."
+      "hint": "The children → aren't. Look at the picture: The children are playing tag.",
+      "explain": "The children aren't eating pizza."
     },
     {
       "id": "w2-mc-026",
@@ -676,16 +689,16 @@
       "type": "mcq",
       "target": "negative",
       "level": 2,
-      "prompt": "They are reading books. Which is the negative?",
-      "image": "we-read",
+      "prompt": "They are cheering for the team. Which is the negative?",
+      "image": "st-cheer",
       "options": [
-        "They not reading books.",
-        "They don't reading books.",
-        "They aren't reading books."
+        "They not cheering for the team.",
+        "They don't cheering for the team.",
+        "They aren't cheering for the team."
       ],
       "answer": "c",
       "hint": "Add not after are.",
-      "explain": "They aren't reading books."
+      "explain": "They aren't cheering for the team."
     },
     {
       "id": "w2-mc-028",
@@ -711,13 +724,13 @@
       "target": "negative",
       "level": 1,
       "prompt": "They aren't ___ a letter.",
-      "image": "dance",
+      "image": "they-play-football",
       "options": [
         "writing",
         "write"
       ],
       "answer": "a",
-      "hint": "aren't + verb-ing. Look at the picture: Mia and Ana are dancing in the hall.",
+      "hint": "aren't + verb-ing. Look at the picture: The children are passing the ball.",
       "explain": "They aren't writing a letter."
     },
     {
@@ -743,16 +756,16 @@
       "type": "mcq",
       "target": "negative",
       "level": 1,
-      "prompt": "Mia and Sam ___ playing tennis.",
-      "image": "sp-balls",
+      "prompt": "The children ___ swimming in the pool.",
+      "image": "they-play-football",
       "options": [
         "aren't",
         "isn't",
         "don't"
       ],
       "answer": "a",
-      "hint": "Mia and Sam → aren't. Look at the picture: Mia and Sam are putting the balls in the basket.",
-      "explain": "Mia and Sam aren't playing tennis."
+      "hint": "The children → aren't. Look at the picture: The children are playing football.",
+      "explain": "The children aren't swimming in the pool."
     },
     {
       "id": "w2-mc-032",
@@ -776,16 +789,16 @@
       "type": "mcq",
       "target": "negative",
       "level": 2,
-      "prompt": "We are doing exercises in the gym. Which is the negative?",
-      "image": "sp-gym",
+      "prompt": "We are playing chess. Which is the negative?",
+      "image": "play-chess",
       "options": [
-        "We not doing exercises in the gym.",
-        "We don't doing exercises in the gym.",
-        "We aren't doing exercises in the gym."
+        "We not playing chess.",
+        "We don't playing chess.",
+        "We aren't playing chess."
       ],
       "answer": "c",
       "hint": "Add not after are.",
-      "explain": "We aren't doing exercises in the gym."
+      "explain": "We aren't playing chess."
     },
     {
       "id": "w2-mc-034",
@@ -810,15 +823,15 @@
       "type": "mcq",
       "target": "negative",
       "level": 1,
-      "prompt": "You aren't ___ pancakes.",
-      "image": "sp-court",
+      "prompt": "You aren't ___ on a cushion.",
+      "image": "speak-english",
       "options": [
-        "cooking",
-        "cook"
+        "sleeping",
+        "sleep"
       ],
       "answer": "a",
-      "hint": "aren't + verb-ing. Look at the picture: Sam and Leo are playing basketball.",
-      "explain": "You aren't cooking pancakes."
+      "hint": "aren't + verb-ing. Look at the picture: Mia and Ana are speaking English.",
+      "explain": "You aren't sleeping on a cushion."
     },
     {
       "id": "w2-mc-036",
@@ -860,8 +873,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "Are they playing football?",
-      "image": "they-play-football",
+      "prompt": "Are they running a race?",
+      "image": "sp-field",
       "options": [
         "Yes, they do.",
         "Yes, they are.",
@@ -894,8 +907,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "___ we playing chess?",
-      "image": "play-chess",
+      "prompt": "___ we giving high fives?",
+      "image": "st-highfive",
       "options": [
         "Are",
         "Is",
@@ -903,7 +916,7 @@
       ],
       "answer": "a",
       "hint": "We → Are.",
-      "explain": "Are we playing chess?"
+      "explain": "Are we giving high fives?"
     },
     {
       "id": "w2-mc-041",
@@ -928,16 +941,16 @@
       "type": "mcq",
       "target": "question",
       "level": 2,
-      "prompt": "What ___ Mia and Ana doing?",
-      "image": "speak-english",
+      "prompt": "What ___ Mia and Sam doing?",
+      "image": "they-watch-tv",
       "options": [
         "is",
         "do",
         "are"
       ],
       "answer": "c",
-      "hint": "Mia and Ana → are.",
-      "explain": "What are Mia and Ana doing? Mia and Ana are speaking English."
+      "hint": "Mia and Sam → are.",
+      "explain": "What are Mia and Sam doing? Mia and Sam are watching TV."
     },
     {
       "id": "w2-mc-043",
@@ -962,8 +975,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "Are they playing volleyball?",
-      "image": "sp-net",
+      "prompt": "Are they reading books?",
+      "image": "we-read",
       "options": [
         "Yes, they do.",
         "Yes, they are.",
@@ -996,8 +1009,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "___ they running on the field?",
-      "image": "sp-field",
+      "prompt": "___ they dancing in the hall?",
+      "image": "dance",
       "options": [
         "Are",
         "Is",
@@ -1005,7 +1018,7 @@
       ],
       "answer": "a",
       "hint": "They → Are.",
-      "explain": "Are they running on the field?"
+      "explain": "Are they dancing in the hall?"
     },
     {
       "id": "w2-mc-047",
@@ -1031,7 +1044,7 @@
       "target": "question",
       "level": 2,
       "prompt": "What ___ Mia and Sam doing?",
-      "image": "they-watch-tv",
+      "image": "sp-balls",
       "options": [
         "is",
         "do",
@@ -1039,7 +1052,7 @@
       ],
       "answer": "c",
       "hint": "Mia and Sam → are.",
-      "explain": "What are Mia and Sam doing? Mia and Sam are watching TV."
+      "explain": "What are Mia and Sam doing? Mia and Sam are putting the balls in the basket."
     },
     {
       "id": "w2-mc-049",
@@ -1064,8 +1077,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "Are we reading books?",
-      "image": "we-read",
+      "prompt": "Are we doing exercises in the gym?",
+      "image": "sp-gym",
       "options": [
         "Yes, we do.",
         "Yes, we are.",
@@ -1098,8 +1111,8 @@
       "type": "mcq",
       "target": "question",
       "level": 1,
-      "prompt": "___ you dancing in the hall?",
-      "image": "dance",
+      "prompt": "___ you playing basketball?",
+      "image": "sp-court",
       "options": [
         "Are",
         "Is",
@@ -1107,7 +1120,7 @@
       ],
       "answer": "a",
       "hint": "You → Are.",
-      "explain": "Are you dancing in the hall?"
+      "explain": "Are you playing basketball?"
     },
     {
       "id": "w2-mc-053",
@@ -1133,7 +1146,7 @@
       "target": "question",
       "level": 2,
       "prompt": "What ___ Mia and Sam doing?",
-      "image": "sp-balls",
+      "image": "sp-field",
       "options": [
         "is",
         "do",
@@ -1141,7 +1154,7 @@
       ],
       "answer": "c",
       "hint": "Mia and Sam → are.",
-      "explain": "What are Mia and Sam doing? Mia and Sam are putting the balls in the basket."
+      "explain": "What are Mia and Sam doing? Mia and Sam are running a race."
     },
     {
       "id": "w2-mc-055",
@@ -1445,19 +1458,20 @@
       "type": "jumbled",
       "target": "affirmative",
       "level": 1,
-      "image": "they-play-football",
+      "image": "sp-field",
       "tokens": [
         "They",
         "are",
-        "playing",
-        "football"
+        "running",
+        "a",
+        "race"
       ],
       "end": ".",
       "answers": [
-        "They are playing football"
+        "They are running a race"
       ],
       "hint": "Start with They.",
-      "explain": "They are playing football."
+      "explain": "They are running a race."
     },
     {
       "id": "w2-jb-011",
@@ -1487,19 +1501,20 @@
       "type": "jumbled",
       "target": "affirmative",
       "level": 1,
-      "image": "play-chess",
+      "image": "st-highfive",
       "tokens": [
         "They",
         "are",
-        "playing",
-        "chess"
+        "giving",
+        "high",
+        "fives"
       ],
       "end": ".",
       "answers": [
-        "They are playing chess"
+        "They are giving high fives"
       ],
       "hint": "Start with They.",
-      "explain": "They are playing chess."
+      "explain": "They are giving high fives."
     },
     {
       "id": "w2-jb-013",
@@ -1593,7 +1608,7 @@
       "type": "jumbled",
       "target": "negative",
       "level": 1,
-      "image": "they-watch-tv",
+      "image": "act-tag",
       "tokens": [
         "We",
         "aren't",
@@ -1605,7 +1620,7 @@
       "answers": [
         "We aren't drawing a picture"
       ],
-      "hint": "We aren't … Look at the picture: Mia and Sam are watching TV.",
+      "hint": "We aren't … Look at the picture: The children are playing tag.",
       "explain": "We aren't drawing a picture."
     },
     {
@@ -1635,11 +1650,11 @@
       "type": "jumbled",
       "target": "negative",
       "level": 1,
-      "image": "we-read",
+      "image": "st-cheer",
       "tokens": [
         "Mia",
         "and",
-        "Sam",
+        "Ana",
         "aren't",
         "riding",
         "a",
@@ -1647,10 +1662,10 @@
       ],
       "end": ".",
       "answers": [
-        "Mia and Sam aren't riding a bike"
+        "Mia and Ana aren't riding a bike"
       ],
-      "hint": "Mia and Sam aren't … Look at the picture: Mia and Sam are reading books.",
-      "explain": "Mia and Sam aren't riding a bike."
+      "hint": "Mia and Ana aren't … Look at the picture: Mia and Ana are cheering for the team.",
+      "explain": "Mia and Ana aren't riding a bike."
     },
     {
       "id": "w2-jb-020",
@@ -1679,19 +1694,21 @@
       "type": "jumbled",
       "target": "negative",
       "level": 1,
-      "image": "dance",
+      "image": "they-play-football",
       "tokens": [
         "They",
         "aren't",
-        "playing",
-        "tennis"
+        "dancing",
+        "in",
+        "the",
+        "hall"
       ],
       "end": ".",
       "answers": [
-        "They aren't playing tennis"
+        "They aren't dancing in the hall"
       ],
-      "hint": "They aren't … Look at the picture: Mia and Ana are dancing in the hall.",
-      "explain": "They aren't playing tennis."
+      "hint": "They aren't … Look at the picture: The children are passing the ball.",
+      "explain": "They aren't dancing in the hall."
     },
     {
       "id": "w2-jb-022",
@@ -1720,20 +1737,19 @@
       "type": "jumbled",
       "target": "negative",
       "level": 1,
-      "image": "sp-balls",
+      "image": "they-play-football",
       "tokens": [
         "They",
         "aren't",
-        "flying",
-        "a",
-        "kite"
+        "watching",
+        "TV"
       ],
       "end": ".",
       "answers": [
-        "They aren't flying a kite"
+        "They aren't watching TV"
       ],
-      "hint": "They aren't … Look at the picture: Mia and Sam are putting the balls in the basket.",
-      "explain": "They aren't flying a kite."
+      "hint": "They aren't … Look at the picture: The children are playing football.",
+      "explain": "They aren't watching TV."
     },
     {
       "id": "w2-jb-024",
@@ -1785,19 +1801,20 @@
       "type": "jumbled",
       "target": "question",
       "level": 1,
-      "image": "play-chess",
+      "image": "st-highfive",
       "tokens": [
         "Are",
         "they",
-        "playing",
-        "chess"
+        "giving",
+        "high",
+        "fives"
       ],
       "end": "?",
       "answers": [
-        "Are they playing chess"
+        "Are they giving high fives"
       ],
       "hint": "Start with Are.",
-      "explain": "Are they playing chess?"
+      "explain": "Are they giving high fives?"
     },
     {
       "id": "w2-jb-027",
@@ -1827,19 +1844,19 @@
       "type": "jumbled",
       "target": "question",
       "level": 1,
-      "image": "speak-english",
+      "image": "they-watch-tv",
       "tokens": [
         "Are",
         "we",
-        "speaking",
-        "English"
+        "watching",
+        "TV"
       ],
       "end": "?",
       "answers": [
-        "Are we speaking English"
+        "Are we watching TV"
       ],
       "hint": "Start with Are.",
-      "explain": "Are we speaking English?"
+      "explain": "Are we watching TV?"
     },
     {
       "id": "w2-jb-029",
@@ -1868,21 +1885,21 @@
       "type": "jumbled",
       "target": "question",
       "level": 1,
-      "image": "sp-net",
+      "image": "we-read",
       "tokens": [
         "Are",
-        "Leo",
+        "Mia",
         "and",
-        "Ana",
-        "playing",
-        "volleyball"
+        "Sam",
+        "reading",
+        "books"
       ],
       "end": "?",
       "answers": [
-        "Are Leo and Ana playing volleyball"
+        "Are Mia and Sam reading books"
       ],
       "hint": "Start with Are.",
-      "explain": "Are Leo and Ana playing volleyball?"
+      "explain": "Are Mia and Sam reading books?"
     },
     {
       "id": "w2-jb-031",
@@ -1911,21 +1928,21 @@
       "type": "jumbled",
       "target": "question",
       "level": 1,
-      "image": "sp-field",
+      "image": "dance",
       "tokens": [
         "Are",
         "they",
-        "running",
-        "on",
+        "dancing",
+        "in",
         "the",
-        "field"
+        "hall"
       ],
       "end": "?",
       "answers": [
-        "Are they running on the field"
+        "Are they dancing in the hall"
       ],
       "hint": "Start with Are.",
-      "explain": "Are they running on the field?"
+      "explain": "Are they dancing in the hall?"
     },
     {
       "id": "w2-jb-033",
@@ -2018,19 +2035,19 @@
       "type": "fill",
       "target": "affirmative",
       "level": 1,
-      "image": "sp-balls",
-      "text": "We ___ the balls in the basket.",
-      "base": "put",
+      "image": "they-play-football",
+      "text": "We ___ football.",
+      "base": "play",
       "answers": [
-        "are putting"
+        "are playing"
       ],
       "pool": [
-        "are putting",
-        "is putting",
-        "are put"
+        "are playing",
+        "is playing",
+        "are play"
       ],
-      "hint": "We → are + putting.",
-      "explain": "We are putting the balls in the basket."
+      "hint": "We → are + playing.",
+      "explain": "We are playing football."
     },
     {
       "id": "w2-fb-002",
@@ -2058,19 +2075,19 @@
       "type": "fill",
       "target": "affirmative",
       "level": 1,
-      "image": "sp-gym",
-      "text": "You ___ exercises in the gym.",
-      "base": "do",
+      "image": "play-chess",
+      "text": "You ___ chess.",
+      "base": "play",
       "answers": [
-        "are doing"
+        "are playing"
       ],
       "pool": [
-        "are doing",
-        "is doing",
-        "are do"
+        "are playing",
+        "is playing",
+        "are play"
       ],
-      "hint": "You → are + doing.",
-      "explain": "You are doing exercises in the gym."
+      "hint": "You → are + playing.",
+      "explain": "You are playing chess."
     },
     {
       "id": "w2-fb-004",
@@ -2098,19 +2115,19 @@
       "type": "fill",
       "target": "affirmative",
       "level": 1,
-      "image": "sp-court",
-      "text": "Sam and Leo ___ basketball.",
-      "base": "play",
+      "image": "speak-english",
+      "text": "Mia and Ana ___ English.",
+      "base": "speak",
       "answers": [
-        "are playing"
+        "are speaking"
       ],
       "pool": [
-        "are playing",
-        "is playing",
-        "are play"
+        "are speaking",
+        "is speaking",
+        "are speak"
       ],
-      "hint": "Sam and Leo → are + playing.",
-      "explain": "Sam and Leo are playing basketball."
+      "hint": "Mia and Ana → are + speaking.",
+      "explain": "Mia and Ana are speaking English."
     },
     {
       "id": "w2-fb-006",
@@ -2138,8 +2155,8 @@
       "type": "fill",
       "target": "affirmative",
       "level": 1,
-      "image": "they-play-football",
-      "text": "They ___ football.",
+      "image": "sp-net",
+      "text": "They ___ volleyball.",
       "base": "play",
       "answers": [
         "are playing"
@@ -2150,7 +2167,7 @@
         "are play"
       ],
       "hint": "They → are + playing.",
-      "explain": "They are playing football."
+      "explain": "They are playing volleyball."
     },
     {
       "id": "w2-fb-008",
@@ -2178,19 +2195,19 @@
       "type": "fill",
       "target": "affirmative",
       "level": 1,
-      "image": "play-chess",
-      "text": "They ___ chess.",
-      "base": "play",
+      "image": "sp-field",
+      "text": "They ___ on the field.",
+      "base": "run",
       "answers": [
-        "are playing"
+        "are running"
       ],
       "pool": [
-        "are playing",
-        "is playing",
-        "are play"
+        "are running",
+        "is running",
+        "are run"
       ],
-      "hint": "They → are + playing.",
-      "explain": "They are playing chess."
+      "hint": "They → are + running.",
+      "explain": "They are running on the field."
     },
     {
       "id": "w2-fb-010",
@@ -2238,8 +2255,8 @@
       "type": "fill",
       "target": "negative",
       "level": 1,
-      "image": "they-watch-tv",
-      "text": "You ___ drawing a picture.",
+      "image": "sp-balls",
+      "text": "You ___ eating pizza.",
       "answers": [
         "aren't",
         "are not"
@@ -2249,8 +2266,8 @@
         "aren't",
         "am not"
       ],
-      "hint": "You → aren't. Look at the picture: Mia and Sam are watching TV.",
-      "explain": "You aren't drawing a picture."
+      "hint": "You → aren't. Look at the picture: Mia and Sam are putting the balls in the basket.",
+      "explain": "You aren't eating pizza."
     },
     {
       "id": "w2-fb-013",
@@ -2277,8 +2294,8 @@
       "type": "fill",
       "target": "negative",
       "level": 1,
-      "image": "we-read",
-      "text": "Mia and Sam ___ riding a bike.",
+      "image": "sp-gym",
+      "text": "Mia and Ana ___ riding a bike.",
       "answers": [
         "aren't",
         "are not"
@@ -2288,8 +2305,8 @@
         "aren't",
         "am not"
       ],
-      "hint": "Mia and Sam → aren't. Look at the picture: Mia and Sam are reading books.",
-      "explain": "Mia and Sam aren't riding a bike."
+      "hint": "Mia and Ana → aren't. Look at the picture: Mia and Ana are doing exercises in the gym.",
+      "explain": "Mia and Ana aren't riding a bike."
     },
     {
       "id": "w2-fb-015",
@@ -2317,8 +2334,8 @@
       "type": "fill",
       "target": "negative",
       "level": 1,
-      "image": "dance",
-      "text": "They ___ playing tennis.",
+      "image": "sp-court",
+      "text": "They ___ flying a kite.",
       "answers": [
         "aren't",
         "are not"
@@ -2328,8 +2345,8 @@
         "aren't",
         "am not"
       ],
-      "hint": "They → aren't. Look at the picture: Mia and Ana are dancing in the hall.",
-      "explain": "They aren't playing tennis."
+      "hint": "They → aren't. Look at the picture: Sam and Leo are playing basketball.",
+      "explain": "They aren't flying a kite."
     },
     {
       "id": "w2-fb-017",
@@ -2357,7 +2374,7 @@
       "type": "fill",
       "target": "negative",
       "level": 1,
-      "image": "sp-balls",
+      "image": "sp-field",
       "text": "They ___ flying a kite.",
       "answers": [
         "aren't",
@@ -2368,7 +2385,7 @@
         "aren't",
         "am not"
       ],
-      "hint": "They → aren't. Look at the picture: Mia and Sam are putting the balls in the basket.",
+      "hint": "They → aren't. Look at the picture: Mia and Sam are running a race.",
       "explain": "They aren't flying a kite."
     },
     {
@@ -2397,8 +2414,8 @@
       "type": "fill",
       "target": "negative",
       "level": 1,
-      "image": "sp-gym",
-      "text": "Mia and Ana ___ watching TV.",
+      "image": "st-highfive",
+      "text": "Sam and Leo ___ watching TV.",
       "answers": [
         "aren't",
         "are not"
@@ -2408,8 +2425,8 @@
         "aren't",
         "am not"
       ],
-      "hint": "Mia and Ana → aren't. Look at the picture: Mia and Ana are doing exercises in the gym.",
-      "explain": "Mia and Ana aren't watching TV."
+      "hint": "Sam and Leo → aren't. Look at the picture: Sam and Leo are giving high fives.",
+      "explain": "Sam and Leo aren't watching TV."
     },
     {
       "id": "w2-fb-021",
@@ -2417,8 +2434,8 @@
       "type": "fill",
       "target": "question",
       "level": 1,
-      "image": "play-chess",
-      "text": "___ you playing chess?",
+      "image": "sp-field",
+      "text": "___ you running on the field?",
       "answers": [
         "Are"
       ],
@@ -2428,7 +2445,7 @@
         "Are"
       ],
       "hint": "You → Are.",
-      "explain": "Are you playing chess?"
+      "explain": "Are you running on the field?"
     },
     {
       "id": "w2-fb-022",
@@ -2455,8 +2472,8 @@
       "type": "fill",
       "target": "question",
       "level": 1,
-      "image": "speak-english",
-      "text": "___ Mia and Ana speaking English?",
+      "image": "act-tag",
+      "text": "___ The children playing tag?",
       "answers": [
         "Are"
       ],
@@ -2465,8 +2482,8 @@
         "Is",
         "Are"
       ],
-      "hint": "Mia and Ana → Are.",
-      "explain": "Are Mia and Ana speaking English?"
+      "hint": "The children → Are.",
+      "explain": "Are The children playing tag?"
     },
     {
       "id": "w2-fb-024",
@@ -2493,8 +2510,8 @@
       "type": "fill",
       "target": "question",
       "level": 1,
-      "image": "sp-net",
-      "text": "___ they playing volleyball?",
+      "image": "st-cheer",
+      "text": "___ they cheering for the team?",
       "answers": [
         "Are"
       ],
@@ -2504,7 +2521,7 @@
         "Are"
       ],
       "hint": "They → Are.",
-      "explain": "Are they playing volleyball?"
+      "explain": "Are they cheering for the team?"
     },
     {
       "id": "w2-fb-026",
@@ -2531,8 +2548,8 @@
       "type": "fill",
       "target": "question",
       "level": 1,
-      "image": "sp-field",
-      "text": "___ they running on the field?",
+      "image": "they-play-football",
+      "text": "___ they passing the ball?",
       "answers": [
         "Are"
       ],
@@ -2542,7 +2559,7 @@
         "Are"
       ],
       "hint": "They → Are.",
-      "explain": "Are they running on the field?"
+      "explain": "Are they passing the ball?"
     },
     {
       "id": "w2-fb-028",
@@ -2569,8 +2586,8 @@
       "type": "fill",
       "target": "question",
       "level": 1,
-      "image": "they-watch-tv",
-      "text": "___ Mia and Sam watching TV?",
+      "image": "they-play-football",
+      "text": "___ The children playing football?",
       "answers": [
         "Are"
       ],
@@ -2579,8 +2596,8 @@
         "Is",
         "Are"
       ],
-      "hint": "Mia and Sam → Are.",
-      "explain": "Are Mia and Sam watching TV?"
+      "hint": "The children → Are.",
+      "explain": "Are The children playing football?"
     },
     {
       "id": "w2-fb-030",
@@ -2608,14 +2625,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "sp-net",
-      "from": "We are playing volleyball.",
+      "image": "st-cheer",
+      "from": "We are cheering for the team.",
       "answers": [
-        "We aren't playing volleyball.",
-        "We are not playing volleyball."
+        "We aren't cheering for the team.",
+        "We are not cheering for the team."
       ],
       "hint": "Add not: are not / aren't.",
-      "explain": "We aren't playing volleyball."
+      "explain": "We aren't cheering for the team."
     },
     {
       "id": "w2-cs-002",
@@ -2640,14 +2657,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "sp-field",
-      "from": "You are running on the field.",
+      "image": "they-play-football",
+      "from": "You are passing the ball.",
       "answers": [
-        "You aren't running on the field.",
-        "You are not running on the field."
+        "You aren't passing the ball.",
+        "You are not passing the ball."
       ],
       "hint": "Add not: are not / aren't.",
-      "explain": "You aren't running on the field."
+      "explain": "You aren't passing the ball."
     },
     {
       "id": "w2-cs-004",
@@ -2671,14 +2688,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "they-watch-tv",
-      "from": "Mia and Sam are watching TV.",
+      "image": "they-play-football",
+      "from": "The children are playing football.",
       "answers": [
-        "Mia and Sam aren't watching TV.",
-        "Mia and Sam are not watching TV."
+        "The children aren't playing football.",
+        "The children are not playing football."
       ],
       "hint": "Add not: are not / aren't.",
-      "explain": "Mia and Sam aren't watching TV."
+      "explain": "The children aren't playing football."
     },
     {
       "id": "w2-cs-006",
@@ -2703,14 +2720,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "we-read",
-      "from": "They are reading books.",
+      "image": "play-chess",
+      "from": "They are playing chess.",
       "answers": [
-        "They aren't reading books.",
-        "They are not reading books."
+        "They aren't playing chess.",
+        "They are not playing chess."
       ],
       "hint": "Add not: are not / aren't.",
-      "explain": "They aren't reading books."
+      "explain": "They aren't playing chess."
     },
     {
       "id": "w2-cs-008",
@@ -2719,14 +2736,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "play-football",
-      "from": "Sam is playing football.",
+      "image": "act-gymnastics",
+      "from": "Mia is doing gymnastics.",
       "answers": [
-        "Sam isn't playing football.",
-        "Sam is not playing football."
+        "Mia isn't doing gymnastics.",
+        "Mia is not doing gymnastics."
       ],
       "hint": "Add not: is not / isn't.",
-      "explain": "Sam isn't playing football."
+      "explain": "Mia isn't doing gymnastics."
     },
     {
       "id": "w2-cs-009",
@@ -2735,14 +2752,14 @@
       "target": "negative",
       "task": "negative",
       "level": 1,
-      "image": "dance",
-      "from": "They are dancing in the hall.",
+      "image": "speak-english",
+      "from": "They are speaking English.",
       "answers": [
-        "They aren't dancing in the hall.",
-        "They are not dancing in the hall."
+        "They aren't speaking English.",
+        "They are not speaking English."
       ],
       "hint": "Add not: are not / aren't.",
-      "explain": "They aren't dancing in the hall."
+      "explain": "They aren't speaking English."
     },
     {
       "id": "w2-cs-010",
@@ -2766,13 +2783,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "they-play-football",
-      "from": "They are playing football.",
+      "image": "we-read",
+      "from": "They are reading books.",
       "answers": [
-        "Are they playing football?"
+        "Are they reading books?"
       ],
       "hint": "Start with Are.",
-      "explain": "Are they playing football?"
+      "explain": "Are they reading books?"
     },
     {
       "id": "w2-cs-012",
@@ -2796,13 +2813,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "play-chess",
-      "from": "We are playing chess.",
+      "image": "dance",
+      "from": "We are dancing in the hall.",
       "answers": [
-        "Are we playing chess?"
+        "Are we dancing in the hall?"
       ],
       "hint": "Start with Are.",
-      "explain": "Are we playing chess?"
+      "explain": "Are we dancing in the hall?"
     },
     {
       "id": "w2-cs-014",
@@ -2811,13 +2828,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "read-a-book",
-      "from": "She is reading a book.",
+      "image": "sp-bat",
+      "from": "He is playing baseball.",
       "answers": [
-        "Is she reading a book?"
+        "Is he playing baseball?"
       ],
       "hint": "Start with Is.",
-      "explain": "Is she reading a book?"
+      "explain": "Is he playing baseball?"
     },
     {
       "id": "w2-cs-015",
@@ -2826,13 +2843,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "speak-english",
-      "from": "Mia and Ana are speaking English.",
+      "image": "sp-balls",
+      "from": "Mia and Sam are putting the balls in the basket.",
       "answers": [
-        "Are Mia and Ana speaking English?"
+        "Are Mia and Sam putting the balls in the basket?"
       ],
       "hint": "Start with Are.",
-      "explain": "Are Mia and Ana speaking English?"
+      "explain": "Are Mia and Sam putting the balls in the basket?"
     },
     {
       "id": "w2-cs-016",
@@ -2841,13 +2858,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "eat-apples",
-      "from": "She is eating an apple.",
+      "image": "act-karate",
+      "from": "He is doing karate.",
       "answers": [
-        "Is she eating an apple?"
+        "Is he doing karate?"
       ],
       "hint": "Start with Is.",
-      "explain": "Is she eating an apple?"
+      "explain": "Is he doing karate?"
     },
     {
       "id": "w2-cs-017",
@@ -2856,13 +2873,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "sp-net",
-      "from": "They are playing volleyball.",
+      "image": "sp-gym",
+      "from": "They are doing exercises in the gym.",
       "answers": [
-        "Are they playing volleyball?"
+        "Are they doing exercises in the gym?"
       ],
       "hint": "Start with Are.",
-      "explain": "Are they playing volleyball?"
+      "explain": "Are they doing exercises in the gym?"
     },
     {
       "id": "w2-cs-018",
@@ -2871,13 +2888,13 @@
       "target": "question",
       "task": "question",
       "level": 1,
-      "image": "have-breakfast",
-      "from": "Mia is having breakfast.",
+      "image": "act-skating",
+      "from": "Sam is going skating.",
       "answers": [
-        "Is Mia having breakfast?"
+        "Is Sam going skating?"
       ],
       "hint": "Start with Is.",
-      "explain": "Is Mia having breakfast?"
+      "explain": "Is Sam going skating?"
     },
     {
       "id": "w2-fx-001",
@@ -4969,6 +4986,608 @@
       "answer": "c",
       "hint": "Look at the picture.",
       "explain": "Yes, he is."
+    },
+    {
+      "id": "w2-ac-001",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-gymnastics",
+      "prompt": "Look. What is Mia doing?",
+      "options": [
+        "doing gymnastics",
+        "doing karate",
+        "going swimming"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Mia is doing gymnastics."
+    },
+    {
+      "id": "w2-ac-002",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "Look. What is Leo doing?",
+      "options": [
+        "jumping rope",
+        "playing baseball",
+        "playing tag"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Leo is playing baseball."
+    },
+    {
+      "id": "w2-ac-003",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-bounce",
+      "prompt": "Look. What is Ana doing?",
+      "options": [
+        "going skating",
+        "running a race",
+        "bouncing a ball"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Ana is bouncing a ball."
+    },
+    {
+      "id": "w2-ac-004",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-karate",
+      "prompt": "Look. What is Leo doing?",
+      "options": [
+        "doing karate",
+        "riding a bike",
+        "doing gymnastics"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Leo is doing karate."
+    },
+    {
+      "id": "w2-ac-005",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-jump",
+      "prompt": "Look. What is Ana doing?",
+      "options": [
+        "going swimming",
+        "jumping rope",
+        "playing baseball"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Ana is jumping rope."
+    },
+    {
+      "id": "w2-ac-006",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-skating",
+      "prompt": "Look. What is Sam doing?",
+      "options": [
+        "playing tag",
+        "bouncing a ball",
+        "going skating"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Sam is going skating."
+    },
+    {
+      "id": "w2-ac-007",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "ride-a-bike",
+      "prompt": "Look. What is Ana doing?",
+      "options": [
+        "riding a bike",
+        "running a race",
+        "doing karate"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Ana is riding a bike."
+    },
+    {
+      "id": "w2-ac-008",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-pool",
+      "prompt": "Look. What is Ana doing?",
+      "options": [
+        "doing gymnastics",
+        "going swimming",
+        "jumping rope"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Ana is going swimming."
+    },
+    {
+      "id": "w2-ac-009",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-tag",
+      "prompt": "Look. What are the children doing?",
+      "options": [
+        "playing baseball",
+        "going skating",
+        "playing tag"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "The children are playing tag."
+    },
+    {
+      "id": "w2-ac-010",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-field",
+      "prompt": "Look. What are Mia and Sam doing?",
+      "options": [
+        "running a race",
+        "bouncing a ball",
+        "riding a bike"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Mia and Sam are running a race."
+    },
+    {
+      "id": "w2-ac-011",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "act-gymnastics",
+      "prompt": "Mia ___ gymnastics.",
+      "options": [
+        "are doing",
+        "is doing",
+        "is do"
+      ],
+      "answer": "b",
+      "hint": "Mia → is.",
+      "explain": "Mia is doing gymnastics."
+    },
+    {
+      "id": "w2-ac-012",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "Leo is ___ baseball.",
+      "options": [
+        "doing",
+        "going",
+        "playing"
+      ],
+      "answer": "c",
+      "hint": "play baseball → playing baseball.",
+      "explain": "Leo is playing baseball."
+    },
+    {
+      "id": "w2-ac-013",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "act-bounce",
+      "prompt": "Ana ___ a ball.",
+      "options": [
+        "is bouncing",
+        "are bouncing",
+        "is bounce"
+      ],
+      "answer": "a",
+      "hint": "Ana → is.",
+      "explain": "Ana is bouncing a ball."
+    },
+    {
+      "id": "w2-ac-014",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "act-karate",
+      "prompt": "Leo is ___ karate.",
+      "options": [
+        "playing",
+        "doing",
+        "going"
+      ],
+      "answer": "b",
+      "hint": "do karate → doing karate.",
+      "explain": "Leo is doing karate."
+    },
+    {
+      "id": "w2-ac-015",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-jump",
+      "prompt": "Ana ___ rope.",
+      "options": [
+        "are jumping",
+        "is jump",
+        "is jumping"
+      ],
+      "answer": "c",
+      "hint": "Ana → is.",
+      "explain": "Ana is jumping rope."
+    },
+    {
+      "id": "w2-ac-016",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "act-skating",
+      "prompt": "Sam is ___ skating.",
+      "options": [
+        "going",
+        "doing",
+        "playing"
+      ],
+      "answer": "a",
+      "hint": "go skating → going skating.",
+      "explain": "Sam is going skating."
+    },
+    {
+      "id": "w2-ac-017",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "ride-a-bike",
+      "prompt": "Ana ___ a bike.",
+      "options": [
+        "are riding",
+        "is riding",
+        "is ride"
+      ],
+      "answer": "b",
+      "hint": "Ana → is.",
+      "explain": "Ana is riding a bike."
+    },
+    {
+      "id": "w2-ac-018",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "sp-pool",
+      "prompt": "Ana is ___ swimming.",
+      "options": [
+        "doing",
+        "playing",
+        "going"
+      ],
+      "answer": "c",
+      "hint": "go swimming → going swimming.",
+      "explain": "Ana is going swimming."
+    },
+    {
+      "id": "w2-ac-019",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "act-tag",
+      "prompt": "The children ___ tag.",
+      "options": [
+        "are playing",
+        "is playing",
+        "are play"
+      ],
+      "answer": "a",
+      "hint": "The children → are.",
+      "explain": "The children are playing tag."
+    },
+    {
+      "id": "w2-ac-020",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "image": "sp-field",
+      "prompt": "Mia and Sam ___ a race.",
+      "options": [
+        "is running",
+        "are running",
+        "are run"
+      ],
+      "answer": "b",
+      "hint": "Mia and Sam → are.",
+      "explain": "Mia and Sam are running a race."
+    },
+    {
+      "id": "w2-ac-021",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "image": "act-karate",
+      "prompt": "Leo ___ doing gymnastics. He is doing karate.",
+      "options": [
+        "isn't",
+        "aren't"
+      ],
+      "answer": "a",
+      "hint": "Leo = he → isn't.",
+      "explain": "Leo isn't doing gymnastics."
+    },
+    {
+      "id": "w2-ac-022",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "image": "act-tag",
+      "prompt": "The children ___ playing baseball. They are playing tag.",
+      "options": [
+        "isn't",
+        "aren't"
+      ],
+      "answer": "b",
+      "hint": "The children = they → aren't.",
+      "explain": "The children aren't playing baseball."
+    },
+    {
+      "id": "w2-ac-023",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "image": "act-skating",
+      "prompt": "Sam isn't going swimming. He ___ skating.",
+      "options": [
+        "is going",
+        "is doing"
+      ],
+      "answer": "a",
+      "hint": "go skating → is going skating.",
+      "explain": "He is going skating."
+    },
+    {
+      "id": "w2-ac-024",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "image": "act-gymnastics",
+      "prompt": "Mia isn't bouncing a ball. She ___ gymnastics.",
+      "options": [
+        "is playing",
+        "is doing"
+      ],
+      "answer": "b",
+      "hint": "do gymnastics → is doing gymnastics.",
+      "explain": "She is doing gymnastics."
+    },
+    {
+      "id": "w2-ac-025",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-bounce",
+      "prompt": "___ Ana bouncing a ball?",
+      "options": [
+        "Is",
+        "Are",
+        "Does"
+      ],
+      "answer": "a",
+      "hint": "Ana = she → Is.",
+      "explain": "Is Ana bouncing a ball?"
+    },
+    {
+      "id": "w2-ac-026",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-tag",
+      "prompt": "___ the children playing tag?",
+      "options": [
+        "Is",
+        "Are",
+        "Do"
+      ],
+      "answer": "b",
+      "hint": "the children = they → Are.",
+      "explain": "Are the children playing tag?"
+    },
+    {
+      "id": "w2-ac-027",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-gymnastics",
+      "prompt": "Is Mia doing gymnastics?",
+      "options": [
+        "Yes, she does.",
+        "No, she isn't.",
+        "Yes, she is."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Yes, she is."
+    },
+    {
+      "id": "w2-ac-028",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-skating",
+      "prompt": "Is Sam going swimming?",
+      "options": [
+        "No, he isn't.",
+        "Yes, he is.",
+        "No, he doesn't."
+      ],
+      "answer": "a",
+      "hint": "Look: skates, not a pool.",
+      "explain": "No, he isn't. He is going skating."
+    },
+    {
+      "id": "w2-ac-029",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-karate",
+      "prompt": "What is Leo doing?",
+      "options": [
+        "He is playing karate.",
+        "He is doing karate.",
+        "He does karate now."
+      ],
+      "answer": "b",
+      "hint": "do karate.",
+      "explain": "He is doing karate."
+    },
+    {
+      "id": "w2-ac-030",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "What is Leo playing?",
+      "options": [
+        "Tennis.",
+        "Tag.",
+        "Baseball."
+      ],
+      "answer": "c",
+      "hint": "Look at the bat.",
+      "explain": "Leo is playing baseball."
+    },
+    {
+      "id": "w2-rd-013",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Who is cheering?",
+      "options": [
+        "Grandpa.",
+        "Leo."
+      ],
+      "answer": "a",
+      "hint": "Read the third sentence.",
+      "explain": "Grandpa is watching and cheering."
+    },
+    {
+      "id": "w2-rd-014",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is Sam doing?",
+      "options": [
+        "He is cheering.",
+        "He is running across the field."
+      ],
+      "answer": "b",
+      "hint": "Read the fourth sentence.",
+      "explain": "Sam is running across the field."
+    },
+    {
+      "id": "w2-rd-015",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Grandpa is playing football.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "a",
+      "hint": "Grandpa is watching.",
+      "explain": "False. Grandpa isn't playing football. He is watching."
+    },
+    {
+      "id": "w2-rd-016",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "level": 1,
+      "prompt": "Are the boys giving high fives?",
+      "options": [
+        "No, they aren't.",
+        "Yes, they are."
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "Yes, they are."
     }
   ]
 }

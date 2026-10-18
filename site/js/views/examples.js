@@ -42,7 +42,8 @@ export function renderExamples(ctx) {
     h('a', { class: `mode-tab${m.id === mode.id ? ' is-active' : ''}`, href: buildHash(['week', week.id, 'examples', ex.id, m.id]), 'aria-current': m.id === mode.id ? 'true' : undefined },
       h('strong', {}, m.label), h('span', {}, m.name))));
 
-  const machine = machineView(ctx, { subject, verb, to: mode.id, onDone: () => markDone(week.id, 'examples', ex.id) });
+  // examplesDirect (week file): the change in one step, + → −, without the small steps.
+  const machine = machineView(ctx, { subject, verb, to: mode.id, direct: week.examplesDirect === true, onDone: () => markDone(week.id, 'examples', ex.id) });
 
   return screen('Examples', weekBar(ctx, 'examples'),
     h('header', { class: 'section-head learn-head' },

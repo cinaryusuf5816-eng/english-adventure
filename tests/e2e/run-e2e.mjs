@@ -912,18 +912,18 @@ for (const [w, hgt] of SIZES) {
 // =====================================================================
 {
   const page = await newPage({}, 'template');
-  await check('Examples', 'Change Machine: + → − step by step; the ending moves to does', '4 rows, last “Sam doesn\'t play football.”, rule frame shown', async () => {
+  await check('Examples', 'Week 1 Examples: + → − in ONE step (no small steps)', '2 rows, last “Sam doesn\'t play football.”, rule frame shown', async () => {
     await open(page, SUB, '#/week/week-01/examples/ex-01/negative');
-    for (let i = 0; i < 3; i++) await page.click('button:has-text("Show the next change")');
+    await page.click('button:has-text("Show the next change")');
     await page.waitForTimeout(300);
     const rows = await page.locator('.m-row').count();
     const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
     const frame = await page.locator('.m-formula').isVisible();
-    return { ok: rows === 4 && last === "Sam doesn't play football." && frame, detail: `${rows} rows · ${last} · frame=${frame}` };
+    const done = await page.locator('button:has-text("Show the next change")').isDisabled();
+    return { ok: rows === 2 && done && last === "Sam doesn't play football." && frame, detail: `${rows} rows · ${last} · frame=${frame}` };
   });
   await check('Examples', 'Change Machine: has → have in a Does question', '“Does she have breakfast?”', async () => {
     await open(page, SUB, '#/week/week-01/examples/ex-04/question');
-    await page.click('button:has-text("Show the next change")');
     await page.click('button:has-text("Show the next change")');
     const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
     return { ok: last === 'Does she have breakfast?', detail: last };
@@ -1083,13 +1083,13 @@ for (const [w, hgt] of SIZES) {
   };
   const state2 = async (bank, id) => page.evaluate(([k, i]) => JSON.parse(localStorage.getItem(k)).states[i].status, [key2(bank), id]);
 
-  await check('Week 2', 'Week 2 opens with its own title, 258 questions and 10 activities', 'Present Continuous · 258 · 10', async () => {
+  await check('Week 2', 'Week 2 opens with its own title, 292 questions and 11 activities', 'Present Continuous · 292 · 11', async () => {
     await open(page, SUB, `#/week/${W2}/practise`);
     const t = await page.locator('.section-head').innerText();
     const cards = await page.locator('.bank-card').count();
     await open(page, SUB, `#/week/${W2}`);
     const hero = await page.locator('.dash-hero').innerText();
-    return { ok: /258 questions/.test(t) && cards === 10 && /Present\s+Continuous/.test(hero), detail: `${cards} cards · ${t.replace(/\s+/g, ' ').slice(0, 80)}` };
+    return { ok: /292 questions/.test(t) && cards === 11 && /Present\s+Continuous/.test(hero), detail: `${cards} cards · ${t.replace(/\s+/g, ' ').slice(0, 80)}` };
   });
   await check('Week 2', 'Change Machine: play → is playing, then the negative', 'He is swimming in the pool. · Ana isn\'t riding a bike.', async () => {
     await open(page, SUB, `#/week/${W2}/examples/ex-04/positive-ing`);
