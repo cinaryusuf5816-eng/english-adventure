@@ -1,0 +1,319 @@
+/* ===================================================================
+   Notebook theme — a detective's notebook open on a lamp-lit desk.
+   Layered on top of main.css + activities.css (only looks change).
+   Reading text stays in clear print fonts; the handwriting font is
+   used only for small labels and sticky notes.
+   =================================================================== */
+:root {
+  --paper: #fffaf0;
+  --paper-2: #fbf2df;
+  --paper-edge: #e6d6b4;
+  --rule-line: rgba(14, 124, 123, 0.10);
+  --margin-line: rgba(178, 60, 34, 0.22);
+  --tape: rgba(242, 182, 74, 0.62);
+  --tape-teal: rgba(110, 196, 190, 0.6);
+  --note: #fff1a6;
+  --note-pink: #ffd9cf;
+  --note-edge: #e9d26a;
+  --font-hand: "Patrick Hand", "Comic Sans MS", "Segoe Print", var(--font-body);
+  --stack: 0 1px 0 #efe2c4, 0 3px 0 var(--paper-2), 0 4px 0 var(--paper-edge), 0 6px 0 var(--paper-2), 0 7px 0 #d9c69f, 0 22px 34px rgba(4, 18, 26, 0.45);
+}
+
+/* ---------- desk ---------- */
+body {
+  background:
+    radial-gradient(900px 520px at 50% -140px, rgba(255, 214, 140, 0.30), transparent 70%),
+    radial-gradient(1200px 700px at 110% 110%, rgba(14, 124, 123, 0.22), transparent 60%),
+    repeating-linear-gradient(100deg, rgba(255, 255, 255, 0.018) 0 2px, transparent 2px 9px),
+    linear-gradient(180deg, #123f50 0px, #0c2f3d 900px, #0a2532 1800px);
+  background-color: #0a2532;
+}
+html { background-color: #0a2532; }
+
+/* ---------- paper surfaces ---------- */
+.panel, .section-head, .practice-head, .results, .switch, .speak-card, .week-hero,
+.lesson-stage, .word-stage, .question-card, .reveal-wrap, .door-wrap, .yesno-wrap, .notebook-page {
+  background-color: var(--paper);
+  box-shadow: var(--stack);
+  border: 0;
+}
+
+/* Two-page spread: left page (picture) + right page (ruled lines) + spine in the middle */
+.lesson-stage, .word-stage, .reveal-wrap, .door-wrap, .yesno-wrap {
+  --split: 56.5%;
+  position: relative;
+  border-radius: 10px 10px 14px 14px;
+  background-image:
+    linear-gradient(90deg,
+      transparent calc(var(--split) - 26px),
+      rgba(90, 60, 20, 0.07) calc(var(--split) - 8px),
+      rgba(90, 60, 20, 0.20) var(--split),
+      rgba(90, 60, 20, 0.07) calc(var(--split) + 8px),
+      transparent calc(var(--split) + 26px)),
+    linear-gradient(90deg, transparent var(--split), transparent 100%),
+    repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px);
+  background-size: 100% 100%, 100% 100%, calc(100% - var(--split)) 100%;
+  background-position: 0 0, 0 0, right 0 top 18px;
+  background-repeat: no-repeat, no-repeat, repeat-y;
+}
+.question-card { --split: 42%; }
+.question-card {
+  position: relative;
+  border-radius: 10px 10px 14px 14px;
+  background-image:
+    linear-gradient(90deg, transparent calc(var(--split) - 22px), rgba(90, 60, 20, 0.07) calc(var(--split) - 6px), rgba(90, 60, 20, 0.18) var(--split), rgba(90, 60, 20, 0.07) calc(var(--split) + 6px), transparent calc(var(--split) + 22px)),
+    repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px);
+  background-size: 100% 100%, calc(100% - var(--split)) 100%;
+  background-position: 0 0, right 0 top 18px;
+  background-repeat: no-repeat, repeat-y;
+}
+.lesson-stage.no-pic { background-image: repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px); background-size: auto; background-position: 0 18px; }
+
+/* red margin line on single pages */
+.notebook-page, .results, .switch, .setup-form, .prose {
+  position: relative;
+  background-image:
+    linear-gradient(90deg, transparent 46px, var(--margin-line) 46px 48px, transparent 48px),
+    repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px);
+  background-position: 0 0, 0 18px;
+  padding-left: max(64px, clamp(18px, 3vw, 32px)) !important;
+}
+
+/* bookmark ribbon on page headers */
+.section-head, .practice-head { position: relative; border-radius: 10px; }
+.section-head::after, .practice-head::after {
+  content: ""; position: absolute; top: -6px; right: 34px; width: 22px; height: 46px;
+  background: linear-gradient(180deg, var(--coral-700), #8f2b15);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.practice-head .head-tools, .learn-head .head-tools { margin-right: 52px; }
+
+/* handwriting accents */
+.eyebrow, .stage-kicker, .q-kicker, .stage-q, .bubble-who, .slot-label, .note-title {
+  font-family: var(--font-hand);
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+.eyebrow { font-size: 1.15rem; color: var(--teal-700); }
+.stage-kicker, .q-kicker, .stage-q { font-size: 1.45rem; }
+
+/* ---------- taped photos ---------- */
+.stage-pic, .q-pic, .club-pic, .door-pic, .memory-wrap .pic.memory-pic {
+  overflow: visible;
+  background: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 8px 18px rgba(40, 30, 10, 0.18);
+}
+.stage-pic img, .q-pic img, .club-pic img, .door-pic img { border-radius: 2px; }
+.stage-pic, .door-pic { transform: rotate(-1.2deg); }
+.q-pic { transform: rotate(0.8deg); }
+.club-pic { transform: rotate(1.5deg); }
+.stage-pic::before, .q-pic::before, .club-pic::before, .door-pic::before {
+  content: ""; position: absolute; z-index: 2; top: -13px; left: calc(50% - 56px);
+  width: 112px; height: 28px; background: var(--tape);
+  transform: rotate(-3deg);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  clip-path: polygon(3% 0, 97% 4%, 100% 50%, 96% 100%, 2% 96%, 0 50%);
+}
+.q-pic::before { background: var(--tape-teal); transform: rotate(2deg); }
+.clue-card .q-pic::before { display: none; }
+.pic-failed::before { display: none; }
+
+/* ---------- sticky notes ---------- */
+.rule-box, .hint-box, .sticky-note, .word-note, .ex-note {
+  position: relative;
+  background: var(--note);
+  color: var(--navy-900);
+  border: 0;
+  border-radius: 2px 2px 14px 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 8px 14px rgba(60, 45, 0, 0.16);
+  transform: rotate(-1deg);
+}
+.rule-box { padding: 1rem 1.2rem; }
+.hint-box { color: var(--gold-800); transform: rotate(0.6deg); }
+.rule-box::before, .sticky-note::before {
+  content: ""; position: absolute; top: -10px; left: 18px; width: 70px; height: 20px;
+  background: rgba(255, 255, 255, 0.55); transform: rotate(-4deg);
+}
+.sticky-note { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.8rem 1rem; font-weight: 800; font-size: 1.25rem; align-items: flex-start; }
+.note-title { color: var(--coral-700); font-size: 1.3rem; font-weight: 400; }
+
+/* clue cards = index cards */
+.clue-card {
+  background: #fff;
+  background-image: linear-gradient(180deg, transparent 44px, rgba(178, 60, 34, 0.3) 44px 46px, transparent 46px), repeating-linear-gradient(180deg, transparent 0 31px, rgba(14, 124, 123, 0.12) 31px 32px);
+  border: 1px solid var(--paper-edge);
+  border-radius: 6px;
+  box-shadow: 0 6px 14px rgba(40, 30, 10, 0.16);
+  transform: rotate(-0.6deg);
+}
+.passage { background: #fff; border: 1px solid var(--paper-edge); box-shadow: 0 6px 14px rgba(40, 30, 10, 0.14); border-radius: 6px; }
+
+/* ---------- stamp on correct answers ---------- */
+.feedback.is-right { position: relative; padding-right: 150px; }
+.feedback.is-right::after {
+  content: "CLUE FOUND!";
+  position: absolute; right: 14px; top: 50%;
+  transform: translateY(-50%) rotate(-9deg);
+  font: 600 1rem/1 var(--font-head);
+  letter-spacing: 0.06em;
+  color: var(--green-700);
+  border: 3px double var(--green-700);
+  border-radius: 8px;
+  padding: 0.35rem 0.55rem;
+  opacity: 0.85;
+  background: rgba(255, 255, 255, 0.35);
+}
+.lesson-stage .feedback.is-right::after, .door-wrap .feedback.is-right::after { content: "✓"; font-size: 1.3rem; padding: 0.15rem 0.5rem; }
+.lesson-stage .feedback.is-right, .door-wrap .feedback.is-right { padding-right: 64px; }
+
+/* ---------- notebook index tabs ---------- */
+.week-bar { align-items: flex-end; }
+.section-tabs { background: transparent; padding: 0; gap: 0.25rem; align-items: flex-end; }
+.tab {
+  border-radius: 12px 12px 0 0;
+  color: var(--navy-950);
+  min-height: 46px;
+  padding: 0 1rem;
+  box-shadow: inset 0 -6px 8px -6px rgba(0, 0, 0, 0.25);
+  transform: translateY(6px);
+  transition: transform 0.15s ease;
+}
+.tab:hover { color: var(--navy-950); transform: translateY(2px); }
+.tab-words { background: #f6c96a; }
+.tab-learn { background: #8fd3cb; }
+.tab-practise { background: #a8d99a; }
+.tab-play { background: #f4a58e; }
+.tab-speak { background: #c9b6ec; }
+.tab.is-active { transform: translateY(0); box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.18); font-size: 1.05rem; min-height: 54px; color: var(--navy-950); }
+.tab.is-active::after { content: ""; position: absolute; }
+
+/* ---------- cards in menus = little notebooks / index cards ---------- */
+.section-card, .game-card, .bank-card, .topic-card, .week-card {
+  border-radius: 6px 16px 16px 6px;
+  border: 0;
+  border-left: 10px solid var(--teal-700);
+  box-shadow: 0 2px 0 var(--paper-edge), 0 12px 22px rgba(4, 18, 26, 0.35);
+  background-color: var(--paper);
+}
+.section-card:hover, .game-card:hover, .bank-card:hover, .topic-card:hover, a.week-card:hover { border-color: var(--gold-500); transform: translateY(-3px) rotate(-0.4deg); }
+.sc-words { border-left-color: #e2a836; }
+.sc-learn { border-left-color: #2a9d93; }
+.sc-practise { border-left-color: #4f9a45; }
+.sc-play { border-left-color: #d9694f; }
+.sc-speak { border-left-color: #7a5cc0; }
+.week-card .pic { border-radius: 0; }
+.topic-num, .bank-letter { font-family: var(--font-hand); font-size: 1.6rem; }
+
+/* home cover: the notebook cover with a label */
+.hero { border-radius: 10px 22px 22px 10px; border-left: 16px solid #0b2a36; box-shadow: var(--stack); }
+.hero-card {
+  background: var(--paper);
+  border: 2px dashed var(--paper-edge);
+  border-radius: 6px;
+  transform: translateY(-50%) rotate(-1.2deg);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+.hero-card::before { content: ""; position: absolute; top: -14px; left: calc(50% - 60px); width: 120px; height: 28px; background: var(--tape); transform: rotate(2deg); }
+
+/* ---------- speech bubbles look hand-drawn ---------- */
+.bubble { border-radius: 26px 22px 28px 20px; box-shadow: 3px 4px 0 rgba(15, 58, 74, 0.15); }
+
+/* ---------- jumbled cards = paper slips ---------- */
+.token { border-radius: 4px; border-width: 2px; box-shadow: 0 3px 0 var(--navy-900), 0 5px 10px rgba(0, 0, 0, 0.12); }
+.token:nth-child(odd) { transform: rotate(-1.2deg); }
+.token:nth-child(even) { transform: rotate(1deg); }
+.token.is-placed { transform: none; }
+.token-line { background: rgba(215, 239, 236, 0.75); border-radius: 6px; }
+
+/* ---------- page-turn when a new screen opens ---------- */
+@keyframes page-in {
+  from { opacity: 0; transform: perspective(1400px) rotateY(-7deg); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.screen > .lesson-stage, .screen > .word-stage, .screen > .question-card, .screen > .reveal-wrap,
+.screen > .door-wrap, .screen > .yesno-wrap, .screen > .speak-card, .screen > .results {
+  animation: page-in 0.38s cubic-bezier(.2, .7, .2, 1) both;
+  transform-origin: left center;
+}
+.screen > .section-grid, .screen > .bank-grid, .screen > .game-grid, .screen > .topic-list, .screen > .word-grid {
+  animation: rise-in 0.3s ease both;
+}
+
+/* ---------- new games ---------- */
+.memory-wrap { padding: clamp(14px, 2vw, 24px); border-radius: 10px; display: flex; flex-direction: column; gap: 1rem; }
+.memory-tools { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: space-between; align-items: center; }
+.memory-status { display: flex; gap: 0.4rem; align-items: center; margin: 0; font-weight: 800; color: var(--gold-800); }
+.memory-board { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: clamp(8px, 1.4vw, 16px); }
+@media (max-width: 1100px) { .memory-board { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.memory-card {
+  position: relative; aspect-ratio: 4 / 3; min-height: 88px;
+  border: 0; border-radius: 8px; cursor: pointer; padding: 0;
+  background: transparent; perspective: 900px;
+}
+.memory-back, .memory-face {
+  position: absolute; inset: 0; display: grid; place-items: center;
+  border-radius: 8px; backface-visibility: hidden;
+  transition: transform 0.45s ease;
+  box-shadow: 0 3px 0 var(--paper-edge), 0 8px 16px rgba(4, 18, 26, 0.3);
+}
+.memory-back {
+  background:
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.06) 0 8px, transparent 8px 16px),
+    linear-gradient(135deg, var(--petrol-700), var(--navy-900));
+  color: var(--gold-400);
+}
+.memory-face { background: #fff; transform: rotateY(180deg); padding: 6px; overflow: hidden; }
+.memory-card.is-open .memory-back, .memory-card.is-done .memory-back { transform: rotateY(-180deg); }
+.memory-card.is-open .memory-face, .memory-card.is-done .memory-face { transform: rotateY(0); }
+.memory-card.is-done .memory-face { outline: 4px solid var(--green-700); outline-offset: -4px; }
+.memory-card:disabled { cursor: default; opacity: 1; }
+.memory-pic { width: 100%; height: 100%; background: transparent; }
+.memory-pic img { object-fit: cover; border-radius: 4px; }
+.memory-word { font-family: var(--font-head); font-size: clamp(1.1rem, 0.8rem + 1.2vw, 1.8rem); color: var(--navy-900); text-align: center; line-height: 1.1; }
+.yesno-wrap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(14px, 2.5vw, 30px); padding: clamp(14px, 2.2vw, 26px); align-items: center; }
+.clue-note { font-size: 1.35rem; }
+.spin { padding: clamp(16px, 2.5vw, 30px); border-radius: 10px; display: flex; flex-direction: column; gap: 1.1rem; }
+.slots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; }
+.slot { display: flex; flex-direction: column; gap: 0.3rem; align-items: center; background: var(--navy-900); color: var(--on-dark); border-radius: 14px; padding: 0.8rem 0.6rem 1rem; box-shadow: inset 0 0 0 4px rgba(242, 182, 74, 0.35), 0 8px 16px rgba(4, 18, 26, 0.3); text-align: center; }
+.slot-label { color: var(--gold-400); font-size: 1.3rem; }
+.slot-value { font-family: var(--font-head); font-size: clamp(1.4rem, 1rem + 1.8vw, 2.4rem); line-height: 1.15; min-height: 1.2em; }
+.slot-form { color: var(--gold-400); }
+.btn-spin { font-size: 1.25rem; padding-left: 1.6rem; padding-right: 1.6rem; }
+.spin-answer { background: #fff; border: 1px solid var(--paper-edge); border-radius: 8px; padding: 1rem 1.2rem; box-shadow: 0 6px 14px rgba(40, 30, 10, 0.14); }
+
+@media (max-width: 860px) {
+  .lesson-stage, .word-stage, .reveal-wrap, .door-wrap, .yesno-wrap, .question-card { background-image: repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px); background-size: auto; background-position: 0 18px; }
+  .yesno-wrap { grid-template-columns: 1fr; }
+  .memory-board { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .notebook-page, .results, .switch, .setup-form, .prose { padding-left: 18px !important; background-image: repeating-linear-gradient(180deg, transparent 0 37px, var(--rule-line) 37px 38px); }
+  .feedback.is-right { padding-right: 1rem; }
+  .feedback.is-right::after { display: none; }
+  .slots { grid-template-columns: 1fr; }
+  .memory-board { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tab { transform: none; border-radius: 10px; }
+  .section-head::after, .practice-head::after { right: 14px; }
+  .practice-head .head-tools, .learn-head .head-tools { margin-right: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .memory-back, .memory-face { transition: none; }
+}
+
+/* small screens: keep things straight and inside the page */
+@media (max-width: 860px) {
+  .hero-card { transform: rotate(-0.8deg); }
+  .stage-pic, .door-pic, .q-pic, .club-pic { transform: none; }
+}
+
+.q-prompt .clock, .stage-side .clock { align-self: flex-start; }
+
+/* page-turn and tilted photos never cause sideways scrolling */
+.main { overflow-x: clip; }
