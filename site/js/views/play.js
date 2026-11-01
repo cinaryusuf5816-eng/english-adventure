@@ -10,7 +10,7 @@ import { markDone } from '../progress.js';
 const GAMES = [
   { id: 'picture-reveal', title: 'Picture Reveal', text: 'Open the picture bit by bit. Guess the action. Say a sentence.', icon: 'grid' },
   { id: 'sentence-switch', title: 'Sentence Switch', text: 'Choose who and what. Switch +, − and ? and see every change.', icon: 'shuffle' },
-  { id: 'question-door', title: 'Question Door', text: 'Make the right Do / Does question. The door opens.', icon: 'door' },
+  { id: 'question-door', title: 'Question Door', text: 'Read the clue. Make the right question. The door opens.', icon: 'door' },
   { id: 'memory', title: 'Memory Match', text: 'Find the picture and its words.', icon: 'words' },
   { id: 'yes-or-no', title: 'Yes or No?', text: 'Read the clue. Choose the short answer.', icon: 'check' },
   { id: 'spin-and-say', title: 'Spin and Say', text: 'Spin who and what. Say +, − or ?.', icon: 'speak' },
@@ -129,7 +129,7 @@ function sentenceSwitch(ctx) {
   subjectSel.addEventListener('change', () => { subject = data.subjects.find((s) => s.id === subjectSel.value); fillVerbs(); draw(); });
   verbSel.addEventListener('change', () => { verb = data.verbs.find((v) => v.id === verbSel.value); draw(); });
 
-  const forms = [
+  const forms = g.forms || [
     { id: 'positive', label: '+ Positive' },
     { id: 'negative', label: '− Negative' },
     { id: 'question', label: '? Question' }
@@ -145,16 +145,16 @@ function sentenceSwitch(ctx) {
     const line = h('p', { class: 'switch-sentence' }, s.parts.map((p, i) => [
       h('span', { class: `part part-${p.role}` }, p.text),
       i < s.parts.length - 1 ? ' ' : ''
-    ]), form === 'question' ? '?' : '.');
+    ]), s.text.slice(-1));
     const legend = h('ul', { class: 'switch-legend' }, g.switchLegend.map(([cls, text]) => h('li', { class: cls }, text)));
-    const ans = s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), h('span', {}, s.answers.no)) : null;
+    const ans = s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), s.answers.no ? h('span', {}, s.answers.no) : null) : null;
     out.replaceChildren(...[line, ans, legend].filter(Boolean));
   }
   fillVerbs();
   draw();
 
   return screen('Sentence Switch', weekBar(ctx, 'play'),
-    gameHead(ctx, 'Sentence Switch', 'Choose who and what. Then switch: + − ?'),
+    gameHead(ctx, 'Sentence Switch', g.forms ? 'Choose who and what. Then switch the question.' : 'Choose who and what. Then switch: + − ?'),
     h('section', { class: 'switch panel' },
       h('div', { class: 'switch-pick' },
         h('label', { for: 'sw-subject' }, 'Who?'), subjectSel,

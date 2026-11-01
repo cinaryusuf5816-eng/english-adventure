@@ -4,7 +4,7 @@ import { h, button, icon, announce } from '../ui.js';
 import { grammarOf } from '../core/tense.js';
 import { listenButton } from './common.js';
 
-const ROLE_NAMES = { subject: 'who', helper: 'helper', verb: 'verb', end: 'ending', rest: '', mark: '' };
+const ROLE_NAMES = { wh: 'question word', subject: 'who', helper: 'helper', verb: 'verb', end: 'ending', rest: '', mark: '' };
 const reducedMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function blockEl(x) {
@@ -42,7 +42,7 @@ export function machineView(ctx, { subject, verb, to, onDone, compact = false, d
 
   function rowEl(step, i) {
     return h('li', { class: 'm-row is-current', 'data-step': String(i) },
-      h('span', { class: `m-label lab-${step.label === '+' ? 'pos' : step.label === '?' ? 'q' : 'neg'}`, 'aria-label': step.label === '+' ? 'positive' : step.label === '?' ? 'question' : 'negative' }, step.label),
+      h('span', { class: `m-label lab-${step.label === '+' || step.label === 'A' ? 'pos' : step.label === '?' ? 'q' : 'neg'}`, 'aria-label': { '+': 'positive', '?': 'question', A: 'answer' }[step.label] || 'negative' }, step.label),
       h('span', { class: 'm-blocks' }, step.blocks.map(blockEl)),
       h('span', { class: 'sr-only' }, stepText(step)));
   }

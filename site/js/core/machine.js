@@ -35,7 +35,7 @@ export function stepText(step) {
   }
   if (text) words.push(text);
   const s = words.join(' ');
-  return /[?]$/.test(s) ? s : `${s}.`;
+  return /[?.!]$/.test(s) ? s : `${s}.`;
 }
 
 /**

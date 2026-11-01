@@ -3,6 +3,7 @@
 import * as simpleSentence from './grammar.js';
 import * as simpleMachine from './machine.js';
 import * as continuous from './continuous.js';
+import * as wh from './wh.js';
 
 const SIMPLE = {
   id: 'present-simple',
@@ -38,6 +39,33 @@ const CONTINUOUS = {
   verbLabel: (v) => `${v.base} ${v.rest.replace('{poss}', '…')}`
 };
 
+const WH = {
+  id: 'wh-questions',
+  buildSentence: wh.buildSentence,
+  machineSteps: wh.machineSteps,
+  stepText: wh.stepText,
+  formula: wh.formula,
+  legend: [['wh', 'question word'], ['helper', 'am / is / are'], ['subject', 'who'], ['verb', 'verb'], ['end', '-ing']],
+  switchLegend: [['part-wh', 'question word: Who, What, Where …'], ['part-helper', 'helper: am / is / are'], ['part-verb-s', 'verb + ing: running']],
+  examplesLead: 'Choose a picture. Watch the sentence turn into a question: Who? What? Where?',
+  forms: [
+    { id: 'positive', label: '+ Sentence', name: 'sentence' },
+    { id: 'who', label: 'Who?', name: 'Who question' },
+    { id: 'what', label: 'What?', name: 'What question' },
+    { id: 'where', label: 'Where?', name: 'Where question' }
+  ],
+  modes: [
+    { id: 'who', label: 'Who?', name: 'A person' },
+    { id: 'what', label: 'What?', name: 'A thing or action' },
+    { id: 'where', label: 'Where?', name: 'A place', needs: 'where' },
+    { id: 'why', label: 'Why?', name: 'A reason', needs: 'why' },
+    { id: 'how', label: 'How?', name: 'A way', needs: 'how' }
+  ],
+  verbLabel: (v) => `${v.base} ${v.rest.replace('{poss}', '…')}`
+};
+
+const GRAMMARS = { 'present-continuous': CONTINUOUS, 'wh-questions': WH };
+
 export function grammarOf(week) {
-  return week && week.grammar === 'present-continuous' ? CONTINUOUS : SIMPLE;
+  return (week && GRAMMARS[week.grammar]) || SIMPLE;
 }

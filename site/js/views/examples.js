@@ -10,7 +10,7 @@ export function renderExamples(ctx) {
   const { week } = ctx.week;
   const list = week.examples || [];
   const sw = week.games.sentenceSwitch;
-  const { buildSentence, modes: MODES } = grammarOf(week);
+  const { buildSentence, modes: MODES, examplesLead } = grammarOf(week);
   const subjectOf = (id) => sw.subjects.find((s) => s.id === id);
   const verbOf = (id) => sw.verbs.find((v) => v.id === id);
 
@@ -18,7 +18,7 @@ export function renderExamples(ctx) {
     return screen('Examples', weekBar(ctx, 'examples'),
       h('header', { class: 'section-head' },
         h('h1', {}, 'Examples'),
-        h('p', { class: 'lead' }, 'Choose a picture. Watch the sentence change: + → − → ?'),
+        h('p', { class: 'lead' }, examplesLead || 'Choose a picture. Watch the sentence change: + → − → ?'),
         legend(week)),
       h('div', { class: 'example-grid' }, list.map((ex) => {
         const s = buildSentence(subjectOf(ex.subject), verbOf(ex.verb), 'positive');
@@ -35,7 +35,7 @@ export function renderExamples(ctx) {
   const subject = subjectOf(ex.subject);
   const verb = verbOf(ex.verb);
   const single = subject.person === 'single';
-  const modes = MODES.filter((m) => !m.singleOnly || single);
+  const modes = MODES.filter((m) => (!m.singleOnly || single) && (!m.needs || verb[m.needs]));
   const mode = modes.find((m) => m.id === ctx.route.mode) || modes[0];
 
   const tabs = h('div', { class: 'mode-tabs', role: 'group', 'aria-label': 'Change' }, modes.map((m) =>

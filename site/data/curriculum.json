@@ -25,10 +25,21 @@
     {
       "id": "week-03",
       "number": 3,
+      "title": "Wh- Questions",
+      "subtitle": "Who? What? Where? When? How? Why?",
+      "published": true,
+      "file": "data/weeks/week-03/week.json",
+      "cover": "assets/images/week-03/week-03-cover",
+      "coverAlt": "A big obstacle course: Sam, Mia, Leo and Ana are moving along the path.",
+      "unit": "Unit 2"
+    },
+    {
+      "id": "week-04",
+      "number": 4,
       "title": "Coming soon",
       "subtitle": "New clues are on the way.",
       "published": false,
-      "unit": "Unit 2"
+      "unit": "Unit 3"
     }
   ]
 }

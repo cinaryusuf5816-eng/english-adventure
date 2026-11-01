@@ -30,7 +30,7 @@ function itemEl(ctx, q, n, opts, rng) {
         opts.wordBox && q.pool ? h('p', { class: 'ws-box' }, 'Word box: ', q.pool.join(' / ')) : null);
       break;
     case 'change':
-      parts.push(h('p', {}, h('strong', {}, q.task === 'negative' ? 'Make it negative: ' : 'Make a question: '), q.from), h('p', { class: 'ws-line' }, LINE));
+      parts.push(h('p', {}, h('strong', {}, q.cue ? `${q.cue} ` : q.task === 'negative' ? 'Make it negative: ' : 'Make a question: '), q.from), h('p', { class: 'ws-line' }, LINE));
       break;
     case 'fix':
       parts.push(h('p', {}, q.words.join(' ')), h('p', { class: 'ws-line' }, 'Circle the mistake. Write it right: ', LINE));

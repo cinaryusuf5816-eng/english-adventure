@@ -136,6 +136,7 @@
 .switch-sentence { font-size: clamp(1.8rem, 1.2rem + 2.6vw, 3.2rem); font-weight: 800; line-height: 1.35; margin: 0 0 0.5rem; }
 .part { border-radius: 10px; padding: 0 0.12em; transition: background-color 0.25s ease; }
 .part-helper { background: var(--gold-400); color: var(--navy-950); }
+.part-wh { background: #2f63d1; color: #fff; font-weight: 800; }
 .part-verb { background: var(--teal-100); color: var(--teal-700); text-decoration: underline 4px var(--teal-600); text-underline-offset: 6px; }
 .part-verb-s { background: var(--coral-100); color: var(--coral-700); text-decoration: underline 4px var(--coral-700); text-underline-offset: 6px; }
 .switch-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0; font-size: 0.95rem; font-weight: 800; }

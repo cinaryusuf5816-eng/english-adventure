@@ -5,7 +5,7 @@
 // Output: tests/e2e/results.json, tests/e2e/E2E_RESULTS.md, screenshots in tests/e2e/screenshots/
 // Run: npm run test:e2e   (needs Edge or Chrome installed; no browser download)
 import { chromium } from 'playwright-core';
-import extract from 'extract-zip';
+import { execFileSync } from 'node:child_process';
 import { rmSync, mkdirSync, readFileSync, writeFileSync, cpSync, existsSync } from 'node:fs';
 import { resolve, join } from 'node:path';
 import { startServer } from '../../scripts/serve.mjs';
@@ -47,7 +47,8 @@ async function check(area, name, expected, fn) {
 rmSync(TMP, { recursive: true, force: true });
 mkdirSync(READY, { recursive: true });
 mkdirSync(SHOTS, { recursive: true });
-await extract(join(ROOT, 'release/READY_TO_UPLOAD.zip'), { dir: READY });
+// extract-zip hangs on Node 26; every Windows and macOS system has bsdtar.
+execFileSync('tar', ['-xf', join(ROOT, 'release/READY_TO_UPLOAD.zip'), '-C', READY]);
 if (!existsSync(join(READY, 'index.html'))) throw new Error('index.html is not at the top of the zip');
 
 // Week 2 test copy (template-based, NOT published content): proves a new week can be added
@@ -273,7 +274,7 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
     return { ok: /does not exist/.test(t) && (await page.locator('a:has-text("Home")').count()) > 0, detail: t };
   });
   await check('Errors', 'Unpublished week (Coming soon) cannot open', 'message “coming soon”', async () => {
-    await open(page, SUB, '#/week/week-03');
+    await open(page, SUB, '#/week/week-04');
     const t = await page.locator('h1').innerText();
     return { ok: /coming soon/i.test(t), detail: t };
   });
@@ -694,7 +695,7 @@ const TYPES = ['mcq', 'jumbled', 'fill', 'change', 'fix', 'decide', 'dialogue', 
     await open(page, W2URL, '#/week/week-01/practise/mcq');
     const resume = await page.locator('button:has-text("Resume")').count();
     const s = await getSession(page, 'mcq');
-    return { ok: w2img && cards === 2 && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
+    return { ok: w2img && cards === 3 && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
   });
   await page.context().close();
 }
@@ -977,8 +978,8 @@ for (const [w, hgt] of SIZES) {
     const mission = await page.locator('.mission li').first().getAttribute('class');
     return { ok: /3\/13/.test(learnRow) && /is-done/.test(mission || ''), detail: `${learnRow.replace(/\s+/g, ' ')} · ${mission}` };
   });
-  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-03 disabled; tip changes', async () => {
-    const dis = await page.locator('#week-select option[value="week-03"]').getAttribute('disabled');
+  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-04 disabled; tip changes', async () => {
+    const dis = await page.locator('#week-select option[value="week-04"]').getAttribute('disabled');
     const a = await page.locator('.owl-bubble').innerText();
     await page.click('.owl-bubble');
     const b = await page.locator('.owl-bubble').innerText();
@@ -1138,6 +1139,112 @@ for (const [w, hgt] of SIZES) {
     await open(page, SUB, '#/week/week-01/play/sentence-switch');
     const s = await page.locator('.switch-sentence').innerText();
     return { ok: s === 'He plays football.', detail: s };
+  });
+  await page.context().close();
+}
+
+// =====================================================================
+// 18c. Week 3 — Wh- questions and moving words
+// =====================================================================
+{
+  const page = await newPage({}, 'week3');
+  const W3 = 'week-03';
+  const key3 = (bank) => `eemc:v1:${W3}:practise:${bank}:practice`;
+  const play3 = async (bank, ids, support = 'less') => {
+    await page.goto(`${SUB}#/`, { waitUntil: 'networkidle' });
+    await page.evaluate(([k, s]) => localStorage.setItem(k, JSON.stringify(s)), [key3(bank), {
+      id: `s-w3-${Date.now()}`, weekId: W3, bank, mode: 'practice', settings: { target: 'all', n: 'all', support },
+      round: 1, parentId: null, seed: 777, createdAt: Date.now(), index: 0, questionIds: ids, states: {}, finished: false
+    }]);
+    await page.goto(`${SUB}#/week/${W3}/practise/${bank}/play`, { waitUntil: 'networkidle' });
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForSelector('.question-card', { timeout: 8000 });
+    await dismissCelebration(page);
+  };
+  const state3 = async (bank, id) => page.evaluate(([k, i]) => JSON.parse(localStorage.getItem(k)).states[i].status, [key3(bank), id]);
+
+  await check('Week 3', 'Week 3 opens with its own title, 304 questions and 12 activities', 'Wh- Questions · 304 · 12', async () => {
+    await open(page, SUB, `#/week/${W3}/practise`);
+    const t = await page.locator('.section-head').innerText();
+    const cards = await page.locator('.bank-card').count();
+    await open(page, SUB, `#/week/${W3}`);
+    const hero = await page.locator('.dash-hero').innerText();
+    return { ok: /304 questions/.test(t) && cards === 12 && /Wh- Questions/.test(hero), detail: `${cards} cards · ${t.replace(/\s+/g, ' ').slice(0, 80)}` };
+  });
+  await check('Week 3', 'Word sets: moving words first, then 7 more sets, every picture loads', '8 sets · no broken pictures', async () => {
+    await open(page, SUB, `#/week/${W3}/words`);
+    const sets = await page.locator('.set-tabs .mode-tab').count();
+    const first = await page.locator('.set-tabs .mode-tab').first().innerText();
+    await open(page, SUB, `#/week/${W3}/words?set=body&view=grid`);
+    await page.waitForTimeout(800);
+    const broken = await page.evaluate(() => [...document.images].filter((i) => i.complete && i.naturalWidth === 0).length);
+    return { ok: sets === 8 && /Moving/.test(first) && broken === 0, detail: `${sets} · ${first.replace(/\s+/g, ' ')} · broken ${broken}` };
+  });
+  await check('Week 3', 'Change Machine: sentence → Where question → answer; only possible question words show', 'Where is Sam running? · Around the cone.', async () => {
+    await open(page, SUB, `#/week/${W3}/examples/ex-01/where`);
+    const next = page.locator('button:has-text("Show the next change")');
+    while (await next.isEnabled()) await next.click();
+    const rows = await page.locator('.m-row .sr-only').allInnerTexts();
+    const tabs = await page.locator('.mode-tab').allInnerTexts();
+    const rule = await page.locator('.m-formula').innerText();
+    const ok = rows[0] === 'Sam is running around the cone.' && rows[1] === 'Where is Sam running?' && rows[2] === 'Around the cone.' && tabs.length === 4 && !tabs.join(' ').includes('Why') && /Where/.test(rule);
+    return { ok, detail: `${rows.join(' | ')} · ${tabs.length} tabs` };
+  });
+  await check('Week 3', 'Sentence Switch makes Who, What and Where questions with answers', 'Mia · Who / What / Where', async () => {
+    await open(page, SUB, `#/week/${W3}/play/sentence-switch`);
+    await page.selectOption('#sw-subject', 'mia');
+    await page.selectOption('#sw-verb', 'pass-baton');
+    const get = () => page.locator('.switch-sentence').innerText();
+    const pos = await get();
+    await page.click('.switch-forms button:has-text("Who?")');
+    const who = await get();
+    const whoA = await page.locator('.switch-answers').innerText();
+    await page.click('.switch-forms button:has-text("What?")');
+    const what = await get();
+    const whatA = await page.locator('.switch-answers').innerText();
+    await page.click('.switch-forms button:has-text("Where?")');
+    const where = await get();
+    const whereA = await page.locator('.switch-answers').innerText();
+    const ok = pos === 'Mia is passing the baton on the track.' && who === 'Who is passing the baton on the track?' && whoA.trim() === 'Mia is.' && what === 'What is Mia passing on the track?' && whatA.trim() === 'The baton.' && where === 'Where is Mia passing the baton?' && whereA.trim() === 'On the track.';
+    return { ok, detail: `${pos} | ${who} ${whoA} | ${what} ${whatA} | ${where} ${whereA}` };
+  });
+  await check('Week 3', 'Spin and Say gives a question word and a full answer', 'answer has one sentence', async () => {
+    await open(page, SUB, `#/week/${W3}/play/spin-and-say`);
+    await page.click('button:has-text("Show the answer")');
+    const t = await page.locator('.spin-answer').innerText();
+    return { ok: t.length > 5, detail: t.replace(/\s+/g, ' ') };
+  });
+  await check('Week 3', 'Change it: the question word is asked for; statement word order is not accepted', 'correct · trying', async () => {
+    const id = 'w3-cs-001';
+    await play3('change', [id]);
+    const cue = await page.locator('.q-kicker').first().innerText();
+    await page.fill('.question-card .answer-input', 'where is sam running');
+    await page.click('.btn-check');
+    const a = await state3('change', id);
+    await play3('change', [id]);
+    await page.fill('.question-card .answer-input', 'Where Sam is running?');
+    await page.click('.btn-check');
+    const b = await state3('change', id);
+    return { ok: /Where/.test(cue) && a === 'correct-first' && b === 'trying', detail: `${cue} · ${a} · ${b}` };
+  });
+  await check('Week 3', 'Learn: question and answer step, then the Change Machine', 'answer hidden, then shown', async () => {
+    await open(page, SUB, `#/week/${W3}/learn/six-words/2`);
+    const hidden = await page.locator('.answer-line').isHidden();
+    await page.click('button:has-text("Show the answer")');
+    const a = await page.locator('.answer-line').innerText();
+    await open(page, SUB, `#/week/${W3}/learn/who/2`);
+    const machine = await page.locator('.machine').count();
+    return { ok: hidden && /Sam is/.test(a) && machine === 1, detail: `${hidden} · ${a} · ${machine}` };
+  });
+  await check('Week 3', 'Worksheet works with the Wh- activities', 'questions with the cue', async () => {
+    await open(page, SUB, `#/week/${W3}/worksheet`);
+    const t = await page.locator('main').innerText();
+    return { ok: t.length > 100, detail: t.replace(/\s+/g, ' ').slice(0, 80) };
+  });
+  await check('Week 3', 'Weeks 1 and 2 keep their own Sentence Switch', '+ − ? buttons', async () => {
+    await open(page, SUB, '#/week/week-02/play/sentence-switch');
+    const b = await page.locator('.switch-forms button').allInnerTexts();
+    return { ok: b.length === 3 && /Negative/.test(b[1]), detail: b.join(' · ') };
   });
   await page.context().close();
 }

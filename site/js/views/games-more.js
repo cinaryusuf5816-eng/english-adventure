@@ -173,7 +173,7 @@ export function yesNo(ctx, gameHead) {
 export function spinSay(ctx, gameHead) {
   const data = ctx.week.week.games.sentenceSwitch;
   const rng = makeRng(newSeed());
-  const FORMS = [
+  const FORMS = grammarOf(ctx.week.week).forms || [
     { id: 'positive', label: '+', name: 'positive' },
     { id: 'negative', label: '−', name: 'negative' },
     { id: 'question', label: '?', name: 'question' }
@@ -196,9 +196,9 @@ export function spinSay(ctx, gameHead) {
   function show() {
     wSubject.textContent = subject.text;
     wVerb.textContent = `${verb.base} ${verb.rest.replace('{poss}', '…')}`;
-    wForm.textContent = `${form.label} ${form.name}`;
+    wForm.textContent = grammarOf(ctx.week.week).forms ? form.label : `${form.label} ${form.name}`;
     const s = grammarOf(ctx.week.week).buildSentence(subject, verb, form.id);
-    answer.replaceChildren(h('p', { class: 'switch-sentence' }, s.text), s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), h('span', {}, s.answers.no)) : null);
+    answer.replaceChildren(h('p', { class: 'switch-sentence' }, s.text), s.answers ? h('p', { class: 'switch-answers' }, h('span', {}, s.answers.yes), s.answers.no ? h('span', {}, s.answers.no) : null) : null);
   }
   function hideAnswer() {
     answer.hidden = true;

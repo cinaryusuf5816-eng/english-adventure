@@ -269,7 +269,7 @@ function change(ctx, q, session) {
   const target = q.answers[0];
   const end = /[?.!]$/.test(target) ? target.slice(-1) : '';
   const words = target.replace(/[?.!]$/, '').split(' ');
-  const task = q.task === 'negative' ? 'Make it negative (−).' : 'Make a question (?).';
+  const task = q.cue || (q.task === 'negative' ? 'Make it negative (−).' : 'Make a question (?).');
   let tb = null;
   let input = null;
   const answerLine = h('p', { class: 'model-answer', hidden: true });

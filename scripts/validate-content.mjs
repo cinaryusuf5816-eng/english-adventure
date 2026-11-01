@@ -170,7 +170,7 @@ function checkWeek(entry) {
     if (!x.clue || !x.question || !x.hint) err(`${entry.id} yesNo[${i}]: needs clue, question, hint`);
   });
   if (g.sentenceSwitch) {
-    const cont = week.grammar === 'present-continuous';
+    const cont = week.grammar === 'present-continuous' || week.grammar === 'wh-questions';
     for (const v of g.sentenceSwitch.verbs) if (!v.base || !(cont ? v.ing : v.s)) err(`${entry.id} sentenceSwitch verb ${v.id}: needs base + ${cont ? 'ing' : 's'} form`);
   }
 

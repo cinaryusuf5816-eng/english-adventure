@@ -1,0 +1,5861 @@
+{
+  "weekId": "week-03",
+  "contentVersion": "1.0.0",
+  "banks": [
+    {
+      "id": "mcq",
+      "letter": "A",
+      "title": "Choose",
+      "instruction": "Choose.",
+      "description": "Choose the question word or the answer.",
+      "expected": 60
+    },
+    {
+      "id": "jumbled",
+      "letter": "B",
+      "title": "Make a sentence",
+      "instruction": "Make a sentence.",
+      "description": "Put the words in order.",
+      "expected": 36
+    },
+    {
+      "id": "fill",
+      "letter": "C",
+      "title": "Fill in",
+      "instruction": "Fill in the gap.",
+      "description": "Write or choose the missing word.",
+      "expected": 30
+    },
+    {
+      "id": "change",
+      "letter": "D",
+      "title": "Change it",
+      "instruction": "Change the sentence.",
+      "description": "Make a question with Who, What, Where …",
+      "expected": 18
+    },
+    {
+      "id": "fix",
+      "letter": "E",
+      "title": "Fix the mistake",
+      "instruction": "Find the mistake. Fix it.",
+      "description": "One word is wrong. Find it and fix it.",
+      "expected": 18
+    },
+    {
+      "id": "decide",
+      "letter": "F",
+      "title": "Look and decide",
+      "instruction": "Look. Read. True or false?",
+      "description": "Look at the clue. Is it true or false?",
+      "expected": 18
+    },
+    {
+      "id": "dialogue",
+      "letter": "G",
+      "title": "Dialogues",
+      "instruction": "Complete the dialogue.",
+      "description": "Read the short talk. Choose the answer.",
+      "expected": 12
+    },
+    {
+      "id": "reading",
+      "letter": "H",
+      "title": "Mini reading",
+      "instruction": "Read. Answer.",
+      "description": "Read a short text. Answer 4 questions.",
+      "expected": 16
+    },
+    {
+      "id": "moving",
+      "letter": "I",
+      "title": "Moving words",
+      "instruction": "Look and choose.",
+      "description": "around, through, over, under, up, down, across, past, into, out of, between.",
+      "expected": 30
+    },
+    {
+      "id": "body",
+      "letter": "J",
+      "title": "My body and strong words",
+      "instruction": "Look and choose.",
+      "description": "heart, lungs, brain, bones, muscles, energy, stretch, push, pull …",
+      "expected": 24
+    },
+    {
+      "id": "activities",
+      "letter": "K",
+      "title": "Sports and activities",
+      "instruction": "Look and choose.",
+      "description": "do gymnastics, play tag, go bowling, a relay race …",
+      "expected": 30
+    },
+    {
+      "id": "bounce",
+      "letter": "L",
+      "title": "Bounce back!",
+      "instruction": "Look and choose.",
+      "description": "keep trying, ask for help, stay positive.",
+      "expected": 12
+    }
+  ],
+  "cards": {
+    "course": {
+      "title": "On the obstacle course",
+      "image": "cover",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "Sam: around the cone"
+        },
+        {
+          "mark": "yes",
+          "text": "Mia: through the hoop"
+        },
+        {
+          "mark": "no",
+          "text": "Leo: under the bridge"
+        }
+      ]
+    },
+    "moves": {
+      "title": "What are they doing now?",
+      "image": "prep-over",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "Leo: jumping over the hurdles"
+        },
+        {
+          "mark": "no",
+          "text": "Leo: crawling under the hurdles"
+        },
+        {
+          "mark": "yes",
+          "text": "Ana: climbing up the ladder"
+        }
+      ]
+    },
+    "relay": {
+      "title": "The relay race",
+      "image": "r-relay",
+      "text": "Mia and Sam are on the track. Mia is passing the baton to Sam. Now Sam is running. Leo isn't running. He is cheering."
+    },
+    "three": {
+      "title": "The three-legged race",
+      "image": "r-three",
+      "text": "Sam and Leo are in a race. Their legs are tied together with a scarf. They are running together and laughing."
+    },
+    "body": {
+      "title": "My body",
+      "image": "b-heart",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "heart: it beats"
+        },
+        {
+          "mark": "yes",
+          "text": "lungs: I breathe with them"
+        },
+        {
+          "mark": "no",
+          "text": "bones: I think with them"
+        }
+      ]
+    },
+    "strong": {
+      "title": "After the game",
+      "image": "w-break",
+      "text": "The children are tired. They are having a short break under a tree. They are drinking water. They aren't running now."
+    },
+    "plan": {
+      "title": "Mia's exercise plan",
+      "image": "w-plan",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "Monday: ride a bike"
+        },
+        {
+          "mark": "yes",
+          "text": "Tuesday: go swimming"
+        },
+        {
+          "mark": "no",
+          "text": "Wednesday: play video games"
+        }
+      ]
+    },
+    "bounce": {
+      "title": "Bounce back",
+      "image": "s-try",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "keep trying"
+        },
+        {
+          "mark": "yes",
+          "text": "ask for help"
+        },
+        {
+          "mark": "no",
+          "text": "quit the team"
+        }
+      ]
+    }
+  },
+  "passages": {
+    "rd-p1": {
+      "title": "Move and Feel Good",
+      "image": "w-energy",
+      "text": "Sam is running and jumping in the park. He feels great! Moving gives him energy. After the run, he is relaxed and happy. His body is growing too. Move every day and stay active!"
+    },
+    "rd-p2": {
+      "title": "Heart and Lungs",
+      "image": "w-breathe",
+      "text": "Look at Mia! She is riding her bike up a hill. Her heart is beating fast and she is breathing hard. Her heart and lungs are getting stronger, so she doesn't get tired quickly."
+    },
+    "rd-p3": {
+      "title": "Bones and Muscles",
+      "image": "b-muscles",
+      "text": "Leo is at karate class. First, he is stretching his muscles. Then he is jumping and kicking. With strong muscles, he can push and pull. His bones are like a frame for his body. Exercise makes them strong."
+    },
+    "rd-p4": {
+      "title": "Race Day",
+      "image": "cover",
+      "text": "It's race day! Ana starts at the gate. She runs around the cone and climbs through the hoop. Next, she goes up the ladder and across the bridge. She slides down the slide. Then she jumps over the hurdles."
+    }
+  },
+  "questions": [
+    {
+      "id": "w3-mc-001",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is running around the cone? — Sam is.",
+      "image": "prep-around",
+      "options": [
+        "Who",
+        "What",
+        "When"
+      ],
+      "answer": "a",
+      "hint": "The answer is a person.",
+      "explain": "Who is running around the cone? Sam is."
+    },
+    {
+      "id": "w3-mc-002",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is climbing through the hoop? — Mia is.",
+      "image": "prep-through",
+      "options": [
+        "Where",
+        "Who",
+        "How"
+      ],
+      "answer": "b",
+      "hint": "The answer is a person.",
+      "explain": "Who is climbing through the hoop? Mia is."
+    },
+    {
+      "id": "w3-mc-003",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is jumping over the hurdles? — Leo is.",
+      "image": "prep-over",
+      "options": [
+        "When",
+        "Why",
+        "Who"
+      ],
+      "answer": "c",
+      "hint": "The answer is a person.",
+      "explain": "Who is jumping over the hurdles? Leo is."
+    },
+    {
+      "id": "w3-mc-004",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is doing yoga? — Ana is.",
+      "image": "a-yoga",
+      "options": [
+        "Who",
+        "How",
+        "What"
+      ],
+      "answer": "a",
+      "hint": "The answer is a person.",
+      "explain": "Who is doing yoga? Ana is."
+    },
+    {
+      "id": "w3-mc-005",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is going bowling? — Sam is.",
+      "image": "a-bowling",
+      "options": [
+        "Why",
+        "Who",
+        "Where"
+      ],
+      "answer": "b",
+      "hint": "The answer is a person.",
+      "explain": "Who is going bowling? Sam is."
+    },
+    {
+      "id": "w3-mc-006",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is passing the baton? — Mia is.",
+      "image": "r-relay",
+      "options": [
+        "What",
+        "When",
+        "Who"
+      ],
+      "answer": "c",
+      "hint": "The answer is a person.",
+      "explain": "Who is passing the baton? Mia is."
+    },
+    {
+      "id": "w3-mc-007",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is pushing the big ball? — Leo is.",
+      "image": "w-push",
+      "options": [
+        "Who",
+        "Where",
+        "How"
+      ],
+      "answer": "a",
+      "hint": "The answer is a person.",
+      "explain": "Who is pushing the big ball? Leo is."
+    },
+    {
+      "id": "w3-mc-008",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Mia passing? — The baton.",
+      "image": "r-relay",
+      "options": [
+        "When",
+        "What",
+        "Why"
+      ],
+      "answer": "b",
+      "hint": "The answer is a thing.",
+      "explain": "What is Mia passing? The baton."
+    },
+    {
+      "id": "w3-mc-009",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Ana pulling? — A wagon.",
+      "image": "w-pull",
+      "options": [
+        "How",
+        "Who",
+        "What"
+      ],
+      "answer": "c",
+      "hint": "The answer is a thing.",
+      "explain": "What is Ana pulling? A wagon."
+    },
+    {
+      "id": "w3-mc-010",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Leo pushing? — A big ball.",
+      "image": "w-push",
+      "options": [
+        "What",
+        "Why",
+        "Where"
+      ],
+      "answer": "a",
+      "hint": "The answer is a thing.",
+      "explain": "What is Leo pushing? A big ball."
+    },
+    {
+      "id": "w3-mc-011",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Mia writing? — An exercise plan.",
+      "image": "w-plan",
+      "options": [
+        "Who",
+        "What",
+        "When"
+      ],
+      "answer": "b",
+      "hint": "The answer is a thing.",
+      "explain": "What is Mia writing? An exercise plan."
+    },
+    {
+      "id": "w3-mc-012",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Sam playing? — Video games.",
+      "image": "a-games",
+      "options": [
+        "Where",
+        "How",
+        "What"
+      ],
+      "answer": "c",
+      "hint": "The answer is a thing.",
+      "explain": "What is Sam playing? Video games."
+    },
+    {
+      "id": "w3-mc-013",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Mia playing? — Tennis.",
+      "image": "sp-racket",
+      "options": [
+        "What",
+        "When",
+        "Why"
+      ],
+      "answer": "a",
+      "hint": "The answer is a thing.",
+      "explain": "What is Mia playing? Tennis."
+    },
+    {
+      "id": "w3-mc-014",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Leo doing? — He is doing karate.",
+      "image": "act-karate",
+      "options": [
+        "How",
+        "What",
+        "Who"
+      ],
+      "answer": "b",
+      "hint": "The answer is a thing.",
+      "explain": "What is Leo doing? He is doing karate."
+    },
+    {
+      "id": "w3-mc-015",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Leo running? — On the track.",
+      "image": "r-track",
+      "options": [
+        "Why",
+        "What",
+        "Where"
+      ],
+      "answer": "c",
+      "hint": "The answer is a place.",
+      "explain": "Where is Leo running? On the track."
+    },
+    {
+      "id": "w3-mc-016",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Ana doing yoga? — In the garden.",
+      "image": "a-yoga",
+      "options": [
+        "Where",
+        "Who",
+        "When"
+      ],
+      "answer": "a",
+      "hint": "The answer is a place.",
+      "explain": "Where is Ana doing yoga? In the garden."
+    },
+    {
+      "id": "w3-mc-017",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ are the swimmers racing? — In the pool.",
+      "image": "r-swim",
+      "options": [
+        "What",
+        "Where",
+        "How"
+      ],
+      "answer": "b",
+      "hint": "The answer is a place.",
+      "explain": "Where are the swimmers racing? In the pool."
+    },
+    {
+      "id": "w3-mc-018",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Mia walking? — Across the bridge.",
+      "image": "prep-across",
+      "options": [
+        "When",
+        "Why",
+        "Where"
+      ],
+      "answer": "c",
+      "hint": "The answer is a place.",
+      "explain": "Where is Mia walking? Across the bridge."
+    },
+    {
+      "id": "w3-mc-019",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Ana climbing? — Up the ladder.",
+      "image": "prep-up",
+      "options": [
+        "Where",
+        "How",
+        "Who"
+      ],
+      "answer": "a",
+      "hint": "The answer is a place.",
+      "explain": "Where is Ana climbing? Up the ladder."
+    },
+    {
+      "id": "w3-mc-020",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Leo taking the stairs? — At school.",
+      "image": "a-stairs",
+      "options": [
+        "Why",
+        "Where",
+        "What"
+      ],
+      "answer": "b",
+      "hint": "The answer is a place.",
+      "explain": "Where is Leo taking the stairs? At school."
+    },
+    {
+      "id": "w3-mc-021",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Sam sitting? — On the sofa.",
+      "image": "a-games",
+      "options": [
+        "Who",
+        "When",
+        "Where"
+      ],
+      "answer": "c",
+      "hint": "The answer is a place.",
+      "explain": "Where is Sam sitting? On the sofa."
+    },
+    {
+      "id": "w3-mc-022",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ do you exercise? — After school.",
+      "image": "w-plan",
+      "options": [
+        "When",
+        "What",
+        "How"
+      ],
+      "answer": "a",
+      "hint": "The answer is a time.",
+      "explain": "When do you exercise? After school."
+    },
+    {
+      "id": "w3-mc-023",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ does Leo walk to school? — In the morning.",
+      "image": "walk-to-school",
+      "options": [
+        "Where",
+        "When",
+        "Why"
+      ],
+      "answer": "b",
+      "hint": "The answer is a time.",
+      "explain": "When does Leo walk to school? In the morning."
+    },
+    {
+      "id": "w3-mc-024",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ do you play tag? — At break time.",
+      "image": "act-tag",
+      "options": [
+        "How",
+        "Who",
+        "When"
+      ],
+      "answer": "c",
+      "hint": "The answer is a time.",
+      "explain": "When do you play tag? At break time."
+    },
+    {
+      "id": "w3-mc-025",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ do you stretch? — Before and after sport.",
+      "image": "w-stretch",
+      "options": [
+        "When",
+        "Why",
+        "What"
+      ],
+      "answer": "a",
+      "hint": "The answer is a time.",
+      "explain": "When do you stretch? Before and after sport."
+    },
+    {
+      "id": "w3-mc-026",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ do they have a break? — After the game.",
+      "image": "w-break",
+      "options": [
+        "Who",
+        "When",
+        "Where"
+      ],
+      "answer": "b",
+      "hint": "The answer is a time.",
+      "explain": "When do they have a break? After the game."
+    },
+    {
+      "id": "w3-mc-027",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ does Sam start? — When he has the baton.",
+      "image": "r-relay",
+      "options": [
+        "What",
+        "How",
+        "When"
+      ],
+      "answer": "c",
+      "hint": "The answer is a time.",
+      "explain": "When does Sam start? When he has the baton."
+    },
+    {
+      "id": "w3-mc-028",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ are Sam and Leo running? — Together!",
+      "image": "r-three",
+      "options": [
+        "How",
+        "Where",
+        "Why"
+      ],
+      "answer": "a",
+      "hint": "The answer is a way.",
+      "explain": "How are Sam and Leo running? Together!"
+    },
+    {
+      "id": "w3-mc-029",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ is Ana pulling the wagon? — With a rope.",
+      "image": "w-pull",
+      "options": [
+        "When",
+        "How",
+        "Who"
+      ],
+      "answer": "b",
+      "hint": "The answer is a way.",
+      "explain": "How is Ana pulling the wagon? With a rope."
+    },
+    {
+      "id": "w3-mc-030",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "prompt": "___ do runners win races? — They run fast!",
+      "image": "r-track",
+      "options": [
+        "Why",
+        "What",
+        "How"
+      ],
+      "answer": "c",
+      "hint": "The answer is a way.",
+      "explain": "How do runners win races? They run fast!"
+    },
+    {
+      "id": "w3-mc-031",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "What is Leo pushing?",
+      "image": "w-push",
+      "options": [
+        "A big ball.",
+        "Mia is.",
+        "Up the ladder."
+      ],
+      "answer": "a",
+      "hint": "What = a thing.",
+      "explain": "What is Leo pushing? A big ball."
+    },
+    {
+      "id": "w3-mc-032",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "What is Sam playing?",
+      "image": "a-games",
+      "options": [
+        "Sam is.",
+        "Video games.",
+        "At break time."
+      ],
+      "answer": "b",
+      "hint": "What = a thing.",
+      "explain": "What is Sam playing? Video games."
+    },
+    {
+      "id": "w3-mc-033",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "What is Leo doing?",
+      "image": "act-karate",
+      "options": [
+        "On the track.",
+        "With a rope.",
+        "He is doing karate."
+      ],
+      "answer": "c",
+      "hint": "What = a thing.",
+      "explain": "What is Leo doing? He is doing karate."
+    },
+    {
+      "id": "w3-mc-034",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Where is Ana doing yoga?",
+      "image": "a-yoga",
+      "options": [
+        "In the garden.",
+        "An exercise plan.",
+        "Because it is a three-legged race."
+      ],
+      "answer": "a",
+      "hint": "Where = a place.",
+      "explain": "Where is Ana doing yoga? In the garden."
+    },
+    {
+      "id": "w3-mc-035",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Where is Mia walking?",
+      "image": "prep-across",
+      "options": [
+        "He is doing karate.",
+        "Across the bridge.",
+        "Because everyone is tired."
+      ],
+      "answer": "b",
+      "hint": "Where = a place.",
+      "explain": "Where is Mia walking? Across the bridge."
+    },
+    {
+      "id": "w3-mc-036",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Where is Leo taking the stairs?",
+      "image": "a-stairs",
+      "options": [
+        "At break time.",
+        "Sam is.",
+        "At school."
+      ],
+      "answer": "c",
+      "hint": "Where = a place.",
+      "explain": "Where is Leo taking the stairs? At school."
+    },
+    {
+      "id": "w3-mc-037",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "When do you exercise?",
+      "image": "w-plan",
+      "options": [
+        "After school.",
+        "At school.",
+        "A wagon."
+      ],
+      "answer": "a",
+      "hint": "When = a time.",
+      "explain": "When do you exercise? After school."
+    },
+    {
+      "id": "w3-mc-038",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "When do you play tag?",
+      "image": "act-tag",
+      "options": [
+        "With a rope.",
+        "At break time.",
+        "He is doing karate."
+      ],
+      "answer": "b",
+      "hint": "When = a time.",
+      "explain": "When do you play tag? At break time."
+    },
+    {
+      "id": "w3-mc-039",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "When do they have a break?",
+      "image": "w-break",
+      "options": [
+        "With a scarf.",
+        "Up the ladder.",
+        "After the game."
+      ],
+      "answer": "c",
+      "hint": "When = a time.",
+      "explain": "When do they have a break? After the game."
+    },
+    {
+      "id": "w3-mc-040",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "How are Sam and Leo running?",
+      "image": "r-three",
+      "options": [
+        "Together!",
+        "Because it is relaxing.",
+        "At break time."
+      ],
+      "answer": "a",
+      "hint": "How = a way.",
+      "explain": "How are Sam and Leo running? Together!"
+    },
+    {
+      "id": "w3-mc-041",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "How do runners win races?",
+      "image": "r-track",
+      "options": [
+        "Because it is good for the body.",
+        "They run fast!",
+        "Because it is relaxing."
+      ],
+      "answer": "b",
+      "hint": "How = a way.",
+      "explain": "How do runners win races? They run fast!"
+    },
+    {
+      "id": "w3-mc-042",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "How are Mia and Ana tying their legs?",
+      "image": "r-tie",
+      "options": [
+        "Mia is.",
+        "Sam is.",
+        "With a scarf."
+      ],
+      "answer": "c",
+      "hint": "How = a way.",
+      "explain": "How are Mia and Ana tying their legs? With a scarf."
+    },
+    {
+      "id": "w3-mc-043",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Why are their legs tied together?",
+      "image": "r-three",
+      "options": [
+        "Because it is a three-legged race.",
+        "Sam is.",
+        "Mia is."
+      ],
+      "answer": "a",
+      "hint": "Why = a reason.",
+      "explain": "Why are their legs tied together? Because it is a three-legged race."
+    },
+    {
+      "id": "w3-mc-044",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Why are you cheering?",
+      "image": "st-cheer",
+      "options": [
+        "The baton.",
+        "Because I want my team to win!",
+        "An exercise plan."
+      ],
+      "answer": "b",
+      "hint": "Why = a reason.",
+      "explain": "Why are you cheering? Because I want my team to win!"
+    },
+    {
+      "id": "w3-mc-045",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Why is Sam stretching?",
+      "image": "w-stretch",
+      "options": [
+        "An exercise plan.",
+        "In the garden.",
+        "Because it is good for the body."
+      ],
+      "answer": "c",
+      "hint": "Why = a reason.",
+      "explain": "Why is Sam stretching? Because it is good for the body."
+    },
+    {
+      "id": "w3-mc-046",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "prep-over",
+      "options": [
+        "Where is Leo jumping?",
+        "Where Leo is jumping?",
+        "Where does Leo jumping?"
+      ],
+      "answer": "a",
+      "hint": "is comes before Leo.",
+      "explain": "Where is Leo jumping?"
+    },
+    {
+      "id": "w3-mc-047",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "r-relay",
+      "options": [
+        "What Mia is passing?",
+        "What is Mia passing?",
+        "What are Mia passing?"
+      ],
+      "answer": "b",
+      "hint": "What + is + Mia.",
+      "explain": "What is Mia passing?"
+    },
+    {
+      "id": "w3-mc-048",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "r-three",
+      "options": [
+        "Why is they tied together?",
+        "Why they are tied together?",
+        "Why are they tied together?"
+      ],
+      "answer": "c",
+      "hint": "they → are.",
+      "explain": "Why are they tied together?"
+    },
+    {
+      "id": "w3-mc-049",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "act-tag",
+      "options": [
+        "Where do you play tag?",
+        "Where does you play tag?",
+        "Where you play tag?"
+      ],
+      "answer": "a",
+      "hint": "you → do.",
+      "explain": "Where do you play tag?"
+    },
+    {
+      "id": "w3-mc-050",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "act-karate",
+      "options": [
+        "When do Leo do karate?",
+        "When does Leo do karate?",
+        "When does Leo does karate?"
+      ],
+      "answer": "b",
+      "hint": "Leo = he → does + do.",
+      "explain": "When does Leo do karate?"
+    },
+    {
+      "id": "w3-mc-051",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which question is right?",
+      "image": "a-bowling",
+      "options": [
+        "Who going bowling?",
+        "Who are is going bowling?",
+        "Who is going bowling?"
+      ],
+      "answer": "c",
+      "hint": "Who + is + going.",
+      "explain": "Who is going bowling?"
+    },
+    {
+      "id": "w3-mc-052",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "I breathe with my ___.",
+      "image": "b-lungs",
+      "options": [
+        "lungs",
+        "brain",
+        "bones"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I breathe with my lungs."
+    },
+    {
+      "id": "w3-mc-053",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "I think with my ___.",
+      "image": "b-brain",
+      "options": [
+        "heart",
+        "brain",
+        "muscles"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I think with my brain."
+    },
+    {
+      "id": "w3-mc-054",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "My ___ hold up my body.",
+      "image": "b-bones",
+      "options": [
+        "lungs",
+        "brain",
+        "bones"
+      ],
+      "answer": "c",
+      "hint": "Look at the skeleton.",
+      "explain": "My bones hold up my body."
+    },
+    {
+      "id": "w3-mc-055",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Leo is ___. He needs a break.",
+      "image": "w-tired",
+      "options": [
+        "tired",
+        "relaxed",
+        "strong"
+      ],
+      "answer": "a",
+      "hint": "He needs a break.",
+      "explain": "Leo is tired. He needs a break."
+    },
+    {
+      "id": "w3-mc-056",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Mia is ___ gymnastics.",
+      "image": "act-gymnastics",
+      "options": [
+        "playing",
+        "doing",
+        "going"
+      ],
+      "answer": "b",
+      "hint": "do gymnastics.",
+      "explain": "Mia is doing gymnastics."
+    },
+    {
+      "id": "w3-mc-057",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Sam is ___ bowling.",
+      "image": "a-bowling",
+      "options": [
+        "doing",
+        "playing",
+        "going"
+      ],
+      "answer": "c",
+      "hint": "go bowling.",
+      "explain": "Sam is going bowling."
+    },
+    {
+      "id": "w3-mc-058",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "The children are ___ tag.",
+      "image": "act-tag",
+      "options": [
+        "playing",
+        "doing",
+        "going"
+      ],
+      "answer": "a",
+      "hint": "play tag.",
+      "explain": "The children are playing tag."
+    },
+    {
+      "id": "w3-mc-059",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Leo is ___ his coach for help.",
+      "image": "s-coach",
+      "options": [
+        "pushing",
+        "asking",
+        "passing"
+      ],
+      "answer": "b",
+      "hint": "ask for help.",
+      "explain": "Leo is asking his coach for help."
+    },
+    {
+      "id": "w3-mc-060",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Sam falls, but he keeps ___.",
+      "image": "s-try",
+      "options": [
+        "sleeping",
+        "quitting",
+        "trying"
+      ],
+      "answer": "c",
+      "hint": "He does not stop.",
+      "explain": "Sam falls, but he keeps trying."
+    },
+    {
+      "id": "w3-jb-001",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-around",
+      "tokens": [
+        "Sam",
+        "is",
+        "running",
+        "around",
+        "the",
+        "cone"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam is running around the cone"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam is running around the cone."
+    },
+    {
+      "id": "w3-jb-002",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-through",
+      "tokens": [
+        "Mia",
+        "is",
+        "climbing",
+        "through",
+        "the",
+        "hoop"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia is climbing through the hoop"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia is climbing through the hoop."
+    },
+    {
+      "id": "w3-jb-003",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-over",
+      "tokens": [
+        "Leo",
+        "is",
+        "jumping",
+        "over",
+        "the",
+        "hurdles"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo is jumping over the hurdles"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo is jumping over the hurdles."
+    },
+    {
+      "id": "w3-jb-004",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-up",
+      "tokens": [
+        "Ana",
+        "is",
+        "climbing",
+        "up",
+        "the",
+        "ladder"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana is climbing up the ladder"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana is climbing up the ladder."
+    },
+    {
+      "id": "w3-jb-005",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-down",
+      "tokens": [
+        "Sam",
+        "is",
+        "sliding",
+        "down",
+        "the",
+        "slide"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam is sliding down the slide"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam is sliding down the slide."
+    },
+    {
+      "id": "w3-jb-006",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-across",
+      "tokens": [
+        "Mia",
+        "is",
+        "walking",
+        "across",
+        "the",
+        "bridge"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia is walking across the bridge"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia is walking across the bridge."
+    },
+    {
+      "id": "w3-jb-007",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-under",
+      "tokens": [
+        "Leo",
+        "is",
+        "crawling",
+        "under",
+        "the",
+        "bench"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo is crawling under the bench"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo is crawling under the bench."
+    },
+    {
+      "id": "w3-jb-008",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-into",
+      "tokens": [
+        "Ana",
+        "is",
+        "jumping",
+        "into",
+        "the",
+        "sandbox"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana is jumping into the sandbox"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana is jumping into the sandbox."
+    },
+    {
+      "id": "w3-jb-009",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-out",
+      "tokens": [
+        "Sam",
+        "is",
+        "stepping",
+        "out",
+        "of",
+        "the",
+        "sandbox"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam is stepping out of the sandbox"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam is stepping out of the sandbox."
+    },
+    {
+      "id": "w3-jb-010",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-past",
+      "tokens": [
+        "Leo",
+        "is",
+        "running",
+        "past",
+        "the",
+        "goal"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo is running past the goal"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo is running past the goal."
+    },
+    {
+      "id": "w3-jb-011",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-between",
+      "tokens": [
+        "Mia",
+        "is",
+        "running",
+        "between",
+        "the",
+        "trees"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia is running between the trees"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia is running between the trees."
+    },
+    {
+      "id": "w3-jb-012",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "r-three",
+      "tokens": [
+        "Sam",
+        "and",
+        "Leo",
+        "are",
+        "running",
+        "a",
+        "three-legged",
+        "race"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam and Leo are running a three-legged race"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam and Leo are running a three-legged race."
+    },
+    {
+      "id": "w3-jb-013",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "prep-around",
+      "tokens": [
+        "Who",
+        "is",
+        "running",
+        "around",
+        "the",
+        "cone"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is running around the cone"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is running around the cone? Sam is."
+    },
+    {
+      "id": "w3-jb-014",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "prep-through",
+      "tokens": [
+        "Who",
+        "is",
+        "climbing",
+        "through",
+        "the",
+        "hoop"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is climbing through the hoop"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is climbing through the hoop? Mia is."
+    },
+    {
+      "id": "w3-jb-015",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "prep-over",
+      "tokens": [
+        "Who",
+        "is",
+        "jumping",
+        "over",
+        "the",
+        "hurdles"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is jumping over the hurdles"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is jumping over the hurdles? Leo is."
+    },
+    {
+      "id": "w3-jb-016",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "a-yoga",
+      "tokens": [
+        "Who",
+        "is",
+        "doing",
+        "yoga"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is doing yoga"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is doing yoga? Ana is."
+    },
+    {
+      "id": "w3-jb-017",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "a-bowling",
+      "tokens": [
+        "Who",
+        "is",
+        "going",
+        "bowling"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is going bowling"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is going bowling? Sam is."
+    },
+    {
+      "id": "w3-jb-018",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "r-relay",
+      "tokens": [
+        "Who",
+        "is",
+        "passing",
+        "the",
+        "baton"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is passing the baton"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is passing the baton? Mia is."
+    },
+    {
+      "id": "w3-jb-019",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "image": "w-push",
+      "tokens": [
+        "Who",
+        "is",
+        "pushing",
+        "the",
+        "big",
+        "ball"
+      ],
+      "end": "?",
+      "answers": [
+        "Who is pushing the big ball"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is pushing the big ball? Leo is."
+    },
+    {
+      "id": "w3-jb-020",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "r-relay",
+      "tokens": [
+        "What",
+        "is",
+        "Mia",
+        "passing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Mia passing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Mia passing? The baton."
+    },
+    {
+      "id": "w3-jb-021",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "w-pull",
+      "tokens": [
+        "What",
+        "is",
+        "Ana",
+        "pulling"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Ana pulling"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Ana pulling? A wagon."
+    },
+    {
+      "id": "w3-jb-022",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "w-push",
+      "tokens": [
+        "What",
+        "is",
+        "Leo",
+        "pushing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Leo pushing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Leo pushing? A big ball."
+    },
+    {
+      "id": "w3-jb-023",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "w-plan",
+      "tokens": [
+        "What",
+        "is",
+        "Mia",
+        "writing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Mia writing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Mia writing? An exercise plan."
+    },
+    {
+      "id": "w3-jb-024",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "a-games",
+      "tokens": [
+        "What",
+        "is",
+        "Sam",
+        "playing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Sam playing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Sam playing? Video games."
+    },
+    {
+      "id": "w3-jb-025",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "sp-racket",
+      "tokens": [
+        "What",
+        "is",
+        "Mia",
+        "playing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Mia playing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Mia playing? Tennis."
+    },
+    {
+      "id": "w3-jb-026",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "act-karate",
+      "tokens": [
+        "What",
+        "is",
+        "Leo",
+        "doing"
+      ],
+      "end": "?",
+      "answers": [
+        "What is Leo doing"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Leo doing? He is doing karate."
+    },
+    {
+      "id": "w3-jb-027",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "r-track",
+      "tokens": [
+        "Where",
+        "is",
+        "Leo",
+        "running"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Leo running"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo running? On the track."
+    },
+    {
+      "id": "w3-jb-028",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "a-yoga",
+      "tokens": [
+        "Where",
+        "is",
+        "Ana",
+        "doing",
+        "yoga"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Ana doing yoga"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Ana doing yoga? In the garden."
+    },
+    {
+      "id": "w3-jb-029",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "r-swim",
+      "tokens": [
+        "Where",
+        "are",
+        "the",
+        "swimmers",
+        "racing"
+      ],
+      "end": "?",
+      "answers": [
+        "Where are the swimmers racing"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where are the swimmers racing? In the pool."
+    },
+    {
+      "id": "w3-jb-030",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "prep-across",
+      "tokens": [
+        "Where",
+        "is",
+        "Mia",
+        "walking"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Mia walking"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Mia walking? Across the bridge."
+    },
+    {
+      "id": "w3-jb-031",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "prep-up",
+      "tokens": [
+        "Where",
+        "is",
+        "Ana",
+        "climbing"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Ana climbing"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Ana climbing? Up the ladder."
+    },
+    {
+      "id": "w3-jb-032",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "a-stairs",
+      "tokens": [
+        "Where",
+        "is",
+        "Leo",
+        "taking",
+        "the",
+        "stairs"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Leo taking the stairs"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo taking the stairs? At school."
+    },
+    {
+      "id": "w3-jb-033",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "a-games",
+      "tokens": [
+        "Where",
+        "is",
+        "Sam",
+        "sitting"
+      ],
+      "end": "?",
+      "answers": [
+        "Where is Sam sitting"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Sam sitting? On the sofa."
+    },
+    {
+      "id": "w3-jb-034",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "w-plan",
+      "tokens": [
+        "When",
+        "do",
+        "you",
+        "exercise"
+      ],
+      "end": "?",
+      "answers": [
+        "When do you exercise"
+      ],
+      "hint": "Start with When.",
+      "explain": "When do you exercise? After school."
+    },
+    {
+      "id": "w3-jb-035",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "walk-to-school",
+      "tokens": [
+        "When",
+        "does",
+        "Leo",
+        "walk",
+        "to",
+        "school"
+      ],
+      "end": "?",
+      "answers": [
+        "When does Leo walk to school"
+      ],
+      "hint": "Start with When.",
+      "explain": "When does Leo walk to school? In the morning."
+    },
+    {
+      "id": "w3-jb-036",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "act-tag",
+      "tokens": [
+        "When",
+        "do",
+        "you",
+        "play",
+        "tag"
+      ],
+      "end": "?",
+      "answers": [
+        "When do you play tag"
+      ],
+      "hint": "Start with When.",
+      "explain": "When do you play tag? At break time."
+    },
+    {
+      "id": "w3-fb-001",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "a-yoga",
+      "text": "___ is Ana doing yoga?",
+      "answers": [
+        "Where"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: In the garden.",
+      "explain": "Where is Ana doing yoga?"
+    },
+    {
+      "id": "w3-fb-002",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "prep-across",
+      "text": "___ is Mia walking?",
+      "answers": [
+        "Where"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: Across the bridge.",
+      "explain": "Where is Mia walking?"
+    },
+    {
+      "id": "w3-fb-003",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "a-stairs",
+      "text": "___ is Leo taking the stairs?",
+      "answers": [
+        "Where"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: At school.",
+      "explain": "Where is Leo taking the stairs?"
+    },
+    {
+      "id": "w3-fb-004",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "w-plan",
+      "text": "___ do you exercise?",
+      "answers": [
+        "When"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: After school.",
+      "explain": "When do you exercise?"
+    },
+    {
+      "id": "w3-fb-005",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "act-tag",
+      "text": "___ do you play tag?",
+      "answers": [
+        "When"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: At break time.",
+      "explain": "When do you play tag?"
+    },
+    {
+      "id": "w3-fb-006",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "w-break",
+      "text": "___ do they have a break?",
+      "answers": [
+        "When"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: After the game.",
+      "explain": "When do they have a break?"
+    },
+    {
+      "id": "w3-fb-007",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "r-three",
+      "text": "___ are Sam and Leo running?",
+      "answers": [
+        "How"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: Together!",
+      "explain": "How are Sam and Leo running?"
+    },
+    {
+      "id": "w3-fb-008",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "r-track",
+      "text": "___ do runners win races?",
+      "answers": [
+        "How"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: They run fast!",
+      "explain": "How do runners win races?"
+    },
+    {
+      "id": "w3-fb-009",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "r-tie",
+      "text": "___ are Mia and Ana tying their legs?",
+      "answers": [
+        "How"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: With a scarf.",
+      "explain": "How are Mia and Ana tying their legs?"
+    },
+    {
+      "id": "w3-fb-010",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "r-three",
+      "text": "___ are their legs tied together?",
+      "answers": [
+        "Why"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: Because it is a three-legged race.",
+      "explain": "Why are their legs tied together?"
+    },
+    {
+      "id": "w3-fb-011",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "st-cheer",
+      "text": "___ are you cheering?",
+      "answers": [
+        "Why"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: Because I want my team to win!",
+      "explain": "Why are you cheering?"
+    },
+    {
+      "id": "w3-fb-012",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 1,
+      "image": "w-stretch",
+      "text": "___ is Sam stretching?",
+      "answers": [
+        "Why"
+      ],
+      "pool": [
+        "Who",
+        "What",
+        "Where",
+        "When",
+        "How",
+        "Why"
+      ],
+      "hint": "The answer: Because it is good for the body.",
+      "explain": "Why is Sam stretching?"
+    },
+    {
+      "id": "w3-fb-013",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-around",
+      "text": "Sam is running ___ the cone.",
+      "answers": [
+        "around"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "through",
+        "up"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Sam is running around the cone."
+    },
+    {
+      "id": "w3-fb-014",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-through",
+      "text": "Mia is climbing ___ the hoop.",
+      "answers": [
+        "through"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "through",
+        "up"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Mia is climbing through the hoop."
+    },
+    {
+      "id": "w3-fb-015",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-over",
+      "text": "Leo is jumping ___ the hurdles.",
+      "answers": [
+        "over"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "through",
+        "up"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Leo is jumping over the hurdles."
+    },
+    {
+      "id": "w3-fb-016",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-up",
+      "text": "Ana is climbing ___ the ladder.",
+      "answers": [
+        "up"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "through",
+        "up"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Ana is climbing up the ladder."
+    },
+    {
+      "id": "w3-fb-017",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-down",
+      "text": "Sam is sliding ___ the slide.",
+      "answers": [
+        "down"
+      ],
+      "pool": [
+        "around",
+        "down",
+        "over",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Sam is sliding down the slide."
+    },
+    {
+      "id": "w3-fb-018",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-across",
+      "text": "Mia is walking ___ the bridge.",
+      "answers": [
+        "across"
+      ],
+      "pool": [
+        "across",
+        "around",
+        "over",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Mia is walking across the bridge."
+    },
+    {
+      "id": "w3-fb-019",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-under",
+      "text": "Leo is crawling ___ the bench.",
+      "answers": [
+        "under"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "through",
+        "under"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Leo is crawling under the bench."
+    },
+    {
+      "id": "w3-fb-020",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-into",
+      "text": "Ana is jumping ___ the sandbox.",
+      "answers": [
+        "into"
+      ],
+      "pool": [
+        "around",
+        "into",
+        "over",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Ana is jumping into the sandbox."
+    },
+    {
+      "id": "w3-fb-021",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-out",
+      "text": "Sam is stepping ___ the sandbox.",
+      "answers": [
+        "out of"
+      ],
+      "pool": [
+        "around",
+        "out of",
+        "over",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Sam is stepping out of the sandbox."
+    },
+    {
+      "id": "w3-fb-022",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-past",
+      "text": "Leo is running ___ the goal.",
+      "answers": [
+        "past"
+      ],
+      "pool": [
+        "around",
+        "over",
+        "past",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Leo is running past the goal."
+    },
+    {
+      "id": "w3-fb-023",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-between",
+      "text": "Mia is running ___ the trees.",
+      "answers": [
+        "between"
+      ],
+      "pool": [
+        "around",
+        "between",
+        "over",
+        "through"
+      ],
+      "hint": "Look at the picture.",
+      "explain": "Mia is running between the trees."
+    },
+    {
+      "id": "w3-fb-024",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "r-swim",
+      "text": "Where ___ the swimmers racing?",
+      "answers": [
+        "are"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "the swimmers = they → are.",
+      "explain": "Where are the swimmers racing?"
+    },
+    {
+      "id": "w3-fb-025",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "prep-up",
+      "text": "Where ___ Ana climbing?",
+      "answers": [
+        "is"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "Ana = she → is.",
+      "explain": "Where is Ana climbing?"
+    },
+    {
+      "id": "w3-fb-026",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "w-break",
+      "text": "What ___ the children having?",
+      "answers": [
+        "are"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "the children = they → are.",
+      "explain": "What are the children having?"
+    },
+    {
+      "id": "w3-fb-027",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "w-pull",
+      "text": "How ___ Ana pulling the wagon?",
+      "answers": [
+        "is"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "Ana = she → is.",
+      "explain": "How is Ana pulling the wagon?"
+    },
+    {
+      "id": "w3-fb-028",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "w-plan",
+      "text": "When ___ you exercise?",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "Every day: you → do.",
+      "explain": "When do you exercise?"
+    },
+    {
+      "id": "w3-fb-029",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "walk-to-school",
+      "text": "When ___ Leo walk to school?",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "Every day: Leo = he → does.",
+      "explain": "When does Leo walk to school?"
+    },
+    {
+      "id": "w3-fb-030",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "act-tag",
+      "text": "Where ___ they play tag?",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "is",
+        "are",
+        "do",
+        "does"
+      ],
+      "hint": "Every day: they → do.",
+      "explain": "Where do they play tag?"
+    },
+    {
+      "id": "w3-cs-001",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "prep-around",
+      "from": "Sam is running around the cone.",
+      "answers": [
+        "Where is Sam running?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Sam running? Around the cone."
+    },
+    {
+      "id": "w3-cs-002",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Who.",
+      "level": 1,
+      "image": "prep-through",
+      "from": "Mia is climbing through the hoop.",
+      "answers": [
+        "Who is climbing through the hoop?"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is climbing through the hoop? Mia is."
+    },
+    {
+      "id": "w3-cs-003",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "prep-over",
+      "from": "Leo is jumping over the hurdles.",
+      "answers": [
+        "Where is Leo jumping?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo jumping? Over the hurdles."
+    },
+    {
+      "id": "w3-cs-004",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Who.",
+      "level": 1,
+      "image": "prep-up",
+      "from": "Ana is climbing up the ladder.",
+      "answers": [
+        "Who is climbing up the ladder?"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is climbing up the ladder? Ana is."
+    },
+    {
+      "id": "w3-cs-005",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "prep-down",
+      "from": "Sam is sliding down the slide.",
+      "answers": [
+        "Where is Sam sliding?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Sam sliding? Down the slide."
+    },
+    {
+      "id": "w3-cs-006",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with What.",
+      "level": 2,
+      "image": "prep-across",
+      "from": "Mia is walking across the bridge.",
+      "answers": [
+        "What is Mia doing?"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Mia doing? She is walking across the bridge."
+    },
+    {
+      "id": "w3-cs-007",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "prep-under",
+      "from": "Leo is crawling under the bench.",
+      "answers": [
+        "Where is Leo crawling?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo crawling? Under the bench."
+    },
+    {
+      "id": "w3-cs-008",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with What.",
+      "level": 2,
+      "image": "prep-into",
+      "from": "Ana is jumping into the sandbox.",
+      "answers": [
+        "What is Ana doing?"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Ana doing? She is jumping into the sandbox."
+    },
+    {
+      "id": "w3-cs-009",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "prep-past",
+      "from": "Leo is running past the goal.",
+      "answers": [
+        "Where is Leo running?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo running? Past the goal."
+    },
+    {
+      "id": "w3-cs-010",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Who.",
+      "level": 1,
+      "image": "prep-between",
+      "from": "Mia is running between the trees.",
+      "answers": [
+        "Who is running between the trees?"
+      ],
+      "hint": "Start with Who.",
+      "explain": "Who is running between the trees? Mia is."
+    },
+    {
+      "id": "w3-cs-011",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with What.",
+      "level": 2,
+      "image": "r-relay",
+      "from": "Mia is passing the baton on the track.",
+      "answers": [
+        "What is Mia passing on the track?"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Mia passing on the track? The baton."
+    },
+    {
+      "id": "w3-cs-012",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "r-track",
+      "from": "Leo is running on the track.",
+      "answers": [
+        "Where is Leo running?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Leo running? On the track."
+    },
+    {
+      "id": "w3-cs-013",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with What.",
+      "level": 2,
+      "image": "w-push",
+      "from": "Leo is pushing a big ball across the playground.",
+      "answers": [
+        "What is Leo pushing across the playground?"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Leo pushing across the playground? A big ball."
+    },
+    {
+      "id": "w3-cs-014",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with What.",
+      "level": 2,
+      "image": "w-pull",
+      "from": "Ana is pulling a wagon in the park.",
+      "answers": [
+        "What is Ana pulling in the park?"
+      ],
+      "hint": "Start with What.",
+      "explain": "What is Ana pulling in the park? A wagon."
+    },
+    {
+      "id": "w3-cs-015",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Where.",
+      "level": 2,
+      "image": "a-yoga",
+      "from": "Ana is doing yoga in the garden.",
+      "answers": [
+        "Where is Ana doing yoga?"
+      ],
+      "hint": "Start with Where.",
+      "explain": "Where is Ana doing yoga? In the garden."
+    },
+    {
+      "id": "w3-cs-016",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Why.",
+      "level": 2,
+      "image": "w-break",
+      "from": "They are having a short break under a tree.",
+      "answers": [
+        "Why are they having a short break under a tree?"
+      ],
+      "hint": "Start with Why.",
+      "explain": "Why are they having a short break under a tree? Because everyone is tired."
+    },
+    {
+      "id": "w3-cs-017",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with Why.",
+      "level": 2,
+      "image": "w-stretch",
+      "from": "Sam is stretching his muscles on the field.",
+      "answers": [
+        "Why is Sam stretching his muscles on the field?"
+      ],
+      "hint": "Start with Why.",
+      "explain": "Why is Sam stretching his muscles on the field? Because it is good for the body."
+    },
+    {
+      "id": "w3-cs-018",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Make a question with How.",
+      "level": 2,
+      "image": "r-three",
+      "from": "They are running a three-legged race on the grass.",
+      "answers": [
+        "How are they running a three-legged race on the grass?"
+      ],
+      "hint": "Start with How.",
+      "explain": "How are they running a three-legged race on the grass? Together!"
+    },
+    {
+      "id": "w3-fx-001",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "r-track",
+      "words": [
+        "Who",
+        "is",
+        "Leo",
+        "running?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Where",
+        "When"
+      ],
+      "fix": "a",
+      "hint": "The answer is a place: on the track.",
+      "explain": "Where is Leo running?"
+    },
+    {
+      "id": "w3-fx-002",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "r-relay",
+      "words": [
+        "Where",
+        "is",
+        "Mia",
+        "passing?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Who",
+        "What"
+      ],
+      "fix": "b",
+      "hint": "The answer is a thing: the baton.",
+      "explain": "What is Mia passing?"
+    },
+    {
+      "id": "w3-fx-003",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "a-yoga",
+      "words": [
+        "Where",
+        "is",
+        "doing",
+        "yoga?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Who",
+        "When"
+      ],
+      "fix": "a",
+      "hint": "The answer is a person: Ana is.",
+      "explain": "Who is doing yoga?"
+    },
+    {
+      "id": "w3-fx-004",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "w-tired",
+      "words": [
+        "When",
+        "is",
+        "Leo",
+        "tired?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Who",
+        "Why"
+      ],
+      "fix": "b",
+      "hint": "Because running is hard work → Why.",
+      "explain": "Why is Leo tired?"
+    },
+    {
+      "id": "w3-fx-005",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "w-pull",
+      "words": [
+        "Why",
+        "is",
+        "Ana",
+        "pulling",
+        "the",
+        "wagon?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "How",
+        "Who"
+      ],
+      "fix": "a",
+      "hint": "With a rope → How.",
+      "explain": "How is Ana pulling the wagon?"
+    },
+    {
+      "id": "w3-fx-006",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "prep-across",
+      "words": [
+        "Where",
+        "are",
+        "Mia",
+        "walking?"
+      ],
+      "wrong": 1,
+      "fixes": [
+        "do",
+        "is"
+      ],
+      "fix": "b",
+      "hint": "Mia = she → is.",
+      "explain": "Where is Mia walking?"
+    },
+    {
+      "id": "w3-fx-007",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "w-break",
+      "words": [
+        "What",
+        "is",
+        "they",
+        "having?"
+      ],
+      "wrong": 1,
+      "fixes": [
+        "are",
+        "does"
+      ],
+      "fix": "a",
+      "hint": "they → are.",
+      "explain": "What are they having?"
+    },
+    {
+      "id": "w3-fx-008",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "r-swim",
+      "words": [
+        "Where",
+        "is",
+        "the",
+        "swimmers",
+        "racing?"
+      ],
+      "wrong": 1,
+      "fixes": [
+        "do",
+        "are"
+      ],
+      "fix": "b",
+      "hint": "the swimmers = they → are.",
+      "explain": "Where are the swimmers racing?"
+    },
+    {
+      "id": "w3-fx-009",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "prep-over",
+      "words": [
+        "Where",
+        "is",
+        "Leo",
+        "jump?"
+      ],
+      "wrong": 3,
+      "fixes": [
+        "jumping",
+        "jumps"
+      ],
+      "fix": "a",
+      "hint": "is + jumping.",
+      "explain": "Where is Leo jumping?"
+    },
+    {
+      "id": "w3-fx-010",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "a-bowling",
+      "words": [
+        "Who",
+        "is",
+        "go",
+        "bowling?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "goes",
+        "going"
+      ],
+      "fix": "b",
+      "hint": "is + going.",
+      "explain": "Who is going bowling?"
+    },
+    {
+      "id": "w3-fx-011",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "w-plan",
+      "words": [
+        "When",
+        "does",
+        "you",
+        "exercise?"
+      ],
+      "wrong": 1,
+      "fixes": [
+        "do",
+        "is"
+      ],
+      "fix": "a",
+      "hint": "you → do.",
+      "explain": "When do you exercise?"
+    },
+    {
+      "id": "w3-fx-012",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "walk-to-school",
+      "words": [
+        "When",
+        "do",
+        "Leo",
+        "walk",
+        "to",
+        "school?"
+      ],
+      "wrong": 1,
+      "fixes": [
+        "are",
+        "does"
+      ],
+      "fix": "b",
+      "hint": "Leo = he → does.",
+      "explain": "When does Leo walk to school?"
+    },
+    {
+      "id": "w3-fx-013",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-over",
+      "words": [
+        "Leo",
+        "is",
+        "jumping",
+        "under",
+        "the",
+        "hurdles."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "over",
+        "into"
+      ],
+      "fix": "a",
+      "hint": "He is above the hurdles.",
+      "explain": "Leo is jumping over the hurdles."
+    },
+    {
+      "id": "w3-fx-014",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-under",
+      "words": [
+        "Leo",
+        "is",
+        "crawling",
+        "over",
+        "the",
+        "bench."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "around",
+        "under"
+      ],
+      "fix": "b",
+      "hint": "He is below the bench.",
+      "explain": "Leo is crawling under the bench."
+    },
+    {
+      "id": "w3-fx-015",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-down",
+      "words": [
+        "Sam",
+        "is",
+        "sliding",
+        "up",
+        "the",
+        "slide."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "down",
+        "between"
+      ],
+      "fix": "a",
+      "hint": "A slide goes down.",
+      "explain": "Sam is sliding down the slide."
+    },
+    {
+      "id": "w3-fx-016",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-into",
+      "words": [
+        "Ana",
+        "is",
+        "jumping",
+        "past",
+        "the",
+        "sandbox."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "under",
+        "into"
+      ],
+      "fix": "b",
+      "hint": "She is going in.",
+      "explain": "Ana is jumping into the sandbox."
+    },
+    {
+      "id": "w3-fx-017",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-between",
+      "words": [
+        "Mia",
+        "is",
+        "running",
+        "around",
+        "the",
+        "trees."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "between",
+        "up"
+      ],
+      "fix": "a",
+      "hint": "A tree on each side.",
+      "explain": "Mia is running between the trees."
+    },
+    {
+      "id": "w3-fx-018",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-through",
+      "words": [
+        "Mia",
+        "is",
+        "climbing",
+        "across",
+        "the",
+        "hoop."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "under",
+        "through"
+      ],
+      "fix": "b",
+      "hint": "In one side, out the other.",
+      "explain": "Mia is climbing through the hoop."
+    },
+    {
+      "id": "w3-ld-001",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "course",
+      "statement": "Sam is running around the cone.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Sam is running around the cone."
+    },
+    {
+      "id": "w3-ld-002",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "course",
+      "statement": "Mia is climbing through the hoop.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Mia is climbing through the hoop."
+    },
+    {
+      "id": "w3-ld-003",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "course",
+      "statement": "Leo is crawling under the bridge.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. Leo is crawling under the bridge."
+    },
+    {
+      "id": "w3-ld-004",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "moves",
+      "statement": "Leo is jumping over the hurdles.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Leo is jumping over the hurdles."
+    },
+    {
+      "id": "w3-ld-005",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "moves",
+      "statement": "Leo is crawling under the hurdles.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. Leo is crawling under the hurdles."
+    },
+    {
+      "id": "w3-ld-006",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "moves",
+      "statement": "Ana is climbing down the ladder.",
+      "answer": false,
+      "hint": "Read: up the ladder.",
+      "explain": "False. Ana is climbing down the ladder."
+    },
+    {
+      "id": "w3-ld-007",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 1,
+      "card": "relay",
+      "statement": "Who is passing the baton? Mia is.",
+      "answer": true,
+      "hint": "Read the second sentence.",
+      "explain": "True. Who is passing the baton? Mia is."
+    },
+    {
+      "id": "w3-ld-008",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 2,
+      "card": "relay",
+      "statement": "Where are Mia and Sam? In the pool.",
+      "answer": false,
+      "hint": "Read the first sentence.",
+      "explain": "False. Where are Mia and Sam? In the pool."
+    },
+    {
+      "id": "w3-ld-009",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 1,
+      "card": "relay",
+      "statement": "Leo isn't running.",
+      "answer": true,
+      "hint": "Read the last part.",
+      "explain": "True. Leo isn't running."
+    },
+    {
+      "id": "w3-ld-010",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 1,
+      "card": "three",
+      "statement": "How are Sam and Leo running? Together.",
+      "answer": true,
+      "hint": "Read the last sentence.",
+      "explain": "True. How are Sam and Leo running? Together."
+    },
+    {
+      "id": "w3-ld-011",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 2,
+      "card": "three",
+      "statement": "What are their legs tied with? A rope.",
+      "answer": false,
+      "hint": "Read the second sentence.",
+      "explain": "False. What are their legs tied with? A rope."
+    },
+    {
+      "id": "w3-ld-012",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "body",
+      "statement": "I think with my bones.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. I think with my bones."
+    },
+    {
+      "id": "w3-ld-013",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "body",
+      "statement": "I breathe with my lungs.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. I breathe with my lungs."
+    },
+    {
+      "id": "w3-ld-014",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 1,
+      "card": "strong",
+      "statement": "Why are they having a break? Because they are tired.",
+      "answer": true,
+      "hint": "Read the first sentence.",
+      "explain": "True. Why are they having a break? Because they are tired."
+    },
+    {
+      "id": "w3-ld-015",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 1,
+      "card": "strong",
+      "statement": "The children aren't running now.",
+      "answer": true,
+      "hint": "Read the last sentence.",
+      "explain": "True. The children aren't running now."
+    },
+    {
+      "id": "w3-ld-016",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 2,
+      "card": "plan",
+      "statement": "When does Mia go swimming? On Monday.",
+      "answer": false,
+      "hint": "Read the second line.",
+      "explain": "False. When does Mia go swimming? On Monday."
+    },
+    {
+      "id": "w3-ld-017",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "bounce",
+      "statement": "You can quit the team.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. You can quit the team."
+    },
+    {
+      "id": "w3-ld-018",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "bounce",
+      "statement": "You can ask for help.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. You can ask for help."
+    },
+    {
+      "id": "w3-cd-001",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "prep-around",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Who is running around the cone?"
+        },
+        {
+          "who": "Ana",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "Sam is.",
+        "Yes, he is.",
+        "Around the cone."
+      ],
+      "answer": "a",
+      "hint": "Who → a person.",
+      "explain": "Sam is."
+    },
+    {
+      "id": "w3-cd-002",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "r-relay",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "___ is Mia passing?"
+        },
+        {
+          "who": "Ana",
+          "text": "The baton."
+        }
+      ],
+      "options": [
+        "Who",
+        "What",
+        "When"
+      ],
+      "answer": "b",
+      "hint": "The baton is a thing.",
+      "explain": "What is Mia passing? The baton."
+    },
+    {
+      "id": "w3-cd-003",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "r-track",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Where is Leo?"
+        },
+        {
+          "who": "Mia",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "He is fast.",
+        "Because he is running.",
+        "He is on the track."
+      ],
+      "answer": "c",
+      "hint": "Where → a place.",
+      "explain": "He is on the track."
+    },
+    {
+      "id": "w3-cd-004",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "w-plan",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "When do you exercise, Mia?"
+        },
+        {
+          "who": "Mia",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "After school.",
+        "In the garden.",
+        "With a ball."
+      ],
+      "answer": "a",
+      "hint": "When → a time.",
+      "explain": "After school."
+    },
+    {
+      "id": "w3-cd-005",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "r-track",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "___ do runners win races?"
+        },
+        {
+          "who": "Leo",
+          "text": "They run fast!"
+        }
+      ],
+      "options": [
+        "Where",
+        "How",
+        "Who"
+      ],
+      "answer": "b",
+      "hint": "They run fast is a way.",
+      "explain": "How do runners win races? They run fast!"
+    },
+    {
+      "id": "w3-cd-006",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "st-cheer",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Why are you cheering?"
+        },
+        {
+          "who": "Mia",
+          "text": "___ I want my team to win!"
+        }
+      ],
+      "options": [
+        "When",
+        "How",
+        "Because"
+      ],
+      "answer": "c",
+      "hint": "Why → Because.",
+      "explain": "Because I want my team to win!"
+    },
+    {
+      "id": "w3-cd-007",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "a-yoga",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "What is Ana doing?"
+        },
+        {
+          "who": "Mia",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "She is doing yoga.",
+        "She is in the garden.",
+        "Ana is."
+      ],
+      "answer": "a",
+      "hint": "What … doing? → an action.",
+      "explain": "She is doing yoga."
+    },
+    {
+      "id": "w3-cd-008",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "cover",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Start at the gate. Run ___ the cone."
+        },
+        {
+          "who": "Sam",
+          "text": "OK! I am running around it."
+        }
+      ],
+      "options": [
+        "into",
+        "around",
+        "under"
+      ],
+      "answer": "b",
+      "hint": "Sam says it.",
+      "explain": "Run around the cone."
+    },
+    {
+      "id": "w3-cd-009",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "prep-up",
+      "lines": [
+        {
+          "who": "Ms. Rosa",
+          "text": "Now go ___ the ladder."
+        },
+        {
+          "who": "Ana",
+          "text": "I am climbing up!"
+        }
+      ],
+      "options": [
+        "under",
+        "past",
+        "up"
+      ],
+      "answer": "c",
+      "hint": "Ana says it.",
+      "explain": "Now go up the ladder."
+    },
+    {
+      "id": "w3-cd-010",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 1,
+      "image": "s-sad",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Are you OK, Ana?"
+        },
+        {
+          "who": "Ana",
+          "text": "No, ___. My serve isn't very good."
+        }
+      ],
+      "options": [
+        "I'm not",
+        "I don't",
+        "you aren't"
+      ],
+      "answer": "a",
+      "hint": "Ana talks about Ana → I'm not.",
+      "explain": "No, I'm not. My serve isn't very good."
+    },
+    {
+      "id": "w3-cd-011",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "s-help",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "I want to quit."
+        },
+        {
+          "who": "Mia",
+          "text": "Don't give up! I can ___ you."
+        }
+      ],
+      "options": [
+        "push",
+        "help",
+        "quit"
+      ],
+      "answer": "b",
+      "hint": "Mia is a good friend.",
+      "explain": "Don't give up! I can help you."
+    },
+    {
+      "id": "w3-cd-012",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "s-coach",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "I missed the ball. I am disappointed."
+        },
+        {
+          "who": "Coach",
+          "text": "That's OK. Let's ___ more."
+        }
+      ],
+      "options": [
+        "sleep",
+        "cry",
+        "practice"
+      ],
+      "answer": "c",
+      "hint": "What makes you better?",
+      "explain": "That's OK. Let's practice more."
+    },
+    {
+      "id": "w3-rd-001",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where is Sam running?",
+      "options": [
+        "In the park.",
+        "On the track."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Sam is running in the park."
+    },
+    {
+      "id": "w3-rd-002",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What gives Sam energy?",
+      "options": [
+        "Sleeping.",
+        "Moving."
+      ],
+      "answer": "b",
+      "hint": "Read the third sentence.",
+      "explain": "Moving gives him energy."
+    },
+    {
+      "id": "w3-rd-003",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "How does Sam feel after the run?",
+      "options": [
+        "Relaxed and happy.",
+        "Sad and tired."
+      ],
+      "answer": "a",
+      "hint": "Read the fourth sentence.",
+      "explain": "He is relaxed and happy."
+    },
+    {
+      "id": "w3-rd-004",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Sam feels bad.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Read: He feels great!",
+      "explain": "False. He feels great!"
+    },
+    {
+      "id": "w3-rd-005",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is Mia riding?",
+      "options": [
+        "Her bike.",
+        "A horse."
+      ],
+      "answer": "a",
+      "hint": "Read the second sentence.",
+      "explain": "She is riding her bike."
+    },
+    {
+      "id": "w3-rd-006",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where is Mia riding?",
+      "options": [
+        "Into a pool.",
+        "Up a hill."
+      ],
+      "answer": "b",
+      "hint": "Read the second sentence.",
+      "explain": "She is riding up a hill."
+    },
+    {
+      "id": "w3-rd-007",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is beating fast?",
+      "options": [
+        "Her heart.",
+        "Her bones."
+      ],
+      "answer": "a",
+      "hint": "Read the third sentence.",
+      "explain": "Her heart is beating fast."
+    },
+    {
+      "id": "w3-rd-008",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Mia gets tired quickly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Read: she doesn't get tired quickly.",
+      "explain": "False. She doesn't get tired quickly."
+    },
+    {
+      "id": "w3-rd-009",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where is Leo?",
+      "options": [
+        "At karate class.",
+        "At the pool."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Leo is at karate class."
+    },
+    {
+      "id": "w3-rd-010",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is Leo doing first?",
+      "options": [
+        "He is jumping.",
+        "He is stretching his muscles."
+      ],
+      "answer": "b",
+      "hint": "Find First.",
+      "explain": "First, he is stretching his muscles."
+    },
+    {
+      "id": "w3-rd-011",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is like a frame for his body?",
+      "options": [
+        "His bones.",
+        "His muscles."
+      ],
+      "answer": "a",
+      "hint": "Read the fifth sentence.",
+      "explain": "His bones are like a frame for his body."
+    },
+    {
+      "id": "w3-rd-012",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What makes muscles and bones strong?",
+      "options": [
+        "Sleep.",
+        "Exercise."
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "Exercise makes them strong."
+    },
+    {
+      "id": "w3-rd-013",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where does Ana start?",
+      "options": [
+        "At the gate.",
+        "At the bridge."
+      ],
+      "answer": "a",
+      "hint": "Read the second sentence.",
+      "explain": "Ana starts at the gate."
+    },
+    {
+      "id": "w3-rd-014",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "How does she pass the cone?",
+      "options": [
+        "She crawls under it.",
+        "She runs around it."
+      ],
+      "answer": "b",
+      "hint": "Read the third sentence.",
+      "explain": "She runs around the cone."
+    },
+    {
+      "id": "w3-rd-015",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where does she go after the hoop?",
+      "options": [
+        "Up the ladder.",
+        "Into the sandbox."
+      ],
+      "answer": "a",
+      "hint": "Find Next.",
+      "explain": "She goes up the ladder."
+    },
+    {
+      "id": "w3-rd-016",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "True or false? Ana jumps over the hurdles.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "True. She jumps over the hurdles."
+    },
+    {
+      "id": "w3-mv-001",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-around",
+      "prompt": "Look. Sam is running ___ the cone.",
+      "options": [
+        "under",
+        "around",
+        "into"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Sam is running around the cone."
+    },
+    {
+      "id": "w3-mv-002",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-through",
+      "prompt": "Look. Mia is climbing ___ the hoop.",
+      "options": [
+        "over",
+        "past",
+        "through"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Mia is climbing through the hoop."
+    },
+    {
+      "id": "w3-mv-003",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-over",
+      "prompt": "Look. Leo is jumping ___ the hurdles.",
+      "options": [
+        "over",
+        "under",
+        "between"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Leo is jumping over the hurdles."
+    },
+    {
+      "id": "w3-mv-004",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-up",
+      "prompt": "Look. Ana is climbing ___ the ladder.",
+      "options": [
+        "down",
+        "up",
+        "around"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Ana is climbing up the ladder."
+    },
+    {
+      "id": "w3-mv-005",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-down",
+      "prompt": "Look. Sam is sliding ___ the slide.",
+      "options": [
+        "up",
+        "across",
+        "down"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Sam is sliding down the slide."
+    },
+    {
+      "id": "w3-mv-006",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-across",
+      "prompt": "Look. Mia is walking ___ the bridge.",
+      "options": [
+        "across",
+        "under",
+        "into"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Mia is walking across the bridge."
+    },
+    {
+      "id": "w3-mv-007",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-under",
+      "prompt": "Look. Leo is crawling ___ the bench.",
+      "options": [
+        "over",
+        "under",
+        "past"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Leo is crawling under the bench."
+    },
+    {
+      "id": "w3-mv-008",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-into",
+      "prompt": "Look. Ana is jumping ___ the sandbox.",
+      "options": [
+        "out of",
+        "past",
+        "into"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Ana is jumping into the sandbox."
+    },
+    {
+      "id": "w3-mv-009",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-out",
+      "prompt": "Look. Sam is stepping ___ the sandbox.",
+      "options": [
+        "out of",
+        "into",
+        "between"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Sam is stepping out of the sandbox."
+    },
+    {
+      "id": "w3-mv-010",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-past",
+      "prompt": "Look. Leo is running ___ the goal.",
+      "options": [
+        "into",
+        "past",
+        "under"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Leo is running past the goal."
+    },
+    {
+      "id": "w3-mv-011",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "prep-between",
+      "prompt": "Look. Mia is running ___ the trees.",
+      "options": [
+        "over",
+        "through",
+        "between"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Mia is running between the trees."
+    },
+    {
+      "id": "w3-mv-012",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-around",
+      "prompt": "Where is Sam running?",
+      "options": [
+        "Around the cone.",
+        "Up the ladder.",
+        "Into the sandbox."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He is running around the cone."
+    },
+    {
+      "id": "w3-mv-013",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-through",
+      "prompt": "Where is Mia climbing?",
+      "options": [
+        "Down the slide.",
+        "Through the hoop.",
+        "Out of the sandbox."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She is climbing through the hoop."
+    },
+    {
+      "id": "w3-mv-014",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-over",
+      "prompt": "Where is Leo jumping?",
+      "options": [
+        "Across the bridge.",
+        "Past the goal.",
+        "Over the hurdles."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "He is jumping over the hurdles."
+    },
+    {
+      "id": "w3-mv-015",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-up",
+      "prompt": "Where is Ana climbing?",
+      "options": [
+        "Up the ladder.",
+        "Under the bench.",
+        "Between the trees."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "She is climbing up the ladder."
+    },
+    {
+      "id": "w3-mv-016",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-down",
+      "prompt": "Where is Sam sliding?",
+      "options": [
+        "Into the sandbox.",
+        "Down the slide.",
+        "Around the cone."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "He is sliding down the slide."
+    },
+    {
+      "id": "w3-mv-017",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-across",
+      "prompt": "Where is Mia walking?",
+      "options": [
+        "Out of the sandbox.",
+        "Through the hoop.",
+        "Across the bridge."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "She is walking across the bridge."
+    },
+    {
+      "id": "w3-mv-018",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-under",
+      "prompt": "Where is Leo crawling?",
+      "options": [
+        "Under the bench.",
+        "Past the goal.",
+        "Over the hurdles."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He is crawling under the bench."
+    },
+    {
+      "id": "w3-mv-019",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-into",
+      "prompt": "Where is Ana jumping?",
+      "options": [
+        "Between the trees.",
+        "Into the sandbox.",
+        "Up the ladder."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She is jumping into the sandbox."
+    },
+    {
+      "id": "w3-mv-020",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-out",
+      "prompt": "Where is Sam stepping?",
+      "options": [
+        "Around the cone.",
+        "Down the slide.",
+        "Out of the sandbox."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "He is stepping out of the sandbox."
+    },
+    {
+      "id": "w3-mv-021",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-past",
+      "prompt": "Where is Leo running?",
+      "options": [
+        "Past the goal.",
+        "Through the hoop.",
+        "Across the bridge."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He is running past the goal."
+    },
+    {
+      "id": "w3-mv-022",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "prep-between",
+      "prompt": "Where is Mia running?",
+      "options": [
+        "Over the hurdles.",
+        "Between the trees.",
+        "Under the bench."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She is running between the trees."
+    },
+    {
+      "id": "w3-mv-023",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-up",
+      "prompt": "The opposite of up is ___.",
+      "options": [
+        "down",
+        "past"
+      ],
+      "answer": "a",
+      "hint": "up ↑ down ↓.",
+      "explain": "The opposite of up is down."
+    },
+    {
+      "id": "w3-mv-024",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-over",
+      "prompt": "The opposite of over is ___.",
+      "options": [
+        "around",
+        "under"
+      ],
+      "answer": "b",
+      "hint": "over ↔ under.",
+      "explain": "The opposite of over is under."
+    },
+    {
+      "id": "w3-mv-025",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-into",
+      "prompt": "The opposite of into is ___.",
+      "options": [
+        "out of",
+        "between"
+      ],
+      "answer": "a",
+      "hint": "into ↔ out of.",
+      "explain": "The opposite of into is out of."
+    },
+    {
+      "id": "w3-mv-026",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-between",
+      "prompt": "There is a tree on each side. She is ___ the trees.",
+      "options": [
+        "over",
+        "between"
+      ],
+      "answer": "b",
+      "hint": "One on each side.",
+      "explain": "She is between the trees."
+    },
+    {
+      "id": "w3-mv-027",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-across",
+      "prompt": "He is walking to the other side of the street. He is walking ___ the street.",
+      "options": [
+        "across",
+        "under"
+      ],
+      "answer": "a",
+      "hint": "To the other side.",
+      "explain": "He is walking across the street."
+    },
+    {
+      "id": "w3-mv-028",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "prep-past",
+      "prompt": "She doesn't stop at the school. She is riding ___ the school.",
+      "options": [
+        "into",
+        "past"
+      ],
+      "answer": "b",
+      "hint": "She doesn't stop.",
+      "explain": "She is riding past the school."
+    },
+    {
+      "id": "w3-mv-029",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "cover",
+      "prompt": "Which one is a direction?",
+      "options": [
+        "Run around the cone.",
+        "Sam runs around the cone."
+      ],
+      "answer": "a",
+      "hint": "A direction has no who.",
+      "explain": "Run around the cone."
+    },
+    {
+      "id": "w3-mv-030",
+      "v": 1,
+      "bank": "moving",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 2,
+      "image": "cover",
+      "prompt": "Which one is a direction?",
+      "options": [
+        "Leo is jumping over the hurdles.",
+        "Jump over the hurdles."
+      ],
+      "answer": "b",
+      "hint": "A direction has no who.",
+      "explain": "Jump over the hurdles."
+    },
+    {
+      "id": "w3-bd-001",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-heart",
+      "prompt": "Look. What is it?",
+      "options": [
+        "lungs",
+        "heart",
+        "bones"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Heart."
+    },
+    {
+      "id": "w3-bd-002",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-lungs",
+      "prompt": "Look. What is it?",
+      "options": [
+        "brain",
+        "muscles",
+        "lungs"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Lungs."
+    },
+    {
+      "id": "w3-bd-003",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-brain",
+      "prompt": "Look. What is it?",
+      "options": [
+        "brain",
+        "bones",
+        "heart"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Brain."
+    },
+    {
+      "id": "w3-bd-004",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-bones",
+      "prompt": "Look. What is it?",
+      "options": [
+        "muscles",
+        "bones",
+        "lungs"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Bones."
+    },
+    {
+      "id": "w3-bd-005",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-muscles",
+      "prompt": "Look. What is it?",
+      "options": [
+        "heart",
+        "brain",
+        "muscles"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Muscles."
+    },
+    {
+      "id": "w3-bd-006",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-energy",
+      "prompt": "Mia is full of ___.",
+      "options": [
+        "energy",
+        "bones",
+        "water"
+      ],
+      "answer": "a",
+      "hint": "She is jumping high.",
+      "explain": "Mia is full of energy."
+    },
+    {
+      "id": "w3-bd-007",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-relaxed",
+      "prompt": "Ana is ___ under the tree.",
+      "options": [
+        "tired",
+        "relaxed",
+        "running"
+      ],
+      "answer": "b",
+      "hint": "She is calm and happy.",
+      "explain": "Ana is relaxed under the tree."
+    },
+    {
+      "id": "w3-bd-008",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-tired",
+      "prompt": "Leo is ___ after the race.",
+      "options": [
+        "strong",
+        "running",
+        "tired"
+      ],
+      "answer": "c",
+      "hint": "He is sitting on a bench.",
+      "explain": "Leo is tired after the race."
+    },
+    {
+      "id": "w3-bd-009",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-strong",
+      "prompt": "Exercise makes my body ___.",
+      "options": [
+        "strong",
+        "tired",
+        "small"
+      ],
+      "answer": "a",
+      "hint": "Look at Ana.",
+      "explain": "Exercise makes my body strong."
+    },
+    {
+      "id": "w3-bd-010",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-stretch",
+      "prompt": "Sam is ___ his muscles.",
+      "options": [
+        "eating",
+        "stretching",
+        "passing"
+      ],
+      "answer": "b",
+      "hint": "His arms are up.",
+      "explain": "Sam is stretching his muscles."
+    },
+    {
+      "id": "w3-bd-011",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-breathe",
+      "prompt": "Mia is ___ hard after her run.",
+      "options": [
+        "sleeping",
+        "writing",
+        "breathing"
+      ],
+      "answer": "c",
+      "hint": "Her lungs are working.",
+      "explain": "Mia is breathing hard after her run."
+    },
+    {
+      "id": "w3-bd-012",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-push",
+      "prompt": "Leo is ___ a big ball.",
+      "options": [
+        "pushing",
+        "pulling",
+        "eating"
+      ],
+      "answer": "a",
+      "hint": "His hands are on the ball.",
+      "explain": "Leo is pushing a big ball."
+    },
+    {
+      "id": "w3-bd-013",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-pull",
+      "prompt": "Ana is ___ a wagon.",
+      "options": [
+        "pushing",
+        "pulling",
+        "riding"
+      ],
+      "answer": "b",
+      "hint": "She has a rope.",
+      "explain": "Ana is pulling a wagon."
+    },
+    {
+      "id": "w3-bd-014",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-plan",
+      "prompt": "Mia is writing an ___ plan.",
+      "options": [
+        "apple",
+        "evening",
+        "exercise"
+      ],
+      "answer": "c",
+      "hint": "A plan for sport.",
+      "explain": "Mia is writing an exercise plan."
+    },
+    {
+      "id": "w3-bd-015",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-break",
+      "prompt": "The children are having a short ___.",
+      "options": [
+        "break",
+        "bone",
+        "bridge"
+      ],
+      "answer": "a",
+      "hint": "They are resting.",
+      "explain": "The children are having a short break."
+    },
+    {
+      "id": "w3-bd-016",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-heart",
+      "prompt": "When I run, my heart beats ___.",
+      "options": [
+        "slower",
+        "faster"
+      ],
+      "answer": "b",
+      "hint": "Think about running.",
+      "explain": "When I run, my heart beats faster."
+    },
+    {
+      "id": "w3-bd-017",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "b-bones",
+      "prompt": "My bones ___ up my body.",
+      "options": [
+        "hold",
+        "run"
+      ],
+      "answer": "a",
+      "hint": "They are like a frame.",
+      "explain": "My bones hold up my body."
+    },
+    {
+      "id": "w3-bd-018",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-stretch",
+      "prompt": "Stretch before and after ___.",
+      "options": [
+        "bones",
+        "sport"
+      ],
+      "answer": "b",
+      "hint": "Sam is getting ready.",
+      "explain": "Stretch before and after sport."
+    },
+    {
+      "id": "w3-bd-019",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "w-plan",
+      "prompt": "Move your body for one ___ every day.",
+      "options": [
+        "hour",
+        "bone"
+      ],
+      "answer": "a",
+      "hint": "A long time, every day.",
+      "explain": "Move your body for one hour every day."
+    },
+    {
+      "id": "w3-bd-020",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-stairs",
+      "prompt": "Leo is taking the ___.",
+      "options": [
+        "bench",
+        "stairs"
+      ],
+      "answer": "b",
+      "hint": "Look at his feet.",
+      "explain": "Leo is taking the stairs."
+    },
+    {
+      "id": "w3-bd-021",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-video",
+      "prompt": "Mia is following an exercise ___.",
+      "options": [
+        "video",
+        "bridge"
+      ],
+      "answer": "a",
+      "hint": "Look at the TV.",
+      "explain": "Mia is following an exercise video."
+    },
+    {
+      "id": "w3-bd-022",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-games",
+      "prompt": "Sam is playing video ___.",
+      "options": [
+        "trees",
+        "games"
+      ],
+      "answer": "b",
+      "hint": "Look at his hands.",
+      "explain": "Sam is playing video games."
+    },
+    {
+      "id": "w3-bd-023",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "walk-to-school",
+      "prompt": "Leo is walking ___ school.",
+      "options": [
+        "to",
+        "over"
+      ],
+      "answer": "a",
+      "hint": "walk to school.",
+      "explain": "Leo is walking to school."
+    },
+    {
+      "id": "w3-bd-024",
+      "v": 1,
+      "bank": "body",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "dance",
+      "prompt": "Mia and Ana are ___.",
+      "options": [
+        "sleeping",
+        "dancing"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Mia and Ana are dancing."
+    },
+    {
+      "id": "w3-ac-001",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-gymnastics",
+      "prompt": "Mia is ___ gymnastics.",
+      "options": [
+        "playing",
+        "doing",
+        "going"
+      ],
+      "answer": "b",
+      "hint": "do gymnastics.",
+      "explain": "Mia is doing gymnastics."
+    },
+    {
+      "id": "w3-ac-002",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "Leo is ___ baseball.",
+      "options": [
+        "doing",
+        "going",
+        "playing"
+      ],
+      "answer": "c",
+      "hint": "play baseball.",
+      "explain": "Leo is playing baseball."
+    },
+    {
+      "id": "w3-ac-003",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-karate",
+      "prompt": "Leo is ___ karate.",
+      "options": [
+        "doing",
+        "playing",
+        "going"
+      ],
+      "answer": "a",
+      "hint": "do karate.",
+      "explain": "Leo is doing karate."
+    },
+    {
+      "id": "w3-ac-004",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-skating",
+      "prompt": "Sam is ___ skating.",
+      "options": [
+        "doing",
+        "going",
+        "playing"
+      ],
+      "answer": "b",
+      "hint": "go skating.",
+      "explain": "Sam is going skating."
+    },
+    {
+      "id": "w3-ac-005",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-pool",
+      "prompt": "Ana is ___ swimming.",
+      "options": [
+        "doing",
+        "playing",
+        "going"
+      ],
+      "answer": "c",
+      "hint": "go swimming.",
+      "explain": "Ana is going swimming."
+    },
+    {
+      "id": "w3-ac-006",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "act-tag",
+      "prompt": "The children are ___ tag.",
+      "options": [
+        "playing",
+        "doing",
+        "going"
+      ],
+      "answer": "a",
+      "hint": "play tag.",
+      "explain": "The children are playing tag."
+    },
+    {
+      "id": "w3-ac-007",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-bowling",
+      "prompt": "Sam is ___ bowling.",
+      "options": [
+        "doing",
+        "going",
+        "playing"
+      ],
+      "answer": "b",
+      "hint": "go bowling.",
+      "explain": "Sam is going bowling."
+    },
+    {
+      "id": "w3-ac-008",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "sp-racket",
+      "prompt": "Mia is ___ tennis.",
+      "options": [
+        "doing",
+        "going",
+        "playing"
+      ],
+      "answer": "c",
+      "hint": "play tennis.",
+      "explain": "Mia is playing tennis."
+    },
+    {
+      "id": "w3-ac-009",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-yoga",
+      "prompt": "Ana is ___ yoga.",
+      "options": [
+        "doing",
+        "playing",
+        "going"
+      ],
+      "answer": "a",
+      "hint": "do yoga.",
+      "explain": "Ana is doing yoga."
+    },
+    {
+      "id": "w3-ac-010",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-gymnastics",
+      "prompt": "What is Mia doing?",
+      "options": [
+        "She is playing tag.",
+        "She is doing gymnastics.",
+        "She is going bowling."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She is doing gymnastics."
+    },
+    {
+      "id": "w3-ac-011",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "What is Leo playing?",
+      "options": [
+        "He is playing tennis.",
+        "He is playing tag.",
+        "He is playing baseball."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "He is playing baseball."
+    },
+    {
+      "id": "w3-ac-012",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-bounce",
+      "prompt": "What is Ana bouncing?",
+      "options": [
+        "A ball.",
+        "A baton.",
+        "A racket."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "A ball."
+    },
+    {
+      "id": "w3-ac-013",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-karate",
+      "prompt": "What is Leo doing?",
+      "options": [
+        "He is doing yoga.",
+        "He is doing karate.",
+        "He is going skating."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "He is doing karate."
+    },
+    {
+      "id": "w3-ac-014",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "v-jump",
+      "prompt": "What is Ana doing?",
+      "options": [
+        "She is riding a bike.",
+        "She is doing yoga.",
+        "She is jumping rope."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "She is jumping rope."
+    },
+    {
+      "id": "w3-ac-015",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-skating",
+      "prompt": "What is Sam doing?",
+      "options": [
+        "He is going skating.",
+        "He is going swimming.",
+        "He is going bowling."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He is going skating."
+    },
+    {
+      "id": "w3-ac-016",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "ride-a-bike",
+      "prompt": "What is Ana riding?",
+      "options": [
+        "A wagon.",
+        "A bike.",
+        "A slide."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "A bike."
+    },
+    {
+      "id": "w3-ac-017",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-pool",
+      "prompt": "Where is Ana swimming?",
+      "options": [
+        "On the track.",
+        "In the gym.",
+        "In the pool."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "In the pool."
+    },
+    {
+      "id": "w3-ac-018",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "act-tag",
+      "prompt": "What are the children playing?",
+      "options": [
+        "They are playing tag.",
+        "They are playing tennis.",
+        "They are doing karate."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "They are playing tag."
+    },
+    {
+      "id": "w3-ac-019",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-field",
+      "prompt": "What are Mia and Sam running?",
+      "options": [
+        "A hoop.",
+        "A race.",
+        "A bridge."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "A race."
+    },
+    {
+      "id": "w3-ac-020",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "a-bowling",
+      "prompt": "Who is going bowling?",
+      "options": [
+        "Ana is.",
+        "Leo is.",
+        "Sam is."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Sam is."
+    },
+    {
+      "id": "w3-ac-021",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "a-yoga",
+      "prompt": "Where is Ana doing yoga?",
+      "options": [
+        "In the garden.",
+        "In the pool.",
+        "At school."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "In the garden."
+    },
+    {
+      "id": "w3-ac-022",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "r-three",
+      "prompt": "What are Sam and Leo running?",
+      "options": [
+        "A relay race.",
+        "A three-legged race.",
+        "A swimming race."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "A three-legged race."
+    },
+    {
+      "id": "w3-ac-023",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "r-relay",
+      "prompt": "What is Mia passing to Sam?",
+      "options": [
+        "A ball.",
+        "A racket.",
+        "A baton."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "A baton."
+    },
+    {
+      "id": "w3-ac-024",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "r-relay",
+      "prompt": "Where is the relay race?",
+      "options": [
+        "On the track.",
+        "In a pool.",
+        "In a sandbox."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "On the track."
+    },
+    {
+      "id": "w3-ac-025",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-racket",
+      "prompt": "What do you need for tennis?",
+      "options": [
+        "A baton.",
+        "A racket and a ball.",
+        "A rope."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "A racket and a ball."
+    },
+    {
+      "id": "w3-ac-026",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "sp-bat",
+      "prompt": "What do you need for baseball?",
+      "options": [
+        "A hoop.",
+        "A net.",
+        "A bat and a ball."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "A bat and a ball."
+    },
+    {
+      "id": "w3-ac-027",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "st-cheer",
+      "prompt": "What are Mia and Ana doing?",
+      "options": [
+        "They are cheering.",
+        "They are swimming.",
+        "They are sleeping."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "They are cheering."
+    },
+    {
+      "id": "w3-ac-028",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "st-highfive",
+      "prompt": "Why do we play sports?",
+      "options": [
+        "Because we are tired.",
+        "Because they are fun and good for us.",
+        "In the park."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "Because they are fun and good for us."
+    },
+    {
+      "id": "w3-ac-029",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "r-tie",
+      "prompt": "What are Mia and Ana tying together?",
+      "options": [
+        "Their heads.",
+        "Their bats.",
+        "Their legs."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "Their legs."
+    },
+    {
+      "id": "w3-ac-030",
+      "v": 1,
+      "bank": "activities",
+      "type": "mcq",
+      "target": "question",
+      "level": 1,
+      "image": "r-swim",
+      "prompt": "Who is cheering?",
+      "options": [
+        "Mia is.",
+        "Sam is.",
+        "Leo is."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "Mia is."
+    },
+    {
+      "id": "w3-bb-001",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-sad",
+      "prompt": "Ana looks sad. She is ___.",
+      "options": [
+        "disappointed",
+        "relaxed"
+      ],
+      "answer": "a",
+      "hint": "Her serve is not very good.",
+      "explain": "She is disappointed."
+    },
+    {
+      "id": "w3-bb-002",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-help",
+      "prompt": "Mia is ___ her friend.",
+      "options": [
+        "pushing",
+        "helping"
+      ],
+      "answer": "b",
+      "hint": "She is showing Ana what to do.",
+      "explain": "Mia is helping her friend."
+    },
+    {
+      "id": "w3-bb-003",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-miss",
+      "prompt": "Leo can't catch the ball. He is ___ it.",
+      "options": [
+        "missing",
+        "winning"
+      ],
+      "answer": "a",
+      "hint": "The ball is falling.",
+      "explain": "He is missing it."
+    },
+    {
+      "id": "w3-bb-004",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-try",
+      "prompt": "Sam falls. He is getting up to try ___.",
+      "options": [
+        "never",
+        "again"
+      ],
+      "answer": "b",
+      "hint": "He does not stop.",
+      "explain": "He is getting up to try again."
+    },
+    {
+      "id": "w3-bb-005",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-coach",
+      "prompt": "Leo is asking his ___ for help.",
+      "options": [
+        "coach",
+        "cone"
+      ],
+      "answer": "a",
+      "hint": "She helps the team.",
+      "explain": "Leo is asking his coach for help."
+    },
+    {
+      "id": "w3-bb-006",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-sad",
+      "prompt": "Which words help you bounce back?",
+      "options": [
+        "I want to quit.",
+        "I can practice more."
+      ],
+      "answer": "b",
+      "hint": "Keep trying.",
+      "explain": "I can practice more."
+    },
+    {
+      "id": "w3-bb-007",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-miss",
+      "prompt": "Which words help you bounce back?",
+      "options": [
+        "Sometimes we win and sometimes we lose.",
+        "I'm not good at anything."
+      ],
+      "answer": "a",
+      "hint": "Stay positive.",
+      "explain": "Sometimes we win and sometimes we lose."
+    },
+    {
+      "id": "w3-bb-008",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-coach",
+      "prompt": "Which words help you bounce back?",
+      "options": [
+        "I don't want to play.",
+        "I can ask my coach for help."
+      ],
+      "answer": "b",
+      "hint": "Ask for help.",
+      "explain": "I can ask my coach for help."
+    },
+    {
+      "id": "w3-bb-009",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-try",
+      "prompt": "Why is Sam getting up?",
+      "options": [
+        "Because he wants to try again.",
+        "Because he wants to quit."
+      ],
+      "answer": "a",
+      "hint": "Look at his face.",
+      "explain": "Because he wants to try again."
+    },
+    {
+      "id": "w3-bb-010",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "s-help",
+      "prompt": "How does Ana feel now?",
+      "options": [
+        "She feels worse.",
+        "She feels better."
+      ],
+      "answer": "b",
+      "hint": "She is smiling.",
+      "explain": "She feels better."
+    },
+    {
+      "id": "w3-bb-011",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "w-strong",
+      "prompt": "Problems are part of life. Stay ___!",
+      "options": [
+        "positive",
+        "tired"
+      ],
+      "answer": "a",
+      "hint": "Think good thoughts.",
+      "explain": "Stay positive!"
+    },
+    {
+      "id": "w3-bb-012",
+      "v": 1,
+      "bank": "bounce",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "teacher-class",
+      "prompt": "Your friend is talking. What do you do?",
+      "options": [
+        "Play a game and talk.",
+        "Look at your friend and listen."
+      ],
+      "answer": "b",
+      "hint": "Pay attention.",
+      "explain": "Look at your friend and listen."
+    }
+  ]
+}

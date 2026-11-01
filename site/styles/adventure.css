@@ -254,6 +254,8 @@ body {
 .blk { display: inline-flex; flex-direction: column; align-items: center; border-radius: 12px; border: 3px solid transparent; padding: 0.15rem 0.6rem 0.1rem; font: 800 clamp(1.4rem, 1rem + 1.4vw, 2.2rem) / 1.15 var(--font-body); }
 .blk.mini { font-size: 0.9rem; padding: 0.2rem 0.6rem; border-width: 2px; }
 .blk-l { font: 700 0.62rem/1 var(--font-body); text-transform: uppercase; letter-spacing: 0.06em; padding: 0.15rem 0 0.15rem; opacity: 0.9; }
+.blk-wh { background: #2f63d1; border-color: #1d4299; color: #fff; }
+.blk-wh .blk-l { color: #dfe8ff; }
 .blk-subject { background: var(--b-subject-bg); border-color: var(--b-subject); color: var(--b-subject-t); }
 .blk-helper { background: var(--b-helper-bg); border-color: var(--b-helper); color: var(--b-helper-t); }
 .blk-verb { background: var(--b-verb-bg); border-color: var(--b-verb); color: var(--b-verb-t); }

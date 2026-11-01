@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-18T16:51:09.693Z",
-  "env": "Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
-  "pass": 138,
+  "date": "2026-11-01T19:30:38.115Z",
+  "env": "Windows · Node v26.13.0 · 156.0.4314.58 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs",
+  "pass": 147,
   "fail": 0,
   "results": [
     {
       "area": "Navigation",
       "name": "Home → Week 1 → Words → Learn → Practise → Home",
       "expected": "each screen opens with its heading",
-      "actual": "Present Continuous | Present Simple | Words | Learn | Practise | Present Simple",
+      "actual": "Wh- Questions | Present Simple | Words | Learn | Practise | Present Simple",
       "status": "pass"
     },
     {
@@ -575,7 +575,7 @@
       "area": "Sessions",
       "name": "Restart activity asks first and starts a new set",
       "expected": "confirm → setup screen → new session id",
-      "actual": "smve29ip5g68k → smve29irigx3u",
+      "actual": "smvy849g3g90v → smvy849iee50z",
       "status": "pass"
     },
     {
@@ -631,7 +631,7 @@
       "area": "Week 2",
       "name": "A template week can be added without code changes; Week 1 progress stays",
       "expected": "Week 2 opens; Week 1 saved session still there",
-      "actual": "cards=2 title=TEST WEEK (not real content) banks=8 resume=1",
+      "actual": "cards=3 title=TEST WEEK (not real content) banks=8 resume=1",
       "status": "pass"
     },
     {
@@ -778,7 +778,7 @@
       "area": "Games",
       "name": "Spin and Say: spin gives a sentence that matches the slots (verified forms)",
       "expected": "answer hidden → shown, ends with . or ?",
-      "actual": "He / − negative → He doesn't draw a picture.",
+      "actual": "It / ? question → Does it get up at seven?",
       "status": "pass"
     },
     {
@@ -854,8 +854,8 @@
     {
       "area": "Shell",
       "name": "Week picker: Coming soon weeks cannot be chosen; owl tip changes on click",
-      "expected": "week-03 disabled; tip changes",
-      "actual": "true · “Does comes first. The s goes away.” → “Do you…? Yes, I do!”",
+      "expected": "week-04 disabled; tip changes",
+      "actual": "true · “After doesn't, use play — no s!” → “Does comes first. The s goes away.”",
       "status": "pass"
     },
     {
@@ -936,6 +936,69 @@
       "status": "pass"
     },
     {
+      "area": "Week 3",
+      "name": "Week 3 opens with its own title, 304 questions and 12 activities",
+      "expected": "Wh- Questions · 304 · 12",
+      "actual": "12 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 304 questions in",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Word sets: moving words first, then 7 more sets, every picture loads",
+      "expected": "8 sets · no broken pictures",
+      "actual": "8 · Moving: over, under, around … 12 words · broken 0",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Change Machine: sentence → Where question → answer; only possible question words show",
+      "expected": "Where is Sam running? · Around the cone.",
+      "actual": "Sam is running around the cone. | Where is Sam running? | Around the cone. · 4 tabs",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Sentence Switch makes Who, What and Where questions with answers",
+      "expected": "Mia · Who / What / Where",
+      "actual": "Mia is passing the baton on the track. | Who is passing the baton on the track? Mia is. | What is Mia passing on the track? The baton. | Where is Mia passing the baton? On the track.",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Spin and Say gives a question word and a full answer",
+      "expected": "answer has one sentence",
+      "actual": "He is running around the cone. null",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Change it: the question word is asked for; statement word order is not accepted",
+      "expected": "correct · trying",
+      "actual": "Make a question with Where. · correct-first · trying",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Learn: question and answer step, then the Change Machine",
+      "expected": "answer hidden, then shown",
+      "actual": "true · Sam is. (a person) · 1",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Worksheet works with the Wh- activities",
+      "expected": "questions with the cue",
+      "actual": "Unit 2 · Week 3 Words Learn Examples Practice Games Challenge Speak Printable wo",
+      "status": "pass"
+    },
+    {
+      "area": "Week 3",
+      "name": "Weeks 1 and 2 keep their own Sentence Switch",
+      "expected": "+ − ? buttons",
+      "actual": "+ Positive · − Negative · ? Question",
+      "status": "pass"
+    },
+    {
       "area": "Paths",
       "name": "Same package works at the domain root (/) as well as /test-repo/",
       "expected": "home + week + practice question load at /",
@@ -960,7 +1023,7 @@
       "area": "Network",
       "name": "Requests cancelled by quick screen changes (not errors)",
       "expected": "info",
-      "actual": "0",
+      "actual": "2",
       "status": "pass"
     },
     {

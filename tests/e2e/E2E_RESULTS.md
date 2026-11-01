@@ -1,14 +1,14 @@
 # E2E results (generated)
 
-Date: 2026-10-18T16:51:09.694Z
+Date: 2026-11-01T19:30:38.116Z
 
-Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs
+Environment: Windows · Node v26.13.0 · 156.0.4314.58 (headless, playwright-core) · package: release/READY_TO_UPLOAD.zip unzipped to tests/.tmp/ready · served at http://127.0.0.1:8211/test-repo/ and http://127.0.0.1:8212/ by scripts/serve.mjs
 
-**138 passed, 0 failed, 0 skipped**
+**147 passed, 0 failed, 0 skipped**
 
 | Area | Test | Expected | Actual | Result |
 |---|---|---|---|---|
-| Navigation | Home → Week 1 → Words → Learn → Practise → Home | each screen opens with its heading | Present Continuous / Present Simple / Words / Learn / Practise / Present Simple | PASS |
+| Navigation | Home → Week 1 → Words → Learn → Practise → Home | each screen opens with its heading | Wh- Questions / Present Simple / Words / Learn / Practise / Present Simple | PASS |
 | Navigation | Direct link to a Learn step + reload keeps the step | Step 4 of 12 after reload | Step 4 of 12 | PASS |
 | Navigation | Back and forward buttons | back returns to step 4, forward to step 5 | Step 4 of 12 / Step 5 of 12 | PASS |
 | Navigation | Arrow keys move exactly one step (no stacked listeners after many screens) | ArrowRight from step 1 → step 2 | #/week/week-01/learn/habits/2 | PASS |
@@ -89,7 +89,7 @@ Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-cor
 | Sessions | Settings from the link: 5 negative questions | 5 questions, all negative | 5 true | PASS |
 | Sessions | Resume after leaving | Resume button shows question 2 and opens it | Resume (question 2 of 5) → Question 2 of 5 | PASS |
 | Sessions | Retry mistakes makes a new round; first round results unchanged | round 2 with 4 questions; parent kept first-try 1 | first=1 round=2 n=4 | PASS |
-| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smve29ip5g68k → smve29irigx3u | PASS |
+| Sessions | Restart activity asks first and starts a new set | confirm → setup screen → new session id | smvy849g3g90v → smvy849iee50z | PASS |
 | Sessions | Cancel in a confirm dialog changes nothing | same session after Cancel | unchanged | PASS |
 | Sessions | New lesson (new class) removes only this week + mode, after a yes | mcq session gone; other app keys kept | session=null other=keep me | PASS |
 | Modes | Classroom and Practice keep separate answers | answer shown in Practice is not shown in Classroom | classroom=true cardInClassroom=0 shownBack=1 | PASS |
@@ -97,7 +97,7 @@ Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-cor
 | Storage | Storage full: app keeps working and says so | “device is full” note; question still checks | This device is full. New progress is not saved, but the lesson works. | PASS |
 | Storage | Broken saved data is removed, page still opens | setup screen opens; note about broken data | Some saved progress was broken and was removed. The lesson works. | PASS |
 | Storage | Saved session pointing to removed questions does not crash | unknown ids dropped; known question shown | Question 1 of 1 | PASS |
-| Week 2 | A template week can be added without code changes; Week 1 progress stays | Week 2 opens; Week 1 saved session still there | cards=2 title=TEST WEEK (not real content) banks=8 resume=1 | PASS |
+| Week 2 | A template week can be added without code changes; Week 1 progress stays | Week 2 opens; Week 1 saved session still there | cards=3 title=TEST WEEK (not real content) banks=8 resume=1 | PASS |
 | Pictures | Every picture used by Week 1 loads (all 21 week images + covers) | naturalWidth > 0 for each | 96 files loaded | PASS |
 | Pictures | Images have alt text that does not give answers | all <img> on word grid have alt; none mention “answer” | 12 images | PASS |
 | Tools | Full screen button does not break the page (allowed or refused) | page still works after click | clicked | PASS |
@@ -118,7 +118,7 @@ Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-cor
 | Games | Sentence Switch builds correct + / − / ? with he and has | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? | She has breakfast. / She doesn't have breakfast. / Does she have breakfast? / Yes, she does. No, she doesn't. | PASS |
 | Games | Memory Match: a right pair stays open, a wrong pair closes again | pair matched; wrong pair closed; 12 cards | cards=12 done=2 open=0 Pairs: 1 of 6 · Turns: 2 | PASS |
 | Games | Yes or No?: wrong gives the hint, right short answer is scored once | hint; First try 0 · Done 1 after a wrong first try | First try: 0 · Done: 1 of 20 | PASS |
-| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | He / − negative → He doesn't draw a picture. | PASS |
+| Games | Spin and Say: spin gives a sentence that matches the slots (verified forms) | answer hidden → shown, ends with . or ? | It / ? question → Does it get up at seven? | PASS |
 | Games | Picture Reveal: open pieces, reveal word and sentence separately, next picture | tiles open; word then sentence; picture 2 | 1 true false He plays football. Picture 2 of 37 | PASS |
 | Speak | Speaking card: help and example are optional; Done / Try again need no microphone | help hidden → shown; marks work | For example: Yes, I do. I play football every day. / Well spoken! | PASS |
 | Learn | “Now you try” step: wrong → Try again, right → explanation | try-again then Yes! | Try again. / Yes! Sam plays football on Saturday. | PASS |
@@ -129,7 +129,7 @@ Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-cor
 | Practise | Book words bank (I): 30 questions; a picture question is checked | 30 questions; correct-first | 30 questions | PASS |
 | Challenge | Challenge: 15 mixed core questions; results show stars; My Progress ticks Challenge | 15 · stars · 1/1 | 15 · 0 of 3 stars · ✓ Challenge 1/1 | PASS |
 | Progress | My Progress and Today's Mission update from real activity | Learn 3/13; first mission done | Learn 3/13 · is-done | PASS |
-| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-03 disabled; tip changes | true · “Does comes first. The s goes away.” → “Do you…? Yes, I do!” | PASS |
+| Shell | Week picker: Coming soon weeks cannot be chosen; owl tip changes on click | week-04 disabled; tip changes | true · “After doesn't, use play — no s!” → “Does comes first. The s goes away.” | PASS |
 | Shell | Phone: menu button opens the sidebar; a link closes it and navigates | menu opens; Examples opens | true/true | PASS |
 | Badges | Finishing a section shows one celebration with the badge; it does not repeat | Word Finder celebration once | Word Finder · again=0 · earned=1 | PASS |
 | Certificate | Certificate shows the typed name and badges; the name is not saved | name on certificate; not in storage | Test Explorer · stored=false · badges=7 | PASS |
@@ -141,8 +141,17 @@ Environment: Windows · Node v24.19.0 · 155.0.4283.62 (headless, playwright-cor
 | Week 2 | Sentence Switch builds am / is / are + -ing | + − ? with short answers | Mia is riding a bike. / Mia isn't riding a bike. / Is Mia riding a bike? / Yes, she is. No, she isn't. / I am not riding a bike. | PASS |
 | Week 2 | Typed answers: "is not" and "isn't" are both right; "doesn't" is not | correct · correct · trying | correct-first · correct-first · trying | PASS |
 | Week 2 | Week 1 still uses Present Simple | He plays football. | He plays football. | PASS |
+| Week 3 | Week 3 opens with its own title, 304 questions and 12 activities | Wh- Questions · 304 · 12 | 12 cards · Practise Choose an activity. Then choose 5, 10 or 15 questions. 304 questions in | PASS |
+| Week 3 | Word sets: moving words first, then 7 more sets, every picture loads | 8 sets · no broken pictures | 8 · Moving: over, under, around … 12 words · broken 0 | PASS |
+| Week 3 | Change Machine: sentence → Where question → answer; only possible question words show | Where is Sam running? · Around the cone. | Sam is running around the cone. / Where is Sam running? / Around the cone. · 4 tabs | PASS |
+| Week 3 | Sentence Switch makes Who, What and Where questions with answers | Mia · Who / What / Where | Mia is passing the baton on the track. / Who is passing the baton on the track? Mia is. / What is Mia passing on the track? The baton. / Where is Mia passing th | PASS |
+| Week 3 | Spin and Say gives a question word and a full answer | answer has one sentence | He is running around the cone. null | PASS |
+| Week 3 | Change it: the question word is asked for; statement word order is not accepted | correct · trying | Make a question with Where. · correct-first · trying | PASS |
+| Week 3 | Learn: question and answer step, then the Change Machine | answer hidden, then shown | true · Sam is. (a person) · 1 | PASS |
+| Week 3 | Worksheet works with the Wh- activities | questions with the cue | Unit 2 · Week 3 Words Learn Examples Practice Games Challenge Speak Printable wo | PASS |
+| Week 3 | Weeks 1 and 2 keep their own Sentence Switch | + − ? buttons | + Positive · − Negative · ? Question | PASS |
 | Paths | Same package works at the domain root (/) as well as /test-repo/ | home + week + practice question load at / | ok | PASS |
 | Console | No console errors or warnings from the app during all tests | 0 | 0 | PASS |
 | Network | No failed or 4xx/5xx requests (except tests that force a 404) | 0 | 0 | PASS |
-| Network | Requests cancelled by quick screen changes (not errors) | info | 0 | PASS |
+| Network | Requests cancelled by quick screen changes (not errors) | info | 2 | PASS |
 | Network | Google Fonts reachable (optional; the site falls back to system fonts) | reachable | reachable | PASS |

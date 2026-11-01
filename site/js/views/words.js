@@ -5,7 +5,7 @@ import { screen, weekBar, listenButton, progressText } from './common.js';
 import { markDone } from '../progress.js';
 
 export function wordSets(week) {
-  return [{ id: 'everyday', title: 'Everyday actions', words: week.words }, ...(week.extraWordSets || [])];
+  return [{ id: 'everyday', title: week.wordsTitle || 'Everyday actions', words: week.words }, ...(week.extraWordSets || [])];
 }
 
 export function renderWords(ctx) {
