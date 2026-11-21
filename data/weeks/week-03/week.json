@@ -1,0 +1,3778 @@
+{
+  "id": "week-03",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "grammar": "wh-questions",
+  "wordsTitle": "Moving: over, under, around …",
+  "title": "Wh- Questions",
+  "subtitle": "Who? What? Where? When? How? Why?",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "goals": [
+    "I can ask with Who, What, Where, When, How and Why.",
+    "I can answer: a person, a thing, a place, a time, a way, a reason.",
+    "I can say how people move: over, under, around, through, up, down, across, past, into, out of, between.",
+    "I can name parts of my body: heart, lungs, brain, bones, muscles.",
+    "I can name sports and activities and say how they help my body.",
+    "I can bounce back when something is difficult."
+  ],
+  "teacherGoals": [
+    "Question words ask for information: Who = person, What = thing, Where = place, When = time, How = way, Why = reason.",
+    "Word order: Wh- + am / is / are + subject + verb-ing. Who + is + verb-ing (no new order). Also Wh- + do / does + subject + verb.",
+    "Why … ? → Because …",
+    "Prepositions of movement with a verb: run around, climb through, jump over, go up / down, walk across, crawl under, jump into, step out of, run past, run between.",
+    "Reading words: heart, lungs, brain, bones, muscles, energy, relaxed, tired, strong, stretch, breathe, push, pull, exercise plan, short break.",
+    "Resilience: keep trying, learn from mistakes, stay positive, ask for help."
+  ],
+  "teacherNote": "This week follows Compass Unit 2, pages 36–43: Sports and Activities (36), Wh- Questions (37), the reading about keeping the body strong (38–39), Prepositions of Movement (40), everyday ways to move (41), bouncing back (42) and the unit reflection (43). All sentences and the four short readings are written for this site; only the topic and target words come from the book.",
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia",
+      "pronoun": "she",
+      "image": "prep-across"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "pronoun": "he",
+      "image": "prep-down"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "pronoun": "he",
+      "image": "prep-over"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "pronoun": "she",
+      "image": "prep-up"
+    },
+    {
+      "id": "pepper",
+      "name": "Pepper",
+      "pronoun": "it",
+      "note": "Pepper is a cat.",
+      "image": "v-sleep"
+    },
+    {
+      "id": "rosa",
+      "name": "Ms. Rosa",
+      "pronoun": "she",
+      "note": "Ms. Rosa is a teacher.",
+      "image": "teacher-class"
+    }
+  ],
+  "dashboard": {
+    "tagline": "Let's ask questions and move our bodies!",
+    "bubbleLeft": [
+      "Who is",
+      "running?",
+      "Sam is!"
+    ],
+    "bubbleRight": [
+      "Where?",
+      "Over the",
+      "hurdles!"
+    ]
+  },
+  "missions": [
+    {
+      "id": "m-learn",
+      "text": "Learn the six question words",
+      "check": {
+        "section": "learn",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-words",
+      "text": "Learn the new words",
+      "check": {
+        "section": "words",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-practice",
+      "text": "Complete at least 3 activities",
+      "check": {
+        "section": "practise",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-challenge",
+      "text": "Try the challenge",
+      "check": {
+        "section": "challenge",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-proud",
+      "text": "Be proud of yourself!",
+      "check": {
+        "all": true
+      }
+    }
+  ],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-03/week-03-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "A big obstacle course: Sam, Mia, Leo and Ana are moving along the path."
+    },
+    "prep-around": {
+      "src": "assets/images/week-03/around",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is running around an orange cone."
+    },
+    "prep-through": {
+      "src": "assets/images/week-03/through",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is climbing through a big colourful hoop."
+    },
+    "prep-over": {
+      "src": "assets/images/week-03/over",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is jumping over the hurdles."
+    },
+    "prep-up": {
+      "src": "assets/images/week-03/up",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is climbing up a wooden ladder."
+    },
+    "prep-down": {
+      "src": "assets/images/week-03/down",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is sliding down a red slide."
+    },
+    "prep-across": {
+      "src": "assets/images/week-03/across",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is walking across a small bridge."
+    },
+    "prep-under": {
+      "src": "assets/images/week-03/under",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is crawling under a wooden bench."
+    },
+    "prep-into": {
+      "src": "assets/images/week-03/into",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is jumping into the sandbox."
+    },
+    "prep-out": {
+      "src": "assets/images/week-03/out-of",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is stepping out of the sandbox."
+    },
+    "prep-past": {
+      "src": "assets/images/week-03/past",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is running past the goal."
+    },
+    "prep-between": {
+      "src": "assets/images/week-03/between",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is running between two big trees."
+    },
+    "r-three": {
+      "src": "assets/images/week-03/three-legged",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are running a three-legged race. Their legs are tied together."
+    },
+    "r-tie": {
+      "src": "assets/images/week-03/tie",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are tying their legs together with a yellow scarf."
+    },
+    "r-relay": {
+      "src": "assets/images/week-03/relay",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is passing a red baton to Sam on the track."
+    },
+    "r-track": {
+      "src": "assets/images/week-03/track",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is running on a red running track."
+    },
+    "r-swim": {
+      "src": "assets/images/week-03/swim-race",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Children are racing in the pool. Mia is cheering."
+    },
+    "b-heart": {
+      "src": "assets/images/week-03/heart",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is pointing to his chest. A happy red heart is next to him."
+    },
+    "b-lungs": {
+      "src": "assets/images/week-03/lungs",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is taking a big breath. Her pink lungs are next to her."
+    },
+    "b-brain": {
+      "src": "assets/images/week-03/brain",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is pointing to her head. A happy pink brain is above her."
+    },
+    "b-bones": {
+      "src": "assets/images/week-03/bones",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is pointing to the bones of a friendly skeleton."
+    },
+    "b-muscles": {
+      "src": "assets/images/week-03/muscles",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is showing the muscles in his arm and leg."
+    },
+    "w-energy": {
+      "src": "assets/images/week-03/energy",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is jumping high in the park. She is full of energy."
+    },
+    "w-relaxed": {
+      "src": "assets/images/week-03/relaxed",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is lying on the grass under a tree. She is relaxed."
+    },
+    "w-tired": {
+      "src": "assets/images/week-03/tired",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is sitting on a bench. He is very tired."
+    },
+    "w-stretch": {
+      "src": "assets/images/week-03/stretch",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is stretching his arms up on the field."
+    },
+    "w-breathe": {
+      "src": "assets/images/week-03/breathe",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia has hands on her knees. She is breathing hard after a run."
+    },
+    "w-push": {
+      "src": "assets/images/week-03/push",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is pushing a very big blue ball."
+    },
+    "w-pull": {
+      "src": "assets/images/week-03/pull",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is pulling a red wagon with a rope."
+    },
+    "w-plan": {
+      "src": "assets/images/week-03/plan",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is writing an exercise plan on a big calendar."
+    },
+    "w-break": {
+      "src": "assets/images/week-03/short-break",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam, Leo, Mia and Ana are having a short break and drinking water."
+    },
+    "w-strong": {
+      "src": "assets/images/week-03/strong",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is standing on a hill. She looks strong and proud."
+    },
+    "a-bowling": {
+      "src": "assets/images/week-03/bowling",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is bowling. A blue ball is rolling towards the pins."
+    },
+    "a-yoga": {
+      "src": "assets/images/week-03/yoga",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is doing yoga on a purple mat in a garden."
+    },
+    "a-stairs": {
+      "src": "assets/images/week-03/stairs",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is walking up the colourful stairs at school."
+    },
+    "a-video": {
+      "src": "assets/images/week-03/exercise-video",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is following an exercise video on the TV at home."
+    },
+    "a-games": {
+      "src": "assets/images/week-03/video-games",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is sitting on the sofa and playing video games."
+    },
+    "s-sad": {
+      "src": "assets/images/week-03/disappointed",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is standing by the net. She looks disappointed."
+    },
+    "s-help": {
+      "src": "assets/images/week-03/help-friend",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is helping Ana to hold the volleyball."
+    },
+    "s-miss": {
+      "src": "assets/images/week-03/miss-ball",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is trying to catch a baseball, but he misses it."
+    },
+    "s-try": {
+      "src": "assets/images/week-03/keep-trying",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam has skates and a helmet. He is getting up to try again."
+    },
+    "s-coach": {
+      "src": "assets/images/week-03/coach",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is talking to his coach and asking for help."
+    },
+    "act-gymnastics": {
+      "src": "assets/images/week-02/gymnastics",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is doing gymnastics: a cartwheel on a blue mat."
+    },
+    "act-bounce": {
+      "src": "assets/images/week-02/bounce",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is bouncing a basketball in the playground."
+    },
+    "act-karate": {
+      "src": "assets/images/week-02/karate",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is doing karate in a white karate suit."
+    },
+    "act-skating": {
+      "src": "assets/images/week-02/skating",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is skating in the park with a red helmet."
+    },
+    "act-tag": {
+      "src": "assets/images/week-02/tag",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia, Sam, Leo and Ana are playing tag in the playground."
+    },
+    "sp-bat": {
+      "src": "assets/images/week-02/bat",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is hitting a baseball with a big bat."
+    },
+    "sp-racket": {
+      "src": "assets/images/week-02/racket",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is hitting a tennis ball with her racket."
+    },
+    "sp-pool": {
+      "src": "assets/images/week-02/pool",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is swimming in a big swimming pool."
+    },
+    "sp-field": {
+      "src": "assets/images/week-02/field",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are running a race on a big green field."
+    },
+    "sp-net": {
+      "src": "assets/images/week-02/net",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo and Ana are playing volleyball over a net."
+    },
+    "v-jump": {
+      "src": "assets/images/a1-verbs/jump",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is jumping with a skipping rope."
+    },
+    "v-sleep": {
+      "src": "assets/images/a1-verbs/sleep",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat is sleeping on a cushion."
+    },
+    "ride-a-bike": {
+      "src": "assets/images/book-unit1/ride-a-bike",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is riding a bike on a path."
+    },
+    "walk-to-school": {
+      "src": "assets/images/book-unit1/walk-to-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is walking to school with his school bag."
+    },
+    "eat-apples": {
+      "src": "assets/images/week-01/eat-apples",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is eating a red apple."
+    },
+    "dance": {
+      "src": "assets/images/book-unit1/dance",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are dancing in the school hall."
+    },
+    "st-cheer": {
+      "src": "assets/images/week-02/cheer",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are cheering for their team with flags."
+    },
+    "st-highfive": {
+      "src": "assets/images/week-02/high-five",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are giving high fives after the game."
+    },
+    "teacher-class": {
+      "src": "assets/images/week-01/teacher-class",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ms. Rosa, the teacher, is asking a question. Mia and Sam are putting their hands up."
+    },
+    "sp-goal": {
+      "src": "assets/images/week-02/goal",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is kicking a football into the goal."
+    }
+  },
+  "words": [
+    {
+      "id": "around",
+      "word": "around",
+      "phrase": "around",
+      "image": "prep-around",
+      "example": "Sam is running around the cone."
+    },
+    {
+      "id": "through",
+      "word": "through",
+      "phrase": "through",
+      "image": "prep-through",
+      "example": "Mia is climbing through the hoop."
+    },
+    {
+      "id": "over",
+      "word": "over",
+      "phrase": "over",
+      "image": "prep-over",
+      "example": "Leo is jumping over the hurdles."
+    },
+    {
+      "id": "up",
+      "word": "up",
+      "phrase": "up",
+      "image": "prep-up",
+      "example": "Ana is climbing up the ladder."
+    },
+    {
+      "id": "down",
+      "word": "down",
+      "phrase": "down",
+      "image": "prep-down",
+      "example": "Sam is sliding down the slide."
+    },
+    {
+      "id": "across",
+      "word": "across",
+      "phrase": "across",
+      "image": "prep-across",
+      "example": "Mia is walking across the bridge."
+    },
+    {
+      "id": "under",
+      "word": "under",
+      "phrase": "under",
+      "image": "prep-under",
+      "example": "Leo is crawling under the bench."
+    },
+    {
+      "id": "into",
+      "word": "into",
+      "phrase": "into",
+      "image": "prep-into",
+      "example": "Ana is jumping into the sandbox."
+    },
+    {
+      "id": "out-of",
+      "word": "out of",
+      "phrase": "out of",
+      "image": "prep-out",
+      "example": "Sam is stepping out of the sandbox."
+    },
+    {
+      "id": "past",
+      "word": "past",
+      "phrase": "past",
+      "image": "prep-past",
+      "example": "Leo is running past the goal."
+    },
+    {
+      "id": "between",
+      "word": "between",
+      "phrase": "between",
+      "image": "prep-between",
+      "example": "Mia is running between the trees."
+    },
+    {
+      "id": "obstacle-course",
+      "word": "an obstacle course",
+      "phrase": "an obstacle course",
+      "image": "cover",
+      "example": "The children are moving along an obstacle course."
+    }
+  ],
+  "learn": [
+    {
+      "id": "six-words",
+      "title": "Six question words",
+      "rule": "Question words ask for information: **Who, What, Where, When, How, Why**.",
+      "image": "cover",
+      "examples": [
+        {
+          "q": "**Who** is running?",
+          "a": "Sam is. (a person)",
+          "image": "prep-around",
+          "label": "Who = a person"
+        },
+        {
+          "q": "**What** is Mia passing?",
+          "a": "The baton. (a thing)",
+          "image": "r-relay",
+          "label": "What = a thing"
+        },
+        {
+          "q": "**Where** is Leo running?",
+          "a": "On the track. (a place)",
+          "image": "r-track",
+          "label": "Where = a place"
+        },
+        {
+          "q": "**When** do you play tag?",
+          "a": "After school. (a time)",
+          "image": "act-tag",
+          "label": "When = a time"
+        },
+        {
+          "q": "**How** do runners win races?",
+          "a": "They run fast! (a way)",
+          "image": "r-track",
+          "label": "How = a way"
+        },
+        {
+          "q": "**Why** is Ana doing yoga?",
+          "a": "Because it is relaxing. (a reason)",
+          "image": "a-yoga",
+          "label": "Why = a reason"
+        }
+      ],
+      "groups": [
+        {
+          "label": "a person",
+          "words": [
+            "Who"
+          ]
+        },
+        {
+          "label": "a thing",
+          "words": [
+            "What"
+          ]
+        },
+        {
+          "label": "a place",
+          "words": [
+            "Where"
+          ]
+        },
+        {
+          "label": "a time",
+          "words": [
+            "When"
+          ]
+        },
+        {
+          "label": "a way",
+          "words": [
+            "How"
+          ]
+        },
+        {
+          "label": "a reason",
+          "words": [
+            "Why"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ is running? — Sam is.",
+          "image": "prep-around",
+          "options": [
+            "Who",
+            "Where"
+          ],
+          "answer": "a",
+          "explain": "Sam is a person → Who."
+        },
+        {
+          "mode": "try",
+          "prompt": "___ is Leo running? — On the track.",
+          "image": "r-track",
+          "options": [
+            "When",
+            "Where"
+          ],
+          "answer": "b",
+          "explain": "On the track is a place → Where."
+        }
+      ],
+      "teacherNote": "Pupils can already answer yes / no questions. Question words ask for new information, so the answer is not Yes or No. Ask pupils to underline the question word first."
+    },
+    {
+      "id": "who",
+      "title": "Who? A person",
+      "rule": "**Who** asks about a person. Who + is + verb-ing …?",
+      "image": "r-three",
+      "examples": [
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "run-around",
+            "to": "who"
+          }
+        },
+        {
+          "q": "**Who** is climbing through the hoop?",
+          "a": "Mia is.",
+          "image": "prep-through"
+        },
+        {
+          "q": "**Who** is jumping over the hurdles?",
+          "a": "Leo is.",
+          "image": "prep-over"
+        },
+        {
+          "q": "**Who** is cheering?",
+          "a": "Mia is.",
+          "image": "r-swim"
+        },
+        {
+          "q": "**Who** is pushing the big ball?",
+          "a": "Leo is.",
+          "image": "w-push"
+        },
+        {
+          "q": "**Who** has the baton now?",
+          "a": "Sam does.",
+          "image": "r-relay",
+          "label": "Who + has …? → Sam does."
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ is sliding down the slide?",
+          "image": "prep-down",
+          "options": [
+            "Who",
+            "What"
+          ],
+          "answer": "a",
+          "explain": "The answer is a person: Sam is."
+        },
+        {
+          "mode": "try",
+          "prompt": "Who is doing yoga?",
+          "image": "a-yoga",
+          "options": [
+            "Ana is.",
+            "In the garden.",
+            "Because it is relaxing."
+          ],
+          "answer": "a",
+          "explain": "Who → a person: Ana is."
+        }
+      ],
+      "teacherNote": "Who + is keeps the normal word order: Sam is running → Who is running? Even with two people we usually ask Who is …? The short answer changes: Sam is. / Sam and Leo are."
+    },
+    {
+      "id": "what",
+      "title": "What? A thing or an action",
+      "rule": "**What** asks about a thing. **What … doing?** asks about an action.",
+      "image": "r-relay",
+      "examples": [
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "pass-baton",
+            "to": "what"
+          }
+        },
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "run-past",
+            "to": "what"
+          }
+        },
+        {
+          "q": "**What** is Ana pulling?",
+          "a": "A wagon.",
+          "image": "w-pull"
+        },
+        {
+          "q": "**What** is Mia writing?",
+          "a": "An exercise plan.",
+          "image": "w-plan"
+        },
+        {
+          "q": "**What** is Sam doing?",
+          "a": "He is bowling.",
+          "image": "a-bowling"
+        },
+        {
+          "q": "**What** are they doing?",
+          "a": "They are having a short break.",
+          "image": "w-break"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ is Leo pushing? — A big ball.",
+          "image": "w-push",
+          "options": [
+            "What",
+            "Who"
+          ],
+          "answer": "a",
+          "explain": "A big ball is a thing → What."
+        },
+        {
+          "mode": "try",
+          "prompt": "What is Ana doing?",
+          "image": "a-yoga",
+          "options": [
+            "She is doing yoga.",
+            "Ana is.",
+            "In the garden."
+          ],
+          "answer": "a",
+          "explain": "What … doing? → an action."
+        }
+      ],
+      "teacherNote": "Two common patterns: What is she passing? (a thing) and What is she doing? (an action; answer with the full verb)."
+    },
+    {
+      "id": "where",
+      "title": "Where? A place",
+      "rule": "**Where** asks about a place. Where + is / are + who + verb-ing?",
+      "image": "r-track",
+      "examples": [
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "run-track",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "play-tag",
+            "to": "where"
+          }
+        },
+        {
+          "q": "**Where** are the swimmers racing?",
+          "a": "In the pool.",
+          "image": "r-swim"
+        },
+        {
+          "q": "**Where** is the relay race?",
+          "a": "On the track.",
+          "image": "r-relay",
+          "label": "A track is a path for running."
+        },
+        {
+          "q": "**Where** is Ana doing yoga?",
+          "a": "In the garden.",
+          "image": "a-yoga"
+        },
+        {
+          "q": "**Where** is Mia walking?",
+          "a": "Across the bridge.",
+          "image": "prep-across"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ is Ana doing yoga? — In the garden.",
+          "image": "a-yoga",
+          "options": [
+            "Where",
+            "Why"
+          ],
+          "answer": "a",
+          "explain": "In the garden is a place → Where."
+        },
+        {
+          "mode": "try",
+          "prompt": "Where is Sam sliding?",
+          "image": "prep-down",
+          "options": [
+            "Down the slide.",
+            "Sam is.",
+            "He is happy."
+          ],
+          "answer": "a",
+          "explain": "Where → a place: down the slide."
+        }
+      ],
+      "teacherNote": "Is / are jumps before the subject: Leo is running → Where is Leo running? Short answers are fine and natural: On the track."
+    },
+    {
+      "id": "when",
+      "title": "When? A time",
+      "rule": "**When** asks about a time or a moment. When + do / does + who + verb?",
+      "image": "w-plan",
+      "examples": [
+        {
+          "q": "**When** do you exercise?",
+          "a": "After school.",
+          "image": "w-plan"
+        },
+        {
+          "q": "**When** does Sam start?",
+          "a": "When he has the baton.",
+          "image": "r-relay"
+        },
+        {
+          "q": "**When** do you play tag?",
+          "a": "At break time.",
+          "image": "act-tag"
+        },
+        {
+          "q": "**When** does Leo walk to school?",
+          "a": "In the morning.",
+          "image": "walk-to-school"
+        },
+        {
+          "q": "**When** do you stretch?",
+          "a": "Before and after sport.",
+          "image": "w-stretch"
+        },
+        {
+          "q": "**When** do they have a break?",
+          "a": "After the game.",
+          "image": "w-break"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ do you exercise? — After school.",
+          "image": "w-plan",
+          "options": [
+            "When",
+            "Where"
+          ],
+          "answer": "a",
+          "explain": "After school is a time → When."
+        },
+        {
+          "mode": "try",
+          "prompt": "When does Leo walk to school?",
+          "image": "walk-to-school",
+          "options": [
+            "In the morning.",
+            "To school.",
+            "Leo does."
+          ],
+          "answer": "a",
+          "explain": "When → a time."
+        }
+      ],
+      "teacherNote": "When usually goes with habits, so we use do / does from Week 1. Link to the exercise plan: when can pupils move more?"
+    },
+    {
+      "id": "how",
+      "title": "How? A way",
+      "rule": "**How** asks about a way or a manner.",
+      "image": "r-three",
+      "examples": [
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "jump-over",
+            "to": "how"
+          }
+        },
+        {
+          "q": "**How** do you play this game?",
+          "a": "Tie your legs together. Then run!",
+          "image": "r-three"
+        },
+        {
+          "q": "**How** do runners win?",
+          "a": "They run fast!",
+          "image": "r-track"
+        },
+        {
+          "q": "**How** are Sam and Leo running?",
+          "a": "Together!",
+          "image": "r-three"
+        },
+        {
+          "q": "**How** is Ana pulling the wagon?",
+          "a": "With a rope.",
+          "image": "w-pull"
+        },
+        {
+          "q": "**How** is Leo crawling?",
+          "a": "On hands and knees.",
+          "image": "prep-under"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ is Ana pulling the wagon? — With a rope.",
+          "image": "w-pull",
+          "options": [
+            "How",
+            "Who"
+          ],
+          "answer": "a",
+          "explain": "With a rope is a way → How."
+        },
+        {
+          "mode": "try",
+          "prompt": "How do runners win races?",
+          "image": "r-track",
+          "options": [
+            "They run fast!",
+            "On the track.",
+            "My brother."
+          ],
+          "answer": "a",
+          "explain": "How → a way."
+        }
+      ],
+      "teacherNote": "Good answers can be very short: Fast! Slowly. Together! With a rope."
+    },
+    {
+      "id": "why",
+      "title": "Why? Because …",
+      "rule": "**Why** asks for a reason. We answer with **Because …**",
+      "image": "r-swim",
+      "examples": [
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "short-break",
+            "to": "why"
+          }
+        },
+        {
+          "q": "**Why** are Sam and Leo tied together?",
+          "a": "Because they are in a three-legged race.",
+          "image": "r-three"
+        },
+        {
+          "q": "**Why** are you cheering?",
+          "a": "Because I want my team to win!",
+          "image": "st-cheer"
+        },
+        {
+          "q": "**Why** is Sam stretching?",
+          "a": "Because it is good for the body.",
+          "image": "w-stretch"
+        },
+        {
+          "q": "**Why** is Leo tired?",
+          "a": "Because running is hard work.",
+          "image": "w-tired"
+        },
+        {
+          "q": "**Why** is Mia breathing hard?",
+          "a": "Because she is running fast.",
+          "image": "w-breathe"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Why is Ana doing yoga?",
+          "image": "a-yoga",
+          "options": [
+            "Because it is relaxing.",
+            "In the garden."
+          ],
+          "answer": "a",
+          "explain": "Why → Because …"
+        },
+        {
+          "mode": "try",
+          "prompt": "___ is Leo tired? — Because running is hard work.",
+          "image": "w-tired",
+          "options": [
+            "Why",
+            "When"
+          ],
+          "answer": "a",
+          "explain": "Because → the question is Why."
+        }
+      ],
+      "teacherNote": "Why and Because go together. Do not expect long sentences: Because it is fun. is a very good answer."
+    },
+    {
+      "id": "word-order",
+      "title": "Build a question",
+      "rule": "Question word + **am / is / are** + who + **verb-ing**?",
+      "image": "teacher-class",
+      "examples": [
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "walk-across",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "three-legged",
+            "to": "what"
+          }
+        },
+        {
+          "text": "Where **is** Mia running?",
+          "image": "prep-between",
+          "from": "Mia is running between the trees.",
+          "label": "is jumps before Mia"
+        },
+        {
+          "text": "What **are** they doing?",
+          "image": "act-tag",
+          "from": "They are playing tag.",
+          "label": "are jumps before they"
+        },
+        {
+          "text": "Why **are** you cheering?",
+          "image": "st-cheer",
+          "from": "You are cheering.",
+          "label": "are jumps before you"
+        },
+        {
+          "text": "Who **is** bowling?",
+          "image": "a-bowling",
+          "from": "Sam is bowling.",
+          "label": "Who takes the place of Sam."
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which question is right?",
+          "image": "prep-over",
+          "options": [
+            "Where is Leo jumping?",
+            "Where Leo is jumping?"
+          ],
+          "answer": "a",
+          "explain": "is comes before Leo."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which question is right?",
+          "image": "r-relay",
+          "options": [
+            "What Mia is passing?",
+            "What is Mia passing?"
+          ],
+          "answer": "b",
+          "explain": "What + is + Mia + passing?"
+        }
+      ],
+      "teacherNote": "The most common mistake is keeping statement order: “Where Leo is jumping?” Use the Change Machine and let pupils move the helper with their hands."
+    },
+    {
+      "id": "do-does",
+      "title": "Question words with do and does",
+      "rule": "For every day: question word + **do / does** + who + verb?",
+      "image": "act-tag",
+      "examples": [
+        {
+          "q": "Where **do** you play?",
+          "a": "In the park.",
+          "image": "act-tag",
+          "label": "you → do"
+        },
+        {
+          "q": "How **do** you win?",
+          "a": "I run fast!",
+          "image": "r-track"
+        },
+        {
+          "q": "When **does** she practice?",
+          "a": "After school.",
+          "image": "act-gymnastics",
+          "label": "she → does"
+        },
+        {
+          "q": "What **do** you need for tennis?",
+          "a": "A racket and a ball.",
+          "image": "sp-racket"
+        },
+        {
+          "q": "Where **does** Leo do karate?",
+          "a": "In the hall.",
+          "image": "act-karate"
+        },
+        {
+          "q": "Why **do** we play sports?",
+          "a": "Because they are fun and good for us!",
+          "image": "st-highfive"
+        }
+      ],
+      "groups": [
+        {
+          "label": "Now",
+          "words": [
+            "Where is she running?",
+            "What are you doing?"
+          ]
+        },
+        {
+          "label": "Every day",
+          "words": [
+            "Where does she run?",
+            "What do you do?"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Where ___ you play?",
+          "image": "act-tag",
+          "options": [
+            "do",
+            "does"
+          ],
+          "answer": "a",
+          "explain": "you → do."
+        },
+        {
+          "mode": "try",
+          "prompt": "When ___ Sam start?",
+          "image": "r-relay",
+          "options": [
+            "do",
+            "does"
+          ],
+          "answer": "b",
+          "explain": "Sam = he → does."
+        }
+      ],
+      "teacherNote": "This connects Week 1 and Week 2: is / are + -ing for now, do / does for every day. The verb after do / does has no -s."
+    },
+    {
+      "id": "sports",
+      "title": "Sports and activities",
+      "rule": "Verb partners: **do** gymnastics, **play** tag, **go** swimming.",
+      "image": "act-gymnastics",
+      "examples": [
+        {
+          "text": "Mia is **doing gymnastics**.",
+          "image": "act-gymnastics",
+          "label": "do gymnastics"
+        },
+        {
+          "text": "Leo is **doing karate**.",
+          "image": "act-karate",
+          "label": "do karate"
+        },
+        {
+          "text": "Ana is **doing yoga**.",
+          "image": "a-yoga",
+          "label": "do yoga"
+        },
+        {
+          "text": "Leo is **playing baseball**.",
+          "image": "sp-bat",
+          "label": "play baseball"
+        },
+        {
+          "text": "The children are **playing tag**.",
+          "image": "act-tag",
+          "label": "play tag"
+        },
+        {
+          "text": "Sam is **going skating**.",
+          "image": "act-skating",
+          "label": "go skating"
+        },
+        {
+          "text": "Sam is **going bowling**.",
+          "image": "a-bowling",
+          "label": "go bowling"
+        },
+        {
+          "text": "Ana is **bouncing a ball**.",
+          "image": "act-bounce",
+          "label": "bounce a ball"
+        }
+      ],
+      "groups": [
+        {
+          "label": "do",
+          "words": [
+            "do gymnastics",
+            "do karate",
+            "do yoga"
+          ]
+        },
+        {
+          "label": "play",
+          "words": [
+            "play baseball",
+            "play tennis",
+            "play tag"
+          ]
+        },
+        {
+          "label": "go",
+          "words": [
+            "go skating",
+            "go swimming",
+            "go bowling"
+          ]
+        },
+        {
+          "label": "other",
+          "words": [
+            "bounce a ball",
+            "jump rope",
+            "ride a bike",
+            "run a race"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Ana is ___ yoga.",
+          "image": "a-yoga",
+          "options": [
+            "doing",
+            "playing",
+            "going"
+          ],
+          "answer": "a",
+          "explain": "do yoga → doing yoga."
+        },
+        {
+          "mode": "try",
+          "prompt": "Sam is ___ bowling.",
+          "image": "a-bowling",
+          "options": [
+            "doing",
+            "going"
+          ],
+          "answer": "b",
+          "explain": "go bowling → going bowling."
+        }
+      ],
+      "teacherNote": "Sing and act out the verbs. Ask pupils for more activities and sort them into do, play and go."
+    },
+    {
+      "id": "moving-1",
+      "title": "Moving: around, through, over, under",
+      "rule": "A verb + a preposition shows **where someone is moving**.",
+      "image": "prep-around",
+      "examples": [
+        {
+          "text": "Sam is running **around** the cone.",
+          "image": "prep-around",
+          "label": "around = in a circle"
+        },
+        {
+          "text": "Mia is climbing **through** the hoop.",
+          "image": "prep-through",
+          "label": "through = in one side, out the other"
+        },
+        {
+          "text": "Leo is jumping **over** the hurdles.",
+          "image": "prep-over",
+          "label": "over = high, above it"
+        },
+        {
+          "text": "Leo is crawling **under** the bench.",
+          "image": "prep-under",
+          "label": "under = low, below it"
+        },
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "run-around",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "crawl-under",
+            "to": "where"
+          }
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo is jumping ___ the hurdles.",
+          "image": "prep-over",
+          "options": [
+            "over",
+            "under"
+          ],
+          "answer": "a",
+          "explain": "He is above the hurdles → over."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia is climbing ___ the hoop.",
+          "image": "prep-through",
+          "options": [
+            "around",
+            "through"
+          ],
+          "answer": "b",
+          "explain": "In one side, out the other → through."
+        }
+      ],
+      "teacherNote": "Act them out: walk around a chair, crawl under a table, step over a book. Pupils say the sentence as a friend moves."
+    },
+    {
+      "id": "moving-2",
+      "title": "Moving: up, down, across, past",
+      "rule": "**up** ↑ **down** ↓ **across** = to the other side. **past** = next to it and on.",
+      "image": "prep-up",
+      "examples": [
+        {
+          "text": "Ana is climbing **up** the ladder.",
+          "image": "prep-up",
+          "label": "up ↑"
+        },
+        {
+          "text": "Sam is sliding **down** the slide.",
+          "image": "prep-down",
+          "label": "down ↓"
+        },
+        {
+          "text": "Mia is walking **across** the bridge.",
+          "image": "prep-across",
+          "label": "across = to the other side"
+        },
+        {
+          "text": "Leo is running **past** the goal.",
+          "image": "prep-past",
+          "label": "past = next to it and on"
+        },
+        {
+          "machine": {
+            "subject": "ana",
+            "verb": "climb-up",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "walk-across",
+            "to": "who"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "label": "opposites",
+          "words": [
+            "up ↔ down",
+            "over ↔ under",
+            "into ↔ out of"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam is sliding ___ the slide.",
+          "image": "prep-down",
+          "options": [
+            "down",
+            "up"
+          ],
+          "answer": "a",
+          "explain": "A slide goes down ↓."
+        },
+        {
+          "mode": "try",
+          "prompt": "Leo is running ___ the goal.",
+          "image": "prep-past",
+          "options": [
+            "into",
+            "past"
+          ],
+          "answer": "b",
+          "explain": "He is not going in. He is going next to it and on → past."
+        }
+      ],
+      "teacherNote": "Past is the hardest one. Walk past the teacher’s desk without stopping. Do not confuse it with “past” for time."
+    },
+    {
+      "id": "moving-3",
+      "title": "Moving: into, out of, between",
+      "rule": "**into** = going in. **out of** = coming out. **between** = with one thing on each side.",
+      "image": "prep-into",
+      "examples": [
+        {
+          "text": "Ana is jumping **into** the sandbox.",
+          "image": "prep-into",
+          "label": "into → going in"
+        },
+        {
+          "text": "Sam is stepping **out of** the sandbox.",
+          "image": "prep-out",
+          "label": "out of → coming out"
+        },
+        {
+          "text": "Mia is running **between** the trees.",
+          "image": "prep-between",
+          "label": "between = a tree on each side"
+        },
+        {
+          "machine": {
+            "subject": "ana",
+            "verb": "jump-into",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "step-out",
+            "to": "where"
+          }
+        },
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "run-between",
+            "to": "who"
+          }
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Ana is jumping ___ the sandbox.",
+          "image": "prep-into",
+          "options": [
+            "into",
+            "out of"
+          ],
+          "answer": "a",
+          "explain": "She is going in → into."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia is running ___ the trees.",
+          "image": "prep-between",
+          "options": [
+            "past",
+            "between"
+          ],
+          "answer": "b",
+          "explain": "A tree on each side → between."
+        }
+      ],
+      "teacherNote": "Out of is two words. Between needs two things: between the trees, between the cones."
+    },
+    {
+      "id": "directions",
+      "title": "Follow the path",
+      "rule": "Give directions: **Start at … Go over … Run around … Finish at …**",
+      "image": "cover",
+      "examples": [
+        {
+          "text": "**Start at** the gate.",
+          "image": "cover",
+          "label": "The beginning of the path."
+        },
+        {
+          "text": "**Run around** the cone.",
+          "image": "prep-around"
+        },
+        {
+          "text": "**Climb through** the hoop.",
+          "image": "prep-through"
+        },
+        {
+          "text": "**Go up** the ladder and **walk across** the bridge.",
+          "image": "prep-across"
+        },
+        {
+          "text": "**Slide down** the slide.",
+          "image": "prep-down"
+        },
+        {
+          "text": "**Jump over** the hurdles.",
+          "image": "prep-over"
+        },
+        {
+          "text": "**Run between** the trees and **finish** at the gate!",
+          "image": "prep-between"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ the ladder.",
+          "image": "prep-up",
+          "options": [
+            "Go up",
+            "Go under"
+          ],
+          "answer": "a",
+          "explain": "A ladder goes up."
+        },
+        {
+          "mode": "try",
+          "prompt": "___ the hurdles.",
+          "image": "prep-over",
+          "options": [
+            "Crawl under",
+            "Jump over"
+          ],
+          "answer": "b",
+          "explain": "We jump over hurdles."
+        }
+      ],
+      "teacherNote": "To give directions we use the base verb with no subject: Run around … Make a path in the classroom. One pupil gives directions, a friend follows."
+    },
+    {
+      "id": "body",
+      "title": "Parts of my body",
+      "rule": "My **heart, lungs, brain, bones** and **muscles** work for me every day.",
+      "image": "b-heart",
+      "examples": [
+        {
+          "text": "This is my **heart**. It beats faster when I run.",
+          "image": "b-heart"
+        },
+        {
+          "text": "These are my **lungs**. I breathe with them.",
+          "image": "b-lungs"
+        },
+        {
+          "text": "This is my **brain**. I think with it.",
+          "image": "b-brain"
+        },
+        {
+          "text": "These are my **bones**. They hold up my body.",
+          "image": "b-bones"
+        },
+        {
+          "text": "These are my **muscles**. They help me move.",
+          "image": "b-muscles"
+        },
+        {
+          "q": "**What** helps you breathe?",
+          "a": "My lungs.",
+          "image": "b-lungs"
+        },
+        {
+          "q": "**What** holds up your body?",
+          "a": "My bones.",
+          "image": "b-bones"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "I think with my ___.",
+          "image": "b-brain",
+          "options": [
+            "brain",
+            "lungs"
+          ],
+          "answer": "a",
+          "explain": "I think with my brain."
+        },
+        {
+          "mode": "try",
+          "prompt": "My ___ help me jump and move.",
+          "image": "b-muscles",
+          "options": [
+            "bones",
+            "muscles"
+          ],
+          "answer": "b",
+          "explain": "Muscles help us move."
+        }
+      ],
+      "teacherNote": "Pupils point to each part on their own body while they say the word."
+    },
+    {
+      "id": "strong-body",
+      "title": "A strong body",
+      "rule": "Moving your body gives you **energy** and makes you **strong**.",
+      "image": "w-strong",
+      "examples": [
+        {
+          "text": "Mia is full of **energy**.",
+          "image": "w-energy"
+        },
+        {
+          "text": "After sport, Ana is **relaxed** and happy.",
+          "image": "w-relaxed"
+        },
+        {
+          "text": "Mia is **breathing hard**. Her lungs are growing strong.",
+          "image": "w-breathe"
+        },
+        {
+          "text": "Sam is **stretching** his muscles.",
+          "image": "w-stretch",
+          "label": "Stretch before and after sport."
+        },
+        {
+          "text": "Leo is **pushing** a big ball.",
+          "image": "w-push"
+        },
+        {
+          "text": "Ana is **pulling** a wagon.",
+          "image": "w-pull"
+        },
+        {
+          "text": "Leo is **tired**. He needs a **short break**.",
+          "image": "w-tired"
+        },
+        {
+          "text": "Mia is writing an **exercise plan**. Move your body for one hour every day!",
+          "image": "w-plan"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sport gives me ___.",
+          "image": "w-energy",
+          "options": [
+            "energy",
+            "a bench"
+          ],
+          "answer": "a",
+          "explain": "Sport gives me energy."
+        },
+        {
+          "mode": "try",
+          "prompt": "Leo is ___. He needs a short break.",
+          "image": "w-tired",
+          "options": [
+            "strong",
+            "tired"
+          ],
+          "answer": "b",
+          "explain": "He needs a break → tired."
+        }
+      ],
+      "teacherNote": "Link the new words to the reading in the book. Ask: How do you feel after sport? What gives you energy?"
+    },
+    {
+      "id": "move-more",
+      "title": "Move more every day",
+      "rule": "Small changes help: **take the stairs, walk to school, dance!**",
+      "image": "a-stairs",
+      "examples": [
+        {
+          "text": "Leo is **taking the stairs**.",
+          "image": "a-stairs"
+        },
+        {
+          "text": "Leo is **walking to school**.",
+          "image": "walk-to-school"
+        },
+        {
+          "text": "Ana is **riding a bike**.",
+          "image": "ride-a-bike"
+        },
+        {
+          "text": "Mia and Ana are **dancing**.",
+          "image": "dance"
+        },
+        {
+          "text": "Mia is **following an exercise video**.",
+          "image": "a-video"
+        },
+        {
+          "text": "Sam is **playing video games**. His body is not moving much!",
+          "image": "a-games"
+        },
+        {
+          "q": "**How** can you move more?",
+          "a": "I can take the stairs and walk to school.",
+          "image": "a-stairs"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which one moves your body more?",
+          "image": "a-stairs",
+          "options": [
+            "take the stairs",
+            "play video games"
+          ],
+          "answer": "a",
+          "explain": "The stairs make your body work."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia is ___ an exercise video.",
+          "image": "a-video",
+          "options": [
+            "following",
+            "sleeping"
+          ],
+          "answer": "a",
+          "explain": "follow an exercise video."
+        }
+      ],
+      "teacherNote": "When you listen, look at the speaker and nod. Practise polite listening words in pairs: Uh-huh. Yeah. Right. I understand."
+    },
+    {
+      "id": "bounce-back",
+      "title": "Bounce back!",
+      "rule": "Something is difficult? **Keep trying. Learn. Stay positive. Ask for help.**",
+      "image": "s-try",
+      "examples": [
+        {
+          "text": "Ana is **disappointed**. Her serve is not very good.",
+          "image": "s-sad"
+        },
+        {
+          "text": "Mia is **helping** her friend.",
+          "image": "s-help"
+        },
+        {
+          "text": "Now Ana **feels better**!",
+          "image": "s-help"
+        },
+        {
+          "text": "Leo is **missing** the ball. The other team is winning.",
+          "image": "s-miss"
+        },
+        {
+          "text": "“I can **ask my coach for help**.”",
+          "image": "s-coach",
+          "speaker": "Leo"
+        },
+        {
+          "text": "“I can **keep trying**!”",
+          "image": "s-try",
+          "speaker": "Sam"
+        },
+        {
+          "text": "“Sometimes we win and sometimes we lose. That’s OK.”",
+          "image": "st-highfive",
+          "speaker": "Sam and Leo"
+        }
+      ],
+      "groups": [
+        {
+          "label": "This helps",
+          "words": [
+            "I can try again.",
+            "That’s OK.",
+            "I can ask for help."
+          ]
+        },
+        {
+          "label": "This does not help",
+          "words": [
+            "I want to quit.",
+            "I am not good at this."
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam falls. What can he say?",
+          "image": "s-try",
+          "options": [
+            "I can try again!",
+            "I want to quit."
+          ],
+          "answer": "a",
+          "explain": "Keep trying!"
+        },
+        {
+          "mode": "try",
+          "prompt": "The game is difficult. What can you do?",
+          "image": "s-coach",
+          "options": [
+            "Stop playing.",
+            "Ask the coach for help."
+          ],
+          "answer": "b",
+          "explain": "Ask for help when you need it."
+        }
+      ],
+      "teacherNote": "Talk about a time when something was difficult. Pupils role-play: one wants to quit, the other gives an idea to bounce back."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w3-sp-01",
+      "question": "What sport or activity are you good at?",
+      "image": "act-gymnastics",
+      "help": [
+        "I am good at …"
+      ],
+      "sample": "I am good at swimming.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-02",
+      "question": "Where do you do this sport?",
+      "image": "sp-pool",
+      "help": [
+        "At the …",
+        "In the …"
+      ],
+      "sample": "At the pool.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-03",
+      "question": "What things do you need for this sport?",
+      "image": "sp-racket",
+      "help": [
+        "I need …"
+      ],
+      "sample": "I need a racket and a ball.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-04",
+      "question": "What are you doing after school today?",
+      "image": "walk-to-school",
+      "help": [
+        "I am …"
+      ],
+      "sample": "I am going swimming after school.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-05",
+      "question": "When do you exercise?",
+      "image": "w-plan",
+      "help": [
+        "After school.",
+        "In the morning.",
+        "On Saturday."
+      ],
+      "sample": "I exercise after school.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-06",
+      "question": "How do you feel after sport?",
+      "image": "w-relaxed",
+      "help": [
+        "I feel …"
+      ],
+      "sample": "I feel happy and relaxed.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-07",
+      "question": "Why do people play sports?",
+      "image": "st-highfive",
+      "help": [
+        "Because …"
+      ],
+      "sample": "Because they are fun and good for the body."
+    },
+    {
+      "id": "w3-sp-08",
+      "question": "Make a question with Who. Ask a friend.",
+      "image": "teacher-class",
+      "help": [
+        "Who is …?",
+        "Who likes …?"
+      ],
+      "sample": "Who likes swimming?",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-09",
+      "question": "Make a question with Where. Ask a friend.",
+      "image": "teacher-class",
+      "help": [
+        "Where do you …?"
+      ],
+      "sample": "Where do you play?",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-10",
+      "question": "Who is running around the cone?",
+      "image": "prep-around",
+      "help": [
+        "… is."
+      ],
+      "sample": "Sam is."
+    },
+    {
+      "id": "w3-sp-11",
+      "question": "Where is Mia walking?",
+      "image": "prep-across",
+      "help": [
+        "Across …"
+      ],
+      "sample": "Across the bridge."
+    },
+    {
+      "id": "w3-sp-12",
+      "question": "Look. What is Leo doing?",
+      "image": "prep-under",
+      "help": [
+        "He is crawling …"
+      ],
+      "sample": "He is crawling under the bench."
+    },
+    {
+      "id": "w3-sp-13",
+      "question": "Look at the path. Tell a friend where to go.",
+      "image": "cover",
+      "help": [
+        "Start at …",
+        "Go over …",
+        "Run around …"
+      ],
+      "sample": "Start at the gate. Run around the cone. Climb through the hoop.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-14",
+      "question": "Stand up! Walk around your chair. What are you doing?",
+      "image": "prep-around",
+      "help": [
+        "I am walking …"
+      ],
+      "sample": "I am walking around my chair.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-15",
+      "question": "Point to your heart. What does it do?",
+      "image": "b-heart",
+      "help": [
+        "It beats."
+      ],
+      "sample": "My heart beats faster when I run."
+    },
+    {
+      "id": "w3-sp-16",
+      "question": "What do your muscles do?",
+      "image": "b-muscles",
+      "help": [
+        "They help me …"
+      ],
+      "sample": "They help me jump and move."
+    },
+    {
+      "id": "w3-sp-17",
+      "question": "What gives you energy?",
+      "image": "w-energy",
+      "help": [
+        "… gives me energy."
+      ],
+      "sample": "Playing tag gives me energy.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-18",
+      "question": "How can you move more every day?",
+      "image": "a-stairs",
+      "help": [
+        "I can …"
+      ],
+      "sample": "I can take the stairs and walk to school.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-19",
+      "question": "Your friend is sad after a game. What can you say?",
+      "image": "s-help",
+      "help": [
+        "It’s OK.",
+        "I can help you."
+      ],
+      "sample": "It’s OK. I can help you.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-20",
+      "question": "Something is very difficult. What can you do?",
+      "image": "s-try",
+      "help": [
+        "I can …"
+      ],
+      "sample": "I can keep trying and ask for help.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-21",
+      "question": "Listen to your friend. Nod your head and say a listening word.",
+      "image": "teacher-class",
+      "help": [
+        "Uh-huh.",
+        "Yeah.",
+        "Right.",
+        "I understand."
+      ],
+      "sample": "Uh-huh. I understand.",
+      "personal": true
+    },
+    {
+      "id": "w3-sp-22",
+      "question": "Why do we play sports? Give your answer.",
+      "image": "cover",
+      "help": [
+        "Because …"
+      ],
+      "sample": "Because sports are fun, and they help our body.",
+      "personal": true
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "prep-around",
+        "subject": "He",
+        "word": "around the cone",
+        "sentence": "He is running around the cone."
+      },
+      {
+        "image": "prep-through",
+        "subject": "She",
+        "word": "through the hoop",
+        "sentence": "She is climbing through the hoop."
+      },
+      {
+        "image": "prep-over",
+        "subject": "He",
+        "word": "over the hurdles",
+        "sentence": "He is jumping over the hurdles."
+      },
+      {
+        "image": "prep-up",
+        "subject": "She",
+        "word": "up the ladder",
+        "sentence": "She is climbing up the ladder."
+      },
+      {
+        "image": "prep-down",
+        "subject": "He",
+        "word": "down the slide",
+        "sentence": "He is sliding down the slide."
+      },
+      {
+        "image": "prep-across",
+        "subject": "She",
+        "word": "across the bridge",
+        "sentence": "She is walking across the bridge."
+      },
+      {
+        "image": "prep-under",
+        "subject": "He",
+        "word": "under the bench",
+        "sentence": "He is crawling under the bench."
+      },
+      {
+        "image": "prep-into",
+        "subject": "She",
+        "word": "into the sandbox",
+        "sentence": "She is jumping into the sandbox."
+      },
+      {
+        "image": "prep-out",
+        "subject": "He",
+        "word": "out of the sandbox",
+        "sentence": "He is stepping out of the sandbox."
+      },
+      {
+        "image": "prep-past",
+        "subject": "He",
+        "word": "past the goal",
+        "sentence": "He is running past the goal."
+      },
+      {
+        "image": "prep-between",
+        "subject": "She",
+        "word": "between the trees",
+        "sentence": "She is running between the trees."
+      },
+      {
+        "image": "r-three",
+        "subject": "They",
+        "word": "a three-legged race",
+        "sentence": "They are running a three-legged race."
+      },
+      {
+        "image": "r-relay",
+        "subject": "She",
+        "word": "passing the baton",
+        "sentence": "She is passing the baton."
+      },
+      {
+        "image": "b-heart",
+        "subject": "He",
+        "word": "heart",
+        "sentence": "He is pointing to his heart."
+      },
+      {
+        "image": "b-bones",
+        "subject": "He",
+        "word": "bones",
+        "sentence": "He is pointing to the bones."
+      },
+      {
+        "image": "w-stretch",
+        "subject": "He",
+        "word": "stretching",
+        "sentence": "He is stretching his muscles."
+      },
+      {
+        "image": "w-push",
+        "subject": "He",
+        "word": "pushing",
+        "sentence": "He is pushing a big ball."
+      },
+      {
+        "image": "w-pull",
+        "subject": "She",
+        "word": "pulling",
+        "sentence": "She is pulling a wagon."
+      },
+      {
+        "image": "a-bowling",
+        "subject": "He",
+        "word": "going bowling",
+        "sentence": "He is going bowling."
+      },
+      {
+        "image": "a-yoga",
+        "subject": "She",
+        "word": "doing yoga",
+        "sentence": "She is doing yoga."
+      },
+      {
+        "image": "s-coach",
+        "subject": "He",
+        "word": "asking for help",
+        "sentence": "He is asking his coach for help."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "I",
+          "text": "I",
+          "person": "plural",
+          "poss": "my",
+          "short": "I"
+        },
+        {
+          "id": "you",
+          "text": "You",
+          "person": "plural",
+          "poss": "your",
+          "short": "you"
+        },
+        {
+          "id": "we",
+          "text": "We",
+          "person": "plural",
+          "poss": "our",
+          "short": "we"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        },
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "she",
+          "text": "She",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "sam",
+          "text": "Sam",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "mia",
+          "text": "Mia",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "leo",
+          "text": "Leo",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "ana",
+          "text": "Ana",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        }
+      ],
+      "verbs": [
+        {
+          "id": "run-around",
+          "base": "run",
+          "ing": "running",
+          "rest": "around the cone",
+          "where": "around the cone",
+          "how": "Fast!"
+        },
+        {
+          "id": "climb-through",
+          "base": "climb",
+          "ing": "climbing",
+          "rest": "through the hoop",
+          "where": "through the hoop",
+          "how": "Carefully."
+        },
+        {
+          "id": "jump-over",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "over the hurdles",
+          "where": "over the hurdles",
+          "how": "High!"
+        },
+        {
+          "id": "climb-up",
+          "base": "climb",
+          "ing": "climbing",
+          "rest": "up the ladder",
+          "where": "up the ladder",
+          "how": "Slowly."
+        },
+        {
+          "id": "slide-down",
+          "base": "slide",
+          "ing": "sliding",
+          "rest": "down the slide",
+          "where": "down the slide",
+          "how": "Fast!"
+        },
+        {
+          "id": "walk-across",
+          "base": "walk",
+          "ing": "walking",
+          "rest": "across the bridge",
+          "where": "across the bridge",
+          "how": "Slowly."
+        },
+        {
+          "id": "crawl-under",
+          "base": "crawl",
+          "ing": "crawling",
+          "rest": "under the bench",
+          "where": "under the bench",
+          "how": "On hands and knees."
+        },
+        {
+          "id": "jump-into",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "into the sandbox",
+          "where": "into the sandbox"
+        },
+        {
+          "id": "step-out",
+          "base": "step",
+          "ing": "stepping",
+          "rest": "out of the sandbox",
+          "where": "out of the sandbox"
+        },
+        {
+          "id": "run-past",
+          "base": "run",
+          "ing": "running",
+          "rest": "past the goal",
+          "where": "past the goal",
+          "how": "Fast!"
+        },
+        {
+          "id": "run-between",
+          "base": "run",
+          "ing": "running",
+          "rest": "between the trees",
+          "where": "between the trees",
+          "how": "Fast!"
+        },
+        {
+          "id": "three-legged",
+          "base": "run",
+          "ing": "running",
+          "rest": "a three-legged race on the grass",
+          "thing": "a three-legged race",
+          "where": "on the grass",
+          "how": "Together!",
+          "why": "Because it is fun."
+        },
+        {
+          "id": "pass-baton",
+          "base": "pass",
+          "ing": "passing",
+          "rest": "the baton on the track",
+          "thing": "the baton",
+          "where": "on the track",
+          "why": "Because the next runner is waiting."
+        },
+        {
+          "id": "run-track",
+          "base": "run",
+          "ing": "running",
+          "rest": "on the track",
+          "where": "on the track",
+          "how": "Fast!"
+        },
+        {
+          "id": "swim-race",
+          "base": "swim",
+          "ing": "swimming",
+          "rest": "in the pool",
+          "where": "in the pool",
+          "how": "Fast!",
+          "why": "Because it is a race."
+        },
+        {
+          "id": "tie-legs",
+          "base": "tie",
+          "ing": "tying",
+          "rest": "{poss} legs together",
+          "how": "With a scarf.",
+          "why": "Because it is a three-legged race."
+        },
+        {
+          "id": "cheer",
+          "base": "cheer",
+          "ing": "cheering",
+          "rest": "for the team",
+          "why": "Because the game is exciting."
+        },
+        {
+          "id": "do-gymnastics",
+          "base": "do",
+          "ing": "doing",
+          "rest": "gymnastics in the gym",
+          "thing": "gymnastics",
+          "where": "in the gym"
+        },
+        {
+          "id": "play-baseball",
+          "base": "play",
+          "ing": "playing",
+          "rest": "baseball on the field",
+          "thing": "baseball",
+          "where": "on the field"
+        },
+        {
+          "id": "bounce-ball",
+          "base": "bounce",
+          "ing": "bouncing",
+          "rest": "a ball in the playground",
+          "thing": "a ball",
+          "where": "in the playground"
+        },
+        {
+          "id": "do-karate",
+          "base": "do",
+          "ing": "doing",
+          "rest": "karate in the hall",
+          "thing": "karate",
+          "where": "in the hall"
+        },
+        {
+          "id": "jump-rope",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "rope in the park",
+          "where": "in the park"
+        },
+        {
+          "id": "go-skating",
+          "base": "go",
+          "ing": "going",
+          "rest": "skating in the park",
+          "where": "in the park",
+          "how": "Carefully."
+        },
+        {
+          "id": "ride-bike",
+          "base": "ride",
+          "ing": "riding",
+          "rest": "a bike in the park",
+          "thing": "a bike",
+          "where": "in the park"
+        },
+        {
+          "id": "play-tag",
+          "base": "play",
+          "ing": "playing",
+          "rest": "tag in the playground",
+          "thing": "tag",
+          "where": "in the playground",
+          "why": "Because it is fun."
+        },
+        {
+          "id": "go-bowling",
+          "base": "go",
+          "ing": "going",
+          "rest": "bowling with friends",
+          "how": "With friends."
+        },
+        {
+          "id": "do-yoga",
+          "base": "do",
+          "ing": "doing",
+          "rest": "yoga in the garden",
+          "thing": "yoga",
+          "where": "in the garden",
+          "how": "Slowly.",
+          "why": "Because it is relaxing."
+        },
+        {
+          "id": "play-tennis",
+          "base": "play",
+          "ing": "playing",
+          "rest": "tennis on the court",
+          "thing": "tennis",
+          "where": "on the court"
+        },
+        {
+          "id": "stretch",
+          "base": "stretch",
+          "ing": "stretching",
+          "rest": "{poss} muscles on the field",
+          "where": "on the field",
+          "why": "Because it is good for the body."
+        },
+        {
+          "id": "breathe",
+          "base": "breathe",
+          "ing": "breathing",
+          "rest": "hard in the park",
+          "where": "in the park",
+          "why": "Because running is hard work."
+        },
+        {
+          "id": "push-ball",
+          "base": "push",
+          "ing": "pushing",
+          "rest": "a big ball across the playground",
+          "thing": "a big ball",
+          "where": "across the playground"
+        },
+        {
+          "id": "pull-wagon",
+          "base": "pull",
+          "ing": "pulling",
+          "rest": "a wagon in the park",
+          "thing": "a wagon",
+          "where": "in the park",
+          "how": "With a rope."
+        },
+        {
+          "id": "write-plan",
+          "base": "write",
+          "ing": "writing",
+          "rest": "an exercise plan on the calendar",
+          "thing": "an exercise plan",
+          "where": "on the calendar",
+          "why": "Because a plan helps."
+        },
+        {
+          "id": "short-break",
+          "base": "have",
+          "ing": "having",
+          "rest": "a short break under a tree",
+          "thing": "a short break",
+          "where": "under a tree",
+          "why": "Because everyone is tired."
+        },
+        {
+          "id": "take-stairs",
+          "base": "take",
+          "ing": "taking",
+          "rest": "the stairs at school",
+          "where": "at school",
+          "why": "Because it is good exercise."
+        },
+        {
+          "id": "follow-video",
+          "base": "follow",
+          "ing": "following",
+          "rest": "an exercise video at home",
+          "thing": "an exercise video",
+          "where": "at home"
+        },
+        {
+          "id": "video-games",
+          "base": "play",
+          "ing": "playing",
+          "rest": "video games on the sofa",
+          "thing": "video games",
+          "where": "on the sofa"
+        },
+        {
+          "id": "walk-school",
+          "base": "walk",
+          "ing": "walking",
+          "rest": "to school",
+          "where": "to school",
+          "why": "Because it is good exercise."
+        },
+        {
+          "id": "try-again",
+          "base": "try",
+          "ing": "trying",
+          "rest": "again in the park",
+          "where": "in the park",
+          "why": "Because skating is difficult."
+        },
+        {
+          "id": "help-friend",
+          "base": "help",
+          "ing": "helping",
+          "rest": "a friend on the court",
+          "where": "on the court",
+          "why": "Because friends are kind."
+        },
+        {
+          "id": "ask-coach",
+          "base": "ask",
+          "ing": "asking",
+          "rest": "the coach for help",
+          "why": "Because the game is difficult."
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-01",
+        "who": "Sam",
+        "image": "prep-around",
+        "clue": "Sam is running around the cone.",
+        "options": [
+          "Where is Sam running?",
+          "Where Sam is running?",
+          "Where does Sam running?"
+        ],
+        "answer": "a",
+        "reveal": "Around the cone.",
+        "hint": "Where + is + Sam + running?"
+      },
+      {
+        "id": "door-02",
+        "who": "Mia",
+        "image": "prep-through",
+        "clue": "Mia is climbing through the hoop.",
+        "options": [
+          "What Mia is doing?",
+          "What is Mia doing?",
+          "What does Mia doing?"
+        ],
+        "answer": "b",
+        "reveal": "She is climbing through the hoop.",
+        "hint": "What + is + Mia + doing?"
+      },
+      {
+        "id": "door-03",
+        "who": "the person",
+        "image": "prep-over",
+        "clue": "Leo is jumping over the hurdles.",
+        "options": [
+          "Who is jumping over the hurdles?",
+          "What is jumping over the hurdles?",
+          "Where is jumping over the hurdles?"
+        ],
+        "answer": "a",
+        "reveal": "Leo is.",
+        "hint": "A person → Who."
+      },
+      {
+        "id": "door-04",
+        "who": "Mia",
+        "image": "r-relay",
+        "clue": "Mia is passing the baton.",
+        "options": [
+          "What is Mia passing?",
+          "Who is Mia passing?",
+          "Where is Mia passing?"
+        ],
+        "answer": "a",
+        "reveal": "The baton.",
+        "hint": "A thing → What."
+      },
+      {
+        "id": "door-05",
+        "who": "Leo",
+        "image": "r-track",
+        "clue": "Leo is running on the track.",
+        "options": [
+          "When is Leo running?",
+          "Where is Leo running?"
+        ],
+        "answer": "b",
+        "reveal": "On the track.",
+        "hint": "A place → Where."
+      },
+      {
+        "id": "door-06",
+        "who": "Sam and Leo",
+        "image": "r-three",
+        "clue": "Sam and Leo are running together.",
+        "options": [
+          "How are Sam and Leo running?",
+          "How is Sam and Leo running?",
+          "How do Sam and Leo running?"
+        ],
+        "answer": "a",
+        "reveal": "Together!",
+        "hint": "Two people → are."
+      },
+      {
+        "id": "door-07",
+        "who": "Ana",
+        "image": "a-yoga",
+        "clue": "Ana is doing yoga because it is relaxing.",
+        "options": [
+          "Where is Ana doing yoga?",
+          "Why is Ana doing yoga?"
+        ],
+        "answer": "b",
+        "reveal": "Because it is relaxing.",
+        "hint": "Because → Why."
+      },
+      {
+        "id": "door-08",
+        "who": "you",
+        "image": "w-plan",
+        "clue": "I exercise after school.",
+        "options": [
+          "When do you exercise?",
+          "When does you exercise?",
+          "Where do you exercise?"
+        ],
+        "answer": "a",
+        "reveal": "After school.",
+        "hint": "A time → When. you → do."
+      },
+      {
+        "id": "door-09",
+        "who": "Ana",
+        "image": "w-pull",
+        "clue": "Ana is pulling the wagon with a rope.",
+        "options": [
+          "How is Ana pulling the wagon?",
+          "Who is Ana pulling the wagon?"
+        ],
+        "answer": "a",
+        "reveal": "With a rope.",
+        "hint": "A way → How."
+      },
+      {
+        "id": "door-10",
+        "who": "Sam",
+        "image": "prep-down",
+        "clue": "Sam is sliding down the slide.",
+        "options": [
+          "Where is Sam sliding?",
+          "Where are Sam sliding?"
+        ],
+        "answer": "a",
+        "reveal": "Down the slide.",
+        "hint": "Sam = he → is."
+      },
+      {
+        "id": "door-11",
+        "who": "the children",
+        "image": "w-break",
+        "clue": "The children are having a short break.",
+        "options": [
+          "What is the children doing?",
+          "What are the children doing?"
+        ],
+        "answer": "b",
+        "reveal": "They are having a short break.",
+        "hint": "the children = they → are."
+      },
+      {
+        "id": "door-12",
+        "who": "Leo",
+        "image": "w-tired",
+        "clue": "Leo is tired because running is hard work.",
+        "options": [
+          "Why is Leo tired?",
+          "Why Leo is tired?"
+        ],
+        "answer": "a",
+        "reveal": "Because running is hard work.",
+        "hint": "Why + is + Leo."
+      }
+    ],
+    "yesNo": [
+      {
+        "id": "yn-01",
+        "image": "prep-around",
+        "clue": "Sam is running around the cone.",
+        "question": "Is Sam running around the cone?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he does.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-02",
+        "image": "prep-through",
+        "clue": "Mia is climbing through the hoop.",
+        "question": "Is Mia climbing over the hoop?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't.",
+          "No, she doesn't."
+        ],
+        "answer": "b",
+        "hint": "through, not over."
+      },
+      {
+        "id": "yn-03",
+        "image": "prep-over",
+        "clue": "Leo is jumping over the hurdles.",
+        "question": "Is Leo crawling under the hurdles?",
+        "options": [
+          "No, he isn't.",
+          "Yes, he is."
+        ],
+        "answer": "a",
+        "hint": "over, not under."
+      },
+      {
+        "id": "yn-04",
+        "image": "prep-up",
+        "clue": "Ana is climbing up the ladder.",
+        "question": "Is Ana going up?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "a",
+        "hint": "up ↑."
+      },
+      {
+        "id": "yn-05",
+        "image": "prep-down",
+        "clue": "Sam is sliding down the slide.",
+        "question": "Is Sam going up?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "b",
+        "hint": "He is going down."
+      },
+      {
+        "id": "yn-06",
+        "image": "prep-across",
+        "clue": "Mia is walking across the bridge.",
+        "question": "Is Mia walking under the bridge?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "b",
+        "hint": "across, not under."
+      },
+      {
+        "id": "yn-07",
+        "image": "prep-under",
+        "clue": "Leo is crawling under the bench.",
+        "question": "Is Leo crawling under the bench?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-08",
+        "image": "prep-into",
+        "clue": "Ana is jumping into the sandbox.",
+        "question": "Is Ana jumping out of the sandbox?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "b",
+        "hint": "into, not out of."
+      },
+      {
+        "id": "yn-09",
+        "image": "prep-out",
+        "clue": "Sam is stepping out of the sandbox.",
+        "question": "Is Sam stepping out of the sandbox?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-10",
+        "image": "prep-past",
+        "clue": "Leo is running past the goal.",
+        "question": "Is Leo running into the goal?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "b",
+        "hint": "past, not into."
+      },
+      {
+        "id": "yn-11",
+        "image": "prep-between",
+        "clue": "Mia is running between the trees.",
+        "question": "Is Mia running between the trees?",
+        "options": [
+          "Yes, she is.",
+          "Yes, she does."
+        ],
+        "answer": "a",
+        "hint": "Is … ? → Yes, she is."
+      },
+      {
+        "id": "yn-12",
+        "image": "r-three",
+        "clue": "Sam and Leo are running together.",
+        "question": "Are their legs tied together?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't."
+        ],
+        "answer": "a",
+        "hint": "It is a three-legged race."
+      },
+      {
+        "id": "yn-13",
+        "image": "r-relay",
+        "clue": "Mia is passing the baton to Sam.",
+        "question": "Is Sam passing the baton?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "b",
+        "hint": "Mia is passing it."
+      },
+      {
+        "id": "yn-14",
+        "image": "r-swim",
+        "clue": "The swimmers are racing. Mia is cheering.",
+        "question": "Is Mia swimming?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "b",
+        "hint": "Mia is cheering."
+      },
+      {
+        "id": "yn-15",
+        "image": "w-tired",
+        "clue": "Leo is tired. He is sitting on a bench.",
+        "question": "Is Leo full of energy?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "b",
+        "hint": "He is tired."
+      },
+      {
+        "id": "yn-16",
+        "image": "w-energy",
+        "clue": "Mia is jumping high. She is full of energy.",
+        "question": "Is Mia tired?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "b",
+        "hint": "She is full of energy."
+      },
+      {
+        "id": "yn-17",
+        "image": "w-pull",
+        "clue": "Ana is pulling a wagon.",
+        "question": "Is Ana pushing the wagon?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't."
+        ],
+        "answer": "b",
+        "hint": "pull, not push."
+      },
+      {
+        "id": "yn-18",
+        "image": "w-push",
+        "clue": "Leo is pushing a big ball.",
+        "question": "Is Leo pushing a big ball?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-19",
+        "image": "s-coach",
+        "clue": "Leo is asking his coach for help.",
+        "question": "Is Leo asking for help?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-20",
+        "image": "s-try",
+        "clue": "Sam falls, but he is getting up to try again.",
+        "question": "Is Sam quitting?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": "b",
+        "hint": "He keeps trying."
+      }
+    ],
+    "memory": {
+      "pairs": 6
+    }
+  },
+  "extraWordSets": [
+    {
+      "id": "course",
+      "title": "Obstacle course: things",
+      "words": [
+        {
+          "id": "cone",
+          "word": "a cone",
+          "phrase": "a cone",
+          "image": "prep-around",
+          "example": "The cone is orange. Sam is running around it."
+        },
+        {
+          "id": "hoop",
+          "word": "a hoop",
+          "phrase": "a hoop",
+          "image": "prep-through",
+          "example": "The hoop is big. Mia is climbing through it."
+        },
+        {
+          "id": "hurdles",
+          "word": "hurdles",
+          "phrase": "hurdles",
+          "image": "prep-over",
+          "example": "The hurdles are red and white. Leo is jumping over them."
+        },
+        {
+          "id": "ladder",
+          "word": "a ladder",
+          "phrase": "a ladder",
+          "image": "prep-up",
+          "example": "The ladder is tall. Ana is climbing up it."
+        },
+        {
+          "id": "slide",
+          "word": "a slide",
+          "phrase": "a slide",
+          "image": "prep-down",
+          "example": "The slide is red. Sam is sliding down it."
+        },
+        {
+          "id": "bridge",
+          "word": "a bridge",
+          "phrase": "a bridge",
+          "image": "prep-across",
+          "example": "The bridge is small. Mia is walking across it."
+        },
+        {
+          "id": "bench",
+          "word": "a bench",
+          "phrase": "a bench",
+          "image": "prep-under",
+          "example": "The bench is low. Leo is crawling under it."
+        },
+        {
+          "id": "sandbox",
+          "word": "a sandbox",
+          "phrase": "a sandbox",
+          "image": "prep-into",
+          "example": "The sandbox is full of sand. Ana is jumping into it."
+        },
+        {
+          "id": "goal",
+          "word": "a goal",
+          "phrase": "a goal",
+          "image": "prep-past",
+          "example": "The goal has a white net. Leo is running past it."
+        },
+        {
+          "id": "trees",
+          "word": "trees",
+          "phrase": "trees",
+          "image": "prep-between",
+          "example": "The trees are very big. Mia is running between them."
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Book words: Sports and activities",
+      "words": [
+        {
+          "id": "do-gymnastics",
+          "word": "do gymnastics",
+          "phrase": "do gymnastics",
+          "image": "act-gymnastics",
+          "example": "Mia is doing gymnastics."
+        },
+        {
+          "id": "play-baseball",
+          "word": "play baseball",
+          "phrase": "play baseball",
+          "image": "sp-bat",
+          "example": "Leo is playing baseball."
+        },
+        {
+          "id": "bounce-a-ball",
+          "word": "bounce a ball",
+          "phrase": "bounce a ball",
+          "image": "act-bounce",
+          "example": "Ana is bouncing a ball."
+        },
+        {
+          "id": "do-karate",
+          "word": "do karate",
+          "phrase": "do karate",
+          "image": "act-karate",
+          "example": "Leo is doing karate."
+        },
+        {
+          "id": "jump-rope",
+          "word": "jump rope",
+          "phrase": "jump rope",
+          "image": "v-jump",
+          "example": "Ana is jumping rope."
+        },
+        {
+          "id": "go-skating",
+          "word": "go skating",
+          "phrase": "go skating",
+          "image": "act-skating",
+          "example": "Sam is going skating."
+        },
+        {
+          "id": "ride-a-bike",
+          "word": "ride a bike",
+          "phrase": "ride a bike",
+          "image": "ride-a-bike",
+          "example": "Ana is riding a bike."
+        },
+        {
+          "id": "go-swimming",
+          "word": "go swimming",
+          "phrase": "go swimming",
+          "image": "sp-pool",
+          "example": "Ana is going swimming."
+        },
+        {
+          "id": "play-tag",
+          "word": "play tag",
+          "phrase": "play tag",
+          "image": "act-tag",
+          "example": "The children are playing tag."
+        },
+        {
+          "id": "run-a-race",
+          "word": "run a race",
+          "phrase": "run a race",
+          "image": "sp-field",
+          "example": "Mia and Sam are running a race."
+        },
+        {
+          "id": "go-bowling",
+          "word": "go bowling",
+          "phrase": "go bowling",
+          "image": "a-bowling",
+          "example": "Sam is going bowling with his friends."
+        },
+        {
+          "id": "play-tennis",
+          "word": "play tennis",
+          "phrase": "play tennis",
+          "image": "sp-racket",
+          "example": "Mia is playing tennis."
+        },
+        {
+          "id": "do-yoga",
+          "word": "do yoga",
+          "phrase": "do yoga",
+          "image": "a-yoga",
+          "example": "Ana is doing yoga in the garden."
+        }
+      ]
+    },
+    {
+      "id": "races",
+      "title": "Fun races",
+      "words": [
+        {
+          "id": "three-legged-race",
+          "word": "a three-legged race",
+          "phrase": "a three-legged race",
+          "image": "r-three",
+          "example": "Sam and Leo are running a three-legged race."
+        },
+        {
+          "id": "tie",
+          "word": "tie",
+          "phrase": "tie",
+          "image": "r-tie",
+          "example": "Mia and Ana are tying their legs together."
+        },
+        {
+          "id": "relay-race",
+          "word": "a relay race",
+          "phrase": "a relay race",
+          "image": "r-relay",
+          "example": "Mia and Sam are running a relay race."
+        },
+        {
+          "id": "baton",
+          "word": "a baton",
+          "phrase": "a baton",
+          "image": "r-relay",
+          "example": "Mia is passing the baton to Sam."
+        },
+        {
+          "id": "track",
+          "word": "a track",
+          "phrase": "a track",
+          "image": "r-track",
+          "example": "Leo is running on the track."
+        },
+        {
+          "id": "swimmers",
+          "word": "swimmers",
+          "phrase": "swimmers",
+          "image": "r-swim",
+          "example": "The swimmers are racing in the pool."
+        },
+        {
+          "id": "cheer",
+          "word": "cheer",
+          "phrase": "cheer",
+          "image": "st-cheer",
+          "example": "Mia and Ana are cheering for their team."
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "My body",
+      "words": [
+        {
+          "id": "heart",
+          "word": "heart",
+          "phrase": "heart",
+          "image": "b-heart",
+          "example": "My heart beats faster when I run."
+        },
+        {
+          "id": "lungs",
+          "word": "lungs",
+          "phrase": "lungs",
+          "image": "b-lungs",
+          "example": "I breathe with my lungs."
+        },
+        {
+          "id": "brain",
+          "word": "brain",
+          "phrase": "brain",
+          "image": "b-brain",
+          "example": "I think with my brain."
+        },
+        {
+          "id": "bones",
+          "word": "bones",
+          "phrase": "bones",
+          "image": "b-bones",
+          "example": "My bones hold up my body."
+        },
+        {
+          "id": "muscles",
+          "word": "muscles",
+          "phrase": "muscles",
+          "image": "b-muscles",
+          "example": "My muscles help me jump and move."
+        }
+      ]
+    },
+    {
+      "id": "strong",
+      "title": "Reading words: a strong body",
+      "words": [
+        {
+          "id": "energy",
+          "word": "energy",
+          "phrase": "energy",
+          "image": "w-energy",
+          "example": "Mia is full of energy today."
+        },
+        {
+          "id": "relaxed",
+          "word": "relaxed",
+          "phrase": "relaxed",
+          "image": "w-relaxed",
+          "example": "Ana is relaxed under the tree."
+        },
+        {
+          "id": "tired",
+          "word": "tired",
+          "phrase": "tired",
+          "image": "w-tired",
+          "example": "Leo is tired after the race."
+        },
+        {
+          "id": "strong",
+          "word": "strong",
+          "phrase": "strong",
+          "image": "w-strong",
+          "example": "Exercise makes my body strong."
+        },
+        {
+          "id": "stretch",
+          "word": "stretch",
+          "phrase": "stretch",
+          "image": "w-stretch",
+          "example": "Sam is stretching his muscles."
+        },
+        {
+          "id": "breathe-hard",
+          "word": "breathe hard",
+          "phrase": "breathe hard",
+          "image": "w-breathe",
+          "example": "Mia is breathing hard after her run."
+        },
+        {
+          "id": "push",
+          "word": "push",
+          "phrase": "push",
+          "image": "w-push",
+          "example": "Leo is pushing a big ball."
+        },
+        {
+          "id": "pull",
+          "word": "pull",
+          "phrase": "pull",
+          "image": "w-pull",
+          "example": "Ana is pulling a wagon."
+        },
+        {
+          "id": "exercise-plan",
+          "word": "an exercise plan",
+          "phrase": "an exercise plan",
+          "image": "w-plan",
+          "example": "Mia is writing an exercise plan."
+        },
+        {
+          "id": "short-break",
+          "word": "a short break",
+          "phrase": "a short break",
+          "image": "w-break",
+          "example": "The children are having a short break."
+        }
+      ]
+    },
+    {
+      "id": "everyday",
+      "title": "Move more every day",
+      "words": [
+        {
+          "id": "take-the-stairs",
+          "word": "take the stairs",
+          "phrase": "take the stairs",
+          "image": "a-stairs",
+          "example": "Leo is taking the stairs at school."
+        },
+        {
+          "id": "exercise-video",
+          "word": "follow an exercise video",
+          "phrase": "follow an exercise video",
+          "image": "a-video",
+          "example": "Mia is following an exercise video."
+        },
+        {
+          "id": "walk-to-school",
+          "word": "walk to school",
+          "phrase": "walk to school",
+          "image": "walk-to-school",
+          "example": "Leo is walking to school."
+        },
+        {
+          "id": "dance",
+          "word": "dance",
+          "phrase": "dance",
+          "image": "dance",
+          "example": "Mia and Ana are dancing."
+        },
+        {
+          "id": "play-video-games",
+          "word": "play video games",
+          "phrase": "play video games",
+          "image": "a-games",
+          "example": "Sam is playing video games. His body is not moving much!"
+        },
+        {
+          "id": "eat-an-apple",
+          "word": "eat an apple",
+          "phrase": "eat an apple",
+          "image": "eat-apples",
+          "example": "Mia is eating an apple. Good food gives us energy."
+        },
+        {
+          "id": "sleep",
+          "word": "sleep",
+          "phrase": "sleep",
+          "image": "v-sleep",
+          "example": "Sleep helps the body too. Pepper is sleeping!"
+        }
+      ]
+    },
+    {
+      "id": "bounce",
+      "title": "Bounce back!",
+      "words": [
+        {
+          "id": "disappointed",
+          "word": "disappointed",
+          "phrase": "disappointed",
+          "image": "s-sad",
+          "example": "Ana is disappointed. Her serve is not very good."
+        },
+        {
+          "id": "help-a-friend",
+          "word": "help a friend",
+          "phrase": "help a friend",
+          "image": "s-help",
+          "example": "Mia is helping her friend."
+        },
+        {
+          "id": "miss-the-ball",
+          "word": "miss the ball",
+          "phrase": "miss the ball",
+          "image": "s-miss",
+          "example": "Leo is missing the ball. It is OK!"
+        },
+        {
+          "id": "keep-trying",
+          "word": "keep trying",
+          "phrase": "keep trying",
+          "image": "s-try",
+          "example": "Sam is falling, but he keeps trying."
+        },
+        {
+          "id": "ask-for-help",
+          "word": "ask for help",
+          "phrase": "ask for help",
+          "image": "s-coach",
+          "example": "Leo is asking his coach for help."
+        },
+        {
+          "id": "coach",
+          "word": "a coach",
+          "phrase": "a coach",
+          "image": "s-coach",
+          "example": "The coach helps the team."
+        },
+        {
+          "id": "stay-positive",
+          "word": "stay positive",
+          "phrase": "stay positive",
+          "image": "w-strong",
+          "example": "Ana is staying positive. She can do it!"
+        },
+        {
+          "id": "win",
+          "word": "win or lose",
+          "phrase": "win or lose",
+          "image": "st-highfive",
+          "example": "Sometimes we win and sometimes we lose. That is OK."
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex-01",
+      "image": "prep-around",
+      "subject": "sam",
+      "verb": "run-around",
+      "note": "around"
+    },
+    {
+      "id": "ex-02",
+      "image": "prep-through",
+      "subject": "mia",
+      "verb": "climb-through",
+      "note": "through"
+    },
+    {
+      "id": "ex-03",
+      "image": "prep-over",
+      "subject": "leo",
+      "verb": "jump-over",
+      "note": "over"
+    },
+    {
+      "id": "ex-04",
+      "image": "prep-up",
+      "subject": "ana",
+      "verb": "climb-up",
+      "note": "up"
+    },
+    {
+      "id": "ex-05",
+      "image": "prep-down",
+      "subject": "sam",
+      "verb": "slide-down",
+      "note": "down"
+    },
+    {
+      "id": "ex-06",
+      "image": "prep-across",
+      "subject": "mia",
+      "verb": "walk-across",
+      "note": "across"
+    },
+    {
+      "id": "ex-07",
+      "image": "prep-under",
+      "subject": "leo",
+      "verb": "crawl-under",
+      "note": "under"
+    },
+    {
+      "id": "ex-08",
+      "image": "prep-into",
+      "subject": "ana",
+      "verb": "jump-into",
+      "note": "into"
+    },
+    {
+      "id": "ex-09",
+      "image": "prep-out",
+      "subject": "sam",
+      "verb": "step-out",
+      "note": "out of"
+    },
+    {
+      "id": "ex-10",
+      "image": "prep-past",
+      "subject": "leo",
+      "verb": "run-past",
+      "note": "past"
+    },
+    {
+      "id": "ex-11",
+      "image": "prep-between",
+      "subject": "mia",
+      "verb": "run-between",
+      "note": "between"
+    },
+    {
+      "id": "ex-12",
+      "image": "r-relay",
+      "subject": "mia",
+      "verb": "pass-baton",
+      "note": "What? the baton"
+    },
+    {
+      "id": "ex-13",
+      "image": "r-three",
+      "subject": "they",
+      "verb": "three-legged",
+      "note": "How? together"
+    },
+    {
+      "id": "ex-14",
+      "image": "r-track",
+      "subject": "leo",
+      "verb": "run-track",
+      "note": "Where? on the track"
+    },
+    {
+      "id": "ex-15",
+      "image": "r-swim",
+      "subject": "sam",
+      "verb": "swim-race",
+      "note": "Why? a race"
+    },
+    {
+      "id": "ex-16",
+      "image": "r-tie",
+      "subject": "they",
+      "verb": "tie-legs",
+      "note": "tie → tying"
+    },
+    {
+      "id": "ex-17",
+      "image": "act-gymnastics",
+      "subject": "mia",
+      "verb": "do-gymnastics",
+      "note": "do gymnastics"
+    },
+    {
+      "id": "ex-18",
+      "image": "act-karate",
+      "subject": "leo",
+      "verb": "do-karate",
+      "note": "do karate"
+    },
+    {
+      "id": "ex-19",
+      "image": "act-bounce",
+      "subject": "ana",
+      "verb": "bounce-ball",
+      "note": "bounce a ball"
+    },
+    {
+      "id": "ex-20",
+      "image": "act-skating",
+      "subject": "sam",
+      "verb": "go-skating",
+      "note": "go skating"
+    },
+    {
+      "id": "ex-21",
+      "image": "act-tag",
+      "subject": "they",
+      "verb": "play-tag",
+      "note": "play tag"
+    },
+    {
+      "id": "ex-22",
+      "image": "a-yoga",
+      "subject": "ana",
+      "verb": "do-yoga",
+      "note": "do yoga"
+    },
+    {
+      "id": "ex-23",
+      "image": "sp-racket",
+      "subject": "mia",
+      "verb": "play-tennis",
+      "note": "play tennis"
+    },
+    {
+      "id": "ex-24",
+      "image": "w-stretch",
+      "subject": "sam",
+      "verb": "stretch",
+      "note": "stretch"
+    },
+    {
+      "id": "ex-25",
+      "image": "w-breathe",
+      "subject": "mia",
+      "verb": "breathe",
+      "note": "breathe hard"
+    },
+    {
+      "id": "ex-26",
+      "image": "w-push",
+      "subject": "leo",
+      "verb": "push-ball",
+      "note": "push"
+    },
+    {
+      "id": "ex-27",
+      "image": "w-pull",
+      "subject": "ana",
+      "verb": "pull-wagon",
+      "note": "pull"
+    },
+    {
+      "id": "ex-28",
+      "image": "w-plan",
+      "subject": "mia",
+      "verb": "write-plan",
+      "note": "an exercise plan"
+    },
+    {
+      "id": "ex-29",
+      "image": "w-break",
+      "subject": "they",
+      "verb": "short-break",
+      "note": "a short break"
+    },
+    {
+      "id": "ex-30",
+      "image": "a-stairs",
+      "subject": "leo",
+      "verb": "take-stairs",
+      "note": "take the stairs"
+    },
+    {
+      "id": "ex-31",
+      "image": "a-video",
+      "subject": "mia",
+      "verb": "follow-video",
+      "note": "an exercise video"
+    },
+    {
+      "id": "ex-32",
+      "image": "s-try",
+      "subject": "sam",
+      "verb": "try-again",
+      "note": "keep trying"
+    },
+    {
+      "id": "ex-33",
+      "image": "s-help",
+      "subject": "mia",
+      "verb": "help-friend",
+      "note": "help a friend"
+    },
+    {
+      "id": "ex-34",
+      "image": "s-coach",
+      "subject": "leo",
+      "verb": "ask-coach",
+      "note": "ask for help"
+    }
+  ]
+}

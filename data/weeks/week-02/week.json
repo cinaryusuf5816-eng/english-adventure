@@ -1,0 +1,3630 @@
+{
+  "id": "week-02",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "grammar": "present-continuous",
+  "title": "Present Continuous",
+  "subtitle": "What are they doing now?",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "goals": [
+    "I can say what people are doing now.",
+    "I can use am, is and are + -ing: I am playing, she is playing, they are playing.",
+    "I can say I'm not, isn't and aren't.",
+    "I can ask Is …? and Are …? and answer Yes / No.",
+    "I can name sports things and places: ball, bat, hoop, goal, racket, net, gym, field, court, pool."
+  ],
+  "teacherGoals": [
+    "Present Continuous for actions happening now (now, at the moment, Look!, Listen!).",
+    "am / is / are + verb-ing; -ing spelling: + ing, e goes, double the last letter.",
+    "Negatives: I'm not / am not, isn't, aren't + verb-ing.",
+    "Am / Is / Are questions, short answers (Yes, she is. / No, they aren't.), What are you doing?",
+    "Every day (plays) or now (is playing)?"
+  ],
+  "teacherNote": "This week follows Compass Unit 2 (“Why do we play sports?”): Sports Things and Places (p. 28) + Present Continuous (p. 29). Book words: balls, bat, hoop, goal, racket, net, gym, field, court, pool. All -ing forms come from a checked list. Learn 12 compares Week 1 (every day) and Week 2 (now).",
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia",
+      "pronoun": "she",
+      "image": "sp-racket"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "pronoun": "he",
+      "image": "sp-goal"
+    },
+    {
+      "id": "pepper",
+      "name": "Pepper",
+      "pronoun": "it",
+      "note": "Pepper is a cat.",
+      "image": "v-sleep"
+    },
+    {
+      "id": "rosa",
+      "name": "Ms. Rosa",
+      "pronoun": "she",
+      "note": "Ms. Rosa is a teacher.",
+      "image": "teacher-class"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "pronoun": "he",
+      "image": "sp-bat"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "pronoun": "she",
+      "image": "sp-hoop"
+    }
+  ],
+  "dashboard": {
+    "tagline": "Let's talk about what is happening now!",
+    "bubbleLeft": [
+      "Look!",
+      "I'm playing",
+      "tennis!"
+    ],
+    "bubbleRight": [
+      "She is",
+      "swimming.",
+      "We are fast!"
+    ]
+  },
+  "missions": [
+    {
+      "id": "m-learn",
+      "text": "Learn the rules of Present Continuous",
+      "check": {
+        "section": "learn",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-words",
+      "text": "Learn the new words",
+      "check": {
+        "section": "words",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-practice",
+      "text": "Complete at least 3 activities",
+      "check": {
+        "section": "practise",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-challenge",
+      "text": "Try the challenge",
+      "check": {
+        "section": "challenge",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-proud",
+      "text": "Be proud of yourself!",
+      "check": {
+        "all": true
+      }
+    }
+  ],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-02/week-02-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "A busy sports park: Mia is playing tennis, Sam is kicking a football, Leo is throwing a basketball and Ana is running."
+    },
+    "play-football": {
+      "src": "assets/images/week-01/play-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is kicking a football in a green park."
+    },
+    "read-a-book": {
+      "src": "assets/images/week-01/read-a-book",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is sitting in an armchair and reading a book."
+    },
+    "watch-tv": {
+      "src": "assets/images/week-01/watch-tv",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is sitting on a sofa and watching TV."
+    },
+    "eat-apples": {
+      "src": "assets/images/week-01/eat-apples",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is eating a red apple."
+    },
+    "drink-water": {
+      "src": "assets/images/week-01/drink-water",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is drinking a glass of water in the kitchen."
+    },
+    "go-to-school": {
+      "src": "assets/images/week-01/go-to-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are walking to school with their school bags."
+    },
+    "get-up": {
+      "src": "assets/images/week-01/get-up",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is getting up and stretching in bed."
+    },
+    "have-breakfast": {
+      "src": "assets/images/week-01/have-breakfast",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is having breakfast: cereal, toast and orange juice."
+    },
+    "do-homework": {
+      "src": "assets/images/week-01/do-homework",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is doing his homework at a desk."
+    },
+    "brush-teeth": {
+      "src": "assets/images/week-01/brush-teeth",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is brushing her teeth at the bathroom sink."
+    },
+    "study-english": {
+      "src": "assets/images/week-01/study-english",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is studying English with a picture dictionary and headphones."
+    },
+    "they-play-football": {
+      "src": "assets/images/week-01/they-play-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Four children are running after a football on a school field."
+    },
+    "we-read": {
+      "src": "assets/images/week-01/we-read",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are sitting on a big cushion and reading books. Pepper is sleeping."
+    },
+    "pepper-drinks-water": {
+      "src": "assets/images/week-01/pepper-drinks-water",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat is drinking water from a blue bowl."
+    },
+    "pepper-plays": {
+      "src": "assets/images/week-01/pepper-plays",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat is playing with a red ball of yarn."
+    },
+    "teacher-class": {
+      "src": "assets/images/week-01/teacher-class",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ms. Rosa, the teacher, is asking a question. Mia and Sam are putting their hands up."
+    },
+    "they-watch-tv": {
+      "src": "assets/images/week-01/they-watch-tv",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are sitting on a sofa and watching TV."
+    },
+    "sam-reads": {
+      "src": "assets/images/week-01/sam-reads",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is lying on a rug and reading a book."
+    },
+    "dance": {
+      "src": "assets/images/book-unit1/dance",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are dancing in the school hall."
+    },
+    "ride-a-bike": {
+      "src": "assets/images/book-unit1/ride-a-bike",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is riding a bike on a path."
+    },
+    "walk-to-school": {
+      "src": "assets/images/book-unit1/walk-to-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is walking to school with his school bag."
+    },
+    "eat-pizza": {
+      "src": "assets/images/book-unit1/eat-pizza",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is eating a slice of pizza."
+    },
+    "play-chess": {
+      "src": "assets/images/book-unit1/play-chess",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are playing chess at a table."
+    },
+    "speak-english": {
+      "src": "assets/images/book-unit1/speak-english",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are speaking English in class."
+    },
+    "v-run": {
+      "src": "assets/images/a1-verbs/run",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is running on a park path."
+    },
+    "v-jump": {
+      "src": "assets/images/a1-verbs/jump",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is jumping with a skipping rope."
+    },
+    "v-swim": {
+      "src": "assets/images/a1-verbs/swim",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is swimming in a swimming pool."
+    },
+    "v-sing": {
+      "src": "assets/images/a1-verbs/sing",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is singing on a small stage."
+    },
+    "v-draw": {
+      "src": "assets/images/a1-verbs/draw",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is drawing a house and a sun with crayons."
+    },
+    "v-sleep": {
+      "src": "assets/images/a1-verbs/sleep",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat is sleeping on a cushion."
+    },
+    "v-write": {
+      "src": "assets/images/a1-verbs/write",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is writing a letter at his desk."
+    },
+    "v-cook": {
+      "src": "assets/images/a1-verbs/cook",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is cooking pancakes in a pan."
+    },
+    "v-clean": {
+      "src": "assets/images/a1-verbs/clean",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is cleaning her room and putting toys in a box."
+    },
+    "v-wash": {
+      "src": "assets/images/a1-verbs/wash",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is washing his hands with soap."
+    },
+    "v-climb": {
+      "src": "assets/images/a1-verbs/climb",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is climbing a big tree."
+    },
+    "v-fly": {
+      "src": "assets/images/a1-verbs/fly",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is flying a kite on a hill."
+    },
+    "v-catch": {
+      "src": "assets/images/a1-verbs/catch",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is catching a red ball."
+    },
+    "v-open": {
+      "src": "assets/images/a1-verbs/open",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is opening the window."
+    },
+    "v-listen": {
+      "src": "assets/images/a1-verbs/listen",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is listening to music with headphones."
+    },
+    "v-feed": {
+      "src": "assets/images/a1-verbs/feed",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is feeding Pepper the cat."
+    },
+    "sp-balls": {
+      "src": "assets/images/week-02/balls",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are putting many colourful balls into a big basket."
+    },
+    "sp-bat": {
+      "src": "assets/images/week-02/bat",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is hitting a baseball with a big bat."
+    },
+    "sp-hoop": {
+      "src": "assets/images/week-02/hoop",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is throwing a basketball into the hoop."
+    },
+    "sp-goal": {
+      "src": "assets/images/week-02/goal",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is kicking a football into the goal."
+    },
+    "sp-racket": {
+      "src": "assets/images/week-02/racket",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is hitting a tennis ball with her racket."
+    },
+    "sp-net": {
+      "src": "assets/images/week-02/net",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo and Ana are playing volleyball over a net."
+    },
+    "sp-gym": {
+      "src": "assets/images/week-02/gym",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are doing exercises on mats in the school gym."
+    },
+    "sp-field": {
+      "src": "assets/images/week-02/field",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam are running a race on a big green field."
+    },
+    "sp-court": {
+      "src": "assets/images/week-02/court",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are playing basketball on a court."
+    },
+    "sp-pool": {
+      "src": "assets/images/week-02/pool",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is swimming in a big swimming pool."
+    },
+    "act-gymnastics": {
+      "src": "assets/images/week-02/gymnastics",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is doing gymnastics: a cartwheel on a blue mat."
+    },
+    "act-bounce": {
+      "src": "assets/images/week-02/bounce",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is bouncing a basketball in the playground."
+    },
+    "act-karate": {
+      "src": "assets/images/week-02/karate",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is doing karate in a white karate suit."
+    },
+    "act-skating": {
+      "src": "assets/images/week-02/skating",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is skating in the park with a red helmet."
+    },
+    "act-tag": {
+      "src": "assets/images/week-02/tag",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia, Sam, Leo and Ana are playing tag in the playground."
+    },
+    "st-cheer": {
+      "src": "assets/images/week-02/cheer",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Ana are cheering for their team with flags."
+    },
+    "st-highfive": {
+      "src": "assets/images/week-02/high-five",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are giving high fives after the game."
+    }
+  },
+  "words": [
+    {
+      "id": "playing-football",
+      "phrase": "playing football",
+      "image": "play-football",
+      "example": "Sam is playing football now."
+    },
+    {
+      "id": "reading-a-book",
+      "phrase": "reading a book",
+      "image": "read-a-book",
+      "example": "Mia is reading a book."
+    },
+    {
+      "id": "watching-tv",
+      "phrase": "watching TV",
+      "image": "watch-tv",
+      "example": "Sam is watching TV."
+    },
+    {
+      "id": "eating-an-apple",
+      "phrase": "eating an apple",
+      "image": "eat-apples",
+      "example": "Mia is eating an apple."
+    },
+    {
+      "id": "drinking-water",
+      "phrase": "drinking water",
+      "image": "drink-water",
+      "example": "Sam is drinking water."
+    },
+    {
+      "id": "having-breakfast",
+      "phrase": "having breakfast",
+      "image": "have-breakfast",
+      "example": "Mia is having breakfast."
+    },
+    {
+      "id": "doing-homework",
+      "phrase": "doing homework",
+      "image": "do-homework",
+      "example": "Sam is doing his homework."
+    },
+    {
+      "id": "brushing-teeth",
+      "phrase": "brushing teeth",
+      "image": "brush-teeth",
+      "example": "Mia is brushing her teeth."
+    },
+    {
+      "id": "riding-a-bike",
+      "phrase": "riding a bike",
+      "image": "ride-a-bike",
+      "example": "Ana is riding a bike."
+    },
+    {
+      "id": "dancing",
+      "phrase": "dancing",
+      "image": "dance",
+      "example": "Mia and Ana are dancing."
+    },
+    {
+      "id": "playing-chess",
+      "phrase": "playing chess",
+      "image": "play-chess",
+      "example": "Sam and Leo are playing chess."
+    },
+    {
+      "id": "walking-to-school",
+      "phrase": "walking to school",
+      "image": "walk-to-school",
+      "example": "Leo is walking to school."
+    }
+  ],
+  "learn": [
+    {
+      "id": "now",
+      "title": "Now! Look! Listen!",
+      "rule": "We use am / is / are + -ing for things that are happening now.",
+      "image": "cover",
+      "examples": [
+        {
+          "text": "Look! Sam **is playing** football **now**.",
+          "image": "play-football"
+        },
+        {
+          "text": "Mia **is reading** a book **at the moment**.",
+          "image": "read-a-book",
+          "label": "at the moment = now"
+        },
+        {
+          "text": "Shh! Pepper **is sleeping**.",
+          "image": "v-sleep",
+          "label": "Shh! = Be quiet!"
+        },
+        {
+          "text": "Listen! Mia **is singing**.",
+          "image": "v-sing"
+        },
+        {
+          "text": "Ana **is riding** a bike **right now**.",
+          "image": "ride-a-bike"
+        },
+        {
+          "text": "Look! Leo **is running** in the park.",
+          "image": "v-run"
+        },
+        {
+          "text": "Sam and Leo **are playing** chess **now**.",
+          "image": "play-chess"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Look! Sam ___ football now.",
+          "image": "play-football",
+          "options": [
+            "plays",
+            "is playing"
+          ],
+          "answer": "b",
+          "explain": "Now → is playing."
+        },
+        {
+          "mode": "try",
+          "prompt": "Shh! Pepper ___.",
+          "image": "v-sleep",
+          "options": [
+            "is sleeping",
+            "sleeps"
+          ],
+          "answer": "a",
+          "explain": "Shh! It is happening now: is sleeping."
+        }
+      ],
+      "teacherNote": "Signal words: now, at the moment, right now, Look!, Listen!, Shh! Ask “Is it happening now?” before every sentence."
+    },
+    {
+      "id": "be-forms",
+      "title": "I am, you are, he is …",
+      "rule": "I → am. He / she / it → is. You / we / they → are.",
+      "image": "teacher-class",
+      "examples": [
+        {
+          "text": "I **am** reading.",
+          "image": "read-a-book",
+          "speaker": "Mia",
+          "label": "I → am"
+        },
+        {
+          "text": "You **are** dancing!",
+          "image": "dance",
+          "speaker": "Sam",
+          "label": "Sam is talking to Mia. you → are"
+        },
+        {
+          "text": "He **is** playing football.",
+          "image": "play-football",
+          "label": "Sam → he → is"
+        },
+        {
+          "text": "She **is** drawing.",
+          "image": "v-draw",
+          "label": "Ana → she → is"
+        },
+        {
+          "text": "It **is** drinking water.",
+          "image": "pepper-drinks-water",
+          "label": "Pepper the cat → it → is"
+        },
+        {
+          "text": "We **are** reading books.",
+          "image": "we-read",
+          "speaker": "Mia",
+          "label": "Mia and Sam → we → are"
+        },
+        {
+          "text": "They **are** watching TV.",
+          "image": "they-watch-tv",
+          "label": "Mia and Sam → they → are"
+        }
+      ],
+      "groups": [
+        {
+          "label": "am",
+          "words": [
+            "I"
+          ]
+        },
+        {
+          "label": "is",
+          "words": [
+            "he",
+            "she",
+            "it",
+            "Sam",
+            "Mia",
+            "Pepper"
+          ]
+        },
+        {
+          "label": "are",
+          "words": [
+            "you",
+            "we",
+            "they",
+            "Mia and Sam"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia ___ singing.",
+          "image": "v-sing",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "a",
+          "explain": "Mia = she → is."
+        },
+        {
+          "mode": "try",
+          "prompt": "They ___ watching TV.",
+          "image": "they-watch-tv",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "b",
+          "explain": "they → are."
+        }
+      ],
+      "teacherNote": "This is the same am / is / are pupils know from “I am happy.” Now it is a helper: am / is / are + -ing."
+    },
+    {
+      "id": "positive-he-she-it",
+      "title": "He / she / it + is + -ing",
+      "rule": "He, she, it (one person or thing) + is + verb-ing.",
+      "image": "v-swim",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "a1-swim",
+            "to": "positive-ing"
+          }
+        },
+        {
+          "machine": {
+            "subject": "she",
+            "verb": "ride-bike",
+            "to": "positive-ing"
+          }
+        },
+        {
+          "text": "Sam **is swimming**.",
+          "image": "v-swim"
+        },
+        {
+          "text": "Mia **is opening** the window.",
+          "image": "v-open"
+        },
+        {
+          "text": "Leo **is writing** a letter.",
+          "image": "v-write"
+        },
+        {
+          "text": "Ana **is climbing** a tree.",
+          "image": "v-climb"
+        },
+        {
+          "text": "Pepper **is playing** with a ball.",
+          "image": "pepper-plays",
+          "label": "Pepper → it → is"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo ___ a ball.",
+          "image": "v-catch",
+          "options": [
+            "is catching",
+            "are catching"
+          ],
+          "answer": "a",
+          "explain": "Leo = he → is catching."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ana ___ to music.",
+          "image": "v-listen",
+          "options": [
+            "is listen",
+            "is listening"
+          ],
+          "answer": "b",
+          "explain": "is + listening."
+        }
+      ],
+      "teacherNote": "Two parts every time: is + verb-ing. Pupils often forget one part (“He swimming.” / “He is swim.”). Point to both blocks in the machine."
+    },
+    {
+      "id": "positive-i-you-we-they",
+      "title": "I am / you, we, they are + -ing",
+      "rule": "I + am + verb-ing. You / we / they + are + verb-ing.",
+      "image": "they-play-football",
+      "examples": [
+        {
+          "machine": {
+            "subject": "I",
+            "verb": "read-a-book",
+            "to": "positive-ing"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "play-chess",
+            "to": "positive-ing"
+          }
+        },
+        {
+          "text": "I **am cooking** pancakes.",
+          "image": "v-cook",
+          "speaker": "Sam"
+        },
+        {
+          "text": "You **are drawing** a picture!",
+          "image": "v-draw",
+          "speaker": "Mia",
+          "label": "Mia is talking to Ana."
+        },
+        {
+          "text": "We **are dancing**.",
+          "image": "dance",
+          "speaker": "Ana"
+        },
+        {
+          "text": "They **are playing** football.",
+          "image": "they-play-football"
+        },
+        {
+          "text": "Mia and Sam **are watching** TV.",
+          "image": "they-watch-tv",
+          "label": "Mia and Sam = they"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "I ___ water.",
+          "image": "drink-water",
+          "options": [
+            "am drinking",
+            "is drinking"
+          ],
+          "answer": "a",
+          "explain": "I → am drinking."
+        },
+        {
+          "mode": "try",
+          "prompt": "Sam and Leo ___ chess.",
+          "image": "play-chess",
+          "options": [
+            "is playing",
+            "are playing"
+          ],
+          "answer": "b",
+          "explain": "Sam and Leo = they → are playing."
+        }
+      ],
+      "teacherNote": "Short forms are fine and common in speaking: I'm, you're, we're, they're. The site accepts both “I am” and “I'm”."
+    },
+    {
+      "id": "spelling",
+      "title": "playing, riding, swimming",
+      "rule": "Look at the end of the verb before you add -ing.",
+      "image": "v-run",
+      "examples": [
+        {
+          "text": "He is play**ing**.",
+          "image": "play-football",
+          "from": "play",
+          "label": "play → playing (+ ing)"
+        },
+        {
+          "text": "She is read**ing**.",
+          "image": "read-a-book",
+          "from": "read",
+          "label": "read → reading (+ ing)"
+        },
+        {
+          "text": "Ana is rid**ing** a bike.",
+          "image": "ride-a-bike",
+          "from": "ride",
+          "label": "ride → riding (the e goes)"
+        },
+        {
+          "text": "Leo is writ**ing** a letter.",
+          "image": "v-write",
+          "from": "write",
+          "label": "write → writing (the e goes)"
+        },
+        {
+          "text": "Sam is swim**ming**.",
+          "image": "v-swim",
+          "from": "swim",
+          "label": "swim → swimming (double m)"
+        },
+        {
+          "text": "Leo is run**ning** in the park.",
+          "image": "v-run",
+          "from": "run",
+          "label": "run → running (double n)"
+        },
+        {
+          "text": "Mia is hav**ing** breakfast.",
+          "image": "have-breakfast",
+          "from": "have",
+          "label": "have → having (the e goes)"
+        }
+      ],
+      "groups": [
+        {
+          "label": "+ ing",
+          "words": [
+            "playing",
+            "reading",
+            "eating",
+            "watching",
+            "singing",
+            "flying"
+          ]
+        },
+        {
+          "label": "the e goes",
+          "words": [
+            "riding",
+            "writing",
+            "dancing",
+            "having"
+          ]
+        },
+        {
+          "label": "double",
+          "words": [
+            "running",
+            "swimming",
+            "getting",
+            "putting",
+            "hitting"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo is ___ in the park.",
+          "image": "v-run",
+          "options": [
+            "runing",
+            "running"
+          ],
+          "answer": "b",
+          "explain": "run → running (double n)."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ana is ___ a bike.",
+          "image": "ride-a-bike",
+          "options": [
+            "riding",
+            "rideing"
+          ],
+          "answer": "a",
+          "explain": "ride → riding (the e goes)."
+        }
+      ],
+      "teacherNote": "All forms come from a checked list. Short verbs with one vowel + one consonant double the last letter (run, swim, get, put, hit, sit). Verbs ending in -e drop the e (ride, write, dance, have). play, fly: just + ing."
+    },
+    {
+      "id": "isnt",
+      "title": "He / she / it + isn't + -ing",
+      "rule": "He, she, it + isn't (is not) + verb-ing.",
+      "image": "watch-tv",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "watch-tv",
+            "to": "negative"
+          }
+        },
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "a1-sing",
+            "to": "negative"
+          }
+        },
+        {
+          "text": "Sam **isn't** sleeping. He is playing football.",
+          "image": "play-football"
+        },
+        {
+          "text": "Mia **isn't** watching TV. She is reading.",
+          "image": "read-a-book"
+        },
+        {
+          "text": "Pepper **isn't** playing. It is sleeping.",
+          "image": "v-sleep",
+          "label": "Pepper → it"
+        },
+        {
+          "text": "Ana **isn't** walking. She is riding a bike.",
+          "image": "ride-a-bike"
+        },
+        {
+          "text": "Leo **is not** swimming. He is running.",
+          "image": "v-run",
+          "label": "is not = isn't"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam ___ watching TV.",
+          "image": "play-football",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "answer": "a",
+          "explain": "Sam = he → isn't."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia isn't ___ .",
+          "image": "read-a-book",
+          "options": [
+            "sing",
+            "singing"
+          ],
+          "answer": "b",
+          "explain": "isn't + singing."
+        }
+      ],
+      "teacherNote": "The -ing stays after isn't. Compare Week 1: “He doesn't play” (no -ing) and Week 2: “He isn't playing” (with -ing)."
+    },
+    {
+      "id": "arent",
+      "title": "I'm not / you, we, they aren't",
+      "rule": "I + am not ('m not). You / we / they + aren't (are not) + verb-ing.",
+      "image": "they-watch-tv",
+      "examples": [
+        {
+          "machine": {
+            "subject": "I",
+            "verb": "watch-tv",
+            "to": "negative"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "play-football",
+            "to": "negative"
+          }
+        },
+        {
+          "text": "I**'m not** sleeping! I am reading.",
+          "image": "sam-reads",
+          "speaker": "Sam",
+          "label": "I'm not = I am not"
+        },
+        {
+          "text": "We **aren't** watching TV. We are reading.",
+          "image": "we-read",
+          "speaker": "Mia"
+        },
+        {
+          "text": "They **aren't** swimming. They are dancing.",
+          "image": "dance",
+          "label": "Mia and Ana → they"
+        },
+        {
+          "text": "You **aren't** listening!",
+          "image": "teacher-class",
+          "speaker": "Ms. Rosa"
+        },
+        {
+          "text": "Sam and Leo **aren't** playing football. They are playing chess.",
+          "image": "play-chess"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "I ___ sleeping!",
+          "image": "sam-reads",
+          "options": [
+            "am not",
+            "isn't"
+          ],
+          "answer": "a",
+          "explain": "I → am not."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia and Ana ___ swimming.",
+          "image": "dance",
+          "options": [
+            "isn't",
+            "aren't"
+          ],
+          "answer": "b",
+          "explain": "Mia and Ana = they → aren't."
+        }
+      ],
+      "teacherNote": "There is no short form “amn't”. Pupils can say “I'm not” or “I am not”."
+    },
+    {
+      "id": "questions",
+      "title": "Is he …? Are they …?",
+      "rule": "Put am / is / are first. The -ing verb stays.",
+      "image": "sp-court",
+      "examples": [
+        {
+          "machine": {
+            "subject": "he",
+            "verb": "play-football",
+            "to": "question"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "sp-basketball",
+            "to": "question"
+          }
+        },
+        {
+          "text": "**Is** Mia reading?",
+          "image": "read-a-book",
+          "label": "Mia is reading. → Is Mia reading?"
+        },
+        {
+          "text": "**Is** Pepper sleeping?",
+          "image": "v-sleep"
+        },
+        {
+          "text": "**Are** you listening?",
+          "image": "teacher-class",
+          "speaker": "Ms. Rosa"
+        },
+        {
+          "text": "**Are** Sam and Leo playing basketball?",
+          "image": "sp-court"
+        },
+        {
+          "text": "**Am** I dancing well?",
+          "image": "dance",
+          "speaker": "Mia"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ Ana swimming?",
+          "image": "sp-pool",
+          "options": [
+            "Is",
+            "Are"
+          ],
+          "answer": "a",
+          "explain": "Ana = she → Is."
+        },
+        {
+          "mode": "try",
+          "prompt": "___ they playing volleyball?",
+          "image": "sp-net",
+          "options": [
+            "Is",
+            "Are"
+          ],
+          "answer": "b",
+          "explain": "they → Are."
+        }
+      ],
+      "teacherNote": "No do / does in these questions! “Does she playing?” is a common mix-up after Week 1."
+    },
+    {
+      "id": "short-answers",
+      "title": "Yes, she is. / No, they aren't.",
+      "rule": "Is she playing? Yes, she is. No, she isn't.",
+      "image": "teacher-class",
+      "examples": [
+        {
+          "q": "Are you reading?",
+          "a": "Yes, I **am**.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Mia",
+          "image": "read-a-book",
+          "label": "you → I"
+        },
+        {
+          "q": "Are you sleeping?",
+          "a": "No, I**'m not**.",
+          "qSpeaker": "Mia",
+          "aSpeaker": "Sam",
+          "image": "sam-reads"
+        },
+        {
+          "q": "Is Sam swimming?",
+          "a": "Yes, he **is**.",
+          "image": "v-swim"
+        },
+        {
+          "q": "Is Mia watching TV?",
+          "a": "No, she **isn't**.",
+          "image": "v-sing"
+        },
+        {
+          "q": "Are they dancing?",
+          "a": "Yes, they **are**.",
+          "image": "dance"
+        },
+        {
+          "q": "Is Pepper eating?",
+          "a": "No, it **isn't**.",
+          "image": "v-sleep"
+        },
+        {
+          "q": "Are you and Sam reading?",
+          "a": "Yes, we **are**.",
+          "qSpeaker": "Ms. Rosa",
+          "aSpeaker": "Mia",
+          "image": "we-read",
+          "label": "you and Sam → we"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Is Leo catching a ball?",
+          "image": "v-catch",
+          "options": [
+            "Yes, he is.",
+            "Yes, he does.",
+            "Yes, he catching."
+          ],
+          "answer": "a",
+          "explain": "Yes, he is."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ms. Rosa asks Ana: “Are you drawing?” Ana is drawing. Ana says:",
+          "image": "v-draw",
+          "options": [
+            "Yes, I am.",
+            "Yes, you are."
+          ],
+          "answer": "a",
+          "explain": "Ana talks about Ana: Yes, I am."
+        }
+      ],
+      "teacherNote": "Short answers use only am / is / are — no -ing: “Yes, she is.” not “Yes, she is playing.” (that is a full answer, also fine in speaking)."
+    },
+    {
+      "id": "wh-questions",
+      "title": "What are you doing?",
+      "rule": "What / Where / Who + is / are + … + -ing?",
+      "image": "sp-field",
+      "examples": [
+        {
+          "q": "What are you doing?",
+          "a": "I am **cooking** pancakes.",
+          "qSpeaker": "Mia",
+          "aSpeaker": "Sam",
+          "image": "v-cook"
+        },
+        {
+          "q": "What is Leo doing?",
+          "a": "He is **writing** a letter.",
+          "image": "v-write"
+        },
+        {
+          "q": "What is Ana playing?",
+          "a": "She is playing **basketball**.",
+          "image": "sp-hoop"
+        },
+        {
+          "q": "Where are Mia and Sam running?",
+          "a": "They are running **on the field**.",
+          "image": "sp-field"
+        },
+        {
+          "q": "Where is Ana swimming?",
+          "a": "**In the pool.**",
+          "image": "sp-pool"
+        },
+        {
+          "q": "Who is singing?",
+          "a": "**Mia** is singing.",
+          "image": "v-sing"
+        },
+        {
+          "q": "What are they doing?",
+          "a": "They are **playing chess**.",
+          "image": "play-chess"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "What ___ Sam doing?",
+          "image": "v-fly",
+          "options": [
+            "is",
+            "are",
+            "does"
+          ],
+          "answer": "a",
+          "explain": "Sam = he → What is Sam doing?"
+        },
+        {
+          "mode": "try",
+          "prompt": "What are they doing?",
+          "image": "dance",
+          "options": [
+            "They are dancing.",
+            "They dance.",
+            "Yes, they are."
+          ],
+          "answer": "a",
+          "explain": "They are dancing."
+        }
+      ],
+      "teacherNote": "A very useful classroom question: “What are you doing?” Use it all week with real actions in class."
+    },
+    {
+      "id": "sports-words",
+      "title": "Book words: ball, bat, hoop, goal …",
+      "rule": "Sports things and places from the book (Unit 2, p. 28).",
+      "image": "cover",
+      "examples": [
+        {
+          "text": "Leo is hitting the ball with a **bat**.",
+          "image": "sp-bat"
+        },
+        {
+          "text": "Ana is throwing the ball into the **hoop**.",
+          "image": "sp-hoop"
+        },
+        {
+          "text": "Sam is kicking the ball into the **goal**.",
+          "image": "sp-goal"
+        },
+        {
+          "text": "Mia is playing tennis with a **racket**.",
+          "image": "sp-racket"
+        },
+        {
+          "text": "Leo and Ana are playing volleyball over the **net**.",
+          "image": "sp-net"
+        },
+        {
+          "text": "Mia and Ana are doing exercises in the **gym**.",
+          "image": "sp-gym"
+        },
+        {
+          "text": "Sam and Leo are playing basketball on the **court**.",
+          "image": "sp-court"
+        },
+        {
+          "text": "Mia and Sam are running on the **field**.",
+          "image": "sp-field"
+        },
+        {
+          "text": "Ana is swimming in the **pool**.",
+          "image": "sp-pool"
+        },
+        {
+          "text": "Mia and Sam are putting the **balls** in the basket.",
+          "image": "sp-balls"
+        }
+      ],
+      "groups": [
+        {
+          "label": "things",
+          "words": [
+            "balls",
+            "bat",
+            "hoop",
+            "goal",
+            "racket",
+            "net"
+          ]
+        },
+        {
+          "label": "places",
+          "words": [
+            "gym",
+            "field",
+            "court",
+            "pool"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia is playing tennis with a ___.",
+          "image": "sp-racket",
+          "options": [
+            "racket",
+            "bat"
+          ],
+          "answer": "a",
+          "explain": "Tennis → racket."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ana is swimming in the ___.",
+          "image": "sp-pool",
+          "options": [
+            "court",
+            "pool"
+          ],
+          "answer": "b",
+          "explain": "We swim in a pool."
+        }
+      ],
+      "teacherNote": "Things: balls, bat, hoop, goal, racket, net. Places: gym, field, court, pool. Ask “Where …?” for places and “What is he using?” for things."
+    },
+    {
+      "id": "sports-activities",
+      "title": "Book words: do gymnastics, go skating …",
+      "rule": "Sports and activities from the book: do, play, go … + -ing.",
+      "image": "act-gymnastics",
+      "examples": [
+        {
+          "text": "Mia **is doing gymnastics**.",
+          "image": "act-gymnastics",
+          "label": "do gymnastics → doing gymnastics"
+        },
+        {
+          "text": "Leo **is playing baseball**.",
+          "image": "sp-bat",
+          "label": "play baseball"
+        },
+        {
+          "text": "Ana **is bouncing a ball**.",
+          "image": "act-bounce",
+          "label": "bounce → bouncing (the e goes)"
+        },
+        {
+          "text": "Leo **is doing karate**.",
+          "image": "act-karate",
+          "label": "do karate"
+        },
+        {
+          "text": "Ana **is jumping rope**.",
+          "image": "v-jump",
+          "label": "jump rope"
+        },
+        {
+          "text": "Sam **is going skating**.",
+          "image": "act-skating",
+          "label": "go skating → going skating"
+        },
+        {
+          "text": "Ana **is going swimming**.",
+          "image": "sp-pool",
+          "label": "go swimming"
+        },
+        {
+          "text": "The children **are playing tag**.",
+          "image": "act-tag",
+          "label": "play tag"
+        },
+        {
+          "text": "Mia and Sam **are running a race**.",
+          "image": "sp-field",
+          "label": "run → running (double n)"
+        },
+        {
+          "text": "Ana **is riding a bike**.",
+          "image": "ride-a-bike",
+          "label": "ride → riding"
+        }
+      ],
+      "groups": [
+        {
+          "label": "do",
+          "words": [
+            "do gymnastics",
+            "do karate"
+          ]
+        },
+        {
+          "label": "play",
+          "words": [
+            "play baseball",
+            "play tag"
+          ]
+        },
+        {
+          "label": "go",
+          "words": [
+            "go skating",
+            "go swimming"
+          ]
+        },
+        {
+          "label": "other",
+          "words": [
+            "bounce a ball",
+            "jump rope",
+            "ride a bike",
+            "run a race"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo is ___ karate.",
+          "image": "act-karate",
+          "options": [
+            "doing",
+            "playing",
+            "going"
+          ],
+          "answer": "a",
+          "explain": "do karate → Leo is doing karate."
+        },
+        {
+          "mode": "try",
+          "prompt": "Sam is ___ skating.",
+          "image": "act-skating",
+          "options": [
+            "doing",
+            "going"
+          ],
+          "answer": "b",
+          "explain": "go skating → Sam is going skating."
+        }
+      ],
+      "teacherNote": "Compass Unit 2 vocabulary “Sports and Activities”. Point out the verb partners: do gymnastics / karate, play baseball / tag, go skating / swimming."
+    },
+    {
+      "id": "story-words",
+      "title": "Story words: a good game",
+      "rule": "Action words from the reading “A Good Sport”, in our own sentences.",
+      "image": "st-highfive",
+      "examples": [
+        {
+          "text": "Look! Sam **is running across the field**.",
+          "image": "sp-field"
+        },
+        {
+          "text": "The children **are passing the ball**.",
+          "image": "they-play-football"
+        },
+        {
+          "text": "Sam **is kicking the ball** … Goal! He **is scoring a goal**!",
+          "image": "sp-goal"
+        },
+        {
+          "text": "Mia and Ana **are cheering** for the team.",
+          "image": "st-cheer"
+        },
+        {
+          "text": "Ana **is shouting**, “Great job!”",
+          "image": "st-cheer"
+        },
+        {
+          "text": "Our team **is winning** the game!",
+          "image": "st-highfive",
+          "label": "win → winning (double n)"
+        },
+        {
+          "text": "Now Sam and Leo **are giving high fives**.",
+          "image": "st-highfive"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia and Ana ___ for the team.",
+          "image": "st-cheer",
+          "options": [
+            "are cheering",
+            "is cheering"
+          ],
+          "answer": "a",
+          "explain": "Mia and Ana = they → are cheering."
+        },
+        {
+          "mode": "try",
+          "prompt": "Our team is ___ the game!",
+          "image": "st-highfive",
+          "options": [
+            "wining",
+            "winning"
+          ],
+          "answer": "b",
+          "explain": "win → winning (double n)."
+        }
+      ],
+      "teacherNote": "Read the book story first. These sentences reuse its action words (score a goal, pass, kick, cheer, shout, give high fives, win) in Present Continuous."
+    },
+    {
+      "id": "every-day-or-now",
+      "title": "Every day or now?",
+      "rule": "Every day → plays (Week 1). Now → is playing (Week 2).",
+      "image": "play-football",
+      "examples": [
+        {
+          "text": "Sam **plays** football every Saturday.",
+          "image": "play-football",
+          "calendar": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "label": "every Saturday → plays"
+        },
+        {
+          "text": "Look! Sam **is playing** football **now**.",
+          "image": "play-football",
+          "label": "now → is playing"
+        },
+        {
+          "text": "Mia **reads** every evening.",
+          "image": "read-a-book",
+          "label": "every evening → reads"
+        },
+        {
+          "text": "Shh! Mia **is reading** now.",
+          "image": "read-a-book",
+          "label": "now → is reading"
+        },
+        {
+          "text": "Ana **swims** on Mondays.",
+          "image": "sp-pool",
+          "calendar": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "text": "Ana **is swimming** at the moment.",
+          "image": "sp-pool"
+        },
+        {
+          "text": "Pepper **doesn't** go to school. Now it **is sleeping**.",
+          "image": "v-sleep"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo ___ football every Sunday.",
+          "image": "they-play-football",
+          "options": [
+            "plays",
+            "is playing"
+          ],
+          "answer": "a",
+          "explain": "every Sunday → plays."
+        },
+        {
+          "mode": "try",
+          "prompt": "Look! Leo ___ a ball now.",
+          "image": "v-catch",
+          "options": [
+            "catches",
+            "is catching"
+          ],
+          "answer": "b",
+          "explain": "Look! … now → is catching."
+        }
+      ],
+      "teacherNote": "Every day, every Saturday, on Mondays → Present Simple. Now, at the moment, Look!, Listen! → Present Continuous."
+    },
+    {
+      "id": "compare",
+      "title": "+  −  ?",
+      "rule": "One idea, three sentences.",
+      "image": "cover",
+      "examples": [
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "sp-goal",
+            "to": "all"
+          }
+        },
+        {
+          "rows": [
+            "He is playing football.",
+            "He **isn't** playing football.",
+            "**Is** he playing football?"
+          ],
+          "image": "play-football"
+        },
+        {
+          "rows": [
+            "They are watching TV.",
+            "They **aren't** watching TV.",
+            "**Are** they watching TV?"
+          ],
+          "image": "they-watch-tv"
+        },
+        {
+          "rows": [
+            "She is riding a bike.",
+            "She **isn't** riding a bike.",
+            "**Is** she riding a bike?"
+          ],
+          "image": "ride-a-bike"
+        },
+        {
+          "rows": [
+            "I'm swimming.",
+            "I'**m not** swimming.",
+            "**Am** I swimming?"
+          ],
+          "image": "v-swim"
+        },
+        {
+          "rows": [
+            "Leo is hitting the ball.",
+            "Leo **isn't** hitting the ball.",
+            "**Is** Leo hitting the ball?"
+          ],
+          "image": "sp-bat"
+        },
+        {
+          "rows": [
+            "We are doing exercises.",
+            "We **aren't** doing exercises.",
+            "**Are** we doing exercises?"
+          ],
+          "image": "sp-gym"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "She is singing. Which is the question?",
+          "image": "v-sing",
+          "options": [
+            "Is she singing?",
+            "Does she singing?",
+            "She is singing?"
+          ],
+          "answer": "a",
+          "explain": "Is she singing?"
+        },
+        {
+          "mode": "try",
+          "prompt": "They are running. Which is the negative?",
+          "image": "sp-field",
+          "options": [
+            "They aren't running.",
+            "They don't running.",
+            "They isn't running."
+          ],
+          "answer": "a",
+          "explain": "They aren't running."
+        }
+      ],
+      "teacherNote": "Same three moves every time: + (am / is / are + -ing) · − (add not) · ? (am / is / are goes first)."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w2-sp-01",
+      "question": "What are you doing now?",
+      "image": "teacher-class",
+      "help": [
+        "I am …",
+        "I'm …"
+      ],
+      "sample": "I'm sitting in class. I'm learning English.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-02",
+      "question": "Are you sitting?",
+      "image": "teacher-class",
+      "help": [
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "sample": "Yes, I am.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-03",
+      "question": "Is your teacher writing?",
+      "image": "teacher-class",
+      "help": [
+        "Yes, she is.",
+        "No, she isn't.",
+        "Yes, he is.",
+        "No, he isn't."
+      ],
+      "sample": "Yes, she is. She is writing on the board.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-04",
+      "question": "What is Sam doing?",
+      "image": "sp-goal",
+      "help": [
+        "He is …"
+      ],
+      "sample": "He is kicking the ball into the goal."
+    },
+    {
+      "id": "w2-sp-05",
+      "question": "What is Mia doing?",
+      "image": "sp-racket",
+      "help": [
+        "She is …"
+      ],
+      "sample": "She is playing tennis with a racket."
+    },
+    {
+      "id": "w2-sp-06",
+      "question": "Is Leo swimming?",
+      "image": "sp-bat",
+      "help": [
+        "No, he isn't.",
+        "He is …"
+      ],
+      "sample": "No, he isn't. He is hitting the ball with a bat."
+    },
+    {
+      "id": "w2-sp-07",
+      "question": "Where is Ana swimming?",
+      "image": "sp-pool",
+      "help": [
+        "She is swimming in the …"
+      ],
+      "sample": "She is swimming in the pool."
+    },
+    {
+      "id": "w2-sp-08",
+      "question": "What are Sam and Leo playing?",
+      "image": "sp-court",
+      "help": [
+        "They are playing …"
+      ],
+      "sample": "They are playing basketball on the court."
+    },
+    {
+      "id": "w2-sp-09",
+      "question": "Are Mia and Ana dancing?",
+      "image": "sp-gym",
+      "help": [
+        "No, they aren't.",
+        "They are …"
+      ],
+      "sample": "No, they aren't. They are doing exercises in the gym."
+    },
+    {
+      "id": "w2-sp-10",
+      "question": "Is Pepper playing?",
+      "image": "v-sleep",
+      "help": [
+        "No, it isn't.",
+        "It is …"
+      ],
+      "sample": "No, it isn't. It is sleeping."
+    },
+    {
+      "id": "w2-sp-11",
+      "question": "What are you wearing today?",
+      "image": "teacher-class",
+      "help": [
+        "I'm wearing …"
+      ],
+      "sample": "I'm wearing a blue T-shirt.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-12",
+      "question": "Look out of the window. What is happening?",
+      "image": "v-open",
+      "help": [
+        "A bird is …",
+        "People are …"
+      ],
+      "sample": "A bird is flying. Some people are walking.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-13",
+      "question": "Mime an action. Your friends ask: “Are you …ing?”",
+      "image": "v-jump",
+      "help": [
+        "Are you jumping?",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "sample": "Are you swimming? No, I'm not. Are you jumping? Yes, I am!",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-14",
+      "question": "What is Ana doing?",
+      "image": "sp-hoop",
+      "help": [
+        "She is …"
+      ],
+      "sample": "She is throwing the ball into the hoop."
+    },
+    {
+      "id": "w2-sp-15",
+      "question": "Is Sam cooking?",
+      "image": "v-cook",
+      "help": [
+        "Yes, he is.",
+        "No, he isn't."
+      ],
+      "sample": "Yes, he is. He is cooking pancakes."
+    },
+    {
+      "id": "w2-sp-16",
+      "question": "What are Leo and Ana playing?",
+      "image": "sp-net",
+      "help": [
+        "They are playing …"
+      ],
+      "sample": "They are playing volleyball over the net."
+    },
+    {
+      "id": "w2-sp-17",
+      "question": "What is your family doing now, do you think?",
+      "image": "we-read",
+      "help": [
+        "My mum is …",
+        "My brother is …"
+      ],
+      "sample": "My mum is working. My brother is playing.",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-18",
+      "question": "Every day or now? Say two sentences about Sam.",
+      "image": "play-football",
+      "help": [
+        "Sam plays … every …",
+        "Now he is …"
+      ],
+      "sample": "Sam plays football every Saturday. Now he is playing football."
+    },
+    {
+      "id": "w2-sp-19",
+      "question": "What is Mia doing?",
+      "image": "act-gymnastics",
+      "help": [
+        "She is doing …"
+      ],
+      "sample": "She is doing gymnastics."
+    },
+    {
+      "id": "w2-sp-20",
+      "question": "Is Leo playing baseball or doing karate?",
+      "image": "act-karate",
+      "help": [
+        "He is …"
+      ],
+      "sample": "He is doing karate."
+    },
+    {
+      "id": "w2-sp-21",
+      "question": "Mime a sport! Your friends ask: “Are you going skating?”",
+      "image": "act-skating",
+      "help": [
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "sample": "Are you going skating? Yes, I am!",
+      "personal": true
+    },
+    {
+      "id": "w2-sp-22",
+      "question": "Look at the game. Who is cheering? Who is scoring a goal?",
+      "image": "st-cheer",
+      "help": [
+        "… is cheering.",
+        "… is scoring a goal."
+      ],
+      "sample": "Mia and Ana are cheering. Sam is scoring a goal."
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "sp-goal",
+        "subject": "He",
+        "word": "kicking the ball into the goal",
+        "sentence": "He is kicking the ball into the goal."
+      },
+      {
+        "image": "sp-racket",
+        "subject": "She",
+        "word": "playing tennis",
+        "sentence": "She is playing tennis."
+      },
+      {
+        "image": "sp-bat",
+        "subject": "He",
+        "word": "hitting the ball",
+        "sentence": "He is hitting the ball."
+      },
+      {
+        "image": "sp-hoop",
+        "subject": "She",
+        "word": "throwing the ball",
+        "sentence": "She is throwing the ball into the hoop."
+      },
+      {
+        "image": "sp-pool",
+        "subject": "She",
+        "word": "swimming",
+        "sentence": "She is swimming in the pool."
+      },
+      {
+        "image": "sp-court",
+        "subject": "They",
+        "word": "playing basketball",
+        "sentence": "They are playing basketball."
+      },
+      {
+        "image": "sp-net",
+        "subject": "They",
+        "word": "playing volleyball",
+        "sentence": "They are playing volleyball."
+      },
+      {
+        "image": "sp-gym",
+        "subject": "They",
+        "word": "doing exercises",
+        "sentence": "They are doing exercises in the gym."
+      },
+      {
+        "image": "play-football",
+        "subject": "He",
+        "word": "playing football",
+        "sentence": "He is playing football."
+      },
+      {
+        "image": "read-a-book",
+        "subject": "She",
+        "word": "reading a book",
+        "sentence": "She is reading a book."
+      },
+      {
+        "image": "v-cook",
+        "subject": "He",
+        "word": "cooking pancakes",
+        "sentence": "He is cooking pancakes."
+      },
+      {
+        "image": "v-climb",
+        "subject": "She",
+        "word": "climbing a tree",
+        "sentence": "She is climbing a tree."
+      },
+      {
+        "image": "v-sleep",
+        "subject": "It",
+        "word": "sleeping",
+        "sentence": "It is sleeping."
+      },
+      {
+        "image": "dance",
+        "subject": "They",
+        "word": "dancing",
+        "sentence": "They are dancing."
+      },
+      {
+        "image": "v-fly",
+        "subject": "He",
+        "word": "flying a kite",
+        "sentence": "He is flying a kite."
+      },
+      {
+        "image": "brush-teeth",
+        "subject": "She",
+        "word": "brushing her teeth",
+        "sentence": "She is brushing her teeth."
+      },
+      {
+        "image": "act-gymnastics",
+        "subject": "She",
+        "word": "doing gymnastics",
+        "sentence": "She is doing gymnastics."
+      },
+      {
+        "image": "act-karate",
+        "subject": "He",
+        "word": "doing karate",
+        "sentence": "He is doing karate."
+      },
+      {
+        "image": "act-skating",
+        "subject": "He",
+        "word": "going skating",
+        "sentence": "He is going skating."
+      },
+      {
+        "image": "act-bounce",
+        "subject": "She",
+        "word": "bouncing a ball",
+        "sentence": "She is bouncing a ball."
+      },
+      {
+        "image": "act-tag",
+        "subject": "They",
+        "word": "playing tag",
+        "sentence": "They are playing tag."
+      },
+      {
+        "image": "st-cheer",
+        "subject": "They",
+        "word": "cheering",
+        "sentence": "They are cheering for the team."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "I",
+          "text": "I",
+          "person": "plural",
+          "poss": "my",
+          "short": "I"
+        },
+        {
+          "id": "you",
+          "text": "You",
+          "person": "plural",
+          "poss": "your",
+          "short": "you"
+        },
+        {
+          "id": "we",
+          "text": "We",
+          "person": "plural",
+          "poss": "our",
+          "short": "we"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        },
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "she",
+          "text": "She",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "it",
+          "text": "It",
+          "person": "single",
+          "poss": "its",
+          "short": "it",
+          "onlyVerbs": [
+            "drink-water",
+            "pepper-play",
+            "a1-sleep",
+            "a1-jump",
+            "a1-run"
+          ]
+        },
+        {
+          "id": "sam",
+          "text": "Sam",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "mia",
+          "text": "Mia",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "leo",
+          "text": "Leo",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "ana",
+          "text": "Ana",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "pepper",
+          "text": "Pepper",
+          "person": "single",
+          "poss": "its",
+          "short": "it",
+          "onlyVerbs": [
+            "drink-water",
+            "pepper-play",
+            "a1-sleep",
+            "a1-jump",
+            "a1-run"
+          ]
+        }
+      ],
+      "verbs": [
+        {
+          "id": "play-football",
+          "base": "play",
+          "ing": "playing",
+          "rest": "football"
+        },
+        {
+          "id": "read-a-book",
+          "base": "read",
+          "ing": "reading",
+          "rest": "a book"
+        },
+        {
+          "id": "read-books",
+          "base": "read",
+          "ing": "reading",
+          "rest": "books"
+        },
+        {
+          "id": "watch-tv",
+          "base": "watch",
+          "ing": "watching",
+          "rest": "TV"
+        },
+        {
+          "id": "eat-apple",
+          "base": "eat",
+          "ing": "eating",
+          "rest": "an apple"
+        },
+        {
+          "id": "drink-water",
+          "base": "drink",
+          "ing": "drinking",
+          "rest": "water"
+        },
+        {
+          "id": "have-breakfast",
+          "base": "have",
+          "ing": "having",
+          "rest": "breakfast"
+        },
+        {
+          "id": "do-homework",
+          "base": "do",
+          "ing": "doing",
+          "rest": "{poss} homework"
+        },
+        {
+          "id": "brush-teeth",
+          "base": "brush",
+          "ing": "brushing",
+          "rest": "{poss} teeth"
+        },
+        {
+          "id": "get-up",
+          "base": "get",
+          "ing": "getting",
+          "rest": "up"
+        },
+        {
+          "id": "study-english",
+          "base": "study",
+          "ing": "studying",
+          "rest": "English"
+        },
+        {
+          "id": "dance",
+          "base": "dance",
+          "ing": "dancing",
+          "rest": "in the hall"
+        },
+        {
+          "id": "ride-bike",
+          "base": "ride",
+          "ing": "riding",
+          "rest": "a bike"
+        },
+        {
+          "id": "walk-school",
+          "base": "walk",
+          "ing": "walking",
+          "rest": "to school"
+        },
+        {
+          "id": "eat-pizza",
+          "base": "eat",
+          "ing": "eating",
+          "rest": "pizza"
+        },
+        {
+          "id": "play-chess",
+          "base": "play",
+          "ing": "playing",
+          "rest": "chess"
+        },
+        {
+          "id": "speak-english",
+          "base": "speak",
+          "ing": "speaking",
+          "rest": "English"
+        },
+        {
+          "id": "pepper-play",
+          "base": "play",
+          "ing": "playing",
+          "rest": "with a ball"
+        },
+        {
+          "id": "a1-run",
+          "base": "run",
+          "ing": "running",
+          "rest": "in the park"
+        },
+        {
+          "id": "a1-jump",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "with a rope"
+        },
+        {
+          "id": "a1-swim",
+          "base": "swim",
+          "ing": "swimming",
+          "rest": "in the pool"
+        },
+        {
+          "id": "a1-sing",
+          "base": "sing",
+          "ing": "singing",
+          "rest": "a song"
+        },
+        {
+          "id": "a1-draw",
+          "base": "draw",
+          "ing": "drawing",
+          "rest": "a picture"
+        },
+        {
+          "id": "a1-sleep",
+          "base": "sleep",
+          "ing": "sleeping",
+          "rest": "on a cushion"
+        },
+        {
+          "id": "a1-write",
+          "base": "write",
+          "ing": "writing",
+          "rest": "a letter"
+        },
+        {
+          "id": "a1-cook",
+          "base": "cook",
+          "ing": "cooking",
+          "rest": "pancakes"
+        },
+        {
+          "id": "a1-clean",
+          "base": "clean",
+          "ing": "cleaning",
+          "rest": "{poss} room"
+        },
+        {
+          "id": "a1-wash",
+          "base": "wash",
+          "ing": "washing",
+          "rest": "{poss} hands"
+        },
+        {
+          "id": "a1-climb",
+          "base": "climb",
+          "ing": "climbing",
+          "rest": "a tree"
+        },
+        {
+          "id": "a1-fly",
+          "base": "fly",
+          "ing": "flying",
+          "rest": "a kite"
+        },
+        {
+          "id": "a1-catch",
+          "base": "catch",
+          "ing": "catching",
+          "rest": "a ball"
+        },
+        {
+          "id": "a1-open",
+          "base": "open",
+          "ing": "opening",
+          "rest": "the window"
+        },
+        {
+          "id": "a1-listen",
+          "base": "listen",
+          "ing": "listening",
+          "rest": "to music"
+        },
+        {
+          "id": "a1-feed",
+          "base": "feed",
+          "ing": "feeding",
+          "rest": "the cat"
+        },
+        {
+          "id": "sp-balls",
+          "base": "put",
+          "ing": "putting",
+          "rest": "the balls in the basket"
+        },
+        {
+          "id": "sp-bat",
+          "base": "hit",
+          "ing": "hitting",
+          "rest": "the ball with a bat"
+        },
+        {
+          "id": "sp-hoop",
+          "base": "throw",
+          "ing": "throwing",
+          "rest": "the ball into the hoop"
+        },
+        {
+          "id": "sp-goal",
+          "base": "kick",
+          "ing": "kicking",
+          "rest": "the ball into the goal"
+        },
+        {
+          "id": "sp-tennis",
+          "base": "play",
+          "ing": "playing",
+          "rest": "tennis"
+        },
+        {
+          "id": "sp-volleyball",
+          "base": "play",
+          "ing": "playing",
+          "rest": "volleyball"
+        },
+        {
+          "id": "sp-gym",
+          "base": "do",
+          "ing": "doing",
+          "rest": "exercises in the gym"
+        },
+        {
+          "id": "sp-field",
+          "base": "run",
+          "ing": "running",
+          "rest": "on the field"
+        },
+        {
+          "id": "sp-basketball",
+          "base": "play",
+          "ing": "playing",
+          "rest": "basketball"
+        },
+        {
+          "id": "sp-pool",
+          "base": "swim",
+          "ing": "swimming",
+          "rest": "in the pool"
+        },
+        {
+          "id": "act-gymnastics",
+          "base": "do",
+          "ing": "doing",
+          "rest": "gymnastics"
+        },
+        {
+          "id": "act-baseball",
+          "base": "play",
+          "ing": "playing",
+          "rest": "baseball"
+        },
+        {
+          "id": "act-bounce",
+          "base": "bounce",
+          "ing": "bouncing",
+          "rest": "a ball"
+        },
+        {
+          "id": "act-karate",
+          "base": "do",
+          "ing": "doing",
+          "rest": "karate"
+        },
+        {
+          "id": "act-jump-rope",
+          "base": "jump",
+          "ing": "jumping",
+          "rest": "rope"
+        },
+        {
+          "id": "act-skating",
+          "base": "go",
+          "ing": "going",
+          "rest": "skating"
+        },
+        {
+          "id": "act-swimming",
+          "base": "go",
+          "ing": "going",
+          "rest": "swimming"
+        },
+        {
+          "id": "act-tag",
+          "base": "play",
+          "ing": "playing",
+          "rest": "tag"
+        },
+        {
+          "id": "act-race",
+          "base": "run",
+          "ing": "running",
+          "rest": "a race"
+        },
+        {
+          "id": "st-score",
+          "base": "score",
+          "ing": "scoring",
+          "rest": "a goal"
+        },
+        {
+          "id": "st-pass",
+          "base": "pass",
+          "ing": "passing",
+          "rest": "the ball"
+        },
+        {
+          "id": "st-cheer",
+          "base": "cheer",
+          "ing": "cheering",
+          "rest": "for the team"
+        },
+        {
+          "id": "st-highfive",
+          "base": "give",
+          "ing": "giving",
+          "rest": "high fives"
+        },
+        {
+          "id": "st-win",
+          "base": "win",
+          "ing": "winning",
+          "rest": "the game"
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-01",
+        "who": "Sam",
+        "image": "sp-goal",
+        "clue": "Sam is kicking the ball.",
+        "options": [
+          "Is Sam kicking the ball?",
+          "Are Sam kicking the ball?",
+          "Does Sam kicking the ball?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, he is.",
+        "hint": "Sam = he → Is. Keep kicking."
+      },
+      {
+        "id": "door-02",
+        "who": "Mia",
+        "image": "sp-racket",
+        "clue": "Mia is playing tennis.",
+        "options": [
+          "Does Mia play tennis now?",
+          "Is Mia playing tennis?",
+          "Is Mia play tennis?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, she is.",
+        "hint": "Mia = she → Is … playing?"
+      },
+      {
+        "id": "door-03",
+        "who": "Mia and Sam",
+        "image": "they-watch-tv",
+        "clue": "Mia and Sam are watching TV.",
+        "options": [
+          "Is they watching TV?",
+          "Are they watching TV?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, they are.",
+        "hint": "Mia and Sam = they → Are."
+      },
+      {
+        "id": "door-04",
+        "who": "Pepper",
+        "image": "v-sleep",
+        "clue": "Pepper is sleeping.",
+        "options": [
+          "Is Pepper sleeping?",
+          "Is Pepper sleep?",
+          "Are Pepper sleeping?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, it is.",
+        "hint": "Pepper = it → Is … sleeping?"
+      },
+      {
+        "id": "door-05",
+        "who": "you",
+        "image": "teacher-class",
+        "clue": "Ask Sam about now: listen.",
+        "options": [
+          "Are you listening, Sam?",
+          "Is you listening, Sam?",
+          "Do you listening, Sam?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, I am.",
+        "hint": "you → Are."
+      },
+      {
+        "id": "door-06",
+        "who": "Leo",
+        "image": "sp-bat",
+        "clue": "Leo is hitting the ball.",
+        "options": [
+          "Is Leo hiting the ball?",
+          "Is Leo hitting the ball?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, he is.",
+        "hint": "hit → hitting (double t)."
+      },
+      {
+        "id": "door-07",
+        "who": "Ana",
+        "image": "sp-pool",
+        "clue": "Ana is swimming.",
+        "options": [
+          "Is Ana swimming?",
+          "Is Ana swiming?",
+          "Are Ana swimming?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she is.",
+        "hint": "swim → swimming (double m)."
+      },
+      {
+        "id": "door-08",
+        "who": "Sam and Leo",
+        "image": "sp-court",
+        "clue": "Sam and Leo are playing basketball.",
+        "options": [
+          "Are Sam and Leo playing basketball?",
+          "Is Sam and Leo playing basketball?",
+          "Do Sam and Leo playing basketball?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, they are.",
+        "hint": "Two people → Are."
+      },
+      {
+        "id": "door-09",
+        "who": "Ana",
+        "image": "ride-a-bike",
+        "clue": "Ana is riding a bike.",
+        "options": [
+          "Is Ana rideing a bike?",
+          "Is Ana riding a bike?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, she is.",
+        "hint": "ride → riding (the e goes)."
+      },
+      {
+        "id": "door-10",
+        "who": "Sam",
+        "image": "sp-goal",
+        "clue": "What is Sam doing?",
+        "options": [
+          "What is Sam doing?",
+          "What are Sam doing?",
+          "What does Sam doing?"
+        ],
+        "answer": "a",
+        "reveal": "He is kicking the ball into the goal.",
+        "hint": "Sam = he → What is … doing?"
+      },
+      {
+        "id": "door-11",
+        "who": "Mia",
+        "image": "act-gymnastics",
+        "clue": "Mia is doing gymnastics.",
+        "options": [
+          "Is Mia doing gymnastics?",
+          "Does Mia doing gymnastics?",
+          "Is Mia do gymnastics?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she is.",
+        "hint": "Mia = she → Is … doing?"
+      },
+      {
+        "id": "door-12",
+        "who": "the children",
+        "image": "act-tag",
+        "clue": "The children are playing tag.",
+        "options": [
+          "Is the children playing tag?",
+          "Are the children playing tag?"
+        ],
+        "answer": "b",
+        "reveal": "Yes, they are.",
+        "hint": "the children = they → Are."
+      }
+    ],
+    "yesNo": [
+      {
+        "id": "yn-01",
+        "image": "sp-goal",
+        "clue": "Sam is kicking the ball into the goal.",
+        "question": "Is Sam kicking the ball?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he does.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he. Look at the clue."
+      },
+      {
+        "id": "yn-02",
+        "image": "sp-racket",
+        "clue": "Mia is playing tennis. She isn't swimming.",
+        "question": "Is Mia swimming?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't.",
+          "No, she doesn't."
+        ],
+        "answer": "b",
+        "hint": "Read: She isn't swimming."
+      },
+      {
+        "id": "yn-03",
+        "image": "they-watch-tv",
+        "clue": "Mia and Sam are watching TV.",
+        "question": "Are Mia and Sam watching TV?",
+        "options": [
+          "Yes, they are.",
+          "Yes, they is.",
+          "No, they aren't."
+        ],
+        "answer": "a",
+        "hint": "Mia and Sam = they."
+      },
+      {
+        "id": "yn-04",
+        "image": "v-sleep",
+        "clue": "Pepper is sleeping on a cushion.",
+        "question": "Is Pepper eating?",
+        "options": [
+          "No, it isn't.",
+          "No, it aren't.",
+          "Yes, it is."
+        ],
+        "answer": "a",
+        "hint": "Pepper = it. It is sleeping."
+      },
+      {
+        "id": "yn-05",
+        "image": "sp-bat",
+        "clue": "Leo is hitting the ball with a bat.",
+        "question": "Is Leo playing tennis?",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't.",
+          "No, he doesn't."
+        ],
+        "answer": "b",
+        "hint": "A bat is not for tennis."
+      },
+      {
+        "id": "yn-06",
+        "image": "sp-pool",
+        "clue": "Ana is swimming in the pool.",
+        "question": "Is Ana swimming?",
+        "options": [
+          "Yes, she is.",
+          "Yes, she swimming.",
+          "No, she isn't."
+        ],
+        "answer": "a",
+        "hint": "Short answer: Yes, she is."
+      },
+      {
+        "id": "yn-07",
+        "image": "sp-court",
+        "clue": "Sam and Leo are playing basketball on the court.",
+        "question": "Are they playing football?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't.",
+          "No, they isn't."
+        ],
+        "answer": "b",
+        "hint": "They are playing basketball."
+      },
+      {
+        "id": "yn-08",
+        "image": "sp-gym",
+        "clue": "Mia and Ana are doing exercises in the gym.",
+        "question": "Are Mia and Ana in the gym?",
+        "options": [
+          "Yes, they are.",
+          "Yes, they do.",
+          "No, they aren't."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-09",
+        "image": "v-cook",
+        "clue": "Sam is cooking pancakes.",
+        "question": "Is Sam cooking?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he cooks.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-10",
+        "image": "dance",
+        "clue": "Mia and Ana are dancing. They aren't singing.",
+        "question": "Are they singing?",
+        "options": [
+          "No, they aren't.",
+          "Yes, they are.",
+          "No, they don't."
+        ],
+        "answer": "a",
+        "hint": "Read: They aren't singing."
+      },
+      {
+        "id": "yn-11",
+        "image": "v-climb",
+        "clue": "Ana is climbing a tree.",
+        "question": "Is Ana climbing a tree?",
+        "options": [
+          "Yes, she is.",
+          "Yes, she climbs.",
+          "No, she isn't."
+        ],
+        "answer": "a",
+        "hint": "Ana = she."
+      },
+      {
+        "id": "yn-12",
+        "image": "v-write",
+        "clue": "Leo is writing a letter.",
+        "question": "Is Leo reading?",
+        "options": [
+          "No, he isn't.",
+          "Yes, he is.",
+          "No, he aren't."
+        ],
+        "answer": "a",
+        "hint": "He is writing, not reading."
+      },
+      {
+        "id": "yn-13",
+        "image": "sp-net",
+        "clue": "Leo and Ana are playing volleyball over the net.",
+        "question": "Are Leo and Ana playing volleyball?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't.",
+          "Yes, they is."
+        ],
+        "answer": "a",
+        "hint": "Two people → they are."
+      },
+      {
+        "id": "yn-14",
+        "image": "sp-field",
+        "clue": "Mia and Sam are running on the field.",
+        "question": "Are they running in the pool?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't.",
+          "No, they isn't."
+        ],
+        "answer": "b",
+        "hint": "They are running on the field."
+      },
+      {
+        "id": "yn-15",
+        "image": "v-fly",
+        "clue": "Sam is flying a kite on a hill.",
+        "question": "Is Sam flying a kite?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he does.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-16",
+        "image": "brush-teeth",
+        "clue": "Mia is brushing her teeth.",
+        "question": "Is Mia having breakfast?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't.",
+          "No, she don't."
+        ],
+        "answer": "b",
+        "hint": "She is brushing her teeth."
+      },
+      {
+        "id": "yn-17",
+        "image": "teacher-class",
+        "clue": "Ms. Rosa asks Sam: “Are you listening?” Sam is listening.",
+        "question": "Sam says:",
+        "options": [
+          "Yes, I am.",
+          "Yes, you are.",
+          "Yes, he is."
+        ],
+        "answer": "a",
+        "hint": "Sam talks about Sam → I."
+      },
+      {
+        "id": "yn-18",
+        "image": "we-read",
+        "clue": "Ms. Rosa asks Mia: “Are you and Sam reading?” They are reading.",
+        "question": "Mia says:",
+        "options": [
+          "Yes, we are.",
+          "Yes, they are.",
+          "Yes, I am."
+        ],
+        "answer": "a",
+        "hint": "you and Sam → we."
+      },
+      {
+        "id": "yn-19",
+        "image": "sp-hoop",
+        "clue": "Ana is throwing the ball into the hoop.",
+        "question": "Is Ana throwing the ball?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't.",
+          "Yes, she does."
+        ],
+        "answer": "a",
+        "hint": "Ana = she."
+      },
+      {
+        "id": "yn-20",
+        "image": "v-listen",
+        "clue": "Ana is listening to music.",
+        "question": "Is Ana sleeping?",
+        "options": [
+          "Yes, she is.",
+          "No, she isn't.",
+          "No, she doesn't."
+        ],
+        "answer": "b",
+        "hint": "She is listening to music."
+      },
+      {
+        "id": "yn-21",
+        "image": "act-karate",
+        "clue": "Leo is doing karate.",
+        "question": "Is Leo doing gymnastics?",
+        "options": [
+          "No, he isn't.",
+          "Yes, he is.",
+          "No, he doesn't."
+        ],
+        "answer": "a",
+        "hint": "Look: a white karate suit."
+      },
+      {
+        "id": "yn-22",
+        "image": "act-skating",
+        "clue": "Sam is going skating in the park.",
+        "question": "Is Sam going skating?",
+        "options": [
+          "Yes, he is.",
+          "Yes, he does.",
+          "No, he isn't."
+        ],
+        "answer": "a",
+        "hint": "Sam = he."
+      },
+      {
+        "id": "yn-23",
+        "image": "act-tag",
+        "clue": "The children are playing tag.",
+        "question": "Are they playing baseball?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren't.",
+          "No, they don't."
+        ],
+        "answer": "b",
+        "hint": "They are playing tag."
+      },
+      {
+        "id": "yn-24",
+        "image": "st-highfive",
+        "clue": "Sam and Leo are giving high fives.",
+        "question": "Are Sam and Leo giving high fives?",
+        "options": [
+          "Yes, they are.",
+          "Yes, they is.",
+          "No, they aren't."
+        ],
+        "answer": "a",
+        "hint": "Two people → they are."
+      }
+    ],
+    "memory": {
+      "pairs": 6
+    }
+  },
+  "extraWordSets": [
+    {
+      "id": "sports",
+      "title": "Book words: Sports things and places",
+      "words": [
+        {
+          "id": "balls",
+          "word": "balls",
+          "phrase": "balls",
+          "image": "sp-balls",
+          "example": "Mia and Sam are putting the balls in the basket."
+        },
+        {
+          "id": "bat",
+          "word": "bat",
+          "phrase": "a bat",
+          "image": "sp-bat",
+          "example": "Leo is hitting the ball with a bat."
+        },
+        {
+          "id": "hoop",
+          "word": "hoop",
+          "phrase": "a hoop",
+          "image": "sp-hoop",
+          "example": "Ana is throwing the ball into the hoop."
+        },
+        {
+          "id": "goal",
+          "word": "goal",
+          "phrase": "a goal",
+          "image": "sp-goal",
+          "example": "Sam is kicking the ball into the goal."
+        },
+        {
+          "id": "racket",
+          "word": "racket",
+          "phrase": "a racket",
+          "image": "sp-racket",
+          "example": "Mia is playing tennis with a racket."
+        },
+        {
+          "id": "net",
+          "word": "net",
+          "phrase": "a net",
+          "image": "sp-net",
+          "example": "Leo and Ana are playing volleyball over the net."
+        },
+        {
+          "id": "gym",
+          "word": "gym",
+          "phrase": "a gym",
+          "image": "sp-gym",
+          "example": "Mia and Ana are doing exercises in the gym."
+        },
+        {
+          "id": "field",
+          "word": "field",
+          "phrase": "a field",
+          "image": "sp-field",
+          "example": "Mia and Sam are running on the field."
+        },
+        {
+          "id": "court",
+          "word": "court",
+          "phrase": "a court",
+          "image": "sp-court",
+          "example": "Sam and Leo are playing basketball on the court."
+        },
+        {
+          "id": "pool",
+          "word": "pool",
+          "phrase": "a pool",
+          "image": "sp-pool",
+          "example": "Ana is swimming in the pool."
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "title": "Book words: Sports and activities",
+      "words": [
+        {
+          "id": "do-gymnastics",
+          "word": "do gymnastics",
+          "phrase": "do gymnastics",
+          "image": "act-gymnastics",
+          "example": "Mia is doing gymnastics."
+        },
+        {
+          "id": "play-baseball",
+          "word": "play baseball",
+          "phrase": "play baseball",
+          "image": "sp-bat",
+          "example": "Leo is playing baseball."
+        },
+        {
+          "id": "bounce-a-ball",
+          "word": "bounce a ball",
+          "phrase": "bounce a ball",
+          "image": "act-bounce",
+          "example": "Ana is bouncing a ball."
+        },
+        {
+          "id": "do-karate",
+          "word": "do karate",
+          "phrase": "do karate",
+          "image": "act-karate",
+          "example": "Leo is doing karate."
+        },
+        {
+          "id": "jump-rope",
+          "word": "jump rope",
+          "phrase": "jump rope",
+          "image": "v-jump",
+          "example": "Ana is jumping rope."
+        },
+        {
+          "id": "go-skating",
+          "word": "go skating",
+          "phrase": "go skating",
+          "image": "act-skating",
+          "example": "Sam is going skating."
+        },
+        {
+          "id": "ride-a-bike",
+          "word": "ride a bike",
+          "phrase": "ride a bike",
+          "image": "ride-a-bike",
+          "example": "Ana is riding a bike."
+        },
+        {
+          "id": "go-swimming",
+          "word": "go swimming",
+          "phrase": "go swimming",
+          "image": "sp-pool",
+          "example": "Ana is going swimming."
+        },
+        {
+          "id": "play-tag",
+          "word": "play tag",
+          "phrase": "play tag",
+          "image": "act-tag",
+          "example": "The children are playing tag."
+        },
+        {
+          "id": "run-a-race",
+          "word": "run a race",
+          "phrase": "run a race",
+          "image": "sp-field",
+          "example": "Mia and Sam are running a race."
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "title": "Story words: A good game",
+      "words": [
+        {
+          "id": "score-a-goal",
+          "word": "score a goal",
+          "phrase": "score a goal",
+          "image": "sp-goal",
+          "example": "Sam is scoring a goal!"
+        },
+        {
+          "id": "kick-the-ball",
+          "word": "kick the ball",
+          "phrase": "kick the ball",
+          "image": "play-football",
+          "example": "Sam is kicking the ball."
+        },
+        {
+          "id": "pass-the-ball",
+          "word": "pass the ball",
+          "phrase": "pass the ball",
+          "image": "they-play-football",
+          "example": "The children are passing the ball."
+        },
+        {
+          "id": "run-across-the-field",
+          "word": "run across the field",
+          "phrase": "run across the field",
+          "image": "sp-field",
+          "example": "Mia and Sam are running across the field."
+        },
+        {
+          "id": "cheer",
+          "word": "cheer",
+          "phrase": "cheer",
+          "image": "st-cheer",
+          "example": "Mia and Ana are cheering for the team."
+        },
+        {
+          "id": "shout",
+          "word": "shout “Great job!”",
+          "phrase": "shout “Great job!”",
+          "image": "st-cheer",
+          "example": "Ana is shouting, “Great job!”"
+        },
+        {
+          "id": "give-high-fives",
+          "word": "give high fives",
+          "phrase": "give high fives",
+          "image": "st-highfive",
+          "example": "Sam and Leo are giving high fives."
+        },
+        {
+          "id": "win-the-game",
+          "word": "win the game",
+          "phrase": "win the game",
+          "image": "st-highfive",
+          "example": "Our team is winning the game!"
+        }
+      ]
+    },
+    {
+      "id": "a1-verbs",
+      "title": "A1 action verbs + -ing",
+      "words": [
+        {
+          "id": "a1-run",
+          "word": "running",
+          "phrase": "running",
+          "image": "v-run",
+          "example": "Leo is running in the park."
+        },
+        {
+          "id": "a1-jump",
+          "word": "jumping",
+          "phrase": "jumping",
+          "image": "v-jump",
+          "example": "Ana is jumping."
+        },
+        {
+          "id": "a1-swim",
+          "word": "swimming",
+          "phrase": "swimming",
+          "image": "v-swim",
+          "example": "Sam is swimming."
+        },
+        {
+          "id": "a1-sing",
+          "word": "singing",
+          "phrase": "singing a song",
+          "image": "v-sing",
+          "example": "Mia is singing a song."
+        },
+        {
+          "id": "a1-draw",
+          "word": "drawing",
+          "phrase": "drawing a picture",
+          "image": "v-draw",
+          "example": "Ana is drawing a picture."
+        },
+        {
+          "id": "a1-sleep",
+          "word": "sleeping",
+          "phrase": "sleeping",
+          "image": "v-sleep",
+          "example": "Pepper is sleeping."
+        },
+        {
+          "id": "a1-write",
+          "word": "writing",
+          "phrase": "writing a letter",
+          "image": "v-write",
+          "example": "Leo is writing a letter."
+        },
+        {
+          "id": "a1-cook",
+          "word": "cooking",
+          "phrase": "cooking pancakes",
+          "image": "v-cook",
+          "example": "Sam is cooking pancakes."
+        },
+        {
+          "id": "a1-clean",
+          "word": "cleaning",
+          "phrase": "cleaning my room",
+          "image": "v-clean",
+          "example": "Mia is cleaning her room."
+        },
+        {
+          "id": "a1-wash",
+          "word": "washing",
+          "phrase": "washing my hands",
+          "image": "v-wash",
+          "example": "Leo is washing his hands."
+        },
+        {
+          "id": "a1-climb",
+          "word": "climbing",
+          "phrase": "climbing a tree",
+          "image": "v-climb",
+          "example": "Ana is climbing a tree."
+        },
+        {
+          "id": "a1-fly",
+          "word": "flying",
+          "phrase": "flying a kite",
+          "image": "v-fly",
+          "example": "Sam is flying a kite."
+        },
+        {
+          "id": "a1-catch",
+          "word": "catching",
+          "phrase": "catching a ball",
+          "image": "v-catch",
+          "example": "Leo is catching a ball."
+        },
+        {
+          "id": "a1-open",
+          "word": "opening",
+          "phrase": "opening the window",
+          "image": "v-open",
+          "example": "Mia is opening the window."
+        },
+        {
+          "id": "a1-listen",
+          "word": "listening",
+          "phrase": "listening to music",
+          "image": "v-listen",
+          "example": "Ana is listening to music."
+        },
+        {
+          "id": "a1-feed",
+          "word": "feeding",
+          "phrase": "feeding the cat",
+          "image": "v-feed",
+          "example": "Sam is feeding the cat."
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex-01",
+      "image": "play-football",
+      "subject": "sam",
+      "verb": "play-football",
+      "note": "play → playing"
+    },
+    {
+      "id": "ex-02",
+      "image": "read-a-book",
+      "subject": "mia",
+      "verb": "read-a-book",
+      "note": "read → reading"
+    },
+    {
+      "id": "ex-03",
+      "image": "they-watch-tv",
+      "subject": "they",
+      "verb": "watch-tv",
+      "note": "they → are"
+    },
+    {
+      "id": "ex-04",
+      "image": "v-swim",
+      "subject": "sam",
+      "verb": "a1-swim",
+      "note": "swim → swimming"
+    },
+    {
+      "id": "ex-05",
+      "image": "ride-a-bike",
+      "subject": "ana",
+      "verb": "ride-bike",
+      "note": "ride → riding"
+    },
+    {
+      "id": "ex-06",
+      "image": "v-run",
+      "subject": "leo",
+      "verb": "a1-run",
+      "note": "run → running"
+    },
+    {
+      "id": "ex-07",
+      "image": "v-write",
+      "subject": "leo",
+      "verb": "a1-write",
+      "note": "write → writing"
+    },
+    {
+      "id": "ex-08",
+      "image": "v-sleep",
+      "subject": "pepper",
+      "verb": "a1-sleep",
+      "note": "Pepper → it → is"
+    },
+    {
+      "id": "ex-09",
+      "image": "dance",
+      "subject": "we",
+      "verb": "dance",
+      "note": "we → are"
+    },
+    {
+      "id": "ex-10",
+      "image": "v-cook",
+      "subject": "I",
+      "verb": "a1-cook",
+      "note": "I → am"
+    },
+    {
+      "id": "ex-11",
+      "image": "sp-goal",
+      "subject": "sam",
+      "verb": "sp-goal",
+      "note": "goal"
+    },
+    {
+      "id": "ex-12",
+      "image": "sp-hoop",
+      "subject": "ana",
+      "verb": "sp-hoop",
+      "note": "hoop"
+    },
+    {
+      "id": "ex-13",
+      "image": "sp-bat",
+      "subject": "leo",
+      "verb": "sp-bat",
+      "note": "hit → hitting"
+    },
+    {
+      "id": "ex-14",
+      "image": "sp-racket",
+      "subject": "mia",
+      "verb": "sp-tennis",
+      "note": "racket"
+    },
+    {
+      "id": "ex-15",
+      "image": "sp-court",
+      "subject": "they",
+      "verb": "sp-basketball",
+      "note": "court"
+    },
+    {
+      "id": "ex-16",
+      "image": "sp-gym",
+      "subject": "they",
+      "verb": "sp-gym",
+      "note": "gym"
+    },
+    {
+      "id": "ex-17",
+      "image": "sp-pool",
+      "subject": "she",
+      "verb": "sp-pool",
+      "note": "pool"
+    },
+    {
+      "id": "ex-18",
+      "image": "sp-balls",
+      "subject": "they",
+      "verb": "sp-balls",
+      "note": "put → putting"
+    },
+    {
+      "id": "ex-19",
+      "image": "have-breakfast",
+      "subject": "mia",
+      "verb": "have-breakfast",
+      "note": "have → having"
+    },
+    {
+      "id": "ex-20",
+      "image": "brush-teeth",
+      "subject": "she",
+      "verb": "brush-teeth",
+      "note": "her teeth"
+    },
+    {
+      "id": "ex-21",
+      "image": "v-fly",
+      "subject": "he",
+      "verb": "a1-fly",
+      "note": "fly → flying"
+    },
+    {
+      "id": "ex-22",
+      "image": "get-up",
+      "subject": "sam",
+      "verb": "get-up",
+      "note": "get → getting"
+    },
+    {
+      "id": "ex-23",
+      "image": "act-gymnastics",
+      "subject": "mia",
+      "verb": "act-gymnastics",
+      "note": "do gymnastics"
+    },
+    {
+      "id": "ex-24",
+      "image": "sp-bat",
+      "subject": "leo",
+      "verb": "act-baseball",
+      "note": "play baseball"
+    },
+    {
+      "id": "ex-25",
+      "image": "act-bounce",
+      "subject": "ana",
+      "verb": "act-bounce",
+      "note": "bounce → bouncing"
+    },
+    {
+      "id": "ex-26",
+      "image": "act-karate",
+      "subject": "he",
+      "verb": "act-karate",
+      "note": "do karate"
+    },
+    {
+      "id": "ex-27",
+      "image": "v-jump",
+      "subject": "she",
+      "verb": "act-jump-rope",
+      "note": "jump rope"
+    },
+    {
+      "id": "ex-28",
+      "image": "act-skating",
+      "subject": "sam",
+      "verb": "act-skating",
+      "note": "go skating"
+    },
+    {
+      "id": "ex-29",
+      "image": "sp-pool",
+      "subject": "ana",
+      "verb": "act-swimming",
+      "note": "go swimming"
+    },
+    {
+      "id": "ex-30",
+      "image": "act-tag",
+      "subject": "they",
+      "verb": "act-tag",
+      "note": "play tag"
+    },
+    {
+      "id": "ex-31",
+      "image": "sp-field",
+      "subject": "they",
+      "verb": "act-race",
+      "note": "run a race"
+    },
+    {
+      "id": "ex-32",
+      "image": "sp-goal",
+      "subject": "sam",
+      "verb": "st-score",
+      "note": "score a goal"
+    },
+    {
+      "id": "ex-33",
+      "image": "st-cheer",
+      "subject": "they",
+      "verb": "st-cheer",
+      "note": "cheer"
+    },
+    {
+      "id": "ex-34",
+      "image": "st-highfive",
+      "subject": "we",
+      "verb": "st-highfive",
+      "note": "give high fives"
+    }
+  ]
+}

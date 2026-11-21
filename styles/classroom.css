@@ -1,0 +1,26 @@
+/* Classroom mode: bigger text and pictures for the board, one focus, simple chrome. */
+body.classroom {
+  --fs-body: 1.3rem;
+  --fs-lead: 1.45rem;
+  --fs-sentence: clamp(2rem, 1.2rem + 2.2vw, 2.75rem); /* ≈ 32–44 px */
+  --tap: 56px;
+  --page-max: 1600px;
+}
+body.classroom .site-foot { display: none; }
+body.classroom .top-bar { padding-top: 0.35rem; padding-bottom: 0.35rem; }
+body.classroom .brand-text span { display: none; }
+body.classroom .lesson-stage,
+body.classroom .word-stage { min-height: calc(100vh - 290px); }
+body.classroom .stage-pic { max-height: calc(100vh - 320px); width: 100%; }
+body.classroom .q-pic { max-height: calc(100vh - 470px); min-height: 200px; }
+body.classroom .btn { font-size: 1.15rem; }
+body.classroom .btn-option { font-size: clamp(1.4rem, 1.1rem + 1vw, 2rem); min-height: 64px; }
+body.classroom .token { font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); min-height: 60px; }
+body.classroom .lead { font-size: 1.4rem; }
+body.classroom .section-head .lead { display: none; }
+body.classroom .rule-box { font-size: clamp(2rem, 1.3rem + 2vw, 2.9rem); }
+body.classroom .passage-text { font-size: 1.6rem; }
+body.classroom .dialogue .line { font-size: 1.9rem; }
+@media (max-height: 760px) {
+  body.classroom .lesson-stage, body.classroom .word-stage { min-height: 0; }
+}

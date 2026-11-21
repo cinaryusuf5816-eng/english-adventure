@@ -1,0 +1,180 @@
+{
+  "id": "week-02",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "title": "Week title (e.g. Can / Can't)",
+  "subtitle": "One short line for pupils",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "goals": [
+    "I can …"
+  ],
+  "characters": [],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-01/week-01-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "Describe the picture in simple English."
+    },
+    "example-picture": {
+      "src": "assets/images/week-01/play-football",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Describe the picture. Do not give the answer."
+    }
+  },
+  "words": [
+    {
+      "id": "word-1",
+      "phrase": "play football",
+      "image": "example-picture",
+      "example": "Sam plays football."
+    }
+  ],
+  "learn": [
+    {
+      "id": "topic-1",
+      "title": "Topic title",
+      "rule": "One short rule for pupils.",
+      "image": "example-picture",
+      "examples": [
+        {
+          "text": "He play**s** football.",
+          "image": "example-picture",
+          "label": "Sam → he"
+        },
+        {
+          "from": "I play football.",
+          "text": "He play**s** football.",
+          "image": "example-picture"
+        },
+        {
+          "q": "Does he play football?",
+          "a": "Yes, he **does**.",
+          "image": "example-picture"
+        },
+        {
+          "text": "I play **every day**.",
+          "calendar": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "speaker": "Mia"
+        },
+        {
+          "text": "Sam gets up at seven.",
+          "time": "7:00",
+          "image": "example-picture"
+        },
+        {
+          "rows": [
+            "He plays.",
+            "He **doesn't** play.",
+            "**Does** he play?"
+          ],
+          "image": "example-picture"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam ___ football.",
+          "image": "example-picture",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "answer": "b",
+          "explain": "Sam plays football."
+        },
+        {
+          "mode": "try",
+          "prompt": "They ___ football.",
+          "image": "example-picture",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "answer": "a",
+          "explain": "They play football."
+        }
+      ],
+      "teacherNote": "Short note for the teacher."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w2-sp-01",
+      "question": "Do you play football?",
+      "image": "example-picture",
+      "help": [
+        "Yes, I do.",
+        "No, I don't."
+      ],
+      "sample": "Yes, I do.",
+      "personal": true
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "example-picture",
+        "subject": "He",
+        "word": "play football",
+        "sentence": "He plays football."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        }
+      ],
+      "verbs": [
+        {
+          "id": "play-football",
+          "base": "play",
+          "s": "plays",
+          "rest": "football"
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-01",
+        "who": "Sam",
+        "image": "example-picture",
+        "clue": "Sam plays football.",
+        "options": [
+          "Does Sam play football?",
+          "Do Sam play football?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, he does.",
+        "hint": "Sam = he → Does."
+      }
+    ]
+  },
+  "teacherGoals": [
+    "Teacher goal for this week (English, teacher only)"
+  ],
+  "teacherNote": "Teacher note (not shown to pupils unless the teacher opens it)."
+}
