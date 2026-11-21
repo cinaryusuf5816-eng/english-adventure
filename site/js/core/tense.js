@@ -4,6 +4,7 @@ import * as simpleSentence from './grammar.js';
 import * as simpleMachine from './machine.js';
 import * as continuous from './continuous.js';
 import * as wh from './wh.js';
+import * as should from './should.js';
 
 const SIMPLE = {
   id: 'present-simple',
@@ -64,7 +65,25 @@ const WH = {
   verbLabel: (v) => `${v.base} ${v.rest.replace('{poss}', '…')}`
 };
 
-const GRAMMARS = { 'present-continuous': CONTINUOUS, 'wh-questions': WH };
+const SHOULD = {
+  id: 'should-advice',
+  buildSentence: should.buildSentence,
+  machineSteps: should.machineSteps,
+  stepText: should.stepText,
+  formula: should.formula,
+  legend: [['subject', 'who'], ['helper', "should / shouldn't"], ['verb', 'verb (no -s)'], ['end', '-s goes'], ['often', 'always … never']],
+  switchLegend: [['part-helper', "helper: should / shouldn't"], ['part-verb', 'verb (no -s): rest']],
+  examplesLead: 'Choose a picture. Is it a good idea or a bad idea? Watch: should, shouldn’t, Should …?, How often …?',
+  modes: [
+    { id: 'should', label: '+ should', name: 'A good idea', needs: 'good' },
+    { id: 'shouldnt', label: "− shouldn't", name: 'A bad idea', needs: 'bad' },
+    { id: 'question', label: '? Should …?', name: 'Ask for advice' },
+    { id: 'often', label: 'How often?', name: 'always … never', needs: 'often' }
+  ],
+  verbLabel: (v) => `${v.base} ${v.rest.replace('{poss}', '…')}${v.bad ? ' ✗' : ''}`
+};
+
+const GRAMMARS = { 'present-continuous': CONTINUOUS, 'wh-questions': WH, 'should-advice': SHOULD };
 
 export function grammarOf(week) {
   return (week && GRAMMARS[week.grammar]) || SIMPLE;

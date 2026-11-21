@@ -184,7 +184,8 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
   await check('Navigation', 'Home → Week 1 → Words → Learn → Practise → Home', 'each screen opens with its heading', async () => {
     await open(page, SUB, '#/');
     const seen = [await page.locator('h1').first().innerText()];
-    await page.click('a.week-card');
+    await page.click('a.week-card[href$="/week/week-01"]');
+    await page.waitForFunction(() => /Present Simple/.test(document.querySelector('h1')?.textContent || ''));
     await page.waitForSelector('.path-grid'); seen.push(await page.locator('h1').innerText());
     await page.click('.side-nav a[data-nav=words]'); await page.waitForSelector('.word-stage'); seen.push(await page.locator('h1').innerText());
     await page.click('.section-tabs a:has-text("Learn")'); await page.waitForSelector('.topic-list'); seen.push(await page.locator('h1').innerText());
@@ -274,7 +275,7 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
     return { ok: /does not exist/.test(t) && (await page.locator('a:has-text("Home")').count()) > 0, detail: t };
   });
   await check('Errors', 'Unpublished week (Coming soon) cannot open', 'message “coming soon”', async () => {
-    await open(page, SUB, '#/week/week-04');
+    await open(page, SUB, '#/week/week-05');
     const t = await page.locator('h1').innerText();
     return { ok: /coming soon/i.test(t), detail: t };
   });
@@ -695,7 +696,7 @@ const TYPES = ['mcq', 'jumbled', 'fill', 'change', 'fix', 'decide', 'dialogue', 
     await open(page, W2URL, '#/week/week-01/practise/mcq');
     const resume = await page.locator('button:has-text("Resume")').count();
     const s = await getSession(page, 'mcq');
-    return { ok: w2img && cards === 3 && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
+    return { ok: w2img && cards === 4 && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
   });
   await page.context().close();
 }
@@ -978,8 +979,8 @@ for (const [w, hgt] of SIZES) {
     const mission = await page.locator('.mission li').first().getAttribute('class');
     return { ok: /3\/13/.test(learnRow) && /is-done/.test(mission || ''), detail: `${learnRow.replace(/\s+/g, ' ')} · ${mission}` };
   });
-  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-04 disabled; tip changes', async () => {
-    const dis = await page.locator('#week-select option[value="week-04"]').getAttribute('disabled');
+  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-05 disabled; tip changes', async () => {
+    const dis = await page.locator('#week-select option[value="week-05"]').getAttribute('disabled');
     const a = await page.locator('.owl-bubble').innerText();
     await page.click('.owl-bubble');
     const b = await page.locator('.owl-bubble').innerText();
@@ -1245,6 +1246,109 @@ for (const [w, hgt] of SIZES) {
     await open(page, SUB, '#/week/week-02/play/sentence-switch');
     const b = await page.locator('.switch-forms button').allInnerTexts();
     return { ok: b.length === 3 && /Negative/.test(b[1]), detail: b.join(' · ') };
+  });
+  await page.context().close();
+}
+
+// =====================================================================
+// 18d. Week 4 — should / shouldn't and How often …?
+// =====================================================================
+{
+  const page = await newPage({}, 'week4');
+  const W4 = 'week-04';
+  const key4 = (bank) => `eemc:v1:${W4}:practise:${bank}:practice`;
+  const play4 = async (bank, ids, support = 'less') => {
+    await page.goto(`${SUB}#/`, { waitUntil: 'networkidle' });
+    await page.evaluate(([k, s]) => localStorage.setItem(k, JSON.stringify(s)), [key4(bank), {
+      id: `s-w4-${Date.now()}`, weekId: W4, bank, mode: 'practice', settings: { target: 'all', n: 'all', support },
+      round: 1, parentId: null, seed: 777, createdAt: Date.now(), index: 0, questionIds: ids, states: {}, finished: false
+    }]);
+    await page.goto(`${SUB}#/week/${W4}/practise/${bank}/play`, { waitUntil: 'networkidle' });
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForSelector('.question-card', { timeout: 8000 });
+    await dismissCelebration(page);
+  };
+  const state4 = async (bank, id) => page.evaluate(([k, i]) => JSON.parse(localStorage.getItem(k)).states[i].status, [key4(bank), id]);
+  const machineRows = async (path) => {
+    await open(page, SUB, path);
+    const next = page.locator('button:has-text("Show the next change")');
+    while (await next.isEnabled()) await next.click();
+    return page.locator('.m-row .sr-only').allInnerTexts();
+  };
+
+  await check('Week 4', 'Week 4 opens with its own title, 302 questions and 12 activities', 'Should and How Often · 302 · 12', async () => {
+    await open(page, SUB, `#/week/${W4}/practise`);
+    const t = await page.locator('.section-head').innerText();
+    const cards = await page.locator('.bank-card').count();
+    await open(page, SUB, `#/week/${W4}`);
+    const hero = await page.locator('.dash-hero').innerText();
+    return { ok: /302 questions/.test(t) && cards === 12 && /Should and How Often/.test(hero), detail: `${cards} cards · ${t.replace(/\s+/g, ' ').slice(0, 80)}` };
+  });
+  await check('Week 4', 'Word sets: health problems first, then 8 more sets, every picture loads', '9 sets · no broken pictures', async () => {
+    await open(page, SUB, `#/week/${W4}/words`);
+    const sets = await page.locator('.set-tabs .mode-tab').count();
+    const first = await page.locator('.set-tabs .mode-tab').first().innerText();
+    let broken = 0;
+    for (const set of ['hygiene', 'water', 'values']) {
+      await open(page, SUB, `#/week/${W4}/words?set=${set}&view=grid`);
+      await page.waitForTimeout(800);
+      broken += await page.evaluate(() => [...document.images].filter((i) => i.complete && i.naturalWidth === 0).length);
+    }
+    return { ok: sets === 9 && /Health/.test(first) && broken === 0, detail: `${sets} · ${first.replace(/\s+/g, ' ')} · broken ${broken}` };
+  });
+  await check('Week 4', 'Change Machine: Ana washes → Ana should wash (the -s goes); a good idea has no shouldn’t tab', 'Ana should wash her hands.', async () => {
+    const rows = await machineRows(`#/week/${W4}/examples/ex-12/should`);
+    const tabs = await page.locator('.mode-tab').allInnerTexts();
+    const gone = await page.locator('.blk.is-gone').count();
+    const ok = rows[0] === 'Ana washes her hands.' && rows[rows.length - 1] === 'Ana should wash her hands.' && gone >= 1 && tabs.length === 3 && !tabs.join(' ').includes("shouldn't");
+    return { ok, detail: `${rows.join(' | ')} · ${tabs.length} tabs · gone ${gone}` };
+  });
+  await check('Week 4', 'Change Machine: a bad idea → Should …? → No, he shouldn’t.', "Should Leo share a drink? No, he shouldn't.", async () => {
+    const rows = await machineRows(`#/week/${W4}/examples/ex-21/question`);
+    const ok = rows[0] === "Leo shouldn't share a drink." && rows[1] === 'Should Leo share a drink?' && rows[2] === "No, he shouldn't.";
+    return { ok, detail: rows.join(' | ') };
+  });
+  await check('Week 4', 'Change Machine: How often …? and the answer with always', 'Mia always brushes her teeth.', async () => {
+    const rows = await machineRows(`#/week/${W4}/examples/ex-13/often`);
+    const ok = rows[0] === 'Mia brushes her teeth.' && rows[1] === 'How often does Mia brush her teeth?' && rows[2] === 'Mia always brushes her teeth.';
+    return { ok, detail: rows.join(' | ') };
+  });
+  await check('Week 4', 'Sentence Switch: should, shouldn’t and Should …? with the right short answer', "Should Mia share a drink? No, she shouldn't.", async () => {
+    await open(page, SUB, `#/week/${W4}/play/sentence-switch`);
+    await page.selectOption('#sw-subject', 'mia');
+    await page.selectOption('#sw-verb', 'share-drink');
+    const get = () => page.locator('.switch-sentence').innerText();
+    const pos = await get();
+    await page.click('.switch-forms button:nth-child(2)');
+    const neg = await get();
+    await page.click('.switch-forms button:nth-child(3)');
+    const q = await get();
+    const a = await page.locator('.switch-answers').innerText();
+    const ok = pos === 'Mia should share a drink.' && neg === "Mia shouldn't share a drink." && q === 'Should Mia share a drink?' && a.trim() === "No, she shouldn't.";
+    return { ok, detail: `${pos} | ${neg} | ${q} ${a}` };
+  });
+  await check('Week 4', 'Change it: should not = shouldn’t; shouldn’t + -s is not accepted', 'correct · trying', async () => {
+    const id = 'w4-cs-007';
+    await play4('change', [id]);
+    const cue = await page.locator('.q-kicker').first().innerText();
+    await page.fill('.question-card .answer-input', 'leo should not share a drink');
+    await page.click('.btn-check');
+    const a = await state4('change', id);
+    await play4('change', [id]);
+    await page.fill('.question-card .answer-input', "Leo shouldn't shares a drink.");
+    await page.click('.btn-check');
+    const b = await state4('change', id);
+    return { ok: /shouldn't/.test(cue) && a === 'correct-first' && b === 'trying', detail: `${cue} · ${a} · ${b}` };
+  });
+  await check('Week 4', 'Learn: “After should: no -s!” shows the Change Machine', 'machine on the page', async () => {
+    await open(page, SUB, `#/week/${W4}/learn/no-s/2`);
+    const machine = await page.locator('.machine').count();
+    return { ok: machine === 1, detail: `${machine}` };
+  });
+  await check('Week 4', 'Week 3 keeps its own question-word Sentence Switch', 'Who? What? Where?', async () => {
+    await open(page, SUB, '#/week/week-03/play/sentence-switch');
+    const b = await page.locator('.switch-forms button').allInnerTexts();
+    return { ok: b.length === 4 && /Who/.test(b[1]), detail: b.join(' · ') };
   });
   await page.context().close();
 }

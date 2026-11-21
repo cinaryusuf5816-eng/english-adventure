@@ -36,10 +36,21 @@
     {
       "id": "week-04",
       "number": 4,
+      "title": "Should and How Often",
+      "subtitle": "You should rest. You shouldn't share. How often …?",
+      "published": true,
+      "file": "data/weeks/week-04/week.json",
+      "cover": "assets/images/week-04/week-04-cover",
+      "coverAlt": "A school nurse’s room: Ana is sneezing, Sam is washing his hands, Leo has a thermometer and Mia has a get-well card.",
+      "unit": "Unit 3"
+    },
+    {
+      "id": "week-05",
+      "number": 5,
       "title": "Coming soon",
       "subtitle": "New clues are on the way.",
       "published": false,
-      "unit": "Unit 3"
+      "unit": "Unit 4"
     }
   ]
 }

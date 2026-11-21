@@ -1,0 +1,3462 @@
+{
+  "id": "week-04",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "grammar": "should-advice",
+  "wordsTitle": "Health problems",
+  "title": "Should and How Often",
+  "subtitle": "You should rest. You shouldn't share. How often …?",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "goals": [
+    "I can name health problems: a cold, a fever, a cough, a sore throat …",
+    "I can give advice with should and shouldn’t.",
+    "I can ask Should I …? and answer Yes, you should. / No, you shouldn’t.",
+    "I can name hygiene habits: brush my teeth, wash my hands …",
+    "I can ask How often …? and answer with always, usually, sometimes and never.",
+    "I can talk to a doctor and show I care: What’s the matter? I’m sorry."
+  ],
+  "teacherGoals": [
+    "Health problems: have a sore throat / a stomachache / a fever / a toothache / an earache / a headache / a cold; cough; sneeze; my (leg) hurts.",
+    "Advice: should + base verb (a good idea), shouldn’t + base verb (a bad idea). No -s after should: He should rest (not rests).",
+    "Questions: Should I / he …? → Yes, you / he should. / No, you / he shouldn’t.",
+    "Hygiene habits: brush my teeth, comb my hair, wash my face, use hand gel, cut my nails, take a shower, wipe my mouth, wash my hands.",
+    "Adverbs of frequency before the main verb: always, usually, sometimes, never. How often do / does …? Also every day, once a week.",
+    "Talking about problems: What’s the matter? What’s wrong? How are you feeling? Sympathy: I’m sorry. That’s too bad. That’s terrible!",
+    "Reading words: germs, clean water, village, well, river, bottle, tap, carry, heavy. Values: honesty, kindness, gratefulness, responsibility."
+  ],
+  "teacherNote": "This week follows Compass Unit 3, pages 44–61: Why do we get sick? Health Problems (46), should / shouldn’t (47), a story about a cold (48–49), the doctor’s advice (50), Talking about Problems (51), writing about a picture (52), a get-well letter and end punctuation (53), Hygiene Habits (54), Adverbs of Frequency (55), clean water (56–57), germs (58), staying on topic (59), values (60) and the unit reflection (61). All sentences and the four short readings are written for this site; only the topics and target words come from the book.",
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia",
+      "pronoun": "she",
+      "image": "h-cold"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "pronoun": "he",
+      "image": "y-hair"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "pronoun": "he",
+      "image": "a-dentist"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "pronoun": "she",
+      "image": "y-hands"
+    },
+    {
+      "id": "nurse",
+      "name": "The school nurse",
+      "pronoun": "she",
+      "note": "She helps sick children at school.",
+      "image": "a-nurse"
+    },
+    {
+      "id": "pepper",
+      "name": "Pepper",
+      "pronoun": "it",
+      "note": "Pepper is a cat.",
+      "image": "v-sleep"
+    }
+  ],
+  "dashboard": {
+    "tagline": "Let's stay healthy and give good advice!",
+    "bubbleLeft": [
+      "I have",
+      "a cold!"
+    ],
+    "bubbleRight": [
+      "You should",
+      "rest!"
+    ]
+  },
+  "missions": [
+    {
+      "id": "m-learn",
+      "text": "Learn should and shouldn’t",
+      "check": {
+        "section": "learn",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-words",
+      "text": "Learn the new words",
+      "check": {
+        "section": "words",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-practice",
+      "text": "Complete at least 3 activities",
+      "check": {
+        "section": "practise",
+        "min": 3
+      }
+    },
+    {
+      "id": "m-challenge",
+      "text": "Try the challenge",
+      "check": {
+        "section": "challenge",
+        "min": 1
+      }
+    },
+    {
+      "id": "m-proud",
+      "text": "Be proud of yourself!",
+      "check": {
+        "all": true
+      }
+    }
+  ],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-04/week-04-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "A school nurse's room: Ana is sneezing, Sam is washing his hands, Leo has a thermometer and Mia has a get-well card."
+    },
+    "h-sore-throat": {
+      "src": "assets/images/week-04/h-sore-throat",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is holding her throat. She has a sore throat."
+    },
+    "h-cough": {
+      "src": "assets/images/week-04/h-cough",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is coughing into his elbow."
+    },
+    "h-stomachache": {
+      "src": "assets/images/week-04/h-stomachache",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is holding his tummy. He has a stomachache."
+    },
+    "h-fever": {
+      "src": "assets/images/week-04/h-fever",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is in bed with a thermometer in her mouth. She has a fever."
+    },
+    "h-leg": {
+      "src": "assets/images/week-04/h-leg",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is sitting on the path and holding his leg. His leg hurts."
+    },
+    "h-sneeze": {
+      "src": "assets/images/week-04/h-sneeze",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is sneezing into a tissue."
+    },
+    "h-toothache": {
+      "src": "assets/images/week-04/h-toothache",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is holding his cheek. He has a toothache."
+    },
+    "h-earache": {
+      "src": "assets/images/week-04/h-earache",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is holding her ear. She has an earache."
+    },
+    "h-headache": {
+      "src": "assets/images/week-04/h-headache",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is holding his head at his desk. He has a headache."
+    },
+    "h-cold": {
+      "src": "assets/images/week-04/h-cold",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is on the sofa with a blanket and tissues. She has a cold."
+    },
+    "a-doctor": {
+      "src": "assets/images/week-04/a-doctor",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A doctor is listening to Leo's chest."
+    },
+    "a-tissue": {
+      "src": "assets/images/week-04/a-tissue",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is using a tissue."
+    },
+    "a-medicine": {
+      "src": "assets/images/week-04/a-medicine",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is taking a spoon of medicine."
+    },
+    "a-temperature": {
+      "src": "assets/images/week-04/a-temperature",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam's dad is taking Sam's temperature."
+    },
+    "a-bandage": {
+      "src": "assets/images/week-04/a-bandage",
+      "w": 1400,
+      "h": 1050,
+      "alt": "The school nurse is putting a bandage on Leo's knee."
+    },
+    "a-cover": {
+      "src": "assets/images/week-04/a-cover",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is covering her mouth with her elbow."
+    },
+    "a-water": {
+      "src": "assets/images/week-04/a-water",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is drinking a big glass of water."
+    },
+    "a-dentist": {
+      "src": "assets/images/week-04/a-dentist",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is at the dentist. He is opening his mouth."
+    },
+    "a-nurse": {
+      "src": "assets/images/week-04/a-nurse",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is talking to the school nurse."
+    },
+    "a-rest": {
+      "src": "assets/images/week-04/a-rest",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is resting in bed with a teddy bear and a book."
+    },
+    "y-teeth": {
+      "src": "assets/images/week-04/y-teeth",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is brushing her teeth."
+    },
+    "y-hair": {
+      "src": "assets/images/week-04/y-hair",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is combing his hair."
+    },
+    "y-face": {
+      "src": "assets/images/week-04/y-face",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is washing his face."
+    },
+    "y-gel": {
+      "src": "assets/images/week-04/y-gel",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is using hand gel."
+    },
+    "y-nails": {
+      "src": "assets/images/week-04/y-nails",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is cutting his nails."
+    },
+    "y-shower": {
+      "src": "assets/images/week-04/y-shower",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is taking a shower."
+    },
+    "y-wipe": {
+      "src": "assets/images/week-04/y-wipe",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is wiping her mouth with a napkin."
+    },
+    "y-hands": {
+      "src": "assets/images/week-04/y-hands",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is washing her hands with soap."
+    },
+    "s-hug": {
+      "src": "assets/images/week-04/s-hug",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia's grandma is giving Mia a big hug."
+    },
+    "s-remote": {
+      "src": "assets/images/week-04/s-remote",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is on the sofa with the TV remote."
+    },
+    "s-share": {
+      "src": "assets/images/week-04/s-share",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is sharing his crayons with Ana."
+    },
+    "s-card": {
+      "src": "assets/images/week-04/s-card",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo and Ana are making a get-well card with a big heart."
+    },
+    "s-better": {
+      "src": "assets/images/week-04/s-better",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is jumping out of bed. She feels better."
+    },
+    "c-well": {
+      "src": "assets/images/week-04/c-well",
+      "w": 1400,
+      "h": 1050,
+      "alt": "An old well with a bucket in a sunny village."
+    },
+    "c-village": {
+      "src": "assets/images/week-04/c-village",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A small village with round houses and trees."
+    },
+    "c-carry": {
+      "src": "assets/images/week-04/c-carry",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A girl is carrying a big, heavy bottle of water."
+    },
+    "c-river": {
+      "src": "assets/images/week-04/c-river",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Two children are filling bottles at the river."
+    },
+    "c-tap": {
+      "src": "assets/images/week-04/c-tap",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Two children are washing their hands at a new tap. There is a water tank and a solar panel."
+    },
+    "g-germs": {
+      "src": "assets/images/week-04/g-germs",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A magnifying glass shows tiny germs on a hand."
+    },
+    "g-dirty": {
+      "src": "assets/images/week-04/g-dirty",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is looking at his very dirty hands."
+    },
+    "g-bin": {
+      "src": "assets/images/week-04/g-bin",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is throwing a tissue into the bin."
+    },
+    "g-everywhere": {
+      "src": "assets/images/week-04/g-everywhere",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Tiny germs on a door handle, a desk and a pencil."
+    },
+    "d-talk": {
+      "src": "assets/images/week-04/d-talk",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is telling the doctor how she feels."
+    },
+    "d-sorry": {
+      "src": "assets/images/week-04/d-sorry",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is sad. Ana is sitting with him and being kind."
+    },
+    "v-honest": {
+      "src": "assets/images/week-04/v-honest",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is telling his mom that he feels sick."
+    },
+    "v-grateful": {
+      "src": "assets/images/week-04/v-grateful",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is helping Leo up after he falls off his bike."
+    },
+    "v-responsible": {
+      "src": "assets/images/week-04/v-responsible",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana is washing the dishes after lunch."
+    },
+    "v-kind": {
+      "src": "assets/images/week-04/v-kind",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is giving Sam a get-well card."
+    },
+    "v-sleep": {
+      "src": "assets/images/a1-verbs/sleep",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Pepper the cat is sleeping on a cushion."
+    }
+  },
+  "words": [
+    {
+      "id": "sore-throat",
+      "word": "a sore throat",
+      "phrase": "a sore throat",
+      "image": "h-sore-throat",
+      "example": "Mia has a sore throat. It hurts when she talks."
+    },
+    {
+      "id": "cough",
+      "word": "cough",
+      "phrase": "cough",
+      "image": "h-cough",
+      "example": "Sam is coughing into his elbow."
+    },
+    {
+      "id": "stomachache",
+      "word": "a stomachache",
+      "phrase": "a stomachache",
+      "image": "h-stomachache",
+      "example": "Leo has a stomachache. His tummy hurts."
+    },
+    {
+      "id": "fever",
+      "word": "a fever",
+      "phrase": "a fever",
+      "image": "h-fever",
+      "example": "Ana has a fever. She feels very hot."
+    },
+    {
+      "id": "leg-hurts",
+      "word": "my leg hurts",
+      "phrase": "my leg hurts",
+      "image": "h-leg",
+      "example": "“Ouch! My leg hurts,” says Sam."
+    },
+    {
+      "id": "sneeze",
+      "word": "sneeze",
+      "phrase": "sneeze",
+      "image": "h-sneeze",
+      "example": "Ana is sneezing into a tissue."
+    },
+    {
+      "id": "toothache",
+      "word": "a toothache",
+      "phrase": "a toothache",
+      "image": "h-toothache",
+      "example": "Leo has a toothache. Too much candy!"
+    },
+    {
+      "id": "earache",
+      "word": "an earache",
+      "phrase": "an earache",
+      "image": "h-earache",
+      "example": "Mia has an earache."
+    },
+    {
+      "id": "headache",
+      "word": "a headache",
+      "phrase": "a headache",
+      "image": "h-headache",
+      "example": "Sam has a headache. His head hurts."
+    },
+    {
+      "id": "cold",
+      "word": "a cold",
+      "phrase": "a cold",
+      "image": "h-cold",
+      "example": "Mia has a cold. Her nose is red."
+    },
+    {
+      "id": "runny-nose",
+      "word": "a runny nose",
+      "phrase": "a runny nose",
+      "image": "a-tissue",
+      "example": "Mia has a runny nose. She needs a tissue."
+    },
+    {
+      "id": "feel-sick",
+      "word": "feel sick",
+      "phrase": "feel sick",
+      "image": "v-honest",
+      "example": "Sam feels sick. He tells his mom."
+    }
+  ],
+  "learn": [
+    {
+      "id": "problems",
+      "title": "Health problems",
+      "rule": "Say what is wrong: **I have a …** or **My … hurts.**",
+      "image": "h-cold",
+      "examples": [
+        {
+          "text": "I **have a cold**.",
+          "image": "h-cold",
+          "speaker": "Mia"
+        },
+        {
+          "text": "I **have a stomachache**.",
+          "image": "h-stomachache",
+          "speaker": "Leo"
+        },
+        {
+          "text": "I **have a fever**.",
+          "image": "h-fever",
+          "speaker": "Ana"
+        },
+        {
+          "text": "I **have a sore throat**.",
+          "image": "h-sore-throat",
+          "speaker": "Mia"
+        },
+        {
+          "text": "**My leg hurts**!",
+          "image": "h-leg",
+          "speaker": "Sam"
+        },
+        {
+          "text": "Sam is **coughing**. Ana is **sneezing**.",
+          "image": "h-cough",
+          "label": "cough · sneeze"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo holds his tummy. He has a ___.",
+          "image": "h-stomachache",
+          "options": [
+            "stomachache",
+            "toothache"
+          ],
+          "answer": "a",
+          "explain": "Tummy → stomach → stomachache."
+        },
+        {
+          "mode": "try",
+          "prompt": "Ana is very hot. She has a ___.",
+          "image": "h-fever",
+          "options": [
+            "cold",
+            "fever"
+          ],
+          "answer": "b",
+          "explain": "Very hot → a fever."
+        }
+      ],
+      "teacherNote": "Pupils act out a problem; the class guesses. Point to the body part: head → headache, tooth → toothache, ear → earache, stomach → stomachache."
+    },
+    {
+      "id": "have-a",
+      "title": "a or an? -ache words",
+      "rule": "**have a** headache · **have an** earache. **head + ache = headache.**",
+      "image": "h-earache",
+      "examples": [
+        {
+          "text": "Sam has **a headache**.",
+          "image": "h-headache",
+          "label": "head + ache"
+        },
+        {
+          "text": "Leo has **a toothache**.",
+          "image": "h-toothache",
+          "label": "tooth + ache"
+        },
+        {
+          "text": "Leo has **a stomachache**.",
+          "image": "h-stomachache",
+          "label": "stomach + ache"
+        },
+        {
+          "text": "Mia has **an earache**.",
+          "image": "h-earache",
+          "label": "an: ear starts with e"
+        },
+        {
+          "text": "Sam’s **leg hurts**.",
+          "image": "h-leg",
+          "label": "No -ache word? Say: my leg hurts."
+        },
+        {
+          "text": "Mia has **a sore throat**.",
+          "image": "h-sore-throat",
+          "label": "a + sore throat"
+        }
+      ],
+      "groups": [
+        {
+          "label": "have a",
+          "words": [
+            "a cold",
+            "a fever",
+            "a cough",
+            "a sore throat",
+            "a headache",
+            "a toothache",
+            "a stomachache"
+          ]
+        },
+        {
+          "label": "have an",
+          "words": [
+            "an earache"
+          ]
+        },
+        {
+          "label": "… hurts",
+          "words": [
+            "my leg hurts",
+            "my arm hurts",
+            "my head hurts"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia has ___ earache.",
+          "image": "h-earache",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "b",
+          "explain": "ear starts with a vowel → an."
+        },
+        {
+          "mode": "try",
+          "prompt": "Sam has ___ headache.",
+          "image": "h-headache",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "a",
+          "explain": "head starts with h → a."
+        }
+      ],
+      "teacherNote": "Show that the -ache words are two small words together. A or an depends on the first sound: an earache."
+    },
+    {
+      "id": "should",
+      "title": "should = a good idea",
+      "rule": "**should** + verb = **a good idea**. You should rest.",
+      "image": "a-rest",
+      "examples": [
+        {
+          "machine": {
+            "subject": "ana",
+            "verb": "rest",
+            "to": "should"
+          }
+        },
+        {
+          "text": "You have a cold. You **should** rest.",
+          "image": "a-rest"
+        },
+        {
+          "text": "You have a toothache. You **should** go to the dentist.",
+          "image": "a-dentist"
+        },
+        {
+          "text": "You have a fever. You **should** take your temperature.",
+          "image": "a-temperature"
+        },
+        {
+          "text": "You are thirsty. You **should** drink water.",
+          "image": "a-water"
+        },
+        {
+          "text": "You are sneezing. You **should** use a tissue.",
+          "image": "a-tissue"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "You have a toothache. You should ___.",
+          "image": "a-dentist",
+          "options": [
+            "go to the dentist",
+            "eat candy"
+          ],
+          "answer": "a",
+          "explain": "The dentist helps your teeth."
+        },
+        {
+          "mode": "try",
+          "prompt": "You have a cold. You should ___.",
+          "image": "a-rest",
+          "options": [
+            "play football",
+            "rest"
+          ],
+          "answer": "b",
+          "explain": "Rest and get better."
+        }
+      ],
+      "teacherNote": "Should gives advice. Pupils say a problem; a friend gives advice with should. Keep the advice short: You should rest."
+    },
+    {
+      "id": "shouldnt",
+      "title": "shouldn’t = a bad idea",
+      "rule": "**shouldn’t** + verb = **a bad idea**. should + not = shouldn’t.",
+      "image": "s-share",
+      "examples": [
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "share-drink",
+            "to": "shouldnt"
+          }
+        },
+        {
+          "text": "You are sick. You **shouldn’t** share a drink.",
+          "image": "s-share",
+          "label": "Germs go from cup to cup."
+        },
+        {
+          "text": "You have a fever. You **shouldn’t** go to school.",
+          "image": "h-fever"
+        },
+        {
+          "text": "You have a toothache. You **shouldn’t** eat lots of candy.",
+          "image": "h-toothache"
+        },
+        {
+          "text": "You **shouldn’t** sneeze on people.",
+          "image": "h-sneeze"
+        },
+        {
+          "text": "You **shouldn’t** eat with dirty hands.",
+          "image": "g-dirty"
+        }
+      ],
+      "groups": [
+        {
+          "label": "good idea ✓",
+          "words": [
+            "should rest",
+            "should drink water",
+            "should use a tissue"
+          ]
+        },
+        {
+          "label": "bad idea ✗",
+          "words": [
+            "shouldn’t share a drink",
+            "shouldn’t eat candy",
+            "shouldn’t sneeze on people"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "You have a fever. You ___ go to school.",
+          "image": "h-fever",
+          "options": [
+            "should",
+            "shouldn’t"
+          ],
+          "answer": "b",
+          "explain": "A fever → stay at home."
+        },
+        {
+          "mode": "try",
+          "prompt": "You have dirty hands. You ___ eat now.",
+          "image": "g-dirty",
+          "options": [
+            "shouldn’t",
+            "should"
+          ],
+          "answer": "a",
+          "explain": "Wash your hands first!"
+        }
+      ],
+      "teacherNote": "Thumbs up for should, thumbs down for shouldn’t. Read a piece of advice; pupils show the thumb."
+    },
+    {
+      "id": "no-s",
+      "title": "After should: no -s!",
+      "rule": "He rest**s** → He should **rest**. After should, the verb never changes.",
+      "image": "y-hands",
+      "examples": [
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "wash-hands",
+            "to": "should"
+          }
+        },
+        {
+          "machine": {
+            "subject": "mia",
+            "verb": "see-nurse",
+            "to": "should"
+          }
+        },
+        {
+          "text": "She **should take** medicine.",
+          "image": "a-medicine",
+          "label": "not: should takes"
+        },
+        {
+          "text": "He **should go** to the doctor.",
+          "image": "a-doctor",
+          "label": "not: should goes"
+        },
+        {
+          "text": "They **should drink** water.",
+          "image": "a-water",
+          "label": "should + drink"
+        },
+        {
+          "text": "Leo **should brush** his teeth.",
+          "image": "y-teeth",
+          "label": "not: should brushes"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which one is right?",
+          "image": "a-doctor",
+          "options": [
+            "He should go to the doctor.",
+            "He should goes to the doctor."
+          ],
+          "answer": "a",
+          "explain": "should + go (no -es)."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which one is right?",
+          "image": "a-medicine",
+          "options": [
+            "She should takes medicine.",
+            "She should take medicine."
+          ],
+          "answer": "b",
+          "explain": "should + take (no -s)."
+        }
+      ],
+      "teacherNote": "This is the most common mistake: *He should goes*. In Week 1 he → -s. With should, the -s goes away for everybody."
+    },
+    {
+      "id": "should-question",
+      "title": "Should I …?",
+      "rule": "Ask for advice: **Should I …?** → **Yes, you should. / No, you shouldn’t.**",
+      "image": "d-talk",
+      "examples": [
+        {
+          "machine": {
+            "subject": "I",
+            "verb": "see-doctor",
+            "to": "question"
+          }
+        },
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "eat-candy",
+            "to": "question"
+          }
+        },
+        {
+          "q": "**Should** I go to school with a fever?",
+          "a": "No, you shouldn’t.",
+          "image": "h-fever"
+        },
+        {
+          "q": "**Should** I use a tissue?",
+          "a": "Yes, you should.",
+          "image": "a-tissue"
+        },
+        {
+          "q": "**Should** Leo go to the dentist?",
+          "a": "Yes, he should.",
+          "image": "a-dentist"
+        },
+        {
+          "q": "**Should** we share our drinks?",
+          "a": "No, we shouldn’t.",
+          "image": "s-share"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Should I drink water?",
+          "image": "a-water",
+          "options": [
+            "Yes, you should.",
+            "Yes, you do."
+          ],
+          "answer": "a",
+          "explain": "Should …? → Yes, you should."
+        },
+        {
+          "mode": "try",
+          "prompt": "Should Sam sneeze on people?",
+          "image": "h-sneeze",
+          "options": [
+            "Yes, he should.",
+            "No, he shouldn’t."
+          ],
+          "answer": "b",
+          "explain": "A bad idea → No, he shouldn’t."
+        }
+      ],
+      "teacherNote": "Should jumps to the front, like is / are in Week 2. The short answer repeats should: Yes, you should."
+    },
+    {
+      "id": "advice",
+      "title": "Problem → advice",
+      "rule": "Match the problem with the best advice.",
+      "image": "a-nurse",
+      "examples": [
+        {
+          "q": "I have a toothache.",
+          "a": "You should go to the dentist.",
+          "image": "h-toothache"
+        },
+        {
+          "q": "I’m sneezing.",
+          "a": "You should use a tissue.",
+          "image": "h-sneeze"
+        },
+        {
+          "q": "My knee hurts.",
+          "a": "You should put on a bandage.",
+          "image": "a-bandage"
+        },
+        {
+          "q": "I have a fever.",
+          "a": "You should take your temperature and rest.",
+          "image": "a-temperature"
+        },
+        {
+          "q": "I have a sore throat.",
+          "a": "You should drink warm water.",
+          "image": "h-sore-throat"
+        },
+        {
+          "q": "I feel sick at school.",
+          "a": "You should go to the school nurse.",
+          "image": "a-nurse"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "My knee hurts.",
+          "image": "a-bandage",
+          "options": [
+            "You should put on a bandage.",
+            "You should comb your hair."
+          ],
+          "answer": "a",
+          "explain": "A bandage helps a hurt knee."
+        },
+        {
+          "mode": "try",
+          "prompt": "I’m coughing.",
+          "image": "a-cover",
+          "options": [
+            "You should share a drink.",
+            "You should cover your mouth."
+          ],
+          "answer": "b",
+          "explain": "Cover your mouth when you cough."
+        }
+      ],
+      "teacherNote": "Play “Doctor, doctor!”: one pupil says a problem, another gives advice. Swap roles."
+    },
+    {
+      "id": "hygiene",
+      "title": "Hygiene habits",
+      "rule": "Clean habits keep germs away: **wash my hands, brush my teeth …**",
+      "image": "y-hands",
+      "examples": [
+        {
+          "text": "I **brush my teeth**.",
+          "image": "y-teeth",
+          "speaker": "Mia"
+        },
+        {
+          "text": "I **comb my hair**.",
+          "image": "y-hair",
+          "speaker": "Sam"
+        },
+        {
+          "text": "I **wash my face**.",
+          "image": "y-face",
+          "speaker": "Leo"
+        },
+        {
+          "text": "I **use hand gel**.",
+          "image": "y-gel",
+          "speaker": "Ana"
+        },
+        {
+          "text": "I **cut my nails**.",
+          "image": "y-nails",
+          "speaker": "Leo"
+        },
+        {
+          "text": "I **take a shower**.",
+          "image": "y-shower",
+          "speaker": "Sam"
+        },
+        {
+          "text": "I **wipe my mouth**.",
+          "image": "y-wipe",
+          "speaker": "Mia"
+        },
+        {
+          "text": "I **wash my hands**.",
+          "image": "y-hands",
+          "speaker": "Ana"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "I ___ my teeth.",
+          "image": "y-teeth",
+          "options": [
+            "brush",
+            "comb"
+          ],
+          "answer": "a",
+          "explain": "brush my teeth."
+        },
+        {
+          "mode": "try",
+          "prompt": "I ___ my hair.",
+          "image": "y-hair",
+          "options": [
+            "wipe",
+            "comb"
+          ],
+          "answer": "b",
+          "explain": "comb my hair."
+        }
+      ],
+      "teacherNote": "Sing the actions: This is the way I brush my teeth … Pupils mime each habit. Talk about when: in the morning, before lunch, at night."
+    },
+    {
+      "id": "often-words",
+      "title": "always, usually, sometimes, never",
+      "rule": "**always** 100% · **usually** 80% · **sometimes** 50% · **never** 0%",
+      "image": "y-teeth",
+      "examples": [
+        {
+          "text": "Mia **always** brushes her teeth before bed.",
+          "image": "y-teeth",
+          "label": "always = every time"
+        },
+        {
+          "text": "Sam **usually** takes a shower in the evening.",
+          "image": "y-shower",
+          "label": "usually = most times"
+        },
+        {
+          "text": "Ana **sometimes** uses hand gel.",
+          "image": "y-gel",
+          "label": "sometimes = some times"
+        },
+        {
+          "text": "We **never** eat with dirty hands.",
+          "image": "g-dirty",
+          "label": "never = not one time"
+        },
+        {
+          "text": "Leo **always** washes his face in the morning.",
+          "image": "y-face",
+          "label": "always = every time"
+        },
+        {
+          "text": "Mia **usually** wipes her mouth with a napkin.",
+          "image": "y-wipe",
+          "label": "usually = most times"
+        }
+      ],
+      "groups": [
+        {
+          "label": "100%",
+          "words": [
+            "always"
+          ]
+        },
+        {
+          "label": "80%",
+          "words": [
+            "usually"
+          ]
+        },
+        {
+          "label": "50%",
+          "words": [
+            "sometimes"
+          ]
+        },
+        {
+          "label": "0%",
+          "words": [
+            "never"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Every time = ___",
+          "image": "y-teeth",
+          "options": [
+            "always",
+            "never"
+          ],
+          "answer": "a",
+          "explain": "always = 100%."
+        },
+        {
+          "mode": "try",
+          "prompt": "Not one time = ___",
+          "image": "g-dirty",
+          "options": [
+            "sometimes",
+            "never"
+          ],
+          "answer": "b",
+          "explain": "never = 0%."
+        }
+      ],
+      "teacherNote": "Draw a line from 0% to 100% on the board. Pupils stand at the place that is true for them: I always / usually / sometimes / never …"
+    },
+    {
+      "id": "often-place",
+      "title": "Where does always go?",
+      "rule": "Who + **always / usually / sometimes / never** + verb.",
+      "image": "y-face",
+      "examples": [
+        {
+          "machine": {
+            "subject": "leo",
+            "verb": "wash-face",
+            "to": "often"
+          }
+        },
+        {
+          "text": "I **always** wash my hands.",
+          "image": "y-hands",
+          "label": "before the verb"
+        },
+        {
+          "text": "He **usually** combs his hair.",
+          "image": "y-hair",
+          "label": "he → combs (-s)"
+        },
+        {
+          "text": "She **sometimes** uses hand gel.",
+          "image": "y-gel"
+        },
+        {
+          "text": "They **never** bite their nails.",
+          "image": "y-nails"
+        },
+        {
+          "text": "We **always** throw used tissues away.",
+          "image": "g-bin"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which one is right?",
+          "image": "y-hands",
+          "options": [
+            "I always wash my hands.",
+            "I wash always my hands."
+          ],
+          "answer": "a",
+          "explain": "always goes before the verb."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which one is right?",
+          "image": "y-hair",
+          "options": [
+            "Sam combs usually his hair.",
+            "Sam usually combs his hair."
+          ],
+          "answer": "b",
+          "explain": "usually + combs."
+        }
+      ],
+      "teacherNote": "The adverb sits between who and the verb. The verb keeps its Week 1 form: he always washes."
+    },
+    {
+      "id": "how-often",
+      "title": "How often …?",
+      "rule": "**How often do** you …? **How often does** he / she …?",
+      "image": "y-shower",
+      "examples": [
+        {
+          "machine": {
+            "subject": "sam",
+            "verb": "shower",
+            "to": "often"
+          }
+        },
+        {
+          "machine": {
+            "subject": "they",
+            "verb": "dirty-hands",
+            "to": "often"
+          }
+        },
+        {
+          "q": "**How often do** you brush your teeth?",
+          "a": "I always brush my teeth after meals.",
+          "image": "y-teeth"
+        },
+        {
+          "q": "**How often does** Ana use hand gel?",
+          "a": "She sometimes uses hand gel.",
+          "image": "y-gel"
+        },
+        {
+          "q": "**How often does** Leo cut his nails?",
+          "a": "Once a week.",
+          "image": "y-nails"
+        },
+        {
+          "q": "**How often do** they wash their hands?",
+          "a": "They always wash their hands before meals.",
+          "image": "y-hands"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "How often ___ you wash your face?",
+          "image": "y-face",
+          "options": [
+            "do",
+            "does"
+          ],
+          "answer": "a",
+          "explain": "you → do."
+        },
+        {
+          "mode": "try",
+          "prompt": "How often ___ Sam take a shower?",
+          "image": "y-shower",
+          "options": [
+            "do",
+            "does"
+          ],
+          "answer": "b",
+          "explain": "Sam = he → does."
+        }
+      ],
+      "teacherNote": "This uses do / does from Week 1. After does the verb has no -s: How often does he wash …?"
+    },
+    {
+      "id": "every",
+      "title": "every day, once a week",
+      "rule": "At the end: **every day · every morning · once a week · twice a day**.",
+      "image": "y-nails",
+      "examples": [
+        {
+          "text": "Ana washes her hands **every day**.",
+          "image": "y-hands"
+        },
+        {
+          "text": "Mia brushes her teeth **twice a day**.",
+          "image": "y-teeth",
+          "label": "twice = two times"
+        },
+        {
+          "text": "Leo cuts his nails **once a week**.",
+          "image": "y-nails",
+          "label": "once = one time"
+        },
+        {
+          "text": "Sam takes a shower **every evening**.",
+          "image": "y-shower"
+        },
+        {
+          "text": "Leo washes his face **every morning**.",
+          "image": "y-face"
+        },
+        {
+          "q": "**How often** do you cut your nails?",
+          "a": "**Once a week.**",
+          "image": "y-nails"
+        }
+      ],
+      "groups": [
+        {
+          "label": "before the verb",
+          "words": [
+            "always",
+            "usually",
+            "sometimes",
+            "never"
+          ]
+        },
+        {
+          "label": "at the end",
+          "words": [
+            "every day",
+            "once a week",
+            "twice a day"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "One time a week = ___",
+          "image": "y-nails",
+          "options": [
+            "once a week",
+            "twice a week"
+          ],
+          "answer": "a",
+          "explain": "once = one time."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia brushes her teeth ___.",
+          "image": "y-teeth",
+          "options": [
+            "twice a day",
+            "never"
+          ],
+          "answer": "a",
+          "explain": "In the morning and at night = twice a day."
+        }
+      ],
+      "teacherNote": "Phrases with every / once / twice usually go at the end of the sentence, not before the verb."
+    },
+    {
+      "id": "doctor-talk",
+      "title": "At the doctor’s",
+      "rule": "Ask: **What’s the matter? What’s wrong?** Be kind: **I’m sorry. That’s too bad.**",
+      "image": "d-talk",
+      "examples": [
+        {
+          "text": "“**What’s the matter**, Mia?”",
+          "image": "d-talk",
+          "speaker": "Doctor"
+        },
+        {
+          "text": "“I don’t feel well. My throat hurts.”",
+          "image": "h-sore-throat",
+          "speaker": "Mia"
+        },
+        {
+          "text": "“**I’m sorry.** You have a sore throat.”",
+          "image": "d-talk",
+          "speaker": "Doctor"
+        },
+        {
+          "text": "“**What should I do**?”",
+          "image": "d-talk",
+          "speaker": "Mia"
+        },
+        {
+          "text": "“You should drink warm water and rest.”",
+          "image": "a-rest",
+          "speaker": "Doctor"
+        },
+        {
+          "text": "“**That’s too bad**, Leo. **How are you feeling** now?”",
+          "image": "d-sorry",
+          "speaker": "Ana"
+        }
+      ],
+      "groups": [
+        {
+          "label": "Ask",
+          "words": [
+            "What’s the matter?",
+            "What’s wrong?",
+            "How are you feeling?"
+          ]
+        },
+        {
+          "label": "Be kind",
+          "words": [
+            "I’m sorry.",
+            "That’s too bad.",
+            "That’s terrible!"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Your friend says: “My leg hurts.” You say:",
+          "image": "h-leg",
+          "options": [
+            "That’s too bad.",
+            "That’s great!"
+          ],
+          "answer": "a",
+          "explain": "Show you care."
+        },
+        {
+          "mode": "try",
+          "prompt": "The doctor asks about the problem:",
+          "image": "a-doctor",
+          "options": [
+            "What’s the matter?",
+            "What’s your name?"
+          ],
+          "answer": "a",
+          "explain": "What’s the matter? = What is the problem?"
+        }
+      ],
+      "teacherNote": "Role-play: patient says how they feel and what hurts; doctor asks, shows sympathy, names the problem and gives advice."
+    },
+    {
+      "id": "germs",
+      "title": "Germs",
+      "rule": "Germs are **tiny**. They are **everywhere**. Some germs make us **sick**.",
+      "image": "g-germs",
+      "examples": [
+        {
+          "text": "**Germs** are very small. We can’t see them with our eyes.",
+          "image": "g-germs"
+        },
+        {
+          "text": "Germs are **everywhere**: on doors, desks and pencils.",
+          "image": "g-everywhere"
+        },
+        {
+          "text": "Germs **spread** when we sneeze and cough.",
+          "image": "h-sneeze"
+        },
+        {
+          "text": "Sam has **dirty hands**. He should wash them before he eats.",
+          "image": "g-dirty"
+        },
+        {
+          "text": "Ana **throws** her used tissue **away**.",
+          "image": "g-bin"
+        },
+        {
+          "text": "Wash your hands and the germs go away!",
+          "image": "y-hands"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Can we see germs with our eyes?",
+          "image": "g-germs",
+          "options": [
+            "No, we can’t.",
+            "Yes, we can."
+          ],
+          "answer": "a",
+          "explain": "They are very small."
+        },
+        {
+          "mode": "try",
+          "prompt": "Where are germs?",
+          "image": "g-everywhere",
+          "options": [
+            "Only outside.",
+            "Everywhere."
+          ],
+          "answer": "b",
+          "explain": "On doors, desks, pencils …"
+        }
+      ],
+      "teacherNote": "Put a little glitter on a pupil’s hand and shake hands around the class: the “germs” spread. Then wash hands."
+    },
+    {
+      "id": "story-order",
+      "title": "First, next, after that, last",
+      "rule": "A story happens in order: **First … Next … After that … Last …**",
+      "image": "s-better",
+      "examples": [
+        {
+          "text": "**First**, Mia wakes up with a cold.",
+          "image": "h-cold"
+        },
+        {
+          "text": "**Next**, Dad takes her temperature.",
+          "image": "a-temperature",
+          "label": "Dad helps Mia too."
+        },
+        {
+          "text": "**After that**, she rests in bed and drinks water.",
+          "image": "a-rest"
+        },
+        {
+          "text": "**Last**, Mia feels better!",
+          "image": "s-better"
+        },
+        {
+          "text": "Grandma visits and gives Mia a big **hug**.",
+          "image": "s-hug",
+          "label": "This happens after that too."
+        },
+        {
+          "text": "Leo and Ana make a **get-well card** for Mia.",
+          "image": "s-card"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which word starts a story?",
+          "image": "h-cold",
+          "options": [
+            "First",
+            "Last"
+          ],
+          "answer": "a",
+          "explain": "First = number 1."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which word ends a story?",
+          "image": "s-better",
+          "options": [
+            "Next",
+            "Last"
+          ],
+          "answer": "b",
+          "explain": "Last = the end."
+        }
+      ],
+      "teacherNote": "Cut a short story into four strips. Pupils put them in order and read them with First, Next, After that, Last."
+    },
+    {
+      "id": "clean-water",
+      "title": "Clean water",
+      "rule": "Clean water helps us stay **healthy**. Some children walk far to get water.",
+      "image": "c-tap",
+      "examples": [
+        {
+          "text": "This is a small **village**.",
+          "image": "c-village"
+        },
+        {
+          "text": "Some children **carry** big, **heavy** bottles from the **river**.",
+          "image": "c-carry"
+        },
+        {
+          "text": "River water is not always clean.",
+          "image": "c-river"
+        },
+        {
+          "text": "A **well** takes water from deep under the ground.",
+          "image": "c-well"
+        },
+        {
+          "text": "A **solar panel** gives power to the pump. Clean water comes out of the **tap**.",
+          "image": "c-tap"
+        },
+        {
+          "text": "Now the children can wash their hands with clean water.",
+          "image": "c-tap",
+          "label": "Clean water stops germs."
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "The bottle is full of water. It is ___.",
+          "image": "c-carry",
+          "options": [
+            "heavy",
+            "tiny"
+          ],
+          "answer": "a",
+          "explain": "Water is heavy."
+        },
+        {
+          "mode": "try",
+          "prompt": "Clean water comes out of the ___.",
+          "image": "c-tap",
+          "options": [
+            "tap",
+            "tissue"
+          ],
+          "answer": "a",
+          "explain": "The tap."
+        }
+      ],
+      "teacherNote": "Talk about where our water comes from. How far do you walk to get water? (Only to the tap!)"
+    },
+    {
+      "id": "punctuation",
+      "title": ". ? ! at the end",
+      "rule": "A sentence ends with **.** A question ends with **?** A strong feeling ends with **!**",
+      "image": "v-kind",
+      "examples": [
+        {
+          "text": "I have a cold**.**",
+          "image": "h-cold",
+          "label": "statement → ."
+        },
+        {
+          "text": "How are you feeling**?**",
+          "image": "a-nurse",
+          "label": "question → ?"
+        },
+        {
+          "text": "Get well soon**!**",
+          "image": "v-kind",
+          "label": "strong feeling → !"
+        },
+        {
+          "text": "Dear Sam, I’m sorry you have a cold. You should rest. Get well soon! From Mia",
+          "image": "s-card",
+          "label": "A get-well note"
+        },
+        {
+          "text": "That’s terrible**!**",
+          "image": "h-toothache",
+          "label": "strong feeling → !"
+        },
+        {
+          "text": "What should I do**?**",
+          "image": "d-talk",
+          "label": "question → ?"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Should I rest___",
+          "image": "a-rest",
+          "options": [
+            "?",
+            "."
+          ],
+          "answer": "a",
+          "explain": "It is a question."
+        },
+        {
+          "mode": "try",
+          "prompt": "Get well soon___",
+          "image": "v-kind",
+          "options": [
+            "?",
+            "!"
+          ],
+          "answer": "b",
+          "explain": "A strong, happy feeling."
+        }
+      ],
+      "teacherNote": "Pupils write a short get-well note to a friend: Dear …, I’m sorry …, You should …, Get well soon! From …"
+    },
+    {
+      "id": "values",
+      "title": "Values",
+      "rule": "Values help us decide what to do: **honesty, kindness, gratefulness, responsibility**.",
+      "image": "v-kind",
+      "examples": [
+        {
+          "text": "Sam feels sick. He tells his mom the truth. That is **honesty**.",
+          "image": "v-honest"
+        },
+        {
+          "text": "Mia makes a card for her sick friend. That is **kindness**.",
+          "image": "v-kind"
+        },
+        {
+          "text": "Mia helps Leo up. Leo says “Thank you!” That is **gratefulness**.",
+          "image": "v-grateful"
+        },
+        {
+          "text": "Ana washes the dishes after lunch. That is **responsibility**.",
+          "image": "v-responsible"
+        },
+        {
+          "text": "“When I share my crayons, I am being kind.”",
+          "image": "s-share",
+          "speaker": "Leo"
+        },
+        {
+          "text": "“When I say thank you, I am being grateful.”",
+          "image": "v-grateful",
+          "speaker": "Leo"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "You tell the truth. That is ___.",
+          "image": "v-honest",
+          "options": [
+            "honesty",
+            "kindness"
+          ],
+          "answer": "a",
+          "explain": "The truth → honesty."
+        },
+        {
+          "mode": "try",
+          "prompt": "You say “Thank you!” That is ___.",
+          "image": "v-grateful",
+          "options": [
+            "responsibility",
+            "gratefulness"
+          ],
+          "answer": "b",
+          "explain": "Thank you → gratefulness."
+        }
+      ],
+      "teacherNote": "Pupils finish the sentence: When I …, I am being kind / honest / grateful / responsible."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w4-sp-01",
+      "question": "What’s the matter? Act out a health problem.",
+      "image": "h-cold",
+      "help": [
+        "I have a …",
+        "My … hurts."
+      ],
+      "sample": "I have a headache.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-02",
+      "question": "You have a cold. What should you do?",
+      "image": "a-rest",
+      "help": [
+        "I should …"
+      ],
+      "sample": "I should rest and drink water."
+    },
+    {
+      "id": "w4-sp-03",
+      "question": "You have a toothache. What should you do?",
+      "image": "a-dentist",
+      "help": [
+        "I should …",
+        "I shouldn’t …"
+      ],
+      "sample": "I should go to the dentist. I shouldn’t eat candy."
+    },
+    {
+      "id": "w4-sp-04",
+      "question": "Your friend is sneezing. Give some advice.",
+      "image": "h-sneeze",
+      "help": [
+        "You should …"
+      ],
+      "sample": "You should use a tissue.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-05",
+      "question": "What shouldn’t you do when you are sick?",
+      "image": "s-share",
+      "help": [
+        "I shouldn’t …"
+      ],
+      "sample": "I shouldn’t share my drink.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-06",
+      "question": "Ask for advice. Start with Should I …?",
+      "image": "d-talk",
+      "help": [
+        "Should I …?"
+      ],
+      "sample": "Should I go to the doctor?",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-07",
+      "question": "Should you go to school with a fever?",
+      "image": "h-fever",
+      "help": [
+        "Yes, I should.",
+        "No, I shouldn’t."
+      ],
+      "sample": "No, I shouldn’t."
+    },
+    {
+      "id": "w4-sp-08",
+      "question": "How is your day different when you are sick?",
+      "image": "a-rest",
+      "help": [
+        "I stay …",
+        "I don’t …"
+      ],
+      "sample": "I stay at home. I don’t go to school.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-09",
+      "question": "Name four hygiene habits.",
+      "image": "y-hands",
+      "help": [
+        "I wash …",
+        "I brush …"
+      ],
+      "sample": "I wash my hands, brush my teeth, comb my hair and take a shower.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-10",
+      "question": "How often do you brush your teeth?",
+      "image": "y-teeth",
+      "help": [
+        "I always …",
+        "twice a day"
+      ],
+      "sample": "I always brush my teeth twice a day.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-11",
+      "question": "How often do you take a shower?",
+      "image": "y-shower",
+      "help": [
+        "I usually …",
+        "every …"
+      ],
+      "sample": "I usually take a shower every evening.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-12",
+      "question": "What do you never do?",
+      "image": "g-dirty",
+      "help": [
+        "I never …"
+      ],
+      "sample": "I never eat with dirty hands.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-13",
+      "question": "Which hygiene habit should you do more?",
+      "image": "y-gel",
+      "help": [
+        "I should … more."
+      ],
+      "sample": "I should use hand gel more.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-14",
+      "question": "When do you wash your hands?",
+      "image": "y-hands",
+      "help": [
+        "Before …",
+        "After …"
+      ],
+      "sample": "Before lunch and after the toilet.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-15",
+      "question": "You are the doctor. Ask your patient a question.",
+      "image": "a-doctor",
+      "help": [
+        "What’s the matter?",
+        "How are you feeling?"
+      ],
+      "sample": "What’s the matter? How are you feeling?",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-16",
+      "question": "Your friend says: “My leg hurts.” Show you care.",
+      "image": "h-leg",
+      "help": [
+        "I’m sorry.",
+        "That’s too bad."
+      ],
+      "sample": "That’s too bad. You should go to the school nurse.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-17",
+      "question": "What are germs? Say two things.",
+      "image": "g-germs",
+      "help": [
+        "Germs are …",
+        "They …"
+      ],
+      "sample": "Germs are tiny. They are everywhere."
+    },
+    {
+      "id": "w4-sp-18",
+      "question": "Name an action that stops germs from spreading.",
+      "image": "a-cover",
+      "help": [
+        "We should …"
+      ],
+      "sample": "We should cover our mouth when we cough.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-19",
+      "question": "Why is clean water important?",
+      "image": "c-tap",
+      "help": [
+        "Because …"
+      ],
+      "sample": "Because dirty water can make people sick."
+    },
+    {
+      "id": "w4-sp-20",
+      "question": "Tell the story of Mia’s cold. Use First, Next, Last.",
+      "image": "s-better",
+      "help": [
+        "First, …",
+        "Next, …",
+        "Last, …"
+      ],
+      "sample": "First, Mia has a cold. Next, she rests. Last, she feels better."
+    },
+    {
+      "id": "w4-sp-21",
+      "question": "How can you show kindness to a sick friend?",
+      "image": "v-kind",
+      "help": [
+        "When I …, I am being kind."
+      ],
+      "sample": "When I make a get-well card, I am being kind.",
+      "personal": true
+    },
+    {
+      "id": "w4-sp-22",
+      "question": "Why do we get sick? Give your answer.",
+      "image": "g-everywhere",
+      "help": [
+        "Because …",
+        "We should …"
+      ],
+      "sample": "Because germs spread. We should wash our hands.",
+      "personal": true
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "h-sore-throat",
+        "subject": "She",
+        "word": "a sore throat",
+        "sentence": "She has a sore throat."
+      },
+      {
+        "image": "h-cough",
+        "subject": "He",
+        "word": "coughing",
+        "sentence": "He is coughing into his elbow."
+      },
+      {
+        "image": "h-stomachache",
+        "subject": "He",
+        "word": "a stomachache",
+        "sentence": "He has a stomachache."
+      },
+      {
+        "image": "h-fever",
+        "subject": "She",
+        "word": "a fever",
+        "sentence": "She has a fever."
+      },
+      {
+        "image": "h-leg",
+        "subject": "He",
+        "word": "his leg hurts",
+        "sentence": "His leg hurts."
+      },
+      {
+        "image": "h-sneeze",
+        "subject": "She",
+        "word": "sneezing",
+        "sentence": "She is sneezing."
+      },
+      {
+        "image": "h-toothache",
+        "subject": "He",
+        "word": "a toothache",
+        "sentence": "He has a toothache."
+      },
+      {
+        "image": "h-earache",
+        "subject": "She",
+        "word": "an earache",
+        "sentence": "She has an earache."
+      },
+      {
+        "image": "h-headache",
+        "subject": "He",
+        "word": "a headache",
+        "sentence": "He has a headache."
+      },
+      {
+        "image": "h-cold",
+        "subject": "She",
+        "word": "a cold",
+        "sentence": "She has a cold."
+      },
+      {
+        "image": "a-dentist",
+        "subject": "He",
+        "word": "at the dentist",
+        "sentence": "He should go to the dentist."
+      },
+      {
+        "image": "a-tissue",
+        "subject": "She",
+        "word": "a tissue",
+        "sentence": "She is using a tissue."
+      },
+      {
+        "image": "a-bandage",
+        "subject": "He",
+        "word": "a bandage",
+        "sentence": "The nurse is putting on a bandage."
+      },
+      {
+        "image": "y-teeth",
+        "subject": "She",
+        "word": "brushing her teeth",
+        "sentence": "She is brushing her teeth."
+      },
+      {
+        "image": "y-hair",
+        "subject": "He",
+        "word": "combing his hair",
+        "sentence": "He is combing his hair."
+      },
+      {
+        "image": "y-face",
+        "subject": "He",
+        "word": "washing his face",
+        "sentence": "He is washing his face."
+      },
+      {
+        "image": "y-gel",
+        "subject": "She",
+        "word": "hand gel",
+        "sentence": "She is using hand gel."
+      },
+      {
+        "image": "y-nails",
+        "subject": "He",
+        "word": "cutting his nails",
+        "sentence": "He is cutting his nails."
+      },
+      {
+        "image": "y-shower",
+        "subject": "He",
+        "word": "a shower",
+        "sentence": "He is taking a shower."
+      },
+      {
+        "image": "y-wipe",
+        "subject": "She",
+        "word": "wiping her mouth",
+        "sentence": "She is wiping her mouth."
+      },
+      {
+        "image": "y-hands",
+        "subject": "She",
+        "word": "washing her hands",
+        "sentence": "She is washing her hands."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "I",
+          "text": "I",
+          "person": "plural",
+          "poss": "my",
+          "short": "I"
+        },
+        {
+          "id": "you",
+          "text": "You",
+          "person": "plural",
+          "poss": "your",
+          "short": "you"
+        },
+        {
+          "id": "we",
+          "text": "We",
+          "person": "plural",
+          "poss": "our",
+          "short": "we"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        },
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "she",
+          "text": "She",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "sam",
+          "text": "Sam",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "mia",
+          "text": "Mia",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "leo",
+          "text": "Leo",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "ana",
+          "text": "Ana",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        }
+      ],
+      "verbs": [
+        {
+          "id": "rest",
+          "base": "rest",
+          "s": "rests",
+          "rest": "in bed",
+          "good": true
+        },
+        {
+          "id": "drink-water",
+          "base": "drink",
+          "s": "drinks",
+          "rest": "lots of water",
+          "good": true
+        },
+        {
+          "id": "see-doctor",
+          "base": "go",
+          "s": "goes",
+          "rest": "to the doctor",
+          "good": true
+        },
+        {
+          "id": "see-dentist",
+          "base": "go",
+          "s": "goes",
+          "rest": "to the dentist",
+          "good": true
+        },
+        {
+          "id": "see-nurse",
+          "base": "go",
+          "s": "goes",
+          "rest": "to the school nurse",
+          "good": true
+        },
+        {
+          "id": "take-medicine",
+          "base": "take",
+          "s": "takes",
+          "rest": "some medicine",
+          "good": true
+        },
+        {
+          "id": "use-tissue",
+          "base": "use",
+          "s": "uses",
+          "rest": "a tissue",
+          "good": true
+        },
+        {
+          "id": "cover-mouth",
+          "base": "cover",
+          "s": "covers",
+          "rest": "{poss} mouth",
+          "good": true
+        },
+        {
+          "id": "temperature",
+          "base": "take",
+          "s": "takes",
+          "rest": "{poss} temperature",
+          "good": true
+        },
+        {
+          "id": "bandage",
+          "base": "put",
+          "s": "puts",
+          "rest": "on a bandage",
+          "good": true
+        },
+        {
+          "id": "stay-home",
+          "base": "stay",
+          "s": "stays",
+          "rest": "at home",
+          "good": true
+        },
+        {
+          "id": "wash-hands",
+          "base": "wash",
+          "s": "washes",
+          "rest": "{poss} hands",
+          "good": true,
+          "often": "always"
+        },
+        {
+          "id": "brush-teeth",
+          "base": "brush",
+          "s": "brushes",
+          "rest": "{poss} teeth",
+          "good": true,
+          "often": "always"
+        },
+        {
+          "id": "comb-hair",
+          "base": "comb",
+          "s": "combs",
+          "rest": "{poss} hair",
+          "good": true,
+          "often": "usually"
+        },
+        {
+          "id": "wash-face",
+          "base": "wash",
+          "s": "washes",
+          "rest": "{poss} face",
+          "good": true,
+          "often": "usually"
+        },
+        {
+          "id": "hand-gel",
+          "base": "use",
+          "s": "uses",
+          "rest": "hand gel",
+          "good": true,
+          "often": "sometimes"
+        },
+        {
+          "id": "cut-nails",
+          "base": "cut",
+          "s": "cuts",
+          "rest": "{poss} nails",
+          "good": true,
+          "often": "sometimes"
+        },
+        {
+          "id": "shower",
+          "base": "take",
+          "s": "takes",
+          "rest": "a shower",
+          "good": true,
+          "often": "usually"
+        },
+        {
+          "id": "wipe-mouth",
+          "base": "wipe",
+          "s": "wipes",
+          "rest": "{poss} mouth",
+          "good": true,
+          "often": "always"
+        },
+        {
+          "id": "throw-tissues",
+          "base": "throw",
+          "s": "throws",
+          "rest": "used tissues away",
+          "good": true,
+          "often": "always"
+        },
+        {
+          "id": "share-drink",
+          "base": "share",
+          "s": "shares",
+          "rest": "a drink",
+          "bad": true
+        },
+        {
+          "id": "school-fever",
+          "base": "go",
+          "s": "goes",
+          "rest": "to school with a fever",
+          "bad": true
+        },
+        {
+          "id": "play-football",
+          "base": "play",
+          "s": "plays",
+          "rest": "football today",
+          "bad": true
+        },
+        {
+          "id": "eat-candy",
+          "base": "eat",
+          "s": "eats",
+          "rest": "lots of candy",
+          "bad": true
+        },
+        {
+          "id": "sneeze-on",
+          "base": "sneeze",
+          "s": "sneezes",
+          "rest": "on people",
+          "bad": true
+        },
+        {
+          "id": "dirty-hands",
+          "base": "eat",
+          "s": "eats",
+          "rest": "with dirty hands",
+          "bad": true,
+          "often": "never"
+        },
+        {
+          "id": "touch-tissues",
+          "base": "touch",
+          "s": "touches",
+          "rest": "used tissues",
+          "bad": true,
+          "often": "never"
+        },
+        {
+          "id": "bite-nails",
+          "base": "bite",
+          "s": "bites",
+          "rest": "{poss} nails",
+          "bad": true,
+          "often": "never"
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-01",
+        "who": "Mia",
+        "image": "a-rest",
+        "clue": "Mia has a cold. Resting is a good idea.",
+        "options": [
+          "Mia should rest.",
+          "Mia should rests.",
+          "Mia shoulds rest."
+        ],
+        "answer": "a",
+        "reveal": "Mia should rest.",
+        "hint": "should + rest (no -s)."
+      },
+      {
+        "id": "door-02",
+        "who": "Leo",
+        "image": "s-share",
+        "clue": "Leo is sick. Sharing a drink is a bad idea.",
+        "options": [
+          "Leo should share a drink.",
+          "Leo shouldn’t share a drink.",
+          "Leo doesn’t should share a drink."
+        ],
+        "answer": "b",
+        "reveal": "Leo shouldn’t share a drink.",
+        "hint": "A bad idea → shouldn’t."
+      },
+      {
+        "id": "door-03",
+        "who": "you",
+        "image": "a-doctor",
+        "clue": "You want advice. Ask about the doctor.",
+        "options": [
+          "Should I go to the doctor?",
+          "I should go to the doctor?",
+          "Do I should go to the doctor?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, you should.",
+        "hint": "Should comes first."
+      },
+      {
+        "id": "door-04",
+        "who": "Ana",
+        "image": "h-fever",
+        "clue": "Ana has a fever. Ask about school.",
+        "options": [
+          "Should Ana go to school?",
+          "Should Ana goes to school?",
+          "Ana should go to school?"
+        ],
+        "answer": "a",
+        "reveal": "No, she shouldn’t.",
+        "hint": "Should + Ana + go."
+      },
+      {
+        "id": "door-05",
+        "who": "Sam",
+        "image": "y-shower",
+        "clue": "Ask about Sam’s shower.",
+        "options": [
+          "How often does Sam take a shower?",
+          "How often do Sam take a shower?",
+          "How often does Sam takes a shower?"
+        ],
+        "answer": "a",
+        "reveal": "He usually takes a shower in the evening.",
+        "hint": "Sam = he → does + take."
+      },
+      {
+        "id": "door-06",
+        "who": "you",
+        "image": "y-teeth",
+        "clue": "Ask your friend about their teeth.",
+        "options": [
+          "How often do you brush your teeth?",
+          "How often does you brush your teeth?",
+          "How often you brush your teeth?"
+        ],
+        "answer": "a",
+        "reveal": "I always brush my teeth twice a day.",
+        "hint": "you → do."
+      },
+      {
+        "id": "door-07",
+        "who": "Mia",
+        "image": "y-teeth",
+        "clue": "Mia brushes her teeth every time after meals.",
+        "options": [
+          "Mia always brushes her teeth.",
+          "Mia brushes always her teeth.",
+          "Always Mia brush her teeth."
+        ],
+        "answer": "a",
+        "reveal": "Mia always brushes her teeth.",
+        "hint": "always + brushes."
+      },
+      {
+        "id": "door-08",
+        "who": "we",
+        "image": "g-dirty",
+        "clue": "We don’t eat with dirty hands. Not one time!",
+        "options": [
+          "We sometimes eat with dirty hands.",
+          "We never eat with dirty hands.",
+          "We eat never with dirty hands."
+        ],
+        "answer": "b",
+        "reveal": "We never eat with dirty hands.",
+        "hint": "never = 0%, before the verb."
+      },
+      {
+        "id": "door-09",
+        "who": "the doctor",
+        "image": "d-talk",
+        "clue": "The doctor wants to know the problem.",
+        "options": [
+          "What’s the matter?",
+          "What’s your name?",
+          "Where’s the matter?"
+        ],
+        "answer": "a",
+        "reveal": "My throat hurts.",
+        "hint": "What’s the matter? = What is the problem?"
+      },
+      {
+        "id": "door-10",
+        "who": "Ana",
+        "image": "d-sorry",
+        "clue": "Leo is hurt and sad. Ana is kind.",
+        "options": [
+          "That’s great!",
+          "That’s too bad.",
+          "Hooray!"
+        ],
+        "answer": "b",
+        "reveal": "That’s too bad, Leo. I’m sorry.",
+        "hint": "Show you care."
+      },
+      {
+        "id": "door-11",
+        "who": "Leo",
+        "image": "h-earache",
+        "clue": "Leo has an earache.",
+        "options": [
+          "Leo has a earache.",
+          "Leo has an earache.",
+          "Leo have an earache."
+        ],
+        "answer": "b",
+        "reveal": "Leo has an earache.",
+        "hint": "an + earache · Leo has."
+      },
+      {
+        "id": "door-12",
+        "who": "Ana",
+        "image": "a-cover",
+        "clue": "Ana is coughing. Covering her mouth is a good idea.",
+        "options": [
+          "Ana should cover her mouth.",
+          "Ana should covers her mouth.",
+          "Ana shouldn’t cover her mouth."
+        ],
+        "answer": "a",
+        "reveal": "Ana should cover her mouth.",
+        "hint": "should + cover."
+      }
+    ],
+    "yesNo": [
+      {
+        "id": "yn-01",
+        "image": "a-rest",
+        "clue": "Mia has a cold.",
+        "question": "Should Mia rest?",
+        "options": [
+          "Yes, she should.",
+          "No, she shouldn’t."
+        ],
+        "answer": "a",
+        "hint": "Rest helps you get better."
+      },
+      {
+        "id": "yn-02",
+        "image": "h-fever",
+        "clue": "Ana has a fever.",
+        "question": "Should Ana go to school?",
+        "options": [
+          "Yes, she should.",
+          "No, she shouldn’t."
+        ],
+        "answer": "b",
+        "hint": "Stay at home with a fever."
+      },
+      {
+        "id": "yn-03",
+        "image": "a-dentist",
+        "clue": "Leo has a toothache.",
+        "question": "Should Leo go to the dentist?",
+        "options": [
+          "Yes, he should.",
+          "Yes, he does."
+        ],
+        "answer": "a",
+        "hint": "Should …? → Yes, he should."
+      },
+      {
+        "id": "yn-04",
+        "image": "h-toothache",
+        "clue": "Leo has a toothache.",
+        "question": "Should Leo eat lots of candy?",
+        "options": [
+          "Yes, he should.",
+          "No, he shouldn’t."
+        ],
+        "answer": "b",
+        "hint": "Candy is bad for teeth."
+      },
+      {
+        "id": "yn-05",
+        "image": "a-tissue",
+        "clue": "Mia is sneezing.",
+        "question": "Should Mia use a tissue?",
+        "options": [
+          "Yes, she should.",
+          "No, she shouldn’t."
+        ],
+        "answer": "a",
+        "hint": "A tissue stops germs."
+      },
+      {
+        "id": "yn-06",
+        "image": "s-share",
+        "clue": "Leo has a cold.",
+        "question": "Should Leo share his drink?",
+        "options": [
+          "Yes, he should.",
+          "No, he shouldn’t."
+        ],
+        "answer": "b",
+        "hint": "Germs go from cup to cup."
+      },
+      {
+        "id": "yn-07",
+        "image": "g-dirty",
+        "clue": "Sam has dirty hands.",
+        "question": "Should Sam eat now?",
+        "options": [
+          "Yes, he should.",
+          "No, he shouldn’t."
+        ],
+        "answer": "b",
+        "hint": "Wash your hands first!"
+      },
+      {
+        "id": "yn-08",
+        "image": "a-cover",
+        "clue": "Ana is coughing.",
+        "question": "Should Ana cover her mouth?",
+        "options": [
+          "Yes, she should.",
+          "No, she shouldn’t."
+        ],
+        "answer": "a",
+        "hint": "Cover your mouth when you cough."
+      },
+      {
+        "id": "yn-09",
+        "image": "a-bandage",
+        "clue": "Leo’s knee hurts.",
+        "question": "Should Leo put on a bandage?",
+        "options": [
+          "Yes, he should.",
+          "No, he shouldn’t."
+        ],
+        "answer": "a",
+        "hint": "A bandage helps."
+      },
+      {
+        "id": "yn-10",
+        "image": "h-sneeze",
+        "clue": "Ana is sneezing.",
+        "question": "Should Ana sneeze on her friends?",
+        "options": [
+          "Yes, she should.",
+          "No, she shouldn’t."
+        ],
+        "answer": "b",
+        "hint": "Use a tissue."
+      },
+      {
+        "id": "yn-11",
+        "image": "y-teeth",
+        "clue": "Mia brushes her teeth every morning and every night.",
+        "question": "Does Mia always brush her teeth?",
+        "options": [
+          "Yes, she does.",
+          "No, she doesn’t."
+        ],
+        "answer": "a",
+        "hint": "Every time = always."
+      },
+      {
+        "id": "yn-12",
+        "image": "g-dirty",
+        "clue": "We don’t eat with dirty hands. Not one time.",
+        "question": "Do we sometimes eat with dirty hands?",
+        "options": [
+          "Yes, we do.",
+          "No, we don’t."
+        ],
+        "answer": "b",
+        "hint": "Not one time = never."
+      },
+      {
+        "id": "yn-13",
+        "image": "y-shower",
+        "clue": "Sam takes a shower most evenings.",
+        "question": "Does Sam usually take a shower in the evening?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn’t."
+        ],
+        "answer": "a",
+        "hint": "Most times = usually."
+      },
+      {
+        "id": "yn-14",
+        "image": "y-nails",
+        "clue": "Leo cuts his nails once a week.",
+        "question": "Does Leo cut his nails every day?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn’t."
+        ],
+        "answer": "b",
+        "hint": "Once a week, not every day."
+      },
+      {
+        "id": "yn-15",
+        "image": "y-gel",
+        "clue": "Ana uses hand gel at school, but not every day.",
+        "question": "Does Ana always use hand gel?",
+        "options": [
+          "Yes, she does.",
+          "No, she doesn’t."
+        ],
+        "answer": "b",
+        "hint": "Not every day = sometimes."
+      },
+      {
+        "id": "yn-16",
+        "image": "g-germs",
+        "clue": "Germs are very small.",
+        "question": "Can we see germs with our eyes?",
+        "options": [
+          "Yes, we can.",
+          "No, we can’t."
+        ],
+        "answer": "b",
+        "hint": "They are too small."
+      },
+      {
+        "id": "yn-17",
+        "image": "g-everywhere",
+        "clue": "Germs are on doors, desks and pencils.",
+        "question": "Are germs everywhere?",
+        "options": [
+          "Yes, they are.",
+          "No, they aren’t."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-18",
+        "image": "c-tap",
+        "clue": "The village has a new tap with clean water.",
+        "question": "Is the water from the tap clean?",
+        "options": [
+          "Yes, it is.",
+          "No, it isn’t."
+        ],
+        "answer": "a",
+        "hint": "Read the clue."
+      },
+      {
+        "id": "yn-19",
+        "image": "c-carry",
+        "clue": "The bottle is big and full of water.",
+        "question": "Is the bottle heavy?",
+        "options": [
+          "Yes, it is.",
+          "No, it isn’t."
+        ],
+        "answer": "a",
+        "hint": "Water is heavy."
+      },
+      {
+        "id": "yn-20",
+        "image": "s-better",
+        "clue": "Mia rested for two days. Now she is jumping out of bed.",
+        "question": "Does Mia feel better?",
+        "options": [
+          "Yes, she does.",
+          "No, she doesn’t."
+        ],
+        "answer": "a",
+        "hint": "She is jumping and smiling."
+      }
+    ],
+    "memory": {
+      "pairs": 6
+    }
+  },
+  "extraWordSets": [
+    {
+      "id": "better",
+      "title": "Get better: what to do",
+      "words": [
+        {
+          "id": "go-to-the-doctor",
+          "word": "go to the doctor",
+          "phrase": "go to the doctor",
+          "image": "a-doctor",
+          "example": "Leo is at the doctor. She is listening to his chest."
+        },
+        {
+          "id": "use-a-tissue",
+          "word": "use a tissue",
+          "phrase": "use a tissue",
+          "image": "a-tissue",
+          "example": "Mia is using a tissue."
+        },
+        {
+          "id": "take-medicine",
+          "word": "take medicine",
+          "phrase": "take medicine",
+          "image": "a-medicine",
+          "example": "Ana is taking some medicine."
+        },
+        {
+          "id": "take-your-temperature",
+          "word": "take your temperature",
+          "phrase": "take your temperature",
+          "image": "a-temperature",
+          "example": "Dad is taking Sam’s temperature."
+        },
+        {
+          "id": "put-on-a-bandage",
+          "word": "put on a bandage",
+          "phrase": "put on a bandage",
+          "image": "a-bandage",
+          "example": "The nurse is putting a bandage on Leo’s knee."
+        },
+        {
+          "id": "cover-your-mouth",
+          "word": "cover your mouth",
+          "phrase": "cover your mouth",
+          "image": "a-cover",
+          "example": "Ana covers her mouth when she coughs."
+        },
+        {
+          "id": "drink-water",
+          "word": "drink water",
+          "phrase": "drink water",
+          "image": "a-water",
+          "example": "Sam is drinking a big glass of water."
+        },
+        {
+          "id": "go-to-the-dentist",
+          "word": "go to the dentist",
+          "phrase": "go to the dentist",
+          "image": "a-dentist",
+          "example": "Leo is at the dentist."
+        },
+        {
+          "id": "school-nurse",
+          "word": "the school nurse",
+          "phrase": "the school nurse",
+          "image": "a-nurse",
+          "example": "Mia is talking to the school nurse."
+        },
+        {
+          "id": "rest",
+          "word": "rest / stay in bed",
+          "phrase": "rest / stay in bed",
+          "image": "a-rest",
+          "example": "Ana is resting in bed."
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Hygiene habits",
+      "words": [
+        {
+          "id": "brush-my-teeth",
+          "word": "brush my teeth",
+          "phrase": "brush my teeth",
+          "image": "y-teeth",
+          "example": "I brush my teeth in the morning and at night."
+        },
+        {
+          "id": "comb-my-hair",
+          "word": "comb my hair",
+          "phrase": "comb my hair",
+          "image": "y-hair",
+          "example": "Sam is combing his hair."
+        },
+        {
+          "id": "wash-my-face",
+          "word": "wash my face",
+          "phrase": "wash my face",
+          "image": "y-face",
+          "example": "Leo is washing his face."
+        },
+        {
+          "id": "use-hand-gel",
+          "word": "use hand gel",
+          "phrase": "use hand gel",
+          "image": "y-gel",
+          "example": "Ana is using hand gel before lunch."
+        },
+        {
+          "id": "cut-my-nails",
+          "word": "cut my nails",
+          "phrase": "cut my nails",
+          "image": "y-nails",
+          "example": "Leo is cutting his nails."
+        },
+        {
+          "id": "take-a-shower",
+          "word": "take a shower",
+          "phrase": "take a shower",
+          "image": "y-shower",
+          "example": "Sam is taking a shower."
+        },
+        {
+          "id": "wipe-my-mouth",
+          "word": "wipe my mouth",
+          "phrase": "wipe my mouth",
+          "image": "y-wipe",
+          "example": "Mia is wiping her mouth with a napkin."
+        },
+        {
+          "id": "wash-my-hands",
+          "word": "wash my hands",
+          "phrase": "wash my hands",
+          "image": "y-hands",
+          "example": "Ana is washing her hands with soap."
+        }
+      ]
+    },
+    {
+      "id": "often",
+      "title": "How often? always … never",
+      "words": [
+        {
+          "id": "always",
+          "word": "always",
+          "phrase": "always",
+          "image": "y-teeth",
+          "example": "Mia always brushes her teeth before bed. (every time)"
+        },
+        {
+          "id": "usually",
+          "word": "usually",
+          "phrase": "usually",
+          "image": "y-shower",
+          "example": "Sam usually takes a shower in the evening. (most times)"
+        },
+        {
+          "id": "sometimes",
+          "word": "sometimes",
+          "phrase": "sometimes",
+          "image": "y-gel",
+          "example": "Ana sometimes uses hand gel. (some times)"
+        },
+        {
+          "id": "never",
+          "word": "never",
+          "phrase": "never",
+          "image": "g-dirty",
+          "example": "We never eat with dirty hands! (not one time)"
+        },
+        {
+          "id": "every-day",
+          "word": "every day",
+          "phrase": "every day",
+          "image": "y-hands",
+          "example": "Ana washes her hands every day."
+        },
+        {
+          "id": "once-a-week",
+          "word": "once a week",
+          "phrase": "once a week",
+          "image": "y-nails",
+          "example": "Leo cuts his nails once a week."
+        },
+        {
+          "id": "how-often",
+          "word": "How often …?",
+          "phrase": "How often …?",
+          "image": "y-face",
+          "example": "How often do you wash your face?"
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "title": "Story words: Mia’s cold",
+      "words": [
+        {
+          "id": "hug",
+          "word": "a hug",
+          "phrase": "a hug",
+          "image": "s-hug",
+          "example": "Grandma gives Mia a big hug."
+        },
+        {
+          "id": "remote",
+          "word": "a remote",
+          "phrase": "a remote",
+          "image": "s-remote",
+          "example": "Sam has the TV remote."
+        },
+        {
+          "id": "share",
+          "word": "share",
+          "phrase": "share",
+          "image": "s-share",
+          "example": "Leo shares his crayons with Ana."
+        },
+        {
+          "id": "get-well-card",
+          "word": "a get-well card",
+          "phrase": "a get-well card",
+          "image": "s-card",
+          "example": "Leo and Ana are making a get-well card."
+        },
+        {
+          "id": "feel-better",
+          "word": "feel better",
+          "phrase": "feel better",
+          "image": "s-better",
+          "example": "Mia feels better today!"
+        },
+        {
+          "id": "stay-at-home",
+          "word": "stay at home",
+          "phrase": "stay at home",
+          "image": "h-cold",
+          "example": "Mia has a cold. She is staying at home."
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "title": "Reading words: clean water",
+      "words": [
+        {
+          "id": "village",
+          "word": "a village",
+          "phrase": "a village",
+          "image": "c-village",
+          "example": "This is a small village with round houses."
+        },
+        {
+          "id": "well",
+          "word": "a well",
+          "phrase": "a well",
+          "image": "c-well",
+          "example": "A well takes water from deep under the ground."
+        },
+        {
+          "id": "river",
+          "word": "a river",
+          "phrase": "a river",
+          "image": "c-river",
+          "example": "The children are filling bottles at the river."
+        },
+        {
+          "id": "bottle",
+          "word": "a bottle",
+          "phrase": "a bottle",
+          "image": "c-carry",
+          "example": "The bottle is big and full of water."
+        },
+        {
+          "id": "carry",
+          "word": "carry",
+          "phrase": "carry",
+          "image": "c-carry",
+          "example": "She is carrying a heavy bottle."
+        },
+        {
+          "id": "heavy",
+          "word": "heavy",
+          "phrase": "heavy",
+          "image": "c-carry",
+          "example": "A bottle of water is heavy."
+        },
+        {
+          "id": "tap",
+          "word": "a tap",
+          "phrase": "a tap",
+          "image": "c-tap",
+          "example": "Clean water comes out of the tap."
+        },
+        {
+          "id": "solar-panel",
+          "word": "a solar panel",
+          "phrase": "a solar panel",
+          "image": "c-tap",
+          "example": "The solar panel uses the sun to make power."
+        },
+        {
+          "id": "clean-water",
+          "word": "clean water",
+          "phrase": "clean water",
+          "image": "c-tap",
+          "example": "Clean water keeps us healthy."
+        }
+      ]
+    },
+    {
+      "id": "germs",
+      "title": "Germs",
+      "words": [
+        {
+          "id": "germs",
+          "word": "germs",
+          "phrase": "germs",
+          "image": "g-germs",
+          "example": "Germs are very small. We can’t see them."
+        },
+        {
+          "id": "everywhere",
+          "word": "everywhere",
+          "phrase": "everywhere",
+          "image": "g-everywhere",
+          "example": "Germs are everywhere: on desks, doors and pencils."
+        },
+        {
+          "id": "dirty-hands",
+          "word": "dirty hands",
+          "phrase": "dirty hands",
+          "image": "g-dirty",
+          "example": "Sam has dirty hands. He should wash them!"
+        },
+        {
+          "id": "throw-away",
+          "word": "throw away",
+          "phrase": "throw away",
+          "image": "g-bin",
+          "example": "Ana throws her tissue away."
+        },
+        {
+          "id": "spread",
+          "word": "spread",
+          "phrase": "spread",
+          "image": "h-sneeze",
+          "example": "Germs spread when we sneeze. Use a tissue!"
+        },
+        {
+          "id": "healthy",
+          "word": "healthy",
+          "phrase": "healthy",
+          "image": "s-better",
+          "example": "Mia is healthy again."
+        }
+      ]
+    },
+    {
+      "id": "doctor",
+      "title": "At the doctor’s: kind words",
+      "words": [
+        {
+          "id": "whats-the-matter",
+          "word": "What’s the matter?",
+          "phrase": "What’s the matter?",
+          "image": "d-talk",
+          "example": "“What’s the matter, Mia?” asks the doctor."
+        },
+        {
+          "id": "whats-wrong",
+          "word": "What’s wrong?",
+          "phrase": "What’s wrong?",
+          "image": "a-doctor",
+          "example": "“What’s wrong, Leo?” “My chest hurts.”"
+        },
+        {
+          "id": "how-are-you-feeling",
+          "word": "How are you feeling?",
+          "phrase": "How are you feeling?",
+          "image": "a-nurse",
+          "example": "“How are you feeling?” “Not very good.”"
+        },
+        {
+          "id": "im-sorry",
+          "word": "I’m sorry.",
+          "phrase": "I’m sorry.",
+          "image": "d-sorry",
+          "example": "“I’m sorry, Leo.”"
+        },
+        {
+          "id": "too-bad",
+          "word": "That’s too bad.",
+          "phrase": "That’s too bad.",
+          "image": "h-leg",
+          "example": "“Your leg hurts? That’s too bad.”"
+        },
+        {
+          "id": "terrible",
+          "word": "That’s terrible!",
+          "phrase": "That’s terrible!",
+          "image": "h-toothache",
+          "example": "“A big toothache? That’s terrible!”"
+        },
+        {
+          "id": "patient",
+          "word": "a patient",
+          "phrase": "a patient",
+          "image": "a-doctor",
+          "example": "Leo is the patient. The doctor helps him."
+        },
+        {
+          "id": "get-well-soon",
+          "word": "Get well soon!",
+          "phrase": "Get well soon!",
+          "image": "v-kind",
+          "example": "“Get well soon, Sam!” says Mia."
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Values: what is important",
+      "words": [
+        {
+          "id": "honesty",
+          "word": "honesty",
+          "phrase": "honesty",
+          "image": "v-honest",
+          "example": "Sam tells his mom the truth. That is honesty."
+        },
+        {
+          "id": "kindness",
+          "word": "kindness",
+          "phrase": "kindness",
+          "image": "v-kind",
+          "example": "Mia makes a card for her sick friend. That is kindness."
+        },
+        {
+          "id": "gratefulness",
+          "word": "gratefulness",
+          "phrase": "gratefulness",
+          "image": "v-grateful",
+          "example": "Leo says “Thank you!” That is gratefulness."
+        },
+        {
+          "id": "responsibility",
+          "word": "responsibility",
+          "phrase": "responsibility",
+          "image": "v-responsible",
+          "example": "Ana washes the dishes. That is responsibility."
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex-01",
+      "image": "a-rest",
+      "subject": "ana",
+      "verb": "rest",
+      "note": "rest"
+    },
+    {
+      "id": "ex-02",
+      "image": "a-water",
+      "subject": "sam",
+      "verb": "drink-water",
+      "note": "drink water"
+    },
+    {
+      "id": "ex-03",
+      "image": "a-doctor",
+      "subject": "leo",
+      "verb": "see-doctor",
+      "note": "go to the doctor"
+    },
+    {
+      "id": "ex-04",
+      "image": "a-dentist",
+      "subject": "leo",
+      "verb": "see-dentist",
+      "note": "go to the dentist"
+    },
+    {
+      "id": "ex-05",
+      "image": "a-nurse",
+      "subject": "mia",
+      "verb": "see-nurse",
+      "note": "the school nurse"
+    },
+    {
+      "id": "ex-06",
+      "image": "a-medicine",
+      "subject": "ana",
+      "verb": "take-medicine",
+      "note": "take medicine"
+    },
+    {
+      "id": "ex-07",
+      "image": "a-tissue",
+      "subject": "mia",
+      "verb": "use-tissue",
+      "note": "use a tissue"
+    },
+    {
+      "id": "ex-08",
+      "image": "a-cover",
+      "subject": "ana",
+      "verb": "cover-mouth",
+      "note": "cover your mouth"
+    },
+    {
+      "id": "ex-09",
+      "image": "a-temperature",
+      "subject": "sam",
+      "verb": "temperature",
+      "note": "take your temperature"
+    },
+    {
+      "id": "ex-10",
+      "image": "a-bandage",
+      "subject": "leo",
+      "verb": "bandage",
+      "note": "put on a bandage"
+    },
+    {
+      "id": "ex-11",
+      "image": "h-cold",
+      "subject": "mia",
+      "verb": "stay-home",
+      "note": "stay at home"
+    },
+    {
+      "id": "ex-12",
+      "image": "y-hands",
+      "subject": "ana",
+      "verb": "wash-hands",
+      "note": "always"
+    },
+    {
+      "id": "ex-13",
+      "image": "y-teeth",
+      "subject": "mia",
+      "verb": "brush-teeth",
+      "note": "always"
+    },
+    {
+      "id": "ex-14",
+      "image": "y-hair",
+      "subject": "sam",
+      "verb": "comb-hair",
+      "note": "usually"
+    },
+    {
+      "id": "ex-15",
+      "image": "y-face",
+      "subject": "leo",
+      "verb": "wash-face",
+      "note": "usually"
+    },
+    {
+      "id": "ex-16",
+      "image": "y-gel",
+      "subject": "ana",
+      "verb": "hand-gel",
+      "note": "sometimes"
+    },
+    {
+      "id": "ex-17",
+      "image": "y-nails",
+      "subject": "leo",
+      "verb": "cut-nails",
+      "note": "sometimes"
+    },
+    {
+      "id": "ex-18",
+      "image": "y-shower",
+      "subject": "sam",
+      "verb": "shower",
+      "note": "usually"
+    },
+    {
+      "id": "ex-19",
+      "image": "y-wipe",
+      "subject": "mia",
+      "verb": "wipe-mouth",
+      "note": "always"
+    },
+    {
+      "id": "ex-20",
+      "image": "g-bin",
+      "subject": "ana",
+      "verb": "throw-tissues",
+      "note": "throw away"
+    },
+    {
+      "id": "ex-21",
+      "image": "s-share",
+      "subject": "leo",
+      "verb": "share-drink",
+      "note": "shouldn’t share"
+    },
+    {
+      "id": "ex-22",
+      "image": "h-fever",
+      "subject": "ana",
+      "verb": "school-fever",
+      "note": "shouldn’t go to school"
+    },
+    {
+      "id": "ex-23",
+      "image": "h-leg",
+      "subject": "sam",
+      "verb": "play-football",
+      "note": "shouldn’t play"
+    },
+    {
+      "id": "ex-24",
+      "image": "h-toothache",
+      "subject": "leo",
+      "verb": "eat-candy",
+      "note": "shouldn’t eat candy"
+    },
+    {
+      "id": "ex-25",
+      "image": "h-sneeze",
+      "subject": "ana",
+      "verb": "sneeze-on",
+      "note": "shouldn’t sneeze on people"
+    },
+    {
+      "id": "ex-26",
+      "image": "g-dirty",
+      "subject": "sam",
+      "verb": "dirty-hands",
+      "note": "never"
+    },
+    {
+      "id": "ex-27",
+      "image": "g-everywhere",
+      "subject": "they",
+      "verb": "touch-tissues",
+      "note": "never"
+    },
+    {
+      "id": "ex-28",
+      "image": "y-nails",
+      "subject": "they",
+      "verb": "bite-nails",
+      "note": "never"
+    }
+  ]
+}

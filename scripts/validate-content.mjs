@@ -259,7 +259,7 @@ function checkQuestion(q, bank, needImage) {
       break;
     }
     case 'change': {
-      if (!['negative', 'question'].includes(q.task)) err(`${q.id}: task must be negative or question`);
+      if (!['negative', 'question', 'advice'].includes(q.task)) err(`${q.id}: task must be negative, question or advice`);
       if (!q.from || !q.answers?.length) err(`${q.id}: needs from + answers`);
       if (q.task === 'question' && !q.answers[0].endsWith('?')) err(`${q.id}: question answer must end with ?`);
       break;

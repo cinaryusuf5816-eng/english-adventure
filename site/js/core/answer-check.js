@@ -28,6 +28,8 @@ export function canonical(text) {
     // Present Continuous: short and long forms are the same answer.
     .replace(/\bis not\b/g, "isn't")
     .replace(/\bare not\b/g, "aren't")
+    // Advice: should not = shouldn't.
+    .replace(/\bshould not\b/g, "shouldn't")
     .replace(/\bi'm\b/g, 'i am')
     .replace(/\b(he|she|it|what|who|where)'s\b/g, '$1 is')
     .replace(/\b(we|you|they)'re\b/g, '$1 are');
@@ -37,7 +39,8 @@ const MISSING_APOSTROPHE = [
   { re: /\bdont\b/, fix: "don't" },
   { re: /\bdoesnt\b/, fix: "doesn't" },
   { re: /\bisnt\b/, fix: "isn't" },
-  { re: /\barent\b/, fix: "aren't" }
+  { re: /\barent\b/, fix: "aren't" },
+  { re: /\bshouldnt\b/, fix: "shouldn't" }
 ];
 
 /**

@@ -1,0 +1,5751 @@
+{
+  "weekId": "week-04",
+  "contentVersion": "1.0.0",
+  "banks": [
+    {
+      "id": "mcq",
+      "letter": "A",
+      "title": "Choose",
+      "instruction": "Choose.",
+      "description": "should or shouldn’t? Choose the best advice.",
+      "expected": 60
+    },
+    {
+      "id": "jumbled",
+      "letter": "B",
+      "title": "Make a sentence",
+      "instruction": "Make a sentence.",
+      "description": "Put the words in order.",
+      "expected": 36
+    },
+    {
+      "id": "fill",
+      "letter": "C",
+      "title": "Fill in",
+      "instruction": "Fill in the gap.",
+      "description": "should, shouldn’t, always, never, do, does …",
+      "expected": 32
+    },
+    {
+      "id": "change",
+      "letter": "D",
+      "title": "Change it",
+      "instruction": "Change the sentence.",
+      "description": "Give advice. Ask with Should or How often.",
+      "expected": 18
+    },
+    {
+      "id": "fix",
+      "letter": "E",
+      "title": "Fix the mistake",
+      "instruction": "Find the mistake. Fix it.",
+      "description": "One word is wrong. Find it and fix it.",
+      "expected": 18
+    },
+    {
+      "id": "decide",
+      "letter": "F",
+      "title": "Look and decide",
+      "instruction": "Look. Read. True or false?",
+      "description": "Look at the clue. Is it true or false?",
+      "expected": 18
+    },
+    {
+      "id": "dialogue",
+      "letter": "G",
+      "title": "Dialogues",
+      "instruction": "Complete the dialogue.",
+      "description": "At the doctor’s and with friends.",
+      "expected": 12
+    },
+    {
+      "id": "reading",
+      "letter": "H",
+      "title": "Mini reading",
+      "instruction": "Read. Answer.",
+      "description": "Read a short text. Answer 4 questions.",
+      "expected": 16
+    },
+    {
+      "id": "health",
+      "letter": "I",
+      "title": "Health problems",
+      "instruction": "Look and choose.",
+      "description": "a cold, a fever, a sore throat, a headache …",
+      "expected": 26
+    },
+    {
+      "id": "hygiene",
+      "letter": "J",
+      "title": "Hygiene and How often?",
+      "instruction": "Look and choose.",
+      "description": "brush my teeth, wash my hands · always, usually, sometimes, never.",
+      "expected": 26
+    },
+    {
+      "id": "doctor",
+      "letter": "K",
+      "title": "Get better!",
+      "instruction": "Look and choose.",
+      "description": "go to the doctor, take medicine · What’s the matter? I’m sorry.",
+      "expected": 24
+    },
+    {
+      "id": "world",
+      "letter": "L",
+      "title": "Germs, clean water and values",
+      "instruction": "Look and choose.",
+      "description": "germs, a well, a tap · honesty, kindness …",
+      "expected": 16
+    }
+  ],
+  "cards": {
+    "advice": {
+      "title": "The doctor’s advice for Mia",
+      "image": "d-talk",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "rest in bed"
+        },
+        {
+          "mark": "yes",
+          "text": "drink lots of water"
+        },
+        {
+          "mark": "no",
+          "text": "go to school"
+        }
+      ]
+    },
+    "leo": {
+      "title": "Leo has a toothache",
+      "image": "h-toothache",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "go to the dentist"
+        },
+        {
+          "mark": "no",
+          "text": "eat candy"
+        },
+        {
+          "mark": "yes",
+          "text": "brush his teeth"
+        }
+      ]
+    },
+    "log": {
+      "title": "Sam’s hygiene week",
+      "image": "y-shower",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "brush teeth: Monday to Sunday"
+        },
+        {
+          "mark": "yes",
+          "text": "take a shower: Monday to Friday"
+        },
+        {
+          "mark": "no",
+          "text": "cut nails: not this week"
+        }
+      ]
+    },
+    "ana": {
+      "title": "Ana’s hygiene week",
+      "image": "y-gel",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "wash hands: every day"
+        },
+        {
+          "mark": "yes",
+          "text": "hand gel: Tuesday and Sunday"
+        },
+        {
+          "mark": "no",
+          "text": "bite nails: never"
+        }
+      ]
+    },
+    "germs": {
+      "title": "Germs",
+      "image": "g-germs",
+      "text": "Germs are very small. We can’t see them. They are on desks, doors and pencils. Some germs make us sick, so we should wash our hands."
+    },
+    "nurse": {
+      "title": "At the school nurse",
+      "image": "a-bandage",
+      "text": "Leo falls in the playground. His knee hurts. The school nurse puts a bandage on it. She says, “You shouldn’t run today.”"
+    },
+    "water": {
+      "title": "A new tap",
+      "image": "c-tap",
+      "text": "The village has a new well. A solar panel gives power to the pump. The children don’t carry heavy bottles now. They get clean water from the tap."
+    },
+    "kind": {
+      "title": "A good friend",
+      "image": "v-kind",
+      "lines": [
+        {
+          "mark": "yes",
+          "text": "Mia makes a card for Sam."
+        },
+        {
+          "mark": "yes",
+          "text": "Mia says, “Get well soon!”"
+        },
+        {
+          "mark": "no",
+          "text": "Mia shares Sam’s drink."
+        }
+      ]
+    }
+  },
+  "passages": {
+    "rd-p1": {
+      "title": "Mia’s Cold",
+      "image": "h-cold",
+      "text": "On Monday, Mia wakes up with a cold. She is sneezing and her throat hurts. Dad takes her temperature. “You should stay in bed,” he says. Mia rests and drinks water. On Wednesday, she feels better!"
+    },
+    "rd-p2": {
+      "title": "Clean Water",
+      "image": "c-tap",
+      "text": "In some villages, children walk to a river. They fill big bottles and carry them home. The bottles are heavy. River water is not always clean. Now the village has a well. Clean water comes out of a tap!"
+    },
+    "rd-p3": {
+      "title": "Tiny Germs",
+      "image": "g-germs",
+      "text": "Germs are very small. We can’t see them, but they are everywhere. They are on doors, desks and pencils. Some germs make us sick. We should wash our hands before we eat and cover our mouth when we cough."
+    },
+    "rd-p4": {
+      "title": "Leo’s Week",
+      "image": "y-face",
+      "text": "Leo always brushes his teeth in the morning and at night. He usually takes a shower after football. He sometimes uses hand gel at school. He cuts his nails once a week. He never eats with dirty hands!"
+    }
+  },
+  "questions": [
+    {
+      "id": "w4-mc-001",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ rest in bed.",
+      "image": "a-rest",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should rest in bed."
+    },
+    {
+      "id": "w4-mc-002",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ drink lots of water.",
+      "image": "a-water",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Sam should drink lots of water."
+    },
+    {
+      "id": "w4-mc-003",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Leo ___ go to the doctor.",
+      "image": "a-doctor",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Leo should go to the doctor."
+    },
+    {
+      "id": "w4-mc-004",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Leo ___ go to the dentist.",
+      "image": "a-dentist",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Leo should go to the dentist."
+    },
+    {
+      "id": "w4-mc-005",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ go to the school nurse.",
+      "image": "a-nurse",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Mia should go to the school nurse."
+    },
+    {
+      "id": "w4-mc-006",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ take some medicine.",
+      "image": "a-medicine",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should take some medicine."
+    },
+    {
+      "id": "w4-mc-007",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ use a tissue.",
+      "image": "a-tissue",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Mia should use a tissue."
+    },
+    {
+      "id": "w4-mc-008",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ cover her mouth.",
+      "image": "a-cover",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should cover her mouth."
+    },
+    {
+      "id": "w4-mc-009",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ take his temperature.",
+      "image": "a-temperature",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Sam should take his temperature."
+    },
+    {
+      "id": "w4-mc-010",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Leo ___ put on a bandage.",
+      "image": "a-bandage",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Leo should put on a bandage."
+    },
+    {
+      "id": "w4-mc-011",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ stay at home.",
+      "image": "h-cold",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Mia should stay at home."
+    },
+    {
+      "id": "w4-mc-012",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ wash her hands.",
+      "image": "y-hands",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should wash her hands."
+    },
+    {
+      "id": "w4-mc-013",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ brush her teeth.",
+      "image": "y-teeth",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Mia should brush her teeth."
+    },
+    {
+      "id": "w4-mc-014",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ comb his hair.",
+      "image": "y-hair",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Sam should comb his hair."
+    },
+    {
+      "id": "w4-mc-015",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Leo ___ wash his face.",
+      "image": "y-face",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Leo should wash his face."
+    },
+    {
+      "id": "w4-mc-016",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ use hand gel.",
+      "image": "y-gel",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should use hand gel."
+    },
+    {
+      "id": "w4-mc-017",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Leo ___ cut his nails.",
+      "image": "y-nails",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Leo should cut his nails."
+    },
+    {
+      "id": "w4-mc-018",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Sam ___ take a shower.",
+      "image": "y-shower",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Sam should take a shower."
+    },
+    {
+      "id": "w4-mc-019",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Mia ___ wipe her mouth.",
+      "image": "y-wipe",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Mia should wipe her mouth."
+    },
+    {
+      "id": "w4-mc-020",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "Ana ___ throw used tissues away.",
+      "image": "g-bin",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? Yes!",
+      "explain": "Ana should throw used tissues away."
+    },
+    {
+      "id": "w4-mc-021",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Leo ___ share a drink.",
+      "image": "s-share",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? No!",
+      "explain": "Leo shouldn't share a drink."
+    },
+    {
+      "id": "w4-mc-022",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Ana ___ go to school with a fever.",
+      "image": "h-fever",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? No!",
+      "explain": "Ana shouldn't go to school with a fever."
+    },
+    {
+      "id": "w4-mc-023",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Sam ___ play football today.",
+      "image": "h-leg",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? No!",
+      "explain": "Sam shouldn't play football today."
+    },
+    {
+      "id": "w4-mc-024",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Leo ___ eat lots of candy.",
+      "image": "h-toothache",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? No!",
+      "explain": "Leo shouldn't eat lots of candy."
+    },
+    {
+      "id": "w4-mc-025",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Ana ___ sneeze on people.",
+      "image": "h-sneeze",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? No!",
+      "explain": "Ana shouldn't sneeze on people."
+    },
+    {
+      "id": "w4-mc-026",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Sam ___ eat with dirty hands.",
+      "image": "g-dirty",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? No!",
+      "explain": "Sam shouldn't eat with dirty hands."
+    },
+    {
+      "id": "w4-mc-027",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Ana ___ touch used tissues.",
+      "image": "g-everywhere",
+      "options": [
+        "shouldn't",
+        "should"
+      ],
+      "answer": "a",
+      "hint": "Is it a good idea? No!",
+      "explain": "Ana shouldn't touch used tissues."
+    },
+    {
+      "id": "w4-mc-028",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Leo ___ bite his nails.",
+      "image": "y-nails",
+      "options": [
+        "should",
+        "shouldn't"
+      ],
+      "answer": "b",
+      "hint": "Is it a good idea? No!",
+      "explain": "Leo shouldn't bite his nails."
+    },
+    {
+      "id": "w4-mc-029",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Leo has a toothache. What is the best advice?",
+      "image": "h-toothache",
+      "options": [
+        "He should eat lots of candy.",
+        "He should go to the dentist.",
+        "He should comb his hair."
+      ],
+      "answer": "b",
+      "hint": "Which one helps?",
+      "explain": "Leo has a toothache. He should go to the dentist."
+    },
+    {
+      "id": "w4-mc-030",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Ana has a fever. What is the best advice?",
+      "image": "h-fever",
+      "options": [
+        "She should go to school.",
+        "She should play football.",
+        "She should stay in bed."
+      ],
+      "answer": "c",
+      "hint": "Which one helps?",
+      "explain": "Ana has a fever. She should stay in bed."
+    },
+    {
+      "id": "w4-mc-031",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Ana is sneezing. What is the best advice?",
+      "image": "h-sneeze",
+      "options": [
+        "She should use a tissue.",
+        "She should share her drink.",
+        "She should sneeze on people."
+      ],
+      "answer": "a",
+      "hint": "Which one helps?",
+      "explain": "Ana is sneezing. She should use a tissue."
+    },
+    {
+      "id": "w4-mc-032",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Sam is coughing. What is the best advice?",
+      "image": "h-cough",
+      "options": [
+        "He should cough on his friends.",
+        "He should cover his mouth.",
+        "He should eat candy."
+      ],
+      "answer": "b",
+      "hint": "Which one helps?",
+      "explain": "Sam is coughing. He should cover his mouth."
+    },
+    {
+      "id": "w4-mc-033",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Sam's knee hurts. What is the best advice?",
+      "image": "h-leg",
+      "options": [
+        "He should run a race.",
+        "He should brush his teeth.",
+        "He should put on a bandage."
+      ],
+      "answer": "c",
+      "hint": "Which one helps?",
+      "explain": "Sam's knee hurts. He should put on a bandage."
+    },
+    {
+      "id": "w4-mc-034",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia has a cold. What is the best advice?",
+      "image": "h-cold",
+      "options": [
+        "She should rest and drink water.",
+        "She should go swimming.",
+        "She should share her cup."
+      ],
+      "answer": "a",
+      "hint": "Which one helps?",
+      "explain": "Mia has a cold. She should rest and drink water."
+    },
+    {
+      "id": "w4-mc-035",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia has a sore throat. What is the best advice?",
+      "image": "h-sore-throat",
+      "options": [
+        "She should shout and sing.",
+        "She should drink warm water.",
+        "She should eat ice cream."
+      ],
+      "answer": "b",
+      "hint": "Which one helps?",
+      "explain": "Mia has a sore throat. She should drink warm water."
+    },
+    {
+      "id": "w4-mc-036",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Sam has a headache at school. What is the best advice?",
+      "image": "h-headache",
+      "options": [
+        "He should play video games.",
+        "He should run fast.",
+        "He should go to the school nurse."
+      ],
+      "answer": "c",
+      "hint": "Which one helps?",
+      "explain": "Sam has a headache at school. He should go to the school nurse."
+    },
+    {
+      "id": "w4-mc-037",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Leo has a stomachache. What is the best advice?",
+      "image": "h-stomachache",
+      "options": [
+        "He should go to the doctor.",
+        "He should eat more candy.",
+        "He should cut his nails."
+      ],
+      "answer": "a",
+      "hint": "Which one helps?",
+      "explain": "Leo has a stomachache. He should go to the doctor."
+    },
+    {
+      "id": "w4-mc-038",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Mia has an earache. What is the best advice?",
+      "image": "h-earache",
+      "options": [
+        "She should listen to loud music.",
+        "She should go to the doctor.",
+        "She should wash her face."
+      ],
+      "answer": "b",
+      "hint": "Which one helps?",
+      "explain": "Mia has an earache. She should go to the doctor."
+    },
+    {
+      "id": "w4-mc-039",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Sam has dirty hands. What is the best advice?",
+      "image": "g-dirty",
+      "options": [
+        "He should eat his sandwich now.",
+        "He should comb his hair.",
+        "He should wash his hands."
+      ],
+      "answer": "c",
+      "hint": "Which one helps?",
+      "explain": "Sam has dirty hands. He should wash his hands."
+    },
+    {
+      "id": "w4-mc-040",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Sam is very thirsty. What is the best advice?",
+      "image": "a-water",
+      "options": [
+        "He should drink water.",
+        "He should take a shower.",
+        "He should go to the dentist."
+      ],
+      "answer": "a",
+      "hint": "Which one helps?",
+      "explain": "Sam is very thirsty. He should drink water."
+    },
+    {
+      "id": "w4-mc-041",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Ana feels very hot. What is the best advice?",
+      "image": "h-fever",
+      "options": [
+        "She should take a shower.",
+        "She should take her temperature.",
+        "She should cut her nails."
+      ],
+      "answer": "b",
+      "hint": "Which one helps?",
+      "explain": "Ana feels very hot. She should take her temperature."
+    },
+    {
+      "id": "w4-mc-042",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Ana has a used tissue. What is the best advice?",
+      "image": "g-bin",
+      "options": [
+        "She should give it to Mia.",
+        "She should put it on the desk.",
+        "She should throw it away."
+      ],
+      "answer": "c",
+      "hint": "Which one helps?",
+      "explain": "Ana has a used tissue. She should throw it away."
+    },
+    {
+      "id": "w4-mc-043",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "a-doctor",
+      "options": [
+        "He should go to the doctor.",
+        "He should goes to the doctor.",
+        "He shoulds go to the doctor."
+      ],
+      "answer": "a",
+      "hint": "should + go. No -es.",
+      "explain": "He should go to the doctor."
+    },
+    {
+      "id": "w4-mc-044",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "a-medicine",
+      "options": [
+        "She should takes some medicine.",
+        "She should take some medicine.",
+        "She should to take some medicine."
+      ],
+      "answer": "b",
+      "hint": "should + take.",
+      "explain": "She should take some medicine."
+    },
+    {
+      "id": "w4-mc-045",
+      "v": 1,
+      "type": "mcq",
+      "target": "negative",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "s-share",
+      "options": [
+        "You don't should share a drink.",
+        "You shouldn't shares a drink.",
+        "You shouldn't share a drink."
+      ],
+      "answer": "c",
+      "hint": "shouldn't + share.",
+      "explain": "You shouldn't share a drink."
+    },
+    {
+      "id": "w4-mc-046",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "a-dentist",
+      "options": [
+        "Should I go to the dentist?",
+        "Do I should go to the dentist?",
+        "I should go to the dentist?"
+      ],
+      "answer": "a",
+      "hint": "Should comes first.",
+      "explain": "Should I go to the dentist?"
+    },
+    {
+      "id": "w4-mc-047",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "h-fever",
+      "options": [
+        "Should Ana goes to school?",
+        "Should Ana go to school?",
+        "Does Ana should go to school?"
+      ],
+      "answer": "b",
+      "hint": "Should + Ana + go.",
+      "explain": "Should Ana go to school?"
+    },
+    {
+      "id": "w4-mc-048",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "y-teeth",
+      "options": [
+        "Mia brushes always her teeth.",
+        "Always Mia brush her teeth.",
+        "Mia always brushes her teeth."
+      ],
+      "answer": "c",
+      "hint": "always goes before the verb.",
+      "explain": "Mia always brushes her teeth."
+    },
+    {
+      "id": "w4-mc-049",
+      "v": 1,
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "y-shower",
+      "options": [
+        "How often does Sam take a shower?",
+        "How often do Sam take a shower?",
+        "How often Sam takes a shower?"
+      ],
+      "answer": "a",
+      "hint": "Sam = he → does + take.",
+      "explain": "How often does Sam take a shower?"
+    },
+    {
+      "id": "w4-mc-050",
+      "v": 1,
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "prompt": "Which sentence is right?",
+      "image": "h-earache",
+      "options": [
+        "Mia has a earache.",
+        "Mia has an earache.",
+        "Mia have an earache."
+      ],
+      "answer": "b",
+      "hint": "an + earache. Mia has.",
+      "explain": "Mia has an earache."
+    },
+    {
+      "id": "w4-mc-051",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Every time = ___",
+      "image": "y-teeth",
+      "options": [
+        "sometimes",
+        "never",
+        "always"
+      ],
+      "answer": "c",
+      "hint": "always = 100%.",
+      "explain": "Every time = always."
+    },
+    {
+      "id": "w4-mc-052",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Not one time = ___",
+      "image": "g-dirty",
+      "options": [
+        "never",
+        "usually",
+        "always"
+      ],
+      "answer": "a",
+      "hint": "never = 0%.",
+      "explain": "Not one time = never."
+    },
+    {
+      "id": "w4-mc-053",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Most times = ___",
+      "image": "y-shower",
+      "options": [
+        "never",
+        "usually",
+        "sometimes"
+      ],
+      "answer": "b",
+      "hint": "usually = 80%.",
+      "explain": "Most times = usually."
+    },
+    {
+      "id": "w4-mc-054",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Some times, not always = ___",
+      "image": "y-gel",
+      "options": [
+        "always",
+        "never",
+        "sometimes"
+      ],
+      "answer": "c",
+      "hint": "sometimes = 50%.",
+      "explain": "Some times = sometimes."
+    },
+    {
+      "id": "w4-mc-055",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "The doctor asks: “What’s the ___?”",
+      "image": "d-talk",
+      "options": [
+        "matter",
+        "name",
+        "weather"
+      ],
+      "answer": "a",
+      "hint": "What is the problem?",
+      "explain": "What’s the matter?"
+    },
+    {
+      "id": "w4-mc-056",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Leo is hurt. Ana says: “I’m ___.”",
+      "image": "d-sorry",
+      "options": [
+        "happy",
+        "sorry",
+        "hungry"
+      ],
+      "answer": "b",
+      "hint": "Show you care.",
+      "explain": "I’m sorry."
+    },
+    {
+      "id": "w4-mc-057",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "head + ache = ___",
+      "image": "h-headache",
+      "options": [
+        "earache",
+        "toothache",
+        "headache"
+      ],
+      "answer": "c",
+      "hint": "Put the two words together.",
+      "explain": "head + ache = headache."
+    },
+    {
+      "id": "w4-mc-058",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Leo cuts his nails ___ a week.",
+      "image": "y-nails",
+      "options": [
+        "once",
+        "always",
+        "never"
+      ],
+      "answer": "a",
+      "hint": "One time.",
+      "explain": "Leo cuts his nails once a week."
+    },
+    {
+      "id": "w4-mc-059",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "Germs are very ___.",
+      "image": "g-germs",
+      "options": [
+        "big",
+        "small",
+        "heavy"
+      ],
+      "answer": "b",
+      "hint": "We can’t see them.",
+      "explain": "Germs are very small."
+    },
+    {
+      "id": "w4-mc-060",
+      "v": 1,
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "prompt": "The water bottle is ___.",
+      "image": "c-carry",
+      "options": [
+        "tiny",
+        "dirty",
+        "heavy"
+      ],
+      "answer": "c",
+      "hint": "It is full of water.",
+      "explain": "The water bottle is heavy."
+    },
+    {
+      "id": "w4-jb-001",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-rest",
+      "tokens": [
+        "Ana",
+        "should",
+        "rest",
+        "in",
+        "bed"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana should rest in bed"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana should rest in bed."
+    },
+    {
+      "id": "w4-jb-002",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-water",
+      "tokens": [
+        "Sam",
+        "should",
+        "drink",
+        "lots",
+        "of",
+        "water"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam should drink lots of water"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam should drink lots of water."
+    },
+    {
+      "id": "w4-jb-003",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-dentist",
+      "tokens": [
+        "Leo",
+        "should",
+        "go",
+        "to",
+        "the",
+        "dentist"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo should go to the dentist"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo should go to the dentist."
+    },
+    {
+      "id": "w4-jb-004",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-nurse",
+      "tokens": [
+        "Mia",
+        "should",
+        "go",
+        "to",
+        "the",
+        "school",
+        "nurse"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia should go to the school nurse"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia should go to the school nurse."
+    },
+    {
+      "id": "w4-jb-005",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-medicine",
+      "tokens": [
+        "Ana",
+        "should",
+        "take",
+        "some",
+        "medicine"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana should take some medicine"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana should take some medicine."
+    },
+    {
+      "id": "w4-jb-006",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-tissue",
+      "tokens": [
+        "Mia",
+        "should",
+        "use",
+        "a",
+        "tissue"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia should use a tissue"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia should use a tissue."
+    },
+    {
+      "id": "w4-jb-007",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-cover",
+      "tokens": [
+        "Ana",
+        "should",
+        "cover",
+        "her",
+        "mouth"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana should cover her mouth"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana should cover her mouth."
+    },
+    {
+      "id": "w4-jb-008",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-bandage",
+      "tokens": [
+        "Leo",
+        "should",
+        "put",
+        "on",
+        "a",
+        "bandage"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo should put on a bandage"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo should put on a bandage."
+    },
+    {
+      "id": "w4-jb-009",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "h-cold",
+      "tokens": [
+        "Mia",
+        "should",
+        "stay",
+        "at",
+        "home"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia should stay at home"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia should stay at home."
+    },
+    {
+      "id": "w4-jb-010",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 1,
+      "image": "y-hands",
+      "tokens": [
+        "Ana",
+        "should",
+        "wash",
+        "her",
+        "hands"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana should wash her hands"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana should wash her hands."
+    },
+    {
+      "id": "w4-jb-011",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "s-share",
+      "tokens": [
+        "Leo",
+        "shouldn't",
+        "share",
+        "a",
+        "drink"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo shouldn't share a drink"
+      ],
+      "hint": "Start with Leo. Use shouldn't.",
+      "explain": "Leo shouldn't share a drink."
+    },
+    {
+      "id": "w4-jb-012",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "h-fever",
+      "tokens": [
+        "Ana",
+        "shouldn't",
+        "go",
+        "to",
+        "school",
+        "with",
+        "a",
+        "fever"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana shouldn't go to school with a fever"
+      ],
+      "hint": "Start with Ana. Use shouldn't.",
+      "explain": "Ana shouldn't go to school with a fever."
+    },
+    {
+      "id": "w4-jb-013",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "h-toothache",
+      "tokens": [
+        "Leo",
+        "shouldn't",
+        "eat",
+        "lots",
+        "of",
+        "candy"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo shouldn't eat lots of candy"
+      ],
+      "hint": "Start with Leo. Use shouldn't.",
+      "explain": "Leo shouldn't eat lots of candy."
+    },
+    {
+      "id": "w4-jb-014",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "h-sneeze",
+      "tokens": [
+        "Ana",
+        "shouldn't",
+        "sneeze",
+        "on",
+        "people"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana shouldn't sneeze on people"
+      ],
+      "hint": "Start with Ana. Use shouldn't.",
+      "explain": "Ana shouldn't sneeze on people."
+    },
+    {
+      "id": "w4-jb-015",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "g-dirty",
+      "tokens": [
+        "Sam",
+        "shouldn't",
+        "eat",
+        "with",
+        "dirty",
+        "hands"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam shouldn't eat with dirty hands"
+      ],
+      "hint": "Start with Sam. Use shouldn't.",
+      "explain": "Sam shouldn't eat with dirty hands."
+    },
+    {
+      "id": "w4-jb-016",
+      "v": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "level": 1,
+      "image": "g-everywhere",
+      "tokens": [
+        "Ana",
+        "shouldn't",
+        "touch",
+        "used",
+        "tissues"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana shouldn't touch used tissues"
+      ],
+      "hint": "Start with Ana. Use shouldn't.",
+      "explain": "Ana shouldn't touch used tissues."
+    },
+    {
+      "id": "w4-jb-017",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "a-doctor",
+      "tokens": [
+        "Should",
+        "I",
+        "go",
+        "to",
+        "the",
+        "doctor"
+      ],
+      "end": "?",
+      "answers": [
+        "Should I go to the doctor"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should I go to the doctor? Yes, you should."
+    },
+    {
+      "id": "w4-jb-018",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "h-fever",
+      "tokens": [
+        "Should",
+        "I",
+        "go",
+        "to",
+        "school",
+        "with",
+        "a",
+        "fever"
+      ],
+      "end": "?",
+      "answers": [
+        "Should I go to school with a fever"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should I go to school with a fever? No, you shouldn't."
+    },
+    {
+      "id": "w4-jb-019",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "a-dentist",
+      "tokens": [
+        "Should",
+        "Leo",
+        "go",
+        "to",
+        "the",
+        "dentist"
+      ],
+      "end": "?",
+      "answers": [
+        "Should Leo go to the dentist"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should Leo go to the dentist? Yes, he should."
+    },
+    {
+      "id": "w4-jb-020",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "a-medicine",
+      "tokens": [
+        "Should",
+        "Ana",
+        "take",
+        "some",
+        "medicine"
+      ],
+      "end": "?",
+      "answers": [
+        "Should Ana take some medicine"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should Ana take some medicine? Yes, she should."
+    },
+    {
+      "id": "w4-jb-021",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "s-share",
+      "tokens": [
+        "Should",
+        "we",
+        "share",
+        "a",
+        "drink"
+      ],
+      "end": "?",
+      "answers": [
+        "Should we share a drink"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should we share a drink? No, we shouldn't."
+    },
+    {
+      "id": "w4-jb-022",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "a-rest",
+      "tokens": [
+        "Should",
+        "Mia",
+        "rest",
+        "in",
+        "bed"
+      ],
+      "end": "?",
+      "answers": [
+        "Should Mia rest in bed"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should Mia rest in bed? Yes, she should."
+    },
+    {
+      "id": "w4-jb-023",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "level": 2,
+      "image": "a-bandage",
+      "tokens": [
+        "Should",
+        "Sam",
+        "put",
+        "on",
+        "a",
+        "bandage"
+      ],
+      "end": "?",
+      "answers": [
+        "Should Sam put on a bandage"
+      ],
+      "hint": "Start with Should.",
+      "explain": "Should Sam put on a bandage? Yes, he should."
+    },
+    {
+      "id": "w4-jb-024",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "y-shower",
+      "tokens": [
+        "How",
+        "often",
+        "does",
+        "Sam",
+        "take",
+        "a",
+        "shower"
+      ],
+      "end": "?",
+      "answers": [
+        "How often does Sam take a shower"
+      ],
+      "hint": "Start with How often.",
+      "explain": "How often does Sam take a shower? Sam usually takes a shower."
+    },
+    {
+      "id": "w4-jb-025",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "y-teeth",
+      "tokens": [
+        "How",
+        "often",
+        "does",
+        "Mia",
+        "brush",
+        "her",
+        "teeth"
+      ],
+      "end": "?",
+      "answers": [
+        "How often does Mia brush her teeth"
+      ],
+      "hint": "Start with How often.",
+      "explain": "How often does Mia brush her teeth? Mia always brushes her teeth."
+    },
+    {
+      "id": "w4-jb-026",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "y-hands",
+      "tokens": [
+        "How",
+        "often",
+        "do",
+        "you",
+        "wash",
+        "your",
+        "hands"
+      ],
+      "end": "?",
+      "answers": [
+        "How often do you wash your hands"
+      ],
+      "hint": "Start with How often.",
+      "explain": "How often do you wash your hands? You always wash your hands."
+    },
+    {
+      "id": "w4-jb-027",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "y-nails",
+      "tokens": [
+        "How",
+        "often",
+        "does",
+        "Leo",
+        "cut",
+        "his",
+        "nails"
+      ],
+      "end": "?",
+      "answers": [
+        "How often does Leo cut his nails"
+      ],
+      "hint": "Start with How often.",
+      "explain": "How often does Leo cut his nails? Leo sometimes cuts his nails."
+    },
+    {
+      "id": "w4-jb-028",
+      "v": 1,
+      "type": "jumbled",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 2,
+      "image": "y-hair",
+      "tokens": [
+        "How",
+        "often",
+        "do",
+        "they",
+        "comb",
+        "their",
+        "hair"
+      ],
+      "end": "?",
+      "answers": [
+        "How often do they comb their hair"
+      ],
+      "hint": "Start with How often.",
+      "explain": "How often do they comb their hair? They usually comb their hair."
+    },
+    {
+      "id": "w4-jb-029",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-hands",
+      "tokens": [
+        "Ana",
+        "always",
+        "washes",
+        "her",
+        "hands"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana always washes her hands"
+      ],
+      "hint": "always goes before the verb.",
+      "explain": "Ana always washes her hands."
+    },
+    {
+      "id": "w4-jb-030",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-teeth",
+      "tokens": [
+        "Mia",
+        "always",
+        "brushes",
+        "her",
+        "teeth"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia always brushes her teeth"
+      ],
+      "hint": "always goes before the verb.",
+      "explain": "Mia always brushes her teeth."
+    },
+    {
+      "id": "w4-jb-031",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-shower",
+      "tokens": [
+        "Sam",
+        "usually",
+        "takes",
+        "a",
+        "shower"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam usually takes a shower"
+      ],
+      "hint": "usually goes before the verb.",
+      "explain": "Sam usually takes a shower."
+    },
+    {
+      "id": "w4-jb-032",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-face",
+      "tokens": [
+        "Leo",
+        "usually",
+        "washes",
+        "his",
+        "face"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo usually washes his face"
+      ],
+      "hint": "usually goes before the verb.",
+      "explain": "Leo usually washes his face."
+    },
+    {
+      "id": "w4-jb-033",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-gel",
+      "tokens": [
+        "Ana",
+        "sometimes",
+        "uses",
+        "hand",
+        "gel"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana sometimes uses hand gel"
+      ],
+      "hint": "sometimes goes before the verb.",
+      "explain": "Ana sometimes uses hand gel."
+    },
+    {
+      "id": "w4-jb-034",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "g-dirty",
+      "tokens": [
+        "We",
+        "never",
+        "eat",
+        "with",
+        "dirty",
+        "hands"
+      ],
+      "end": ".",
+      "answers": [
+        "We never eat with dirty hands"
+      ],
+      "hint": "never goes before the verb.",
+      "explain": "We never eat with dirty hands."
+    },
+    {
+      "id": "w4-jb-035",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-nails",
+      "tokens": [
+        "They",
+        "never",
+        "bite",
+        "their",
+        "nails"
+      ],
+      "end": ".",
+      "answers": [
+        "They never bite their nails"
+      ],
+      "hint": "never goes before the verb.",
+      "explain": "They never bite their nails."
+    },
+    {
+      "id": "w4-jb-036",
+      "v": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-wipe",
+      "tokens": [
+        "Mia",
+        "always",
+        "wipes",
+        "her",
+        "mouth"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia always wipes her mouth"
+      ],
+      "hint": "always goes before the verb.",
+      "explain": "Mia always wipes her mouth."
+    },
+    {
+      "id": "w4-fb-001",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-rest",
+      "text": "Mia has a cold. She ___ rest.",
+      "answers": [
+        "should"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A good idea.",
+      "explain": "Mia has a cold. She should rest."
+    },
+    {
+      "id": "w4-fb-002",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "h-fever",
+      "text": "Ana has a fever. She ___ go to school.",
+      "answers": [
+        "shouldn't"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A bad idea.",
+      "explain": "Ana has a fever. She shouldn't go to school."
+    },
+    {
+      "id": "w4-fb-003",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-dentist",
+      "text": "Leo has a toothache. He ___ go to the dentist.",
+      "answers": [
+        "should"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A good idea.",
+      "explain": "Leo has a toothache. He should go to the dentist."
+    },
+    {
+      "id": "w4-fb-004",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "h-toothache",
+      "text": "Leo has a toothache. He ___ eat candy.",
+      "answers": [
+        "shouldn't"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A bad idea.",
+      "explain": "Leo has a toothache. He shouldn't eat candy."
+    },
+    {
+      "id": "w4-fb-005",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-cover",
+      "text": "You ___ cover your mouth when you cough.",
+      "answers": [
+        "should"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A good idea.",
+      "explain": "You should cover your mouth when you cough."
+    },
+    {
+      "id": "w4-fb-006",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "s-share",
+      "text": "You ___ share a drink when you are sick.",
+      "answers": [
+        "shouldn't"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A bad idea.",
+      "explain": "You shouldn't share a drink when you are sick."
+    },
+    {
+      "id": "w4-fb-007",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-tissue",
+      "text": "You ___ use a tissue when you sneeze.",
+      "answers": [
+        "should"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A good idea.",
+      "explain": "You should use a tissue when you sneeze."
+    },
+    {
+      "id": "w4-fb-008",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "h-sneeze",
+      "text": "You ___ sneeze on your friends.",
+      "answers": [
+        "shouldn't"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A bad idea.",
+      "explain": "You shouldn't sneeze on your friends."
+    },
+    {
+      "id": "w4-fb-009",
+      "v": 1,
+      "type": "fill",
+      "target": "negative",
+      "level": 1,
+      "image": "g-dirty",
+      "text": "We ___ eat with dirty hands.",
+      "answers": [
+        "shouldn't"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A bad idea.",
+      "explain": "We shouldn't eat with dirty hands."
+    },
+    {
+      "id": "w4-fb-010",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-water",
+      "text": "You ___ drink lots of water.",
+      "answers": [
+        "should"
+      ],
+      "pool": [
+        "should",
+        "shouldn't"
+      ],
+      "hint": "A good idea.",
+      "explain": "You should drink lots of water."
+    },
+    {
+      "id": "w4-fb-011",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-teeth",
+      "text": "Mia brushes her teeth every morning and every night. She ___ brushes her teeth.",
+      "answers": [
+        "always"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Mia brushes her teeth every morning and every night. She always brushes her teeth."
+    },
+    {
+      "id": "w4-fb-012",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "g-dirty",
+      "text": "We ___ eat with dirty hands. Not one time!",
+      "answers": [
+        "never"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "We never eat with dirty hands. Not one time!"
+    },
+    {
+      "id": "w4-fb-013",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-shower",
+      "text": "Sam takes a shower most evenings. He ___ takes a shower in the evening.",
+      "answers": [
+        "usually"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Sam takes a shower most evenings. He usually takes a shower in the evening."
+    },
+    {
+      "id": "w4-fb-014",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-gel",
+      "text": "Ana uses hand gel two or three days a week. She ___ uses hand gel.",
+      "answers": [
+        "sometimes"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Ana uses hand gel two or three days a week. She sometimes uses hand gel."
+    },
+    {
+      "id": "w4-fb-015",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-hands",
+      "text": "Ana washes her hands before every meal. She ___ washes her hands before meals.",
+      "answers": [
+        "always"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Ana washes her hands before every meal. She always washes her hands before meals."
+    },
+    {
+      "id": "w4-fb-016",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-nails",
+      "text": "Leo doesn’t bite his nails. Not one time! He ___ bites his nails.",
+      "answers": [
+        "never"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Leo doesn’t bite his nails. Not one time! He never bites his nails."
+    },
+    {
+      "id": "w4-fb-017",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-face",
+      "text": "Leo washes his face most mornings. He ___ washes his face in the morning.",
+      "answers": [
+        "usually"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Leo washes his face most mornings. He usually washes his face in the morning."
+    },
+    {
+      "id": "w4-fb-018",
+      "v": 1,
+      "type": "fill",
+      "target": "affirmative",
+      "level": 2,
+      "image": "a-water",
+      "text": "Sam drinks juice some days and water other days. He ___ drinks juice.",
+      "answers": [
+        "sometimes"
+      ],
+      "pool": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "Sam drinks juice some days and water other days. He sometimes drinks juice."
+    },
+    {
+      "id": "w4-fb-019",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "y-teeth",
+      "text": "How often ___ you brush your teeth?",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "you / they → do.",
+      "explain": "How often do you brush your teeth?"
+    },
+    {
+      "id": "w4-fb-020",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "y-shower",
+      "text": "How often ___ Sam take a shower?",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "he / she → does.",
+      "explain": "How often does Sam take a shower?"
+    },
+    {
+      "id": "w4-fb-021",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "y-gel",
+      "text": "How often ___ Ana use hand gel?",
+      "answers": [
+        "does"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "he / she → does.",
+      "explain": "How often does Ana use hand gel?"
+    },
+    {
+      "id": "w4-fb-022",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "y-hands",
+      "text": "How often ___ they wash their hands?",
+      "answers": [
+        "do"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "you / they → do.",
+      "explain": "How often do they wash their hands?"
+    },
+    {
+      "id": "w4-fb-023",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "a-doctor",
+      "text": "___ I go to the doctor?",
+      "answers": [
+        "Should"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "Ask for advice.",
+      "explain": "Should I go to the doctor?"
+    },
+    {
+      "id": "w4-fb-024",
+      "v": 1,
+      "type": "fill",
+      "target": "question",
+      "level": 2,
+      "image": "h-fever",
+      "text": "___ Ana go to school with a fever?",
+      "answers": [
+        "Should"
+      ],
+      "pool": [
+        "do",
+        "does",
+        "Should"
+      ],
+      "hint": "Ask for advice.",
+      "explain": "Should Ana go to school with a fever?"
+    },
+    {
+      "id": "w4-fb-025",
+      "v": 1,
+      "type": "fill",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-earache",
+      "text": "Mia has ___ earache.",
+      "answers": [
+        "an"
+      ],
+      "pool": [
+        "a",
+        "an"
+      ],
+      "hint": "a e i o u → an.",
+      "explain": "Mia has an earache."
+    },
+    {
+      "id": "w4-fb-026",
+      "v": 1,
+      "type": "fill",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-headache",
+      "text": "Sam has ___ headache.",
+      "answers": [
+        "a"
+      ],
+      "pool": [
+        "a",
+        "an"
+      ],
+      "hint": "a e i o u → an.",
+      "explain": "Sam has a headache."
+    },
+    {
+      "id": "w4-fb-027",
+      "v": 1,
+      "type": "fill",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cold",
+      "text": "Mia has ___ cold.",
+      "answers": [
+        "a"
+      ],
+      "pool": [
+        "a",
+        "an"
+      ],
+      "hint": "a e i o u → an.",
+      "explain": "Mia has a cold."
+    },
+    {
+      "id": "w4-fb-028",
+      "v": 1,
+      "type": "fill",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-toothache",
+      "text": "Leo has ___ toothache.",
+      "answers": [
+        "a"
+      ],
+      "pool": [
+        "a",
+        "an"
+      ],
+      "hint": "a e i o u → an.",
+      "explain": "Leo has a toothache."
+    },
+    {
+      "id": "w4-fb-029",
+      "v": 1,
+      "type": "fill",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-nurse",
+      "text": "How are you feeling___",
+      "answers": [
+        "?"
+      ],
+      "pool": [
+        ".",
+        "?",
+        "!"
+      ],
+      "hint": ". a sentence · ? a question · ! a strong feeling",
+      "explain": "How are you feeling?"
+    },
+    {
+      "id": "w4-fb-030",
+      "v": 1,
+      "type": "fill",
+      "target": "mixed",
+      "level": 1,
+      "image": "v-kind",
+      "text": "Get well soon___",
+      "answers": [
+        "!"
+      ],
+      "pool": [
+        ".",
+        "?",
+        "!"
+      ],
+      "hint": ". a sentence · ? a question · ! a strong feeling",
+      "explain": "Get well soon!"
+    },
+    {
+      "id": "w4-fb-031",
+      "v": 1,
+      "type": "fill",
+      "target": "mixed",
+      "level": 1,
+      "image": "h-cold",
+      "text": "I have a cold___",
+      "answers": [
+        "."
+      ],
+      "pool": [
+        ".",
+        "?",
+        "!"
+      ],
+      "hint": ". a sentence · ? a question · ! a strong feeling",
+      "explain": "I have a cold."
+    },
+    {
+      "id": "w4-fb-032",
+      "v": 1,
+      "type": "fill",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-rest",
+      "text": "Should I rest___",
+      "answers": [
+        "?"
+      ],
+      "pool": [
+        ".",
+        "?",
+        "!"
+      ],
+      "hint": ". a sentence · ? a question · ! a strong feeling",
+      "explain": "Should I rest?"
+    },
+    {
+      "id": "w4-cs-001",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-rest",
+      "from": "Ana rests in bed.",
+      "answers": [
+        "Ana should rest in bed."
+      ],
+      "hint": "should + rest (no -s).",
+      "explain": "Ana should rest in bed."
+    },
+    {
+      "id": "w4-cs-002",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-water",
+      "from": "Sam drinks lots of water.",
+      "answers": [
+        "Sam should drink lots of water."
+      ],
+      "hint": "should + drink (no -s).",
+      "explain": "Sam should drink lots of water."
+    },
+    {
+      "id": "w4-cs-003",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-dentist",
+      "from": "Leo goes to the dentist.",
+      "answers": [
+        "Leo should go to the dentist."
+      ],
+      "hint": "should + go (no -s).",
+      "explain": "Leo should go to the dentist."
+    },
+    {
+      "id": "w4-cs-004",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-tissue",
+      "from": "Mia uses a tissue.",
+      "answers": [
+        "Mia should use a tissue."
+      ],
+      "hint": "should + use (no -s).",
+      "explain": "Mia should use a tissue."
+    },
+    {
+      "id": "w4-cs-005",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-cover",
+      "from": "Ana covers her mouth.",
+      "answers": [
+        "Ana should cover her mouth."
+      ],
+      "hint": "should + cover (no -s).",
+      "explain": "Ana should cover her mouth."
+    },
+    {
+      "id": "w4-cs-006",
+      "v": 1,
+      "type": "change",
+      "target": "affirmative",
+      "task": "advice",
+      "cue": "A good idea! Give advice with should.",
+      "level": 1,
+      "image": "a-bandage",
+      "from": "Leo puts on a bandage.",
+      "answers": [
+        "Leo should put on a bandage."
+      ],
+      "hint": "should + put (no -s).",
+      "explain": "Leo should put on a bandage."
+    },
+    {
+      "id": "w4-cs-007",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "cue": "A bad idea! Give advice with shouldn't.",
+      "level": 1,
+      "image": "s-share",
+      "from": "Leo shares a drink.",
+      "answers": [
+        "Leo shouldn't share a drink.",
+        "Leo should not share a drink."
+      ],
+      "hint": "shouldn't + share.",
+      "explain": "Leo shouldn't share a drink."
+    },
+    {
+      "id": "w4-cs-008",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "cue": "A bad idea! Give advice with shouldn't.",
+      "level": 1,
+      "image": "h-fever",
+      "from": "Ana goes to school with a fever.",
+      "answers": [
+        "Ana shouldn't go to school with a fever.",
+        "Ana should not go to school with a fever."
+      ],
+      "hint": "shouldn't + go.",
+      "explain": "Ana shouldn't go to school with a fever."
+    },
+    {
+      "id": "w4-cs-009",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "cue": "A bad idea! Give advice with shouldn't.",
+      "level": 1,
+      "image": "h-toothache",
+      "from": "Leo eats lots of candy.",
+      "answers": [
+        "Leo shouldn't eat lots of candy.",
+        "Leo should not eat lots of candy."
+      ],
+      "hint": "shouldn't + eat.",
+      "explain": "Leo shouldn't eat lots of candy."
+    },
+    {
+      "id": "w4-cs-010",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "cue": "A bad idea! Give advice with shouldn't.",
+      "level": 1,
+      "image": "h-sneeze",
+      "from": "Ana sneezes on people.",
+      "answers": [
+        "Ana shouldn't sneeze on people.",
+        "Ana should not sneeze on people."
+      ],
+      "hint": "shouldn't + sneeze.",
+      "explain": "Ana shouldn't sneeze on people."
+    },
+    {
+      "id": "w4-cs-011",
+      "v": 1,
+      "type": "change",
+      "target": "negative",
+      "task": "negative",
+      "cue": "A bad idea! Give advice with shouldn't.",
+      "level": 1,
+      "image": "g-dirty",
+      "from": "Sam eats with dirty hands.",
+      "answers": [
+        "Sam shouldn't eat with dirty hands.",
+        "Sam should not eat with dirty hands."
+      ],
+      "hint": "shouldn't + eat.",
+      "explain": "Sam shouldn't eat with dirty hands."
+    },
+    {
+      "id": "w4-cs-012",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask for advice. Start with Should.",
+      "level": 2,
+      "image": "a-rest",
+      "from": "Mia should rest in bed.",
+      "answers": [
+        "Should Mia rest in bed?"
+      ],
+      "hint": "Should + who + verb?",
+      "explain": "Should Mia rest in bed? Yes, she should."
+    },
+    {
+      "id": "w4-cs-013",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask for advice. Start with Should.",
+      "level": 2,
+      "image": "a-doctor",
+      "from": "Leo should go to the doctor.",
+      "answers": [
+        "Should Leo go to the doctor?"
+      ],
+      "hint": "Should + who + verb?",
+      "explain": "Should Leo go to the doctor? Yes, he should."
+    },
+    {
+      "id": "w4-cs-014",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask for advice. Start with Should.",
+      "level": 2,
+      "image": "a-medicine",
+      "from": "Ana should take some medicine.",
+      "answers": [
+        "Should Ana take some medicine?"
+      ],
+      "hint": "Should + who + verb?",
+      "explain": "Should Ana take some medicine? Yes, she should."
+    },
+    {
+      "id": "w4-cs-015",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask for advice. Start with Should.",
+      "level": 2,
+      "image": "h-leg",
+      "from": "Sam shouldn't play football today.",
+      "answers": [
+        "Should Sam play football today?"
+      ],
+      "hint": "Should + who + verb?",
+      "explain": "Should Sam play football today? No, he shouldn't."
+    },
+    {
+      "id": "w4-cs-016",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask with How often.",
+      "level": 2,
+      "image": "y-face",
+      "from": "Leo washes his face.",
+      "answers": [
+        "How often does Leo wash his face?"
+      ],
+      "hint": "How often + does + who + verb?",
+      "explain": "How often does Leo wash his face? Leo usually washes his face."
+    },
+    {
+      "id": "w4-cs-017",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask with How often.",
+      "level": 2,
+      "image": "y-gel",
+      "from": "Ana uses hand gel.",
+      "answers": [
+        "How often does Ana use hand gel?"
+      ],
+      "hint": "How often + does + who + verb?",
+      "explain": "How often does Ana use hand gel? Ana sometimes uses hand gel."
+    },
+    {
+      "id": "w4-cs-018",
+      "v": 1,
+      "type": "change",
+      "target": "question",
+      "task": "question",
+      "cue": "Ask with How often.",
+      "level": 2,
+      "image": "y-teeth",
+      "from": "Mia brushes her teeth.",
+      "answers": [
+        "How often does Mia brush her teeth?"
+      ],
+      "hint": "How often + does + who + verb?",
+      "explain": "How often does Mia brush her teeth? Mia always brushes her teeth."
+    },
+    {
+      "id": "w4-fx-001",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-rest",
+      "words": [
+        "Mia",
+        "should",
+        "rests",
+        "in",
+        "bed."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "rest",
+        "resting"
+      ],
+      "fix": "a",
+      "hint": "should + rest (no -s).",
+      "explain": "Mia should rest in bed."
+    },
+    {
+      "id": "w4-fx-002",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-doctor",
+      "words": [
+        "Leo",
+        "should",
+        "goes",
+        "to",
+        "the",
+        "doctor."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "going",
+        "go"
+      ],
+      "fix": "b",
+      "hint": "should + go.",
+      "explain": "Leo should go to the doctor."
+    },
+    {
+      "id": "w4-fx-003",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-medicine",
+      "words": [
+        "Ana",
+        "should",
+        "takes",
+        "some",
+        "medicine."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "take",
+        "took"
+      ],
+      "fix": "a",
+      "hint": "should + take.",
+      "explain": "Ana should take some medicine."
+    },
+    {
+      "id": "w4-fx-004",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "a-tissue",
+      "words": [
+        "You",
+        "shouldn’t",
+        "use",
+        "a",
+        "tissue."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "does",
+        "should"
+      ],
+      "fix": "b",
+      "hint": "Using a tissue is a good idea.",
+      "explain": "You should use a tissue."
+    },
+    {
+      "id": "w4-fx-005",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "s-share",
+      "words": [
+        "You",
+        "should",
+        "share",
+        "a",
+        "drink."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "shouldn't",
+        "do"
+      ],
+      "fix": "a",
+      "hint": "You are sick. It is a bad idea.",
+      "explain": "You shouldn't share a drink."
+    },
+    {
+      "id": "w4-fx-006",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "h-fever",
+      "words": [
+        "Ana",
+        "should",
+        "go",
+        "to",
+        "school",
+        "with",
+        "a",
+        "fever."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "does",
+        "shouldn't"
+      ],
+      "fix": "b",
+      "hint": "A fever → stay at home.",
+      "explain": "Ana shouldn't go to school with a fever."
+    },
+    {
+      "id": "w4-fx-007",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "h-toothache",
+      "words": [
+        "Leo",
+        "shouldn't",
+        "eats",
+        "candy."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "eat",
+        "eating"
+      ],
+      "fix": "a",
+      "hint": "shouldn't + eat.",
+      "explain": "Leo shouldn't eat candy."
+    },
+    {
+      "id": "w4-fx-008",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "h-sneeze",
+      "words": [
+        "We",
+        "don't",
+        "sneeze",
+        "on",
+        "people."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "should",
+        "shouldn't"
+      ],
+      "fix": "b",
+      "hint": "Give advice: a bad idea.",
+      "explain": "We shouldn't sneeze on people."
+    },
+    {
+      "id": "w4-fx-009",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "a-dentist",
+      "words": [
+        "Should",
+        "Leo",
+        "goes",
+        "to",
+        "the",
+        "dentist?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "go",
+        "went"
+      ],
+      "fix": "a",
+      "hint": "Should + Leo + go.",
+      "explain": "Should Leo go to the dentist?"
+    },
+    {
+      "id": "w4-fx-010",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "a-doctor",
+      "words": [
+        "Do",
+        "I",
+        "go",
+        "to",
+        "the",
+        "doctor?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Does",
+        "Should"
+      ],
+      "fix": "b",
+      "hint": "Ask for advice.",
+      "explain": "Should I go to the doctor?"
+    },
+    {
+      "id": "w4-fx-011",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "y-shower",
+      "words": [
+        "How",
+        "often",
+        "do",
+        "Sam",
+        "take",
+        "a",
+        "shower?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "does",
+        "is"
+      ],
+      "fix": "a",
+      "hint": "Sam = he → does.",
+      "explain": "How often does Sam take a shower?"
+    },
+    {
+      "id": "w4-fx-012",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "y-teeth",
+      "words": [
+        "How",
+        "often",
+        "does",
+        "you",
+        "brush",
+        "your",
+        "teeth?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "are",
+        "do"
+      ],
+      "fix": "b",
+      "hint": "you → do.",
+      "explain": "How often do you brush your teeth?"
+    },
+    {
+      "id": "w4-fx-013",
+      "v": 1,
+      "type": "fix",
+      "target": "question",
+      "level": 1,
+      "image": "y-gel",
+      "words": [
+        "How",
+        "often",
+        "does",
+        "Ana",
+        "uses",
+        "hand",
+        "gel?"
+      ],
+      "wrong": 4,
+      "fixes": [
+        "use",
+        "using"
+      ],
+      "fix": "a",
+      "hint": "does + use (no -s).",
+      "explain": "How often does Ana use hand gel?"
+    },
+    {
+      "id": "w4-fx-014",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "y-hands",
+      "words": [
+        "Ana",
+        "always",
+        "wash",
+        "her",
+        "hands."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "washing",
+        "washes"
+      ],
+      "fix": "b",
+      "hint": "Ana = she → washes.",
+      "explain": "Ana always washes her hands."
+    },
+    {
+      "id": "w4-fx-015",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "y-teeth",
+      "words": [
+        "Mia",
+        "never",
+        "brushes",
+        "her",
+        "teeth",
+        "before",
+        "bed."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "always",
+        "sometimes"
+      ],
+      "fix": "a",
+      "hint": "She does it every night!",
+      "explain": "Mia always brushes her teeth before bed."
+    },
+    {
+      "id": "w4-fx-016",
+      "v": 1,
+      "type": "fix",
+      "target": "negative",
+      "level": 1,
+      "image": "g-dirty",
+      "words": [
+        "We",
+        "always",
+        "eat",
+        "with",
+        "dirty",
+        "hands."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "usually",
+        "never"
+      ],
+      "fix": "b",
+      "hint": "Not one time!",
+      "explain": "We never eat with dirty hands."
+    },
+    {
+      "id": "w4-fx-017",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "h-earache",
+      "words": [
+        "Mia",
+        "has",
+        "a",
+        "earache."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "an",
+        "the"
+      ],
+      "fix": "a",
+      "hint": "earache starts with e → an.",
+      "explain": "Mia has an earache."
+    },
+    {
+      "id": "w4-fx-018",
+      "v": 1,
+      "type": "fix",
+      "target": "affirmative",
+      "level": 1,
+      "image": "h-headache",
+      "words": [
+        "Sam",
+        "have",
+        "a",
+        "headache."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "is",
+        "has"
+      ],
+      "fix": "b",
+      "hint": "Sam = he → has.",
+      "explain": "Sam has a headache."
+    },
+    {
+      "id": "w4-ld-001",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "advice",
+      "statement": "Mia should rest in bed.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Mia should rest in bed."
+    },
+    {
+      "id": "w4-ld-002",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 2,
+      "card": "advice",
+      "statement": "Mia should go to school.",
+      "answer": false,
+      "hint": "Look at the ✗.",
+      "explain": "False. Mia should go to school."
+    },
+    {
+      "id": "w4-ld-003",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "advice",
+      "statement": "Mia should drink lots of water.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Mia should drink lots of water."
+    },
+    {
+      "id": "w4-ld-004",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 1,
+      "card": "leo",
+      "statement": "Leo shouldn't eat candy.",
+      "answer": true,
+      "hint": "Look at the ✗.",
+      "explain": "True. Leo shouldn't eat candy."
+    },
+    {
+      "id": "w4-ld-005",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "leo",
+      "statement": "Leo shouldn't go to the dentist.",
+      "answer": false,
+      "hint": "Look at the ✓.",
+      "explain": "False. Leo shouldn't go to the dentist."
+    },
+    {
+      "id": "w4-ld-006",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "log",
+      "statement": "Sam always brushes his teeth.",
+      "answer": true,
+      "hint": "Every day = always.",
+      "explain": "True. Sam always brushes his teeth."
+    },
+    {
+      "id": "w4-ld-007",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "log",
+      "statement": "Sam usually takes a shower.",
+      "answer": true,
+      "hint": "Five days = usually.",
+      "explain": "True. Sam usually takes a shower."
+    },
+    {
+      "id": "w4-ld-008",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "log",
+      "statement": "Sam always cuts his nails.",
+      "answer": false,
+      "hint": "Not this week.",
+      "explain": "False. Sam always cuts his nails."
+    },
+    {
+      "id": "w4-ld-009",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "ana",
+      "statement": "Ana sometimes uses hand gel.",
+      "answer": true,
+      "hint": "Two days = sometimes.",
+      "explain": "True. Ana sometimes uses hand gel."
+    },
+    {
+      "id": "w4-ld-010",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 1,
+      "card": "ana",
+      "statement": "Ana never bites her nails.",
+      "answer": true,
+      "hint": "Read the last line.",
+      "explain": "True. Ana never bites her nails."
+    },
+    {
+      "id": "w4-ld-011",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "ana",
+      "statement": "Ana never washes her hands.",
+      "answer": false,
+      "hint": "Every day!",
+      "explain": "False. Ana never washes her hands."
+    },
+    {
+      "id": "w4-ld-012",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "germs",
+      "statement": "We can see germs with our eyes.",
+      "answer": false,
+      "hint": "Read the second sentence.",
+      "explain": "False. We can see germs with our eyes."
+    },
+    {
+      "id": "w4-ld-013",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "germs",
+      "statement": "Germs are on desks and doors.",
+      "answer": true,
+      "hint": "Read the third sentence.",
+      "explain": "True. Germs are on desks and doors."
+    },
+    {
+      "id": "w4-ld-014",
+      "v": 1,
+      "type": "decide",
+      "target": "question",
+      "level": 2,
+      "card": "nurse",
+      "statement": "What should Leo do today? He should run.",
+      "answer": false,
+      "hint": "Read what the nurse says.",
+      "explain": "False. What should Leo do today? He should run."
+    },
+    {
+      "id": "w4-ld-015",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "nurse",
+      "statement": "The nurse puts a bandage on his knee.",
+      "answer": true,
+      "hint": "Read the third sentence.",
+      "explain": "True. The nurse puts a bandage on his knee."
+    },
+    {
+      "id": "w4-ld-016",
+      "v": 1,
+      "type": "decide",
+      "target": "negative",
+      "level": 1,
+      "card": "water",
+      "statement": "The children don't carry heavy bottles now.",
+      "answer": true,
+      "hint": "Read the third sentence.",
+      "explain": "True. The children don't carry heavy bottles now."
+    },
+    {
+      "id": "w4-ld-017",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 2,
+      "card": "water",
+      "statement": "The water from the tap is dirty.",
+      "answer": false,
+      "hint": "Read the last sentence.",
+      "explain": "False. The water from the tap is dirty."
+    },
+    {
+      "id": "w4-ld-018",
+      "v": 1,
+      "type": "decide",
+      "target": "affirmative",
+      "level": 1,
+      "card": "kind",
+      "statement": "Mia is a kind friend.",
+      "answer": true,
+      "hint": "Look at the ✓.",
+      "explain": "True. Mia is a kind friend."
+    },
+    {
+      "id": "w4-cd-001",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "d-talk",
+      "lines": [
+        {
+          "who": "Doctor",
+          "text": "What's the ___, Mia?"
+        },
+        {
+          "who": "Mia",
+          "text": "My throat hurts."
+        }
+      ],
+      "options": [
+        "matter",
+        "name",
+        "time"
+      ],
+      "answer": "a",
+      "hint": "Ask about the problem.",
+      "explain": "What's the matter, Mia? My throat hurts."
+    },
+    {
+      "id": "w4-cd-002",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "d-talk",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "What should I do?"
+        },
+        {
+          "who": "Doctor",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "You should go swimming.",
+        "You should drink warm water and rest.",
+        "Yes, you do."
+      ],
+      "answer": "b",
+      "hint": "Give good advice.",
+      "explain": "You should drink warm water and rest."
+    },
+    {
+      "id": "w4-cd-003",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "a-dentist",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "___ I go to the dentist?"
+        },
+        {
+          "who": "Mom",
+          "text": "Yes, you should."
+        }
+      ],
+      "options": [
+        "Do",
+        "Am",
+        "Should"
+      ],
+      "answer": "c",
+      "hint": "The answer has should.",
+      "explain": "Should I go to the dentist? Yes, you should."
+    },
+    {
+      "id": "w4-cd-004",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 1,
+      "image": "h-fever",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "Should I go to school today?"
+        },
+        {
+          "who": "Dad",
+          "text": "___ You have a fever."
+        }
+      ],
+      "options": [
+        "No, you shouldn't.",
+        "No, you don't.",
+        "Yes, you should."
+      ],
+      "answer": "a",
+      "hint": "A fever → stay at home.",
+      "explain": "No, you shouldn't. You have a fever."
+    },
+    {
+      "id": "w4-cd-005",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "d-sorry",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "I fell. My arm hurts."
+        },
+        {
+          "who": "Ana",
+          "text": "Oh no! ___"
+        }
+      ],
+      "options": [
+        "That's great!",
+        "I'm sorry.",
+        "Thank you."
+      ],
+      "answer": "b",
+      "hint": "Show you care.",
+      "explain": "Oh no! I'm sorry."
+    },
+    {
+      "id": "w4-cd-006",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "h-leg",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "My leg hurts."
+        },
+        {
+          "who": "Mia",
+          "text": "That's too ___. You should go to the nurse."
+        }
+      ],
+      "options": [
+        "good",
+        "big",
+        "bad"
+      ],
+      "answer": "c",
+      "hint": "That's too bad.",
+      "explain": "That's too bad. You should go to the nurse."
+    },
+    {
+      "id": "w4-cd-007",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "a-nurse",
+      "lines": [
+        {
+          "who": "Nurse",
+          "text": "How are you ___, Mia?"
+        },
+        {
+          "who": "Mia",
+          "text": "Not very well. I have a headache."
+        }
+      ],
+      "options": [
+        "feeling",
+        "doing",
+        "going"
+      ],
+      "answer": "a",
+      "hint": "How are you feeling?",
+      "explain": "How are you feeling, Mia?"
+    },
+    {
+      "id": "w4-cd-008",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "y-teeth",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "How often do you brush your teeth?"
+        },
+        {
+          "who": "Mia",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "Yes, I do.",
+        "I always brush them twice a day.",
+        "In the bathroom."
+      ],
+      "answer": "b",
+      "hint": "How often → always, usually …",
+      "explain": "I always brush them twice a day."
+    },
+    {
+      "id": "w4-cd-009",
+      "v": 1,
+      "type": "dialogue",
+      "target": "question",
+      "level": 1,
+      "image": "y-shower",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "How often ___ Sam take a shower?"
+        },
+        {
+          "who": "Leo",
+          "text": "He usually takes a shower in the evening."
+        }
+      ],
+      "options": [
+        "do",
+        "is",
+        "does"
+      ],
+      "answer": "c",
+      "hint": "Sam = he → does.",
+      "explain": "How often does Sam take a shower?"
+    },
+    {
+      "id": "w4-cd-010",
+      "v": 1,
+      "type": "dialogue",
+      "target": "negative",
+      "level": 1,
+      "image": "s-share",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "Can I have some of your juice?"
+        },
+        {
+          "who": "Mia",
+          "text": "Sorry, I have a cold. We ___ share drinks."
+        }
+      ],
+      "options": [
+        "shouldn't",
+        "should",
+        "don't should"
+      ],
+      "answer": "a",
+      "hint": "Germs go from cup to cup.",
+      "explain": "Sorry, I have a cold. We shouldn't share drinks."
+    },
+    {
+      "id": "w4-cd-011",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-grateful",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Here, let me help you up."
+        },
+        {
+          "who": "Leo",
+          "text": "___"
+        }
+      ],
+      "options": [
+        "Go away!",
+        "Thank you, Mia!",
+        "That's too bad."
+      ],
+      "answer": "b",
+      "hint": "Be grateful.",
+      "explain": "Thank you, Mia!"
+    },
+    {
+      "id": "w4-cd-012",
+      "v": 1,
+      "type": "dialogue",
+      "target": "affirmative",
+      "level": 1,
+      "image": "v-kind",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "This card is for you, Sam. Get well ___!"
+        },
+        {
+          "who": "Sam",
+          "text": "Thanks, Mia!"
+        }
+      ],
+      "options": [
+        "late",
+        "bad",
+        "soon"
+      ],
+      "answer": "c",
+      "hint": "Get well soon!",
+      "explain": "Get well soon!"
+    },
+    {
+      "id": "w4-rd-001",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "What is the matter with Mia?",
+      "options": [
+        "She has a cold.",
+        "She has a toothache."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Mia wakes up with a cold."
+    },
+    {
+      "id": "w4-rd-002",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Who takes her temperature?",
+      "options": [
+        "The dentist.",
+        "Dad."
+      ],
+      "answer": "b",
+      "hint": "Read the third sentence.",
+      "explain": "Dad takes her temperature."
+    },
+    {
+      "id": "w4-rd-003",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "What should Mia do?",
+      "options": [
+        "Stay in bed.",
+        "Go to school."
+      ],
+      "answer": "a",
+      "hint": "Read what Dad says.",
+      "explain": "“You should stay in bed.”"
+    },
+    {
+      "id": "w4-rd-004",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p1",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "When does Mia feel better?",
+      "options": [
+        "On Monday.",
+        "On Wednesday."
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "On Wednesday, she feels better!"
+    },
+    {
+      "id": "w4-rd-005",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where do some children walk?",
+      "options": [
+        "To a river.",
+        "To a shop."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Children walk to a river."
+    },
+    {
+      "id": "w4-rd-006",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "True or false? The bottles are heavy.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "b",
+      "hint": "Read the third sentence.",
+      "explain": "True. The bottles are heavy."
+    },
+    {
+      "id": "w4-rd-007",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? River water is always clean.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "a",
+      "hint": "Read the fourth sentence.",
+      "explain": "False. River water is not always clean."
+    },
+    {
+      "id": "w4-rd-008",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p2",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where does clean water come out?",
+      "options": [
+        "Out of a bottle.",
+        "Out of a tap."
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "Clean water comes out of a tap!"
+    },
+    {
+      "id": "w4-rd-009",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "negative",
+      "level": 1,
+      "prompt": "Can we see germs?",
+      "options": [
+        "No, we can't.",
+        "Yes, we can."
+      ],
+      "answer": "a",
+      "hint": "Read the second sentence.",
+      "explain": "We can't see them."
+    },
+    {
+      "id": "w4-rd-010",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "Where are germs?",
+      "options": [
+        "Only in the park.",
+        "Everywhere."
+      ],
+      "answer": "b",
+      "hint": "Read the second sentence.",
+      "explain": "They are everywhere."
+    },
+    {
+      "id": "w4-rd-011",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "When should we wash our hands?",
+      "options": [
+        "Before we eat.",
+        "After we sleep."
+      ],
+      "answer": "a",
+      "hint": "Read the last sentence.",
+      "explain": "We should wash our hands before we eat."
+    },
+    {
+      "id": "w4-rd-012",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p3",
+      "target": "affirmative",
+      "level": 1,
+      "prompt": "What should we do when we cough?",
+      "options": [
+        "Share a drink.",
+        "Cover our mouth."
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "We should cover our mouth when we cough."
+    },
+    {
+      "id": "w4-rd-013",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "How often does Leo brush his teeth?",
+      "options": [
+        "Always, in the morning and at night.",
+        "Never."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Leo always brushes his teeth."
+    },
+    {
+      "id": "w4-rd-014",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "When does Leo usually take a shower?",
+      "options": [
+        "Before school.",
+        "After football."
+      ],
+      "answer": "b",
+      "hint": "Read the second sentence.",
+      "explain": "He usually takes a shower after football."
+    },
+    {
+      "id": "w4-rd-015",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "question",
+      "subtarget": "wh",
+      "level": 1,
+      "prompt": "How often does Leo cut his nails?",
+      "options": [
+        "Once a week.",
+        "Every day."
+      ],
+      "answer": "a",
+      "hint": "Read the fourth sentence.",
+      "explain": "He cuts his nails once a week."
+    },
+    {
+      "id": "w4-rd-016",
+      "v": 1,
+      "type": "reading",
+      "passage": "rd-p4",
+      "target": "negative",
+      "level": 1,
+      "prompt": "True or false? Leo eats with dirty hands.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "b",
+      "hint": "Read the last sentence.",
+      "explain": "False. He never eats with dirty hands!"
+    },
+    {
+      "id": "w4-hp-001",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-sore-throat",
+      "prompt": "Look at Mia. What's the matter?",
+      "options": [
+        "She is coughing.",
+        "She has a sore throat.",
+        "She is sneezing."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She has a sore throat."
+    },
+    {
+      "id": "w4-hp-002",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cough",
+      "prompt": "Look at Sam. What's the matter?",
+      "options": [
+        "His leg hurts.",
+        "He has a headache.",
+        "He is coughing."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "He is coughing."
+    },
+    {
+      "id": "w4-hp-003",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-stomachache",
+      "prompt": "Look at Leo. What's the matter?",
+      "options": [
+        "He has a stomachache.",
+        "He has an earache.",
+        "He is coughing."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He has a stomachache."
+    },
+    {
+      "id": "w4-hp-004",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-fever",
+      "prompt": "Look at Ana. What's the matter?",
+      "options": [
+        "She has a sore throat.",
+        "She has a fever.",
+        "She is sneezing."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She has a fever."
+    },
+    {
+      "id": "w4-hp-005",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-leg",
+      "prompt": "Look at Sam. What's the matter?",
+      "options": [
+        "He has a fever.",
+        "He has a headache.",
+        "His leg hurts."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "His leg hurts."
+    },
+    {
+      "id": "w4-hp-006",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-sneeze",
+      "prompt": "Look at Ana. What's the matter?",
+      "options": [
+        "She is sneezing.",
+        "She has an earache.",
+        "She is coughing."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "She is sneezing."
+    },
+    {
+      "id": "w4-hp-007",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-toothache",
+      "prompt": "Look at Leo. What's the matter?",
+      "options": [
+        "He has a sore throat.",
+        "He has a toothache.",
+        "His leg hurts."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "He has a toothache."
+    },
+    {
+      "id": "w4-hp-008",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-earache",
+      "prompt": "Look at Mia. What's the matter?",
+      "options": [
+        "She has a fever.",
+        "She has a headache.",
+        "She has an earache."
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "She has an earache."
+    },
+    {
+      "id": "w4-hp-009",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-headache",
+      "prompt": "Look at Sam. What's the matter?",
+      "options": [
+        "He has a headache.",
+        "He has a toothache.",
+        "He is coughing."
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "He has a headache."
+    },
+    {
+      "id": "w4-hp-010",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cold",
+      "prompt": "Look at Mia. What's the matter?",
+      "options": [
+        "She has a sore throat.",
+        "She has a cold.",
+        "Her leg hurts."
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "She has a cold."
+    },
+    {
+      "id": "w4-hp-011",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-headache",
+      "prompt": "head + ache = ___",
+      "options": [
+        "headache",
+        "earache"
+      ],
+      "answer": "a",
+      "hint": "head → headache.",
+      "explain": "head + ache = headache"
+    },
+    {
+      "id": "w4-hp-012",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-earache",
+      "prompt": "ear + ache = ___",
+      "options": [
+        "stomachache",
+        "earache"
+      ],
+      "answer": "b",
+      "hint": "ear → earache.",
+      "explain": "ear + ache = earache"
+    },
+    {
+      "id": "w4-hp-013",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-toothache",
+      "prompt": "tooth + ache = ___",
+      "options": [
+        "toothache",
+        "headache"
+      ],
+      "answer": "a",
+      "hint": "tooth → toothache.",
+      "explain": "tooth + ache = toothache"
+    },
+    {
+      "id": "w4-hp-014",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-stomachache",
+      "prompt": "stomach + ache = ___",
+      "options": [
+        "toothache",
+        "stomachache"
+      ],
+      "answer": "b",
+      "hint": "stomach → stomachache.",
+      "explain": "stomach + ache = stomachache"
+    },
+    {
+      "id": "w4-hp-015",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-sore-throat",
+      "prompt": "My throat hurts. I have a sore ___.",
+      "options": [
+        "throat",
+        "leg"
+      ],
+      "answer": "a",
+      "hint": "a sore throat.",
+      "explain": "My throat hurts. I have a sore throat."
+    },
+    {
+      "id": "w4-hp-016",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-leg",
+      "prompt": "Ouch! My ___ hurts.",
+      "options": [
+        "hair",
+        "leg"
+      ],
+      "answer": "b",
+      "hint": "Look at Sam’s knee.",
+      "explain": "Ouch! My leg hurts."
+    },
+    {
+      "id": "w4-hp-017",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cold",
+      "prompt": "Mia’s nose is red. She has a ___.",
+      "options": [
+        "cold",
+        "remote"
+      ],
+      "answer": "a",
+      "hint": "a cold.",
+      "explain": "Mia’s nose is red. She has a cold."
+    },
+    {
+      "id": "w4-hp-018",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-fever",
+      "prompt": "Ana is very hot. She has a ___.",
+      "options": [
+        "bandage",
+        "fever"
+      ],
+      "answer": "b",
+      "hint": "a fever.",
+      "explain": "Ana is very hot. She has a fever."
+    },
+    {
+      "id": "w4-hp-019",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-sneeze",
+      "prompt": "Achoo! Ana is ___.",
+      "options": [
+        "sneezing",
+        "combing"
+      ],
+      "answer": "a",
+      "hint": "She is sneezing.",
+      "explain": "Achoo! Ana is sneezing."
+    },
+    {
+      "id": "w4-hp-020",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cough",
+      "prompt": "Sam is ___ into his elbow.",
+      "options": [
+        "washing",
+        "coughing"
+      ],
+      "answer": "b",
+      "hint": "He is coughing.",
+      "explain": "Sam is coughing into his elbow."
+    },
+    {
+      "id": "w4-hp-021",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-earache",
+      "prompt": "Mia has ___ earache.",
+      "options": [
+        "an",
+        "a"
+      ],
+      "answer": "a",
+      "hint": "an + earache.",
+      "explain": "Mia has an earache."
+    },
+    {
+      "id": "w4-hp-022",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-stomachache",
+      "prompt": "Leo ___ a stomachache.",
+      "options": [
+        "have",
+        "has"
+      ],
+      "answer": "b",
+      "hint": "Leo = he → has.",
+      "explain": "Leo has a stomachache."
+    },
+    {
+      "id": "w4-hp-023",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "d-talk",
+      "prompt": "The doctor asks: What’s ___?",
+      "options": [
+        "wrong",
+        "right"
+      ],
+      "answer": "a",
+      "hint": "What’s wrong? = What’s the matter?",
+      "explain": "The doctor asks: What’s wrong?"
+    },
+    {
+      "id": "w4-hp-024",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-headache",
+      "prompt": "Which one is a health problem?",
+      "options": [
+        "a hairbrush",
+        "a headache"
+      ],
+      "answer": "b",
+      "hint": "A headache hurts.",
+      "explain": "a headache"
+    },
+    {
+      "id": "w4-hp-025",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-toothache",
+      "prompt": "Too much candy can give you a ___.",
+      "options": [
+        "toothache",
+        "earache"
+      ],
+      "answer": "a",
+      "hint": "Candy is bad for teeth.",
+      "explain": "Too much candy can give you a toothache."
+    },
+    {
+      "id": "w4-hp-026",
+      "v": 1,
+      "bank": "health",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-cold",
+      "prompt": "When you have a cold, you ___ a lot.",
+      "options": [
+        "swim",
+        "sneeze"
+      ],
+      "answer": "b",
+      "hint": "Achoo!",
+      "explain": "When you have a cold, you sneeze a lot."
+    },
+    {
+      "id": "w4-hy-001",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-teeth",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "brush my teeth",
+        "comb my hair",
+        "cut my nails"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I brush my teeth."
+    },
+    {
+      "id": "w4-hy-002",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-hair",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "wash my face",
+        "comb my hair",
+        "take a shower"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I comb my hair."
+    },
+    {
+      "id": "w4-hy-003",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-face",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "use hand gel",
+        "wipe my mouth",
+        "wash my face"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "I wash my face."
+    },
+    {
+      "id": "w4-hy-004",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-gel",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "use hand gel",
+        "cut my nails",
+        "wash my hands"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I use hand gel."
+    },
+    {
+      "id": "w4-hy-005",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-nails",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "take a shower",
+        "cut my nails",
+        "brush my teeth"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I cut my nails."
+    },
+    {
+      "id": "w4-hy-006",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-shower",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "wipe my mouth",
+        "comb my hair",
+        "take a shower"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "I take a shower."
+    },
+    {
+      "id": "w4-hy-007",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-wipe",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "wipe my mouth",
+        "wash my hands",
+        "wash my face"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I wipe my mouth."
+    },
+    {
+      "id": "w4-hy-008",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-hands",
+      "prompt": "Look. What is the habit?",
+      "options": [
+        "brush my teeth",
+        "wash my hands",
+        "use hand gel"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I wash my hands."
+    },
+    {
+      "id": "w4-hy-009",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-teeth",
+      "prompt": "I ___ my teeth.",
+      "options": [
+        "cut",
+        "take",
+        "brush"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "I brush my teeth."
+    },
+    {
+      "id": "w4-hy-010",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-hair",
+      "prompt": "I ___ my hair.",
+      "options": [
+        "comb",
+        "wipe",
+        "cut"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I comb my hair."
+    },
+    {
+      "id": "w4-hy-011",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-nails",
+      "prompt": "I ___ my nails.",
+      "options": [
+        "brush",
+        "cut",
+        "take"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I cut my nails."
+    },
+    {
+      "id": "w4-hy-012",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-shower",
+      "prompt": "I take a ___.",
+      "options": [
+        "gel",
+        "nail",
+        "shower"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "I take a shower."
+    },
+    {
+      "id": "w4-hy-013",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-wipe",
+      "prompt": "I ___ my mouth with a napkin.",
+      "options": [
+        "wipe",
+        "comb",
+        "cut"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "I wipe my mouth with a napkin."
+    },
+    {
+      "id": "w4-hy-014",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "y-gel",
+      "prompt": "I use hand ___.",
+      "options": [
+        "shower",
+        "gel",
+        "face"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "I use hand gel."
+    },
+    {
+      "id": "w4-hy-015",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "y-teeth",
+      "prompt": "Mia brushes her teeth every morning and every night. How often?",
+      "options": [
+        "never",
+        "sometimes",
+        "always"
+      ],
+      "answer": "c",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "always"
+    },
+    {
+      "id": "w4-hy-016",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "g-dirty",
+      "prompt": "We don’t eat with dirty hands. Not one time. How often?",
+      "options": [
+        "never",
+        "always",
+        "usually"
+      ],
+      "answer": "a",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "never"
+    },
+    {
+      "id": "w4-hy-017",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "y-shower",
+      "prompt": "Sam takes a shower five evenings a week. How often?",
+      "options": [
+        "never",
+        "usually",
+        "always"
+      ],
+      "answer": "b",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "usually"
+    },
+    {
+      "id": "w4-hy-018",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "y-gel",
+      "prompt": "Ana uses hand gel two days a week. How often?",
+      "options": [
+        "always",
+        "never",
+        "sometimes"
+      ],
+      "answer": "c",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "sometimes"
+    },
+    {
+      "id": "w4-hy-019",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "y-nails",
+      "prompt": "Leo cuts his nails one time every week. How often?",
+      "options": [
+        "once a week",
+        "twice a day",
+        "never"
+      ],
+      "answer": "a",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "once a week"
+    },
+    {
+      "id": "w4-hy-020",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 2,
+      "image": "y-teeth",
+      "prompt": "Mia brushes her teeth in the morning and at night. How often?",
+      "options": [
+        "once a week",
+        "twice a day",
+        "never"
+      ],
+      "answer": "b",
+      "hint": "always 100% · usually 80% · sometimes 50% · never 0%",
+      "explain": "twice a day"
+    },
+    {
+      "id": "w4-hy-021",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-hands",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "I wash always my hands.",
+        "Always I wash my hands.",
+        "I always wash my hands."
+      ],
+      "answer": "c",
+      "hint": "always + verb.",
+      "explain": "I always wash my hands."
+    },
+    {
+      "id": "w4-hy-022",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-hair",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "He usually combs his hair.",
+        "He combs usually his hair.",
+        "He usually comb his hair."
+      ],
+      "answer": "a",
+      "hint": "usually + combs.",
+      "explain": "He usually combs his hair."
+    },
+    {
+      "id": "w4-hy-023",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-gel",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "She uses sometimes hand gel.",
+        "She sometimes uses hand gel.",
+        "She sometimes use hand gel."
+      ],
+      "answer": "b",
+      "hint": "sometimes + uses.",
+      "explain": "She sometimes uses hand gel."
+    },
+    {
+      "id": "w4-hy-024",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "affirmative",
+      "level": 2,
+      "image": "y-nails",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "They bite never their nails.",
+        "Never they bite their nails.",
+        "They never bite their nails."
+      ],
+      "answer": "c",
+      "hint": "never + verb.",
+      "explain": "They never bite their nails."
+    },
+    {
+      "id": "w4-hy-025",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "image": "y-face",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "How often do you wash your face?",
+        "How often you wash your face?",
+        "How often does you wash your face?"
+      ],
+      "answer": "a",
+      "hint": "How often + do + you.",
+      "explain": "How often do you wash your face?"
+    },
+    {
+      "id": "w4-hy-026",
+      "v": 1,
+      "bank": "hygiene",
+      "type": "mcq",
+      "target": "question",
+      "level": 2,
+      "image": "y-shower",
+      "prompt": "Which sentence is right?",
+      "options": [
+        "How often does he takes a shower?",
+        "How often does he take a shower?",
+        "How often he takes a shower?"
+      ],
+      "answer": "b",
+      "hint": "does + take.",
+      "explain": "How often does he take a shower?"
+    },
+    {
+      "id": "w4-dr-001",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-doctor",
+      "prompt": "Look. What is it?",
+      "options": [
+        "use a tissue",
+        "cover your mouth",
+        "go to the doctor"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "go to the doctor"
+    },
+    {
+      "id": "w4-dr-002",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-tissue",
+      "prompt": "Look. What is it?",
+      "options": [
+        "use a tissue",
+        "take medicine",
+        "drink water"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "use a tissue"
+    },
+    {
+      "id": "w4-dr-003",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-medicine",
+      "prompt": "Look. What is it?",
+      "options": [
+        "take your temperature",
+        "take medicine",
+        "go to the dentist"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "take medicine"
+    },
+    {
+      "id": "w4-dr-004",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-temperature",
+      "prompt": "Look. What is it?",
+      "options": [
+        "put on a bandage",
+        "go to the school nurse",
+        "take your temperature"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "take your temperature"
+    },
+    {
+      "id": "w4-dr-005",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-bandage",
+      "prompt": "Look. What is it?",
+      "options": [
+        "put on a bandage",
+        "cover your mouth",
+        "rest in bed"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "put on a bandage"
+    },
+    {
+      "id": "w4-dr-006",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-cover",
+      "prompt": "Look. What is it?",
+      "options": [
+        "drink water",
+        "cover your mouth",
+        "go to the doctor"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "cover your mouth"
+    },
+    {
+      "id": "w4-dr-007",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-water",
+      "prompt": "Look. What is it?",
+      "options": [
+        "go to the dentist",
+        "use a tissue",
+        "drink water"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "drink water"
+    },
+    {
+      "id": "w4-dr-008",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-dentist",
+      "prompt": "Look. What is it?",
+      "options": [
+        "go to the dentist",
+        "go to the school nurse",
+        "take medicine"
+      ],
+      "answer": "a",
+      "hint": "Look at the picture.",
+      "explain": "go to the dentist"
+    },
+    {
+      "id": "w4-dr-009",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-nurse",
+      "prompt": "Look. What is it?",
+      "options": [
+        "rest in bed",
+        "go to the school nurse",
+        "take your temperature"
+      ],
+      "answer": "b",
+      "hint": "Look at the picture.",
+      "explain": "go to the school nurse"
+    },
+    {
+      "id": "w4-dr-010",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "a-rest",
+      "prompt": "Look. What is it?",
+      "options": [
+        "go to the doctor",
+        "put on a bandage",
+        "rest in bed"
+      ],
+      "answer": "c",
+      "hint": "Look at the picture.",
+      "explain": "rest in bed"
+    },
+    {
+      "id": "w4-dr-011",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "d-talk",
+      "prompt": "You want to know the problem. You ask:",
+      "options": [
+        "What's the matter?",
+        "What's your name?",
+        "Where do you live?"
+      ],
+      "answer": "a",
+      "hint": "Which one fits?",
+      "explain": "What's the matter?"
+    },
+    {
+      "id": "w4-dr-012",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-nurse",
+      "prompt": "You want to know how a sick friend is. You ask:",
+      "options": [
+        "How old are you?",
+        "How are you feeling?",
+        "What time is it?"
+      ],
+      "answer": "b",
+      "hint": "Which one fits?",
+      "explain": "How are you feeling?"
+    },
+    {
+      "id": "w4-dr-013",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-doctor",
+      "prompt": "Another way to say “What’s the matter?”:",
+      "options": [
+        "What's right?",
+        "What's this?",
+        "What's wrong?"
+      ],
+      "answer": "c",
+      "hint": "Which one fits?",
+      "explain": "What's wrong?"
+    },
+    {
+      "id": "w4-dr-014",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "d-sorry",
+      "prompt": "Your friend is sad and hurt. You say:",
+      "options": [
+        "I'm sorry.",
+        "Hooray!",
+        "That's great!"
+      ],
+      "answer": "a",
+      "hint": "Which one fits?",
+      "explain": "I'm sorry."
+    },
+    {
+      "id": "w4-dr-015",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "h-leg",
+      "prompt": "Sam’s leg hurts. You say:",
+      "options": [
+        "That's fun.",
+        "That's too bad.",
+        "Well done!"
+      ],
+      "answer": "b",
+      "hint": "Which one fits?",
+      "explain": "That's too bad."
+    },
+    {
+      "id": "w4-dr-016",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "h-toothache",
+      "prompt": "Leo has a very big toothache. You say:",
+      "options": [
+        "That's lovely!",
+        "Good job!",
+        "That's terrible!"
+      ],
+      "answer": "c",
+      "hint": "Which one fits?",
+      "explain": "That's terrible!"
+    },
+    {
+      "id": "w4-dr-017",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "v-kind",
+      "prompt": "You give a card to a sick friend. You write:",
+      "options": [
+        "Get well soon!",
+        "Happy birthday!",
+        "Good night!"
+      ],
+      "answer": "a",
+      "hint": "Which one fits?",
+      "explain": "Get well soon!"
+    },
+    {
+      "id": "w4-dr-018",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "d-talk",
+      "prompt": "The patient asks for advice:",
+      "options": [
+        "What do you do?",
+        "What should I do?",
+        "Where should I go now?"
+      ],
+      "answer": "b",
+      "hint": "Which one fits?",
+      "explain": "What should I do?"
+    },
+    {
+      "id": "w4-dr-019",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-doctor",
+      "prompt": "Leo is with the doctor. Leo is the ___.",
+      "options": [
+        "nurse",
+        "dentist",
+        "patient"
+      ],
+      "answer": "c",
+      "hint": "Which one fits?",
+      "explain": "Leo is with the doctor. Leo is the patient."
+    },
+    {
+      "id": "w4-dr-020",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-nurse",
+      "prompt": "At school, sick children go to the ___.",
+      "options": [
+        "school nurse",
+        "dentist",
+        "river"
+      ],
+      "answer": "a",
+      "hint": "Which one fits?",
+      "explain": "At school, sick children go to the school nurse."
+    },
+    {
+      "id": "w4-dr-021",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "h-cold",
+      "prompt": "Mia has a cold. She shouldn’t go to school. She should stay ___.",
+      "options": [
+        "at the pool",
+        "at home",
+        "in the park"
+      ],
+      "answer": "b",
+      "hint": "Which one fits?",
+      "explain": "Mia has a cold. She shouldn’t go to school. She should stay at home."
+    },
+    {
+      "id": "w4-dr-022",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-temperature",
+      "prompt": "Dad uses a thermometer to take Sam’s ___.",
+      "options": [
+        "medicine",
+        "bandage",
+        "temperature"
+      ],
+      "answer": "c",
+      "hint": "Which one fits?",
+      "explain": "Dad uses a thermometer to take Sam’s temperature."
+    },
+    {
+      "id": "w4-dr-023",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-bandage",
+      "prompt": "The nurse puts a ___ on Leo’s knee.",
+      "options": [
+        "bandage",
+        "tissue",
+        "remote"
+      ],
+      "answer": "a",
+      "hint": "Which one fits?",
+      "explain": "The nurse puts a bandage on Leo’s knee."
+    },
+    {
+      "id": "w4-dr-024",
+      "v": 1,
+      "bank": "doctor",
+      "type": "mcq",
+      "target": "mixed",
+      "level": 1,
+      "image": "a-medicine",
+      "prompt": "Ana takes a spoon of ___.",
+      "options": [
+        "hand gel",
+        "medicine",
+        "shampoo"
+      ],
+      "answer": "b",
+      "hint": "Which one fits?",
+      "explain": "Ana takes a spoon of medicine."
+    },
+    {
+      "id": "w4-wv-001",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "g-germs",
+      "prompt": "Germs are very small. We ___ see them.",
+      "options": [
+        "can’t",
+        "can"
+      ],
+      "answer": "a",
+      "hint": "They are too small.",
+      "explain": "Germs are very small. We can’t see them."
+    },
+    {
+      "id": "w4-wv-002",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "g-everywhere",
+      "prompt": "Germs are ___.",
+      "options": [
+        "only at home",
+        "everywhere"
+      ],
+      "answer": "b",
+      "hint": "On doors, desks, pencils …",
+      "explain": "Germs are everywhere."
+    },
+    {
+      "id": "w4-wv-003",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "h-sneeze",
+      "prompt": "Germs ___ when we sneeze.",
+      "options": [
+        "spread",
+        "sleep"
+      ],
+      "answer": "a",
+      "hint": "They go from person to person.",
+      "explain": "Germs spread when we sneeze."
+    },
+    {
+      "id": "w4-wv-004",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "g-bin",
+      "prompt": "Ana throws her used tissue ___.",
+      "options": [
+        "on the desk",
+        "away"
+      ],
+      "answer": "b",
+      "hint": "Into the bin.",
+      "explain": "Ana throws her used tissue away."
+    },
+    {
+      "id": "w4-wv-005",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "g-dirty",
+      "prompt": "Sam has dirty hands. He should ___ them.",
+      "options": [
+        "wash",
+        "eat"
+      ],
+      "answer": "a",
+      "hint": "Wash your hands before you eat.",
+      "explain": "Sam has dirty hands. He should wash them."
+    },
+    {
+      "id": "w4-wv-006",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-village",
+      "prompt": "A small town in the country is a ___.",
+      "options": [
+        "river",
+        "village"
+      ],
+      "answer": "b",
+      "hint": "Look at the round houses.",
+      "explain": "A small town in the country is a village."
+    },
+    {
+      "id": "w4-wv-007",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-river",
+      "prompt": "The children fill bottles at the ___.",
+      "options": [
+        "river",
+        "school"
+      ],
+      "answer": "a",
+      "hint": "Water from the river.",
+      "explain": "The children fill bottles at the river."
+    },
+    {
+      "id": "w4-wv-008",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-carry",
+      "prompt": "She is ___ a heavy bottle.",
+      "options": [
+        "eating",
+        "carrying"
+      ],
+      "answer": "b",
+      "hint": "carry = take in your arms.",
+      "explain": "She is carrying a heavy bottle."
+    },
+    {
+      "id": "w4-wv-009",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-well",
+      "prompt": "A ___ takes water from deep under the ground.",
+      "options": [
+        "well",
+        "tap"
+      ],
+      "answer": "a",
+      "hint": "Look at the old well.",
+      "explain": "A well takes water from deep under the ground."
+    },
+    {
+      "id": "w4-wv-010",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-tap",
+      "prompt": "A solar panel uses the ___ to make power.",
+      "options": [
+        "river",
+        "sun"
+      ],
+      "answer": "b",
+      "hint": "solar = the sun.",
+      "explain": "A solar panel uses the sun to make power."
+    },
+    {
+      "id": "w4-wv-011",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "c-tap",
+      "prompt": "Clean water keeps us ___.",
+      "options": [
+        "healthy",
+        "sick"
+      ],
+      "answer": "a",
+      "hint": "Clean water is good for us.",
+      "explain": "Clean water keeps us healthy."
+    },
+    {
+      "id": "w4-wv-012",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-honest",
+      "prompt": "Sam tells his mom the truth. That is ___.",
+      "options": [
+        "kindness",
+        "honesty"
+      ],
+      "answer": "b",
+      "hint": "The truth.",
+      "explain": "Sam tells his mom the truth. That is honesty."
+    },
+    {
+      "id": "w4-wv-013",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-kind",
+      "prompt": "Mia makes a card for her sick friend. That is ___.",
+      "options": [
+        "kindness",
+        "responsibility"
+      ],
+      "answer": "a",
+      "hint": "Being nice.",
+      "explain": "Mia makes a card for her sick friend. That is kindness."
+    },
+    {
+      "id": "w4-wv-014",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-grateful",
+      "prompt": "Leo says “Thank you!” That is ___.",
+      "options": [
+        "honesty",
+        "gratefulness"
+      ],
+      "answer": "b",
+      "hint": "Thank you.",
+      "explain": "Leo says “Thank you!” That is gratefulness."
+    },
+    {
+      "id": "w4-wv-015",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "v-responsible",
+      "prompt": "Ana washes the dishes after lunch. That is ___.",
+      "options": [
+        "responsibility",
+        "gratefulness"
+      ],
+      "answer": "a",
+      "hint": "Doing your job.",
+      "explain": "Ana washes the dishes after lunch. That is responsibility."
+    },
+    {
+      "id": "w4-wv-016",
+      "v": 1,
+      "bank": "world",
+      "type": "mcq",
+      "target": "vocabulary",
+      "level": 1,
+      "image": "s-share",
+      "prompt": "Leo shares his crayons. He is being ___.",
+      "options": [
+        "sick",
+        "kind"
+      ],
+      "answer": "b",
+      "hint": "Sharing toys is kind.",
+      "explain": "Leo shares his crayons. He is being kind."
+    }
+  ]
+}
