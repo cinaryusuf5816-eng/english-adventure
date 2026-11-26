@@ -1,12 +1,13 @@
 {
   "generatedBy": "scripts/asset-manifest.mjs",
-  "count": 41,
+  "count": 80,
   "notes": [
     "Style for all scenes: modern, bright children's picture-book illustration, 2D digital painting, rounded shapes, consistent characters (Mia, Sam, Pepper the cat, Ms. Rosa).",
     "Character consistency: every scene used the character sheet (characters.jpg) as a reference image.",
     "Images contain no English words or labels; all teaching text is HTML.",
     "Images 1–16 were made with the first Canva connection. After a credit cool-down the user connected another Canva account (the user said: school account); images 17–23 were made there, with the character sheet uploaded as reference.",
-    "Every image was reviewed by eye (full size and contact sheet): target action visible, correct hand/object, no extra text, no broken anatomy found."
+    "Every image was reviewed by eye (full size and contact sheet): target action visible, correct hand/object, no extra text, no broken anatomy found.",
+    "Week 5 uses the latest English Adventure 3D character references (Week 4 cover and site character sheet). Clothing cards come from an original wardrobe illustration with one distinct image per garment."
   ],
   "images": [
     {
@@ -40,11 +41,11 @@
       "files": [
         {
           "file": "site/assets/images/site/characters-lg.webp",
-          "bytes": 37906
+          "bytes": 39992
         },
         {
           "file": "site/assets/images/site/characters-sm.webp",
-          "bytes": 16124
+          "bytes": 16712
         }
       ],
       "original": "raw-images/site/characters.jpg",
@@ -66,11 +67,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/week-01-cover-lg.webp",
-          "bytes": 62006
+          "bytes": 70996
         },
         {
           "file": "site/assets/images/week-01/week-01-cover-sm.webp",
-          "bytes": 26362
+          "bytes": 29720
         }
       ],
       "original": "raw-images/week-01/week-01-cover.jpg",
@@ -93,11 +94,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/play-football-lg.webp",
-          "bytes": 82982
+          "bytes": 113642
         },
         {
           "file": "site/assets/images/week-01/play-football-sm.webp",
-          "bytes": 34930
+          "bytes": 46748
         }
       ],
       "original": "raw-images/week-01/play-football.jpg",
@@ -139,11 +140,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/read-a-book-lg.webp",
-          "bytes": 68118
+          "bytes": 67922
         },
         {
           "file": "site/assets/images/week-01/read-a-book-sm.webp",
-          "bytes": 26884
+          "bytes": 26122
         }
       ],
       "original": "raw-images/week-01/read-a-book.jpg",
@@ -182,11 +183,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/watch-tv-lg.webp",
-          "bytes": 85658
+          "bytes": 71496
         },
         {
           "file": "site/assets/images/week-01/watch-tv-sm.webp",
-          "bytes": 36268
+          "bytes": 27306
         }
       ],
       "original": "raw-images/week-01/watch-tv.jpg",
@@ -220,11 +221,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/eat-apples-lg.webp",
-          "bytes": 69482
+          "bytes": 70352
         },
         {
           "file": "site/assets/images/week-01/eat-apples-sm.webp",
-          "bytes": 28842
+          "bytes": 27806
         }
       ],
       "original": "raw-images/week-01/eat-apples.jpg",
@@ -256,11 +257,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/drink-water-lg.webp",
-          "bytes": 69010
+          "bytes": 70956
         },
         {
           "file": "site/assets/images/week-01/drink-water-sm.webp",
-          "bytes": 28992
+          "bytes": 28444
         }
       ],
       "original": "raw-images/week-01/drink-water.jpg",
@@ -291,11 +292,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/go-to-school-lg.webp",
-          "bytes": 104078
+          "bytes": 104906
         },
         {
           "file": "site/assets/images/week-01/go-to-school-sm.webp",
-          "bytes": 44176
+          "bytes": 42780
         }
       ],
       "original": "raw-images/week-01/go-to-school.jpg",
@@ -334,11 +335,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/get-up-lg.webp",
-          "bytes": 61940
+          "bytes": 61228
         },
         {
           "file": "site/assets/images/week-01/get-up-sm.webp",
-          "bytes": 26268
+          "bytes": 24730
         }
       ],
       "original": "raw-images/week-01/get-up.jpg",
@@ -370,11 +371,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/have-breakfast-lg.webp",
-          "bytes": 74630
+          "bytes": 63958
         },
         {
           "file": "site/assets/images/week-01/have-breakfast-sm.webp",
-          "bytes": 30810
+          "bytes": 25290
         }
       ],
       "original": "raw-images/week-01/have-breakfast.jpg",
@@ -413,11 +414,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/do-homework-lg.webp",
-          "bytes": 71732
+          "bytes": 68248
         },
         {
           "file": "site/assets/images/week-01/do-homework-sm.webp",
-          "bytes": 29076
+          "bytes": 27328
         }
       ],
       "original": "raw-images/week-01/do-homework.jpg",
@@ -451,11 +452,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/brush-teeth-lg.webp",
-          "bytes": 59154
+          "bytes": 61418
         },
         {
           "file": "site/assets/images/week-01/brush-teeth-sm.webp",
-          "bytes": 25218
+          "bytes": 24656
         }
       ],
       "original": "raw-images/week-01/brush-teeth.jpg",
@@ -488,11 +489,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/study-english-lg.webp",
-          "bytes": 75608
+          "bytes": 82058
         },
         {
           "file": "site/assets/images/week-01/study-english-sm.webp",
-          "bytes": 32688
+          "bytes": 33356
         }
       ],
       "original": "raw-images/week-01/study-english.jpg",
@@ -531,11 +532,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/like-cats-lg.webp",
-          "bytes": 92384
+          "bytes": 81060
         },
         {
           "file": "site/assets/images/week-01/like-cats-sm.webp",
-          "bytes": 37496
+          "bytes": 32306
         }
       ],
       "original": "raw-images/week-01/like-cats.jpg",
@@ -567,11 +568,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/they-play-football-lg.webp",
-          "bytes": 107024
+          "bytes": 104916
         },
         {
           "file": "site/assets/images/week-01/they-play-football-sm.webp",
-          "bytes": 45040
+          "bytes": 43376
         }
       ],
       "original": "raw-images/week-01/they-play-football.jpg",
@@ -603,11 +604,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/we-read-lg.webp",
-          "bytes": 80074
+          "bytes": 91400
         },
         {
           "file": "site/assets/images/week-01/we-read-sm.webp",
-          "bytes": 32096
+          "bytes": 35568
         }
       ],
       "original": "raw-images/week-01/we-read.jpg",
@@ -631,11 +632,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/pepper-drinks-water-lg.webp",
-          "bytes": 71070
+          "bytes": 62334
         },
         {
           "file": "site/assets/images/week-01/pepper-drinks-water-sm.webp",
-          "bytes": 29066
+          "bytes": 24298
         }
       ],
       "original": "raw-images/week-01/pepper-drinks-water.jpg",
@@ -668,11 +669,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/pepper-plays-lg.webp",
-          "bytes": 97518
+          "bytes": 68654
         },
         {
           "file": "site/assets/images/week-01/pepper-plays-sm.webp",
-          "bytes": 39116
+          "bytes": 26736
         }
       ],
       "original": "raw-images/week-01/pepper-plays.jpg",
@@ -699,11 +700,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/teacher-class-lg.webp",
-          "bytes": 74924
+          "bytes": 74496
         },
         {
           "file": "site/assets/images/week-01/teacher-class-sm.webp",
-          "bytes": 31830
+          "bytes": 30772
         }
       ],
       "original": "raw-images/week-01/teacher-class.jpg",
@@ -726,11 +727,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/mia-plays-football-lg.webp",
-          "bytes": 79264
+          "bytes": 74208
         },
         {
           "file": "site/assets/images/week-01/mia-plays-football-sm.webp",
-          "bytes": 32886
+          "bytes": 29580
         }
       ],
       "original": "raw-images/week-01/mia-plays-football.jpg",
@@ -753,11 +754,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/they-watch-tv-lg.webp",
-          "bytes": 76144
+          "bytes": 74972
         },
         {
           "file": "site/assets/images/week-01/they-watch-tv-sm.webp",
-          "bytes": 31014
+          "bytes": 29522
         }
       ],
       "original": "raw-images/week-01/they-watch-tv.jpg",
@@ -784,11 +785,11 @@
       "files": [
         {
           "file": "site/assets/images/week-01/sam-reads-lg.webp",
-          "bytes": 97768
+          "bytes": 79656
         },
         {
           "file": "site/assets/images/week-01/sam-reads-sm.webp",
-          "bytes": 39934
+          "bytes": 31530
         }
       ],
       "original": "raw-images/week-01/sam-reads.jpg",
@@ -810,11 +811,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/live-in-a-city-lg.webp",
-          "bytes": 105102
+          "bytes": 92970
         },
         {
           "file": "site/assets/images/book-unit1/live-in-a-city-sm.webp",
-          "bytes": 46062
+          "bytes": 38118
         }
       ],
       "original": "raw-images/book-unit1/live-in-a-city.jpg",
@@ -841,11 +842,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/dance-lg.webp",
-          "bytes": 65460
+          "bytes": 88830
         },
         {
           "file": "site/assets/images/book-unit1/dance-sm.webp",
-          "bytes": 28354
+          "bytes": 36394
         }
       ],
       "original": "raw-images/book-unit1/dance.jpg",
@@ -872,11 +873,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/ride-a-bike-lg.webp",
-          "bytes": 106030
+          "bytes": 81544
         },
         {
           "file": "site/assets/images/book-unit1/ride-a-bike-sm.webp",
-          "bytes": 44936
+          "bytes": 33150
         }
       ],
       "original": "raw-images/book-unit1/ride-a-bike.jpg",
@@ -901,11 +902,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/walk-to-school-lg.webp",
-          "bytes": 101262
+          "bytes": 84262
         },
         {
           "file": "site/assets/images/book-unit1/walk-to-school-sm.webp",
-          "bytes": 42306
+          "bytes": 34622
         }
       ],
       "original": "raw-images/book-unit1/walk-to-school.jpg",
@@ -932,11 +933,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/eat-pizza-lg.webp",
-          "bytes": 69166
+          "bytes": 58908
         },
         {
           "file": "site/assets/images/book-unit1/eat-pizza-sm.webp",
-          "bytes": 28346
+          "bytes": 22794
         }
       ],
       "original": "raw-images/book-unit1/eat-pizza.jpg",
@@ -960,11 +961,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/smile-lg.webp",
-          "bytes": 86820
+          "bytes": 62674
         },
         {
           "file": "site/assets/images/book-unit1/smile-sm.webp",
-          "bytes": 34752
+          "bytes": 25088
         }
       ],
       "original": "raw-images/book-unit1/smile.jpg",
@@ -988,11 +989,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/visit-grandma-lg.webp",
-          "bytes": 99674
+          "bytes": 97356
         },
         {
           "file": "site/assets/images/book-unit1/visit-grandma-sm.webp",
-          "bytes": 41050
+          "bytes": 38570
         }
       ],
       "original": "raw-images/book-unit1/visit-grandma.jpg",
@@ -1018,11 +1019,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/play-chess-lg.webp",
-          "bytes": 86794
+          "bytes": 80482
         },
         {
           "file": "site/assets/images/book-unit1/play-chess-sm.webp",
-          "bytes": 36576
+          "bytes": 32656
         }
       ],
       "original": "raw-images/book-unit1/play-chess.jpg",
@@ -1045,11 +1046,11 @@
       "files": [
         {
           "file": "site/assets/images/book-unit1/speak-english-lg.webp",
-          "bytes": 80998
+          "bytes": 78280
         },
         {
           "file": "site/assets/images/book-unit1/speak-english-sm.webp",
-          "bytes": 33888
+          "bytes": 31472
         }
       ],
       "original": "raw-images/book-unit1/speak-english.jpg",
@@ -1074,11 +1075,11 @@
       "files": [
         {
           "file": "site/assets/images/ui/hero-lg.webp",
-          "bytes": 64916
+          "bytes": 60816
         },
         {
           "file": "site/assets/images/ui/hero-sm.webp",
-          "bytes": 24440
+          "bytes": 23120
         }
       ],
       "original": "raw-images/ui/hero.jpg",
@@ -1100,11 +1101,11 @@
       "files": [
         {
           "file": "site/assets/images/ui/owl-lg.webp",
-          "bytes": 71870
+          "bytes": 90200
         },
         {
           "file": "site/assets/images/ui/owl-sm.webp",
-          "bytes": 40768
+          "bytes": 50332
         }
       ],
       "original": "raw-images/ui/owl.jpg",
@@ -1282,11 +1283,11 @@
       "files": [
         {
           "file": "site/assets/images/ui/avatar-lg.webp",
-          "bytes": 24242
+          "bytes": 56306
         },
         {
           "file": "site/assets/images/ui/avatar-sm.webp",
-          "bytes": 20526
+          "bytes": 30652
         }
       ],
       "original": "raw-images/ui/avatar.jpg",
@@ -1302,6 +1303,1066 @@
       "prompt": "Explorer avatar (top bar)",
       "termsOfUse": "AI-generated in the teacher's own Canva account. Use is governed by the Canva Terms of Use / AI product terms of that account. No third-party stock images. Not independently checked by a lawyer — the teacher should confirm the terms of the Canva plan used (especially for the school account).",
       "verification": "ok"
+    },
+    {
+      "key": "cover",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/week-05-cover-lg.webp",
+          "bytes": 190482
+        },
+        {
+          "file": "site/assets/images/week-05/week-05-cover-sm.webp",
+          "bytes": 65700
+        }
+      ],
+      "original": "raw-images/week-05/week-05-cover.jpg",
+      "topic": "School Rules — week 05 cover",
+      "altText": "Mia offers Sam a pencil while Ana and Leo carry books to school.",
+      "usedOn": [
+        "All weeks: Week 5 cover",
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Wide landscape roughly 16:9 school courtyard at golden morning, framed by trees and welcoming school doors. Sam and Mia are on the left, Mia offering a yellow pencil to Sam. Ana and Leo carry books and backpacks on the right. All four faces distinct and clearly visible. Keep each child apart, legible school background, community feel, no other children. This is the week cover thumbnail.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "lend",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/lend-lg.webp",
+          "bytes": 143066
+        },
+        {
+          "file": "site/assets/images/week-05/lend-sm.webp",
+          "bytes": 49198
+        }
+      ],
+      "original": "raw-images/week-05/lend.jpg",
+      "topic": "School Rules — lend",
+      "altText": "Mia hands Sam a yellow pencil across their desk.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Mia in her yellow cardigan lends Sam one yellow pencil across their classroom table. The pencil is clearly suspended between their hands and held by Mia, with Sam's open empty hand reaching to take it. Only Mia and Sam. Desk with just one open, unlettered notebook.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "throw-away",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/throw-away-lg.webp",
+          "bytes": 103646
+        },
+        {
+          "file": "site/assets/images/week-05/throw-away-sm.webp",
+          "bytes": 40830
+        }
+      ],
+      "original": "raw-images/week-05/throw-away.jpg",
+      "topic": "School Rules — throw away",
+      "altText": "Sam drops a paper ball into a classroom bin.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Sam, ginger hair and teal hoodie, drops a single crumpled white paper ball into an open small teal classroom wastebasket. The paper is in the air directly above the opening. A single simple readable action, Sam shown from head to knees.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "quiz",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/quiz-lg.webp",
+          "bytes": 99694
+        },
+        {
+          "file": "site/assets/images/week-05/quiz-sm.webp",
+          "bytes": 35048
+        }
+      ],
+      "original": "raw-images/week-05/quiz.jpg",
+      "topic": "School Rules — quiz",
+      "altText": "Ana works alone on a sheet at her desk.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana, tan skin with straight shoulder-length black hair and green T-shirt, sits at a classroom desk, working quietly on her own quiz. She holds a graphite pencil above one plainly visible sheet with blank answer boxes and abstract dots, no legible characters, with a closed book at the far edge. Show face and pencil and sheet without unnatural fingers.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "share",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/share-lg.webp",
+          "bytes": 146450
+        },
+        {
+          "file": "site/assets/images/week-05/share-sm.webp",
+          "bytes": 53568
+        }
+      ],
+      "original": "raw-images/week-05/share.jpg",
+      "topic": "School Rules — share",
+      "altText": "Mia and Leo look at one open book together.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Mia in mustard cardigan and Leo in red T-shirt are seated side by side at a school table looking at the same single large open picture book with simple pictures of flowers. Each looks at the one book, no second book, each child has their own seat.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clean-up",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clean-up-lg.webp",
+          "bytes": 113576
+        },
+        {
+          "file": "site/assets/images/week-05/clean-up-sm.webp",
+          "bytes": 39320
+        }
+      ],
+      "original": "raw-images/week-05/clean-up.jpg",
+      "topic": "School Rules — clean up",
+      "altText": "Ana wipes a spill from her desk with a yellow cloth.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana, straight black bob and green tee, wipes a small water spill from a wooden classroom desk with a bright yellow cloth. She is the only child, and the motion and cloth are obvious. Show natural hands, one resting on the desk edge.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "sit-down",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/sit-down-lg.webp",
+          "bytes": 117782
+        },
+        {
+          "file": "site/assets/images/week-05/sit-down-sm.webp",
+          "bytes": 41300
+        }
+      ],
+      "original": "raw-images/week-05/sit-down.jpg",
+      "topic": "School Rules — sit down",
+      "altText": "Leo is seated on a blue classroom chair.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Leo, dark brown skin, short black tightly curled hair, red t-shirt and dark blue trousers, is fully seated on a simple blue classroom chair next to a school desk, legs visible, feet flat on the floor. The side three-quarter view makes it obvious that he is sitting. No other children.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "stand-up",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/stand-up-lg.webp",
+          "bytes": 119880
+        },
+        {
+          "file": "site/assets/images/week-05/stand-up-sm.webp",
+          "bytes": 41418
+        }
+      ],
+      "original": "raw-images/week-05/stand-up.jpg",
+      "topic": "School Rules — stand up",
+      "altText": "Sam is on his feet beside his empty chair.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Sam, auburn swept hair, freckles, teal pullover hoodie and tan trousers, is standing upright on both feet next to his blue classroom chair, just beside his desk, with the seat visibly empty. Wide enough to see feet and chair, one child.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "check-out",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/check-out-lg.webp",
+          "bytes": 146944
+        },
+        {
+          "file": "site/assets/images/week-05/check-out-sm.webp",
+          "bytes": 55236
+        }
+      ],
+      "original": "raw-images/week-05/check-out.jpg",
+      "topic": "School Rules — check out",
+      "altText": "Mia shows her card as the librarian scans a book.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Mia and an adult librarian check out one book at the school library counter. Cheerful brown-skinned Mia in mustard cardigan with curly high puff and teal hair tie, holding a yellow library card. The librarian scans the book with a simple handheld scanner over a small white barcode-like mark, neither book nor card has letters. Warm bookshelves in the background.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "raise-hand",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/raise-hand-lg.webp",
+          "bytes": 90162
+        },
+        {
+          "file": "site/assets/images/week-05/raise-hand-sm.webp",
+          "bytes": 29780
+        }
+      ],
+      "original": "raw-images/week-05/raise-hand.jpg",
+      "topic": "School Rules — raise hand",
+      "altText": "Ana sits at a desk with one arm held up.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana in green T-shirt is seated at a school desk and raises one hand straight up so the full hand is visible and clearly above her head. Show her other forearm resting comfortably on the table. Focus on Ana, blank chalkboard in soft focus behind, no other people.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "wait-line",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/wait-line-lg.webp",
+          "bytes": 182848
+        },
+        {
+          "file": "site/assets/images/week-05/wait-line-sm.webp",
+          "bytes": 65720
+        }
+      ],
+      "original": "raw-images/week-05/wait-line.jpg",
+      "topic": "School Rules — wait line",
+      "altText": "The four friends stand one behind another by the bus door.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana in green, Sam in teal, Mia in yellow and Leo in red stand one behind the other in a single clearly spaced line on a school sidewalk beside an open yellow school bus door, all facing that door. At least three are fully visible in side view, backs and feet positioned to make the queue clear. No writing on the bus.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "help-books",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/help-books-lg.webp",
+          "bytes": 135834
+        },
+        {
+          "file": "site/assets/images/week-05/help-books-sm.webp",
+          "bytes": 49482
+        }
+      ],
+      "original": "raw-images/week-05/help-books.jpg",
+      "topic": "School Rules — help books",
+      "altText": "Mia carries a book for Leo in the hall.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Leo in his red tee is carrying a small stack of three colorful closed books, Mia in mustard cardigan has taken one book from the top and is carrying it separately to help him. Show only Mia and Leo in school corridor, mouths can smile naturally, holding books close with physically plausible arms. No lettering or writing.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "uniform",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/uniform-lg.webp",
+          "bytes": 73542
+        },
+        {
+          "file": "site/assets/images/week-05/uniform-sm.webp",
+          "bytes": 27784
+        }
+      ],
+      "original": "raw-images/week-05/uniform.jpg",
+      "topic": "School Rules — uniform",
+      "altText": "Leo and Ana wear matching white shirts and navy school clothes.",
+      "usedOn": [
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Leo on left, warm dark skin and tight cropped black curls, and Ana on right, warm tan skin straight shoulder-length black hair. A natural full-body picture as two friends stand with a little space between them, smiling in a simple cream-and-teal corridor in soft focus. Leo wears a white collared shirt, one navy necktie, navy long pants and black school shoes. Ana wears a white collared shirt, knee-length navy skirt, white ankle socks, and black school shoes. Their arms are naturally relaxed straight down, at their sides, no hand pose or raised arms. Full shoes clearly visible, no third person or lettering.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "casual-clothes",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/casual-clothes-lg.webp",
+          "bytes": 86810
+        },
+        {
+          "file": "site/assets/images/week-05/casual-clothes-sm.webp",
+          "bytes": 30372
+        }
+      ],
+      "original": "raw-images/week-05/casual-clothes.jpg",
+      "topic": "School Rules — casual clothes",
+      "altText": "Mia wears a yellow jacket and shorts. Sam wears a teal T-shirt, jeans and orange sneakers.",
+      "usedOn": [
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Sam on image right has auburn swept hair, freckles and green eyes from reference. He wears a plain bright teal short-sleeved T-shirt, full-length blue denim jeans, white socks and orange sneakers. Mia at image left has brown skin, a high dark curly ponytail with teal band, and wears a mustard zip-up jacket, dark navy knee-length shorts and solid blue sneakers. Both standing casually with arms resting naturally DOWN at their sides, looking toward camera, no gesture of any sort. Show top of head to soles of shoes and plenty of space between bodies, clean indoor light-cream school changing area background. Image functions as vocabulary visual for clothing. No scale markers, lines, extra child, or overlays.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "auditorium",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/auditorium-lg.webp",
+          "bytes": 111170
+        },
+        {
+          "file": "site/assets/images/week-05/auditorium-sm.webp",
+          "bytes": 40072
+        }
+      ],
+      "original": "raw-images/week-05/auditorium.jpg",
+      "topic": "School Rules — auditorium",
+      "altText": "Mia speaks from a small stage in front of rows of seats.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "A school auditorium from the aisle: rows of empty red seats facing a small wooden stage with deep teal curtains. Onstage Mia, the brown-skinned girl with a high curly puff, teal hair tie and mustard yellow cardigan over a white shirt, is practicing a speech at a microphone. The stage and rows of seats clearly distinguish an auditorium from a classroom. No other people.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "hall",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/hall-lg.webp",
+          "bytes": 129954
+        },
+        {
+          "file": "site/assets/images/week-05/hall-sm.webp",
+          "bytes": 46226
+        }
+      ],
+      "original": "raw-images/week-05/hall.jpg",
+      "topic": "School Rules — hall",
+      "altText": "Sam and Ana walk between the lockers in a school corridor.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "A bright school hallway with two lines of lockers, closed classroom doors, and a clear walkway. Sam, red hair freckles and teal hoodie, and Ana, black bob green tee, walk quietly side by side with their hands free. Visual focus on lockers and corridor. No signage.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "principal-office",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/principal-office-lg.webp",
+          "bytes": 100784
+        },
+        {
+          "file": "site/assets/images/week-05/principal-office-sm.webp",
+          "bytes": 34826
+        }
+      ],
+      "original": "raw-images/week-05/principal-office.jpg",
+      "topic": "School Rules — principal office",
+      "altText": "Ana talks to the principal, who sits behind a desk.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana from the existing character reference is the only child: green tee, tan skin and black long bob. She is talking to the principal, a friendly older bald Black man with a short silver beard, wearing a navy blazer over a cream shirt. He is clearly sitting behind a small tidy wood desk in his school office. Ana stands clear of the furniture at left with hands holding one closed notebook; a small trophy is at right. Both relaxed and smiling, two physically separate subjects, no plaques or text.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "cafeteria",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/cafeteria-lg.webp",
+          "bytes": 152328
+        },
+        {
+          "file": "site/assets/images/week-05/cafeteria-sm.webp",
+          "bytes": 50984
+        }
+      ],
+      "original": "raw-images/week-05/cafeteria.jpg",
+      "topic": "School Rules — cafeteria",
+      "altText": "A worker serves food onto Leo’s lunch tray.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "A smiling adult cafeteria worker wearing a white apron and green cap serves rice and vegetables onto Leo's lunch tray. Leo has dark brown skin, short tight curls and red tee. Show a couple of empty cafeteria tables in the background, only one worker and Leo. No signage.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "janitor",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/janitor-lg.webp",
+          "bytes": 170716
+        },
+        {
+          "file": "site/assets/images/week-05/janitor-sm.webp",
+          "bytes": 60328
+        }
+      ],
+      "original": "raw-images/week-05/janitor.jpg",
+      "topic": "School Rules — janitor",
+      "altText": "A worker mops the wooden gym floor beside a yellow bucket.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "A friendly adult school janitor uses a long blue mop to clean a small wet area of the wooden gym floor with a plain yellow mop bucket nearby. A basketball hoop in soft focus identifies the school gym. Keep the adult and mop action clearly visible. No words.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "boat-school",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/boat-school-lg.webp",
+          "bytes": 227086
+        },
+        {
+          "file": "site/assets/images/week-05/boat-school-sm.webp",
+          "bytes": 81510
+        }
+      ],
+      "original": "raw-images/week-05/boat-school.jpg",
+      "topic": "School Rules — boat school",
+      "altText": "A boat with desks inside waits at the riverbank.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Illustrated fictional school boat: a mostly enclosed welcoming teal school boat with a cream roof is docked by a quiet river bank. A stable wide gangway and railing are clearly visible. Through its big window, two little desks and a book shelf are visible. Sam in teal and Mia in yellow wait safely by the railing on shore. Avoid any risk or children crossing, avoid all signage.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "forest-school",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/forest-school-lg.webp",
+          "bytes": 230928
+        },
+        {
+          "file": "site/assets/images/week-05/forest-school-sm.webp",
+          "bytes": 83528
+        }
+      ],
+      "original": "raw-images/week-05/forest-school.jpg",
+      "topic": "School Rules — forest school",
+      "altText": "Ana and Leo write in their notebooks under tall trees beside a puddle.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Ana in green and Leo in red have an outdoor forest lesson seated on a dry wooden bench, with pencils and notebooks on their laps, under tall green leafy trees. Their boots are beside a clearly visible patch of muddy puddles in the near ground; they are wearing the boots. Dull warm light filtered through canopy, no classroom building, only two children. The forest is the main feature.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "tree-school",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/tree-school-lg.webp",
+          "bytes": 253316
+        },
+        {
+          "file": "site/assets/images/week-05/tree-school-sm.webp",
+          "bytes": 87246
+        }
+      ],
+      "original": "raw-images/week-05/tree-school.jpg",
+      "topic": "School Rules — tree school",
+      "altText": "A tree grows through an opening in a classroom roof.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "An imaginative school with a real tree trunk growing through a clearly visible circular opening in the center of the wooden roof. Bright spacious classroom with desks at the sides and a view of the canopy through skylights, one red playground slide visible through a broad side window. No people necessary; clearly a school room. No text.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "field-trip",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/field-trip-lg.webp",
+          "bytes": 254166
+        },
+        {
+          "file": "site/assets/images/week-05/field-trip-sm.webp",
+          "bytes": 90874
+        }
+      ],
+      "original": "raw-images/week-05/field-trip.jpg",
+      "topic": "School Rules — field trip",
+      "altText": "Mia and Sam stand with their teacher by a giraffe enclosure.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "School field trip at a zoo. Mia in mustard and Sam in teal stand with a friendly adult teacher on a paved path at a simple low viewing barrier, looking at a giraffe well away from them behind a separate tall habitat fence. Backpacks and one cap visible. Friendly, safe, educational, no feeding or contact, no text.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "encourage",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/encourage-lg.webp",
+          "bytes": 112566
+        },
+        {
+          "file": "site/assets/images/week-05/encourage-sm.webp",
+          "bytes": 39514
+        }
+      ],
+      "original": "raw-images/week-05/encourage.jpg",
+      "topic": "School Rules — encourage",
+      "altText": "Ana practises a dance step while Leo cheers her on.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Examples",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "On a school auditorium stage with a teal curtain, Ana in green is practicing a dance move, losing her balance just a little but firmly grounded, and Leo in red at stage level smiles encouragingly and gives one simple thumbs up. Children's natural proportions and comfortable posture. Show the two faces clearly. No text.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "school-day",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/school-day-lg.webp",
+          "bytes": 121440
+        },
+        {
+          "file": "site/assets/images/week-05/school-day-sm.webp",
+          "bytes": 45152
+        }
+      ],
+      "original": "raw-images/week-05/school-day.jpg",
+      "topic": "School Rules — school day",
+      "altText": "Ms. Rosa talks to the four friends at their classroom desks.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Speak",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "A shared classroom with Ms. Rosa, warm brown wavy hair and glasses, and our four recurring children. Ana with a straight black bob (green) raises a hand, Mia with high curly ponytail (mustard) and Sam with auburn curls (teal) listen with notebooks, Leo in red sits at the next desk. Only Ms. Rosa and these four. Wide, clear, warm storybook classroom with a bare slate green chalkboard, no text. Teacher speaking to the engaged children. Natural hands and legs. This quietly establishes where lessons take place.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "mud",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/mud-lg.webp",
+          "bytes": 179278
+        },
+        {
+          "file": "site/assets/images/week-05/mud-sm.webp",
+          "bytes": 60992
+        }
+      ],
+      "original": "raw-images/week-05/mud.jpg",
+      "topic": "School Rules — mud",
+      "altText": "A boot is beside a patch of wet soil and puddles.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Close-up at forest ground level of one child's yellow rubber boot next to a clearly recognizable patch of brown wet sticky mud, with one round puddle and a few trees out of focus. Show bare wet soil as primary visual; no face needed.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "form",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/form-lg.webp",
+          "bytes": 106500
+        },
+        {
+          "file": "site/assets/images/week-05/form-sm.webp",
+          "bytes": 34256
+        }
+      ],
+      "original": "raw-images/week-05/form.jpg",
+      "topic": "School Rules — form",
+      "altText": "A hand signs a form beside a backpack.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Games",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Close-up of one adult's hand signing a single sheet with clean abstract lines and check marks on a school desk, child-sized teal backpack with a water bottle nearby. Paper and pen primary, hand has a normal natural grasp, use marks without letters, signatures or numbers.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-jeans",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-jeans-lg.webp",
+          "bytes": 33368
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-jeans-sm.webp",
+          "bytes": 12196
+        }
+      ],
+      "original": "raw-images/week-05/clothes-jeans.jpg",
+      "topic": "School Rules — clothes jeans",
+      "altText": "Folded blue denim trousers.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for jeans from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-socks",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-socks-lg.webp",
+          "bytes": 23560
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-socks-sm.webp",
+          "bytes": 7654
+        }
+      ],
+      "original": "raw-images/week-05/clothes-socks.jpg",
+      "topic": "School Rules — clothes socks",
+      "altText": "Two white crew socks with green stripes.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for socks from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-sneakers",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-sneakers-lg.webp",
+          "bytes": 39306
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-sneakers-sm.webp",
+          "bytes": 14928
+        }
+      ],
+      "original": "raw-images/week-05/clothes-sneakers.jpg",
+      "topic": "School Rules — clothes sneakers",
+      "altText": "A pair of orange running shoes with white soles.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for sneakers from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-shirt",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-shirt-lg.webp",
+          "bytes": 16478
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-shirt-sm.webp",
+          "bytes": 5518
+        }
+      ],
+      "original": "raw-images/week-05/clothes-shirt.jpg",
+      "topic": "School Rules — clothes shirt",
+      "altText": "A white button-up top with a collar.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for shirt from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-tie",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-tie-lg.webp",
+          "bytes": 19680
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-tie-sm.webp",
+          "bytes": 7066
+        }
+      ],
+      "original": "raw-images/week-05/clothes-tie.jpg",
+      "topic": "School Rules — clothes tie",
+      "altText": "A long blue strip of fabric with a pointed end.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for tie from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-pants",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-pants-lg.webp",
+          "bytes": 16594
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-pants-sm.webp",
+          "bytes": 5454
+        }
+      ],
+      "original": "raw-images/week-05/clothes-pants.jpg",
+      "topic": "School Rules — clothes pants",
+      "altText": "Long navy trousers with straight legs.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Learn",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for pants from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-skirt",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-skirt-lg.webp",
+          "bytes": 25630
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-skirt-sm.webp",
+          "bytes": 7978
+        }
+      ],
+      "original": "raw-images/week-05/clothes-skirt.jpg",
+      "topic": "School Rules — clothes skirt",
+      "altText": "A green pleated garment.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for skirt from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-shoes",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-shoes-lg.webp",
+          "bytes": 25332
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-shoes-sm.webp",
+          "bytes": 9600
+        }
+      ],
+      "original": "raw-images/week-05/clothes-shoes.jpg",
+      "topic": "School Rules — clothes shoes",
+      "altText": "A pair of black lace-up school footwear.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for shoes from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-jacket",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-jacket-lg.webp",
+          "bytes": 34476
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-jacket-sm.webp",
+          "bytes": 11794
+        }
+      ],
+      "original": "raw-images/week-05/clothes-jacket.jpg",
+      "topic": "School Rules — clothes jacket",
+      "altText": "A mustard yellow long-sleeved top with a zip.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for jacket from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-t-shirt",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-t-shirt-lg.webp",
+          "bytes": 27106
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-t-shirt-sm.webp",
+          "bytes": 8536
+        }
+      ],
+      "original": "raw-images/week-05/clothes-t-shirt.jpg",
+      "topic": "School Rules — clothes t shirt",
+      "altText": "A red short-sleeved top with a round neck.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for t-shirt from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-shorts",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-shorts-lg.webp",
+          "bytes": 31586
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-shorts-sm.webp",
+          "bytes": 10498
+        }
+      ],
+      "original": "raw-images/week-05/clothes-shorts.jpg",
+      "topic": "School Rules — clothes shorts",
+      "altText": "Teal short trousers.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for shorts from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
+    },
+    {
+      "key": "clothes-uniform",
+      "files": [
+        {
+          "file": "site/assets/images/week-05/clothes-uniform-lg.webp",
+          "bytes": 20702
+        },
+        {
+          "file": "site/assets/images/week-05/clothes-uniform-sm.webp",
+          "bytes": 7718
+        }
+      ],
+      "original": "raw-images/week-05/clothes-uniform.jpg",
+      "topic": "School Rules — clothes uniform",
+      "altText": "A school outfit with a blazer, white shirt, navy tie and matching trousers.",
+      "usedOn": [
+        "Words, Memory Match, Listen and Choose",
+        "Practice and Challenge"
+      ],
+      "source": "Built-in OpenAI ImageGen, using existing English Adventure illustrations as style and character references. Optimized to large and small WebP.",
+      "generatedOn": "2026-11-26",
+      "prompt": "Crop for uniform from the unit wardrobe. Produce one perfectly aligned 4 column by 3 row classroom wardrobe chart, wide landscape 4:3, 12 cells of exactly equal width and height, each with one centered standalone color-coded educational 3D object and a lot of empty padding all around. No grid lines, text or numbers. All backgrounds uniform solid light vanilla. Row 1 left to right: folded blue denim jeans with full lengths visible; a pair of white crew socks with green stripes; a pair of bright orange running sneakers with white soles; single white long-sleeved button-up collar shirt. Row 2: single straight blue necktie; long formal navy trousers with straight legs; green pleated knee-length skirt; pair of black school lace-up shoes. Row 3: mustard yellow zip-up jacket; red short-sleeve crew-neck plain T-shirt; pair of dark teal short pants; entire coordinated school uniform grouped as one outfit with blue blazer, white collar, navy tie and navy trousers. Keep 10 percent margins inside every cell so nothing touches cell edges. Every garment sharply recognizable on its own, one cell per vocabulary item, all twelve items, chart fills whole canvas.",
+      "termsOfUse": "Original site illustration generated for English Adventure.",
+      "verification": "Visually reviewed for the target clue and consistency."
     }
   ]
 }

@@ -97,6 +97,9 @@ function watch(page, label) {
 
 async function newPage(opts = {}, label = 'main') {
   const context = await browser.newContext({ viewport: { width: 1366, height: 768 }, ...opts });
+  if (process.env.E2E_OFFLINE_FONTS === '1') {
+    await context.route(/^https:\/\/fonts\.(googleapis|gstatic)\.com\//, (route) => route.fulfill({ contentType: 'text/css', body: '' }));
+  }
   const page = await context.newPage();
   watch(page, label);
   return page;
@@ -113,8 +116,16 @@ async function injectSession(page, bank, ids, { mode = 'practice', support = 'he
   }]);
 }
 async function open(page, base, hash) {
-  await page.goto(base + hash, { waitUntil: 'networkidle' });
-  await page.waitForSelector('#main .screen', { timeout: 8000 });
+  const url = base + hash;
+  // Hash navigation can finish before the app replaces the previous view.
+  const previous = page.url().split('#')[0] === base && page.url() !== url
+    ? await page.$('#main .screen') : null;
+  await page.goto(url, { waitUntil: 'networkidle' });
+  if (previous) {
+    await previous.waitForElementState('hidden', { timeout: 8000 });
+    await previous.dispose();
+  }
+  await page.waitForSelector('#main:not([aria-busy]) .screen', { timeout: 8000 });
   await dismissCelebration(page);
 }
 async function dismissCelebration(page) {
@@ -233,7 +244,7 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
     await page.click('button:has-text("Show the change")');
     const shown = await page.locator('.ex-change').isVisible();
     await page.click('.step-nav button:has-text("Next")');
-    await page.waitForFunction(() => location.hash.endsWith('/5'));
+    await page.getByText(/^Step 5 of /).waitFor();
     const after = await page.locator('.ex-change').isHidden();
     return { ok: before && shown && after, detail: `${before}/${shown}/${after}` };
   });
@@ -275,7 +286,7 @@ const feedbackText = (page) => page.locator('.question-card .feedback').innerTex
     return { ok: /does not exist/.test(t) && (await page.locator('a:has-text("Home")').count()) > 0, detail: t };
   });
   await check('Errors', 'Unpublished week (Coming soon) cannot open', 'message “coming soon”', async () => {
-    await open(page, SUB, '#/week/week-05');
+    await open(page, SUB, '#/week/week-06');
     const t = await page.locator('h1').innerText();
     return { ok: /coming soon/i.test(t), detail: t };
   });
@@ -696,7 +707,7 @@ const TYPES = ['mcq', 'jumbled', 'fill', 'change', 'fix', 'decide', 'dialogue', 
     await open(page, W2URL, '#/week/week-01/practise/mcq');
     const resume = await page.locator('button:has-text("Resume")').count();
     const s = await getSession(page, 'mcq');
-    return { ok: w2img && cards === 4 && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
+    return { ok: w2img && cards === cur.weeks.filter((week) => week.published).length && /TEST WEEK|Template/i.test(t2) && banks2 >= 1 && resume === 1 && s.states[idsOf('mcq')[0]].status === 'correct-first', detail: `cards=${cards} title=${t2} banks=${banks2} resume=${resume}` };
   });
   await page.context().close();
 }
@@ -916,23 +927,23 @@ for (const [w, hgt] of SIZES) {
   const page = await newPage({}, 'template');
   await check('Examples', 'Week 1 Examples: + → − in ONE step (no small steps)', '2 rows, last “Sam doesn\'t play football.”, rule frame shown', async () => {
     await open(page, SUB, '#/week/week-01/examples/ex-01/negative');
-    await page.click('button:has-text("Show the next change")');
+    await page.getByRole('button', { name: 'Show the change', exact: true }).click();
     await page.waitForTimeout(300);
     const rows = await page.locator('.m-row').count();
     const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
     const frame = await page.locator('.m-formula').isVisible();
-    const done = await page.locator('button:has-text("Show the next change")').isDisabled();
+    const done = await page.getByRole('button', { name: 'Show the change', exact: true }).isDisabled();
     return { ok: rows === 2 && done && last === "Sam doesn't play football." && frame, detail: `${rows} rows · ${last} · frame=${frame}` };
   });
   await check('Examples', 'Change Machine: has → have in a Does question', '“Does she have breakfast?”', async () => {
     await open(page, SUB, '#/week/week-01/examples/ex-04/question');
-    await page.click('button:has-text("Show the next change")');
+    await page.getByRole('button', { name: 'Show the change', exact: true }).click();
     const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
     return { ok: last === 'Does she have breakfast?', detail: last };
   });
   await check('Examples', 'Change Machine inside a Learn step', 'Learn 7 step 2 ends with doesn\'t', async () => {
     await open(page, SUB, '#/week/week-01/learn/doesnt/2');
-    for (let i = 0; i < 3; i++) await page.click('button:has-text("Show the next change")');
+    await page.getByRole('button', { name: 'Show the change', exact: true }).click();
     const last = await page.locator('.m-row').last().locator('.sr-only').innerText();
     return { ok: last === "He doesn't play football.", detail: last };
   });
@@ -979,8 +990,8 @@ for (const [w, hgt] of SIZES) {
     const mission = await page.locator('.mission li').first().getAttribute('class');
     return { ok: /3\/13/.test(learnRow) && /is-done/.test(mission || ''), detail: `${learnRow.replace(/\s+/g, ' ')} · ${mission}` };
   });
-  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-05 disabled; tip changes', async () => {
-    const dis = await page.locator('#week-select option[value="week-05"]').getAttribute('disabled');
+  await check('Shell', 'Week picker: Coming soon weeks cannot be chosen; owl tip changes on click', 'week-06 disabled; tip changes', async () => {
+    const dis = await page.locator('#week-select option[value="week-06"]').getAttribute('disabled');
     const a = await page.locator('.owl-bubble').innerText();
     await page.click('.owl-bubble');
     const b = await page.locator('.owl-bubble').innerText();
@@ -1354,6 +1365,99 @@ for (const [w, hgt] of SIZES) {
 }
 
 // =====================================================================
+// 18e. Week 5 — school actions, can and have to
+// =====================================================================
+{
+  const w5 = '#/week/week-05';
+  const page = await newPage({}, 'week5');
+  await check('Week 5', 'New visitors open School Rules and can see the five published weeks', 'School Rules; Week 5 selected; Week 6 disabled', async () => {
+    await open(page, SUB, '#/');
+    const title = await page.locator('h1').innerText();
+    const selected = await page.locator('#week-select').inputValue();
+    const published = await page.locator('#week-select option:not([disabled])').count();
+    return title === 'School Rules' && selected === 'week-05' && published === 5;
+  });
+  await check('Week 5', 'Desktop home shortcuts leave the sign and speech bubbles readable', 'No overlap at the narrow desktop breakpoint', async () => {
+    await page.setViewportSize({ width: 1250, height: 780 });
+    const separated = await page.locator('.dash-hero').evaluate((hero) => {
+      const nav = hero.querySelector('.signposts').getBoundingClientRect();
+      return [...hero.querySelectorAll('.wood-sign, .hero-bubble')].every((el) => el.getBoundingClientRect().right <= nav.left);
+    });
+    await page.setViewportSize({ width: 1366, height: 768 });
+    return separated;
+  });
+  await check('Week 5', 'All 12 clothes cards show unique, loaded images', '12 images; 12 different sources', async () => {
+    await open(page, SUB, `${w5}/words?set=clothes&view=grid`);
+    const pictures = await page.locator('.word-grid img').evaluateAll(async (images) => {
+      await Promise.all(images.map((img) => img.decode()));
+      return new Set(images.map((img) => img.currentSrc)).size;
+    });
+    const reveals = await page.locator('.word-tile').count();
+    return pictures === 12 && reveals === 12;
+  });
+  await check('Week 5', 'Learn shows the obligation sentence and rule with one click', 'Ana has to raise her hand.', async () => {
+    await open(page, SUB, `${w5}/learn/have-to/4`);
+    await page.getByRole('button', { name: 'Show the change', exact: true }).click();
+    const rows = await page.locator('.m-row .sr-only').allTextContents();
+    const rule = await page.locator('.m-formula').innerText();
+    return rows.length === 2 && rows.at(-1) === 'Ana has to raise her hand.' && rule.includes('has to');
+  });
+  await check('Week 5', 'Example mode changes has to into a Does question', 'Does Leo have to wear a school uniform?', async () => {
+    await open(page, SUB, `${w5}/examples/ex-12/have-question`);
+    await page.getByRole('button', { name: 'Show the change', exact: true }).click();
+    const rows = await page.locator('.m-row .sr-only').allTextContents();
+    return rows.join(' | ') === 'Leo has to wear a school uniform. | Does Leo have to wear a school uniform?';
+  });
+  await check('Week 5', 'Sentence Switch offers both grammars with the right short answers', 'Can Ana …? / Does Ana have to …?', async () => {
+    await open(page, SUB, `${w5}/play/sentence-switch`);
+    await page.selectOption('#sw-subject', 'ana');
+    await page.selectOption('#sw-verb', 'raise-hand');
+    const buttons = page.locator('.switch-forms button');
+    await buttons.nth(2).click();
+    const modal = await page.locator('.switch-sentence').innerText();
+    const modalAnswer = await page.locator('.switch-answers').innerText();
+    await buttons.nth(5).click();
+    const obligation = await page.locator('.switch-sentence').innerText();
+    const obligationAnswer = await page.locator('.switch-answers').innerText();
+    return await buttons.count() === 6 && modal === 'Can Ana raise her hand?' && modalAnswer.includes('Yes, she can.') && obligation === 'Does Ana have to raise her hand?' && obligationAnswer.includes('Yes, she does.');
+  });
+  await check('Week 5', 'Practice lists 12 banks and 300 questions, with a scoreable activity', '12 banks, 300 questions, correct feedback', async () => {
+    await open(page, SUB, `${w5}/practise`);
+    const count = await page.locator('.bank-card').count();
+    const heading = await page.locator('.section-head').innerText();
+    await page.locator('.bank-card').last().click();
+    await page.getByRole('button', { name: 'Start', exact: true }).click();
+    const card = page.locator('.question-card');
+    await card.waitFor();
+    const ids = await page.evaluate(() => JSON.parse(localStorage.getItem('eemc:v1:week-05:practise:school-life:practice')).questionIds);
+    const q5 = JSON.parse(readFileSync(join(READY, 'data/weeks/week-05/questions.json'), 'utf8'));
+    const q = q5.questions.find((item) => item.id === ids[0]);
+    await card.getByRole('radio', { name: q.options[q.answer.charCodeAt(0) - 97], exact: true }).click();
+    await card.getByRole('button', { name: 'Check', exact: true }).click();
+    return count === 12 && heading.includes('300 questions') && await card.locator('.feedback.is-right').isVisible();
+  });
+  await check('Week 5', 'Speaking, worksheet and Challenge use the Week 5 content', '22 cards, print options, 15 mixed questions', async () => {
+    await open(page, SUB, `${w5}/speak`);
+    const speak = await page.locator('main').innerText();
+    await open(page, SUB, `${w5}/speak/8`);
+    const greenSchool = await page.locator('main').innerText();
+    await open(page, SUB, `${w5}/worksheet`);
+    const sheet = await page.locator('main').innerText();
+    await open(page, SUB, `${w5}/challenge`);
+    const challenge = await page.locator('main').innerText();
+    return speak.includes('Card 1 of 22') && greenSchool.includes('make our school greener') && sheet.includes('Printable worksheet') && challenge.includes('15 mixed questions');
+  });
+  await page.context().close();
+  const phone = await newPage({ viewport: { width: 390, height: 844 } }, 'week5-phone');
+  await check('Week 5', 'Phone layout keeps the school heading and main panel within the viewport', 'School Rules, no horizontal scrolling', async () => {
+    await open(phone, SUB, w5);
+    await phone.screenshot({ path: join(SHOTS, 'week-05-phone.png') });
+    return await phone.locator('h1').innerText() === 'School Rules' && await phone.evaluate(() => document.documentElement.scrollWidth <= innerWidth);
+  });
+  await phone.context().close();
+}
+
+// =====================================================================
 // 19. Root address too
 // =====================================================================
 {
@@ -1380,8 +1484,9 @@ const reqProblems = failedRequests.filter((m) => !external(m) && !/ERR_ABORTED/.
 record('No console errors or warnings from the app during all tests', '0', problems.length ? problems.slice(0, 8).join(' || ') : '0', problems.length ? 'fail' : 'pass', 'Console');
 record('No failed or 4xx/5xx requests (except tests that force a 404)', '0', reqProblems.length ? reqProblems.slice(0, 8).join(' || ') : '0', reqProblems.length ? 'fail' : 'pass', 'Network');
 record('Requests cancelled by quick screen changes (not errors)', 'info', String(aborted.length), 'pass', 'Network');
+const fontsOffline = process.env.E2E_OFFLINE_FONTS === '1';
 const fontIssues = failedRequests.filter(external).length + consoleProblems.filter(external).length;
-record('Google Fonts reachable (optional; the site falls back to system fonts)', 'reachable', fontIssues ? `${fontIssues} font request problems (offline?)` : 'reachable', fontIssues ? 'skip' : 'pass', 'Network');
+record('Google Fonts reachable (optional; the site falls back to system fonts)', 'reachable', fontsOffline ? 'offline font fallback' : fontIssues ? `${fontIssues} font request problems (offline?)` : 'reachable', fontsOffline || fontIssues ? 'skip' : 'pass', 'Network');
 
 await browser.close();
 servers.forEach((s) => s.close());

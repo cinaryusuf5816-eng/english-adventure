@@ -47,10 +47,21 @@
     {
       "id": "week-05",
       "number": 5,
+      "title": "School Rules",
+      "subtitle": "Can I …? Can you …? What do we have to do?",
+      "published": true,
+      "file": "data/weeks/week-05/week.json",
+      "cover": "assets/images/week-05/week-05-cover",
+      "coverAlt": "Mia offers Sam a pencil while Ana and Leo carry books to school.",
+      "unit": "Unit 4"
+    },
+    {
+      "id": "week-06",
+      "number": 6,
       "title": "Coming soon",
       "subtitle": "New clues are on the way.",
       "published": false,
-      "unit": "Unit 4"
+      "unit": "Unit 5"
     }
   ]
 }

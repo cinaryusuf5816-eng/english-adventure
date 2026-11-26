@@ -1,0 +1,2983 @@
+{
+  "id": "week-05",
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "grammar": "school-modals",
+  "wordsTitle": "Actions at school",
+  "title": "School Rules",
+  "subtitle": "Can I …? Can you …? What do we have to do?",
+  "published": true,
+  "cover": "cover",
+  "questionsFile": "questions.json",
+  "examplesDirect": true,
+  "goals": [
+    "I can name actions, places, workers and clothes at school.",
+    "I can say what someone can and can’t do.",
+    "I can ask for permission, make a request and offer help.",
+    "I can say what is required and what is optional.",
+    "I can join school rules with and, but and or.",
+    "I can encourage a classmate and make a study plan."
+  ],
+  "teacherGoals": [
+    "Teach can + base verb for ability, permission and requests. Practise Can I …?, Can you …? and short answers.",
+    "Use have to / has to for a requirement, don’t / doesn’t have to for an option. Compare optional with can’t (not allowed).",
+    "Compare fictional schools and draw connections to your own school. Use details from the text to describe characters.",
+    "Make a short list of informative rules. Use and for additions, but for contrasts and or for alternatives.",
+    "Practise polite requests, accepting or declining help, positive feedback, encouragement and a goal with a date and a plan."
+  ],
+  "teacherNote": "Compass Be Language Log 2, Unit 4, pages 62–79. Use this week alongside the green school project (63), Actions at School (64), can (65), school places and character description (66–67), school workers and polite requests (68–70), rules and connectors (71), clothes and obligation (72–73), unusual schools and connections (74–75), trip rules (76), encouragement (77), goals (78), and reflection (79). The digital activities use new sentences, stories and pictures.",
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia",
+      "pronoun": "she",
+      "image": "lend"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "pronoun": "he",
+      "image": "stand-up"
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "pronoun": "he",
+      "image": "sit-down"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "pronoun": "she",
+      "image": "raise-hand"
+    }
+  ],
+  "dashboard": {
+    "tagline": "Ask politely and help your friends.",
+    "bubbleLeft": [
+      "Can I help?"
+    ],
+    "bubbleRight": [
+      "Yes, please!"
+    ]
+  },
+  "owlTips": [
+    "Can comes first in a question. Can you help?",
+    "After can or can’t, use the base verb: can read.",
+    "He has to wait. Does he have to wait?",
+    "Don’t have to means you can choose.",
+    "Tell a friend what they did well!"
+  ],
+  "missions": [
+    {
+      "id": "learn",
+      "text": "Learn can and have to",
+      "check": {
+        "section": "learn",
+        "min": 3
+      }
+    },
+    {
+      "id": "words",
+      "text": "Explore words for school",
+      "check": {
+        "section": "words",
+        "min": 1
+      }
+    },
+    {
+      "id": "practice",
+      "text": "Complete at least 3 activities",
+      "check": {
+        "section": "practise",
+        "min": 3
+      }
+    },
+    {
+      "id": "challenge",
+      "text": "Try the challenge",
+      "check": {
+        "section": "challenge",
+        "min": 1
+      }
+    }
+  ],
+  "images": {
+    "cover": {
+      "src": "assets/images/week-05/week-05-cover",
+      "w": 1400,
+      "h": 788,
+      "alt": "Mia offers Sam a pencil while Ana and Leo carry books to school."
+    },
+    "lend": {
+      "src": "assets/images/week-05/lend",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia hands Sam a yellow pencil across their desk."
+    },
+    "throw-away": {
+      "src": "assets/images/week-05/throw-away",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam drops a paper ball into a classroom bin."
+    },
+    "quiz": {
+      "src": "assets/images/week-05/quiz",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana works alone on a sheet at her desk."
+    },
+    "share": {
+      "src": "assets/images/week-05/share",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Leo look at one open book together."
+    },
+    "clean-up": {
+      "src": "assets/images/week-05/clean-up",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana wipes a spill from her desk with a yellow cloth."
+    },
+    "sit-down": {
+      "src": "assets/images/week-05/sit-down",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is seated on a blue classroom chair."
+    },
+    "stand-up": {
+      "src": "assets/images/week-05/stand-up",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam is on his feet beside his empty chair."
+    },
+    "check-out": {
+      "src": "assets/images/week-05/check-out",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia shows her card as the librarian scans a book."
+    },
+    "raise-hand": {
+      "src": "assets/images/week-05/raise-hand",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana sits at a desk with one arm held up."
+    },
+    "wait-line": {
+      "src": "assets/images/week-05/wait-line",
+      "w": 1400,
+      "h": 1050,
+      "alt": "The four friends stand one behind another by the bus door."
+    },
+    "help-books": {
+      "src": "assets/images/week-05/help-books",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia carries a book for Leo in the hall."
+    },
+    "uniform": {
+      "src": "assets/images/week-05/uniform",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo and Ana wear matching white shirts and navy school clothes."
+    },
+    "casual-clothes": {
+      "src": "assets/images/week-05/casual-clothes",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia wears a yellow jacket and shorts. Sam wears a teal T-shirt, jeans and orange sneakers."
+    },
+    "auditorium": {
+      "src": "assets/images/week-05/auditorium",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia speaks from a small stage in front of rows of seats."
+    },
+    "hall": {
+      "src": "assets/images/week-05/hall",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Ana walk between the lockers in a school corridor."
+    },
+    "principal-office": {
+      "src": "assets/images/week-05/principal-office",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana talks to the principal, who sits behind a desk."
+    },
+    "cafeteria": {
+      "src": "assets/images/week-05/cafeteria",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A worker serves food onto Leo’s lunch tray."
+    },
+    "janitor": {
+      "src": "assets/images/week-05/janitor",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A worker mops the wooden gym floor beside a yellow bucket."
+    },
+    "boat-school": {
+      "src": "assets/images/week-05/boat-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A boat with desks inside waits at the riverbank."
+    },
+    "forest-school": {
+      "src": "assets/images/week-05/forest-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana and Leo write in their notebooks under tall trees beside a puddle."
+    },
+    "tree-school": {
+      "src": "assets/images/week-05/tree-school",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A tree grows through an opening in a classroom roof."
+    },
+    "field-trip": {
+      "src": "assets/images/week-05/field-trip",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia and Sam stand with their teacher by a giraffe enclosure."
+    },
+    "encourage": {
+      "src": "assets/images/week-05/encourage",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana practises a dance step while Leo cheers her on."
+    },
+    "school-day": {
+      "src": "assets/images/week-05/school-day",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ms. Rosa talks to the four friends at their classroom desks."
+    },
+    "mud": {
+      "src": "assets/images/week-05/mud",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A boot is beside a patch of wet soil and puddles."
+    },
+    "form": {
+      "src": "assets/images/week-05/form",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A hand signs a form beside a backpack."
+    },
+    "gym": {
+      "src": "assets/images/week-02/gym",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A school gym with a basketball hoop."
+    },
+    "run": {
+      "src": "assets/images/week-03/track",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Leo is running on a red running track."
+    },
+    "swim": {
+      "src": "assets/images/week-03/swim-race",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Children are racing in the pool. Mia is cheering."
+    },
+    "wash-hands": {
+      "src": "assets/images/week-04/y-hands",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Ana washes her hands at the sink."
+    },
+    "plan": {
+      "src": "assets/images/week-03/plan",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is writing an exercise plan on a big calendar."
+    },
+    "help-friend": {
+      "src": "assets/images/week-03/help-friend",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia is helping Ana to hold the volleyball."
+    },
+    "try-again": {
+      "src": "assets/images/week-03/keep-trying",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam has skates and a helmet. He is getting up to try again."
+    },
+    "well-done": {
+      "src": "assets/images/week-02/high-five",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Sam and Leo are giving high fives after the game."
+    },
+    "read": {
+      "src": "assets/images/week-01/read-a-book",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Mia reads an open book."
+    },
+    "sing": {
+      "src": "assets/images/a1-verbs/sing",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A child sings."
+    },
+    "clothes-jeans": {
+      "src": "assets/images/week-05/clothes-jeans",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Folded blue denim trousers."
+    },
+    "clothes-socks": {
+      "src": "assets/images/week-05/clothes-socks",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Two white crew socks with green stripes."
+    },
+    "clothes-sneakers": {
+      "src": "assets/images/week-05/clothes-sneakers",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A pair of orange running shoes with white soles."
+    },
+    "clothes-shirt": {
+      "src": "assets/images/week-05/clothes-shirt",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A white button-up top with a collar."
+    },
+    "clothes-tie": {
+      "src": "assets/images/week-05/clothes-tie",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A long blue strip of fabric with a pointed end."
+    },
+    "clothes-pants": {
+      "src": "assets/images/week-05/clothes-pants",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Long navy trousers with straight legs."
+    },
+    "clothes-skirt": {
+      "src": "assets/images/week-05/clothes-skirt",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A green pleated garment."
+    },
+    "clothes-shoes": {
+      "src": "assets/images/week-05/clothes-shoes",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A pair of black lace-up school footwear."
+    },
+    "clothes-jacket": {
+      "src": "assets/images/week-05/clothes-jacket",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A mustard yellow long-sleeved top with a zip."
+    },
+    "clothes-t-shirt": {
+      "src": "assets/images/week-05/clothes-t-shirt",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A red short-sleeved top with a round neck."
+    },
+    "clothes-shorts": {
+      "src": "assets/images/week-05/clothes-shorts",
+      "w": 1400,
+      "h": 1050,
+      "alt": "Teal short trousers."
+    },
+    "clothes-uniform": {
+      "src": "assets/images/week-05/clothes-uniform",
+      "w": 1400,
+      "h": 1050,
+      "alt": "A school outfit with a blazer, white shirt, navy tie and matching trousers."
+    }
+  },
+  "words": [
+    {
+      "id": "lend",
+      "word": "lend",
+      "phrase": "lend",
+      "image": "lend",
+      "example": "Mia lends Sam a pencil for the lesson."
+    },
+    {
+      "id": "throw-away",
+      "word": "throw away",
+      "phrase": "throw away",
+      "image": "throw-away",
+      "example": "Sam throws away the scrap of paper."
+    },
+    {
+      "id": "take-a-quiz",
+      "word": "take a quiz",
+      "phrase": "take a quiz",
+      "image": "quiz",
+      "example": "Ana takes a short quiz on her own."
+    },
+    {
+      "id": "share",
+      "word": "share",
+      "phrase": "share",
+      "image": "share",
+      "example": "Mia and Leo share a picture book."
+    },
+    {
+      "id": "clean-up",
+      "word": "clean up",
+      "phrase": "clean up",
+      "image": "clean-up",
+      "example": "Ana can clean up the spill with a cloth."
+    },
+    {
+      "id": "sit-down",
+      "word": "sit down",
+      "phrase": "sit down",
+      "image": "sit-down",
+      "example": "Leo sits down before the lesson."
+    },
+    {
+      "id": "stand-up",
+      "word": "stand up",
+      "phrase": "stand up",
+      "image": "stand-up",
+      "example": "Sam stands up beside his desk."
+    },
+    {
+      "id": "check-out",
+      "word": "check out",
+      "phrase": "check out",
+      "image": "check-out",
+      "example": "Mia can check out a book and bring it back next week."
+    },
+    {
+      "id": "raise-your-hand",
+      "word": "raise your hand",
+      "phrase": "raise your hand",
+      "image": "raise-hand",
+      "example": "Raise your hand if you have a question."
+    },
+    {
+      "id": "wait-in-line",
+      "word": "wait in line",
+      "phrase": "wait in line",
+      "image": "wait-line",
+      "example": "The children wait in line for the bus."
+    },
+    {
+      "id": "help",
+      "word": "help",
+      "phrase": "help",
+      "image": "help-books",
+      "example": "Mia helps Leo carry his books."
+    },
+    {
+      "id": "carry",
+      "word": "carry",
+      "phrase": "carry",
+      "image": "cover",
+      "example": "Leo and Ana carry books to school."
+    }
+  ],
+  "learn": [
+    {
+      "id": "school-actions",
+      "title": "Actions at school",
+      "rule": "What do we do at school? **Lend**, **share**, **clean up** and more.",
+      "image": "school-day",
+      "examples": [
+        {
+          "text": "Mia **lends** Sam a pencil.",
+          "image": "lend"
+        },
+        {
+          "text": "Sam **throws away** the paper.",
+          "image": "throw-away"
+        },
+        {
+          "text": "Ana **takes a quiz** by herself.",
+          "image": "quiz"
+        },
+        {
+          "text": "Mia and Leo **share** one book.",
+          "image": "share"
+        },
+        {
+          "text": "Ana **cleans up** her desk.",
+          "image": "clean-up"
+        },
+        {
+          "text": "The children **wait in line** for the bus.",
+          "image": "wait-line"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Two friends use the same book. They ___ it.",
+          "image": "share",
+          "options": [
+            "share",
+            "throw away"
+          ],
+          "answer": "a",
+          "explain": "When you share a book, you use it together."
+        },
+        {
+          "mode": "try",
+          "prompt": "Put the old paper in the bin. ___ the paper.",
+          "image": "throw-away",
+          "options": [
+            "Check out",
+            "Throw away"
+          ],
+          "answer": "b",
+          "explain": "Throw away = put something you no longer need in a bin."
+        }
+      ],
+      "teacherNote": "Mime sit down, stand up and raise your hand. Let a pupil give each instruction."
+    },
+    {
+      "id": "ability",
+      "title": "Can for ability",
+      "rule": "Use **can + base verb** to say what someone is able to do.",
+      "image": "run",
+      "examples": [
+        {
+          "text": "Leo **can run** around the track.",
+          "image": "run"
+        },
+        {
+          "text": "They **can swim** in the pool.",
+          "image": "swim"
+        },
+        {
+          "text": "Mia **can read** a picture book.",
+          "image": "read"
+        },
+        {
+          "text": "Ana **can dance** on the stage.",
+          "image": "encourage"
+        },
+        {
+          "text": "Mia **can give** a short speech.",
+          "image": "auditorium"
+        },
+        {
+          "text": "I **can make** a study plan.",
+          "image": "plan"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Leo is a good runner. He can ___ fast.",
+          "image": "run",
+          "options": [
+            "runs",
+            "run"
+          ],
+          "answer": "b",
+          "explain": "Can + run. The verb keeps its base form."
+        },
+        {
+          "mode": "try",
+          "prompt": "Choose the sentence about ability.",
+          "image": "read",
+          "options": [
+            "Mia can read a book.",
+            "Can I take this book home?"
+          ],
+          "answer": "a",
+          "explain": "Mia is able to read the book."
+        }
+      ],
+      "teacherNote": "Ask pupils to share one ability. A partner says the same sentence using he or she."
+    },
+    {
+      "id": "can-not",
+      "title": "Can’t and the base verb",
+      "rule": "Use **can’t + base verb** for something you are unable or not allowed to do.",
+      "image": "hall",
+      "examples": [
+        {
+          "image": "swim",
+          "machine": {
+            "subject": "leo",
+            "verb": "swim",
+            "to": "negative"
+          }
+        },
+        {
+          "image": "stand-up",
+          "machine": {
+            "subject": "sam",
+            "verb": "stand-up",
+            "to": "negative"
+          }
+        },
+        {
+          "image": "run",
+          "machine": {
+            "subject": "they",
+            "verb": "run",
+            "to": "negative"
+          }
+        },
+        {
+          "text": "The bus is moving. You **can’t stand up** now.",
+          "image": "wait-line"
+        },
+        {
+          "text": "We **can’t run** in the hall.",
+          "image": "hall"
+        },
+        {
+          "text": "Leo **can’t take** a library book home without checking it out.",
+          "image": "check-out"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "The sign says “Walk.” We ___ run in the hall.",
+          "image": "hall",
+          "options": [
+            "can",
+            "can’t"
+          ],
+          "answer": "b",
+          "explain": "The rule does not allow running."
+        },
+        {
+          "mode": "try",
+          "prompt": "Leo can’t ___ today.",
+          "image": "swim",
+          "options": [
+            "swim",
+            "swims"
+          ],
+          "answer": "a",
+          "explain": "Use the base verb swim after can’t."
+        }
+      ],
+      "teacherNote": "Explain that a person may be able to stand up but still not be allowed to do it on a moving bus."
+    },
+    {
+      "id": "ability-question",
+      "title": "Can …? Short answers",
+      "rule": "Ask **Can + who + base verb?** Answer **Yes, … can.** or **No, … can’t.**",
+      "image": "swim",
+      "examples": [
+        {
+          "image": "swim",
+          "machine": {
+            "subject": "leo",
+            "verb": "swim",
+            "to": "question"
+          }
+        },
+        {
+          "image": "encourage",
+          "machine": {
+            "subject": "ana",
+            "verb": "encourage",
+            "to": "question"
+          }
+        },
+        {
+          "image": "read",
+          "machine": {
+            "subject": "mia",
+            "verb": "read",
+            "to": "question"
+          }
+        },
+        {
+          "q": "Can you run fast?",
+          "a": "Yes, I can.",
+          "image": "run"
+        },
+        {
+          "q": "Can they sing?",
+          "a": "Yes, they can.",
+          "image": "sing"
+        },
+        {
+          "q": "Can Sam dance this new step?",
+          "a": "No, he can’t.",
+          "image": "encourage"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "___ Mia read this book?",
+          "image": "read",
+          "options": [
+            "Does",
+            "Can"
+          ],
+          "answer": "b",
+          "explain": "Can asks about Mia’s ability."
+        },
+        {
+          "mode": "try",
+          "prompt": "Can you swim? Choose a possible short answer.",
+          "image": "swim",
+          "options": [
+            "Yes, I can.",
+            "Yes, you can."
+          ],
+          "answer": "a",
+          "explain": "Use I when you answer about yourself."
+        }
+      ],
+      "teacherNote": "Use both short answers in a class survey. A learner can say “No, I can’t yet.”"
+    },
+    {
+      "id": "permission",
+      "title": "Can I …? Permission",
+      "rule": "When you want to do something, ask **Can I …, please?** Ask **Can we …?** for your group.",
+      "image": "check-out",
+      "examples": [
+        {
+          "q": "Can I check out this book, please?",
+          "a": "Yes, you can.",
+          "image": "check-out"
+        },
+        {
+          "q": "Can we sit here, please?",
+          "a": "Of course.",
+          "image": "sit-down"
+        },
+        {
+          "q": "Can I ask a question?",
+          "a": "Yes, you can.",
+          "image": "raise-hand"
+        },
+        {
+          "q": "Can we go into the gym now?",
+          "a": "Sorry, you can’t. It is closed.",
+          "image": "gym"
+        },
+        {
+          "q": "Can I have some rice, please?",
+          "a": "Sure.",
+          "image": "cafeteria"
+        },
+        {
+          "q": "Can we stand up now?",
+          "a": "Yes, you can.",
+          "image": "stand-up"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "You want to borrow a library book. Ask the librarian.",
+          "image": "check-out",
+          "options": [
+            "Can I check out this book, please?",
+            "Can you read fast?"
+          ],
+          "answer": "a",
+          "explain": "You are asking if you may do it."
+        },
+        {
+          "mode": "try",
+          "prompt": "Mia and Sam want to use the gym. They ask: Can ___ use the gym?",
+          "image": "gym",
+          "options": [
+            "you",
+            "we"
+          ],
+          "answer": "b",
+          "explain": "Use we when speaking for yourself and a friend."
+        }
+      ],
+      "teacherNote": "Give the learner a place and a goal. Ask whom they should speak to before they ask."
+    },
+    {
+      "id": "requests",
+      "title": "Can you …? Requests",
+      "rule": "To ask someone to do something for you, say **Can you …, please?**",
+      "image": "lend",
+      "examples": [
+        {
+          "q": "Can you lend me a pencil, please?",
+          "a": "Of course!",
+          "image": "lend"
+        },
+        {
+          "q": "Can you help me carry these books?",
+          "a": "Sure!",
+          "image": "help-books"
+        },
+        {
+          "q": "Can you please help me clean the desk?",
+          "a": "No problem.",
+          "image": "clean-up"
+        },
+        {
+          "q": "Can you show me where the hall is?",
+          "a": "Yes. Come with me.",
+          "image": "hall"
+        },
+        {
+          "q": "Can you share your book with me?",
+          "a": "Sure. Sit here.",
+          "image": "share"
+        },
+        {
+          "q": "Can you give me a spoon, please?",
+          "a": "Of course.",
+          "image": "cafeteria"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "You need another person’s help. Which one is a request?",
+          "image": "help-books",
+          "options": [
+            "Can I carry these books?",
+            "Can you help me carry these books, please?"
+          ],
+          "answer": "b",
+          "explain": "Can you …? asks the other person to do something."
+        },
+        {
+          "mode": "try",
+          "prompt": "Can you ___ me a pencil, please?",
+          "image": "lend",
+          "options": [
+            "lend",
+            "lends"
+          ],
+          "answer": "a",
+          "explain": "Use lend after Can you."
+        }
+      ],
+      "teacherNote": "Model the request as a question, at a clear pace. Partners swap roles."
+    },
+    {
+      "id": "offer-help",
+      "title": "Offer help and reply",
+      "rule": "Offer with **Can I help you?** or **Let me help you.** Say **Yes, please** or **No, thank you**.",
+      "image": "help-books",
+      "examples": [
+        {
+          "q": "Can I help you carry that book?",
+          "a": "Yes, please.",
+          "image": "help-books"
+        },
+        {
+          "q": "Let me help you find the story.",
+          "a": "Thank you!",
+          "image": "check-out"
+        },
+        {
+          "q": "Can I help you clean up?",
+          "a": "No, thank you. I’m fine.",
+          "image": "clean-up"
+        },
+        {
+          "q": "Let me help you with the ball.",
+          "a": "OK, thank you.",
+          "image": "help-friend"
+        },
+        {
+          "q": "Can I help you practise your dance?",
+          "a": "Yes, please.",
+          "image": "encourage"
+        },
+        {
+          "q": "Can you lend me your only pencil?",
+          "a": "Sorry, I can’t. I’m using it.",
+          "image": "lend"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "A friend needs help. Make an offer.",
+          "image": "help-books",
+          "options": [
+            "Can I help you?",
+            "Can you carry my book?"
+          ],
+          "answer": "a",
+          "explain": "With this offer, you are the person who can help."
+        },
+        {
+          "mode": "try",
+          "prompt": "You are fine on your own. Answer “Can I help you?”",
+          "image": "clean-up",
+          "options": [
+            "Yes, please.",
+            "No, thank you."
+          ],
+          "answer": "b",
+          "explain": "No, thank you is a polite way to say no."
+        }
+      ],
+      "teacherNote": "Show that either accepting or declining help can be polite when it fits the situation."
+    },
+    {
+      "id": "places-and-people",
+      "title": "Places and people",
+      "rule": "A **library** has books. A **librarian** helps you find them. What can you do in each place?",
+      "image": "check-out",
+      "examples": [
+        {
+          "text": "Read or borrow books in the **library**. Ask the **librarian** for help.",
+          "image": "check-out"
+        },
+        {
+          "text": "Play basketball in the **gym**. The **janitor** cleans the floor.",
+          "image": "janitor"
+        },
+        {
+          "text": "A **cafeteria worker** serves lunch in the **cafeteria**.",
+          "image": "cafeteria"
+        },
+        {
+          "text": "We watch the talent show in the **auditorium**.",
+          "image": "auditorium"
+        },
+        {
+          "text": "We walk through the **hall** to our next class.",
+          "image": "hall"
+        },
+        {
+          "text": "Ana talks to the **principal** in her office.",
+          "image": "principal-office"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Where do we go to see a show on a stage?",
+          "image": "auditorium",
+          "options": [
+            "the hall",
+            "the auditorium"
+          ],
+          "answer": "b",
+          "explain": "An auditorium has a stage and seats for an audience."
+        },
+        {
+          "mode": "try",
+          "prompt": "Who helps Mia check out a book?",
+          "image": "check-out",
+          "options": [
+            "the librarian",
+            "the janitor"
+          ],
+          "answer": "a",
+          "explain": "A librarian works in a library."
+        }
+      ],
+      "teacherNote": "Name the adults who help at your school. Have children use Can you …, please? to ask one of them for help."
+    },
+    {
+      "id": "describe-character",
+      "title": "What is the character like?",
+      "rule": "Use details from a story. **I think … is … because …**",
+      "image": "share",
+      "examples": [
+        {
+          "text": "Mia gives Sam a pencil. She is **helpful**.",
+          "image": "lend"
+        },
+        {
+          "text": "Leo shares a book. He is **kind**.",
+          "image": "share"
+        },
+        {
+          "text": "Leo holds his books with both hands. He is **careful** with them.",
+          "image": "help-books"
+        },
+        {
+          "text": "Ana puts up her hand and waits. She is **patient**.",
+          "image": "raise-hand"
+        },
+        {
+          "text": "Leo runs quickly. He is **fast**.",
+          "image": "run"
+        },
+        {
+          "text": "Mia stands in front of a big room and speaks. She is **brave**.",
+          "image": "auditorium"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Mia helps Leo carry a book. What is she like?",
+          "image": "help-books",
+          "options": [
+            "helpful",
+            "slow"
+          ],
+          "answer": "a",
+          "explain": "Her action shows she likes to help."
+        },
+        {
+          "mode": "try",
+          "prompt": "Read: “Leo finishes the race first.” What is he like?",
+          "image": "run",
+          "options": [
+            "hungry",
+            "fast"
+          ],
+          "answer": "b",
+          "explain": "Finishing first in the race is a clue that Leo is fast."
+        }
+      ],
+      "teacherNote": "Ask which action or words support each description. Different adjectives can work if students explain their evidence."
+    },
+    {
+      "id": "connectors",
+      "title": "And, but, or",
+      "rule": "Use **and** to add, **but** to contrast, and **or** for a choice.",
+      "image": "hall",
+      "examples": [
+        {
+          "text": "We read **and** write in class.",
+          "image": "school-day"
+        },
+        {
+          "text": "You can walk in the hall, **but** you can’t run there.",
+          "image": "hall"
+        },
+        {
+          "text": "You can read a story **or** a comic. Pick one.",
+          "image": "check-out"
+        },
+        {
+          "text": "I have to bring my bag **and** a pencil.",
+          "image": "cover"
+        },
+        {
+          "text": "Leo can sing, **but** he can’t dance this step yet.",
+          "image": "encourage"
+        },
+        {
+          "text": "On the moving bus, don’t run **or** stand up.",
+          "image": "wait-line"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "We can borrow a comic ___ a story. Pick one.",
+          "image": "check-out",
+          "options": [
+            "and",
+            "or"
+          ],
+          "answer": "b",
+          "explain": "Or shows a choice."
+        },
+        {
+          "mode": "try",
+          "prompt": "We can talk in the hall, ___ we have to be quiet in the library.",
+          "image": "hall",
+          "options": [
+            "but",
+            "and"
+          ],
+          "answer": "a",
+          "explain": "But links two different rules."
+        }
+      ],
+      "teacherNote": "Let pairs write three rules for a place. Ask them to join two of the ideas using the correct connector."
+    },
+    {
+      "id": "clothes",
+      "title": "Clothes and uniforms",
+      "rule": "Name what someone wears. **A shirt**, **a jacket** and **socks** can be part of a **uniform**.",
+      "image": "uniform",
+      "examples": [
+        {
+          "text": "Leo wears a white shirt and a blue **tie**.",
+          "image": "uniform"
+        },
+        {
+          "text": "Ana wears a blue **skirt** and black **shoes**.",
+          "image": "uniform"
+        },
+        {
+          "text": "Sam wears a **T-shirt**, **jeans** and **sneakers**.",
+          "image": "casual-clothes"
+        },
+        {
+          "text": "Mia wears a yellow **jacket** and blue **shorts**.",
+          "image": "casual-clothes"
+        },
+        {
+          "text": "I pull my **socks** on before my sneakers.",
+          "image": "clothes-socks"
+        },
+        {
+          "text": "These long navy **pants** are part of a uniform.",
+          "image": "clothes-pants"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which do you wear around your neck with a school shirt?",
+          "image": "clothes-tie",
+          "options": [
+            "a skirt",
+            "a tie"
+          ],
+          "answer": "b",
+          "explain": "A tie goes around the collar."
+        },
+        {
+          "mode": "try",
+          "prompt": "What do you put on your feet before your shoes?",
+          "image": "clothes-socks",
+          "options": [
+            "socks",
+            "shorts"
+          ],
+          "answer": "a",
+          "explain": "Socks go inside your shoes."
+        }
+      ],
+      "teacherNote": "Compare the school outfit and the casual outfit. Let pupils use pants or trousers and sneakers or trainers in speaking."
+    },
+    {
+      "id": "have-to",
+      "title": "Have to and has to",
+      "rule": "A rule tells us what we **have to** do. With **he / she / it**, say **has to**.",
+      "image": "uniform",
+      "examples": [
+        {
+          "image": "uniform",
+          "machine": {
+            "subject": "leo",
+            "verb": "uniform",
+            "to": "have-positive"
+          }
+        },
+        {
+          "image": "wait-line",
+          "machine": {
+            "subject": "they",
+            "verb": "wait-line",
+            "to": "have-positive"
+          }
+        },
+        {
+          "image": "raise-hand",
+          "machine": {
+            "subject": "ana",
+            "verb": "raise-hand",
+            "to": "have-positive"
+          }
+        },
+        {
+          "text": "I **have to** bring a pencil for the quiz.",
+          "image": "quiz"
+        },
+        {
+          "text": "Mia **has to** show her card at this library.",
+          "image": "check-out"
+        },
+        {
+          "text": "We **have to** stay with the group at the zoo.",
+          "image": "field-trip"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "The school rule says so. Leo ___ wear a uniform.",
+          "image": "uniform",
+          "options": [
+            "have to",
+            "has to"
+          ],
+          "answer": "b",
+          "explain": "Leo = he. Use has to."
+        },
+        {
+          "mode": "try",
+          "prompt": "We ___ wait in line for the bus.",
+          "image": "wait-line",
+          "options": [
+            "have to",
+            "has to"
+          ],
+          "answer": "a",
+          "explain": "We + have to."
+        }
+      ],
+      "teacherNote": "Name the rule as a fact about the school in the example. Invite pupils to compare it to their own rules."
+    },
+    {
+      "id": "optional",
+      "title": "Don’t have to or can’t?",
+      "rule": "**Don’t have to** means you can choose. **Can’t** means the rule says no, or you are unable.",
+      "image": "casual-clothes",
+      "examples": [
+        {
+          "image": "uniform",
+          "machine": {
+            "subject": "sam",
+            "verb": "uniform",
+            "to": "have-negative"
+          }
+        },
+        {
+          "image": "wait-line",
+          "machine": {
+            "subject": "we",
+            "verb": "wait-line",
+            "to": "have-negative"
+          }
+        },
+        {
+          "text": "A uniform is optional. You **don’t have to** wear one.",
+          "image": "casual-clothes"
+        },
+        {
+          "text": "Ana **doesn’t have to** wear a tie. It is her choice.",
+          "image": "clothes-tie"
+        },
+        {
+          "text": "You **can’t** run in the hall. The rule says walk.",
+          "image": "hall"
+        },
+        {
+          "text": "You **don’t have to** sing in the show. You can read a poem instead.",
+          "image": "auditorium"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Sam may wear a uniform, but he can choose. He ___ wear one.",
+          "image": "casual-clothes",
+          "options": [
+            "doesn’t have to",
+            "can’t"
+          ],
+          "answer": "a",
+          "explain": "Optional means it is allowed, but not required."
+        },
+        {
+          "mode": "try",
+          "prompt": "The rule says “No running here.” We ___ run here.",
+          "image": "hall",
+          "options": [
+            "don’t have to",
+            "can’t"
+          ],
+          "answer": "b",
+          "explain": "Can’t means it is not allowed."
+        }
+      ],
+      "teacherNote": "Ask “Can I do it if I want?” after each example to check the difference between optional and not allowed."
+    },
+    {
+      "id": "do-we-have-to",
+      "title": "Do we have to …?",
+      "rule": "Ask **Do / Does + who + have to + base verb?** After **Does**, use **have to**.",
+      "image": "uniform",
+      "examples": [
+        {
+          "image": "uniform",
+          "machine": {
+            "subject": "leo",
+            "verb": "uniform",
+            "to": "have-question"
+          }
+        },
+        {
+          "image": "wait-line",
+          "machine": {
+            "subject": "they",
+            "verb": "wait-line",
+            "to": "have-question"
+          }
+        },
+        {
+          "image": "quiz",
+          "machine": {
+            "subject": "ana",
+            "verb": "quiz",
+            "to": "have-question"
+          }
+        },
+        {
+          "q": "Do I have to show my library card?",
+          "a": "Yes, you do.",
+          "image": "check-out"
+        },
+        {
+          "q": "Do we have to wear ties?",
+          "a": "No, we don’t.",
+          "image": "clothes-tie"
+        },
+        {
+          "q": "Does Mia have to stay with the group?",
+          "a": "Yes, she does.",
+          "image": "field-trip"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Does Leo ___ wear a tie?",
+          "image": "clothes-tie",
+          "options": [
+            "has to",
+            "have to"
+          ],
+          "answer": "b",
+          "explain": "Does + Leo + have to."
+        },
+        {
+          "mode": "try",
+          "prompt": "Do I have to bring a form? The form is required.",
+          "image": "form",
+          "options": [
+            "Yes, you do.",
+            "Yes, you can."
+          ],
+          "answer": "a",
+          "explain": "Answer Do I …? with Yes, you do."
+        }
+      ],
+      "teacherNote": "Have pupils ask three questions about real or invented field trip rules and respond with short answers."
+    },
+    {
+      "id": "different-schools",
+      "title": "Different schools",
+      "rule": "Ask **How is this like my school? How is it different?** Use a detail from the reading.",
+      "image": "boat-school",
+      "examples": [
+        {
+          "text": "At one school, the classroom is on a **boat**.",
+          "image": "boat-school"
+        },
+        {
+          "text": "At a forest school, pupils learn outside under the **trees**.",
+          "image": "forest-school"
+        },
+        {
+          "text": "After rain, the ground is wet and there is **mud**.",
+          "image": "mud"
+        },
+        {
+          "text": "At this school, a tree grows through the **roof**.",
+          "image": "tree-school"
+        },
+        {
+          "text": "We have desks too. That is one thing that is **the same**.",
+          "image": "school-day"
+        },
+        {
+          "text": "Our school is on land, but the boat school is on water. That is **different**.",
+          "image": "boat-school"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which school moves on water?",
+          "image": "boat-school",
+          "options": [
+            "the forest school",
+            "the boat school"
+          ],
+          "answer": "b",
+          "explain": "A boat floats and can move on water."
+        },
+        {
+          "mode": "try",
+          "prompt": "Both schools have desks. Is this a similarity or a difference?",
+          "image": "school-day",
+          "options": [
+            "a similarity",
+            "a difference"
+          ],
+          "answer": "a",
+          "explain": "Both schools share that feature."
+        }
+      ],
+      "teacherNote": "Use original Mini reading passages and invite pupils to connect one detail to a place or an experience they know."
+    },
+    {
+      "id": "trip-rules",
+      "title": "Bus and field trip rules",
+      "rule": "A trip rule can say **what is required**, **what is optional** or **what is not allowed**.",
+      "image": "field-trip",
+      "examples": [
+        {
+          "text": "You **have to** bring your signed form.",
+          "image": "form"
+        },
+        {
+          "text": "You **have to** wait in line before you get on the bus.",
+          "image": "wait-line"
+        },
+        {
+          "text": "You **can’t** stand up while the bus is moving.",
+          "image": "wait-line"
+        },
+        {
+          "text": "You **have to** stay with the group at the zoo.",
+          "image": "field-trip"
+        },
+        {
+          "text": "You **don’t have to** bring a notebook. We have extras.",
+          "image": "quiz"
+        },
+        {
+          "text": "You **can** ask the guide a question.",
+          "image": "raise-hand"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "The teacher has extra notebooks. Bringing one is optional. You ___ bring one.",
+          "image": "quiz",
+          "options": [
+            "can’t",
+            "don’t have to"
+          ],
+          "answer": "b",
+          "explain": "Don’t have to explains that bringing one is a choice."
+        },
+        {
+          "mode": "try",
+          "prompt": "The trip form is required. We ___ bring it.",
+          "image": "form",
+          "options": [
+            "have to",
+            "don’t have to"
+          ],
+          "answer": "a",
+          "explain": "Have to means it is required."
+        }
+      ],
+      "teacherNote": "Read an original list of trip rules aloud. Ask pupils to retell one required, one optional and one forbidden action."
+    },
+    {
+      "id": "encouragement",
+      "title": "Give feedback and encouragement",
+      "rule": "Say what went well. If a friend is still trying, **encourage** them.",
+      "image": "encourage",
+      "examples": [
+        {
+          "text": "“**Great job!** Your next pass was excellent.”",
+          "image": "well-done"
+        },
+        {
+          "text": "“**I like your speech!** You speak clearly.”",
+          "image": "auditorium"
+        },
+        {
+          "text": "“**Keep trying!** The first step is hard.”",
+          "image": "try-again"
+        },
+        {
+          "text": "“**You’re almost there!** Try the dance step again.”",
+          "image": "encourage"
+        },
+        {
+          "text": "“**I like your singing.** You kept the beat.”",
+          "image": "sing"
+        },
+        {
+          "text": "“**Don’t give up.** We can read it together.”",
+          "image": "share"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "A friend missed a dance step. Encourage them.",
+          "image": "encourage",
+          "options": [
+            "Keep trying!",
+            "Stop practising!"
+          ],
+          "answer": "a",
+          "explain": "Keep trying is a helpful thing to say when a friend finds something hard."
+        },
+        {
+          "mode": "try",
+          "prompt": "A friend gave a clear speech. Give positive feedback.",
+          "image": "auditorium",
+          "options": [
+            "Are you still looking for your book?",
+            "Great job! I heard every word."
+          ],
+          "answer": "b",
+          "explain": "Say what the friend did well."
+        }
+      ],
+      "teacherNote": "Practise a short performance or reading in pairs. Each pupil gives one specific piece of positive feedback."
+    },
+    {
+      "id": "study-goals",
+      "title": "Make a study goal",
+      "rule": "Choose **what** you will do, set a **date**, and make a **plan**.",
+      "image": "plan",
+      "examples": [
+        {
+          "text": "Goal: I want to **finish my classwork** on time.",
+          "image": "quiz"
+        },
+        {
+          "text": "Date: I want to do this **by Friday**.",
+          "image": "plan"
+        },
+        {
+          "text": "Plan: I will **write three lines before I talk** to my friends.",
+          "image": "school-day"
+        },
+        {
+          "text": "Goal: I want to **read a page** without help.",
+          "image": "read"
+        },
+        {
+          "text": "Date: I want to do it **by next Monday**.",
+          "image": "plan"
+        },
+        {
+          "text": "Plan: I will **read with a partner** for five minutes each day.",
+          "image": "share"
+        }
+      ],
+      "practice": [
+        {
+          "mode": "together",
+          "prompt": "Which goal is easier to check?",
+          "image": "plan",
+          "options": [
+            "Get better.",
+            "Read one page by Friday."
+          ],
+          "answer": "b",
+          "explain": "It names the action and a date."
+        },
+        {
+          "mode": "try",
+          "prompt": "Which plan gives you an action to do?",
+          "image": "quiz",
+          "options": [
+            "Write the first three lines before talking.",
+            "Try to be good."
+          ],
+          "answer": "a",
+          "explain": "It gives a clear action you can practise."
+        }
+      ],
+      "teacherNote": "Give learners time to choose a small study goal, a date and one action. End by asking what they can do at school now."
+    }
+  ],
+  "speaking": [
+    {
+      "id": "w5-sp-1",
+      "question": "What can you do well? Tell a partner two things.",
+      "image": "run",
+      "help": [
+        "I can …",
+        "I can also …"
+      ],
+      "sample": "I can run and I can read a story.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-2",
+      "question": "Ask your partner about an ability. Then swap roles.",
+      "image": "swim",
+      "help": [
+        "Can you …?",
+        "Yes, I can."
+      ],
+      "sample": "Can you swim? Yes, I can.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-3",
+      "question": "Name something you can’t do yet.",
+      "image": "encourage",
+      "help": [
+        "I can’t … yet."
+      ],
+      "sample": "I can’t do this dance step yet.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-4",
+      "question": "You want to borrow a book. Ask the librarian.",
+      "image": "check-out",
+      "help": [
+        "Can I …, please?"
+      ],
+      "sample": "Can I check out this book, please?",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-5",
+      "question": "You and your friend want to sit down. Ask permission.",
+      "image": "sit-down",
+      "help": [
+        "Can we …?"
+      ],
+      "sample": "Can we sit here, please?",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-6",
+      "question": "Ask a friend to lend you a pencil.",
+      "image": "lend",
+      "help": [
+        "Can you …, please?"
+      ],
+      "sample": "Can you lend me a pencil, please?",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-7",
+      "question": "Your friend has several books. Offer help.",
+      "image": "help-books",
+      "help": [
+        "Let me help you …"
+      ],
+      "sample": "Let me help you carry your books.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-8",
+      "question": "How can we make our school greener? Suggest two things to do.",
+      "image": "throw-away",
+      "help": [
+        "We can …",
+        "We can also …"
+      ],
+      "sample": "We can use both sides of our paper. We can also put used paper in a recycling bin.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-9",
+      "question": "A friend offers help, and you want it. Reply politely.",
+      "image": "help-friend",
+      "help": [
+        "Yes, please.",
+        "Thank you."
+      ],
+      "sample": "Yes, please. Thank you!",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-10",
+      "question": "A friend offers help, but you are fine. Reply politely.",
+      "image": "share",
+      "help": [
+        "No, thank you.",
+        "I’m fine."
+      ],
+      "sample": "No, thank you. I’m fine.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-11",
+      "question": "What can you do in a library? What can’t you do there?",
+      "image": "check-out",
+      "help": [
+        "We can …, but …",
+        "We can’t …"
+      ],
+      "sample": "We can borrow books, but we can’t shout.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-12",
+      "question": "Choose a person who helps at school. What do they do?",
+      "image": "cafeteria",
+      "help": [
+        "A … works in …",
+        "They help us …"
+      ],
+      "sample": "A cafeteria worker serves our lunch.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-13",
+      "question": "Describe Mia using something she does in the picture.",
+      "image": "help-books",
+      "help": [
+        "I think Mia is …",
+        "because …"
+      ],
+      "sample": "I think Mia is helpful because she carries a book for Leo.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-14",
+      "question": "Describe your school clothes.",
+      "image": "uniform",
+      "help": [
+        "I wear …",
+        "My … is …"
+      ],
+      "sample": "I wear a white shirt and blue pants.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-15",
+      "question": "Ask your partner whether their school requires a uniform.",
+      "image": "uniform",
+      "help": [
+        "Do you have to …?"
+      ],
+      "sample": "Do you have to wear a uniform?",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-16",
+      "question": "Say one thing you have to do in class and one thing you don’t have to do.",
+      "image": "school-day",
+      "help": [
+        "I have to …",
+        "I don’t have to …"
+      ],
+      "sample": "I have to listen. I don’t have to write with a blue pen.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-17",
+      "question": "Tell a new pupil two rules about the school bus.",
+      "image": "wait-line",
+      "help": [
+        "You have to …",
+        "You can’t …"
+      ],
+      "sample": "You have to wait in line, and you can’t stand up while the bus is moving.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-18",
+      "question": "Say one way the boat school is different from your school.",
+      "image": "boat-school",
+      "help": [
+        "At the boat school …",
+        "but …"
+      ],
+      "sample": "The boat school is on water, but my school is on land.",
+      "personal": true
+    },
+    {
+      "id": "w5-sp-19",
+      "question": "What can you do at a forest school? Name two things.",
+      "image": "forest-school",
+      "help": [
+        "You can … and …"
+      ],
+      "sample": "You can look at leaves and draw trees.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-20",
+      "question": "A friend is learning a dance step. Encourage them.",
+      "image": "encourage",
+      "help": [
+        "Keep trying!",
+        "You’re almost there."
+      ],
+      "sample": "Keep trying! You’re almost there.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-21",
+      "question": "Your friend gives a good speech. Say what went well.",
+      "image": "auditorium",
+      "help": [
+        "Great job!",
+        "I like …"
+      ],
+      "sample": "Great job! Your voice was clear.",
+      "personal": false
+    },
+    {
+      "id": "w5-sp-22",
+      "question": "Make a study goal. What will you do, by when, and how?",
+      "image": "plan",
+      "help": [
+        "I want to … by …",
+        "I will … every day."
+      ],
+      "sample": "I want to read a page by Friday. I will practise for five minutes every day.",
+      "personal": true
+    }
+  ],
+  "games": {
+    "pictureReveal": [
+      {
+        "image": "lend",
+        "word": "lend",
+        "subject": "Mia",
+        "sentence": "Mia can lend Sam a pencil."
+      },
+      {
+        "image": "throw-away",
+        "word": "throw away",
+        "subject": "Sam",
+        "sentence": "Sam can throw away the paper."
+      },
+      {
+        "image": "quiz",
+        "word": "take a quiz",
+        "subject": "Ana",
+        "sentence": "Ana can take a quiz."
+      },
+      {
+        "image": "share",
+        "word": "share",
+        "subject": "They",
+        "sentence": "They can share a picture book."
+      },
+      {
+        "image": "clean-up",
+        "word": "clean up",
+        "subject": "Ana",
+        "sentence": "Ana can clean up the desk."
+      },
+      {
+        "image": "sit-down",
+        "word": "sit down",
+        "subject": "Leo",
+        "sentence": "Leo can sit down."
+      },
+      {
+        "image": "stand-up",
+        "word": "stand up",
+        "subject": "Sam",
+        "sentence": "Sam can stand up."
+      },
+      {
+        "image": "check-out",
+        "word": "check out",
+        "subject": "Mia",
+        "sentence": "Mia can check out a book."
+      },
+      {
+        "image": "raise-hand",
+        "word": "raise your hand",
+        "subject": "Ana",
+        "sentence": "Ana can raise her hand."
+      },
+      {
+        "image": "wait-line",
+        "word": "wait in line",
+        "subject": "They",
+        "sentence": "They have to wait in line."
+      },
+      {
+        "image": "help-books",
+        "word": "help",
+        "subject": "Mia",
+        "sentence": "Mia can help Leo carry his books."
+      },
+      {
+        "image": "cover",
+        "word": "carry",
+        "subject": "Leo and Ana",
+        "sentence": "They have to carry their books to school."
+      }
+    ],
+    "sentenceSwitch": {
+      "subjects": [
+        {
+          "id": "I",
+          "text": "I",
+          "person": "plural",
+          "poss": "my",
+          "short": "I"
+        },
+        {
+          "id": "you",
+          "text": "You",
+          "person": "plural",
+          "poss": "your",
+          "short": "you"
+        },
+        {
+          "id": "we",
+          "text": "We",
+          "person": "plural",
+          "poss": "our",
+          "short": "we"
+        },
+        {
+          "id": "they",
+          "text": "They",
+          "person": "plural",
+          "poss": "their",
+          "short": "they"
+        },
+        {
+          "id": "he",
+          "text": "He",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "she",
+          "text": "She",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "sam",
+          "text": "Sam",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "mia",
+          "text": "Mia",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        },
+        {
+          "id": "leo",
+          "text": "Leo",
+          "person": "single",
+          "poss": "his",
+          "short": "he"
+        },
+        {
+          "id": "ana",
+          "text": "Ana",
+          "person": "single",
+          "poss": "her",
+          "short": "she"
+        }
+      ],
+      "verbs": [
+        {
+          "id": "lend",
+          "base": "lend",
+          "s": "lends",
+          "rest": "a pencil to Sam"
+        },
+        {
+          "id": "throw-away",
+          "base": "throw",
+          "s": "throws",
+          "rest": "away the paper"
+        },
+        {
+          "id": "quiz",
+          "base": "take",
+          "s": "takes",
+          "rest": "a quiz"
+        },
+        {
+          "id": "share",
+          "base": "share",
+          "s": "shares",
+          "rest": "a picture book"
+        },
+        {
+          "id": "clean-up",
+          "base": "clean",
+          "s": "cleans",
+          "rest": "up the desk"
+        },
+        {
+          "id": "sit-down",
+          "base": "sit",
+          "s": "sits",
+          "rest": "down"
+        },
+        {
+          "id": "stand-up",
+          "base": "stand",
+          "s": "stands",
+          "rest": "up"
+        },
+        {
+          "id": "check-out",
+          "base": "check",
+          "s": "checks",
+          "rest": "out a book"
+        },
+        {
+          "id": "raise-hand",
+          "base": "raise",
+          "s": "raises",
+          "rest": "{poss} hand"
+        },
+        {
+          "id": "wait-line",
+          "base": "wait",
+          "s": "waits",
+          "rest": "in line for the bus"
+        },
+        {
+          "id": "help-books",
+          "base": "help",
+          "s": "helps",
+          "rest": "Leo carry his books"
+        },
+        {
+          "id": "uniform",
+          "base": "wear",
+          "s": "wears",
+          "rest": "a school uniform"
+        },
+        {
+          "id": "casual-clothes",
+          "base": "wear",
+          "s": "wears",
+          "rest": "jeans and sneakers"
+        },
+        {
+          "id": "auditorium",
+          "base": "give",
+          "s": "gives",
+          "rest": "a speech"
+        },
+        {
+          "id": "hall",
+          "base": "walk",
+          "s": "walks",
+          "rest": "in the hall"
+        },
+        {
+          "id": "principal-office",
+          "base": "visit",
+          "s": "visits",
+          "rest": "the principal"
+        },
+        {
+          "id": "cafeteria",
+          "base": "eat",
+          "s": "eats",
+          "rest": "lunch in the cafeteria"
+        },
+        {
+          "id": "boat-school",
+          "base": "go",
+          "s": "goes",
+          "rest": "to school by boat"
+        },
+        {
+          "id": "forest-school",
+          "base": "learn",
+          "s": "learns",
+          "rest": "in the forest"
+        },
+        {
+          "id": "run",
+          "base": "run",
+          "s": "runs",
+          "rest": "on the track"
+        },
+        {
+          "id": "swim",
+          "base": "swim",
+          "s": "swims",
+          "rest": "in the pool"
+        },
+        {
+          "id": "wash-hands",
+          "base": "wash",
+          "s": "washes",
+          "rest": "{poss} hands"
+        },
+        {
+          "id": "plan",
+          "base": "make",
+          "s": "makes",
+          "rest": "a plan"
+        },
+        {
+          "id": "encourage",
+          "base": "dance",
+          "s": "dances",
+          "rest": "on the stage"
+        },
+        {
+          "id": "field-trip",
+          "base": "stay",
+          "s": "stays",
+          "rest": "with the group"
+        },
+        {
+          "id": "read",
+          "base": "read",
+          "s": "reads",
+          "rest": "a book"
+        }
+      ]
+    },
+    "questionDoor": [
+      {
+        "id": "door-1",
+        "who": "Mia",
+        "image": "check-out",
+        "clue": "You want to borrow a book. Talk to the librarian.",
+        "options": [
+          "Can I check out this book, please?",
+          "Can she checks out this book?",
+          "Do I can read it?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, you can.",
+        "hint": "Can I asks for permission."
+      },
+      {
+        "id": "door-2",
+        "who": "Sam",
+        "image": "lend",
+        "clue": "You forgot your pencil. Ask a friend to lend you one.",
+        "options": [
+          "Can you lend me a pencil, please?",
+          "Can I lend you a pencil?",
+          "You can lends me a pencil?"
+        ],
+        "answer": "a",
+        "reveal": "Of course!",
+        "hint": "Can you asks a friend to do something."
+      },
+      {
+        "id": "door-3",
+        "who": "Mia",
+        "image": "help-books",
+        "clue": "Your classmate has too many books to carry. Offer help.",
+        "options": [
+          "Can I help you carry your books?",
+          "Can you carry my books?",
+          "Can I helps you?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, please!",
+        "hint": "Start your offer with Can I help you."
+      },
+      {
+        "id": "door-4",
+        "who": "you",
+        "image": "swim",
+        "clue": "Ask a friend if they are able to swim.",
+        "options": [
+          "Can you swim?",
+          "Do you can swim?",
+          "Can you swims?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, I can.",
+        "hint": "Can + you + swim."
+      },
+      {
+        "id": "door-5",
+        "who": "Leo",
+        "image": "uniform",
+        "clue": "Ask a classmate if a uniform is required at their school.",
+        "options": [
+          "Do you have to wear a uniform?",
+          "Do you has to wear a uniform?",
+          "You does have to wear a uniform?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, I do.",
+        "hint": "Do + you + have to."
+      },
+      {
+        "id": "door-6",
+        "who": "Ana",
+        "image": "quiz",
+        "clue": "Ask if the quiz is required for Ana.",
+        "options": [
+          "Does Ana have to take the quiz?",
+          "Does Ana has to take the quiz?",
+          "Do Ana have to take the quiz?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she does.",
+        "hint": "Does + Ana + have to."
+      },
+      {
+        "id": "door-7",
+        "who": "we",
+        "image": "wait-line",
+        "clue": "Your group wants to sit at the front of the bus. Ask first.",
+        "options": [
+          "Can we sit at the front, please?",
+          "We can sits at the front?",
+          "Does we sit at the front?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, you can. The bus isn’t moving yet.",
+        "hint": "Use Can we to ask for your group."
+      },
+      {
+        "id": "door-8",
+        "who": "you",
+        "image": "field-trip",
+        "clue": "Ask the teacher if the class needs to bring a form.",
+        "options": [
+          "Do we have to bring a form?",
+          "Do we has to bring a form?",
+          "Has we to bring a form?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, you do.",
+        "hint": "Do + we + have to."
+      },
+      {
+        "id": "door-9",
+        "who": "Ana",
+        "image": "raise-hand",
+        "clue": "You would like to ask something in class. Ask your teacher first.",
+        "options": [
+          "Can I ask a question, please?",
+          "Can you ask me a question?",
+          "Can I asks a question?"
+        ],
+        "answer": "a",
+        "reveal": "Of course. Go ahead.",
+        "hint": "Can I …? asks for permission."
+      },
+      {
+        "id": "door-10",
+        "who": "Leo",
+        "image": "cafeteria",
+        "clue": "You want some rice. Ask the cafeteria worker politely.",
+        "options": [
+          "Can I have some rice, please?",
+          "Can they has some rice?",
+          "Have I rice?"
+        ],
+        "answer": "a",
+        "reveal": "Sure. Here you go.",
+        "hint": "Start with Can I have …?"
+      },
+      {
+        "id": "door-11",
+        "who": "Sam",
+        "image": "clean-up",
+        "clue": "Ask a friend to help clean a spill.",
+        "options": [
+          "Can you help me clean up, please?",
+          "Can I clean up your desk?",
+          "Does you clean up?"
+        ],
+        "answer": "a",
+        "reveal": "Sure. I have a cloth.",
+        "hint": "Make a request with Can you …?"
+      },
+      {
+        "id": "door-12",
+        "who": "Mia",
+        "image": "auditorium",
+        "clue": "Ask if Mia is able to give a speech.",
+        "options": [
+          "Can Mia give a speech?",
+          "Can Mia gives a speech?",
+          "Does Mia can give a speech?"
+        ],
+        "answer": "a",
+        "reveal": "Yes, she can.",
+        "hint": "Use the base form give."
+      }
+    ],
+    "yesNo": [
+      {
+        "id": "yn-1",
+        "image": "lend",
+        "clue": "Mia has a spare pencil and offers it to Sam.",
+        "question": "Can Mia lend Sam a pencil?",
+        "options": [
+          "Yes, she can.",
+          "No, she can’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-2",
+        "image": "check-out",
+        "clue": "The librarian says that the library is closed today.",
+        "question": "Can Sam check out a book now?",
+        "options": [
+          "Yes, he can.",
+          "No, he can’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-3",
+        "image": "swim",
+        "clue": "Leo is on the school swim team.",
+        "question": "Can Leo swim?",
+        "options": [
+          "Yes, he can.",
+          "No, he can’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-4",
+        "image": "hall",
+        "clue": "The rule says “Walk in the hall.”",
+        "question": "Can the children run in the hall?",
+        "options": [
+          "Yes, they can.",
+          "No, they can’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-5",
+        "image": "uniform",
+        "clue": "A uniform is required at Leo’s school.",
+        "question": "Does Leo have to wear a uniform?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-6",
+        "image": "casual-clothes",
+        "clue": "A tie is optional at Sam’s school.",
+        "question": "Does Sam have to wear a tie?",
+        "options": [
+          "Yes, he does.",
+          "No, he doesn’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-7",
+        "image": "wait-line",
+        "clue": "The class rule is to wait in line for the bus.",
+        "question": "Do the children have to wait in line?",
+        "options": [
+          "Yes, they do.",
+          "No, they don’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-8",
+        "image": "form",
+        "clue": "The trip letter says “You must bring a signed form.”",
+        "question": "Do you have to bring a form?",
+        "options": [
+          "Yes, I do.",
+          "No, I don’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-9",
+        "image": "wait-line",
+        "clue": "The bus is moving. Everyone must stay seated.",
+        "question": "Can Leo stand up now?",
+        "options": [
+          "Yes, he can.",
+          "No, he can’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-10",
+        "image": "field-trip",
+        "clue": "The teacher says “Bring a notebook if you want.”",
+        "question": "Do we have to bring a notebook?",
+        "options": [
+          "Yes, we do.",
+          "No, we don’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-11",
+        "image": "boat-school",
+        "clue": "The boat comes to the students every morning.",
+        "question": "Do the students have to take a bus?",
+        "options": [
+          "Yes, they do.",
+          "No, they don’t."
+        ],
+        "answer": "b",
+        "hint": "Read the rule or clue again."
+      },
+      {
+        "id": "yn-12",
+        "image": "forest-school",
+        "clue": "Ana’s forest class draws leaves outside.",
+        "question": "Can Ana draw leaves outside at her school?",
+        "options": [
+          "Yes, she can.",
+          "No, she can’t."
+        ],
+        "answer": "a",
+        "hint": "Read the rule or clue again."
+      }
+    ],
+    "memory": {
+      "pairs": 6
+    }
+  },
+  "extraWordSets": [
+    {
+      "id": "places",
+      "title": "Places at school",
+      "words": [
+        {
+          "id": "classroom",
+          "word": "a classroom",
+          "phrase": "a classroom",
+          "image": "school-day",
+          "example": "We have lessons in the classroom."
+        },
+        {
+          "id": "library",
+          "word": "a library",
+          "phrase": "a library",
+          "image": "check-out",
+          "example": "You can borrow a book from the library."
+        },
+        {
+          "id": "gym",
+          "word": "a gym",
+          "phrase": "a gym",
+          "image": "gym",
+          "example": "We can play basketball in the gym."
+        },
+        {
+          "id": "hall",
+          "word": "a hall",
+          "phrase": "a hall",
+          "image": "hall",
+          "example": "Walk in the hall."
+        },
+        {
+          "id": "auditorium",
+          "word": "an auditorium",
+          "phrase": "an auditorium",
+          "image": "auditorium",
+          "example": "The talent show is in the auditorium."
+        },
+        {
+          "id": "principal-office",
+          "word": "the principal’s office",
+          "phrase": "the principal’s office",
+          "image": "principal-office",
+          "example": "Ana visits the principal’s office."
+        },
+        {
+          "id": "cafeteria",
+          "word": "a cafeteria",
+          "phrase": "a cafeteria",
+          "image": "cafeteria",
+          "example": "We eat lunch in the cafeteria."
+        }
+      ]
+    },
+    {
+      "id": "workers",
+      "title": "People who help at school",
+      "words": [
+        {
+          "id": "librarian",
+          "word": "a librarian",
+          "phrase": "a librarian",
+          "image": "check-out",
+          "example": "The librarian helps us find books."
+        },
+        {
+          "id": "janitor",
+          "word": "a janitor",
+          "phrase": "a janitor",
+          "image": "janitor",
+          "example": "The janitor keeps the school clean."
+        },
+        {
+          "id": "cafeteria-worker",
+          "word": "a cafeteria worker",
+          "phrase": "a cafeteria worker",
+          "image": "cafeteria",
+          "example": "A cafeteria worker serves lunch."
+        },
+        {
+          "id": "principal",
+          "word": "a principal",
+          "phrase": "a principal",
+          "image": "principal-office",
+          "example": "The principal leads the school."
+        },
+        {
+          "id": "teacher",
+          "word": "a teacher",
+          "phrase": "a teacher",
+          "image": "school-day",
+          "example": "Ms. Rosa teaches our class."
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "title": "Clothes",
+      "words": [
+        {
+          "id": "jeans",
+          "word": "jeans",
+          "phrase": "jeans",
+          "image": "clothes-jeans",
+          "example": "Sam wears blue jeans on the weekend."
+        },
+        {
+          "id": "socks",
+          "word": "socks",
+          "phrase": "socks",
+          "image": "clothes-socks",
+          "example": "Ana wears white socks with her school shoes."
+        },
+        {
+          "id": "sneakers",
+          "word": "sneakers",
+          "phrase": "sneakers",
+          "image": "clothes-sneakers",
+          "example": "We wear sneakers in the gym."
+        },
+        {
+          "id": "shirt",
+          "word": "a shirt",
+          "phrase": "a shirt",
+          "image": "clothes-shirt",
+          "example": "Leo wears a white shirt for the school photo."
+        },
+        {
+          "id": "tie",
+          "word": "a tie",
+          "phrase": "a tie",
+          "image": "clothes-tie",
+          "example": "Leo wears a blue tie with his shirt."
+        },
+        {
+          "id": "pants",
+          "word": "pants",
+          "phrase": "pants",
+          "image": "clothes-pants",
+          "example": "These navy pants are part of the uniform."
+        },
+        {
+          "id": "skirt",
+          "word": "a skirt",
+          "phrase": "a skirt",
+          "image": "clothes-skirt",
+          "example": "Ana wears a skirt in the school photo."
+        },
+        {
+          "id": "shoes",
+          "word": "shoes",
+          "phrase": "shoes",
+          "image": "clothes-shoes",
+          "example": "Her school shoes are black."
+        },
+        {
+          "id": "jacket",
+          "word": "a jacket",
+          "phrase": "a jacket",
+          "image": "clothes-jacket",
+          "example": "Mia puts on her jacket before she goes outside."
+        },
+        {
+          "id": "t-shirt",
+          "word": "a T-shirt",
+          "phrase": "a T-shirt",
+          "image": "clothes-t-shirt",
+          "example": "Leo wears a red T-shirt at home."
+        },
+        {
+          "id": "shorts",
+          "word": "shorts",
+          "phrase": "shorts",
+          "image": "clothes-shorts",
+          "example": "We can wear shorts when it is hot."
+        },
+        {
+          "id": "uniform",
+          "word": "a uniform",
+          "phrase": "a uniform",
+          "image": "clothes-uniform",
+          "example": "At this school, children wear a uniform."
+        }
+      ]
+    },
+    {
+      "id": "help",
+      "title": "Ask for and offer help",
+      "words": [
+        {
+          "id": "can-i",
+          "word": "Can I …, please?",
+          "phrase": "Can I …, please?",
+          "image": "check-out",
+          "example": "Can I take this book home, please?"
+        },
+        {
+          "id": "can-you",
+          "word": "Can you …, please?",
+          "phrase": "Can you …, please?",
+          "image": "lend",
+          "example": "Can you lend me a pencil, please?"
+        },
+        {
+          "id": "can-i-help",
+          "word": "Can I help you?",
+          "phrase": "Can I help you?",
+          "image": "help-friend",
+          "example": "Can I help you with the ball?"
+        },
+        {
+          "id": "let-me-help",
+          "word": "Let me help you.",
+          "phrase": "Let me help you.",
+          "image": "help-books",
+          "example": "Let me help you carry the books."
+        },
+        {
+          "id": "yes-please",
+          "word": "Yes, please.",
+          "phrase": "Yes, please.",
+          "image": "share",
+          "example": "“Can I help you read the story?” “Yes, please.”"
+        },
+        {
+          "id": "of-course",
+          "word": "Of course!",
+          "phrase": "Of course!",
+          "image": "clean-up",
+          "example": "“Can you help me clean the desk?” “Of course!”"
+        },
+        {
+          "id": "no-thank-you",
+          "word": "No, thank you.",
+          "phrase": "No, thank you.",
+          "image": "principal-office",
+          "example": "“Can I help you with that notebook?” “No, thank you. I’m fine.”"
+        }
+      ]
+    },
+    {
+      "id": "different-schools",
+      "title": "Different schools",
+      "words": [
+        {
+          "id": "boat",
+          "word": "a boat",
+          "phrase": "a boat",
+          "image": "boat-school",
+          "example": "The boat is a classroom on the water."
+        },
+        {
+          "id": "forest",
+          "word": "a forest",
+          "phrase": "a forest",
+          "image": "forest-school",
+          "example": "Some pupils learn in a forest."
+        },
+        {
+          "id": "roof",
+          "word": "a roof",
+          "phrase": "a roof",
+          "image": "tree-school",
+          "example": "The tree grows through the roof."
+        },
+        {
+          "id": "mud",
+          "word": "mud",
+          "phrase": "mud",
+          "image": "mud",
+          "example": "After it rains, there is mud on the ground."
+        }
+      ]
+    },
+    {
+      "id": "trip",
+      "title": "On a field trip",
+      "words": [
+        {
+          "id": "field-trip",
+          "word": "a field trip",
+          "phrase": "a field trip",
+          "image": "field-trip",
+          "example": "We visit the zoo on a field trip."
+        },
+        {
+          "id": "school-bus",
+          "word": "a school bus",
+          "phrase": "a school bus",
+          "image": "wait-line",
+          "example": "The school bus is at the gate."
+        },
+        {
+          "id": "permission-form",
+          "word": "a permission form",
+          "phrase": "a permission form",
+          "image": "form",
+          "example": "Bring the signed permission form for the trip."
+        },
+        {
+          "id": "stay-together",
+          "word": "stay together",
+          "phrase": "stay together",
+          "image": "hall",
+          "example": "Stay together when you walk with your class."
+        },
+        {
+          "id": "ask-a-question",
+          "word": "ask a question",
+          "phrase": "ask a question",
+          "image": "raise-hand",
+          "example": "Raise your hand to ask your teacher a question."
+        }
+      ]
+    },
+    {
+      "id": "goals",
+      "title": "Encouragement and study goals",
+      "words": [
+        {
+          "id": "great-job",
+          "word": "Great job!",
+          "phrase": "Great job!",
+          "image": "well-done",
+          "example": "“That was a great pass. Great job!”"
+        },
+        {
+          "id": "keep-trying",
+          "word": "Keep trying!",
+          "phrase": "Keep trying!",
+          "image": "try-again",
+          "example": "“Try one more time. Keep trying!”"
+        },
+        {
+          "id": "almost-there",
+          "word": "You’re almost there!",
+          "phrase": "You’re almost there!",
+          "image": "encourage",
+          "example": "“That dance step is hard, but you’re almost there!”"
+        },
+        {
+          "id": "practice",
+          "word": "practice",
+          "phrase": "practice",
+          "image": "auditorium",
+          "example": "Mia practises her speech before the show."
+        },
+        {
+          "id": "goal",
+          "word": "set a goal",
+          "phrase": "set a goal",
+          "image": "plan",
+          "example": "My goal is to read one page a day by Friday."
+        },
+        {
+          "id": "on-time",
+          "word": "finish on time",
+          "phrase": "finish on time",
+          "image": "quiz",
+          "example": "Ana finishes her work before the bell."
+        }
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex-1",
+      "subject": "mia",
+      "verb": "lend",
+      "image": "lend"
+    },
+    {
+      "id": "ex-2",
+      "subject": "sam",
+      "verb": "throw-away",
+      "image": "throw-away"
+    },
+    {
+      "id": "ex-3",
+      "subject": "ana",
+      "verb": "quiz",
+      "image": "quiz"
+    },
+    {
+      "id": "ex-4",
+      "subject": "they",
+      "verb": "share",
+      "image": "share"
+    },
+    {
+      "id": "ex-5",
+      "subject": "ana",
+      "verb": "clean-up",
+      "image": "clean-up"
+    },
+    {
+      "id": "ex-6",
+      "subject": "leo",
+      "verb": "sit-down",
+      "image": "sit-down"
+    },
+    {
+      "id": "ex-7",
+      "subject": "sam",
+      "verb": "stand-up",
+      "image": "stand-up"
+    },
+    {
+      "id": "ex-8",
+      "subject": "mia",
+      "verb": "check-out",
+      "image": "check-out"
+    },
+    {
+      "id": "ex-9",
+      "subject": "ana",
+      "verb": "raise-hand",
+      "image": "raise-hand"
+    },
+    {
+      "id": "ex-10",
+      "subject": "they",
+      "verb": "wait-line",
+      "image": "wait-line"
+    },
+    {
+      "id": "ex-11",
+      "subject": "mia",
+      "verb": "help-books",
+      "image": "help-books"
+    },
+    {
+      "id": "ex-12",
+      "subject": "leo",
+      "verb": "uniform",
+      "image": "uniform"
+    },
+    {
+      "id": "ex-13",
+      "subject": "sam",
+      "verb": "casual-clothes",
+      "image": "casual-clothes"
+    },
+    {
+      "id": "ex-14",
+      "subject": "mia",
+      "verb": "auditorium",
+      "image": "auditorium"
+    },
+    {
+      "id": "ex-15",
+      "subject": "they",
+      "verb": "hall",
+      "image": "hall"
+    },
+    {
+      "id": "ex-16",
+      "subject": "ana",
+      "verb": "principal-office",
+      "image": "principal-office"
+    },
+    {
+      "id": "ex-17",
+      "subject": "leo",
+      "verb": "cafeteria",
+      "image": "cafeteria"
+    },
+    {
+      "id": "ex-18",
+      "subject": "sam",
+      "verb": "boat-school",
+      "image": "boat-school"
+    },
+    {
+      "id": "ex-19",
+      "subject": "they",
+      "verb": "forest-school",
+      "image": "forest-school"
+    },
+    {
+      "id": "ex-20",
+      "subject": "leo",
+      "verb": "run",
+      "image": "run"
+    },
+    {
+      "id": "ex-21",
+      "subject": "they",
+      "verb": "swim",
+      "image": "swim"
+    },
+    {
+      "id": "ex-22",
+      "subject": "ana",
+      "verb": "wash-hands",
+      "image": "wash-hands"
+    },
+    {
+      "id": "ex-23",
+      "subject": "mia",
+      "verb": "plan",
+      "image": "plan"
+    },
+    {
+      "id": "ex-24",
+      "subject": "ana",
+      "verb": "encourage",
+      "image": "encourage"
+    },
+    {
+      "id": "ex-25",
+      "subject": "they",
+      "verb": "field-trip",
+      "image": "field-trip"
+    },
+    {
+      "id": "ex-26",
+      "subject": "mia",
+      "verb": "read",
+      "image": "read"
+    }
+  ]
+}

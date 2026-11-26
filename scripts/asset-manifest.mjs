@@ -26,13 +26,13 @@ for (const entry of log.images) {
     original: `raw-images/${entry.folder}/${entry.raw}`,
     topic: entry.topic,
     altText: entry.site ? entry.alt : def.alt,
-    usedOn: entry.site ? [entry.usedOn] : [...(usage[key] || [])].sort(),
-    source: log.source,
+    usedOn: entry.site ? [entry.usedOn].flat() : [...(usage[key] || [])].sort(),
+    source: entry.source || log.source,
     canvaMediaId: entry.mediaId,
     canvaAccountConnection: entry.account,
-    generatedOn: log.date,
+    generatedOn: entry.date || log.date,
     prompt: entry.prompt,
-    termsOfUse: log.terms,
+    termsOfUse: entry.terms || log.terms,
     verification: entry.check
   });
 }

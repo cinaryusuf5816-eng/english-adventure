@@ -80,7 +80,7 @@ function topicList(ctx, topics, note) {
       h('a', { class: 'topic-card', href: buildHash(['week', week.id, 'learn', t.id, '1']) },
         h('span', { class: 'topic-num', 'aria-hidden': 'true' }, String(i + 1)),
         h('span', { class: 'topic-title' }, t.title),
-        h('span', { class: 'topic-rule' }, t.rule))))));
+        h('span', { class: 'topic-rule' }, plain(t.rule)))))));
 }
 
 function introStep(ctx, topic) {

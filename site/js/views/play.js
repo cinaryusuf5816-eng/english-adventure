@@ -154,7 +154,7 @@ function sentenceSwitch(ctx) {
   draw();
 
   return screen('Sentence Switch', weekBar(ctx, 'play'),
-    gameHead(ctx, 'Sentence Switch', g.forms ? 'Choose who and what. Then switch the question.' : 'Choose who and what. Then switch: + − ?'),
+    gameHead(ctx, 'Sentence Switch', g.switchLead || (g.forms ? 'Choose who and what. Then switch the question.' : 'Choose who and what. Then switch: + − ?')),
     h('section', { class: 'switch panel' },
       h('div', { class: 'switch-pick' },
         h('label', { for: 'sw-subject' }, 'Who?'), subjectSel,
