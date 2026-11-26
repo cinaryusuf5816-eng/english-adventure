@@ -80,7 +80,7 @@ function topicList(ctx, topics, note) {
       h('a', { class: 'topic-card', href: buildHash(['week', week.id, 'learn', t.id, '1']) },
         h('span', { class: 'topic-num', 'aria-hidden': 'true' }, String(i + 1)),
         h('span', { class: 'topic-title' }, t.title),
-        h('span', { class: 'topic-rule' }, t.rule))))));
+        h('span', { class: 'topic-rule' }, plain(t.rule)))))));
 }
 
 function introStep(ctx, topic) {
@@ -107,7 +107,7 @@ function exampleStep(ctx, ex, step) {
     return h('div', { class: 'lesson-stage no-pic machine-stage' },
       h('div', { class: 'stage-side wide' },
         h('p', { class: 'stage-kicker' }, `Example ${step.n} of ${step.of} · ${titles[ex.machine.to] || 'Watch it change'}`),
-        machineView(ctx, { subject, verb, to: ex.machine.to })));
+        machineView(ctx, { subject, verb, to: ex.machine.to, direct: true })));
   }
   const side = h('div', { class: 'stage-side' }, h('p', { class: 'stage-kicker' }, `Example ${step.n} of ${step.of}`));
   const pic = ex.image ? picture(ctx.week.image(ex.image), { className: 'stage-pic', eager: true, sizes: '(max-width: 760px) 92vw, 55vw' }) : null;

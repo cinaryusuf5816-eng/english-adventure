@@ -5,6 +5,7 @@ import * as simpleMachine from './machine.js';
 import * as continuous from './continuous.js';
 import * as wh from './wh.js';
 import * as should from './should.js';
+import * as school from './school.js';
 
 const SIMPLE = {
   id: 'present-simple',
@@ -83,7 +84,35 @@ const SHOULD = {
   verbLabel: (v) => `${v.base} ${v.rest.replace('{poss}', '…')}${v.bad ? ' ✗' : ''}`
 };
 
-const GRAMMARS = { 'present-continuous': CONTINUOUS, 'wh-questions': WH, 'should-advice': SHOULD };
+const SCHOOL = {
+  id: 'school-modals',
+  buildSentence: school.buildSentence,
+  machineSteps: school.machineSteps,
+  stepText: school.stepText,
+  formula: school.formula,
+  legend: [['subject', 'who'], ['helper', 'can / can’t / have to / has to'], ['verb', 'base verb']],
+  switchLegend: [['part-helper', 'can / can’t · have to / has to'], ['part-verb', 'base verb: wear']],
+  switchLead: 'Choose who and what. Use can for ability or permission, and have to for a rule.',
+  examplesLead: 'Choose a picture. Watch how can and have to change in statements and questions.',
+  forms: [
+    { id: 'positive', label: '+ can', name: 'can statement' },
+    { id: 'negative', label: '− can’t', name: 'can’t statement' },
+    { id: 'question', label: '? Can …?', name: 'can question' },
+    { id: 'have-positive', label: '+ have to', name: 'rule' },
+    { id: 'have-negative', label: '− don’t have to', name: 'optional' },
+    { id: 'have-question', label: '? Do … have to?', name: 'rule question' }
+  ],
+  modes: [
+    { id: 'negative', label: 'can → can’t', name: 'Unable or not allowed' },
+    { id: 'question', label: 'Can …?', name: 'Ask with can' },
+    { id: 'have-positive', label: 'have to / has to', name: 'Say what is required' },
+    { id: 'have-negative', label: 'don’t have to', name: 'Say what is optional' },
+    { id: 'have-question', label: 'Do / Does …?', name: 'Ask about a rule' }
+  ],
+  verbLabel: SIMPLE.verbLabel
+};
+
+const GRAMMARS = { 'present-continuous': CONTINUOUS, 'wh-questions': WH, 'should-advice': SHOULD, 'school-modals': SCHOOL };
 
 export function grammarOf(week) {
   return (week && GRAMMARS[week.grammar]) || SIMPLE;

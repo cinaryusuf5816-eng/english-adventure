@@ -40,7 +40,7 @@ export function progressPanel(ctx) {
 }
 
 export function owl(ctx) {
-  const tips = ctx.site.owlTips || ['Mistakes help you learn!'];
+  const tips = ctx.week.week.owlTips || ctx.site.owlTips || ['Mistakes help you learn!'];
   let i = Math.floor(Date.now() / 60000) % tips.length;
   const text = h('span', {}, tips[i]);
   const btn = h('button', { type: 'button', class: 'owl-bubble', 'aria-live': 'polite', title: 'Next tip' }, '“', text, '”');

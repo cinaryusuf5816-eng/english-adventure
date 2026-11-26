@@ -28,7 +28,7 @@ export function machineView(ctx, { subject, verb, to, onDone, compact = false, d
   const { machineSteps, stepText, formula } = grammarOf(ctx.week.week);
   const all = machineSteps(subject, verb, to);
   const steps = direct && to !== 'all' && all.length > 2
-    ? [all[0], { ...all[all.length - 1], caption: `${stepText(all[0])} → ${stepText(all[all.length - 1])}`, fly: undefined }]
+    ? [all[0], { ...all[all.length - 1], caption: all[all.length - 1].caption || `${stepText(all[0])} → ${stepText(all[all.length - 1])}`, fly: undefined }]
     : all;
   const rows = h('ol', { class: 'm-rows' });
   const caption = h('p', { class: 'm-caption', 'aria-live': 'polite' });
@@ -37,7 +37,7 @@ export function machineView(ctx, { subject, verb, to, onDone, compact = false, d
   let anims = [];
   ctx.onCleanup(() => anims.forEach((a) => a.cancel && a.cancel()));
 
-  const next = button('Show the next change', { icon: 'next', kind: 'primary' });
+  const next = button(steps.length === 2 ? 'Show the change' : 'Show the next change', { icon: 'next', kind: 'primary' });
   const again = button('Start again', { icon: 'restart', kind: 'ghost' });
 
   function rowEl(step, i) {

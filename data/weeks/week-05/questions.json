@@ -1,0 +1,5770 @@
+{
+  "weekId": "week-05",
+  "contentVersion": "1.0.0",
+  "banks": [
+    {
+      "id": "mcq",
+      "letter": "A",
+      "title": "Choose",
+      "instruction": "Choose.",
+      "description": "Can and have to for abilities, requests and rules.",
+      "expected": 48
+    },
+    {
+      "id": "jumbled",
+      "letter": "B",
+      "title": "Make a sentence",
+      "instruction": "Make a sentence.",
+      "description": "Put the words in order.",
+      "expected": 36
+    },
+    {
+      "id": "fill",
+      "letter": "C",
+      "title": "Fill in",
+      "instruction": "Fill in the gap.",
+      "description": "can, can’t, have to, and, but, or …",
+      "expected": 38
+    },
+    {
+      "id": "change",
+      "letter": "D",
+      "title": "Change it",
+      "instruction": "Change the sentence.",
+      "description": "Make a question, say what isn’t allowed or make a rule optional.",
+      "expected": 20
+    },
+    {
+      "id": "fix",
+      "letter": "E",
+      "title": "Fix the mistake",
+      "instruction": "Find the mistake. Fix it.",
+      "description": "One word is wrong. Find it and fix it.",
+      "expected": 18
+    },
+    {
+      "id": "decide",
+      "letter": "F",
+      "title": "Look and decide",
+      "instruction": "Look. Read. True or false?",
+      "description": "Read a rule card. Is the sentence true or false?",
+      "expected": 20
+    },
+    {
+      "id": "dialogue",
+      "letter": "G",
+      "title": "Dialogues",
+      "instruction": "Complete the dialogue.",
+      "description": "Ask for permission. Offer help and reply politely.",
+      "expected": 16
+    },
+    {
+      "id": "reading",
+      "letter": "H",
+      "title": "Mini reading",
+      "instruction": "Read. Answer.",
+      "description": "Read a new short text and answer four questions.",
+      "expected": 24
+    },
+    {
+      "id": "school-actions",
+      "letter": "I",
+      "title": "Actions at school",
+      "instruction": "Look and choose.",
+      "description": "lend, clean up, take a quiz, check out …",
+      "expected": 20
+    },
+    {
+      "id": "school-places",
+      "letter": "J",
+      "title": "Places and people",
+      "instruction": "Look and choose.",
+      "description": "library, auditorium, janitor, cafeteria worker …",
+      "expected": 20
+    },
+    {
+      "id": "clothes",
+      "letter": "K",
+      "title": "Clothes and uniforms",
+      "instruction": "Look and choose.",
+      "description": "jeans, socks, sneakers, shirt, uniform …",
+      "expected": 20
+    },
+    {
+      "id": "school-life",
+      "letter": "L",
+      "title": "School life and field trips",
+      "instruction": "Look and choose.",
+      "description": "Offers, trip rules, different schools, encouragement and goals.",
+      "expected": 20
+    }
+  ],
+  "cards": {
+    "library": {
+      "title": "Library rules",
+      "image": "check-out",
+      "text": "Our library opens at nine. You can check out two books. You have to show your card. You can read a comic at the library, but you can’t take one home."
+    },
+    "bus": {
+      "title": "Before and on the bus",
+      "image": "wait-line",
+      "text": "Wait in line to get on the bus. You can choose any free seat. You have to stay seated while the bus is moving. You can’t eat on this bus."
+    },
+    "uniforms": {
+      "title": "Photo day",
+      "image": "uniform",
+      "text": "Leo and Ana have to wear white shirts and black shoes for the photo. A tie is optional. They can bring a jacket, but they don’t have to wear it in the photo."
+    },
+    "trip": {
+      "title": "Zoo trip checklist",
+      "image": "field-trip",
+      "text": "The trip is on Friday. Bring a signed form and a water bottle. Lunch is provided. Stay with your group and ask the guide before you take a picture."
+    },
+    "plan": {
+      "title": "Mia’s study plan",
+      "image": "plan",
+      "text": "Mia wants to read one page by Friday. Leo will listen to her for five minutes every day. On Thursday, she will practise at the library."
+    }
+  },
+  "passages": {
+    "first-day": {
+      "title": "Leo’s first day",
+      "image": "help-books",
+      "text": "On his first day, Leo carries three books. One falls in the hall. Mia picks it up and carries it for him. Then Leo asks where to eat. Mia shows him the cafeteria. Leo thanks her."
+    },
+    "photo-day": {
+      "title": "Two schools, two rules",
+      "image": "uniform",
+      "text": "Ana has to wear a white shirt and black shoes for her school photo. At Sam’s school, clothes can be any color. Sam wears a teal T-shirt and jeans. They both have to arrive before nine for the photo."
+    },
+    "boat-school": {
+      "title": "A classroom on the water",
+      "image": "boat-school",
+      "text": "A small school boat stops by the river each morning. The children have to wait for their teacher before they get on. They can read and write at little desks inside. After class, the boat takes them home."
+    },
+    "forest-school": {
+      "title": "A lesson under the trees",
+      "image": "forest-school",
+      "text": "Ana and Leo have lessons in a forest. Today they draw leaves in their notebooks. It rains and the ground gets muddy. They have to wear boots, but they don’t have to stay indoors. They sit on a dry bench."
+    },
+    "tree-school": {
+      "title": "A tree in the classroom",
+      "image": "tree-school",
+      "text": "There is a tree in the middle of this classroom. It grows through a hole in the roof. Students read under its branches. Outside, there is a big slide. Children can use it after class, if their teacher says yes."
+    },
+    "zoo-trip": {
+      "title": "Trip to the zoo",
+      "image": "field-trip",
+      "text": "The class visits the zoo on Friday. Everyone has to bring a signed form and a water bottle. The teacher has extra notebooks, so bringing one is optional. At the zoo, the children can ask the guide questions."
+    }
+  },
+  "questions": [
+    {
+      "id": "w5-mcq-001",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "run",
+      "target": "affirmative",
+      "prompt": "Leo practises running and is very fast. Choose the correct sentence.",
+      "options": [
+        "Leo can run fast.",
+        "Leo cans run fast.",
+        "Leo can runs fast."
+      ],
+      "answer": "a",
+      "hint": "Use can + run.",
+      "explain": "Leo can run fast."
+    },
+    {
+      "id": "w5-mcq-002",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "swim",
+      "target": "negative",
+      "prompt": "Leo has never learned to swim. Choose the correct sentence.",
+      "options": [
+        "Leo don’t can swim yet.",
+        "Leo can’t swim yet.",
+        "Leo can’t swims yet."
+      ],
+      "answer": "b",
+      "hint": "Can’t + swim.",
+      "explain": "Leo can’t swim yet."
+    },
+    {
+      "id": "w5-mcq-003",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "read",
+      "target": "affirmative",
+      "prompt": "Mia knows all the words in this story. Choose the correct sentence.",
+      "options": [
+        "Mia can reads it.",
+        "Mia can to read it.",
+        "Mia can read it."
+      ],
+      "answer": "c",
+      "hint": "Can + base verb.",
+      "explain": "Mia can read it."
+    },
+    {
+      "id": "w5-mcq-004",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "encourage",
+      "target": "affirmative",
+      "prompt": "Ana has practised this dance. She knows every step. Choose the correct sentence.",
+      "options": [
+        "Ana can dance.",
+        "Ana cans dance.",
+        "Ana can dancing."
+      ],
+      "answer": "a",
+      "hint": "Can does not change with she.",
+      "explain": "Ana can dance."
+    },
+    {
+      "id": "w5-mcq-005",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "question",
+      "prompt": "Ask if Mia is able to give a speech. Choose the correct sentence.",
+      "options": [
+        "Can Mia gives a speech?",
+        "Can Mia give a speech?",
+        "Does Mia can give a speech?"
+      ],
+      "answer": "b",
+      "hint": "Start with Can.",
+      "explain": "Can Mia give a speech?"
+    },
+    {
+      "id": "w5-mcq-006",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "sing",
+      "target": "question",
+      "prompt": "Ask your friends if they can sing. Choose the correct sentence.",
+      "options": [
+        "Do you can sing?",
+        "Can you sings?",
+        "Can you sing?"
+      ],
+      "answer": "c",
+      "hint": "Can + you + sing.",
+      "explain": "Can you sing?"
+    },
+    {
+      "id": "w5-mcq-007",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "share",
+      "target": "question",
+      "prompt": "Ask if Leo is able to read this story. Choose the correct sentence.",
+      "options": [
+        "Can Leo read this story?",
+        "Can Leo reads this story?",
+        "Leo can reads this story?"
+      ],
+      "answer": "a",
+      "hint": "Can goes before Leo.",
+      "explain": "Can Leo read this story?"
+    },
+    {
+      "id": "w5-mcq-008",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "plan",
+      "target": "affirmative",
+      "prompt": "Mia knows how to make her own study plan. Choose the correct sentence.",
+      "options": [
+        "Mia can makes a study plan.",
+        "Mia can make a study plan.",
+        "Mia is can make a study plan."
+      ],
+      "answer": "b",
+      "hint": "Use can + make.",
+      "explain": "Mia can make a study plan."
+    },
+    {
+      "id": "w5-mcq-009",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "negative",
+      "prompt": "Sam is in a seat on a moving bus. The rule says “Stay seated.” Choose the correct sentence.",
+      "options": [
+        "Sam can’t stands up now.",
+        "Sam doesn’t can stand up now.",
+        "Sam can’t stand up now."
+      ],
+      "answer": "c",
+      "hint": "Can’t here means the rule says no.",
+      "explain": "Sam can’t stand up now."
+    },
+    {
+      "id": "w5-mcq-010",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "hall",
+      "target": "negative",
+      "prompt": "The sign says “Walk in the hall.” Choose the correct sentence.",
+      "options": [
+        "We can’t run in the hall.",
+        "We can’t to run in the hall.",
+        "We don’t can run in the hall."
+      ],
+      "answer": "a",
+      "hint": "Use can’t + run.",
+      "explain": "We can’t run in the hall."
+    },
+    {
+      "id": "w5-mcq-011",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "school-day",
+      "target": "affirmative",
+      "prompt": "Ms. Rosa gives the class permission to talk in pairs. Choose the correct sentence.",
+      "options": [
+        "The children cans talk in pairs.",
+        "The children can talk in pairs.",
+        "The children can talks in pairs."
+      ],
+      "answer": "b",
+      "hint": "Use can + talk.",
+      "explain": "The children can talk in pairs."
+    },
+    {
+      "id": "w5-mcq-012",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "field-trip",
+      "target": "negative",
+      "prompt": "The teacher says everyone must stay together. Choose the correct sentence.",
+      "options": [
+        "You can’t leaves the group.",
+        "You can’t leaving the group.",
+        "You can’t leave the group."
+      ],
+      "answer": "c",
+      "hint": "Can’t + leave.",
+      "explain": "You can’t leave the group."
+    },
+    {
+      "id": "w5-mcq-013",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "uniform",
+      "target": "affirmative",
+      "prompt": "The school rule says Leo must wear a uniform. Choose the correct sentence.",
+      "options": [
+        "Leo has to wear a uniform.",
+        "Leo have to wear a uniform.",
+        "Leo has to wears a uniform."
+      ],
+      "answer": "a",
+      "hint": "Leo = he. Say has to.",
+      "explain": "Leo has to wear a uniform."
+    },
+    {
+      "id": "w5-mcq-014",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "affirmative",
+      "prompt": "The bus driver says the children must wait in line. Choose the correct sentence.",
+      "options": [
+        "They has to wait in line.",
+        "They have to wait in line.",
+        "They have to waits in line."
+      ],
+      "answer": "b",
+      "hint": "They + have to.",
+      "explain": "They have to wait in line."
+    },
+    {
+      "id": "w5-mcq-015",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "quiz",
+      "target": "affirmative",
+      "prompt": "Ana needs a pencil for the quiz. Choose the correct sentence.",
+      "options": [
+        "Ana have to bring a pencil.",
+        "Ana has to brings a pencil.",
+        "Ana has to bring a pencil."
+      ],
+      "answer": "c",
+      "hint": "Ana = she.",
+      "explain": "Ana has to bring a pencil."
+    },
+    {
+      "id": "w5-mcq-016",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "check-out",
+      "target": "affirmative",
+      "prompt": "Taking a book home? The rule says pupils must show a library card. Choose the correct sentence.",
+      "options": [
+        "We have to show our cards.",
+        "We has to show our cards.",
+        "We have to shows our cards."
+      ],
+      "answer": "a",
+      "hint": "Use have to with we.",
+      "explain": "We have to show our cards."
+    },
+    {
+      "id": "w5-mcq-017",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "clothes-tie",
+      "target": "negative",
+      "prompt": "Sam can choose whether to wear a tie. Choose the correct sentence.",
+      "options": [
+        "Sam doesn’t has to wear a tie.",
+        "Sam doesn’t have to wear a tie.",
+        "Sam don’t have to wear a tie."
+      ],
+      "answer": "b",
+      "hint": "After doesn’t, use have to.",
+      "explain": "Sam doesn’t have to wear a tie."
+    },
+    {
+      "id": "w5-mcq-018",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "forest-school",
+      "target": "negative",
+      "prompt": "Gloves are optional at the forest school. Choose the correct sentence.",
+      "options": [
+        "We doesn’t have to bring gloves.",
+        "We don’t has to bring gloves.",
+        "We don’t have to bring gloves."
+      ],
+      "answer": "c",
+      "hint": "Optional means you can choose.",
+      "explain": "We don’t have to bring gloves."
+    },
+    {
+      "id": "w5-mcq-019",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "read",
+      "target": "negative",
+      "prompt": "Mia can read at home or at school. Reading at home is optional. Choose the correct sentence.",
+      "options": [
+        "Mia doesn’t have to read at home.",
+        "Mia doesn’t have to reads at home.",
+        "Mia don’t have to read at home."
+      ],
+      "answer": "a",
+      "hint": "Mia = she. Say doesn’t have to.",
+      "explain": "Mia doesn’t have to read at home."
+    },
+    {
+      "id": "w5-mcq-020",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "form",
+      "target": "question",
+      "prompt": "Ask if a signed form is required for your group. Choose the correct sentence.",
+      "options": [
+        "Do we has to bring a signed form?",
+        "Do we have to bring a signed form?",
+        "Does we have to bring a signed form?"
+      ],
+      "answer": "b",
+      "hint": "Do + we + have to.",
+      "explain": "Do we have to bring a signed form?"
+    },
+    {
+      "id": "w5-mcq-021",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "clothes-shoes",
+      "target": "question",
+      "prompt": "Ask if the school requires Leo to wear black shoes. Choose the correct sentence.",
+      "options": [
+        "Does Leo has to wear black shoes?",
+        "Do Leo have to wear black shoes?",
+        "Does Leo have to wear black shoes?"
+      ],
+      "answer": "c",
+      "hint": "Does + Leo + have to.",
+      "explain": "Does Leo have to wear black shoes?"
+    },
+    {
+      "id": "w5-mcq-022",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "boat-school",
+      "target": "question",
+      "prompt": "Ask the students if they need to come by boat. Choose the correct sentence.",
+      "options": [
+        "Do you have to come by boat?",
+        "Do you has to come by boat?",
+        "Does you have to come by boat?"
+      ],
+      "answer": "a",
+      "hint": "Do goes before you.",
+      "explain": "Do you have to come by boat?"
+    },
+    {
+      "id": "w5-mcq-023",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "field-trip",
+      "target": "question",
+      "prompt": "Ask if Ana needs to bring a notebook. Choose the correct sentence.",
+      "options": [
+        "Does Ana have to brings a notebook?",
+        "Does Ana have to bring a notebook?",
+        "Do Ana have to bring a notebook?"
+      ],
+      "answer": "b",
+      "hint": "Use the base form after have to.",
+      "explain": "Does Ana have to bring a notebook?"
+    },
+    {
+      "id": "w5-mcq-024",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "clean-up",
+      "target": "affirmative",
+      "prompt": "The rule says Ana must leave her desk clean. Choose the correct sentence.",
+      "options": [
+        "Ana have to clean up her desk.",
+        "Ana has to cleans up her desk.",
+        "Ana has to clean up her desk."
+      ],
+      "answer": "c",
+      "hint": "Ana = she. Use has to + clean up.",
+      "explain": "Ana has to clean up her desk."
+    },
+    {
+      "id": "w5-mcq-025",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "swim",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Leo can swim two lengths without help.”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "a",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Ability means what you are able to do."
+    },
+    {
+      "id": "w5-mcq-026",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "read",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Mia can read difficult books.”",
+      "options": [
+        "Permission",
+        "Ability",
+        "Request"
+      ],
+      "answer": "b",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Ability means what you are able to do."
+    },
+    {
+      "id": "w5-mcq-027",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "run",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Leo can run very fast.”",
+      "options": [
+        "Permission",
+        "Request",
+        "Ability"
+      ],
+      "answer": "c",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Ability means what you are able to do."
+    },
+    {
+      "id": "w5-mcq-028",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can Mia speak in front of the whole class? She has practised.”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "a",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Ability means what you are able to do."
+    },
+    {
+      "id": "w5-mcq-029",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "check-out",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can I take this book home, please?”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "b",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Permission means asking if you may do something."
+    },
+    {
+      "id": "w5-mcq-030",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "sit-down",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can we sit here, please?”",
+      "options": [
+        "Ability",
+        "Request",
+        "Permission"
+      ],
+      "answer": "c",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Permission means asking if you may do something."
+    },
+    {
+      "id": "w5-mcq-031",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "raise-hand",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can I ask a question now?”",
+      "options": [
+        "Permission",
+        "Ability",
+        "Request"
+      ],
+      "answer": "a",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Permission means asking if you may do something."
+    },
+    {
+      "id": "w5-mcq-032",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "cafeteria",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can I have some more rice, please?”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "b",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "Permission means asking if you may do something."
+    },
+    {
+      "id": "w5-mcq-033",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "lend",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can you lend me a ruler, please?”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "c",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "A request asks someone else to do something."
+    },
+    {
+      "id": "w5-mcq-034",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "clean-up",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can you help me clean my desk?”",
+      "options": [
+        "Request",
+        "Ability",
+        "Permission"
+      ],
+      "answer": "a",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "A request asks someone else to do something."
+    },
+    {
+      "id": "w5-mcq-035",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "help-books",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can you carry this book for me, please?”",
+      "options": [
+        "Ability",
+        "Request",
+        "Permission"
+      ],
+      "answer": "b",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "A request asks someone else to do something."
+    },
+    {
+      "id": "w5-mcq-036",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "hall",
+      "target": "mixed",
+      "prompt": "What is the use of can? “Can you please show me where the gym is?”",
+      "options": [
+        "Ability",
+        "Permission",
+        "Request"
+      ],
+      "answer": "c",
+      "hint": "Who does the action? Is it about skill, permission or help?",
+      "explain": "A request asks someone else to do something."
+    },
+    {
+      "id": "w5-mcq-037",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "uniform",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “Leo must wear a uniform each morning.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "a",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You have to do it."
+    },
+    {
+      "id": "w5-mcq-038",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "form",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “The teacher needs everyone’s signed form.”",
+      "options": [
+        "Optional",
+        "Required",
+        "Not allowed"
+      ],
+      "answer": "b",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You have to do it."
+    },
+    {
+      "id": "w5-mcq-039",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “Everyone must sit while the bus is moving.”",
+      "options": [
+        "Optional",
+        "Not allowed",
+        "Required"
+      ],
+      "answer": "c",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You have to do it."
+    },
+    {
+      "id": "w5-mcq-040",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "field-trip",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “Everyone must stay with the group at the zoo.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "a",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You have to do it."
+    },
+    {
+      "id": "w5-mcq-041",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "casual-clothes",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “Wear jeans if you want to.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "b",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You don’t have to do it. You can choose."
+    },
+    {
+      "id": "w5-mcq-042",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "quiz",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “You can bring a spare pencil, but we have extras.”",
+      "options": [
+        "Required",
+        "Not allowed",
+        "Optional"
+      ],
+      "answer": "c",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You don’t have to do it. You can choose."
+    },
+    {
+      "id": "w5-mcq-043",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "clothes-jacket",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “You can bring a jacket, but you don’t have to.”",
+      "options": [
+        "Optional",
+        "Required",
+        "Not allowed"
+      ],
+      "answer": "a",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You don’t have to do it. You can choose."
+    },
+    {
+      "id": "w5-mcq-044",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “Mia can sing, read a poem or just watch.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "b",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You don’t have to do it. You can choose."
+    },
+    {
+      "id": "w5-mcq-045",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "hall",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “You can’t run in the hall.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "c",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You can’t do it."
+    },
+    {
+      "id": "w5-mcq-046",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "check-out",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “You can’t take a library book home without checking it out.”",
+      "options": [
+        "Not allowed",
+        "Required",
+        "Optional"
+      ],
+      "answer": "a",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You can’t do it."
+    },
+    {
+      "id": "w5-mcq-047",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “You can’t stand up on the moving bus.”",
+      "options": [
+        "Required",
+        "Not allowed",
+        "Optional"
+      ],
+      "answer": "b",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You can’t do it."
+    },
+    {
+      "id": "w5-mcq-048",
+      "v": 1,
+      "level": 1,
+      "type": "mcq",
+      "image": "cafeteria",
+      "target": "mixed",
+      "prompt": "What kind of rule is this? “This rule says you can’t take food out of the cafeteria.”",
+      "options": [
+        "Required",
+        "Optional",
+        "Not allowed"
+      ],
+      "answer": "c",
+      "hint": "Do you need to do it, can you choose, or does the rule say no?",
+      "explain": "You can’t do it."
+    },
+    {
+      "id": "w5-jumbled-001",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "lend",
+      "tokens": [
+        "Mia",
+        "can",
+        "lend",
+        "a",
+        "pencil",
+        "to",
+        "Sam"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia can lend a pencil to Sam"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia can lend a pencil to Sam."
+    },
+    {
+      "id": "w5-jumbled-002",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "stand-up",
+      "tokens": [
+        "Sam",
+        "can",
+        "stand",
+        "up"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam can stand up"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam can stand up."
+    },
+    {
+      "id": "w5-jumbled-003",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "raise-hand",
+      "tokens": [
+        "Ana",
+        "can",
+        "raise",
+        "her",
+        "hand"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana can raise her hand"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana can raise her hand."
+    },
+    {
+      "id": "w5-jumbled-004",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "share",
+      "tokens": [
+        "They",
+        "can",
+        "share",
+        "a",
+        "picture",
+        "book"
+      ],
+      "end": ".",
+      "answers": [
+        "They can share a picture book"
+      ],
+      "hint": "Start with They.",
+      "explain": "They can share a picture book."
+    },
+    {
+      "id": "w5-jumbled-005",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "read",
+      "tokens": [
+        "Mia",
+        "can",
+        "read",
+        "a",
+        "book"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia can read a book"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia can read a book."
+    },
+    {
+      "id": "w5-jumbled-006",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "run",
+      "tokens": [
+        "Leo",
+        "can",
+        "run",
+        "on",
+        "the",
+        "track"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo can run on the track"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo can run on the track."
+    },
+    {
+      "id": "w5-jumbled-007",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "swim",
+      "tokens": [
+        "Leo",
+        "can't",
+        "swim",
+        "in",
+        "the",
+        "pool"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo can't swim in the pool"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo can't swim in the pool."
+    },
+    {
+      "id": "w5-jumbled-008",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "stand-up",
+      "tokens": [
+        "Sam",
+        "can't",
+        "stand",
+        "up"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam can't stand up"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam can't stand up."
+    },
+    {
+      "id": "w5-jumbled-009",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "quiz",
+      "tokens": [
+        "Ana",
+        "can't",
+        "take",
+        "a",
+        "quiz"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana can't take a quiz"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana can't take a quiz."
+    },
+    {
+      "id": "w5-jumbled-010",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "cafeteria",
+      "tokens": [
+        "They",
+        "can't",
+        "eat",
+        "lunch",
+        "in",
+        "the",
+        "cafeteria"
+      ],
+      "end": ".",
+      "answers": [
+        "They can't eat lunch in the cafeteria"
+      ],
+      "hint": "Start with They.",
+      "explain": "They can't eat lunch in the cafeteria."
+    },
+    {
+      "id": "w5-jumbled-011",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "check-out",
+      "tokens": [
+        "Mia",
+        "can't",
+        "check",
+        "out",
+        "a",
+        "book"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia can't check out a book"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia can't check out a book."
+    },
+    {
+      "id": "w5-jumbled-012",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "auditorium",
+      "tokens": [
+        "Leo",
+        "can't",
+        "give",
+        "a",
+        "speech"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo can't give a speech"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo can't give a speech."
+    },
+    {
+      "id": "w5-jumbled-013",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "check-out",
+      "tokens": [
+        "Can",
+        "I",
+        "check",
+        "out",
+        "a",
+        "book"
+      ],
+      "end": "?",
+      "answers": [
+        "Can I check out a book"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can I check out a book?"
+    },
+    {
+      "id": "w5-jumbled-014",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "sit-down",
+      "tokens": [
+        "Can",
+        "we",
+        "sit",
+        "down"
+      ],
+      "end": "?",
+      "answers": [
+        "Can we sit down"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can we sit down?"
+    },
+    {
+      "id": "w5-jumbled-015",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "help-books",
+      "tokens": [
+        "Can",
+        "you",
+        "help",
+        "Leo",
+        "carry",
+        "his",
+        "books"
+      ],
+      "end": "?",
+      "answers": [
+        "Can you help Leo carry his books"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can you help Leo carry his books?"
+    },
+    {
+      "id": "w5-jumbled-016",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "encourage",
+      "tokens": [
+        "Can",
+        "Ana",
+        "dance",
+        "on",
+        "the",
+        "stage"
+      ],
+      "end": "?",
+      "answers": [
+        "Can Ana dance on the stage"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can Ana dance on the stage?"
+    },
+    {
+      "id": "w5-jumbled-017",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "auditorium",
+      "tokens": [
+        "Can",
+        "Mia",
+        "give",
+        "a",
+        "speech"
+      ],
+      "end": "?",
+      "answers": [
+        "Can Mia give a speech"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can Mia give a speech?"
+    },
+    {
+      "id": "w5-jumbled-018",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "swim",
+      "tokens": [
+        "Can",
+        "you",
+        "swim",
+        "in",
+        "the",
+        "pool"
+      ],
+      "end": "?",
+      "answers": [
+        "Can you swim in the pool"
+      ],
+      "hint": "Start with Can.",
+      "explain": "Can you swim in the pool?"
+    },
+    {
+      "id": "w5-jumbled-019",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "uniform",
+      "tokens": [
+        "Leo",
+        "has",
+        "to",
+        "wear",
+        "a",
+        "school",
+        "uniform"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo has to wear a school uniform"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo has to wear a school uniform."
+    },
+    {
+      "id": "w5-jumbled-020",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "wait-line",
+      "tokens": [
+        "They",
+        "have",
+        "to",
+        "wait",
+        "in",
+        "line",
+        "for",
+        "the",
+        "bus"
+      ],
+      "end": ".",
+      "answers": [
+        "They have to wait in line for the bus"
+      ],
+      "hint": "Start with They.",
+      "explain": "They have to wait in line for the bus."
+    },
+    {
+      "id": "w5-jumbled-021",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "quiz",
+      "tokens": [
+        "Ana",
+        "has",
+        "to",
+        "take",
+        "a",
+        "quiz"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana has to take a quiz"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana has to take a quiz."
+    },
+    {
+      "id": "w5-jumbled-022",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "field-trip",
+      "tokens": [
+        "We",
+        "have",
+        "to",
+        "stay",
+        "with",
+        "the",
+        "group"
+      ],
+      "end": ".",
+      "answers": [
+        "We have to stay with the group"
+      ],
+      "hint": "Start with We.",
+      "explain": "We have to stay with the group."
+    },
+    {
+      "id": "w5-jumbled-023",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "plan",
+      "tokens": [
+        "Mia",
+        "has",
+        "to",
+        "make",
+        "a",
+        "plan"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia has to make a plan"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia has to make a plan."
+    },
+    {
+      "id": "w5-jumbled-024",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "affirmative",
+      "image": "clean-up",
+      "tokens": [
+        "You",
+        "have",
+        "to",
+        "clean",
+        "up",
+        "the",
+        "desk"
+      ],
+      "end": ".",
+      "answers": [
+        "You have to clean up the desk"
+      ],
+      "hint": "Start with You.",
+      "explain": "You have to clean up the desk."
+    },
+    {
+      "id": "w5-jumbled-025",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "uniform",
+      "tokens": [
+        "Sam",
+        "doesn't",
+        "have",
+        "to",
+        "wear",
+        "a",
+        "school",
+        "uniform"
+      ],
+      "end": ".",
+      "answers": [
+        "Sam doesn't have to wear a school uniform"
+      ],
+      "hint": "Start with Sam.",
+      "explain": "Sam doesn't have to wear a school uniform."
+    },
+    {
+      "id": "w5-jumbled-026",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "read",
+      "tokens": [
+        "We",
+        "don't",
+        "have",
+        "to",
+        "read",
+        "a",
+        "book"
+      ],
+      "end": ".",
+      "answers": [
+        "We don't have to read a book"
+      ],
+      "hint": "Start with We.",
+      "explain": "We don't have to read a book."
+    },
+    {
+      "id": "w5-jumbled-027",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "quiz",
+      "tokens": [
+        "Ana",
+        "doesn't",
+        "have",
+        "to",
+        "take",
+        "a",
+        "quiz"
+      ],
+      "end": ".",
+      "answers": [
+        "Ana doesn't have to take a quiz"
+      ],
+      "hint": "Start with Ana.",
+      "explain": "Ana doesn't have to take a quiz."
+    },
+    {
+      "id": "w5-jumbled-028",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "boat-school",
+      "tokens": [
+        "They",
+        "don't",
+        "have",
+        "to",
+        "go",
+        "to",
+        "school",
+        "by",
+        "boat"
+      ],
+      "end": ".",
+      "answers": [
+        "They don't have to go to school by boat"
+      ],
+      "hint": "Start with They.",
+      "explain": "They don't have to go to school by boat."
+    },
+    {
+      "id": "w5-jumbled-029",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "auditorium",
+      "tokens": [
+        "Mia",
+        "doesn't",
+        "have",
+        "to",
+        "give",
+        "a",
+        "speech"
+      ],
+      "end": ".",
+      "answers": [
+        "Mia doesn't have to give a speech"
+      ],
+      "hint": "Start with Mia.",
+      "explain": "Mia doesn't have to give a speech."
+    },
+    {
+      "id": "w5-jumbled-030",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "negative",
+      "image": "cafeteria",
+      "tokens": [
+        "Leo",
+        "doesn't",
+        "have",
+        "to",
+        "eat",
+        "lunch",
+        "in",
+        "the",
+        "cafeteria"
+      ],
+      "end": ".",
+      "answers": [
+        "Leo doesn't have to eat lunch in the cafeteria"
+      ],
+      "hint": "Start with Leo.",
+      "explain": "Leo doesn't have to eat lunch in the cafeteria."
+    },
+    {
+      "id": "w5-jumbled-031",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "uniform",
+      "tokens": [
+        "Does",
+        "Leo",
+        "have",
+        "to",
+        "wear",
+        "a",
+        "school",
+        "uniform"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Leo have to wear a school uniform"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Leo have to wear a school uniform?"
+    },
+    {
+      "id": "w5-jumbled-032",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "wait-line",
+      "tokens": [
+        "Do",
+        "we",
+        "have",
+        "to",
+        "wait",
+        "in",
+        "line",
+        "for",
+        "the",
+        "bus"
+      ],
+      "end": "?",
+      "answers": [
+        "Do we have to wait in line for the bus"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do we have to wait in line for the bus?"
+    },
+    {
+      "id": "w5-jumbled-033",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "raise-hand",
+      "tokens": [
+        "Does",
+        "Ana",
+        "have",
+        "to",
+        "raise",
+        "her",
+        "hand"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Ana have to raise her hand"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Ana have to raise her hand?"
+    },
+    {
+      "id": "w5-jumbled-034",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "check-out",
+      "tokens": [
+        "Do",
+        "you",
+        "have",
+        "to",
+        "check",
+        "out",
+        "a",
+        "book"
+      ],
+      "end": "?",
+      "answers": [
+        "Do you have to check out a book"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do you have to check out a book?"
+    },
+    {
+      "id": "w5-jumbled-035",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "read",
+      "tokens": [
+        "Does",
+        "Mia",
+        "have",
+        "to",
+        "read",
+        "a",
+        "book"
+      ],
+      "end": "?",
+      "answers": [
+        "Does Mia have to read a book"
+      ],
+      "hint": "Start with Does.",
+      "explain": "Does Mia have to read a book?"
+    },
+    {
+      "id": "w5-jumbled-036",
+      "v": 1,
+      "level": 1,
+      "type": "jumbled",
+      "target": "question",
+      "image": "field-trip",
+      "tokens": [
+        "Do",
+        "they",
+        "have",
+        "to",
+        "stay",
+        "with",
+        "the",
+        "group"
+      ],
+      "end": "?",
+      "answers": [
+        "Do they have to stay with the group"
+      ],
+      "hint": "Start with Do.",
+      "explain": "Do they have to stay with the group?"
+    },
+    {
+      "id": "w5-fill-001",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "run",
+      "text": "Leo is fast. He ___ run a lap without stopping.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "Leo is fast. He can run a lap without stopping."
+    },
+    {
+      "id": "w5-fill-002",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "read",
+      "text": "Mia knows the words. She ___ read this story.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "Mia knows the words. She can read this story."
+    },
+    {
+      "id": "w5-fill-003",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "share",
+      "text": "The teacher says it is OK. We ___ share a book.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "The teacher says it is OK. We can share a book."
+    },
+    {
+      "id": "w5-fill-004",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "check-out",
+      "text": "Mia has her card. The librarian says she ___ check out a book.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "Mia has her card. The librarian says she can check out a book."
+    },
+    {
+      "id": "w5-fill-005",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "encourage",
+      "text": "Ana knows every step. She ___ dance on stage.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "Ana knows every step. She can dance on stage."
+    },
+    {
+      "id": "w5-fill-006",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "cafeteria",
+      "text": "It is lunchtime. We ___ eat in the cafeteria now.",
+      "target": "affirmative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can"
+      ],
+      "hint": "Able to do it or allowed to do it.",
+      "explain": "It is lunchtime. We can eat in the cafeteria now."
+    },
+    {
+      "id": "w5-fill-007",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "hall",
+      "text": "The rule says walk. We ___ run in the hall.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "The rule says walk. We can’t run in the hall."
+    },
+    {
+      "id": "w5-fill-008",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "wait-line",
+      "text": "The bus is moving. You ___ stand up.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "The bus is moving. You can’t stand up."
+    },
+    {
+      "id": "w5-fill-009",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "swim",
+      "text": "Leo has never learned to swim. He ___ swim yet.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "Leo has never learned to swim. He can’t swim yet."
+    },
+    {
+      "id": "w5-fill-010",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "quiz",
+      "text": "We work alone in a quiz. We ___ share answers.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "We work alone in a quiz. We can’t share answers."
+    },
+    {
+      "id": "w5-fill-011",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "check-out",
+      "text": "The library is closed today. You ___ get a book.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "The library is closed today. You can’t get a book."
+    },
+    {
+      "id": "w5-fill-012",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "field-trip",
+      "text": "The zoo sign says “Stay with your group.” We ___ leave it.",
+      "target": "negative",
+      "pool": [
+        "can",
+        "can’t"
+      ],
+      "answers": [
+        "can’t"
+      ],
+      "hint": "The rule says no, or this person is unable to do it.",
+      "explain": "The zoo sign says “Stay with your group.” We can’t leave it."
+    },
+    {
+      "id": "w5-fill-013",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "uniform",
+      "text": "It is a school rule. We ___ wear uniforms.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "don’t have to"
+      ],
+      "answers": [
+        "have to"
+      ],
+      "hint": "Use have to with I, you, we and they.",
+      "explain": "It is a school rule. We have to wear uniforms."
+    },
+    {
+      "id": "w5-fill-014",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "field-trip",
+      "text": "The teacher says we must stay together. We ___ stay with her.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "don’t have to"
+      ],
+      "answers": [
+        "have to"
+      ],
+      "hint": "Use have to with I, you, we and they.",
+      "explain": "The teacher says we must stay together. We have to stay with her."
+    },
+    {
+      "id": "w5-fill-015",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "form",
+      "text": "I need a signed form. I ___ bring it in.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "don’t have to"
+      ],
+      "answers": [
+        "have to"
+      ],
+      "hint": "Use have to with I, you, we and they.",
+      "explain": "I need a signed form. I have to bring it in."
+    },
+    {
+      "id": "w5-fill-016",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "wait-line",
+      "text": "The bus driver says everyone must line up. You ___ wait in line.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "don’t have to"
+      ],
+      "answers": [
+        "have to"
+      ],
+      "hint": "Use have to with I, you, we and they.",
+      "explain": "The bus driver says everyone must line up. You have to wait in line."
+    },
+    {
+      "id": "w5-fill-017",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "quiz",
+      "text": "Ana must take the quiz. She ___ finish it before lunch.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "doesn’t have to"
+      ],
+      "answers": [
+        "has to"
+      ],
+      "hint": "Use has to with he, she and it.",
+      "explain": "Ana must take the quiz. She has to finish it before lunch."
+    },
+    {
+      "id": "w5-fill-018",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "uniform",
+      "text": "A uniform is required. Leo ___ wear one.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "doesn’t have to"
+      ],
+      "answers": [
+        "has to"
+      ],
+      "hint": "Use has to with he, she and it.",
+      "explain": "A uniform is required. Leo has to wear one."
+    },
+    {
+      "id": "w5-fill-019",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "clean-up",
+      "text": "The teacher says Ana must wipe the spill. She ___ clean her desk.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "doesn’t have to"
+      ],
+      "answers": [
+        "has to"
+      ],
+      "hint": "Use has to with he, she and it.",
+      "explain": "The teacher says Ana must wipe the spill. She has to clean her desk."
+    },
+    {
+      "id": "w5-fill-020",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "check-out",
+      "text": "Mia must use her card. She ___ show it to the librarian.",
+      "target": "affirmative",
+      "pool": [
+        "have to",
+        "has to",
+        "doesn’t have to"
+      ],
+      "answers": [
+        "has to"
+      ],
+      "hint": "Use has to with he, she and it.",
+      "explain": "Mia must use her card. She has to show it to the librarian."
+    },
+    {
+      "id": "w5-fill-021",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "clothes-socks",
+      "text": "Any color is fine. We ___ wear white socks.",
+      "target": "negative",
+      "pool": [
+        "don’t have to",
+        "doesn’t have to",
+        "have to"
+      ],
+      "answers": [
+        "don’t have to"
+      ],
+      "hint": "It is optional. The subject is we or they.",
+      "explain": "Any color is fine. We don’t have to wear white socks."
+    },
+    {
+      "id": "w5-fill-022",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "boat-school",
+      "text": "The boat comes to the students. They ___ take a bus.",
+      "target": "negative",
+      "pool": [
+        "don’t have to",
+        "doesn’t have to",
+        "have to"
+      ],
+      "answers": [
+        "don’t have to"
+      ],
+      "hint": "It is optional. The subject is we or they.",
+      "explain": "The boat comes to the students. They don’t have to take a bus."
+    },
+    {
+      "id": "w5-fill-023",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "field-trip",
+      "text": "The teacher has extra pencils. We ___ bring our own.",
+      "target": "negative",
+      "pool": [
+        "don’t have to",
+        "doesn’t have to",
+        "have to"
+      ],
+      "answers": [
+        "don’t have to"
+      ],
+      "hint": "It is optional. The subject is we or they.",
+      "explain": "The teacher has extra pencils. We don’t have to bring our own."
+    },
+    {
+      "id": "w5-fill-024",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "casual-clothes",
+      "text": "A uniform is optional. Sam ___ wear one.",
+      "target": "negative",
+      "pool": [
+        "doesn’t have to",
+        "don’t have to",
+        "has to"
+      ],
+      "answers": [
+        "doesn’t have to"
+      ],
+      "hint": "Use doesn’t have to for one person when an action is optional.",
+      "explain": "A uniform is optional. Sam doesn’t have to wear one."
+    },
+    {
+      "id": "w5-fill-025",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "auditorium",
+      "text": "Mia can watch the show. She ___ give a speech.",
+      "target": "negative",
+      "pool": [
+        "doesn’t have to",
+        "don’t have to",
+        "has to"
+      ],
+      "answers": [
+        "doesn’t have to"
+      ],
+      "hint": "Use doesn’t have to for one person when an action is optional.",
+      "explain": "Mia can watch the show. She doesn’t have to give a speech."
+    },
+    {
+      "id": "w5-fill-026",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "clothes-tie",
+      "text": "Ana may wear a tie if she wants. She ___ wear one.",
+      "target": "negative",
+      "pool": [
+        "doesn’t have to",
+        "don’t have to",
+        "has to"
+      ],
+      "answers": [
+        "doesn’t have to"
+      ],
+      "hint": "Use doesn’t have to for one person when an action is optional.",
+      "explain": "Ana may wear a tie if she wants. She doesn’t have to wear one."
+    },
+    {
+      "id": "w5-fill-027",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "form",
+      "text": "___ we have to bring the form on Friday?",
+      "target": "question",
+      "pool": [
+        "Do",
+        "Does",
+        "Can"
+      ],
+      "answers": [
+        "Do"
+      ],
+      "hint": "Use Do with I, we, you or they in a have to question.",
+      "explain": "Do we have to bring the form on Friday?"
+    },
+    {
+      "id": "w5-fill-028",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "wait-line",
+      "text": "___ they have to wait here?",
+      "target": "question",
+      "pool": [
+        "Do",
+        "Does",
+        "Can"
+      ],
+      "answers": [
+        "Do"
+      ],
+      "hint": "Use Do with I, we, you or they in a have to question.",
+      "explain": "Do they have to wait here?"
+    },
+    {
+      "id": "w5-fill-029",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "uniform",
+      "text": "___ Leo have to wear a tie?",
+      "target": "question",
+      "pool": [
+        "Do",
+        "Does",
+        "Can"
+      ],
+      "answers": [
+        "Does"
+      ],
+      "hint": "Use Does with one person in a have to question.",
+      "explain": "Does Leo have to wear a tie?"
+    },
+    {
+      "id": "w5-fill-030",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "quiz",
+      "text": "___ Ana have to use a pencil?",
+      "target": "question",
+      "pool": [
+        "Do",
+        "Does",
+        "Can"
+      ],
+      "answers": [
+        "Does"
+      ],
+      "hint": "Use Does with one person in a have to question.",
+      "explain": "Does Ana have to use a pencil?"
+    },
+    {
+      "id": "w5-fill-031",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "lend",
+      "text": "___ you lend me an eraser? Yes, I can.",
+      "target": "question",
+      "pool": [
+        "Can",
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Can"
+      ],
+      "hint": "Start a permission or request question with Can.",
+      "explain": "Can you lend me an eraser? Yes, I can."
+    },
+    {
+      "id": "w5-fill-032",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "check-out",
+      "text": "___ I check out this book? Yes, you can.",
+      "target": "question",
+      "pool": [
+        "Can",
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Can"
+      ],
+      "hint": "Start a permission or request question with Can.",
+      "explain": "Can I check out this book? Yes, you can."
+    },
+    {
+      "id": "w5-fill-033",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "cover",
+      "text": "Bring both things: your backpack ___ your pencil case.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "and"
+      ],
+      "hint": "Both things are needed.",
+      "explain": "Bring both things: your backpack and your pencil case."
+    },
+    {
+      "id": "w5-fill-034",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "school-day",
+      "text": "We do both things: listen ___ take notes.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "and"
+      ],
+      "hint": "Both things are needed.",
+      "explain": "We do both things: listen and take notes."
+    },
+    {
+      "id": "w5-fill-035",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "hall",
+      "text": "You can walk here, ___ you can’t run here.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "but"
+      ],
+      "hint": "Use but to show a contrast.",
+      "explain": "You can walk here, but you can’t run here."
+    },
+    {
+      "id": "w5-fill-036",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "casual-clothes",
+      "text": "We can wear jeans today, ___ not on photo day.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "but"
+      ],
+      "hint": "Use but to show a contrast.",
+      "explain": "We can wear jeans today, but not on photo day."
+    },
+    {
+      "id": "w5-fill-037",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "check-out",
+      "text": "Pick just one: a story ___ a comic.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "or"
+      ],
+      "hint": "Use or for a choice or after don’t to list two things to avoid.",
+      "explain": "Pick just one: a story or a comic."
+    },
+    {
+      "id": "w5-fill-038",
+      "v": 1,
+      "level": 1,
+      "type": "fill",
+      "image": "wait-line",
+      "text": "Don’t push ___ shove while you wait.",
+      "target": "mixed",
+      "pool": [
+        "and",
+        "but",
+        "or"
+      ],
+      "answers": [
+        "or"
+      ],
+      "hint": "Use or for a choice or after don’t to list two things to avoid.",
+      "explain": "Don’t push or shove while you wait."
+    },
+    {
+      "id": "w5-change-001",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "swim",
+      "from": "Leo can swim in the pool.",
+      "cue": "Make it negative with can’t.",
+      "answers": [
+        "Leo can't swim in the pool."
+      ],
+      "hint": "Use can’t + the same base verb.",
+      "explain": "Leo can't swim in the pool."
+    },
+    {
+      "id": "w5-change-002",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "stand-up",
+      "from": "Sam can stand up.",
+      "cue": "Make it negative with can’t.",
+      "answers": [
+        "Sam can't stand up."
+      ],
+      "hint": "Use can’t + the same base verb.",
+      "explain": "Sam can't stand up."
+    },
+    {
+      "id": "w5-change-003",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "hall",
+      "from": "They can walk in the hall.",
+      "cue": "Make it negative with can’t.",
+      "answers": [
+        "They can't walk in the hall."
+      ],
+      "hint": "Use can’t + the same base verb.",
+      "explain": "They can't walk in the hall."
+    },
+    {
+      "id": "w5-change-004",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "check-out",
+      "from": "Mia can check out a book.",
+      "cue": "Make it negative with can’t.",
+      "answers": [
+        "Mia can't check out a book."
+      ],
+      "hint": "Use can’t + the same base verb.",
+      "explain": "Mia can't check out a book."
+    },
+    {
+      "id": "w5-change-005",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "encourage",
+      "from": "Ana can dance on the stage.",
+      "cue": "Make it negative with can’t.",
+      "answers": [
+        "Ana can't dance on the stage."
+      ],
+      "hint": "Use can’t + the same base verb.",
+      "explain": "Ana can't dance on the stage."
+    },
+    {
+      "id": "w5-change-006",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "lend",
+      "from": "Mia can lend a pencil to Sam.",
+      "cue": "Ask a question with Can.",
+      "answers": [
+        "Can Mia lend a pencil to Sam?"
+      ],
+      "hint": "Put Can first. Keep the base verb.",
+      "explain": "Can Mia lend a pencil to Sam?"
+    },
+    {
+      "id": "w5-change-007",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "read",
+      "from": "You can read a book.",
+      "cue": "Ask a question with Can.",
+      "answers": [
+        "Can you read a book?"
+      ],
+      "hint": "Put Can first. Keep the base verb.",
+      "explain": "Can you read a book?"
+    },
+    {
+      "id": "w5-change-008",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "raise-hand",
+      "from": "Ana can raise her hand.",
+      "cue": "Ask a question with Can.",
+      "answers": [
+        "Can Ana raise her hand?"
+      ],
+      "hint": "Put Can first. Keep the base verb.",
+      "explain": "Can Ana raise her hand?"
+    },
+    {
+      "id": "w5-change-009",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "sit-down",
+      "from": "We can sit down.",
+      "cue": "Ask a question with Can.",
+      "answers": [
+        "Can we sit down?"
+      ],
+      "hint": "Put Can first. Keep the base verb.",
+      "explain": "Can we sit down?"
+    },
+    {
+      "id": "w5-change-010",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "run",
+      "from": "Leo can run on the track.",
+      "cue": "Ask a question with Can.",
+      "answers": [
+        "Can Leo run on the track?"
+      ],
+      "hint": "Put Can first. Keep the base verb.",
+      "explain": "Can Leo run on the track?"
+    },
+    {
+      "id": "w5-change-011",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "uniform",
+      "from": "Leo has to wear a school uniform.",
+      "cue": "Make it optional with don’t or doesn’t have to.",
+      "answers": [
+        "Leo doesn't have to wear a school uniform."
+      ],
+      "hint": "After don’t or doesn’t, use have to.",
+      "explain": "Leo doesn't have to wear a school uniform."
+    },
+    {
+      "id": "w5-change-012",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "wait-line",
+      "from": "They have to wait in line for the bus.",
+      "cue": "Make it optional with don’t or doesn’t have to.",
+      "answers": [
+        "They don't have to wait in line for the bus."
+      ],
+      "hint": "After don’t or doesn’t, use have to.",
+      "explain": "They don't have to wait in line for the bus."
+    },
+    {
+      "id": "w5-change-013",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "quiz",
+      "from": "Ana has to take a quiz.",
+      "cue": "Make it optional with don’t or doesn’t have to.",
+      "answers": [
+        "Ana doesn't have to take a quiz."
+      ],
+      "hint": "After don’t or doesn’t, use have to.",
+      "explain": "Ana doesn't have to take a quiz."
+    },
+    {
+      "id": "w5-change-014",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "field-trip",
+      "from": "We have to stay with the group.",
+      "cue": "Make it optional with don’t or doesn’t have to.",
+      "answers": [
+        "We don't have to stay with the group."
+      ],
+      "hint": "After don’t or doesn’t, use have to.",
+      "explain": "We don't have to stay with the group."
+    },
+    {
+      "id": "w5-change-015",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "negative",
+      "target": "negative",
+      "image": "plan",
+      "from": "Mia has to make a plan.",
+      "cue": "Make it optional with don’t or doesn’t have to.",
+      "answers": [
+        "Mia doesn't have to make a plan."
+      ],
+      "hint": "After don’t or doesn’t, use have to.",
+      "explain": "Mia doesn't have to make a plan."
+    },
+    {
+      "id": "w5-change-016",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "check-out",
+      "from": "Mia has to check out a book.",
+      "cue": "Ask whether this is required. Start with Do or Does.",
+      "answers": [
+        "Does Mia have to check out a book?"
+      ],
+      "hint": "Do / Does + who + have to.",
+      "explain": "Does Mia have to check out a book?"
+    },
+    {
+      "id": "w5-change-017",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "uniform",
+      "from": "Sam has to wear a school uniform.",
+      "cue": "Ask whether this is required. Start with Do or Does.",
+      "answers": [
+        "Does Sam have to wear a school uniform?"
+      ],
+      "hint": "Do / Does + who + have to.",
+      "explain": "Does Sam have to wear a school uniform?"
+    },
+    {
+      "id": "w5-change-018",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "clean-up",
+      "from": "We have to clean up the desk.",
+      "cue": "Ask whether this is required. Start with Do or Does.",
+      "answers": [
+        "Do we have to clean up the desk?"
+      ],
+      "hint": "Do / Does + who + have to.",
+      "explain": "Do we have to clean up the desk?"
+    },
+    {
+      "id": "w5-change-019",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "wait-line",
+      "from": "They have to wait in line for the bus.",
+      "cue": "Ask whether this is required. Start with Do or Does.",
+      "answers": [
+        "Do they have to wait in line for the bus?"
+      ],
+      "hint": "Do / Does + who + have to.",
+      "explain": "Do they have to wait in line for the bus?"
+    },
+    {
+      "id": "w5-change-020",
+      "v": 1,
+      "level": 2,
+      "type": "change",
+      "task": "question",
+      "target": "question",
+      "image": "raise-hand",
+      "from": "Ana has to raise her hand.",
+      "cue": "Ask whether this is required. Start with Do or Does.",
+      "answers": [
+        "Does Ana have to raise her hand?"
+      ],
+      "hint": "Do / Does + who + have to.",
+      "explain": "Does Ana have to raise her hand?"
+    },
+    {
+      "id": "w5-fix-001",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "run",
+      "words": [
+        "Leo",
+        "can",
+        "runs",
+        "fast."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "running",
+        "run",
+        "ran"
+      ],
+      "fix": "b",
+      "hint": "Can + run.",
+      "explain": "Leo can run fast."
+    },
+    {
+      "id": "w5-fix-002",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "read",
+      "words": [
+        "Mia",
+        "cans",
+        "read",
+        "a",
+        "long",
+        "story."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "canning",
+        "can to",
+        "can"
+      ],
+      "fix": "c",
+      "hint": "Can stays the same with she.",
+      "explain": "Mia can read a long story."
+    },
+    {
+      "id": "w5-fix-003",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "share",
+      "words": [
+        "We",
+        "can",
+        "sharing",
+        "a",
+        "book."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "share",
+        "shares",
+        "shared"
+      ],
+      "fix": "a",
+      "hint": "Use the base verb after can.",
+      "explain": "We can share a book."
+    },
+    {
+      "id": "w5-fix-004",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "wait-line",
+      "words": [
+        "The",
+        "children",
+        "cans",
+        "wait",
+        "here."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "can to",
+        "can",
+        "canning"
+      ],
+      "fix": "b",
+      "hint": "Can does not change.",
+      "explain": "The children can wait here."
+    },
+    {
+      "id": "w5-fix-005",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "negative",
+      "image": "hall",
+      "words": [
+        "You",
+        "can’t",
+        "running",
+        "in",
+        "the",
+        "hall."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "runs",
+        "ran",
+        "run"
+      ],
+      "fix": "c",
+      "hint": "Can’t + run.",
+      "explain": "You can’t run in the hall."
+    },
+    {
+      "id": "w5-fix-006",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "negative",
+      "image": "stand-up",
+      "words": [
+        "Sam",
+        "can’t",
+        "stands",
+        "up",
+        "now."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "stand",
+        "standing",
+        "stood"
+      ],
+      "fix": "a",
+      "hint": "Can’t + stand up.",
+      "explain": "Sam can’t stand up now."
+    },
+    {
+      "id": "w5-fix-007",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "swim",
+      "words": [
+        "Can",
+        "Leo",
+        "swims",
+        "fast?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "swam",
+        "swim",
+        "swimming"
+      ],
+      "fix": "b",
+      "hint": "Can + Leo + swim.",
+      "explain": "Can Leo swim fast?"
+    },
+    {
+      "id": "w5-fix-008",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "auditorium",
+      "words": [
+        "Can",
+        "Mia",
+        "gives",
+        "a",
+        "speech?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "gave",
+        "giving",
+        "give"
+      ],
+      "fix": "c",
+      "hint": "Use the base form give.",
+      "explain": "Can Mia give a speech?"
+    },
+    {
+      "id": "w5-fix-009",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "check-out",
+      "words": [
+        "Can",
+        "I",
+        "checks",
+        "out",
+        "this",
+        "book?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "check",
+        "checking",
+        "checked"
+      ],
+      "fix": "a",
+      "hint": "Can I + check out.",
+      "explain": "Can I check out this book?"
+    },
+    {
+      "id": "w5-fix-010",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "lend",
+      "words": [
+        "Can",
+        "you",
+        "lends",
+        "me",
+        "a",
+        "pencil?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "lending",
+        "lend",
+        "lent"
+      ],
+      "fix": "b",
+      "hint": "Can you + lend.",
+      "explain": "Can you lend me a pencil?"
+    },
+    {
+      "id": "w5-fix-011",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "uniform",
+      "words": [
+        "Leo",
+        "have",
+        "to",
+        "wear",
+        "a",
+        "uniform."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "having",
+        "haves",
+        "has"
+      ],
+      "fix": "c",
+      "hint": "Leo = he. Use has to.",
+      "explain": "Leo has to wear a uniform."
+    },
+    {
+      "id": "w5-fix-012",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "quiz",
+      "words": [
+        "We",
+        "has",
+        "to",
+        "take",
+        "a",
+        "quiz."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "have",
+        "having",
+        "haves"
+      ],
+      "fix": "a",
+      "hint": "We + have to.",
+      "explain": "We have to take a quiz."
+    },
+    {
+      "id": "w5-fix-013",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "affirmative",
+      "image": "clean-up",
+      "words": [
+        "Ana",
+        "has",
+        "to",
+        "cleans",
+        "up",
+        "her",
+        "desk."
+      ],
+      "wrong": 3,
+      "fixes": [
+        "cleaning",
+        "clean",
+        "cleaned"
+      ],
+      "fix": "b",
+      "hint": "Use the base verb after has to.",
+      "explain": "Ana has to clean up her desk."
+    },
+    {
+      "id": "w5-fix-014",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "negative",
+      "image": "clothes-tie",
+      "words": [
+        "Sam",
+        "doesn’t",
+        "has",
+        "to",
+        "wear",
+        "a",
+        "tie."
+      ],
+      "wrong": 2,
+      "fixes": [
+        "haves",
+        "having",
+        "have"
+      ],
+      "fix": "c",
+      "hint": "After doesn’t, use have to.",
+      "explain": "Sam doesn’t have to wear a tie."
+    },
+    {
+      "id": "w5-fix-015",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "negative",
+      "image": "field-trip",
+      "words": [
+        "We",
+        "doesn’t",
+        "have",
+        "to",
+        "bring",
+        "lunch."
+      ],
+      "wrong": 1,
+      "fixes": [
+        "don’t",
+        "not",
+        "has"
+      ],
+      "fix": "a",
+      "hint": "We + don’t.",
+      "explain": "We don’t have to bring lunch."
+    },
+    {
+      "id": "w5-fix-016",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "uniform",
+      "words": [
+        "Does",
+        "Leo",
+        "has",
+        "to",
+        "wear",
+        "a",
+        "uniform?"
+      ],
+      "wrong": 2,
+      "fixes": [
+        "haves",
+        "have",
+        "having"
+      ],
+      "fix": "b",
+      "hint": "Does + Leo + have to.",
+      "explain": "Does Leo have to wear a uniform?"
+    },
+    {
+      "id": "w5-fix-017",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "form",
+      "words": [
+        "Does",
+        "we",
+        "have",
+        "to",
+        "bring",
+        "a",
+        "form?"
+      ],
+      "wrong": 0,
+      "fixes": [
+        "Didn’t",
+        "Has",
+        "Do"
+      ],
+      "fix": "c",
+      "hint": "Use Do with we to ask about the rule now.",
+      "explain": "Do we have to bring a form?"
+    },
+    {
+      "id": "w5-fix-018",
+      "v": 1,
+      "level": 2,
+      "type": "fix",
+      "target": "question",
+      "image": "clothes-shoes",
+      "words": [
+        "Does",
+        "Ana",
+        "have",
+        "to",
+        "wears",
+        "black",
+        "shoes?"
+      ],
+      "wrong": 4,
+      "fixes": [
+        "wear",
+        "wearing",
+        "worn"
+      ],
+      "fix": "a",
+      "hint": "Have to + wear.",
+      "explain": "Does Ana have to wear black shoes?"
+    },
+    {
+      "id": "w5-decide-001",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "library",
+      "statement": "The library opens at nine.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. It opens at nine."
+    },
+    {
+      "id": "w5-decide-002",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "library",
+      "statement": "You can check out three books.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. You can check out two books."
+    },
+    {
+      "id": "w5-decide-003",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "library",
+      "statement": "You have to show your card.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. Showing your card is a rule."
+    },
+    {
+      "id": "w5-decide-004",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "library",
+      "statement": "You can take a comic home.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. You can read one there."
+    },
+    {
+      "id": "w5-decide-005",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "bus",
+      "statement": "You can get on without waiting in line.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. You have to wait in line first."
+    },
+    {
+      "id": "w5-decide-006",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "bus",
+      "statement": "You can choose any free seat.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. The rule lets you choose."
+    },
+    {
+      "id": "w5-decide-007",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "bus",
+      "statement": "You can stand while the bus moves.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. You have to stay seated."
+    },
+    {
+      "id": "w5-decide-008",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "bus",
+      "statement": "You can’t eat on this bus.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. The last rule says you can’t eat."
+    },
+    {
+      "id": "w5-decide-009",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "uniforms",
+      "statement": "They have to wear white shirts.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. White shirts are required."
+    },
+    {
+      "id": "w5-decide-010",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "uniforms",
+      "statement": "They have to wear a tie.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. A tie is optional."
+    },
+    {
+      "id": "w5-decide-011",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "uniforms",
+      "statement": "They can bring a jacket.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. They can choose to bring one."
+    },
+    {
+      "id": "w5-decide-012",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "uniforms",
+      "statement": "They have to wear the jacket in the photo.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. They can leave it off."
+    },
+    {
+      "id": "w5-decide-013",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "trip",
+      "statement": "The trip is on Thursday.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. The trip is on Friday."
+    },
+    {
+      "id": "w5-decide-014",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "trip",
+      "statement": "They have to bring a water bottle.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. A water bottle is on the checklist."
+    },
+    {
+      "id": "w5-decide-015",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "trip",
+      "statement": "They have to bring their lunch.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. Lunch is provided."
+    },
+    {
+      "id": "w5-decide-016",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "trip",
+      "statement": "They have to ask the guide before taking pictures.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. Ask the guide first."
+    },
+    {
+      "id": "w5-decide-017",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "plan",
+      "statement": "Mia wants to finish a page by Friday.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. Her goal is to read one page by Friday."
+    },
+    {
+      "id": "w5-decide-018",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "plan",
+      "statement": "Leo will read the page for Mia.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. Leo will listen as Mia reads."
+    },
+    {
+      "id": "w5-decide-019",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "plan",
+      "statement": "Mia will practise with Leo every day.",
+      "answer": true,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "True. They will practise for five minutes each day."
+    },
+    {
+      "id": "w5-decide-020",
+      "v": 1,
+      "level": 1,
+      "type": "decide",
+      "target": "mixed",
+      "card": "plan",
+      "statement": "Mia will practise at the gym on Thursday.",
+      "answer": false,
+      "hint": "Find the line in the card that gives you the answer.",
+      "explain": "False. She will practise at the library."
+    },
+    {
+      "id": "w5-dialogue-001",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "lend",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "___ me a pencil, please?"
+        },
+        {
+          "who": "Mia",
+          "text": "Of course!"
+        }
+      ],
+      "options": [
+        "Can you lend",
+        "Can I lend",
+        "Does you lend"
+      ],
+      "answer": "a",
+      "hint": "Sam asks Mia to do something.",
+      "target": "question",
+      "explain": "Can you lend me a pencil, please? Of course!"
+    },
+    {
+      "id": "w5-dialogue-002",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "check-out",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "___ take this book home, please?"
+        },
+        {
+          "who": "Librarian",
+          "text": "Yes, you can. Show me your card."
+        }
+      ],
+      "options": [
+        "Can you",
+        "Can I",
+        "They can"
+      ],
+      "answer": "b",
+      "hint": "Mia is asking for permission for herself.",
+      "target": "question",
+      "explain": "Can I take this book home, please? Yes, you can. Show me your card."
+    },
+    {
+      "id": "w5-dialogue-003",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "help-books",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Can I help you carry those books?"
+        },
+        {
+          "who": "Leo",
+          "text": "___ I can’t carry them all."
+        }
+      ],
+      "options": [
+        "No, thank you.",
+        "I don’t have one.",
+        "Yes, please."
+      ],
+      "answer": "c",
+      "hint": "Leo wants the help.",
+      "target": "affirmative",
+      "explain": "Can I help you carry those books? Yes, please. I can’t carry them all."
+    },
+    {
+      "id": "w5-dialogue-004",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "clean-up",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "Can I help you wipe the desk?"
+        },
+        {
+          "who": "Sam",
+          "text": "___ I’ve finished."
+        }
+      ],
+      "options": [
+        "No, thank you.",
+        "Yes, please.",
+        "Can I help you?"
+      ],
+      "answer": "a",
+      "hint": "Sam has finished and declines politely.",
+      "target": "negative",
+      "explain": "Can I help you wipe the desk? No, thank you. I’ve finished."
+    },
+    {
+      "id": "w5-dialogue-005",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "cafeteria",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "___ have some rice, please?"
+        },
+        {
+          "who": "Worker",
+          "text": "Sure. Here you are."
+        }
+      ],
+      "options": [
+        "Can they",
+        "Can I",
+        "I can"
+      ],
+      "answer": "b",
+      "hint": "Leo is asking for himself.",
+      "target": "question",
+      "explain": "Can I have some rice, please? Sure. Here you are."
+    },
+    {
+      "id": "w5-dialogue-006",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "janitor",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "Can you help us clean this spill?"
+        },
+        {
+          "who": "Janitor",
+          "text": "___ I have a mop."
+        }
+      ],
+      "options": [
+        "No, I can’t.",
+        "Thanks, I’m fine.",
+        "Of course."
+      ],
+      "answer": "c",
+      "hint": "The janitor agrees to help.",
+      "target": "affirmative",
+      "explain": "Can you help us clean this spill? Of course. I have a mop."
+    },
+    {
+      "id": "w5-dialogue-007",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "raise-hand",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "Can I ask another question?"
+        },
+        {
+          "who": "Ms. Rosa",
+          "text": "___ Go ahead."
+        }
+      ],
+      "options": [
+        "Yes, you can.",
+        "Yes, I can.",
+        "No, you can’t."
+      ],
+      "answer": "a",
+      "hint": "The teacher gives Ana permission.",
+      "target": "affirmative",
+      "explain": "Can I ask another question? Yes, you can. Go ahead."
+    },
+    {
+      "id": "w5-dialogue-008",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "uniform",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Does Leo have to wear a tie?"
+        },
+        {
+          "who": "Ana",
+          "text": "___ Ties are required at his school."
+        }
+      ],
+      "options": [
+        "Yes, he can.",
+        "Yes, he does.",
+        "No, he doesn’t."
+      ],
+      "answer": "b",
+      "hint": "A rule is required. Answer with does.",
+      "target": "affirmative",
+      "explain": "Does Leo have to wear a tie? Yes, he does. Ties are required at his school."
+    },
+    {
+      "id": "w5-dialogue-009",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "casual-clothes",
+      "lines": [
+        {
+          "who": "Leo",
+          "text": "Do you have to wear a uniform at your school?"
+        },
+        {
+          "who": "Sam",
+          "text": "___ Any clean clothes are fine."
+        }
+      ],
+      "options": [
+        "No, I can’t.",
+        "Yes, I do.",
+        "No, I don’t."
+      ],
+      "answer": "c",
+      "hint": "A uniform is optional at Sam’s school.",
+      "target": "negative",
+      "explain": "Do you have to wear a uniform at your school? No, I don’t. Any clean clothes are fine."
+    },
+    {
+      "id": "w5-dialogue-010",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "form",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "___ bring a signed form?"
+        },
+        {
+          "who": "Ms. Rosa",
+          "text": "Yes, you do."
+        }
+      ],
+      "options": [
+        "Do I have to",
+        "Can I",
+        "Does I have to"
+      ],
+      "answer": "a",
+      "hint": "Yes, you do answers Do I …?",
+      "target": "question",
+      "explain": "Do I have to bring a signed form? Yes, you do."
+    },
+    {
+      "id": "w5-dialogue-011",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "encourage",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "I can’t do this step yet."
+        },
+        {
+          "who": "Leo",
+          "text": "___ Let’s do it slowly."
+        }
+      ],
+      "options": [
+        "Stop trying!",
+        "Keep trying!",
+        "No, thank you."
+      ],
+      "answer": "b",
+      "hint": "Help Ana stay positive while she tries.",
+      "target": "affirmative",
+      "explain": "I can’t do this step yet. Keep trying! Let’s do it slowly."
+    },
+    {
+      "id": "w5-dialogue-012",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "auditorium",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Could you hear my speech?"
+        },
+        {
+          "who": "Ana",
+          "text": "___ Your words were very clear."
+        }
+      ],
+      "options": [
+        "Can I leave?",
+        "I can’t lend you one.",
+        "Great job!"
+      ],
+      "answer": "c",
+      "hint": "Ana gives positive feedback.",
+      "target": "affirmative",
+      "explain": "Could you hear my speech? Great job! Your words were very clear."
+    },
+    {
+      "id": "w5-dialogue-013",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "hall",
+      "lines": [
+        {
+          "who": "Sam",
+          "text": "Can we run here?"
+        },
+        {
+          "who": "Ms. Rosa",
+          "text": "___ Walk in the hall, please."
+        }
+      ],
+      "options": [
+        "No, you can’t.",
+        "No, we don’t.",
+        "Yes, we can."
+      ],
+      "answer": "a",
+      "hint": "Walking is the rule.",
+      "target": "negative",
+      "explain": "Can we run here? No, you can’t. Walk in the hall, please."
+    },
+    {
+      "id": "w5-dialogue-014",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "swim",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Can you swim in the deep pool?"
+        },
+        {
+          "who": "Leo",
+          "text": "___ I’m still learning."
+        }
+      ],
+      "options": [
+        "Yes, you can.",
+        "No, I can’t.",
+        "No, I don’t."
+      ],
+      "answer": "b",
+      "hint": "Leo is not able to swim there yet.",
+      "target": "negative",
+      "explain": "Can you swim in the deep pool? No, I can’t. I’m still learning."
+    },
+    {
+      "id": "w5-dialogue-015",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "help-books",
+      "lines": [
+        {
+          "who": "Mia",
+          "text": "Let me ___ you carry that atlas."
+        },
+        {
+          "who": "Leo",
+          "text": "Thanks, Mia!"
+        }
+      ],
+      "options": [
+        "helps",
+        "helping",
+        "help"
+      ],
+      "answer": "c",
+      "hint": "Let me help you is an offer.",
+      "target": "affirmative",
+      "explain": "Let me help you carry that atlas. Thanks, Mia!"
+    },
+    {
+      "id": "w5-dialogue-016",
+      "v": 1,
+      "level": 1,
+      "type": "dialogue",
+      "image": "wait-line",
+      "lines": [
+        {
+          "who": "Ana",
+          "text": "___ wait in line for the bus?"
+        },
+        {
+          "who": "Ms. Rosa",
+          "text": "Yes, you do."
+        }
+      ],
+      "options": [
+        "Do we have to",
+        "Does we have to",
+        "We can"
+      ],
+      "answer": "a",
+      "hint": "The teacher answers a Do we …? question.",
+      "target": "question",
+      "explain": "Do we have to wait in line for the bus? Yes, you do."
+    },
+    {
+      "id": "w5-reading-001",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "first-day",
+      "prompt": "How many books does Leo carry?",
+      "options": [
+        "Two.",
+        "Three.",
+        "Four."
+      ],
+      "answer": "b",
+      "hint": "Read the first sentence.",
+      "explain": "Three."
+    },
+    {
+      "id": "w5-reading-002",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "first-day",
+      "prompt": "Where does the book fall?",
+      "options": [
+        "On the bus.",
+        "In the gym.",
+        "In the hall."
+      ],
+      "answer": "c",
+      "hint": "Look for falls.",
+      "explain": "In the hall."
+    },
+    {
+      "id": "w5-reading-003",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "first-day",
+      "prompt": "How does Mia help Leo?",
+      "options": [
+        "She carries a book for him.",
+        "She gives him lunch.",
+        "She lends him a pencil."
+      ],
+      "answer": "a",
+      "hint": "Read what Mia does with the book.",
+      "explain": "She carries a book for him."
+    },
+    {
+      "id": "w5-reading-004",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "first-day",
+      "prompt": "What is Mia like?",
+      "options": [
+        "Unkind.",
+        "Helpful.",
+        "Impatient."
+      ],
+      "answer": "b",
+      "hint": "She carries a book and shows Leo where to eat.",
+      "explain": "Helpful."
+    },
+    {
+      "id": "w5-reading-005",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "photo-day",
+      "prompt": "What color shirt is required at Ana’s school?",
+      "options": [
+        "Teal.",
+        "Black.",
+        "White."
+      ],
+      "answer": "c",
+      "hint": "Read the first sentence.",
+      "explain": "White."
+    },
+    {
+      "id": "w5-reading-006",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "photo-day",
+      "prompt": "What pants does Sam wear?",
+      "options": [
+        "Jeans.",
+        "School uniform pants.",
+        "Shorts."
+      ],
+      "answer": "a",
+      "hint": "Read what Sam wears.",
+      "explain": "Jeans."
+    },
+    {
+      "id": "w5-reading-007",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "photo-day",
+      "prompt": "What is the same at both schools?",
+      "options": [
+        "They have to wear white shirts.",
+        "They have to get there before nine.",
+        "They can arrive any time."
+      ],
+      "answer": "b",
+      "hint": "Find what they both have to do.",
+      "explain": "They have to get there before nine."
+    },
+    {
+      "id": "w5-reading-008",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "photo-day",
+      "prompt": "Can Sam wear a different color shirt at his school?",
+      "options": [
+        "No, he can’t.",
+        "Yes, he can."
+      ],
+      "answer": "b",
+      "hint": "What does the text say about any color?",
+      "explain": "Yes, he can."
+    },
+    {
+      "id": "w5-reading-009",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "boat-school",
+      "prompt": "Where does the boat stop?",
+      "options": [
+        "By the river.",
+        "In the forest.",
+        "At the gym."
+      ],
+      "answer": "a",
+      "hint": "Look at the first sentence.",
+      "explain": "By the river."
+    },
+    {
+      "id": "w5-reading-010",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "boat-school",
+      "prompt": "Who do pupils have to wait for?",
+      "options": [
+        "The principal.",
+        "Their teacher.",
+        "The cafeteria worker."
+      ],
+      "answer": "b",
+      "hint": "Find wait for.",
+      "explain": "Their teacher."
+    },
+    {
+      "id": "w5-reading-011",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "boat-school",
+      "prompt": "What can pupils do at their desks?",
+      "options": [
+        "Swim and run.",
+        "Eat and sleep.",
+        "Read and write."
+      ],
+      "answer": "c",
+      "hint": "Look at the third sentence.",
+      "explain": "Read and write."
+    },
+    {
+      "id": "w5-reading-012",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "boat-school",
+      "prompt": "How do the children get home?",
+      "options": [
+        "They go by boat.",
+        "They take a yellow bus.",
+        "They ride bikes."
+      ],
+      "answer": "a",
+      "hint": "Read the last sentence.",
+      "explain": "They go by boat."
+    },
+    {
+      "id": "w5-reading-013",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "forest-school",
+      "prompt": "Where do Ana and Leo have lessons?",
+      "options": [
+        "On a boat.",
+        "In a forest.",
+        "In a big gym."
+      ],
+      "answer": "b",
+      "hint": "Read the first sentence.",
+      "explain": "In a forest."
+    },
+    {
+      "id": "w5-reading-014",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "forest-school",
+      "prompt": "What do they draw?",
+      "options": [
+        "Boats.",
+        "Shoes.",
+        "Leaves."
+      ],
+      "answer": "c",
+      "hint": "Find draw.",
+      "explain": "Leaves."
+    },
+    {
+      "id": "w5-reading-015",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "forest-school",
+      "prompt": "What do they have to wear?",
+      "options": [
+        "Boots.",
+        "Black shoes.",
+        "Sneakers."
+      ],
+      "answer": "a",
+      "hint": "What do they wear when the ground is muddy?",
+      "explain": "Boots."
+    },
+    {
+      "id": "w5-reading-016",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "forest-school",
+      "prompt": "Do they have to stay indoors?",
+      "options": [
+        "Yes, they do.",
+        "No, they don’t."
+      ],
+      "answer": "b",
+      "hint": "Read the sentence with don’t have to.",
+      "explain": "No, they don’t."
+    },
+    {
+      "id": "w5-reading-017",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "tree-school",
+      "prompt": "Where is the tree?",
+      "options": [
+        "Far away in a park.",
+        "Outside next to the bus.",
+        "In the middle of the classroom."
+      ],
+      "answer": "c",
+      "hint": "Read the first sentence.",
+      "explain": "In the middle of the classroom."
+    },
+    {
+      "id": "w5-reading-018",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "tree-school",
+      "prompt": "Where does the tree grow through?",
+      "options": [
+        "A hole in the roof.",
+        "A doorway.",
+        "A desk."
+      ],
+      "answer": "a",
+      "hint": "Read the second sentence.",
+      "explain": "A hole in the roof."
+    },
+    {
+      "id": "w5-reading-019",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "tree-school",
+      "prompt": "What do students do under its branches?",
+      "options": [
+        "Swim.",
+        "Read.",
+        "Eat lunch."
+      ],
+      "answer": "b",
+      "hint": "Find the word branches.",
+      "explain": "Read."
+    },
+    {
+      "id": "w5-reading-020",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "tree-school",
+      "prompt": "When can the children use the slide?",
+      "options": [
+        "While the teacher is talking.",
+        "Only before class.",
+        "After class, if their teacher says yes."
+      ],
+      "answer": "c",
+      "hint": "Read the last sentence.",
+      "explain": "After class, if their teacher says yes."
+    },
+    {
+      "id": "w5-reading-021",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "zoo-trip",
+      "prompt": "When is the trip?",
+      "options": [
+        "Friday.",
+        "Monday.",
+        "Tuesday."
+      ],
+      "answer": "a",
+      "hint": "Read the first sentence.",
+      "explain": "Friday."
+    },
+    {
+      "id": "w5-reading-022",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "zoo-trip",
+      "prompt": "What does everyone have to bring?",
+      "options": [
+        "A notebook and crayons.",
+        "A signed form and a water bottle.",
+        "A library book and a ball."
+      ],
+      "answer": "b",
+      "hint": "Find have to bring.",
+      "explain": "A signed form and a water bottle."
+    },
+    {
+      "id": "w5-reading-023",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "zoo-trip",
+      "prompt": "Do pupils have to bring a notebook?",
+      "options": [
+        "No, they don’t.",
+        "Yes, they do."
+      ],
+      "answer": "a",
+      "hint": "The teacher has extras.",
+      "explain": "No, they don’t."
+    },
+    {
+      "id": "w5-reading-024",
+      "v": 1,
+      "level": 1,
+      "type": "reading",
+      "target": "mixed",
+      "passage": "zoo-trip",
+      "prompt": "Who can the children ask questions at the zoo?",
+      "options": [
+        "The guide.",
+        "The bus driver.",
+        "The librarian."
+      ],
+      "answer": "a",
+      "hint": "Read the last line.",
+      "explain": "The guide."
+    },
+    {
+      "id": "w5-school-actions-001",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "lend",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "throw away",
+        "lend",
+        "take a quiz"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Mia lends Sam a pencil for the lesson."
+    },
+    {
+      "id": "w5-school-actions-002",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "throw-away",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "take a quiz",
+        "share",
+        "throw away"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Sam throws away the scrap of paper."
+    },
+    {
+      "id": "w5-school-actions-003",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "quiz",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "take a quiz",
+        "share",
+        "clean up"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Ana takes a short quiz on her own."
+    },
+    {
+      "id": "w5-school-actions-004",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "share",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "clean up",
+        "share",
+        "sit down"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Mia and Leo share a picture book."
+    },
+    {
+      "id": "w5-school-actions-005",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "clean-up",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "sit down",
+        "stand up",
+        "clean up"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Ana can clean up the spill with a cloth."
+    },
+    {
+      "id": "w5-school-actions-006",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "sit-down",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "sit down",
+        "stand up",
+        "check out"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Leo sits down before the lesson."
+    },
+    {
+      "id": "w5-school-actions-007",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "stand-up",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "check out",
+        "stand up",
+        "raise your hand"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Sam stands up beside his desk."
+    },
+    {
+      "id": "w5-school-actions-008",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "check-out",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "raise your hand",
+        "wait in line",
+        "check out"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Mia can check out a book and bring it back next week."
+    },
+    {
+      "id": "w5-school-actions-009",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "raise-hand",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "raise your hand",
+        "wait in line",
+        "help"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Raise your hand if you have a question."
+    },
+    {
+      "id": "w5-school-actions-010",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "help",
+        "wait in line",
+        "carry"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "The children wait in line for the bus."
+    },
+    {
+      "id": "w5-school-actions-011",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "help-books",
+      "target": "vocabulary",
+      "prompt": "Look. What is the action?",
+      "options": [
+        "carry",
+        "lend",
+        "help"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Mia helps Leo carry his books."
+    },
+    {
+      "id": "w5-school-actions-012",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "cover",
+      "target": "vocabulary",
+      "prompt": "Look at Ana and Leo on the right. What is the action?",
+      "options": [
+        "carry",
+        "lend",
+        "throw away"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Leo and Ana carry books to school."
+    },
+    {
+      "id": "w5-school-places-001",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "school-day",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "a library",
+        "a classroom",
+        "a gym"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "We have lessons in the classroom."
+    },
+    {
+      "id": "w5-school-places-002",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "check-out",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "a gym",
+        "a hall",
+        "a library"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "You can borrow a book from the library."
+    },
+    {
+      "id": "w5-school-places-003",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "gym",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "a gym",
+        "a hall",
+        "an auditorium"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "We can play basketball in the gym."
+    },
+    {
+      "id": "w5-school-places-004",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "hall",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "an auditorium",
+        "a hall",
+        "the principal’s office"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Walk in the hall."
+    },
+    {
+      "id": "w5-school-places-005",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "the principal’s office",
+        "a cafeteria",
+        "an auditorium"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "The talent show is in the auditorium."
+    },
+    {
+      "id": "w5-school-places-006",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "principal-office",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "the principal’s office",
+        "a cafeteria",
+        "a classroom"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Ana visits the principal’s office."
+    },
+    {
+      "id": "w5-school-places-007",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "cafeteria",
+      "target": "vocabulary",
+      "prompt": "Look. Where are they?",
+      "options": [
+        "a classroom",
+        "a cafeteria",
+        "a library"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "We eat lunch in the cafeteria."
+    },
+    {
+      "id": "w5-school-places-008",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "check-out",
+      "target": "vocabulary",
+      "prompt": "Who helps at school in this picture?",
+      "options": [
+        "a janitor",
+        "a cafeteria worker",
+        "a librarian"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "The librarian helps us find books."
+    },
+    {
+      "id": "w5-school-places-009",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "janitor",
+      "target": "vocabulary",
+      "prompt": "Who helps at school in this picture?",
+      "options": [
+        "a janitor",
+        "a cafeteria worker",
+        "a principal"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "The janitor keeps the school clean."
+    },
+    {
+      "id": "w5-school-places-010",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "cafeteria",
+      "target": "vocabulary",
+      "prompt": "Who helps at school in this picture?",
+      "options": [
+        "a principal",
+        "a cafeteria worker",
+        "a teacher"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "A cafeteria worker serves lunch."
+    },
+    {
+      "id": "w5-school-places-011",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "principal-office",
+      "target": "vocabulary",
+      "prompt": "Who helps at school in this picture?",
+      "options": [
+        "a teacher",
+        "a librarian",
+        "a principal"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "The principal leads the school."
+    },
+    {
+      "id": "w5-school-places-012",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "school-day",
+      "target": "vocabulary",
+      "prompt": "Who helps at school in this picture?",
+      "options": [
+        "a teacher",
+        "a librarian",
+        "a janitor"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Ms. Rosa teaches our class."
+    },
+    {
+      "id": "w5-clothes-001",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-jeans",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "socks",
+        "jeans",
+        "sneakers"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Sam wears blue jeans on the weekend."
+    },
+    {
+      "id": "w5-clothes-002",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-socks",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "sneakers",
+        "a shirt",
+        "socks"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Ana wears white socks with her school shoes."
+    },
+    {
+      "id": "w5-clothes-003",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-sneakers",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "sneakers",
+        "a shirt",
+        "a tie"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "We wear sneakers in the gym."
+    },
+    {
+      "id": "w5-clothes-004",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-shirt",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a tie",
+        "a shirt",
+        "pants"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Leo wears a white shirt for the school photo."
+    },
+    {
+      "id": "w5-clothes-005",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-tie",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "pants",
+        "a skirt",
+        "a tie"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Leo wears a blue tie with his shirt."
+    },
+    {
+      "id": "w5-clothes-006",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-pants",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "pants",
+        "shoes",
+        "a jacket"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "These navy pants are part of the uniform."
+    },
+    {
+      "id": "w5-clothes-007",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-skirt",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "shoes",
+        "a skirt",
+        "a jacket"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Ana wears a skirt in the school photo."
+    },
+    {
+      "id": "w5-clothes-008",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-shoes",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a T-shirt",
+        "shorts",
+        "shoes"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Her school shoes are black."
+    },
+    {
+      "id": "w5-clothes-009",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-jacket",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a jacket",
+        "a T-shirt",
+        "shorts"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "Mia puts on her jacket before she goes outside."
+    },
+    {
+      "id": "w5-clothes-010",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-t-shirt",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a uniform",
+        "a T-shirt",
+        "jeans"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "Leo wears a red T-shirt at home."
+    },
+    {
+      "id": "w5-clothes-011",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-shorts",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a uniform",
+        "jeans",
+        "shorts"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "We can wear shorts when it is hot."
+    },
+    {
+      "id": "w5-clothes-012",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-uniform",
+      "target": "vocabulary",
+      "prompt": "Look. What is this?",
+      "options": [
+        "a uniform",
+        "jeans",
+        "socks"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "At this school, children wear a uniform."
+    },
+    {
+      "id": "w5-school-life-001",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "boat-school",
+      "target": "vocabulary",
+      "prompt": "Look. What can you see?",
+      "options": [
+        "a forest",
+        "a boat",
+        "a roof"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "The boat is a classroom on the water."
+    },
+    {
+      "id": "w5-school-life-002",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "forest-school",
+      "target": "vocabulary",
+      "prompt": "Look. What can you see?",
+      "options": [
+        "a roof",
+        "mud",
+        "a forest"
+      ],
+      "answer": "c",
+      "hint": "Look at the main object or action.",
+      "explain": "Some pupils learn in a forest."
+    },
+    {
+      "id": "w5-school-life-003",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "tree-school",
+      "target": "vocabulary",
+      "prompt": "Look. What can you see?",
+      "options": [
+        "a roof",
+        "mud",
+        "a boat"
+      ],
+      "answer": "a",
+      "hint": "Look at the main object or action.",
+      "explain": "The tree grows through the roof."
+    },
+    {
+      "id": "w5-school-life-004",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "mud",
+      "target": "vocabulary",
+      "prompt": "Look. What can you see?",
+      "options": [
+        "a boat",
+        "mud",
+        "a forest"
+      ],
+      "answer": "b",
+      "hint": "Look at the main object or action.",
+      "explain": "After it rains, there is mud on the ground."
+    },
+    {
+      "id": "w5-school-actions-013",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "check-out",
+      "target": "vocabulary",
+      "prompt": "Mia takes a book home and will bring it back next week. She can ___ a book.",
+      "options": [
+        "throw away",
+        "clean up",
+        "check out"
+      ],
+      "answer": "c",
+      "hint": "Borrowing from a library.",
+      "explain": "check out"
+    },
+    {
+      "id": "w5-school-actions-014",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "vocabulary",
+      "prompt": "Before you get on the bus, stand one behind another. What do you do?",
+      "options": [
+        "Wait in line.",
+        "Sit down.",
+        "Take a quiz."
+      ],
+      "answer": "a",
+      "hint": "One behind another.",
+      "explain": "Wait in line."
+    },
+    {
+      "id": "w5-school-actions-015",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "lend",
+      "target": "vocabulary",
+      "prompt": "Sam needs a pencil until the end of class. Mia can ___ him one.",
+      "options": [
+        "throw away",
+        "lend",
+        "check out"
+      ],
+      "answer": "b",
+      "hint": "Sam will give the pencil back.",
+      "explain": "lend"
+    },
+    {
+      "id": "w5-school-actions-016",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "raise-hand",
+      "target": "vocabulary",
+      "prompt": "You want to speak in class. What can you do first?",
+      "options": [
+        "Throw away your book.",
+        "Share your lunch.",
+        "Raise your hand."
+      ],
+      "answer": "c",
+      "hint": "Show your teacher that you want to speak.",
+      "explain": "Raise your hand."
+    },
+    {
+      "id": "w5-school-actions-017",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "stand-up",
+      "target": "vocabulary",
+      "prompt": "Get up from your chair.",
+      "options": [
+        "Stand up.",
+        "Sit down.",
+        "Clean up."
+      ],
+      "answer": "a",
+      "hint": "Look at Sam beside the empty chair.",
+      "explain": "Stand up."
+    },
+    {
+      "id": "w5-school-actions-018",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "quiz",
+      "target": "vocabulary",
+      "prompt": "Ana answers questions on her own as a short test. What does she do?",
+      "options": [
+        "Wait in line.",
+        "Take a quiz.",
+        "Check out a book."
+      ],
+      "answer": "b",
+      "hint": "A quiz is a short test.",
+      "explain": "Take a quiz."
+    },
+    {
+      "id": "w5-school-actions-019",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "clean-up",
+      "target": "vocabulary",
+      "prompt": "There is water on the desk. Ana can ___ the spill.",
+      "options": [
+        "sit down",
+        "raise her hand",
+        "clean up"
+      ],
+      "answer": "c",
+      "hint": "Look for the cloth.",
+      "explain": "clean up"
+    },
+    {
+      "id": "w5-school-actions-020",
+      "v": 1,
+      "level": 1,
+      "bank": "school-actions",
+      "type": "mcq",
+      "image": "share",
+      "target": "vocabulary",
+      "prompt": "Mia and Leo use the same book. What do they do?",
+      "options": [
+        "Share it.",
+        "Throw it away.",
+        "Take a quiz."
+      ],
+      "answer": "a",
+      "hint": "Both friends use one thing.",
+      "explain": "Share it."
+    },
+    {
+      "id": "w5-school-places-013",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "gym",
+      "target": "vocabulary",
+      "prompt": "Where can we play indoor basketball?",
+      "options": [
+        "In the library.",
+        "In the gym.",
+        "In the hall."
+      ],
+      "answer": "b",
+      "hint": "Look at the basketball hoop.",
+      "explain": "In the gym."
+    },
+    {
+      "id": "w5-school-places-014",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "cafeteria",
+      "target": "vocabulary",
+      "prompt": "Where can Leo get a plate of lunch?",
+      "options": [
+        "In the gym.",
+        "In the principal’s office.",
+        "In the cafeteria."
+      ],
+      "answer": "c",
+      "hint": "Find the place where people serve meals.",
+      "explain": "In the cafeteria."
+    },
+    {
+      "id": "w5-school-places-015",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "check-out",
+      "target": "vocabulary",
+      "prompt": "Who can help Mia borrow a book?",
+      "options": [
+        "The librarian.",
+        "The janitor.",
+        "The cafeteria worker."
+      ],
+      "answer": "a",
+      "hint": "This person works with books.",
+      "explain": "The librarian."
+    },
+    {
+      "id": "w5-school-places-016",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "janitor",
+      "target": "vocabulary",
+      "prompt": "Who can mop the wet gym floor?",
+      "options": [
+        "The librarian.",
+        "The janitor.",
+        "The cafeteria worker."
+      ],
+      "answer": "b",
+      "hint": "Look for the person who cleans the school.",
+      "explain": "The janitor."
+    },
+    {
+      "id": "w5-school-places-017",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "vocabulary",
+      "prompt": "Where is there a stage and rows of seats?",
+      "options": [
+        "The classroom.",
+        "The cafeteria.",
+        "The auditorium."
+      ],
+      "answer": "c",
+      "hint": "This room is for a performance.",
+      "explain": "The auditorium."
+    },
+    {
+      "id": "w5-school-places-018",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "principal-office",
+      "target": "vocabulary",
+      "prompt": "Where does the person who leads the school work?",
+      "options": [
+        "The principal’s office.",
+        "The playground.",
+        "The gym."
+      ],
+      "answer": "a",
+      "hint": "Think of a school office.",
+      "explain": "The principal’s office."
+    },
+    {
+      "id": "w5-school-places-019",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "school-day",
+      "target": "vocabulary",
+      "prompt": "Who helps pupils learn in the classroom?",
+      "options": [
+        "The cafeteria worker.",
+        "The teacher.",
+        "The bus driver."
+      ],
+      "answer": "b",
+      "hint": "The person who gives the lesson.",
+      "explain": "The teacher."
+    },
+    {
+      "id": "w5-school-places-020",
+      "v": 1,
+      "level": 1,
+      "bank": "school-places",
+      "type": "mcq",
+      "image": "hall",
+      "target": "vocabulary",
+      "prompt": "We walk through it to get to another classroom.",
+      "options": [
+        "The cafeteria.",
+        "The playground.",
+        "The hall."
+      ],
+      "answer": "c",
+      "hint": "Look at the passage with lockers.",
+      "explain": "The hall."
+    },
+    {
+      "id": "w5-clothes-013",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "uniform",
+      "target": "vocabulary",
+      "prompt": "What is the blue piece of fabric around Leo’s collar?",
+      "options": [
+        "A tie.",
+        "A sock.",
+        "A skirt."
+      ],
+      "answer": "a",
+      "hint": "Look under the collar.",
+      "explain": "A tie."
+    },
+    {
+      "id": "w5-clothes-014",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-shirt",
+      "target": "vocabulary",
+      "prompt": "Which top has buttons and a collar?",
+      "options": [
+        "A T-shirt.",
+        "A shirt.",
+        "Shorts."
+      ],
+      "answer": "b",
+      "hint": "Look for buttons and a collar.",
+      "explain": "A shirt."
+    },
+    {
+      "id": "w5-clothes-015",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "casual-clothes",
+      "target": "vocabulary",
+      "prompt": "Sam’s long pants are blue denim. What are they?",
+      "options": [
+        "Shorts.",
+        "A jacket.",
+        "Jeans."
+      ],
+      "answer": "c",
+      "hint": "Denim is the fabric.",
+      "explain": "Jeans."
+    },
+    {
+      "id": "w5-clothes-016",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-socks",
+      "target": "vocabulary",
+      "prompt": "What do you put on before your sneakers?",
+      "options": [
+        "Socks.",
+        "Pants.",
+        "A jacket."
+      ],
+      "answer": "a",
+      "hint": "They go inside your sneakers.",
+      "explain": "Socks."
+    },
+    {
+      "id": "w5-clothes-017",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-sneakers",
+      "target": "vocabulary",
+      "prompt": "Which shoes are made for running and sports?",
+      "options": [
+        "School shoes.",
+        "Sneakers.",
+        "Socks."
+      ],
+      "answer": "b",
+      "hint": "Look at the bright rubber soles.",
+      "explain": "Sneakers."
+    },
+    {
+      "id": "w5-clothes-018",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-shorts",
+      "target": "vocabulary",
+      "prompt": "What is like pants but has much shorter legs?",
+      "options": [
+        "A jacket.",
+        "A tie.",
+        "Shorts."
+      ],
+      "answer": "c",
+      "hint": "Look at the short legs.",
+      "explain": "Shorts."
+    },
+    {
+      "id": "w5-clothes-019",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-uniform",
+      "target": "vocabulary",
+      "prompt": "What do we call the whole matching school outfit?",
+      "options": [
+        "A uniform.",
+        "A T-shirt.",
+        "A tie."
+      ],
+      "answer": "a",
+      "hint": "Think about all the clothes together.",
+      "explain": "A uniform."
+    },
+    {
+      "id": "w5-clothes-020",
+      "v": 1,
+      "level": 1,
+      "bank": "clothes",
+      "type": "mcq",
+      "image": "clothes-jacket",
+      "target": "vocabulary",
+      "prompt": "What can you zip up over your shirt when it is cool?",
+      "options": [
+        "A skirt.",
+        "A jacket.",
+        "A T-shirt."
+      ],
+      "answer": "b",
+      "hint": "This has a zip.",
+      "explain": "A jacket."
+    },
+    {
+      "id": "w5-school-life-005",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "help-books",
+      "target": "vocabulary",
+      "prompt": "Which line offers help?",
+      "options": [
+        "Can you help me carry these books?",
+        "Where can I put my books?",
+        "Let me help you carry those books."
+      ],
+      "answer": "c",
+      "hint": "Think about who will do the helping.",
+      "explain": "Let me help you carry those books."
+    },
+    {
+      "id": "w5-school-life-006",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "lend",
+      "target": "vocabulary",
+      "prompt": "Which line asks a classmate to do something for you?",
+      "options": [
+        "Can you lend me a pen?",
+        "Can I go outside?",
+        "I can use a pen."
+      ],
+      "answer": "a",
+      "hint": "Can you …? makes a request.",
+      "explain": "Can you lend me a pen?"
+    },
+    {
+      "id": "w5-school-life-007",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "share",
+      "target": "vocabulary",
+      "prompt": "You want the help someone offers. What do you say?",
+      "options": [
+        "No, thanks.",
+        "Yes, please.",
+        "I’m fine, thank you."
+      ],
+      "answer": "b",
+      "hint": "Accept politely.",
+      "explain": "Yes, please."
+    },
+    {
+      "id": "w5-school-life-008",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "clean-up",
+      "target": "vocabulary",
+      "prompt": "You don’t need the help someone offers. What do you say?",
+      "options": [
+        "Yes, please.",
+        "Of course you can.",
+        "No, thank you."
+      ],
+      "answer": "c",
+      "hint": "Decline help politely.",
+      "explain": "No, thank you."
+    },
+    {
+      "id": "w5-school-life-009",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "uniform",
+      "target": "vocabulary",
+      "prompt": "At Sam’s school a tie is optional. What does optional mean?",
+      "options": [
+        "He can choose.",
+        "He must wear it.",
+        "He is never allowed to wear it."
+      ],
+      "answer": "a",
+      "hint": "He doesn’t have to wear it.",
+      "explain": "He can choose."
+    },
+    {
+      "id": "w5-school-life-010",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "form",
+      "target": "vocabulary",
+      "prompt": "What does the teacher ask your family to sign before the trip?",
+      "options": [
+        "A library book.",
+        "A permission form.",
+        "The class timetable."
+      ],
+      "answer": "b",
+      "hint": "It shows that you have permission to go.",
+      "explain": "A permission form."
+    },
+    {
+      "id": "w5-school-life-011",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "field-trip",
+      "target": "vocabulary",
+      "prompt": "The teacher says “Stay with me at the zoo.” What do pupils have to do?",
+      "options": [
+        "Walk away alone.",
+        "Wait at the classroom door all day.",
+        "Stay with the group."
+      ],
+      "answer": "c",
+      "hint": "Read what the teacher says.",
+      "explain": "Stay with the group."
+    },
+    {
+      "id": "w5-school-life-012",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "encourage",
+      "target": "vocabulary",
+      "prompt": "Ana is learning a new dance step. How can you encourage her?",
+      "options": [
+        "Keep trying!",
+        "Please stop.",
+        "Take a quiz."
+      ],
+      "answer": "a",
+      "hint": "Say something that helps her keep practising.",
+      "explain": "Keep trying!"
+    },
+    {
+      "id": "w5-school-life-013",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "auditorium",
+      "target": "vocabulary",
+      "prompt": "Mia spoke clearly in her show. What is positive feedback?",
+      "options": [
+        "You can’t wear that here.",
+        "Great job! I heard all your words.",
+        "Where is the library?"
+      ],
+      "answer": "b",
+      "hint": "Say what she did well.",
+      "explain": "Great job! I heard all your words."
+    },
+    {
+      "id": "w5-school-life-014",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "plan",
+      "target": "vocabulary",
+      "prompt": "Which goal tells you what to do and by when?",
+      "options": [
+        "Read better.",
+        "Read soon.",
+        "Read one page by Friday."
+      ],
+      "answer": "c",
+      "hint": "Choose a clear action and a date.",
+      "explain": "Read one page by Friday."
+    },
+    {
+      "id": "w5-school-life-015",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "plan",
+      "target": "vocabulary",
+      "prompt": "Which action helps you reach a reading goal?",
+      "options": [
+        "Read with a partner for five minutes each day.",
+        "Think about the book later.",
+        "Put the book away all week."
+      ],
+      "answer": "a",
+      "hint": "Choose a small action you can actually do.",
+      "explain": "Read with a partner for five minutes each day."
+    },
+    {
+      "id": "w5-school-life-016",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "boat-school",
+      "target": "vocabulary",
+      "prompt": "How can you compare the boat school to your school?",
+      "options": [
+        "Read only the title.",
+        "Say one thing that is the same and one thing that is different.",
+        "Count the words in the text."
+      ],
+      "answer": "b",
+      "hint": "Connect something you read to your own school.",
+      "explain": "Say one thing that is the same and one thing that is different."
+    },
+    {
+      "id": "w5-school-life-017",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "forest-school",
+      "target": "vocabulary",
+      "prompt": "The children listen to their teacher outside instead of indoors. What is different?",
+      "options": [
+        "The color of the pencils.",
+        "The number of books.",
+        "The place of the lesson."
+      ],
+      "answer": "c",
+      "hint": "Outside and indoors are places.",
+      "explain": "The place of the lesson."
+    },
+    {
+      "id": "w5-school-life-018",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "tree-school",
+      "target": "vocabulary",
+      "prompt": "A tree grows through the top of the classroom. What do we call that part?",
+      "options": [
+        "The roof.",
+        "The floor.",
+        "The door."
+      ],
+      "answer": "a",
+      "hint": "It covers the top of the building.",
+      "explain": "The roof."
+    },
+    {
+      "id": "w5-school-life-019",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "mud",
+      "target": "vocabulary",
+      "prompt": "It rains and the soil gets wet and sticky. What is it called?",
+      "options": [
+        "Sand.",
+        "Mud.",
+        "A roof."
+      ],
+      "answer": "b",
+      "hint": "Look at the wet ground.",
+      "explain": "Mud."
+    },
+    {
+      "id": "w5-school-life-020",
+      "v": 1,
+      "level": 1,
+      "bank": "school-life",
+      "type": "mcq",
+      "image": "wait-line",
+      "target": "vocabulary",
+      "prompt": "Which sentence gives two bus rules linked with and?",
+      "options": [
+        "Wait in line or stay seated.",
+        "Wait in line but stay seated.",
+        "Wait in line and stay seated."
+      ],
+      "answer": "c",
+      "hint": "And links two things to do.",
+      "explain": "Wait in line and stay seated."
+    }
+  ]
+}

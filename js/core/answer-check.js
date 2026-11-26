@@ -30,6 +30,7 @@ export function canonical(text) {
     .replace(/\bare not\b/g, "aren't")
     // Advice: should not = shouldn't.
     .replace(/\bshould not\b/g, "shouldn't")
+    .replace(/\b(can not|cannot)\b/g, "can't")
     .replace(/\bi'm\b/g, 'i am')
     .replace(/\b(he|she|it|what|who|where)'s\b/g, '$1 is')
     .replace(/\b(we|you|they)'re\b/g, '$1 are');
@@ -40,7 +41,8 @@ const MISSING_APOSTROPHE = [
   { re: /\bdoesnt\b/, fix: "doesn't" },
   { re: /\bisnt\b/, fix: "isn't" },
   { re: /\barent\b/, fix: "aren't" },
-  { re: /\bshouldnt\b/, fix: "shouldn't" }
+  { re: /\bshouldnt\b/, fix: "shouldn't" },
+  { re: /\bcant\b/, fix: "can't" }
 ];
 
 /**
